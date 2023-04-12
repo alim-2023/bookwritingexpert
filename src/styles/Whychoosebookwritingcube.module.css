@@ -1,0 +1,74 @@
+.whychoosebookwritingcube{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.whychoosebookwritingcube .middle{
+    align-items: center;
+}
+.marketyourbook .middle{
+    align-items: center;
+}
+.marketyourbook{
+    padding-top: 70px;
+}
+.asnumber:hover{
+    background-color: #000;
+}
+.asdiscuss:hover{
+ 
+    background-color: #16467d;
+    color: #fff;
+}
+.asnumber{
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 0;
+    background-color: #16467d;
+    color: #fff;
+    text-decoration: unset;
+    margin-left: 10px;
+    border: 1px solid #16467d;
+    font-family: 'Inter';
+}
+.asnumber:hover{
+    color:white;
+}
+.asdiscuss{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 30px;
+    border: 2px solid #16467d;
+    color: #000;
+    text-decoration: unset;
+    font-family: 'Inter';
+}
+.imgshowdow{
+    box-shadow: 0 0 21px 3px #ddd;
+}
+@media (max-width:991px)  {
+
+   
+    .asnumber {
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 1%;
+    }
+    .asdiscuss {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:767px)  {
+
+   
+    .cube{
+        margin-top: 5%;
+    }
+    .marketyourbook {
+        padding-top: 50px;
+    }
+
+}

@@ -1,0 +1,26 @@
+.choosebook{
+    padding-top: 60px;
+    font-family: 'inter';
+}
+
+.whytext{
+
+    max-width: 1053px;
+    margin: 0 auto;
+}
+.whychooseimge{
+    text-align: center;
+}
+
+
+@media (max-width:480px)  { 
+
+    .choosebook{
+        padding-top: 30px;
+       padding-bottom: 50px;
+    }
+    .choosebook p {
+        padding-bottom: 30px;
+    }
+
+}

@@ -1,0 +1,53 @@
+.aspiring{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f1f1f1;
+    font-family: 'inter';
+}
+
+.asnumber{
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 0;
+    background-color: #16467d;
+    color: #fff;
+    text-decoration: unset;
+    margin-left: 10px;
+    border: 1px solid #16467d;
+    font-family: 'Inter';
+}
+.asnumber:hover{
+    color:white;
+}
+.asdiscuss{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 30px;
+    border: 2px solid #16467d;
+    color: #000;
+    text-decoration: unset;
+    font-family: 'Inter';
+}
+.middle{
+    align-items: center;
+}
+
+
+@media (max-width:480px)  {
+
+    .asdiscuss {
+        
+        display: block;
+        text-align: center;
+    }
+
+    .asnumber {
+       
+        margin-left: 0px;
+        display: block;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+
+}
