@@ -19,6 +19,7 @@
     transition: color 1s;
     color: #fff;
     font-family: 'Poppins';
+    border-radius: 50px;
 
 }
 .btnget2{
@@ -34,6 +35,7 @@
     color: #000;
     font-family: 'Poppins';
     margin-left: 3%;
+    border-radius: 50px;
 }
 .btnget2:hover {
     animation: stripes-move 1s infinite linear;
@@ -52,6 +54,11 @@
     position: relative;
     right: 54px;
     top: 107px;
+}
+
+.forent{
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:1920px)  {

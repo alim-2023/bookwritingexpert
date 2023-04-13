@@ -5,13 +5,14 @@ import { TiTick } from 'react-icons/ti'
 
 import newview from '../public/images/strugglingtogive/new-image-one.webp'
 import Image from 'next/image'
+import Signup from './Signup'
 
 const Strugglingtogive = (props) => {
   return (
     <div className={styles.strugglingtogive}>
 
     <Container>
-        <Row>
+        <Row className={styles.forent}> 
             <Col md={7}>
             <h2 className='colortextgrey font48 fw700 font-f mb-4'>{props.title}</h2>
             <p className='textcolor font-f mb-4 font14'>You may be a victim of the following nuisances</p>
@@ -41,7 +42,7 @@ const Strugglingtogive = (props) => {
 
             <Col md={5}>
 
-    <Image alt="Book Writing Experts" src={newview} className={` ${styles.topper} img-fluid`} />
+<Signup />
 
         
                 

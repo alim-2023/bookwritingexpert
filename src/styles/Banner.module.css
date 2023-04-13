@@ -278,6 +278,7 @@
     color: #fff;
     text-decoration: unset;
     font-family: 'Poppins';
+    border-radius: 50px;
 }
 .discuss:hover{
     color:#f1f1f1
@@ -289,7 +290,7 @@
 .homenumer{
     border: 0;
     padding: 12px 20px;
-    border-radius: 0;
+    border-radius: 50px;
     background-color: #FF9900;
     color: #fff;
     text-decoration: unset;
