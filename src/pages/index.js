@@ -103,13 +103,6 @@ export default function Home() {
 {/* partners components */}
 <Partners/>
 
-{/* Got a Story */}
-<Gotastory
-title="You’ve got a story to tell."
-text="Let us help you tell it."
-/>
-
-
 <Strugglingtogive
 
 title="Are You Struggling to give Words to your Ideas?"
@@ -127,15 +120,24 @@ btn2="Talk to an expert"
 btn3="(213) 289 3888"
 />
 
+{/* Got a Story */}
+<Gotastory
+title="You’ve got a story to tell."
+text="Let us help you tell it."
+/>
+
+
+
+<Onestepsolutions />
 
 
 <Strugglingwriters />
 
 
-<Professionalghostwriter />
 
 
-<Onestepsolutions />
+
+
 
 {/*  Comprehensive */}
 <Comprehensive />
@@ -153,6 +155,8 @@ btn3="(213) 289 3888"
 
 
 
+
+
 {/* Talk To Our Experts! */}
 <Experts
 title="Talk To Our Experts!"
@@ -161,6 +165,7 @@ number="+1-302-883-8877"
 discuss="LET'S DISCUSS"
 />
 
+<Professionalghostwriter />
 
 {/* Talk To Our Whatourclients! */}
 <Whatourclients/>
