@@ -1,12 +1,13 @@
 .banner{
   background-image: url(/images/bannerimages/homebanner.png);
-
   background-repeat: no-repeat;
-  padding-top: 205px;
-  padding-bottom: 130px;
+  background-size: cover;
   background-position: center;
-  font-family: 'inter';
-
+  font-family: 'Poppins';
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
 }
 .aboutbanner{
   background-image: url(/images/bannerimages/aboutbanner.png);
@@ -15,7 +16,7 @@
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: center;
-  font-family: 'inter';
+  font-family: 'Poppins';
 
 }
 
@@ -26,7 +27,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
     text-align: center;
 }
 .bookpublishingservices{
@@ -36,7 +37,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 
 .bookwritingservices{
@@ -46,7 +47,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 
 .bookpromotionservices{
@@ -56,7 +57,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .bookeditingservices{
     background-image: url(/images/bannerimages/bookeditingservices.png);
@@ -65,7 +66,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .bookmarketingservices{
     background-image: url(/images/bannerimages/bookmarketingservices.jpg);
@@ -74,7 +75,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .offeringyoubook{
     background-image: url(/images/bannerimages/offeringyoubook.png);
@@ -83,7 +84,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .blogwritingservices{
     background-image: url(/images/bannerimages/blogwritingservices.png);
@@ -92,7 +93,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .bookcoverdesignservices{
     background-image: url(/images/bannerimages/bookcoverdesignservices.png);
@@ -101,7 +102,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .buildexcitement{
     background-image: url(/images/bannerimages/buildexcitement.png);
@@ -110,7 +111,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .topratedbusiness{
     background-image: url(/images/bannerimages/topratedbusiness.png);
@@ -119,7 +120,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .childrenbookpublication{
     background-image: url(/images/bannerimages/childrenbookpublication.png);
@@ -128,7 +129,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .authormarketingpromotionservices{
     background-image: url(/images/bannerimages/authormarketingpromotionservices.png);
@@ -137,7 +138,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: right;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .childrenbookIllustrations{
     background-image: url(/images/bannerimages/childrenbookIllustrations.png);
@@ -146,7 +147,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: right;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .digitalmarketingservices{
     background-image: url(/images/bannerimages/digitalmarketingservices.png);
@@ -155,7 +156,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: right;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .bookformattingservices{
     background-image: url(/images/bannerimages/bookformattingservices.png);
@@ -164,7 +165,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .audiobookrecordingservices{
     background-image: url(/images/bannerimages/audiobookrecordingservices.png);
@@ -173,7 +174,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .webcontentwritingservices{
     background-image: url(/images/bannerimages/webcontentwritingservices.png);
@@ -182,7 +183,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .empoweringauthorswith{
     background-image: url(/images/bannerimages/empoweringauthorswith.png);
@@ -191,7 +192,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .condition{
     background-image: url(/images/bannerimages/bookeditingservices.png);
@@ -200,7 +201,7 @@
     padding-top: 130px;
     padding-bottom: 30px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 
 .press{
@@ -213,7 +214,7 @@
     padding-top: 140px;
     padding-bottom: 50px;
     background-color: #f1f1f1;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 
 
@@ -247,7 +248,7 @@
     text-transform: capitalize;
     margin-top: 0;
     color: #FF9900;
-    font-family: 'inter';
+    font-family: 'Poppins';
   }
 .blogbanclass{
     width: 100%;
@@ -264,7 +265,7 @@
     padding-top: 140px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 
 .discuss{
@@ -275,7 +276,7 @@
     border: 2px solid #FF9900;
     color: #fff;
     text-decoration: unset;
-    font-family: 'Inter';
+    font-family: 'Poppins';
 }
 .homenumer:hover{
     color:white;
@@ -289,7 +290,7 @@
     text-decoration: unset;
     margin-left: 10px;
     border: 1px solid #FF9900;
-    font-family: 'Inter';
+    font-family: 'Poppins';
 }
 
 .homebannerlogo{
@@ -316,7 +317,7 @@
         font-size: 22px;
         border-radius: 3px;
         font-weight: 700;
-        font-family: 'Inter';
+        font-family: 'Poppins';
         cursor: pointer;
         z-index: 9;
 
@@ -329,7 +330,7 @@
     background-color: #FF9900;
     color: #fff;
     text-decoration: none;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .thankyoubtn:hover{
     background-color: #000;

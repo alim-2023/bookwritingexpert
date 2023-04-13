@@ -29,10 +29,10 @@ export default function Home() {
 
  
 
-
+  const newSpan = <h1 className='font40 fw700 color-blue font-f hero-span'> <span>Your ONE-STOP</span> Ghostwriting, Editing And Publishing Service <span>Provider!</span> </h1>;
   const bannertext=[
     {
-      title: 'Your ONE-STOP Ghostwriting, Editing And Publishing Service Provider!',
+      title: newSpan,
       pra: 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one. If you are good at giving creative ideas but fail to give them words, you have come to the right platform. Book Writing Experts provide end-to-end writing and publishing services to its customers and ensure their customers are happy with the final manuscript. Trust us with your book and wait for the masterpiece we create!',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',

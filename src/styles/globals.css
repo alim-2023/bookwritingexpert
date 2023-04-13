@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap');
 
-body{ font-family: 'Inter'; }
+body{ font-family: 'Poppins'; }
 
 
 /* colors */
@@ -15,6 +15,11 @@ body{ font-family: 'Inter'; }
     color: #24303E;
   }
 
+  .hero-span span{
+    color: #fff;
+    font-weight: 300;
+  }
+
 
 .textdocationnone{
   text-decoration: none;
@@ -22,7 +27,7 @@ body{ font-family: 'Inter'; }
 
 /* fontsizes */
 .font48 {  font-size: 40px;  }
-.font40 {  font-size: 40px;  }
+.font40 {  font-size: 36px;  }
 .font18 {  font-size: 18px;  }
 .font20 {  font-size: 20px;  }
 .font30 {  font-size: 30px;  }
@@ -42,7 +47,7 @@ body{ font-family: 'Inter'; }
 .fw600 {  font-weight: 600; }
 
 /* font-family */
-.font-f{ font-family: 'Inter'; }
+.font-f{ font-family: 'Poppins'; }
 
 /* alignment */
 .t-center{ text-align: center; }
@@ -88,13 +93,13 @@ body{ font-family: 'Inter'; }
   background-color: unset;
   font-size: 1.25rem;
   font-weight: 600;
-  font-family: 'Inter';
+  font-family: 'Poppins';
   color: black;
 }
 
 .textbody.accordion-body{
   font-size: 1rem;
-  font-family: 'Inter';
+  font-family: 'Poppins';
   color: black;
 }
 
@@ -206,7 +211,7 @@ body{ font-family: 'Inter'; }
 
 
 .lineediting td{
-  font-family: 'Inter';
+  font-family: 'Poppins';
   text-align: center;
   border-right: 5px solid #fff;
 }

@@ -87,14 +87,14 @@ const Banner = (props) => {
                 <div className={styles.homebannertext}>
 
                   { props.title ?
-                  <h1 className='font48 fw900 color-blue font-f'> {props.title} </h1>
+                  props.title               
                   : 
                   ''
                   }
 
                   { props.text ?
 
-                  <p className='fw500 font18 color-white font-f mt-4 m-0'>{props.text}</p>
+                  <p className='fw500 font16 color-white font-f mt-4 m-0'>{props.text}</p>
                   : 
                   ''
                   }
