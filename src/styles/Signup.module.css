@@ -57,10 +57,11 @@
 }
 .getup{
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     font-family: 'Poppins'; 
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 .offfree{
     color: #fc9e31;

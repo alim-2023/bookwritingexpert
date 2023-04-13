@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 
 // images 
-import footerlogo from '../public/images/logo.webp'
+import footerlogo from '../public/images/logo.svg'
 import protectedlogo from '../public/images/footer/protected.png'
 import bbb from '../public/images/footer/bbb.png'
 import visa from '../public/images/footer/visa.png'

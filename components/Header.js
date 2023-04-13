@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'next/image'
-import logo from '../public/images/logo.webp';
+import logo from '../public/images/logo.svg';
 
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { IoMdArrowDropdown } from 'react-icons/io';

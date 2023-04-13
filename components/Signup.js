@@ -12,7 +12,7 @@ const Signup = () => {
 
                     <form>
                       
-                <Image className={` ${styles.signsimg} img-fluid`} src={signup} />
+                
                     <h4 className={styles.getup}>Signup to get up to <span className={styles.offfree}>50%</span> off</h4>
 
                         <input type="text" className={styles.nametext} required  name="first" placeholder="Full Name..." />

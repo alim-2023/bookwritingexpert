@@ -52,9 +52,6 @@ background-color: #24303E;
 
 .styleset:hover{     color: #ddd; }
 
-.footerlogosize{
-    filter: brightness(0) invert(1);
-}
 
 
 @media (max-width:991px)  {

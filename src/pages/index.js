@@ -33,7 +33,7 @@ export default function Home() {
 
  
 
-  const newSpan = <h1 className='font40 fw700 color-blue font-f hero-span'> <span>Your ONE-STOP</span> Ghostwriting, Editing And Publishing Service <span>Provider!</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Your ONE-STOP</span> Ghostwriting, Editing And Publishing Service <span className='d-block'>Provider!</span> </h1>;
   const bannertext=[
     {
       title: newSpan,
@@ -60,7 +60,7 @@ export default function Home() {
       <meta name="DC.title" content="Book Writing Company" />
       <meta name="geo.region" content="" />
       <meta name="geo.position" content="39.78373;-100.445882" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.svg" />
 
         <meta name="ICBM" content="39.78373, -100.445882" />
     <meta name="DC.title" content="ghost writing company" />
