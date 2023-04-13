@@ -274,8 +274,8 @@ const Footer = () => {
 
     <Row className='pt-3'>
         <Col md={12}>
-            <p className='font14 text-center'>© 2023 - All Rights Reserved Bhaoo INC</p>
-            <p className='font14 text-center'> <Link className={styles.styleset} href="/terms-of-use">Terms of Use</Link> | <Link className={styles.styleset} href="/privacy-policy">Privacy Policy</Link></p>
+            <p className='font14 text-center font-f'>© 2023 - All Rights Reserved Bhaoo INC</p>
+            <p className='font14 text-center font-f'> <Link className={styles.styleset} href="/terms-of-use">Terms of Use</Link> | <Link className={styles.styleset} href="/privacy-policy">Privacy Policy</Link></p>
         </Col>
     </Row>
 </Container>

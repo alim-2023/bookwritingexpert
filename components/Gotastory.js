@@ -15,7 +15,7 @@ const Gotastory = (props) => {
         <Container>
           <Row>
             <Col md={12}>
-              <h2 className='fw900 font48 colorexpertgrey font-f t-center'>{props.title}</h2>
+              <h2 className='fw700 font48 colorexpertgrey font-f t-center'>{props.title}</h2>
               <h4 className='font18 fw500 font-f t-center'>{props.text}</h4>
 
               <video controls className={`${styles.bgVideo}`} width={890} autoPlay muted loop src="/images/bwc-video.m4v" type="video/mp4"></video>

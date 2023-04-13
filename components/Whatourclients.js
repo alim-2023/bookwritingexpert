@@ -71,7 +71,7 @@ const Whatourclients = () => {
    <>
     <div className={styles.ourclients}>
       <Container className='testtimonials'>
-       <h2 className='fw900 font48 colorexpertgrey font-f t-center'>What Our Clients Says About Us</h2>
+       <h2 className='fw700 font48 colorexpertgrey font-f t-center'>What Our Clients Says About Us</h2>
 
 
 

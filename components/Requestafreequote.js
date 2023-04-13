@@ -65,7 +65,7 @@ const Requestafreequote = () => {
 
        <Container>
 
-        <h2 className="fw900 font48 colorexpertgrey font-f t-center">Request A Free Quote</h2>
+        <h2 className="fw700 font48 colorexpertgrey font-f t-center">Request A Free Quote</h2>
 
         <form className={styles.formalign} onSubmit={handleSubmit}>
                 <Row>
@@ -77,7 +77,7 @@ const Requestafreequote = () => {
         </form>
 
         <Row className={styles.leftemail}>
-        <Col md={4}>    <h3 className="fw900 font48 colorexpertgrey font-f t-left">Email Us</h3></Col>
+        <Col md={4}>    <h3 className="fw700 font48 colorexpertgrey font-f t-left">Email Us</h3></Col>
         <Col md={4}> 
 
             <div>

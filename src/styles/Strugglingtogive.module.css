@@ -1,0 +1,122 @@
+.strugglingtogive {
+    background-color: #f7f4f8;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.slow{
+    display: flex;
+    gap: 50px;
+}
+.btnget1 {
+    background-image: linear-gradient(30deg,#e84e1b 0%,#f6a409 100%);
+    font: inherit;
+    letter-spacing: inherit;
+    padding: 1em 1em;
+    border: none;
+    border: 2px solid #ee9d2d;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: color 1s;
+    color: #fff;
+    font-family: 'Poppins';
+
+}
+.btnget2{
+    background-color: rgba(255,255,255,0);
+    font: inherit;
+    letter-spacing: inherit;
+    padding: 1em 1.5em;
+    border: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: color 1s;
+    color: #000;
+    font-family: 'Poppins';
+    margin-left: 3%;
+}
+.btnget2:hover {
+    animation: stripes-move 1s infinite linear;
+    background-image: repeating-linear-gradient(30deg,#e84e1b 0%,#f6a409 100%);
+    border: 2px solid #ee9d2d;
+    color: #fff;
+}
+.rightcolor{
+    color: #e84e1b;
+}
+.slow ul li{
+    list-style: none;
+}
+
+.topper{
+    position: relative;
+    right: 54px;
+    top: 107px;
+}
+
+@media (max-width:1920px)  {
+    .topper{
+        position: relative;
+        right: 0px;
+        top: 70px;
+    }
+    
+}
+
+@media (max-width:1920px)  {
+    .topper{
+        position: relative;
+        right: 0px;
+        top: 107px;
+    }
+    
+}
+
+@media (max-width:1200px)  {
+    .slow{
+        display: unset;
+        gap: 0px;
+    }
+    .slow ul{
+        padding-left: 0;
+    }
+
+    .btnget2{
+        margin-left: unset;
+        width: 100%;
+        margin-top: 1%;
+    }
+    .btnget1{
+   
+        width: 100%;
+        margin-top: 1%;
+    }
+
+}
+
+@media (max-width:767px)  { 
+
+    .topper{
+
+        right: 0;
+        top: 10px;
+    }
+
+}
+@media (max-width:480px)  { 
+
+    .topper{
+    margin-top: 15%;
+    }
+
+    .btnget2{
+     
+        margin-top: 3%;
+    }
+    .btnget1{
+   
+ 
+        margin-top: 3%;
+    }
+
+}

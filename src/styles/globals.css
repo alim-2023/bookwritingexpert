@@ -11,8 +11,11 @@ body{ font-family: 'Poppins'; }
   .color-lightgray{color: #505050;}
   .color-tw{ color:#212529; }
 
-  .colorexpertgrey { 
-    color: #24303E;
+  .colorexpertgrey { color: #24303E;}
+  .colortextgrey { color: #223235; }
+  .textcolor{ color:#777 }
+  .colorta{
+    color: #2d2a2a;
   }
 
   .hero-span span{
@@ -36,6 +39,8 @@ body{ font-family: 'Poppins'; }
 .font17 {  font-size: 24px;  }
 .font15 {  font-size: 15px;  }
 .font60 {  font-size: 60px;  }
+.font14 {  font-size: 14px;  }
+.font50 {  font-size: 50px;  }
 
 
 /* fontweignt */
@@ -57,6 +62,11 @@ body{ font-family: 'Poppins'; }
 .text-transform{
   text-transform: uppercase;
 }
+
+.maxwidth{
+  max-width: 320px;
+}
+
 
 /* width */
 ::-webkit-scrollbar {

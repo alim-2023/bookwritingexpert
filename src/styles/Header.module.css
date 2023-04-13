@@ -16,10 +16,10 @@
     padding: 11px 0 13px 22px;
     color: #fff;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: capitalize;
     text-decoration: none; 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins'; 
 }
 .navlinks{
     list-style: none;
@@ -32,7 +32,7 @@
     background-color: #FF9900;
     border: 0;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins'; 
 }
 
 .headerbtncolor { color: #fff; text-decoration: none; text-transform: uppercase;  }
@@ -199,6 +199,14 @@ color: black;
     }
 }
 @media (max-width:991px)  {
+
+    .menulinks{
+        color: black;
+        }
+
+    .logonew {
+        filter: unset;
+    }
 
     .headertel {
         width: 30%;

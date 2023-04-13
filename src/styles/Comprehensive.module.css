@@ -15,7 +15,7 @@
     background-color: #f1f1f1;
     padding-top: 70px;
     padding-bottom: 70px;
-    font-family: 'inter';
+    font-family: 'Poppins'; 
 }
 
 .flipcard {
@@ -66,7 +66,7 @@
     color:black;
     font-weight: 900;
     font-size: 20px;
-    font-family: 'inter';
+    font-family: 'Poppins'; 
   }
   .flipcardback p{
     color:black;

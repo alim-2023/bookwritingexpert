@@ -5,6 +5,9 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import whychoose from '/public/images/whychoosebooks/whychoosebook.webp'
 import Comprehensive from '../../components/Comprehensive'
 import Lululogos from '../../components/Lululogos'
+import Strugglingtogive from '../../components/Strugglingtogive'
+import Strugglingwriters from '../../components/Strugglingwriters'
+import Onestepsolutions from '../../components/Onestepsolutions'
 
 
 
@@ -17,6 +20,7 @@ import Gotastory from '../../components/Gotastory'
 import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
 import Requestafreequote from '../../components/Requestafreequote'
+import Professionalghostwriter from '../../components/Professionalghostwriter'
 import Link from 'next/link'
 
 
@@ -33,7 +37,7 @@ export default function Home() {
   const bannertext=[
     {
       title: newSpan,
-      pra: 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one. If you are good at giving creative ideas but fail to give them words, you have come to the right platform. Book Writing Experts provide end-to-end writing and publishing services to its customers and ensure their customers are happy with the final manuscript. Trust us with your book and wait for the masterpiece we create!',
+      pra: 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
@@ -104,6 +108,34 @@ export default function Home() {
 title="You’ve got a story to tell."
 text="Let us help you tell it."
 />
+
+
+<Strugglingtogive
+
+title="Are You Struggling to give Words to your Ideas?"
+text="You may be a victim of the following nuisances"
+list1= "Slow Productivity"
+list2= "Lack of Resources"
+list3="Mismanaged Time Schedules"
+list4="Financial Constraints"
+list5="Demotivation"
+list6="Delayed Creativity Process"
+list7="Delayed Writing Process"
+list8="Continuous Revisions"
+btn1="Get a free Proposal"
+btn2="Talk to an expert"
+btn3="(213) 289 3888"
+/>
+
+
+
+<Strugglingwriters />
+
+
+<Professionalghostwriter />
+
+
+<Onestepsolutions />
 
 {/*  Comprehensive */}
 <Comprehensive />

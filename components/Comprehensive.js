@@ -83,7 +83,7 @@ const Comprehensive = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <h2 className="fw900 font48 colorexpertgrey font-f t-center">Our Comprehensive Services Include</h2>
+                            <h2 className="fw700 font48 colorexpertgrey font-f t-center">Our Comprehensive Services Include</h2>
 
                         </Col>
 
