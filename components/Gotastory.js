@@ -12,7 +12,7 @@ const Gotastory = (props) => {
     <>
       <div className={styles.gotastory}>
 
-        <Container fluid className='p-0'>
+        <Container fluid>
           <Row>
             <Col md={12}>
               <video controls className={`${styles.bgVideo}`} width={890} autoPlay muted loop src="/images/bwc-video.m4v" type="video/mp4"></video>

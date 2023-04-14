@@ -5,7 +5,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
     background-position: center;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 
 .posttitle:before {
@@ -46,8 +46,8 @@
 
 .finetoothedbook{
     padding-top: 70px;
-    padding-bottom: 70px;
-    background-color: #f1f1f1;
+   
+    
 }
 
 .alignment{

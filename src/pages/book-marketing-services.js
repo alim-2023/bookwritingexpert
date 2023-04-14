@@ -1,82 +1,141 @@
 import React from 'react'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import Banner from '../../components/Banner'
 import Head from 'next/head'
-import Partners from '../../components/Partners'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Lululogos from '../../components/Lululogos'
-import Aspiring from '../../components/Aspiring'
-import Whychoosebook from '../../components/Whychoosebook'
-
-import bookmarketingprocess from '/public/images/whychoosebooks/bookmarketingprocess.png'
-
-import Dowecome from '../../components/Dowecome'
-import Customersatisfaction from '../../components/Customersatisfaction'
-
-import bookmarketingservices1 from '/public/images/bookmarketingservices/1.png'
-import bookmarketingservices2 from '/public/images/bookmarketingservices/2.png'
-import bookmarketingservices3 from '/public/images/bookmarketingservices/3.png'
-import bookmarketingservices4 from '/public/images/bookmarketingservices/4.png'
-
-
-import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
-import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
+
+// images
+import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+
+import mission1 from '/public/images/mission/1.png'
+import mission2 from '/public/images/mission/2.png'
+import mission3 from '/public/images/mission/3.png'
+
+import together from '/public/images/together/together.png'
+
+
+// components
+import Banner from '../../components/Banner'
 import Whybookpublishing from '../../components/Whybookpublishing'
+import Partners from '../../components/Partners'
+import Dowecome from '../../components/Dowecome'
+import Signup from '../../components/Signup'
+import Stopworrying from '../../components/Stopworrying'
+import Finetoothedbook from '../../components/Finetoothedbook'
+import Aspiring from '../../components/Aspiring'
+import Ourprocess from '../../components/Ourprocess'
+import Whatourclients from '../../components/Whatourclients'
+
+// css
 import styles from '@/styles/Whybookpublishing.module.css'
-import Bookmarketingprojects from '../../components/Bookmarketingprojects'
-
-const Bookmarketingservices = () => {
-
-
-  const bannertext=[
-    {
-      title: 'Untangle The Complexity Of Your Manuscript Selling With Our Book Marketing Services!',
-      pra: 'Consistency. Cost-effectiveness. Consumer-centric—the crudity of book marketing, delivered! Simplifying the harsh process of book marketing.',
-      discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
-      banlogo:homebannerlogos,
-      banners:'bookmarketingservices',
-     
-       
-
-    }
-  ]
-
-const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
-
-const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-
-const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
 
 
-const whybookpublishingdata = [
+const Bookpublishingservices = () => {
 
-{
-  title: 'The awareness & trust capture:',
-  text:  'The key is to make your work known before you make it available. We keep them eager to earn their trust, all while making sure your marketing content aligns with what they seek.',
-  col6: '6',
-},
-{
-  title: 'The socially responsive bond',
-  text: 'There’s nothing more value-adding in book marketing than social media engagement. The seal-the-deal tip here is to know what they expect. The readers are on the constant quest for good literature; keep them hooked on your work with posts, comments, and tags.',
-  col6: '6',
-},
-{
-title:'The authenticity deal',
-text:'Of course, it doesn’t mean your book should have a distinctive idea, just the marketing strategy. The trick here is to utilize the digital marketing strategies effectively for reputation building—audience-focused and platform-oriented content.',
-col6: '6',
-},
-{
-title:'The profit-generating finale',
-text: 'Readers are quick and harsh assessors; they want to know why your work is worthy. Creating a focused book promotion plan is fundamental to a book’s success. Make the traction of your work the trump card for sales and profits amplification.',
-col6: '6',
-},
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <Link className='textdocationnone color-blue hover' href="/book-marketing-services"> Book Marketing Services </Link> <span className='d-block'>That Saves You From Getting Lost In The Mix!</span>   </h1>;
+
+
+
+  
+    const bannertext=[
+        {
+          title: newSpan,
+          pra: 'Are you struggling with reaching your target audience? Your book is all ready to be read, but there is no one to read it.',
+          discuss:'LET S DISCUSS',
+          homebannernum:'(302) 883-8877',
+          banlogo:homebannerlogos,
+          banners:'bookpromotionservices',
+ 
+         
+           
+    
+        }
+      ]
+
+
+
+
+    
+   
+      
+      
+      const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+      
+      
+      const whybookpublishingdata = [
+      
+      {
+        title: 'How can I publish my book?',
+        text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+        col6: '6',
+      },
+      {
+        title: 'What’s different about Self Publishing?',
+        text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+        col6: '6',
+      },
+      {
+      title:'How much does it cost to have a book published?',
+      text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+      col6: '6',
+      },
+      {
+      title:'Can I publish on different publishing platforms?',
+      text: datapost,
+      col6: '6',
+      },
+      
+      ]
+
+
+
+
+
+const  geta = <span>Book Promotion Has Just Become Easier With The Global <Link className='colortextgrey textdocationnone hover' href='/book-marketing-services'>Book Marketing Services.</Link></span>
+
+
+
+const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='https://bookwritingexperts.com/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
+
+
+const posdata = <span>It’s Time You Let The <Link className='textdocationnone color-white hover' href='/book-marketing-services'>Marketing Experts</Link> Take Charge Of Your  <Link className='textdocationnone color-white hover' href='/book-marketing-services'>Book Promotions!</Link> </span>
+
+
+
+const fine = [
+
+  {
+    img: mission1,
+    title:'Creative Marketing Runs',
+    text: 'Book Writing Experts marketing experts have a knack for promotions, and they know how to attract the audience through their creative marketing campaigns. The purpose of each campaign is to get your target audience to read your book; it is as simple as that!',
+    class: 'fintop',
+  
+
+  },
+
+  {
+    img: mission2,
+    title:'Right People at Right Time',
+    text:'Our experts aim to champion the authors they represent, help them create a sustained media presence, and present them as the go-to experts in their field. We promise to market you better!',
+    class: 'fintop',
+    
+
+  },
+
+  {
+    img: mission3,
+    title:'Tailored made Services',
+    text:'Book Writing Experts experienced and award-winning team will get you reviews and market your book through their bespoke and personalized services. We boost up the potential of every book campaign regardless of the campaign size or genre. Each client matters to us!',
+    class: 'fintop',
+
+
+  },
+
 
 ]
+
+const dateset = <span>Need An Expert For Your <br></br><Link className='textdocationnone colortextgrey hover' href='/book-marketing-services'> Book Promotions? </Link>  </span>
 
 
 
@@ -84,35 +143,33 @@ col6: '6',
   return (
    <>
    <Head>
-   <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <title>Book Marketing Services For Great Book Sales - Book Writing Cube</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-        content="With Our Spectacular Book Marketing Services, Sell More Books And Make Profits. Get Your Free Quote Now." />
-    <meta name="tags" content="" />
-    <meta name="DC.title" content="Book Marketing Services" />
-    <meta name="geo.region" content="en" />
-    <meta name="geo.position" content="39.78373;-100.445882" />
-    <meta name="ICBM" content="39.78373, -100.445882" />
-    <meta name="DC.title" content="book marketing services" />
-    <meta name="geo.region" content="GB" />
-    <meta name="geo.position" content="55.753005;-2.857642" />
-    <meta name="ICBM" content="55.753005, -2.857642" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Book Marketing Services For Great Book Sales - Book Writing Cube" />
-    <meta property="og:description"
-        content="With Our Spectacular Book Marketing Services, Sell More Books And Make Profits. Get Your Free Quote Now." />
-    <meta property="og:url" content="https://www.bookwritingcube.com/" />
-    <meta property="og:site_name" content="Book Marketing Services For Great Book Sales - Book Writing Cube" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="5 minutes" />
+   <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://bookwritingexperts.com/xmlrpc.php" />
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+  <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
+	<meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+	<link rel="canonical" href="https://bookwritingexperts.com/book-publishing-services/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
+	<meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+	<meta property="og:url" content="https://bookwritingexperts.com/book-publishing-services/" />
+	<meta property="og:site_name" content="Book Writing" />
+	<meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="9 minutes" />
+  <link rel="icon" href="/favicon.svg" />
 
 
 
-  <link rel="icon" href="/favicon.png" />
+
 
    </Head>
    
@@ -125,10 +182,14 @@ col6: '6',
         <Banner key={i}
           title={item.title}
           text={item.pra}
+          subtext1={item.subtext1}
+          subtext2={item.subtext2}
+          subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           homebanlogos={item.banlogo}
           bannershome={item.banners}
+          processs={item.process}
        /> 
        )}
    
@@ -136,8 +197,61 @@ col6: '6',
    {/* partners components */}
 <Partners/>
 
-<Bookmarketingprojects />
 
+
+
+
+{/* Dowecome */}
+<Dowecome
+ title = {geta}
+ text='Book Writing Experts now markets your book with successful Global marketing support; our professionals help the author promote their books and reach their audience even at the far corners of the world. Internet gives us a platform to create bespoke ads for the readers and attract them to buy your book. Our book marketing experts are dedicated to getting you as much revenue as they can as soon we publish your book. Be at ease and trust Book Writing Experts with your marketing and publishing jobs.'
+ subtext = 'We promise to enhance your book visibility with Global exclusive marketing tactics.'
+Dowecome= "publishmybook"
+
+/>
+
+<Stopworrying 
+ title = 'Tired of waiting for people to read your book?'
+ subtitle = {posdata}
+ btn1 = 'Get a free Proposal'
+ btn2 = 'Talk to an expert'
+/>
+
+
+
+<div className={`${styles.finetoothedbook} customizedbook`}>
+<Container>
+<Row >
+<h2 className='color-lightgray   font14   t-center font-f mb-2'>Our Approach</h2>  
+
+<p className='font17 font-f fw500 color-black t-center pb-2'>Get More Readers On-Board With Our <Link className='textdocationnone color-black hover' href='/book-marketing-services'> <br></br> Online Book Marketing Services</Link></p>
+
+</Row>
+
+<Row className='gy-5'>
+{ fine.map((item, i) =>
+<Finetoothedbook   key={i}
+title =  {item.title}
+text =  {item.text}
+classtop =  {item.class}
+img1 =  {item.img}
+btn =  {item.btn}
+/>
+)}
+</Row>
+</Container>
+</div>
+
+
+{/* Aspiring */}
+<Aspiring
+ title= {dateset}
+ text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+ subtext= 'Trust the marketing professionals for it, do not risk it!'
+ number="(213) 289 3888"
+ discuss="LET'S DISCUSS"
+ img= {together}
+/>
 
 
 {/* Whybookpublishing */}
@@ -145,10 +259,10 @@ col6: '6',
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Marketing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-    It is a toolset tailored to your requirements and approaches. Adjusting it to your budget, fine-tuning it to fit your audience preferences, and preparing it for maximized exposure. Unlike other book marketing companies, we capitalize on commercialization, ensuring the highest book sales & profits.
-                    </p>
+       Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    </p>
 
   </Row>
 
@@ -164,87 +278,42 @@ col6: '6',
   </Container>   
 </div>
 
-{/* Lululogos components */}
-<Lululogos/>
-
-
-<Container className='servicetitle'>
-  <Row>
-    <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Book Marketing Services?</h2>
-    </Col>
-  </Row>
-</Container>
-
-{/* Dowecome */}
-<Dowecome
- title='We Appreciate Our Clients Who Put Their Faith In Us.'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our affordable book marketing services guarantee excellence-- because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="Good branding will amplify all your marketing efforts. But it takes professionalism and industry insight to make a trustworthy brand. To add to that, it takes much effort to find experienced professionals to get this job done—something only the best book marketing services can offer!"
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={bookmarketingservices1}
-
-
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='Through Collaboration'
- text= 'Our book marketing services and packages include comprehensive publishing assistance and guidance. We will design a budget for you, covering the designing, publishing, printing, and editing needs of the book.'
- subtext= 'Our book marketers formulate online and offline strategies to make your work a recognized read. Unlike other book marketing companies, our job isn’t done till your reputation is established as a renowned name in the industry.'
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
- image={bookmarketingservices2}
- whychooseclass= "marketyourbook"
- />
-
-
-
- {/* Dowecome */}
-<Dowecome
- title='Impeccable Customer Support'
- text="For us, our customer’s needs are the top priority. Regardless of the different profiles or the website updates and revisions, our book marketing services aim to make your work a stellar addition to the literature world."
- subtext= 'From keeping up with marketing trends to revamping the strategies, the best book marketing services providers go the extra mile to make the bestselling title a reality.'
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={bookmarketingservices3}
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='Impressive Strategic Implementation'
- text= 'Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our affordable book marketing services make sure the needs and preferences of the target readers are met.'
- subtext= 'Our experts provide thorough guidance about different types and strategies of marketing to gain complete customer satisfaction. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.'
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
-image={bookmarketingservices4}
-whychooseclass= "marketyourbook"
- />
 
 
 
 
 
-{/* Why Choose Book Writing Cube? */}
-<Whychoosebook
-   title="What Is Our Book Marketing Process?"
-  text="The best book marketing services come with an elaborate process of guaranteeing transparency and communication. We do this through an extensive process of updating our customers at every project stage. This helps the customer understand where we're coming from and be aware of what's going on."
-  whychoose= {bookmarketingprocess}
- />
 
 
-{/* Aspiring */}
-<Aspiring
- title= 'Ready To Make It Big With Our Book Marketing Services?'
- text="You are the ambassador of your own book—but that doesn’t mean it is a singly endeavor. It is an ever-changing, seriously challenging, and quite honestly, commercially competitive industry. The right book marketing plan, calculated milestones, and extended exposure—the all’s and must-haves of making your work a chart-topper! Let’s collaborate!"
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
-/>
+
+
+
+
+
+
+
+
+   {/* Talk To Our Whatourclients! */}
+   <Whatourclients />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -257,4 +326,4 @@ whychooseclass= "marketyourbook"
   )
 }
 
-export default Bookmarketingservices
+export default Bookpublishingservices

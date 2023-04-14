@@ -1,8 +1,29 @@
 .fintop{
-    border: 1px solid #17337c;
+  
     padding: 1.25rem;
     border-radius: 5px;
     height: 334px;
+    box-shadow: 0px 0px 22px -5px rgb(0 0 0 / 11%);
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fintop img{
+    display: block;
+    margin: 0 auto;
+}
+.fintop:hover{
+    background-color: #fc9e31;
+
+}
+.fintop:hover p{
+ 
+    color: #fff;
+}
+.fintop:hover h4{
+ 
+    color: #fff;
 }
 
 .fintopbookedit{
@@ -35,13 +56,8 @@
     color: #fff;
 }
 
-.fintop h4{
-    height: 50px;
-}
 
-.fintop p{
-    height: 188px;
-}
+
 
 
 .connect {

@@ -30,14 +30,14 @@ const Whatourclients = () => {
  
 
         var whatourclients = {
-            dots: true,
+            dots: false,
             arrows:true,
             autoplay:true,
             infinite: true,
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
-            prevArrow: <GrFormPrevious className='privious' />,
+      
             nextArrow: <GrFormNext className='privious' />,
             responsive: [
                 {
@@ -71,7 +71,7 @@ const Whatourclients = () => {
    <>
     <div className={styles.ourclients}>
       <Container className='testtimonials'>
-       <h2 className='fw700 font50 color-blue font-f t-center'>What Our Clients Says About Us</h2>
+      
 
 
 
@@ -82,21 +82,19 @@ const Whatourclients = () => {
                         
                        <div className={styles.whatclientlogo}> 
 
-                       <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image>
-                       
+                     
                         </div> 
+                                <h3 className='font18 color-blue mb-4'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
 
-                         <p className={`${styles.looking} font15 fw500 font-f t-center`}>
+                                <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
+                         <p className={` ${styles.canva} font22 fw100 font-f`}>
                           
-                          If you are looking for professional writers, I highly recommend
-                                    the Book Writing Cube services. Affordable prices. Mark Rivera and his team are
-                                    superb! They explained the entire process before starting my manuscript and are
-                                    guiding me in every step. I am very pleased with their work.
+                         Since I was short on money and couldn’t afford an expensive proofreader for the book, I was legit quite worried because having a second opinion is always better? My friend recommended Book Writing Experts’ affordable proofreading services, and wow! They were very accommodating and got my work done in 3 days only. So happy!
                                     
                                     </p>
 
-                                    <p className={styles.mark}><b>Sharon Mondier</b></p>
-                                    <p className='font15 fw500 font-f t-center'>US</p>
+                                    <p className='font18 color-blue mb-4'><b>Dyuti Hai	</b></p>
+                                   
 
 
 
@@ -108,72 +106,32 @@ const Whatourclients = () => {
                      </div>
                      <div >
                            
-                       <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image> </div> 
-                         <p className={`${styles.looking} font15 fw500 font-f t-center`}>This was my first book to be published, I was extremely nervous,
-                                    I wasn’t sure I could trust the company I was sending my money to.
-                                    Book Writing Cube has EXCEEDED my expectations. Mark and his team are/were very
-                                    attentive to my requests, they have presented several illustrations based on my
-                                    vision, they have edited and presented ideas to make my story stronger, I could not
-                                    be more pleased with their honesty and their commitment. Getting a book published is
-                                    no easy task and I have procrastinated for years due to uncertainty. I’m now
-                                    relieved that I trusted this team to do as they said and they have.
+                       <div className={styles.whatclientlogo}>    </div> 
+                             <h3 className='font18 color-blue mb-4'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
+                             <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
+                       <p className={` ${styles.canva} font22 fw100 font-f`}>This was my first book to be 	My sister was struggling with her book sales; I recommended Book Writing Experts book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time.	
                                 </p>
-                                    <p className={styles.mark}><b>Elizabeth Waldorf</b></p>
-                                    <p className='font15 fw500 font-f t-center'>US</p>
+                                    <p className='font18 color-blue mb-4'><b>James Moris	</b></p>
+                                   
 
                                     <p className={styles.stars}><AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /></p>
                      </div>
 
                      <div >
                             
-                       <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image> </div> 
-                         <p className={`${styles.looking} font15 fw500 font-f t-center`}>This is the first time I’ve worked with Book Writing Cube and I’m
-                                    happy that I chose to work with them.
-                                    I am self-publishing my book for the first time and I didn’t know what to expect. To
-                                    be honest I happen to come by Book Writing Cube by accident. I was researching
-                                    websites that helped with self-publishing and I clicked on it and accidentally
-                                    clicked on the chat icon.
-                                    Someone responded and at first I didn’t write anything back. But then I decided to
-                                    take a chance and the person I talked to put me in contact with Mark Rivera.
-                                    Mark and his team have been very helpful during this whole process. They take my
-                                    suggestions and show me where I can make improvements.</p>
-                                    <p className={styles.mark}><b>Ana</b></p>
-                                    <p className='font15 fw500 font-f t-center'>US</p>
+                       <div className={styles.whatclientlogo}>    </div> 
+                             <h3 className='font18 color-blue mb-4'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
+                             <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
+                       <p className={` ${styles.canva} font22 fw100 font-f`}>I worked with Sam Jordan for a few months preparing my first book. Sam was very helpful and courteous. We connected on the phone several times a week. I am not the most patient person, but I found Sam to be capable and professional. He helped me overcome any fears I had about the process. I had some difficulty understanding the formatting process for chapters and their titles. Sam walked me through it with very few problems. I now think of Sam as a friend. I have already written several chapters for a new book, and when it’s ready, Sam will be the one I look for to help me.				</p>
+                                    <p className='font18 color-blue mb-4'><b>Ron		</b></p>
+                                   
 
                                     <p className={styles.stars}><AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /></p>
                      </div>
 
-                     <div >
-                            
-                       <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image> </div> 
-                         <p className={`${styles.looking} font15 fw500 font-f t-center`}>This is a fantastic business! Their editing team did a great job
-                                    on the design of the book cover, and formatting of the text for uploading onto KDP
-                                    for print and ebook made it feasible for me to swiftly self-publish my book. Their
-                                    staff was quick to reply to my queries, sometimes the same day, and provided me with
-                                    excellent advice throughout. Furthermore, in comparison to many other publishing
-                                    firms, their services were inexpensive. I'd recommend them to everybody who's just
-                                    started out with their writing career!</p>
-                                    <p className={styles.mark}><b>Mark M. Cole</b></p>
-                                    <p className='font15 fw500 font-f t-center'>US</p>
+                 
 
-                                    <p className={styles.stars}><AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /></p>
-                     </div>
-
-                     <div >
-                       
-                     <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  src={whatour}  alt='book_writing_cube'></Image> </div> 
-                         <p className={`${styles.looking} font15 fw500 font-f t-center`}>BWC made my first book experience really easy. Mark was there
-                                    with me whenever I had questions or revisions to be made and just overall helpful.
-                                    His team is supremely skillful and so their illustrations are one of the best I've
-                                    seen so far! BWC bought my characters to life in a way I couldn't have imagined. I'd
-                                    recommend Book Writing Cube to everyone now!</p>
-
-
-                                    <p className={styles.mark}><b>Jason Bill</b></p>
-                                    <p className='font15 fw500 font-f t-center'>US</p>
-
-                                    <p className={styles.stars}><AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /> <AiFillStar size={20}  /></p>
-                     </div>
+              
                     
 
                

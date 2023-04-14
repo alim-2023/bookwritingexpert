@@ -31,7 +31,7 @@
     text-align: center;
 }
 .bookpublishingservices{
-    background-image: url(/images/bannerimages/bookpublishingservices.png);
+    background-image: url(/images/bannerimages/bookpublishingservices.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
@@ -51,7 +51,7 @@
 }
 
 .bookpromotionservices{
-    background-image: url(/images/bannerimages/bookpromotionservices.png);
+    background-image: url(/images/bannerimages/bookpromotionservices.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
@@ -60,7 +60,7 @@
     font-family: 'Poppins';
 }
 .bookeditingservices{
-    background-image: url(/images/bannerimages/bookeditingservices.png);
+    background-image: url(/images/bannerimages/editing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
@@ -68,6 +68,8 @@
     background-position: center;
     font-family: 'Poppins';
 }
+
+
 .bookmarketingservices{
     background-image: url(/images/bannerimages/bookmarketingservices.jpg);
     background-size: cover;
@@ -77,8 +79,20 @@
     background-position: center;
     font-family: 'Poppins';
 }
+.ghostwriting{
+    background-image: url(/images/bannerimages/ghost.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'Poppins';
+}
+
+
+
 .offeringyoubook{
-    background-image: url(/images/bannerimages/offeringyoubook.png);
+    background-image: url(/images/bannerimages/offeringyoubook.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;

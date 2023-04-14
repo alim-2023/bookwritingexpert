@@ -118,8 +118,10 @@
 .megamenu ul li a {
   margin: 10px 0 0;
   font-size: 14px;
-  font-weight: 700;
   line-height: 2em;
+}
+.megamenu ul li a:hover{
+  color:white
 }
 
 .logonew {

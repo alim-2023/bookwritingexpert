@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '@/styles/Aspiring.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Link from 'next/link'
-import Freequote from '../components/Freequote'
+import Image from 'next/image'
 
 
 const Aspiring = (props) => {
@@ -13,30 +13,30 @@ const Aspiring = (props) => {
 
             <Container>
                 <Row className={styles.middle}>
-                    <Col md={8}>
+                    <Col md={7}>
 
-                    <h2 className="fw900 font48 color-blue font-f mb-2">{props.title}</h2>
-                     <p className='font15 fw500 font-f'>{props.text}</p>
+                    <h2 className="fw600 font48 colortextgrey font-f mb-4">{props.title}</h2>
+                     <p className='color-lightgray font14 fw400 font-f mt-3'>{props.text}</p>
                         { props.subtext ?
 
-                            <p  className='font15 fw500 font-f'>{props.subtext}</p>
+                            <p  className='color-lightgray font14 fw400 font-f mt-3'>{props.subtext}</p>
                             :
                                 ''
                         }
 
 
-                    <div className='mt-4'>
-                        <Link className={styles.asdiscuss} href="#">{props.discuss}</Link>
-                        <Link className={styles.asnumber} href="tel:+1-302-883-8877"> {props.number}</Link>
+                    <div className='mt-5'>
+                        <Link className={styles.btn1} href="#">Get a free Proposal</Link>
+                        <Link className={styles.btn2} href="#">Talk to an expert</Link>
+                        <Link className={styles.btn2} href="tel:(213) 289 3888"> {props.number}</Link>
                         
                     </div>
 
                     </Col>
-                    <Col md={4}>
+                    <Col md={5}>
 
-                            <Freequote 
-                              formsaspire='formsaspire'
-                            />
+<Image src={props.img} className='img-fluid mt-3' />
+                          
 
                     </Col>
                 </Row>

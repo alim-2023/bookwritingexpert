@@ -41,4 +41,18 @@
     }
 
  }
+@media (max-width:480px)  { 
+
+    .onestepsolutions h2{
+
+        font-size: 25px;
+        line-height: unset;
+        font-weight: bold;
+        color: #223235;
+        max-width: 100%;
+        margin: 0 auto;
+     
+    }
+
+ }
 

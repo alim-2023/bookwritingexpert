@@ -33,7 +33,7 @@ export default function Home() {
 
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Your ONE-STOP</span> Ghostwriting, Editing And Publishing Service <span className='d-block'>Provider!</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Your ONE-STOP</span> <Link className='textdocationnone color-blue' href="#"> Ghostwriting, Editing And Publishing Service </Link>  <span className='d-block'>Provider!</span> </h1>;
   const bannertext = [
     {
       title: newSpan,

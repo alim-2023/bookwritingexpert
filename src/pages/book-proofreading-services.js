@@ -1,168 +1,175 @@
 import React from 'react'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import Banner from '../../components/Banner'
 import Head from 'next/head'
-import Partners from '../../components/Partners'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Lululogos from '../../components/Lululogos'
-import Aspiring from '../../components/Aspiring'
-import Whychoosebook from '../../components/Whychoosebook'
-import thisishowyouget from '/public/images/whychoosebooks/thisishowyouget.png'
-import Dowecome from '../../components/Dowecome'
-import Customersatisfaction from '../../components/Customersatisfaction'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import copy from '/public/images/selfpublishingservices/copy.png'
-import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
-import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
+
+// images
+import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+
+import mission1 from '/public/images/mission/1.png'
+import mission2 from '/public/images/mission/2.png'
+import mission3 from '/public/images/mission/3.png'
+
+import together from '/public/images/together/together.png'
+
+
+// components
+import Banner from '../../components/Banner'
 import Whybookpublishing from '../../components/Whybookpublishing'
+import Partners from '../../components/Partners'
+import Dowecome from '../../components/Dowecome'
+import Signup from '../../components/Signup'
+import Stopworrying from '../../components/Stopworrying'
+import Finetoothedbook from '../../components/Finetoothedbook'
+import Aspiring from '../../components/Aspiring'
+import Ourprocess from '../../components/Ourprocess'
+import Whatourclients from '../../components/Whatourclients'
+
+// css
 import styles from '@/styles/Whybookpublishing.module.css'
-import Stillonthefence from '../../components/Stillonthefence'
-
-
-const Bookproofreadingservices = () => {
-
-
-  const bannertext=[
-    {
-      title: 'Offering You Book Proofreading Services That Turn Your Content Piece From Drab to Fab!',
-      pra: 'Don’t let your writing be weakened by mistakes that may go under your nose. Our professional proofreaders are all set to catch any typos, grammatical errors, or other issues hurting the sentiment of your writing. Book Writing Cube is committed to providing high-quality book proofreading services to help you improve your writing and ensure that your book is error-free.',
-      subtext4:'Make your book pleasing to the eyes and get it sold like crazy with our best online proofreading services.',
-      subtext4bold:'We Are The Ones You Need To Let Your Words Flow Well!',
-      discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
-      banlogo:homebannerlogos,
-      banners:'offeringyoubook',
-     
-       
-
-    }
-  ]
-
-const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
-
-const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-
-const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
 
 
+const Bookpublishingservices = () => {
 
-const whybookpublishingdata = [
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <Link className='textdocationnone color-blue hover' href="/book-proofreading-services"> Book Proofreading Services </Link> <span className='d-block'>That Make Your Book Flawless To The Level Of Finesse!</span>   </h1>;
 
-{
-  title: 'How Much Does A Book Proofreading Service Cost?',
-  text:  'The cost of the best proofreading services depends on the length of your manuscript and the level of editing needed.',
-  col6: '6',
-},
-{
-  title: 'What Happens During The Book Proofreading Process?',
-  text: 'During the book proofreading process, the editor will carefully read through your manuscript and make corrections as needed. They will also provide feedback on elements such as plot, character development, and pacing.',
-  col6: '6',
-},
-{
-title:'How Long Does It Take To Complete A Book Proofreading?',
-text:'The length of time it takes to complete a book proofreading depends on the length of your manuscript and the level of editing needed.',
-col6: '6',
-},
-{
-title:'What Are The Benefits Of Using A Book Proofreading Service?',
-text: 'The benefits of using a book proofreading service include having a professionally edited manuscript, catching errors before publication, and improving the overall quality of your book.',
-col6: '6',
-},
+
+
+  
+    const bannertext=[
+        {
+          title: newSpan,
+          pra: 'At Book Writing Experts, we have a team of professional and skilled proofreaders that have years’ worth of experience working on countless.',
+          discuss:'LET S DISCUSS',
+          homebannernum:'(302) 883-8877',
+          banlogo:homebannerlogos,
+          banners:'offeringyoubook',
+ 
+         
+           
+    
+        }
+      ]
+
+
+
+
+    
+   
+      
+      
+      const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+      
+      
+      const whybookpublishingdata = [
+      
+      {
+        title: 'How can I publish my book?',
+        text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+        col6: '6',
+      },
+      {
+        title: 'What’s different about Self Publishing?',
+        text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+        col6: '6',
+      },
+      {
+      title:'How much does it cost to have a book published?',
+      text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
+      col6: '6',
+      },
+      {
+      title:'Can I publish on different publishing platforms?',
+      text: datapost,
+      col6: '6',
+      },
+      
+      ]
+
+
+
+
+
+const  geta = <span> <Link className='colortextgrey textdocationnone hover' href='/book-proofreading-services'>Professional Proofreading Services</Link> To Turn Your Words Into Masterpieces</span>
+
+
+
+const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='https://bookwritingexperts.com/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
+
+
+const posdata = <span>Adding Value To Your Masterpiece With Our Exceptional  <Link className='textdocationnone color-white hover' href='/book-proofreading-services'>Proofreading Services!</Link> </span>
+
+
+
+const fine = [
+
+  {
+    img: mission1,
+    title:'Experienced Proofreaders',
+    text: 'Book Writing Experts has a team of proofreading experts who check every book before it goes to print. This ensures that there are no errors in the text and that the book meets all publishing standards. Proofreading is an essential part of the publishing process, and Book Writing Experts takes it very seriously.',
+    class: 'fintop',
+  
+
+  },
+
+  {
+    img: mission2,
+    title:'Fast Delivery',
+    text:'We offer fast delivery times so you can get your book into readers’ hands as soon as possible. We understand the importance of meeting deadlines, so we’ll work hard to get your book ready for publication in a timely manner.',
+    class: 'fintop',
+    
+
+  },
+
+  {
+    img: mission3,
+    title:'Quality Work',
+    text:'Book Writing Experts is the perfect partner for self-publishing authors who want to make sure their work is polished and ready for readers. We know how important it is to get your book just right, and we’re here to help.',
+    class: 'fintop',
+
+
+  },
+
 
 ]
 
+const dateset = <span>Need An Expert For Your <br></br><Link className='textdocationnone colortextgrey hover' href='/book-proofreading-services'> Book Promotions? </Link>  </span>
 
 
-
-const reasons = [
-
-  {
-    title:'Second-to-none Proofreading Services',
-    text:'To help you improve the readability of your book, our proofreading experts go the extra mile and ensure not a single flaw remains unattended. The rendered online proofreading services are of the highest quality, which means you can rest assured of being in good hands.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Highly Experienced Proofreaders',
-    text:'We have a team of highly experienced and skilled proofreaders who are experts in their field and work diligently to ensure that your document is error-free.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Money-back Satisfaction Guaranteed',
-    text:'We offer a money-back satisfaction guarantee so that you can be confident that you will be happy with the results of our proofreading services.',
-    col:'6',
-    classnum: 'number',
-  },
-
-  {
-    title:'24/7 Operational',
-    text:'We are available 24/7 to provide you with our proofreading services so that you can get your document back as soon as possible.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Pricing That Makes Sense',
-    text:'We offer a range of affordable pricing options to suit your needs and budgets. Our affordable proofreading services are what you need to make your book covert into a best-selling publication.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'All Ears to You',
-    text:'Sun never sets on Book Writing Cube. We welcome queries of our valued clients with the laser-speedy response and ensure their concerns are addressed at the earliest possible.',
-    col:'6',
-    classnum: 'number',
-  },
-
-
-]
-
-
-
+const proofreading = <Link className='textdocationnone colortextgrey hover' href='/book-proofreading-services'>Proofreading</Link>
 
   return (
    <>
    <Head>
+   <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://bookwritingexperts.com/xmlrpc.php" />
 
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-   <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <title>Finest Proofreading Services – Book Writing Cube </title>
-    <meta name="description"
-        content="Proofreading Services that fix the writing errors and make your content flawless. Hire us to get your manuscript proofread by professionals. " />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="max-image-preview:large" />
-    <meta name="tags" content="" />
-
-    <meta name="DC.title" content="book proofreading services" />
-    <meta name="geo.region" content="GB" />
-    <meta name="geo.position" content="54.702355;-3.276575" />
-    <meta name="ICBM" content="54.702355, -3.276575" />
-
-    <meta name="DC.title" content="book proofreading services" />
-    <meta name="geo.region" content="US" />
-    <meta name="geo.position" content="39.78373;-100.445882" />
-    <meta name="ICBM" content="39.78373, -100.445882" />
-    <meta property="og:locale" content="en" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Finest Proofreading Services – Book Writing Cube" />
-    <meta property="og:description"
-        content="Proofreading Services that fix the writing errors and make your content flawless. Hire us to get your manuscript proofread by professionals." />
-    <meta property="og:url" content="https://www.bookwritingcube.com/" />
-    <meta property="og:site_name" content="Finest Proofreading Services – Book Writing Cube" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="5 minutes" />
+  <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
+	<meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+	<link rel="canonical" href="https://bookwritingexperts.com/book-publishing-services/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
+	<meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+	<meta property="og:url" content="https://bookwritingexperts.com/book-publishing-services/" />
+	<meta property="og:site_name" content="Book Writing" />
+	<meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="9 minutes" />
+  <link rel="icon" href="/favicon.svg" />
 
 
 
-  <link rel="icon" href="/favicon.png" />
+
 
    </Head>
    
@@ -175,12 +182,14 @@ const reasons = [
         <Banner key={i}
           title={item.title}
           text={item.pra}
-          subtext4={item.subtext4}
-          subtext4bold={item.subtext4bold}
+          subtext1={item.subtext1}
+          subtext2={item.subtext2}
+          subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           homebanlogos={item.banlogo}
           bannershome={item.banners}
+          processs={item.process}
        /> 
        )}
    
@@ -188,11 +197,80 @@ const reasons = [
    {/* partners components */}
 <Partners/>
 
-{/* Makestories */}
-<Makestoriesnew
-title='Our Done and Dusted Proofreading Projects That Speak For Our Credibility'
-para='Here are a few proofreading projects that we accomplished with utmost finesse.'
+
+
+
+
+{/* Dowecome */}
+<Dowecome
+ title = {geta}
+ text='Our aim is to provide our clients with above satisfactory work. Our team of brilliant proofreaders ensures your draft is free of minor errors, inconsistencies, and formatting mistakes. This greatly improves the quality of your work before the publication process begins. '
+
+Dowecome= "publishmybook"
+
 />
+
+<Stopworrying 
+ title = 'Best Online Proofreading Service'
+ subtitle = {posdata}
+ btn1 = 'Get a free Proposal'
+ btn2 = 'Talk to an expert'
+/>
+
+
+
+<div className={`${styles.finetoothedbook} customizedbook`}>
+<Container>
+<Row >
+<h2 className='color-lightgray   font14   t-center font-f mb-2'>Our Approach</h2>  
+
+<p className='font17 font-f fw500 color-black t-center pb-2'>Our <Link className='textdocationnone colortextgrey hover' href='/book-proofreading-services'>Proofreading Services</Link> Are Designed to Polish Your Work to Perfection</p>
+
+</Row>
+
+<Row className='gy-5'>
+{ fine.map((item, i) =>
+<Finetoothedbook   key={i}
+title =  {item.title}
+text =  {item.text}
+classtop =  {item.class}
+img1 =  {item.img}
+btn =  {item.btn}
+/>
+)}
+</Row>
+</Container>
+</div>
+
+
+
+<Ourprocess 
+title= 'Our Streamlined Proofreading Process'
+
+heading1 = 'Submit Your Document'
+para1 = 'After getting in touch with our client, we receive the document that needs to be proofread'
+num1 = '01'
+
+heading2 = 'Read & Analyze'
+para2 = 'Our team of professional proofreaders reads and analyzes the document for grammatical and formatting errors. '
+num2 = '02'
+
+heading3 = {proofreading}
+para3 = 'Once the errors are identified and highlighted, our skilled proofreaders begin the proofreading process, making necessary changes to improve the quality of the document. '
+num3 = '03'
+
+heading4 = 'Editing Tools'
+para4 = 'Our proofreaders use the latest editing tools to scan the document for any remaining errors that might have missed their eyes.'
+num4 = '04'
+
+heading5 = 'Final Approval & Delivery'
+para5 = 'After the approved changes are incorporated into the document, we deliver a polished document, free of any errors. '
+num5 = '05'
+
+
+/>
+
+
 
 
 {/* Whybookpublishing */}
@@ -200,10 +278,10 @@ para='Here are a few proofreading projects that we accomplished with utmost fine
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Answers To Some Questions That May Be Whirling Around Your Head!</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-    Our proofreading experts go above and beyond to make your manuscript flawless and attention-grabbing. Whether you are an author who wants to perfect your books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing Cube sets the bar high with its standard proofreading services online and knows what its clients may be thinking of. So, here are some frequently asked questions by clients.
-                    </p>
+       Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    </p>
 
   </Row>
 
@@ -219,55 +297,51 @@ para='Here are a few proofreading projects that we accomplished with utmost fine
   </Container>   
 </div>
 
-{/* Lululogos components */}
-<Lululogos/>
 
-
-
-
-
-{/* Stillonthefence component */}
-
-<Container className='still'>
-
-
-<Row >
-<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Do You Need To Invest In Our Professional Proofreading Services?</h2>  
-</Row>  
-
-<Row className='gy-5'>
-{ reasons.map((item, i) =>
-<Stillonthefence key={i}
-title =  {item.title}
-text =   {item.text}
-col6 = { item.col }
-classnumber = { item.classnum }
-/>
-  )}
-
-</Row>  
-</Container>
-
-
-
-
-
-
-{/* Why Choose Book Writing Cube? */}
-<Whychoosebook
-   title="This Is How You Get A Fresh Pair Of Eyes On Your Manuscript."
-  text="Here’s how we set the wheel of proofreading services in motion."
-  whychoose= {thisishowyouget}
- />
 
 
 {/* Aspiring */}
 <Aspiring
- title= 'Have A Second Set Of Eyes To Catch The Errors That You Have Missed!'
- text="Call us to get professional editors who will comb through your work and correct any errors. Whether it's a typo or a more serious grammatical error, we'll make sure it's fixed before you submit your work."
- number="(302) 883-8877"
+ title= {dateset}
+ text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+ subtext= 'Trust the marketing professionals for it, do not risk it!'
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
+ img= {together}
 />
+
+
+
+
+
+
+
+
+
+
+
+
+   {/* Talk To Our Whatourclients! */}
+   <Whatourclients />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -280,4 +354,4 @@ classnumber = { item.classnum }
   )
 }
 
-export default Bookproofreadingservices
+export default Bookpublishingservices

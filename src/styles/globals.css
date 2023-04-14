@@ -23,7 +23,9 @@ body{ font-family: 'Poppins'; }
     font-weight: 300;
   }
 
-
+.hover:hover{
+  color: #FF9900;
+}
 .textdocationnone{
   text-decoration: none;
 }
@@ -41,6 +43,7 @@ body{ font-family: 'Poppins'; }
 .font60 {  font-size: 60px;  }
 .font14 {  font-size: 14px;  }
 .font50 {  font-size: 50px;  }
+.font22 {  font-size: 22px  }
 
 
 /* fontweignt */
@@ -359,6 +362,9 @@ body{ font-family: 'Poppins'; }
 
   .font60 {
     font-size: 40px;
+}
+  .font50 {
+    font-size: 25px;
 }
 
   .quality .col-md-3 {

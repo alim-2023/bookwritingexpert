@@ -1,34 +1,45 @@
 import React from 'react'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import Banner from '../../components/Banner'
 import Head from 'next/head'
-import Partners from '../../components/Partners'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Lululogos from '../../components/Lululogos'
-import Aspiring from '../../components/Aspiring'
-import Whychoosebook from '../../components/Whychoosebook'
-import drivethebook1 from '/public/images/whychoosebooks/bookeditingprocess.png'
-import Dowecome from '../../components/Dowecome'
-import Customersatisfaction from '../../components/Customersatisfaction'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import copy from '/public/images/selfpublishingservices/copy.png'
-import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
+
+// images
+import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+
+import mission1 from '/public/images/mission/1.png'
+import mission2 from '/public/images/mission/2.png'
+import mission3 from '/public/images/mission/3.png'
+
+import together from '/public/images/together/together.png'
+
+
+// components
+import Banner from '../../components/Banner'
 import Whybookpublishing from '../../components/Whybookpublishing'
+import Partners from '../../components/Partners'
+import Dowecome from '../../components/Dowecome'
+import Signup from '../../components/Signup'
+import Stopworrying from '../../components/Stopworrying'
+import Finetoothedbook from '../../components/Finetoothedbook'
+import Aspiring from '../../components/Aspiring'
+import Ourprocess from '../../components/Ourprocess'
+import Whatourclients from '../../components/Whatourclients'
+
+// css
 import styles from '@/styles/Whybookpublishing.module.css'
-import Stillonthefence from '../../components/Stillonthefence'
-import Bookpublishingservicesweoffer from '../../components/Bookpublishingservicesweoffer'
+
+
+
 
 const Bookpublishingservices = () => {
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className='d-block'>To Our Struggling Authors</span> </h1>;
 
+  
     const bannertext=[
         {
-          title: 'Book Publishing Services Giving You The Creative Control You Deserve!',
-          pra: 'Whether it be amazon self publishing or any other platform, our book publishing services give you the creative control you deserve. Discuss with our expert book publishers the creative control you deserve. Discuss with our expert book publishers.',
+          title: newSpan,
+          pra: 'Is your talent getting unnoticed due to problems in publishing? Not anymore! We have solutions to your problems! Publishing professionals at Book Writing Experts know the best and trouble-free means to publish your work and help you get it to the reader’s hand.',
           discuss:'LET S DISCUSS',
           homebannernum:'(302) 883-8877',
           banlogo:homebannerlogos,
@@ -43,11 +54,8 @@ const Bookpublishingservices = () => {
 
 
 
-      const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="/book-publishing-services">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="/book-publishing-services">self publishing</Link> .</span>;
-
-      const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-      
-      const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="/book-publishing-services" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
+    
+   
       
       
       const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
@@ -79,82 +87,84 @@ const Bookpublishingservices = () => {
       ]
 
 
-const reasons = [
+
+
+
+const  geta = <span>Get A Customized Solution By <Link className='colortextgrey hover' href='/book-publishing-services'> Best Publishing Services </Link></span>
+
+
+const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
+
+
+const posdata = <span>Let Our Best <Link className='textdocationnone color-white hover' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
+
+
+
+const fine = [
 
   {
-    title:'Proven Track Record',
-    text:'Our company has a proven track record of successful book promotion campaigns.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Team of Marketing Gurus',
-    text:'Book Writing Cube has a team of experienced and creative professionals who can provide customized book promotion services. Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our book marketing services make sure the needs and preferences of the target readers are met.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Cost-Effective Solutions',
-    text:'We offer cost-effective book promotion services for authors that fit any budget. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.',
-    col:'6',
-    classnum: 'number',
+    img: mission1,
+    title:'Outstanding Marketing Campaigns',
+    text: 'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+    class: 'fintop',
+  
+
   },
 
   {
-    title:'Extensive Network',
-    text:'We bear a wide range of contacts and resources to promote your book effectively. We`ve helped authors from all genres and backgrounds achieve their publishing goals, and we can do the same for you.',
-    col:'6',
-    classnum: 'number',
+    img: mission2,
+    title:'Outstanding Marketing Campaigns',
+    text:'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+    class: 'fintop',
+    
+
   },
+
   {
-    title:'Deep Understanding',
-    text:'We have a deep understanding of the book promotion process and know how to get results.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Result-driven Approach',
-    text:'We are committed to providing the best possible online book promotion services and achieving the desired results for our clients.',
-    col:'6',
-    classnum: 'number',
+    img: mission3,
+    title:'Outstanding Marketing Campaigns',
+    text:'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+    class: 'fintop',
+
+
   },
 
 
 ]
 
+const dateset = <span>Let’s <Link className='textdocationnone colortextgrey hover' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
+
 
   return (
    <>
    <Head>
-   <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <title>Amazon KDP Book Publishing Services Company - bookwritingcube.com</title>
-    <meta name="description" content="Hire a reliable Book Publishing company, for Kindle Direct Publishing. As a top book publisher, we offer a variety of tools and resources to help authors succeed – Call us now and let our publishing experts guide you!" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="tags" content="" />
-    <meta name="DC.title" content="Book Publishing Services" />
-    <meta name="geo.region" content="en" />
-    <meta name="geo.position" content="39.78373;-100.445882" />
-    <meta name="ICBM" content="39.78373, -100.445882" />
-    <meta name="DC.title" content="book publishing services" />
-    <meta name="geo.region" content="GB" />
-    <meta name="geo.position" content="55.753005;-2.857642" />
-    <meta name="ICBM" content="55.753005, -2.857642" />
-  	<meta property="og:locale" content="en" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Amazon KDP Book Publishing Services Company - bookwritingcube.com" />
-	<meta property="og:description" content="Hire a reliable Book Publishing company, for Kindle Direct Publishing. As a top book publisher, we offer a variety of tools and resources to help authors succeed – Call us now and let our publishing experts guide you!" />
-	<meta property="og:url" content="https://www.bookwritingcube.com/" />
-	<meta property="og:site_name" content="Amazon KDP Book Publishing Services Company - bookwritingcube.com" />
-    <meta name="twitter:card" content="summary_large_image" />
+   <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://bookwritingexperts.com/xmlrpc.php" />
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+  <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
+	<meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+	<link rel="canonical" href="/book-publishing-services" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
+	<meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+	<meta property="og:url" content="/book-publishing-services" />
+	<meta property="og:site_name" content="Book Writing" />
+	<meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="5 minutes" />
+	<meta name="twitter:data1" content="9 minutes" />
+  <link rel="icon" href="/favicon.svg" />
 
 
 
 
-
-  <link rel="icon" href="/favicon.png" />
 
    </Head>
    
@@ -182,11 +192,86 @@ const reasons = [
    {/* partners components */}
 <Partners/>
 
-{/* Makestories */}
-<Makestoriesnew
-title='Our Latest Book Publishing Projects'
-para='Let Our Book Publishing Team Help You'
+
+
+
+
+{/* Dowecome */}
+<Dowecome
+ title = {geta}
+ text={work}
+Dowecome= "publishmybook"
+
 />
+
+<Stopworrying 
+ title = 'Stop worrying about publishing books!'
+ subtitle = {posdata}
+ btn1 = 'Get a free Proposal'
+ btn2 = 'Talk to an expert'
+/>
+
+
+
+<div className={`${styles.finetoothedbook} customizedbook`}>
+<Container>
+<Row >
+<h2 className='color-lightgray   font14   t-center font-f mb-2'>Our Approach</h2>  
+
+<p className='font17 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-black hover' href='/book-publishing-services'> <br></br> Book Marketing</Link></p>
+
+</Row>
+
+<Row className='gy-5'>
+{ fine.map((item, i) =>
+<Finetoothedbook   key={i}
+title =  {item.title}
+text =  {item.text}
+classtop =  {item.class}
+img1 =  {item.img}
+btn =  {item.btn}
+/>
+)}
+</Row>
+</Container>
+</div>
+
+<Ourprocess 
+title= 'Our Process'
+
+heading1 = 'Manuscript Submission'
+para1 = 'The writer contacts us for submission of their full-length manuscript, while submitting, we discuss our publishing rules and sign the contract.'
+num1 = '01'
+
+heading2 = 'Peers Review'
+para2 = 'Our experienced editors then review the manuscript and make the required changes with the writer’s permission.'
+num2 = '02'
+
+heading3 = 'Formatting and Typesetting'
+para3 = 'After the manuscript is reviewed by editors, our experts do the formatting and add images.'
+num3 = '03'
+
+heading4 = 'Book Production'
+para4 = 'We design the first copy of the book and take reviews from the writer. The rest of the books are produced on the same pattern while keeping all the important aspects into consideration.'
+num4 = '04'
+
+heading5 = 'Marketing, Publishing, and Distribution'
+para5 = 'Before publishing, we spread awareness about the book to create demand. And Voila! The book is published now!'
+num5 = '05'
+
+
+/>
+
+
+{/* Aspiring */}
+<Aspiring
+ title= {dateset}
+ text= 'Don’t wait.. Just act! Get connected with the most experienced online book publishing service today and become a professional author.'
+ number="(213) 289 3888"
+ discuss="LET'S DISCUSS"
+ img= {together}
+/>
+
 
 
 {/* Whybookpublishing */}
@@ -196,8 +281,8 @@ para='Let Our Book Publishing Team Help You'
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-                        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
-                    </p>
+       Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    </p>
 
   </Row>
 
@@ -213,97 +298,33 @@ para='Let Our Book Publishing Team Help You'
   </Container>   
 </div>
 
-{/* Lululogos components */}
-<Lululogos/>
-
-<Container className='servicetitle'>
-  <Row>
-    <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
-    </Col>
-  </Row>
-</Container>
-
-
-
-{/* Dowecome */}
-<Dowecome
- title='How Do "I Publish My Book?"'
- text="Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution."
- subtext="We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited."
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={publishmybook}
-
-
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='What Type Of Books Do We Publish?'
- text= {text}
- subtext={subtext}
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
- image={typeofbooks}
- whychooseclass= "marketyourbook"
- />
-
-
-
- {/* Dowecome */}
-<Dowecome
- title='How Many Copies Of Your Book Will Be Published?'
- text="We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want."
- subtext={kindledirectpublishing}
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={copy}
-/>
-
-
-{/* Whychoosebookwritingcube */}
-<Whychoosebookwritingcube
- title='How Will We Help You Market Your Book?'
- text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
- subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
-image={marketyourbook}
-whychooseclass= "marketyourbook"
- />
-
-
-
-{/* Customersatisfaction */}
-<Customersatisfaction/>
-
-
-
- {/* Bookpublishingservicesweoffer */}
- <Bookpublishingservicesweoffer />
 
 
 
 
-{/* Why Choose Book Writing Cube? */}
-<Whychoosebook
-   title="What Is Our Book Publishing Process?"
-  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-  whychoose= {drivethebook1}
- />
 
 
-{/* Aspiring */}
-<Aspiring
- title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
- text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
-/>
+
+   {/* Talk To Our Whatourclients! */}
+   <Whatourclients />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

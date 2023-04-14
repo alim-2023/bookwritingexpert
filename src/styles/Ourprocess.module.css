@@ -1,0 +1,69 @@
+.ourprocess{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'Poppins';
+}
+
+
+.dataslot1 {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    height: 200px;
+    margin-bottom: 2%;
+    align-items: flex-start;
+    justify-content: center;
+}
+.dataslot2 {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    height: 200px;
+    margin-bottom: 2%;
+    align-items: flex-end;
+    justify-content: center;
+}
+.dataslot{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cbcbcb;
+    padding: 6%;
+    height: 200px;
+    margin-bottom: 2%;
+}
+.ourprocess h3{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+.dataslot1 h3{
+    font-size: 22px;
+    color: #FF9900;
+}
+.dataslot2 h3{
+    font-size: 22px;
+    color: #FF9900;
+}
+.imagesize{
+    width: 100%;
+    height: auto;
+}
+
+.sideline {
+    display: flex;
+    justify-content: center;
+}
+/* .borderpost:before{
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    display: block;
+    content: '';
+    background: linear-gradient(top,orange 50%,transparent 50%);
+    background-size: 100% 6px;
+    border: 1.5px solid #FF9900;
+    border-style: dotted;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+} */

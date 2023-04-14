@@ -20,9 +20,13 @@
     padding-bottom: 5px;
 }
 .stars{
-    text-align: center;
-    color: #ffdc12;
+ 
+    color: #FF9900;
     margin-bottom: 0;
+}
+
+.canva{
+    max-width: 800px;
 }
 
 .looking{
@@ -45,4 +49,26 @@
     margin: 0 auto;
     border-radius: 50%;
     margin-top: 3%;
+}
+
+.value{
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 2%;
+}
+.ourclients{
+    position: relative;
+}
+.ourclients:before{
+    position: absolute;
+    background-image: url(/images/slider/slider.png);
+    width: 100%;
+    height: 54%;
+    content: "";
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
