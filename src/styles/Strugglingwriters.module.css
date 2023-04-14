@@ -1,10 +1,9 @@
 .strugglingwriters{
-    /* background-color: #efefef; */
+    background-color: #fff;
     padding-top: 70px;
     padding-bottom: 70px;
 }
 .strugglingwriters h2{
-    max-width: 800px;
     margin: 0 auto;
 }
 .strugglingwriters p{

@@ -14,21 +14,21 @@ const Strugglingtogive = (props) => {
     <Container>
         <Row className={styles.forent}> 
             <Col md={7}>
-            <h2 className='colortextgrey font50 fw700 font-f mb-4'>{props.title}</h2>
-            <p className='textcolor font-f mb-4 font14'>You may be a victim of the following nuisances</p>
+            <h2 className='color-blue font50 fw700 font-f mb-4'>{props.title}</h2>
+            <p className='textcolor font-f mb-4 font15'>You may be a victim of the following nuisances</p>
             <div className={styles.slow}>
                 <ul className='p-0'> 
-                    <li className='textcolor font-f mb-2 font14'><TiTick size={25}  className={styles.rightcolor} /> {props.list1}</li>
-                    <li className='textcolor font-f mb-2 font14'><TiTick size={25}  className={styles.rightcolor} /> {props.list2}</li>
-                    <li className='textcolor font-f mb-2 font14'><TiTick size={25}  className={styles.rightcolor} />{ props.list3}</li>
-                    <li className='textcolor font-f mb-2 font14'><TiTick size={25}  className={styles.rightcolor} />{props.list4}</li>
+                    <li className='textcolor font-f mb-2 font15'><TiTick size={25}  className={styles.rightcolor} /> {props.list1}</li>
+                    <li className='textcolor font-f mb-2 font15'><TiTick size={25}  className={styles.rightcolor} /> {props.list2}</li>
+                    <li className='textcolor font-f mb-2 font15'><TiTick size={25}  className={styles.rightcolor} />{ props.list3}</li>
+                    <li className='textcolor font-f mb-2 font15'><TiTick size={25}  className={styles.rightcolor} />{props.list4}</li>
                 </ul>
 
                 <ul> 
-                    <li className='textcolor font-f mb-2 font14'><TiTick size={25}  className={styles.rightcolor} /> {props.list5}</li>
-                    <li className='textcolor font-f mb-2 font14'><TiTick size={25}  className={styles.rightcolor} /> {props.list6} </li>
-                    <li className='textcolor font-f mb-2 font14'><TiTick size={25}  className={styles.rightcolor} /> {props.list7}</li>
-                    <li className='textcolor font-f mb-2 font14'><TiTick size={25}  className={styles.rightcolor} /> {props.list8}</li> 
+                    <li className='textcolor font-f mb-2 font15'><TiTick size={25}  className={styles.rightcolor} /> {props.list5}</li>
+                    <li className='textcolor font-f mb-2 font15'><TiTick size={25}  className={styles.rightcolor} /> {props.list6} </li>
+                    <li className='textcolor font-f mb-2 font15'><TiTick size={25}  className={styles.rightcolor} /> {props.list7}</li>
+                    <li className='textcolor font-f mb-2 font15'><TiTick size={25}  className={styles.rightcolor} /> {props.list8}</li> 
                 </ul>
 
             </div>

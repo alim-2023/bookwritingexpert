@@ -17,20 +17,20 @@ import banslider4 from '../public/images/bannerimages/banslider4.png'
 
 const Banner = (props) => {
 
-  // const bannerlogo =
-  // [
+  const bannerlogo =
+  [
   
-  //   { banlogo:banslider1 },
-  //   // { banlogo:banslider2 },
-  //   { banlogo:banslider3 },
-  //   { banlogo:banslider4 },
-  //   { banlogo:banslider1 },
-  //   // { banlogo:banslider2 },
-  //   { banlogo:banslider3 },
-  //   { banlogo:banslider4 },
+    { banlogo:banslider1 },
+    // { banlogo:banslider2 },
+    { banlogo:banslider3 },
+    { banlogo:banslider4 },
+    { banlogo:banslider1 },
+    // { banlogo:banslider2 },
+    { banlogo:banslider3 },
+    { banlogo:banslider4 },
 
   
-  // ];
+  ];
 
 
   var bannerslider = {
@@ -165,7 +165,7 @@ const Banner = (props) => {
                       <Image className={`${styles.homelogoimgnone} img-fluid`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
 
 
-                   {/* <Slider {...bannerslider} className='mt-3'>
+                   <Slider {...bannerslider} className='mt-3'>
                    {bannerlogo.map((item, i) => {
                                   return(  
                       <div key={i}>
@@ -173,7 +173,7 @@ const Banner = (props) => {
                       </div>
                     )
                   })}
-                   </Slider> */}
+                   </Slider>
 
 
 

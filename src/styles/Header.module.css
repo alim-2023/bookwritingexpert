@@ -12,7 +12,7 @@
   margin-bottom: unset;
 }
 .menulinks {
-  padding: 11px 0 13px 22px;
+  padding: 11px 0 13px 30px;
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -138,6 +138,10 @@
     visibility: visible;
     width: 48.5%;
   }
+
+  .menulinks {
+    padding: 11px 0 13px 55px;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -146,6 +150,10 @@
     position: absolute;
     visibility: visible;
     width: 56%;
+  }
+
+  .menulinks {
+    padding: 11px 0 13px 30px;
   }
 }
 @media (max-width: 1280px) {
@@ -170,7 +178,6 @@
   }
 
   .menulinks {
-    padding: 11px 0 13px 17px;
     font-size: 12px;
   }
   .headertel {

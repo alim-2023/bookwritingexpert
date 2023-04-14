@@ -141,7 +141,7 @@ const numdat1 =
         <Container>
             <Row>
                 <Col md={12}>
-                    <h2 className='font-f t-center mb-5'>Our <Link className='colortextgrey textdocationnone' href="https://bookwritingexperts.com/">Book Writing Company</Link> Can Be Your One-Step Solution!</h2>
+                    <h2 className='font-f colortextgrey t-center mb-5'>Our <Link className='color-blue textdocationnone' href="https://bookwritingexperts.com/">Book Writing Company</Link> Can Be Your One-Step Solution!</h2>
                 </Col>
 
     <Col md={12}>
@@ -153,7 +153,7 @@ const numdat1 =
                                  <div key={i}>
                                     <h3 className='color-blue font-f font50 fw600 mb-4'>{item.num}</h3>
                                     <h4 className='colorta font-f font17 fw600 mb-4'>{item.title}</h4>
-                                    <p className={` ${styles.wrtingtext} font18 font-f textcolor maxwidth`}>{item.text}</p>
+                                    <p className={` ${styles.wrtingtext} font15 font-f textcolor maxwidth`}>{item.text}</p>
                                    <Image className='pt-5 img-fluid'  src={item.storiesimg} alt='Book Writing Experts'></Image>
                                  </div>
                          )
