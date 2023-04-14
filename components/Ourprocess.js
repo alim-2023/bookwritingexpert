@@ -4,7 +4,7 @@ import React from 'react'
 import styles from '@/styles/Ourprocess.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Image from 'next/image'
-import line from '/public/images/line/line.png'
+
 
 
 const Ourprocess = (props) => {
@@ -43,7 +43,7 @@ const Ourprocess = (props) => {
                 </Col>
                 <Col md={2} className={styles.sideline}>
                  
-<Image src={line} className='img-fluid h-100' />
+
 
                 </Col>
                 <Col md={5}>
