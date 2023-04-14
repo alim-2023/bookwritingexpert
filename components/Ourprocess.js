@@ -43,7 +43,7 @@ const Ourprocess = (props) => {
                 </Col>
                 <Col md={2} className={styles.sideline}>
                  
-<img src="./images/line/line.png"  className='img-fluid h-100' />
+<img src="/images/line/line.png"  className='img-fluid h-100' />
 
                 </Col>
                 <Col md={5}>
