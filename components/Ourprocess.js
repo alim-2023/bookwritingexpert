@@ -4,7 +4,7 @@ import React from 'react'
 import styles from '@/styles/Ourprocess.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Image from 'next/image'
-import line from '/public/images/line/line.webp'
+import line from '/public/images/line/line.png'
 
 
 const Ourprocess = (props) => {
