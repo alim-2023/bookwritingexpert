@@ -12,8 +12,8 @@ const Stopworrying = (props) => {
 <Container>
     <Row>
         <Col md={12}>
-            <h3 className='font22 font-f t-center color-blue fw500'> {props.title} </h3>
-            <h2 className='font48 color-white fw500 font-f t-center mt-4'>{props.subtitle}</h2>
+            <h3 className='font48 font-f t-center color-blue fw500'> {props.title} </h3>
+            <h2 className='font50 color-white fw500 font-f t-center mt-4'>{props.subtitle}</h2>
 
 
             <div className={styles.aligntop}>

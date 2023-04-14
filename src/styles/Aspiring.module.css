@@ -12,12 +12,12 @@
 
 
 .btn1{
-    background-image: linear-gradient(30deg, #e84e1b 0%, #f6a409 100%);
+    background-color: #FF9900;
     font: inherit;
     letter-spacing: inherit;
     padding: 1em 1em;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     text-transform: capitalize;
     transition: color 1s;
     border: 2px solid #EE9D2D;
@@ -29,7 +29,7 @@
 
 .btn1:hover{
     animation: stripes-move 1s infinite linear;
-    background-image: repeating-linear-gradient(30deg, #e84e1b 0%, #f6a409 100%);
+    
     border: 2px solid #EE9D2D;
     color: black;
 }
@@ -42,7 +42,7 @@
     letter-spacing: inherit;
     padding: 1em 1em;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     text-transform: capitalize;
     transition: color 1s;
     color: black;

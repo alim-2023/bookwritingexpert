@@ -52,7 +52,7 @@ const Header = () => {
                       <ul className={styles.border}>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/book-publishing-services">Book Publishing</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/book-promotion-services">Book Promotion</Link></li>
-                        <li className={styles.navlinks}><Link className={styles.menulinks} href="/book-writing-services">Book Writing</Link></li>
+                        <li className={styles.navlinks}><Link className={styles.menulinks} href="/ebook-writing-services">Ebook Writing</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/book-editing-services">Book Editing</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/book-marketing-services">Book Marketing</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/book-proofreading-services">Proofreading Services</Link></li>
@@ -76,7 +76,6 @@ const Header = () => {
                       <ul>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/children-book-illustrations-services">Children's Book Illustrations</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/digital-marketing-services">Digital Marketing</Link></li>
-                        <li className={styles.navlinks}><Link className={styles.menulinks} href="/ebook-writing-services">Ebook Writing</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/book-formatting-services">Formatting Services</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/audiobook-recording-services">Audio Book Recording</Link></li>
                         <li className={styles.navlinks}><Link className={styles.menulinks} href="/web-content-writing-services">Web Content Writing</Link></li>

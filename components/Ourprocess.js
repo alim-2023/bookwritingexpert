@@ -13,7 +13,7 @@ const Ourprocess = (props) => {
         <Container>
             <Row>
                 <Col md={12}>
-                    <h2 className='font17 fw500 t-center mb-5 color-black'> {props.title} </h2>
+                    <h2 className='font50 fw500 t-center mb-5 color-black'> {props.title} </h2>
                 </Col>
             </Row>
             <Row className={styles.borderpost}>

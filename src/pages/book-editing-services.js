@@ -92,7 +92,7 @@ const Bookpublishingservices = () => {
 
 
 
-const  geta = <span>Reliable <Link className='colortextgrey textdocationnone hover' href='/book-editing-services'> Editing Solutions <br></br> </Link> For All!</span>
+const  geta = <span>Reliable <Link className='color-blue textdocationnone hover' href='/book-editing-services'> Editing Solutions <br></br> </Link> For All!</span>
 
 
 
@@ -218,9 +218,9 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 className='color-lightgray   font14   t-center font-f mb-2'>Our Approach</h2>  
+<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
 
-<p className='font17 font-f fw500 color-black t-center pb-2'>We Want You To Get The Most Out Of Your <Link className='textdocationnone color-black hover' href='/book-editing-services'> <br></br>Online Book Editing!</Link></p>
+<p className='font50 font-f fw500 color-black t-center pb-2'>We Want You To Get The Most Out Of Your <Link className='textdocationnone color-blue hover' href='/book-editing-services'> <br></br>Online Book Editing!</Link></p>
 
 </Row>
 
