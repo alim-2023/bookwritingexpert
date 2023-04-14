@@ -92,14 +92,14 @@ const Bookpublishingservices = () => {
 
 
 
-const  geta = <span>Book Promotion Has Just Become Easier With The Global <Link className='colortextgrey textdocationnone hover' href='/book-marketing-services'>Book Marketing Services.</Link></span>
+const  geta = <span>Book Promotion Has Just Become Easier With The Global <Link className='color-blue textdocationnone hover' href='/book-marketing-services'>Book Marketing Services.</Link></span>
 
 
 
 const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='https://bookwritingexperts.com/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
 
 
-const posdata = <span>It’s Time You Let The <Link className='textdocationnone color-white hover' href='/book-marketing-services'>Marketing Experts</Link> Take Charge Of Your  <Link className='textdocationnone color-white hover' href='/book-marketing-services'>Book Promotions!</Link> </span>
+const posdata = <span>It’s Time You Let The <Link className='textdocationnone color-white hover' href='/book-marketing-services'>Marketing Experts</Link> Take Charge Of Your  <Link className='textdocationnone color-blue hover' href='/book-marketing-services'>Book Promotions!</Link> </span>
 
 
 
@@ -135,7 +135,7 @@ const fine = [
 
 ]
 
-const dateset = <span>Need An Expert For Your <br></br><Link className='textdocationnone colortextgrey hover' href='/book-marketing-services'> Book Promotions? </Link>  </span>
+const dateset = <span>Need An Expert For Your <br></br><Link className='textdocationnone color-blue hover' href='/book-marketing-services'> Book Promotions? </Link>  </span>
 
 
 
@@ -222,9 +222,9 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 className='color-lightgray   font14   t-center font-f mb-2'>Our Approach</h2>  
+<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
 
-<p className='font17 font-f fw500 color-black t-center pb-2'>Get More Readers On-Board With Our <Link className='textdocationnone color-black hover' href='/book-marketing-services'> <br></br> Online Book Marketing Services</Link></p>
+<p className='font50 font-f fw500 color-black t-center pb-2'>Get More Readers On-Board With Our <Link className='textdocationnone color-blue hover' href='/book-marketing-services'> <br></br> Online Book Marketing Services</Link></p>
 
 </Row>
 

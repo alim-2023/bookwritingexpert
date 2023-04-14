@@ -92,14 +92,14 @@ const Bookpublishingservices = () => {
 
 
 
-const  geta = <span>Our <Link className='colortextgrey textdocationnone hover' href='/book-proofreading-services'> Ghostwriting </Link>Team Has A Knack For Telling Stories</span>
+const  geta = <span>Our <Link className='color-blue textdocationnone hover' href='/book-proofreading-services'> Ghostwriting </Link>Team Has A Knack For Telling Stories</span>
 
 
 
 const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='https://bookwritingexperts.com/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
 
 
-const posdata = <span>Get The <Link className='textdocationnone color-white hover' href='/book-proofreading-services'>Top Ghostwriting Services</Link> From The Writers Who Best Understands The Readers?</span>
+const posdata = <span>Get The <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>Top Ghostwriting Services</Link> From The Writers Who Best Understands The Readers?</span>
 
 
 
@@ -135,10 +135,10 @@ const fine = [
 
 ]
 
-const dateset = <span>A Complete Solution To Your  <br></br><Link className='textdocationnone colortextgrey hover' href='/book-proofreading-services'>Ghost Writing </Link> Essentials Is Here! </span>
+const dateset = <span>A Complete Solution To Your  <br></br><Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>Ghost Writing </Link> Essentials Is Here! </span>
 
 
-const proofreading =  <span> Our <Link className='textdocationnone colortextgrey hover' href='/book-proofreading-services'> Ghostwriting Service</Link> Process </span>
+const proofreading =  <span> Our <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'> Ghostwriting Service</Link> Process </span>
 
 
 
@@ -225,9 +225,9 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 className='color-lightgray   font14   t-center font-f mb-2'>Our Approach</h2>  
+<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
 
-<p className='font17 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone colortextgrey hover' href='/book-proofreading-services'>Book Marketing</Link></p>
+<p className='font50 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>Book Marketing</Link></p>
 
 </Row>
 
