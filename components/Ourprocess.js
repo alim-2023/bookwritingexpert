@@ -4,7 +4,7 @@ import React from 'react'
 import styles from '@/styles/Ourprocess.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Image from 'next/image'
-import mission3 from '../public/images/sideline/sidimg.PNG'
+import mission3 from '../public/images/sideline/sidimg.png'
 
 
 const Ourprocess = (props) => {
