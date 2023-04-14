@@ -39,7 +39,7 @@ const Banner = (props) => {
     autoplay:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
@@ -161,19 +161,28 @@ const Banner = (props) => {
                   
 
 { props.homebanlogos ?  
+
+<div class="row">
+<div class="col-12 col-lg-9">
+
                   <div className={styles.homebannerlogo}>
                       <Image className={`${styles.homelogoimgnone} img-fluid`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
-
-
-                   <Slider {...bannerslider} className='mt-3'>
-                   {bannerlogo.map((item, i) => {
-                                  return(  
-                      <div key={i}>
-                        <Image className='pt-3 img-fluid brandnewlogo'  src={item.banlogo} alt='book_writing_cube'></Image>
                       </div>
-                    )
-                  })}
-                   </Slider>
+                   </div>
+
+                   <div class="row">
+                    <div class="col-12 col-lg-8">
+                      <Slider {...bannerslider} className='mt-3'>
+                      {bannerlogo.map((item, i) => {
+                                      return(  
+                          <div key={i}>
+                            <Image className='pt-3 img-fluid brandnewlogo'  src={item.banlogo} alt='book_writing_cube'></Image>
+                          </div>
+                        )
+                      })}
+                      </Slider>
+                    </div>
+                   </div>
 
 
 

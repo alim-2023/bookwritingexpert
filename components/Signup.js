@@ -13,7 +13,7 @@ const Signup = () => {
                     <form>
                       
                 
-                    <h4 className={styles.getup}>Signup to get up to <span className={styles.offfree}>50%</span> off</h4>
+                    <h4 className={styles.getup}> <span className={styles.offfree}> <span className='color-black'>Contact</span> Form</span> </h4>
 
                         <input type="text" className={styles.nametext} required  name="first" placeholder="Full Name..." />
 
@@ -24,23 +24,7 @@ const Signup = () => {
                         <input type="number" className={styles.nametext} required name="Phone Number" placeholder="Phone Number" /> 
 
 
-                        <select className={styles.nametext}>
-                            <option> Please select Service(s) </option>
-                            <option>Ghost Writing</option>
-                            <option>Editing</option>
-                            <option>Publishing</option>
-                            <option>Proofreading</option>
-                            <option>Audio Book</option>
-                            <option>Blog Writing</option>
-                            <option>Website Content Writing</option>
-                            <option>Book Cover</option>
-                            <option>Book Promotion</option>
-                            <option>Formatting</option>
-                            <option>e-Book Writing</option>
-                            <option>Book Video Trailer</option>
-                            <option>Author Website</option>
-                            <option>Article Writing</option>
-                        </select>
+                      
                        
                         <textarea required className={styles.textareanew} name="message" cols="40"  rows="10" placeholder="Enter a brief description about your project"></textarea>
                         <button className={styles.freebtn} type="submit">Submit </button>
