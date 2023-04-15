@@ -172,7 +172,7 @@ const Banner = (props) => {
 
                    <div class="row">
                     <div class="col-12 col-lg-8">
-                      <Slider {...bannerslider} className='mt-3'>
+                      <Slider {...bannerslider} className='mt-3 homeSlider'>
                       {bannerlogo.map((item, i) => {
                                       return(  
                           <div key={i}>

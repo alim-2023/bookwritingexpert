@@ -6,27 +6,25 @@ import Link from 'next/link'
 const Experts = (props) => {
   return (
     <>
-        <div className={styles.experts}>
+      <div className={styles.experts}>
 
-            <Container>
-                <Row>
-                    <Col md={12}>
-                            <h2 className='fw700 font48 color-white font-f t-center font-f mb-4'>{props.title}</h2>
-                            <p className='fw500 color-white t-center font-f mb-3'> {props.text}</p>
+        <Container>
+          <Row>
+            <Col md={12}>
+              <h2 className='fw700 font50 color-white font-f t-center font-f mb-4'><span className={styles.exprtSpan}>Book Writing Experts</span> Is waiting for you to Ask for a <span className={styles.exprtSpan}>Professional Ghostwriter</span>{props.title}</h2>
+              <p className='fw500 color-white t-center font-f mb-3'> {props.text}</p>
 
-                            <div className={`${styles.expertnum} t-center font-f font-f`}>
-                              <Link className='fw500 color-white font18 font-f'  href="tel:+1-302-883-8877">{props.number}</Link>
-                            </div>
-                            <div className={styles.expertdiscuss}>
-                              <Link className={styles.discuss1} href="#">{props.discuss}</Link>
-                            </div>
-                            
+              <div className={`${styles.expertnum} t-center font-f font-f`}>
+                <Link className='fw500 color-white font18 font-f' href="tel:+1-302-883-8877">{props.number}</Link>
+              </div>
+              <div className={styles.expertdiscuss}>
+                <Link className={styles.discuss1} href="#">{props.discuss}</Link>
+              </div>
+            </Col>
+          </Row>
+        </Container>
 
-                    </Col>
-                </Row>
-            </Container>
-
-</div>  
+      </div>
     </>
   )
 }

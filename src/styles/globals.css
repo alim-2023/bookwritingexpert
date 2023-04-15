@@ -274,18 +274,21 @@ body{ font-family: 'Poppins'; }
 
 }
 
-
-
 .faqssideicon .accordion-button:after {
   margin-left: unset;
 }
-
-
 
 .faqheading .accordion-button:focus {
   border-color: unset;
   box-shadow: unset;
 }
+
+/* Farooq Css */
+
+.slick-slider.homeSlider img{
+  filter: brightness(100) invert(1);
+}
+
 
 @media (max-width:1280px)  {
 

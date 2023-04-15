@@ -142,13 +142,13 @@ export default function Home() {
 
         {/* Talk To Our Experts! */}
         <Experts
-          title="Talk To Our Experts!"
-          text="Call and get a free consultation, sample, & a price quote."
+          title=""
+          text="Hit us a message, or give us a call, and make the most of our Professional Ghostwriters."
           number="+1-302-883-8877"
           discuss="LET'S DISCUSS"
         />
 
-        <Professionalghostwriter />
+        {/* <Professionalghostwriter /> */}
 
         {/* Talk To Our Whatourclients! */}
         <Whatourclients />

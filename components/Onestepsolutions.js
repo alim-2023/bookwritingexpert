@@ -13,13 +13,11 @@ import Slider from 'react-slick'
 
 // images
 
-import book100 from '../public/images/stepsolution/book-100.webp'
-import book101 from '../public/images/stepsolution/book-101.webp'
-import book102 from '../public/images/stepsolution/book-102.webp'
-import book103 from '../public/images/stepsolution/book-103.webp'
-import book104 from '../public/images/stepsolution/book-104.webp'
-import book105 from '../public/images/stepsolution/book-105.webp'
-import book106 from '../public/images/stepsolution/book-106.webp'
+import book100 from '../public/images/thousandsofstruggling/Book-Mockup.png'
+import book101 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
+import book102 from '../public/images/thousandsofstruggling/Book-Mockup3.png'
+import book105 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
+import book106 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
 
 const Onestepsolutions = () => {
 
@@ -80,19 +78,6 @@ const numdat1 =
         text:numdata5,
         storiesimg:book105 
     },
-      { 
-        num: '06',
-        title: 'Adventure',
-        text:numdata6,
-        storiesimg:book104
-     },
-     { 
-        num: '07',
-        title: 'Novels',
-        text:numdat7,
-        storiesimg:book103
-     },
-
     
     ];
 
@@ -154,7 +139,7 @@ const numdat1 =
                                     <h3 className='color-blue font-f font50 fw600 mb-4'>{item.num}</h3>
                                     <h4 className='colorta font-f font17 fw600 mb-4'>{item.title}</h4>
                                     <p className={` ${styles.wrtingtext} font15 font-f textcolor maxwidth`}>{item.text}</p>
-                                   <Image className='pt-5 img-fluid'  src={item.storiesimg} alt='Book Writing Experts'></Image>
+                                   <Image className='img-fluid'  src={item.storiesimg} alt='Book Writing Experts'></Image>
                                  </div>
                          )
                        })}

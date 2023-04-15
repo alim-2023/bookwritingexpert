@@ -2,7 +2,6 @@
     background-color: #fff;
     padding-top: 70px;
     padding-bottom: 70px;
- 
     display: flex;
     align-items: center;
 
@@ -12,12 +11,12 @@
     gap: 50px;
 }
 .btnget1 {
-    background-image: linear-gradient(30deg,#e84e1b 0%,#f6a409 100%);
+    background-color: #fc9e31;
     font: inherit;
     letter-spacing: inherit;
     padding: 1em 1em;
     border: none;
-    border: 2px solid #ee9d2d;
+    border: 2px solid #fc9e31;
     border-radius: 5px;
     text-transform: capitalize;
     transition: color 1s;
@@ -43,8 +42,8 @@
 }
 .btnget2:hover {
     animation: stripes-move 1s infinite linear;
-    background-image: repeating-linear-gradient(30deg,#e84e1b 0%,#f6a409 100%);
-    border: 2px solid #ee9d2d;
+    background-color: #fc9e31;
+    border: 2px solid #fc9e31;
     color: #fff;
 }
 .rightcolor{
