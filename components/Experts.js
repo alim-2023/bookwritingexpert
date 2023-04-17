@@ -11,7 +11,7 @@ const Experts = (props) => {
         <Container>
           <Row>
             <Col md={12}>
-              <h2 className='fw700 font50 color-white font-f t-center font-f mb-4'><span className={styles.exprtSpan}>Book Writing Experts</span> Is waiting for you to Ask for a <span className={styles.exprtSpan}>Professional Ghostwriter</span>{props.title}</h2>
+              <h2 className='fw700 font50 color-white font-f t-center font-f mb-4'>{props.title}</h2>
               <p className='fw500 color-white t-center font-f mb-3'> {props.text}</p>
 
               <div className={`${styles.expertnum} t-center font-f font-f`}>
