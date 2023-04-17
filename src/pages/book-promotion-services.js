@@ -24,7 +24,11 @@ import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-
+import Makestoriesnew from '../../components/Makestoriesnew'
+import Lululogos from '../../components/Lululogos'
+import Stillonthefence from '../../components/Stillonthefence'
+import drivethebook1 from '/public/images/drivethebook/1.png'
+import Whychoosebook from '../../components/Whychoosebook'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -60,33 +64,33 @@ const Bookpublishingservices = () => {
    
       
       
-      const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+      const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone color-blue hover' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
       
       
       const whybookpublishingdata = [
-      
-      {
-        title: 'How can I publish my book?',
-        text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+
+        {
+          title: 'Why Do I Need Book Promotion Services?',
+          text:  'There are a lot of reasons why you might need book promotion services. Perhaps you are self-publishing and want to make sure your book gets seen by as many people as possible. Or maybe you have got a traditional publisher, but they are not doing much to promote your book. In either case, working with a book promotion company can help you get your book in front of more readers.',
+          col6: '6',
+        },
+        {
+          title: 'What Kind of Services Do Book Promotion Companies Offer?',
+          text: 'Book promotion companies offer a wide range of services, from helping you create a social media campaign to organizing a book tour. They can also provide more general marketing and publicity assistance, such as drafting press releases, working with book reviewers, or kindle book promotion services for authors.',
+          col6: '6',
+        },
+        {
+        title:'How Much Do Book Promotion Services Cost?',
+        text:'The cost of book promotion services varies depending on the company you work with and the scope of the project. In general, you can expect to pay several hundred dollars for basic services and upwards of a few thousand for more comprehensive campaigns.',
         col6: '6',
-      },
-      {
-        title: 'What’s different about Self Publishing?',
-        text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+        },
+        {
+        title:'How Does Book Promotion Help Businesses?',
+        text: 'Book promotion can help businesses in many ways. It can generate awareness for a companys products or services, help create or increase brand recognition, and even drive sales. Promotions can be targeted to specific audiences and can take many forms, from online ads and social media campaigns to in-person events and personal interactions. When done correctly, book promotion can be an extremely effective marketing tool. It can reach a wide audience, build interest and excitement, and ultimately help boost a companys bottom line. With so much potential, it is no wonder that businesses of all sizes are turning to book promotion to help them grow and succeed.',
         col6: '6',
-      },
-      {
-      title:'How much does it cost to have a book published?',
-      text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
-      col6: '6',
-      },
-      {
-      title:'Can I publish on different publishing platforms?',
-      text: datapost,
-      col6: '6',
-      },
-      
-      ]
+        },
+        
+        ]
 
 
 
@@ -138,6 +142,49 @@ const fine = [
 const dateset = <span>Need An Expert For Your <br></br><Link className='textdocationnone color-blue hover' href='/book-promotion-services/'> Book Promotions? </Link>  </span>
 
 
+
+const reasons = [
+
+  {
+    title:'Proven Track Record',
+    text:'Our company has a proven track record of successful book promotion campaigns.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Team of Marketing Gurus',
+    text:'Book Writing Cube has a team of experienced and creative professionals who can provide customized book promotion services. Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our book marketing services make sure the needs and preferences of the target readers are met.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Cost-Effective Solutions',
+    text:'We offer cost-effective book promotion services for authors that fit any budget. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.',
+    col:'6',
+    classnum: 'number',
+  },
+
+  {
+    title:'Extensive Network',
+    text:'We bear a wide range of contacts and resources to promote your book effectively. We`ve helped authors from all genres and backgrounds achieve their publishing goals, and we can do the same for you.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Deep Understanding',
+    text:'We have a deep understanding of the book promotion process and know how to get results.',
+    col:'6',
+    classnum: 'number',
+  },
+  {
+    title:'Result-driven Approach',
+    text:'We are committed to providing the best possible online book promotion services and achieving the desired results for our clients.',
+    col:'6',
+    classnum: 'number',
+  },
+
+
+]
 
 
   return (
@@ -254,15 +301,29 @@ btn =  {item.btn}
 />
 
 
+
+
+
+{/* Talk To Our Whatourclients! */}
+   <Whatourclients />
+
+
+{/* Makestories */}
+<Makestoriesnew
+title='Our Recent Book Promotion Projects That Made Headlines!'
+para='Here`s a list of the projects we nailed with our marketing expertise.'
+/>
+
+
 {/* Whybookpublishing */}
 <div className={styles.whybookpublishing}>
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Untangle The Complexity Of Your Manuscript Selling With Our Book Marketing Services!</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-       Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
-    </p>
+    Book Writing Cube is a creative studio that offers book promotion services to help authors and business personas get their work noticed by potential readers. We offer various services to suit your needs, including book trailer creation, social media marketing, and more. We're here to help you get your work out there and seen by as many people as possible. Here are a few FAQs that our professional book marketers curated to add information to your knowledge bag.
+                    </p>
 
   </Row>
 
@@ -270,14 +331,16 @@ btn =  {item.btn}
       {whybookpublishingdata.map((item, i) =>
         <Whybookpublishing  key={i}
           title={item.title}
-          text={item.text}
-          col6={item.col6}
+          text ={item.text}
+          col6 ={item.col6}
         />
       )}
     </Row>            
   </Container>   
 </div>
 
+{/* Lululogos components */}
+<Lululogos/>
 
 
 
@@ -285,33 +348,44 @@ btn =  {item.btn}
 
 
 
+{/* Stillonthefence component */}
+
+<Container className='still'>
 
 
+<Row >
+<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Still On the Fence? We Have Reasons For You To Confide In Us!</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
 
 
+{/* Why Choose Book Writing Cube? */}
+<Whychoosebook
+   title="Here’s How We Buckle up To Drive the Book Promotion Engine!"
+  text="We have a team of marketing maestros who maximize the marketing channels and make your book the talk of the town. Here is a recipe of how their marketing is cooked to perfection:"
+  whychoose= {drivethebook1}
+ />
 
 
-
-
-   {/* Talk To Our Whatourclients! */}
-   <Whatourclients />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{/* Aspiring */}
+<Aspiring
+ title= 'Making Your Book a Stellar Addition to the Literature World!'
+ text="If you want to watch your work take off and reach new heights, Book Writing Cube may help you do the trick. With extended years of experience in the industry, we know exactly what it takes to get your book noticed and gain maximum exposure. Call us now to take your book to the next level!"
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+/>
 
 
 

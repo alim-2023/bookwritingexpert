@@ -3,7 +3,7 @@ import styles from '@/styles/Aspiring.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
-import Freequote from './Freequote'
+import Signup from './Signup'
 
 
 const Aspiring = (props) => {
@@ -41,7 +41,7 @@ const Aspiring = (props) => {
 
  :
  
- <Freequote formsaspire = 'formsaspire' />
+ <Signup />
          
         }
 

@@ -9,9 +9,14 @@ import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-
+import bookwritingcanbe from '/public/images/bookwritingcanbe/bookwritingcanbe.png'
 import together from '/public/images/together/together.png'
-
+import whychooseourbookeditingservices1 from '/public/images/whychooseourbookeditingservices/1.png'
+import whychooseourbookeditingservices2 from '/public/images/whychooseourbookeditingservices/2.png'
+import whychooseourbookeditingservices3 from '/public/images/whychooseourbookeditingservices/3.png'
+import whychooseourbookeditingservices4 from '/public/images/whychooseourbookeditingservices/4.png'
+import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
+import drivethebook1 from '/public/images/whychoosebooks/bookeditingprocess.png'
 
 // components
 import Banner from '../../components/Banner'
@@ -24,7 +29,14 @@ import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-
+import Makestoriesnew from '../../components/Makestoriesnew'
+import Stillonthefence from '../../components/Stillonthefence'
+import Lululogos from '../../components/Lululogos'
+import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
+import Selfpublishing from '../../components/Selfpublishing'
+import Whychoosebook from '../../components/Whychoosebook'
+import Formattingservices from '../../components/Formattingservices'
+import Tablelayout from '../../components/Tablelayout'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -32,6 +44,9 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 
 const Bookpublishingservices = () => {
+  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+
+  const text = <span>This type of <Link className='textdocationnone' href="/book-editing-services"> ebook editing service </Link>  is also called Mechanical Editing and sometimes referred to as Line Editing. The editor's singular job is to make sure the story has a more "professional" approach and fill any gaps in the original plot.</span>;
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>  Professional and unmatched</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Editing Services </Link>  <span className='d-block'>for all the Idealists within their reach</span> </h1>;
 
@@ -64,30 +79,30 @@ const Bookpublishingservices = () => {
       
       
       const whybookpublishingdata = [
-      
-      {
-        title: 'How can I publish my book?',
-        text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
-        col6: '6',
-      },
-      {
-        title: 'What’s different about Self Publishing?',
-        text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
-        col6: '6',
-      },
-      {
-      title:'How much does it cost to have a book published?',
-      text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
-      col6: '6',
-      },
-      {
-      title:'Can I publish on different publishing platforms?',
-      text: datapost,
-      col6: '6',
-      },
-      
-      ]
 
+        {
+          title: 'The predetermined prerequisite:',
+          text:  'Once your novel is completed, thorough read and content assessment are of crucial importance. From fixing grammar errors to pinpointing the structural improvements, our online book editor ensures the manuscript is finalized to perfection.',
+          col6: '6',
+        },
+        {
+          title: 'The much-needed assistance:',
+          text: 'Reading and re-reading every line and pondering over each comma and semi-colon are surely mind-numbing aspects of book writing. The professional book editors have the right skills and prowess to correct, improve, and fine-tune the content.',
+          col6: '6',
+        },
+        {
+        title:'The must-have consultation:',
+        text:'We know you take great pride in your work; we respect and value that. However, an expert’s advice does make all the difference. Our book writing editor helps you figure out the why’s and how’s of giving your work a professional touch.',
+        col6: '6',
+        },
+        {
+        title:'The proven technique:',
+        text: 'Editing requires constant work. Hiring book editing and formatting services can save you the hassle of time and effort investment. Besides, when you know the best-in-town has your manuscript taken care of, you can give up worrying about if it would be a bestseller—because that’s one thing we don’t get wrong!',
+        col6: '6',
+        },
+        
+        ]
+        
 
 
 
@@ -136,6 +151,49 @@ const fine = [
 
 const dateset = <span>  Tired Of Making Edits In <br></br> Your Draft? </span>
 
+
+const reasons = [
+
+  {
+    title:'World-Class bookwriting Team',
+    text:'Work with the industry’s top writers, editors, and publishing strategists. Our team approach gives you the best chance for success.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Personalized Strategic Approach',
+    text:'Our process begins with 4extensive publishing strategy sessions to ensure we develop a plan to achieve your goals.',
+    classnum: 'number1',
+   
+  },
+  {
+    title:'Refined Process',
+    text:'Enjoy the efficiency and dependability of our professionally managed bookwriting process.',
+    classnum: 'number1',
+   
+  },
+
+  {
+    title:'Book Writing experts',
+    text:'Our team includes #1 New York Times- Book Writers and award-winning authors for almost every genre.',
+    classnum: 'number1',
+  
+  },
+  {
+    title:'Big-5 Editors',
+    text:'Your project will be managed and edited by a former acquisitions editor from a Big-5 publisher with numerous New York Times - Book Writing titles.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Publishing Navigation',
+    text:'We guide you through every step of the book publishing process. We can place your book directly with traditional publishers or help you choose the ideal hybrid publishing solution.',
+    classnum: 'number1',
+   
+  },
+
+
+]
 
   return (
    <>
@@ -276,14 +334,40 @@ num5 = '05'
 
 
 
+
+
+
+
+
+
+
+
+   {/* Talk To Our Whatourclients! */}
+   <Whatourclients />
+
+
+
+
+
+{/* Makestories */}
+<Makestoriesnew
+title='Our Book Editing Projects'
+para='Let Our Book Editing Team Help You.'
+/>
+
+
+
+
+
+
 {/* Whybookpublishing */}
 <div className={styles.whybookpublishing}>
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Why Do You Need Professional Book Editing Services?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-       Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    Editing is a meticulous process, one that requires severely dedicated efforts and time to accomplish. Finishing a novel is a job well done, so why not relax back and have someone take the load off.
     </p>
 
   </Row>
@@ -306,31 +390,91 @@ num5 = '05'
 
 
 
+{/* Lululogos components */}
 
-   {/* Talk To Our Whatourclients! */}
-   <Whatourclients />
-
-
-
-
+<div className='mt-5'>
+<Lululogos/>
+</div>
 
 
+<Container className='servicetitle'>
+  <Row>
+    <Col>
+      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Book Editing Services?</h2>
+    </Col>
+  </Row>
+</Container>
+
+{/* Dowecome */}
+{/* Selfpublishing */}
+<Selfpublishing
+ title='Developmental Editing'
+ text= 'We know that every word counts, so we`re committed to crafting captivating stories for any length and style. Our talented teams of book writing editor will take on your project from start to finish because no task is too big when you have people like us working together as part of such fantastic Book Editing & formatting services.'
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={whychooseourbookeditingservices1}
+ whychooseclass= "marketyourbook"
+ />
+
+
+{/* Whychoosebookwritingcube */}
+<Whychoosebookwritingcube
+ title='Editorial Assessment'
+ text= 'Proofreading is essential to the success of every project taken up by book editing services. It’s an integral part of finishing your manuscript. Online book editor and proofreader look for errors, so you know that all text was correct before sending or releasing documents published by third parties like publishers.'
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={whychooseourbookeditingservices2}
+ whychooseclass= "marketyourbook"
+ />
+
+
+
+{/* Selfpublishing */}
+<Selfpublishing
+ title='Structural Editing'
+ text= 'In a world where so much information is available, it`s essential to make sure what you re putting out there represents your best work. The process of our book editing services includes exploiting the complexities of this process and turning them into success possibilities. It is also an opportunity for professional book editors and publishers who want help perfecting their craftsmanship with every word they type or publish.'
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={whychooseourbookeditingservices3}
+ whychooseclass= "marketyourbook"
+ />
+
+
+{/* Whychoosebookwritingcube */}
+<Whychoosebookwritingcube
+ title='Copy Editing'
+ text= {text}
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+image={whychooseourbookeditingservices4}
+whychooseclass= "marketyourbook"
+ />
 
 
 
 
 
+{/* Why Choose Book Writing Cube? */}
+<Whychoosebook
+   title="Our Book Editing Process"
+  whychoose= {drivethebook1}
+ />
+
+
+<Formattingservices />
+
+
+<Tablelayout />
 
 
 
-
-
-
-
-
-
-
-
+{/* Aspiring */}
+<Aspiring
+ title= 'So, About That Story, Ready To Publish? Get Book Editing Done Today!'
+ text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+/>
 
 
 

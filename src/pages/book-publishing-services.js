@@ -6,12 +6,20 @@ import { Container,Row,Col } from 'react-bootstrap'
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 
+
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
 
-import together from '/public/images/together/together.png'
+import drivethebook1 from '/public/images/whychoosebooks/bookeditingprocess.png'
 
+import together from '/public/images/together/together.png'
+import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
+import copy from '/public/images/selfpublishingservices/copy.png'
+import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
+import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
+// import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
+// import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
 
 // components
 import Banner from '../../components/Banner'
@@ -24,7 +32,13 @@ import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-
+import Makestoriesnew from '../../components/Makestoriesnew'
+import Whychoosebook from '../../components/Whychoosebook'
+import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
+import Selfpublishing from '../../components/Selfpublishing'
+import Lululogos from '../../components/Lululogos'
+import Customersatisfaction from '../../components/Customersatisfaction'
+import Bookpublishingservicesweoffer from '../../components/Bookpublishingservicesweoffer'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -32,6 +46,10 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 
 const Bookpublishingservices = () => {
+  const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone color-blue hover' href="/book-publishing-services">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone color-blue hover' href="/book-publishing-services">self publishing</Link> .</span>;
+  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+      
+  const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="/book-publishing-services" className='textdocationnone color-blue hover'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className='d-block'>To Our Struggling Authors</span> </h1>;
 
@@ -58,7 +76,7 @@ const Bookpublishingservices = () => {
    
       
       
-      const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+      const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone color-blue hover' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
       
       
       const whybookpublishingdata = [
@@ -205,12 +223,16 @@ Dowecome= "publishmybook"
 />
 
 
+
+
 <Stopworrying 
  title = 'Stop worrying about publishing books!'
  subtitle = {posdata}
  btn1 = 'Get a free Proposal'
  btn2 = 'Talk to an expert'
 />
+
+
 
 
 
@@ -263,14 +285,26 @@ num5 = '05'
 
 />
 
-
 {/* Aspiring */}
 <Aspiring
  title= {dateset}
- text= 'Don’t wait.. Just act! Get connected with the most experienced online book publishing service today and become a professional author.'
+ text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+ subtext= 'Trust the marketing professionals for it, do not risk it!'
  number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  img= {together}
+/>
+
+
+  {/* Talk To Our Whatourclients! */}
+  <Whatourclients />
+
+
+
+{/* Makestories */}
+<Makestoriesnew
+title='Our Latest Book Publishing Projects'
+para='Let Our Book Publishing Team Help You'
 />
 
 
@@ -300,19 +334,99 @@ num5 = '05'
 </div>
 
 
+{/* Lululogos components */}
+<Lululogos/>
+
+
+<Container className='mt-5'>
+  <Row>
+    <Col>
+    <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
+    </Col>
+  </Row>
+</Container>
 
 
 
 
 
+{/* Selfpublishing */}
+<Selfpublishing
+ title='How Do "I Publish My Book?"'
+ text= 'Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution.'
+ subtext= 'We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited.'
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={publishmybook}
+ whychooseclass= "marketyourbook"
+ />
 
-   {/* Talk To Our Whatourclients! */}
-   <Whatourclients />
+{/* Whychoosebookwritingcube */}
+<Whychoosebookwritingcube
+ title='What Type Of Books Do We Publish?'
+ text= {text}
+ subtext={subtext}
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={typeofbooks}
+ whychooseclass= "marketyourbook"
+ />
+
+{/* Selfpublishing */}
+<Selfpublishing
+ title='How Many Copies Of Your Book Will Be Published?'
+ text= 'We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want.'
+ subtext={kindledirectpublishing}
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={copy}
+ whychooseclass= "marketyourbook"
+ />
+
+
+{/* Whychoosebookwritingcube */}
+<Whychoosebookwritingcube
+ title='How Will We Help You Market Your Book?'
+ text= 'Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
+ subtext= 'Our book marketing professionals will help your book and brand reach the success it deserves.'
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+image={marketyourbook}
+whychooseclass= "marketyourbook"
+ />
 
 
 
 
+{/* Customersatisfaction */}
+<Customersatisfaction/>
 
+
+
+ {/* Bookpublishingservicesweoffer */}
+ <Bookpublishingservicesweoffer />
+
+
+
+
+ <Whychoosebook
+   title="What Is Our Book Publishing Process?"
+  text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
+  whychoose= {drivethebook1}
+ />
+
+
+
+
+{/* Aspiring */}
+<Aspiring
+ title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
+ text= 'Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube.'
+
+ number="(213) 289 3888"
+ discuss="LET'S DISCUSS"
+
+/>
 
 
 

@@ -22,6 +22,17 @@ import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
 import Stillonthefence from '../../components/Stillonthefence'
 
+import Stopworrying from '../../components/Stopworrying'
+import Finetoothedbook from '../../components/Finetoothedbook'
+import Ourprocess from '../../components/Ourprocess'
+
+import mission1 from '/public/images/mission/1.png'
+import mission2 from '/public/images/mission/2.png'
+import mission3 from '/public/images/mission/3.png'
+
+import together from '/public/images/together/together.png'
+import Whatourclients from '../../components/Whatourclients'
+
 const Authormarketingpromotionservices = () => {
 
 
@@ -122,6 +133,50 @@ const reasons = [
 ]
 
 
+const  geta = <span>Get A Customized Solution By <Link className='color-blue hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
+
+
+const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
+
+
+const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
+
+
+
+const fine = [
+
+  {
+    img: mission1,
+    title:'Outstanding Marketing Campaigns',
+    text: 'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+    class: 'fintop',
+  
+
+  },
+
+  {
+    img: mission2,
+    title:'Outstanding Marketing Campaigns',
+    text:'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+    class: 'fintop',
+    
+
+  },
+
+  {
+    img: mission3,
+    title:'Outstanding Marketing Campaigns',
+    text:'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+    class: 'fintop',
+
+
+  },
+
+
+]
+
+const dateset = <span>Let’s <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
+
 
   return (
    <>
@@ -178,6 +233,102 @@ const reasons = [
 
    {/* partners components */}
 <Partners/>
+
+
+
+{/* Dowecome */}
+<Dowecome
+ title = {geta}
+ text={work}
+Dowecome= "publishmybook"
+
+/>
+
+
+
+
+<Stopworrying 
+ title = 'Stop worrying about publishing books!'
+ subtitle = {posdata}
+ btn1 = 'Get a free Proposal'
+ btn2 = 'Talk to an expert'
+/>
+
+
+
+
+
+<div className={`${styles.finetoothedbook} customizedbook`}>
+<Container>
+<Row >
+<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
+
+<p className='font50 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> <br></br> Book Marketing</Link></p>
+
+</Row>
+
+<Row className='gy-5'>
+{ fine.map((item, i) =>
+<Finetoothedbook   key={i}
+title =  {item.title}
+text =  {item.text}
+classtop =  {item.class}
+img1 =  {item.img}
+btn =  {item.btn}
+/>
+)}
+</Row>
+</Container>
+</div>
+
+<Ourprocess 
+title= 'Our Process'
+
+heading1 = 'Manuscript Submission'
+para1 = 'The writer contacts us for submission of their full-length manuscript, while submitting, we discuss our publishing rules and sign the contract.'
+num1 = '01'
+
+heading2 = 'Peers Review'
+para2 = 'Our experienced editors then review the manuscript and make the required changes with the writer’s permission.'
+num2 = '02'
+
+heading3 = 'Formatting and Typesetting'
+para3 = 'After the manuscript is reviewed by editors, our experts do the formatting and add images.'
+num3 = '03'
+
+heading4 = 'Book Production'
+para4 = 'We design the first copy of the book and take reviews from the writer. The rest of the books are produced on the same pattern while keeping all the important aspects into consideration.'
+num4 = '04'
+
+heading5 = 'Marketing, Publishing, and Distribution'
+para5 = 'Before publishing, we spread awareness about the book to create demand. And Voila! The book is published now!'
+num5 = '05'
+
+
+/>
+
+
+
+{/* Aspiring */}
+<Aspiring
+ title= {dateset}
+ text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+ subtext= 'Trust the marketing professionals for it, do not risk it!'
+ number="(213) 289 3888"
+ discuss="LET'S DISCUSS"
+ img= {together}
+/>
+
+
+  {/* Talk To Our Whatourclients! */}
+  <Whatourclients />
+
+
+
+
+
+
+
 
 {/* Makestories */}
 <Makestoriesnew

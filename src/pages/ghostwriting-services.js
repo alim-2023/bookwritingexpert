@@ -11,7 +11,9 @@ import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
 
 import together from '/public/images/together/together.png'
-
+import Whychoosebook from '../../components/Whychoosebook'
+import bookwritingprocess from '/public/images/whychoosebooks/bookwritingprocess.png'
+import bookmarketingservices3 from '/public/images/bookmarketingservices/3.png'
 
 // components
 import Banner from '../../components/Banner'
@@ -24,7 +26,10 @@ import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-
+import Makestoriesnew from '../../components/Makestoriesnew'
+import Stillonthefence from '../../components/Stillonthefence'
+import Lululogos from '../../components/Lululogos'
+import Selfpublishing from '../../components/Selfpublishing'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -32,6 +37,55 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 
 const Bookpublishingservices = () => {
+
+  const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
+
+const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+
+const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
+
+  const reasons = [
+
+    {
+      title:'World-class ghostwriting services Team',
+      text:'Work with the industry’s top writers, editors, and publishing strategists. Our team approach gives you the best chance for success.',
+      classnum: 'number1',
+      
+    },
+    {
+      title:'Personalized Strategic Approach',
+      text:'Our process begins with extensive writing, editing, and publishing strategies to ensure the development of a feasible project completion budget and timeline.',
+      classnum: 'number1',
+     
+    },
+    {
+      title:'Refined Process',
+      text:'Enjoy the efficiency and dependability of a professionally managed ghostwriting services process',
+      classnum: 'number1',
+     
+    },
+  
+    {
+      title:'Trained ghostwriters',
+      text:' Our team includes the industry’s best ghostwriters who have worked with acclaimed authors for every genre.',
+      classnum: 'number1',
+    
+    },
+    {
+      title:'Big-5 publishers',
+      text:'We work in collaboration with the industry’s top 5 publishers and publishing houses. Book Writing Cube guarantees you the acquisition of well-thought-through contracts with the best in town publishers',
+      classnum: 'number1',
+      
+    },
+    {
+      title:'Online and offline formats',
+      text:'We provide our clients with thorough guidance about the online and offline publishing processes. From well-designed paperback and hardcover to well-formatted eBook, our hybrid approach is our all-in-one publishing solution.',
+      classnum: 'number1',
+     
+    },
+  
+  
+  ]
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <span className='d-block'>Bring Your Ideas to Life With Our Expert</span> <Link className='textdocationnone color-blue hover' href="/book-proofreading-services"> Ghostwriting Services! </Link>   </h1>;
 
@@ -64,29 +118,29 @@ const Bookpublishingservices = () => {
       
       
       const whybookpublishingdata = [
-      
-      {
-        title: 'How can I publish my book?',
-        text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+
+        {
+          title: 'Your book needs dedication:',
+          text:  'The fact is writing a book is hard work—it takes revisions, edits, rewrites, and re-edits. Hiring a ghostwriter will actually ease the process for you. You wouldn’t have to go around structuring each sentence, correcting the content flow, and proofreading the story. Ghost writers are professionals trained to understand, grasp, and compose stories as ideated by their clients.',
+          col6: '6',
+        },
+        {
+          title: '2. You don’t have enough time:',
+          text: 'Of course, writing a book is no overnight job. It takes months or even years to finish one book. Professional ghostwriting services provide you with streamlined processes and structured approaches to help you complete your book project in your preferred timeline. All you have to do is submit the book idea, collaborate with your ghost writer, and wait on the finished product.',
+          col6: '6',
+        },
+        {
+        title:'You don’t know how it’s done:',
+        text:'Writing a book can be a learning and rewarding experience, but it demands severe time and effort investment. The trial and error process, the compilation stage, and the finalized product require some serious learning and skills. With ghost writing services, you can simply work in collaboration and learn from your assigned ghostwriter about the must-haves and have-nots of book writing.',
         col6: '6',
-      },
-      {
-        title: 'What’s different about Self Publishing?',
-        text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+        },
+        {
+        title:'You don’t have a brand:',
+        text: 'One of the perks of hiring ghostwriting services is that it comes with the advantage of branding and marketing services. Without a recognized brand, your work might not get the audience it deserves. The professional ghost writing services offer their clients affordable and client-oriented packages to help build their reputation and online presence.',
         col6: '6',
-      },
-      {
-      title:'How much does it cost to have a book published?',
-      text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
-      col6: '6',
-      },
-      {
-      title:'Can I publish on different publishing platforms?',
-      text: datapost,
-      col6: '6',
-      },
-      
-      ]
+        },
+        
+        ]
 
 
 
@@ -274,16 +328,40 @@ num5 = '05'
 />
 
 
+{/* Aspiring */}
+<Aspiring
+ title= {dateset}
+ text= 'Book Writing Experts has got you covered with the Best-Ghostwriting services. You are just one click away!'
+
+ number="(213) 289 3888"
+ discuss="LET'S DISCUSS"
+ img= {together}
+/>
 
 
-{/* Whybookpublishing */}
+
+
+   {/* Talk To Our Whatourclients! */}
+   <Whatourclients />
+
+
+
+
+{/* Makestories */}
+<Makestoriesnew
+title='Our Ghostwriting Services Projects'
+para='Become a renowned author with the help of our ghostwriters!'
+/>
+
+
+   {/* Whybookpublishing */}
 <div className={styles.whybookpublishing}>
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>When Should You Hire Ghost Writing Services?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-       Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    The right time to hire a ghostwriter is when you want to pen down your story. In fact, when the will is there but intangible realities like time don’t favor you—that’s when a ghostwriter comes into play!
     </p>
 
   </Row>
@@ -303,31 +381,67 @@ num5 = '05'
 
 
 
+
+
+
+{/* Stillonthefence component */}
+<div className={styles.stillbookwritingservices}>
+<Container >
+<Row >
+<h2 className='font48 fw900 color-white t-center font-f mb-5'>Why choose our ghostwriting services?</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
+
+</div>
+
+{/* Selfpublishing */}
+<Selfpublishing
+ title='And No, Hiring Ghostwriting Services Isn’t Illegal!'
+ text= 'The misconception has prevailed ever since the phenomenon of ghostwriting services came into being. The ghostwriter`s job is to get paid in return for his written masterpiece. Creativity and a great idea can come from anywhere and anyone, and it doesn`t surely mean everyone has the right ability to articulate it. Ghostwriters are professionals working to make those ambitions a reality. It is a legal collaboration to get that idea out there because those ghostwriters are trained to write, edit, and publish that work.'
+
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={bookmarketingservices3}
+ whychooseclass= "marketyourbook"
+ />
+
+
+{/* Lululogos components */}
+
+<div className='mt-5'>
+<Lululogos/>
+</div>
+
+{/* Why Choose Book Writing Cube? */}
+<Whychoosebook
+   title="What Is Our Ghost Writing Process?"
+  text="Our professional ghost writing services is a collaborative process between our client and our team that has the following steps:"
+  whychoose= {bookwritingprocess}
+ />
+
+
+
+
+
 {/* Aspiring */}
 <Aspiring
- title= {dateset}
- text= 'Book Writing Experts has got you covered with the Best-Ghostwriting services. You are just one click away!'
-
- number="(213) 289 3888"
+ title= 'At The End Of The Day, You Need The Whole Kit And Caboodle To Get It Down Right!'
+ text="Give us a call, or leave an email, and our experts will guide you through the entire process, needs, and packages for ghostwriting services your book!"
+ number="(302) 883-8877"
  discuss="LET'S DISCUSS"
- img= {together}
 />
-
-
-
-
-
-
-
-
-
-
-
-
-   {/* Talk To Our Whatourclients! */}
-   <Whatourclients />
-
-
 
 
 

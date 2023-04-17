@@ -15,25 +15,72 @@ import yourhowwhat from '/public/images/yourhowwhat/yourhowwhat.png'
 import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
 import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
 import copy from '/public/images/selfpublishingservices/copy.png'
+import mission1 from '/public/images/mission/1.png'
+import mission2 from '/public/images/mission/2.png'
+import mission3 from '/public/images/mission/3.png'
+import together from '/public/images/together/together.png'
 
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
+import Whatourclients from '../../components/Whatourclients'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
 import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
 
+import Stopworrying from '../../components/Stopworrying'
+import Finetoothedbook from '../../components/Finetoothedbook'
+import Ourprocess from '../../components/Ourprocess'
+import Selfpublishing from '../../components/Selfpublishing'
+
 const Childrenbookpublicationservices = () => {
 
+  const fine = [
+
+    {
+      img: mission1,
+      title:'Outstanding Marketing Campaigns',
+      text: 'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+      class: 'fintop',
+    
+  
+    },
+  
+    {
+      img: mission2,
+      title:'Outstanding Marketing Campaigns',
+      text:'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+      class: 'fintop',
+      
+  
+    },
+  
+    {
+      img: mission3,
+      title:'Outstanding Marketing Campaigns',
+      text:'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+      class: 'fintop',
+  
+  
+    },
+  
+  
+  ]
+
+
+  const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
+
+
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className='d-block'>To Our Struggling Authors</span> </h1>;
 
   const bannertext=[
     {
-      title: 'Children Book Publication Services That Make Kids Stories Fun To Read!',
+      title: newSpan,
       pra: 'Make the most of the immense value with Children’s Book Publishing!',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'childrenbookpublication',
+      banners:'bookpublishingservices',
      
        
 
@@ -48,7 +95,7 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
 
 
 const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
-
+const dateset = <span>Let’s <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
 
 const reasons = [
 
@@ -75,6 +122,14 @@ const reasons = [
 
 
 ]
+
+const  geta = <span>Get A Customized Solution By <Link className='color-blue hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
+
+
+
+
+const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
+
 
 
 
@@ -137,6 +192,98 @@ const reasons = [
    {/* partners components */}
 <Partners/>
 
+
+
+
+
+{/* Dowecome */}
+<Dowecome
+ title = {geta}
+ text={work}
+Dowecome= "publishmybook"
+
+/>
+
+<Stopworrying 
+ title = 'Stop worrying about publishing books!'
+ subtitle = {posdata}
+ btn1 = 'Get a free Proposal'
+ btn2 = 'Talk to an expert'
+/>
+
+
+<div className={`${styles.finetoothedbook} customizedbook`}>
+<Container>
+<Row >
+<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
+
+<p className='font50 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> <br></br> Book Marketing</Link></p>
+
+</Row>
+
+<Row className='gy-5'>
+{ fine.map((item, i) =>
+<Finetoothedbook   key={i}
+title =  {item.title}
+text =  {item.text}
+classtop =  {item.class}
+img1 =  {item.img}
+btn =  {item.btn}
+/>
+)}
+</Row>
+</Container>
+</div>
+
+<Ourprocess 
+title= 'Our Process'
+
+heading1 = 'Manuscript Submission'
+para1 = 'The writer contacts us for submission of their full-length manuscript, while submitting, we discuss our publishing rules and sign the contract.'
+num1 = '01'
+
+heading2 = 'Peers Review'
+para2 = 'Our experienced editors then review the manuscript and make the required changes with the writer’s permission.'
+num2 = '02'
+
+heading3 = 'Formatting and Typesetting'
+para3 = 'After the manuscript is reviewed by editors, our experts do the formatting and add images.'
+num3 = '03'
+
+heading4 = 'Book Production'
+para4 = 'We design the first copy of the book and take reviews from the writer. The rest of the books are produced on the same pattern while keeping all the important aspects into consideration.'
+num4 = '04'
+
+heading5 = 'Marketing, Publishing, and Distribution'
+para5 = 'Before publishing, we spread awareness about the book to create demand. And Voila! The book is published now!'
+num5 = '05'
+
+
+/>
+
+
+
+
+
+
+
+{/* Aspiring */}
+<Aspiring
+ title= {dateset}
+ text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+ subtext= 'Trust the marketing professionals for it, do not risk it!'
+ number="(213) 289 3888"
+ discuss="LET'S DISCUSS"
+ img= {together}
+/>
+
+ {/* Talk To Our Whatourclients! */}
+ <Whatourclients />
+
+
+
+
+
 {/* Makestories */}
 <Makestoriesnew
 title='Our Latest Children’s Book Publishing Projects'
@@ -148,20 +295,17 @@ para='Let Our Children’s Book Publishing Team Help You'
 
 
 
-
-
-{/* Dowecome */}
-<Dowecome
- title='Your how’s, what’s, and why’s of children’s book Publishing, answered!'
- text="Get this: Children’s Book Publishing is no easier task. Of course, the length of the book is relatively short, but précising an idea with a well-instilled message requires multiple rewrites and re-drafts. The goal here is to make your story as easy to visualize as possible. If a reader has to re-read a sentence for better understanding, you probably just missed the whole purpose of Children’s Book Publishing."
- subtext="Here at Book Writing Cube, we offer you the expertise of a well-put-together team of Children’s Book Publishing experts. From fixing the illustration sizes to designing it with catchy images, our teams know just to make your book every child’s must-have."
+{/* Selfpublishing */}
+<Selfpublishing
+ title='What Type Of Books Do We Publish?'
+ text= {text}
+ subtext={subtext}
  number="(302) 883-8877"
  discuss="LET'S DISCUSS"
-Dowecome= "publishmybook"
-image={yourhowwhat}
+ image={copy}
+ whychooseclass= "marketyourbook"
+ />
 
-
-/>
 
 
 

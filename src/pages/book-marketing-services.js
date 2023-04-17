@@ -5,13 +5,18 @@ import { Container,Row,Col } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
 
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
 
 import together from '/public/images/together/together.png'
-
+import bookmarketingservices1 from '/public/images/bookmarketingservices/1.png'
+import bookmarketingservices2 from '/public/images/bookmarketingservices/2.png'
+import bookmarketingservices3 from '/public/images/bookmarketingservices/3.png'
+import bookmarketingservices4 from '/public/images/bookmarketingservices/4.png'
+import bookmarketingprocess from '/public/images/whychoosebooks/bookmarketingprocess.png'
 
 // components
 import Banner from '../../components/Banner'
@@ -24,7 +29,11 @@ import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-
+import Bookmarketingprojects from '../../components/Bookmarketingprojects'
+import Lululogos from '../../components/Lululogos'
+import Selfpublishing from '../../components/Selfpublishing'
+import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
+import Whychoosebook from '../../components/Whychoosebook'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -33,6 +42,12 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
+
+  const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone color-blue hover' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone color-blue hover' href="#">self publishing</Link> .</span>;
+
+const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+
+const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone color-blue hover'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <Link className='textdocationnone color-blue hover' href="/book-marketing-services"> Book Marketing Services </Link> <span className='d-block'>That Saves You From Getting Lost In The Mix!</span>   </h1>;
 
 
@@ -60,34 +75,33 @@ const Bookpublishingservices = () => {
    
       
       
-      const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+      const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone color-blue hover' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
       
       
       const whybookpublishingdata = [
-      
-      {
-        title: 'How can I publish my book?',
-        text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
-        col6: '6',
-      },
-      {
-        title: 'What’s different about Self Publishing?',
-        text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
-        col6: '6',
-      },
-      {
-      title:'How much does it cost to have a book published?',
-      text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
-      col6: '6',
-      },
-      {
-      title:'Can I publish on different publishing platforms?',
-      text: datapost,
-      col6: '6',
-      },
-      
-      ]
 
+        {
+          title: 'The awareness & trust capture:',
+          text:  'The key is to make your work known before you make it available. We keep them eager to earn their trust, all while making sure your marketing content aligns with what they seek.',
+          col6: '6',
+        },
+        {
+          title: 'The socially responsive bond',
+          text: 'There’s nothing more value-adding in book marketing than social media engagement. The seal-the-deal tip here is to know what they expect. The readers are on the constant quest for good literature; keep them hooked on your work with posts, comments, and tags.',
+          col6: '6',
+        },
+        {
+        title:'The authenticity deal',
+        text:'Of course, it doesn’t mean your book should have a distinctive idea, just the marketing strategy. The trick here is to utilize the digital marketing strategies effectively for reputation building—audience-focused and platform-oriented content.',
+        col6: '6',
+        },
+        {
+        title:'The profit-generating finale',
+        text: 'Readers are quick and harsh assessors; they want to know why your work is worthy. Creating a focused book promotion plan is fundamental to a book’s success. Make the traction of your work the trump card for sales and profits amplification.',
+        col6: '6',
+        },
+        
+        ]
 
 
 
@@ -254,14 +268,23 @@ btn =  {item.btn}
 />
 
 
+
+   {/* Talk To Our Whatourclients! */}
+   <Whatourclients />
+
+
+   <Bookmarketingprojects />
+
+
+
 {/* Whybookpublishing */}
 <div className={styles.whybookpublishing}>
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Why Book Marketing?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-       Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    It is a toolset tailored to your requirements and approaches. Adjusting it to your budget, fine-tuning it to fit your audience preferences, and preparing it for maximized exposure. Unlike other book marketing companies, we capitalize on commercialization, ensuring the highest book sales & profits.
     </p>
 
   </Row>
@@ -280,23 +303,88 @@ btn =  {item.btn}
 
 
 
+{/* Lululogos components */}
+<Lululogos/>
 
 
 
 
 
+<Container className='servicetitle'>
+  <Row>
+    <Col>
+      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Book Marketing Services?</h2>
+    </Col>
+  </Row>
+</Container>
+
+{/* Selfpublishing */}
+<Selfpublishing
+ title='We Appreciate Our Clients Who Put Their Faith In Us.'
+ text= 'Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our affordable book marketing services guarantee excellence-- because no task is too big or difficult when you have people like us working together as part of such a one-stop solution.'
+ subtext= 'Good branding will amplify all your marketing efforts. But it takes professionalism and industry insight to make a trustworthy brand. To add to that, it takes much effort to find experienced professionals to get this job done—something only the best book marketing services can offer!'
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={bookmarketingservices1}
+ whychooseclass= "marketyourbook"
+ />
+
+
+{/* Whychoosebookwritingcube */}
+<Whychoosebookwritingcube
+ title='Through Collaboration'
+ text= 'Our book marketing services and packages include comprehensive publishing assistance and guidance. We will design a budget for you, covering the designing, publishing, printing, and editing needs of the book.'
+ subtext= 'Our book marketers formulate online and offline strategies to make your work a recognized read. Unlike other book marketing companies, our job isn’t done till your reputation is established as a renowned name in the industry.'
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={bookmarketingservices2}
+ whychooseclass= "marketyourbook"
+ />
+
+
+
+{/* Selfpublishing */}
+<Selfpublishing
+ title='Impeccable Customer Support'
+ text= 'For us, our customer’s needs are the top priority. Regardless of the different profiles or the website updates and revisions, our book marketing services aim to make your work a stellar addition to the literature world.'
+ subtext='From keeping up with marketing trends to revamping the strategies, the best book marketing services providers go the extra mile to make the bestselling title a reality.'
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={bookmarketingservices3}
+ whychooseclass= "marketyourbook"
+ />
+
+
+{/* Whychoosebookwritingcube */}
+<Whychoosebookwritingcube
+ title='Impressive Strategic Implementation'
+ text= 'Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our affordable book marketing services make sure the needs and preferences of the target readers are met.'
+ subtext= 'Our experts provide thorough guidance about different types and strategies of marketing to gain complete customer satisfaction. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.'
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+image={bookmarketingservices4}
+whychooseclass= "marketyourbook"
+ />
 
 
 
 
 
+<Whychoosebook
+   title="What Is Our Book Marketing Process?"
+  text="The best book marketing services come with an elaborate process of guaranteeing transparency and communication. We do this through an extensive process of updating our customers at every project stage. This helps the customer understand where we're coming from and be aware of what's going on."
+  whychoose= {bookmarketingprocess}
+ />
 
 
 
-   {/* Talk To Our Whatourclients! */}
-   <Whatourclients />
-
-
+{/* Aspiring */}
+<Aspiring
+ title= 'Ready To Make It Big With Our Book Marketing Services?'
+ text="You are the ambassador of your own book—but that doesn’t mean it is a singly endeavor. It is an ever-changing, seriously challenging, and quite honestly, commercially competitive industry. The right book marketing plan, calculated milestones, and extended exposure—the all’s and must-haves of making your work a chart-topper! Let’s collaborate!"
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+/>
 
 
 

@@ -11,8 +11,9 @@ import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
 
 import together from '/public/images/together/together.png'
-
-
+import bookwritingprocess from '/public/images/whychoosebooks/bookwritingprocess.png'
+import andnohiring from '/public/images/andnohiring/andnohiring.png'
+import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
 // components
 import Banner from '../../components/Banner'
 import Whybookpublishing from '../../components/Whybookpublishing'
@@ -24,7 +25,11 @@ import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-
+import Makestoriesnew from '../../components/Makestoriesnew'
+import Stillonthefence from '../../components/Stillonthefence'
+import Lululogos from '../../components/Lululogos'
+import Whychoosebook from '../../components/Whychoosebook'
+import Selfpublishing from '../../components/Selfpublishing'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -64,29 +69,29 @@ const Bookpublishingservices = () => {
       
       
       const whybookpublishingdata = [
-      
-      {
-        title: 'How can I publish my book?',
-        text:  'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
+
+        {
+          title: 'Why a book writer when I can write a book myself?',
+          text:  'Of course, you can write your book on your own, and we are sure that you would do a stellar job with it. But are you sure that you wouldn’t appreciate an extra helping hand? A helping hand from a professional eBook writer who has been doing this for longer than you had the idea of writing your own book. Our book writing services are a collaborative process between the client and our team where we merely help our client write the book that would sell well and is up to the industry’s standards. So I ask you again, won’t a professional know how to do this better?',
+          col6: '6',
+        },
+        {
+          title: 'How strict are you with your confidentiality?',
+          text: 'We are very strict and thorough when it comes to protecting the identity of our clients and our ghostwriters. We make our eBook ghostwriters sign an NDA where they aren’t allowed to take any material out of the office premises or tell anyone anything about the kind of project they are working on to protect our client’s identity. So many years in book writing services, and we have never had a scandal when it comes to protecting the anonymity of our client. As professional writing services, we maintain a very ethical decorum and play by the rules of the literary world.',
+          col6: '6',
+        },
+        {
+        title:'Such book editing services, are they very expensive?',
+        text:'It doesn’t have to be! We have various packages, depending upon the nature of your project and what kind of package would suit it better. And don’t worry, we have a very flexible mode of payment that wouldn’t cost you an arm and a leg.',
         col6: '6',
-      },
-      {
-        title: 'What’s different about Self Publishing?',
-        text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
+        },
+        {
+        title:'What genres do you cover?',
+        text: 'All! We cover all genres from fiction to autobiographies, fantasy thrillers, to children’s literature. Our book writing services cover all genres and all types of work f literature. We have an arsenal of teams dedicated to numerous genres, and all of them are tremendous at their job.',
         col6: '6',
-      },
-      {
-      title:'How much does it cost to have a book published?',
-      text:'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
-      col6: '6',
-      },
-      {
-      title:'Can I publish on different publishing platforms?',
-      text: datapost,
-      col6: '6',
-      },
-      
-      ]
+        },
+        
+        ]
 
 
 
@@ -138,6 +143,56 @@ const dateset = <span>  Waiting For Someone To <br></br> <Link href='#' classNam
 
 
 const datesettext = <span>  Get in touch with our <Link href='#' className='colortextgrey textdocationnone hover'>professional book writing</Link> specialists today. Our eBooks Writing Experts choose the most compelling words and perfect linguistics for your work. We promise original, customized, and timely delivery of your content without breaking your bank!</span>
+
+const reasons = [
+
+  {
+    title:'World-Class bookwriting Team',
+    text:'Work with the industry’s top writers, editors, and publishing strategists. Our team approach gives you the best chance for success.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Personalized Strategic Approach',
+    text:'Our process begins with 4extensive publishing strategy sessions to ensure we develop a plan to achieve your goals.',
+    classnum: 'number1',
+   
+  },
+  {
+    title:'Refined Process',
+    text:'Enjoy the efficiency and dependability of our professionally managed bookwriting process.',
+    classnum: 'number1',
+   
+  },
+
+  {
+    title:'Book Writing experts',
+    text:'Our team includes #1 New York Times- Book Writers and award-winning authors for almost every genre.',
+    classnum: 'number1',
+  
+  },
+  {
+    title:'Big-5 Editors',
+    text:'Your project will be managed and edited by a former acquisitions editor from a Big-5 publisher with numerous New York Times - Book Writing titles.',
+    classnum: 'number1',
+    
+  },
+  {
+    title:'Publishing Navigation',
+    text:'We guide you through every step of the book publishing process. We can place your book directly with traditional publishers or help you choose the ideal hybrid publishing solution.',
+    classnum: 'number1',
+   
+  },
+
+
+]
+
+
+const text = <span>We want to help you shine your eBook and make it compelling for readers, so we'll work with the most important ideas. You have an option of doing a one-hour interview where any challenging or confusing topics will be bouncing off us before they're even published.</span>;
+
+const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+
+const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
   return (
@@ -255,14 +310,27 @@ btn =  {item.btn}
 
 
 
+   {/* Talk To Our Whatourclients! */}
+   <Whatourclients />
+
+
+
+
+   {/* Makestories */}
+<Makestoriesnew
+title='Our E-Book Writing Projects'
+para='Let Our E-Book Writing Team Help You.'
+/>
+
+
 {/* Whybookpublishing */}
 <div className={styles.whybookpublishing}>
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font48 fw900 color-blue t-center'>Why Does One Need Professional Book Writing Services?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
-       Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
+    Our book writing team is composed of the industry's elite who know the ins and outs of the writing industry better than any of us. If you have any more questions about signing up for the professional book writing services, we may have your answers listed below!
     </p>
 
   </Row>
@@ -284,10 +352,44 @@ btn =  {item.btn}
 
 
 
+{/* Stillonthefence component */}
+<div className={styles.stillbookwritingservices}>
+<Container >
+<Row >
+<h2 className='font48 fw900 color-white t-center font-f mb-5'>Why Choose Our E-Book Writing Services?</h2>  
+</Row>  
+
+<Row className='gy-5'>
+{ reasons.map((item, i) =>
+<Stillonthefence key={i}
+title =  {item.title}
+text =   {item.text}
+col6 = { item.col }
+classnumber = { item.classnum }
+/>
+  )}
+
+</Row>  
+</Container>
+
+</div>
 
 
-   {/* Talk To Our Whatourclients! */}
-   <Whatourclients />
+{/* Selfpublishing */}
+<div className='mb-5'>
+<Selfpublishing
+ title='Planning >> Writing >> Designing = eBook Customization Formula'
+ text= {text}
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+ image={publishmybook}
+ whychooseclass= "marketyourbook"
+ />
+</div>
+
+{/* Lululogos components */}
+
+<Lululogos/>
 
 
 
@@ -297,10 +399,21 @@ btn =  {item.btn}
 
 
 
+{/* Why Choose Book Writing Cube? */}
+<Whychoosebook
+   title="Ultimate Place for eBook Illustration and Designing"
+  text="Book Writing Cube has a team of professional illustrators and designers ready to breathe life into your idea. Our ebook editing service specialization lies in various genres that include:"
+  whychoose= {bookwritingprocess}
+ />
 
 
-
-
+{/* Aspiring */}
+<Aspiring
+ title= 'Professional eBook Writing and Publishing We Give New Life To Your Words'
+ text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
+ number="(302) 883-8877"
+ discuss="LET'S DISCUSS"
+/>
 
 
 

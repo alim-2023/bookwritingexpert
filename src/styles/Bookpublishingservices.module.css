@@ -4,7 +4,7 @@
 
     padding-top: 70px;
     padding-bottom: 100px;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 
 .flipcard {
@@ -55,7 +55,7 @@
     color:black;
     font-weight: 700;
     font-size: 20px;
-    font-family: 'inter';
+    font-family: 'Poppins';
   }
   .flipcardback p{
     color:black;
@@ -79,8 +79,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid #16467d;
-    background-color: #16467d;
+    border: 2px solid #FF9900;
+    background-color: #FF9900;
 }
 
 .post{
@@ -105,7 +105,7 @@
 .comprehensive {
   padding-top: 70px;
   padding-bottom: 0px;
-  font-family: 'inter';
+  font-family: 'Poppins';
 }
 
 
