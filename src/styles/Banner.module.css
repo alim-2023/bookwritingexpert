@@ -411,7 +411,7 @@
   color: #f1f1f1;
 }
 
-.banner .newPara {
+.newPara {
   max-width: 85%;
 }
 
@@ -516,6 +516,10 @@
 
   .banner {
     padding-top: 70px;
+  }
+
+  .newPara {
+    max-width: 100%;
   }
 }
 @media (max-width: 767px) {
