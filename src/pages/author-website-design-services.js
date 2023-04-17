@@ -32,11 +32,12 @@ import designprojects3 from '/public/images/designprojects/3.png'
 
 const Authorwebsitedesignservices = () => {
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/author-website-design-services">Author Website Design Services </Link> Helping You Up Your Branding Game! </span>   </h1>;
 
   const bannertext=[
     {
-      title: 'Empowering Authors with the Finest Author Website Design Services in the Country!',
-      pra: 'Our top-rated author website design services are curated and designed for the true success of our clients!',
+      title: newSpan,
+      pra: 'Do you want the world to know you? Read your book and relate to your story? What is better than getting a professional website then.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,

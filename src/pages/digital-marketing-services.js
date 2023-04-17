@@ -24,10 +24,12 @@ import Buildyourownidentity from '../../components/Buildyourownidentity'
 const Digitalmarketingservices = () => {
 
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>     Stellar Digital Marketing Services Crafting Strong Branding Experiences For Your Brilliant Ideas!</span>   </h1>;
+
   const bannertext=[
     {
-      title: 'Digital Marketing Services Offering Your Manuscript the Maximum Exposure!',
-      pra: 'Our aim is to provide a constant stream of marketing plans to cater and build a solid foundation and establish a name for you!',
+      title: newSpan,
+      pra: 'Book Writing Experts is the name of creative potential that establishes an indelible name for you. Our digital marketing expertise enhances your book’s visibility',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,

@@ -55,6 +55,18 @@
     background-position: center;
     font-family: 'Poppins';
 }
+.articlewritingservices{
+    background-image: url(/images/bannerimages/articleswriting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 140px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+    background-position: center;
+    font-family: 'Poppins';
+}
 
 .bookpromotionservices{
     background-image: url(/images/bannerimages/bookpromotionservices.jpg);
@@ -128,25 +140,31 @@
     padding-top: 140px;
     height: 100vh;
     display: flex;
-  align-items: center;
+    align-items: center;
     padding-bottom: 70px;
     background-position: center;
     font-family: 'Poppins';
 }
 .blogwritingservices{
-    background-image: url(/images/bannerimages/blogwritingservices.png);
+    background-image: url(/images/bannerimages/blogwritingservices.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     padding-bottom: 70px;
     background-position: center;
     font-family: 'Poppins';
 }
 .bookcoverdesignservices{
-    background-image: url(/images/bannerimages/bookcoverdesignservices.png);
+    background-image: url(/images/bannerimages/bookcoverdesignservices.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     padding-bottom: 70px;
     background-position: center;
     font-family: 'Poppins';
@@ -197,46 +215,61 @@
     font-family: 'Poppins';
 }
 .digitalmarketingservices{
-    background-image: url(/images/bannerimages/digitalmarketingservices.png);
+    background-image: url(/images/bannerimages/digitalmarketingservices.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     padding-bottom: 70px;
     background-position: right;
     font-family: 'Poppins';
 }
 .bookformattingservices{
-    background-image: url(/images/bannerimages/bookformattingservices.png);
+    background-image: url(/images/bannerimages/formatting.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     padding-bottom: 70px;
     background-position: center;
     font-family: 'Poppins';
 }
 .audiobookrecordingservices{
-    background-image: url(/images/bannerimages/audiobookrecordingservices.png);
+    background-image: url(/images/bannerimages/audiobookrecordingservices.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     padding-bottom: 70px;
     background-position: center;
     font-family: 'Poppins';
 }
 .webcontentwritingservices{
-    background-image: url(/images/bannerimages/webcontentwritingservices.png);
+    background-image: url(/images/bannerimages/webcontentwritingservices.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     padding-bottom: 70px;
     background-position: center;
     font-family: 'Poppins';
 }
 .empoweringauthorswith{
-    background-image: url(/images/bannerimages/empoweringauthorswith.png);
+    background-image: url(/images/bannerimages/authorwebsite.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 140px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     padding-bottom: 70px;
     background-position: center;
     font-family: 'Poppins';

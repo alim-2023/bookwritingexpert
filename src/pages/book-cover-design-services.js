@@ -23,12 +23,11 @@ import styles from '@/styles/Whybookpublishing.module.css'
 const Bookcoverdesignservices = () => {
 
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/blog-writing-services">Book Cover Design Services  </Link> To Help Your Manuscript The Best Selling Book Of All Times!</span>   </h1>;
+
   const bannertext=[
     {
-      title: 'Communicate About The Story Inside With Our Book Cover Design Services!',
-      pra: 'Why do you need book cover design services? The answer is simple. Because the first impression matters. If you are an author who wants to expedite your book sales or a business executive who wants to be a cut above the rest, you ought to invest in appealing book cover designs.',
-      subtext1:'Book Writing Cube helps you create engaging and professional covers that capture your unique voice and vision. Our mission is to help people share their stories and ideas with the world, and our vision is to be the go-to source for book cover design services.',
-      subtext2:'Then why wait? Call our eBook cover designers and let them take charge of making your book the best-selling publication of all times! Time To Give Your Potential Readers A Taste Of What Your Book Is About Without Spoiling The Plot.',
+      title: newSpan,
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,

@@ -22,13 +22,13 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Webcontentwritingservices = () => {
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/book-formatting-services">Web Content Writing Service </Link> That Gives Your Business Persona A Professional Look! </span>   </h1>;
+
 
   const bannertext=[
     {
-      title: 'Web Content Writing Services To Help You Drive Traffic and Engagement To Your Business!',
-      pra:'To help you appeal to your target audience, Book Writing Cube has set forth its professional web content writing services complimented with high-intent keywords. With our web writing services, you can now improve your online presence and web traffic, and conversion.',
-      subtext1:'If you struggle with writing or are not a native English speaker, it can be difficult to produce high-quality content on your own. But when you outsource your web content writing needs to us, you can be sure that you’ll receive well-written, error-free content ensured to meet your standards and the expectations of your audience.',
-      subtext2:'Call Our Website Content Writer To Capture The Attention Of Your Readers And Hold Their Interest Throughout The Entirety Of Your Piece!',
+      title: newSpan,
+      pra:'Is your website content outdated? Let us help you with it! At Book Writing Experts, we create Search Engine Optimized and high-quality website content that guarantees',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,

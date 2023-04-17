@@ -25,11 +25,12 @@ import { useState } from 'react'
 
 const Bookformattingservices = () => {
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/book-formatting-services">Book Formatting Services   </Link> That Help You Proudly Put Your Name On Your Book! </span>   </h1>;
 
   const bannertext=[
     {
-      title: 'Shaping Your Work into a Stellar Piece of Literary Art with Our Book Formatting Services!',
-      pra: 'At Book Writing Cube, we understand that the process of creating a book can be daunting and time-consuming. That’s why we offer our professional book formatting services to help you save time and energy. From simple formatting tweaks to complete book redesigns, our team can do it all.We format your book according to industry standards so that it looks its best when published. We also work with you to ensure that your book’s interior layout is clear and easy to read.',
+      title: newSpan,
+      pra: 'We offer book formatting services that help make your book look professional and appealing to readers. We understand the importance of a well-formatted book',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,

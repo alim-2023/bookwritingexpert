@@ -25,14 +25,16 @@ import Professionalseo from '../../components/Professionalseo'
 const Articlewritingservices = () => {
 
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/article-writing-services">Magical Article Writing Services  </Link> That Cast A Spell on Your Target Readers!</span>   </h1>;
+
   const bannertext=[
     {
-      title: 'Bridging Success by Providing Professional Article Writing Services!',
-      pra: 'Our proficient and top-rated article writing services ensure your business gets the recognition it deserves!',
+      title: newSpan,
+      pra: 'Words have an enchanting effect on people, which is why we offer professional article writing services to produce captivating articles.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'aboutbanner',
+      banners:'articlewritingservices',
      
        
 
@@ -75,40 +77,34 @@ col6: '6',
    <>
    <Head>
 
-   <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <title>Professional Article Writing Services – Book Writing Cube</title>
-    <meta name="description"
-        content="Article Writing Services that help your business boost and make an impact as an outstanding digital authority. Call us to get the best writing services." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="max-image-preview:large" />
-    <meta name="tags" content="" />
-   
-    <meta name="DC.title" content="article writing services" />
-    <meta name="geo.region" content="GB" />
-    <meta name="geo.position" content="54.702355;-3.276575" />
-    <meta name="ICBM" content="54.702355, -3.276575" />
-  
-    <meta name="DC.title" content="article writing services" />
-    <meta name="geo.region" content="US" />
-    <meta name="geo.position" content="39.78373;-100.445882" />
-    <meta name="ICBM" content="39.78373, -100.445882" />
-    <meta property="og:locale" content="en" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Professional Article Writing Services – Book Writing Cube" />
-    <meta property="og:description"
-        content="Article Writing Services that help your business boost and make an impact as an outstanding digital authority. Call us to get the best writing services." />
-    <meta property="og:url" content="https://www.bookwritingcube.com/" />
-    <meta property="og:site_name" content="Professional Article Writing Services – Book Writing Cube" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="5 minutes" />
-    <meta name="facebook-domain-verification" content="s4ocl50k325dpk61h3frbd8aajeybv" />
+   <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://bookwritingexperts.com/xmlrpc.php" />
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	
+	<title>Promising Article Writing Services - Book Writing Experts</title>
+	<meta name="description" content="Article Writing Services in which we throw creativity and element of captivity. Call us now to get the top writing services from the experts." />
+	<link rel="canonical" href="https://bookwritingexperts.com/article-writing-services/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Promising Article Writing Services - Book Writing Experts" />
+	<meta property="og:description" content="Article Writing Services in which we throw creativity and element of captivity. Call us now to get the top writing services from the experts." />
+	<meta property="og:url" content="https://bookwritingexperts.com/article-writing-services/" />
+	<meta property="og:site_name" content="Book Writing" />
+	<meta property="article:modified_time" content="2023-03-31T11:23:30+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="7 minutes" />
 
 
 
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    

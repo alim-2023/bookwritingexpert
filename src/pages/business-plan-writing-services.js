@@ -23,15 +23,17 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Businessplanwritingservices = () => {
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>     Business Plan Writing Services To Help You Follow A Roadmap To Business Success!</span>   </h1>;
+
 
   const bannertext=[
     {
-      title: 'Top-Rated Business Plan Writing Services to Get Your Business Up and Running!',
-      pra: 'Our experts craft informative and professional business plans to help our clients achieve their dreams.',
+      title: newSpan,
+      pra: 'It goes unsaid that a business plan helps business owners secure financing, attract investors, and grow the business.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
-      banners:'topratedbusiness',
+      banners:'ghostwriting',
      
        
 

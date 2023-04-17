@@ -22,11 +22,13 @@ import Stillonthefence from '../../components/Stillonthefence'
 
 const Audiobookrecordingservices = () => {
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/book-formatting-services">Audiobook Recording Services  </Link> to Add a Touch of Captivity to Your Manuscripts’ Words!! </span>   </h1>;
 
+  
   const bannertext=[
     {
-      title: 'Professional Audiobook Recording Services To Give Your Books A Voice!',
-      pra: 'As an author, the only wish you long for is to make an unbeatable name for yourself. Here at Book Writing Cube, we offer book marketing services that help authors reach a larger audience, boost visibility, and get more ratings and sales for their books.',
+      title: newSpan,
+      pra: 'Audiobooks are an investment that pays off in the longer run. Audiobook recording services help you get your book on audio, making it easier for people to enjoy while they’re on the go.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,

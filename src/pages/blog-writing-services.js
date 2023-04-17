@@ -20,11 +20,13 @@ import Stillonthefence from '../../components/Stillonthefence'
 
 const Blogwritingservices = () => {
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/blog-writing-services">Blog Writing Services  </Link> to Help You Come Closer To Your Refined Prospects!</span>   </h1>;
+
 
   const bannertext=[
     {
-      title: 'First-Class Blog Writing Services to Bring Your Business Up!',
-      pra: 'Our professional blog writing services are designed to help you achieve your business objectives at every turn!',
+      title: newSpan,
+      pra: 'Ever wish your audience gets lost in your stories? With blog writing services, our professionals help your dreams turn into reality.',
       discuss:'LET S DISCUSS',
       homebannernum:'(302) 883-8877',
       banlogo:homebannerlogos,
