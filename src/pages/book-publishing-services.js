@@ -108,13 +108,13 @@ const Bookpublishingservices = () => {
 
 
 
-const  geta = <span>Get A Customized Solution By <Link className='color-blue hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
+const  geta = <span>Get A Customized Solution By <Link className='color-blue fw700 hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
 
 
 const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
 
 
-const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
+const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
 
 
 
@@ -150,7 +150,7 @@ const fine = [
 
 ]
 
-const dateset = <span>Let’s <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
+const dateset = <span className='fw500'>Let’s <Link className='textdocationnone fw700 color-blue hover' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
 
 
   return (
@@ -239,9 +239,9 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
+<h2 className='color-lightgray   font25   t-center font-f mb-2'>Our Approach</h2>  
 
-<p className='font50 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> <br></br> Book Marketing</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone fw700 color-blue hover' href='/book-publishing-services'>  Book Marketing</Link></p>
 
 </Row>
 
@@ -314,7 +314,7 @@ para='Let Our Book Publishing Team Help You'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Publishing?</h2>
+    <h2 className='font50 fw700 color-blue t-center mb-3'>Why Book Publishing?</h2>
     <p className='font15 fw500 color-black t-center pb-5'>
        Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
     </p>
@@ -341,7 +341,7 @@ para='Let Our Book Publishing Team Help You'
 <Container className='mt-5'>
   <Row>
     <Col>
-    <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
+    <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
     </Col>
   </Row>
 </Container>
