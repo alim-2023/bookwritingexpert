@@ -86,13 +86,19 @@
   color: #fff;
 }
 
+.headerContainer{
+  position: relative;
+}
+
 .megamenu {
   visibility: hidden;
   position: absolute;
   left: 0;
+  top: 100%;
   border: 0;
   max-width: 100%;
-  margin: 10px auto 0 auto !important;
+  margin: auto !important;
+  margin-top: -18px !important;
   border-radius: 4px;
   background-color: #fff;
   z-index: 1;
@@ -178,7 +184,7 @@
 }
 
 .megaImg img {
-  width: 110px;
+  width: 90px;
 }
 
 .megaImgTxt a {

@@ -39,9 +39,9 @@ const Header = () => {
   return (
     <>
 
-      <div className={styles.headerhome}>
+      <header className={styles.headerhome}>
         <Navbar expand="lg">
-          <Container>
+          <Container className={styles.headerContainer}>
 
             <Link href="/"><Image className={styles.logonew} src={logo} priority alt='logo'></Image> </Link>
 
@@ -194,7 +194,7 @@ const Header = () => {
           </Container>
         </Navbar>
 
-      </div>
+      </header>
 
       <Sticky />
 
