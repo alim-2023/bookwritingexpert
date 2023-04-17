@@ -30,10 +30,6 @@
     color:#fff
 }
 
-.exprtSpan{
-    color: #223235;
-}
-
 @media (max-width:480px)  { 
     .experts p{
         font-size: 18px;

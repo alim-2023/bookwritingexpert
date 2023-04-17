@@ -31,7 +31,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-
+  const exprtSpan =<h2 className='fw700 font50 color-white font-f t-center font-f mb-4'><span className='colortextgrey'>Book Writing Experts</span> Is waiting for you to Ask for a <span className='colortextgrey'>Professional Ghostwriter</span></h2>;
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Your ONE-STOP</span> <Link className='textdocationnone color-blue' href="#"> Ghostwriting, Editing And Publishing Service </Link>  <span className='d-block'>Provider!</span> </h1>;
   const bannertext = [
@@ -142,7 +142,7 @@ export default function Home() {
 
         {/* Talk To Our Experts! */}
         <Experts
-          title=""
+          title= {exprtSpan}
           text="Hit us a message, or give us a call, and make the most of our Professional Ghostwriters."
           number="+1-302-883-8877"
           discuss="LET'S DISCUSS"
