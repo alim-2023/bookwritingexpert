@@ -55,7 +55,7 @@ const Header = () => {
                   <Row className={click ? `${styles.megamenu} ${styles.active}` : `${styles.megamenu}`}>
                     <Col md={4}>
                       <div className={styles.megaTitle}>
-                        <h5 className='font16 mt-4'>Services</h5>
+                        <h5 className='font16 mt-4 pt-3'>Services</h5>
                       </div>
                       <ul className={styles.border}>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
@@ -97,7 +97,7 @@ const Header = () => {
                     </Col>
                     <Col md={4}>
                       <div className={styles.megaTitle}>
-                        <h5 className={`${styles.unUseDiv} font16 mt-4`}>Services</h5>
+                        <h5 className={`${styles.unUseDiv} font16 mt-4 pt-3`}>Services</h5>
                       </div>
                       <ul className={styles.border}>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
@@ -138,8 +138,8 @@ const Header = () => {
                       </ul>
                     </Col>
                     <Col md={4} className={styles.lastCol}>
-                      <div className=''>
-                        <h5 className='font16 mt-4'>Our Experts</h5>
+                      <div className={styles.megaTitle}>
+                        <h5 className='font16 mt-4 pt-3'>Our Experts</h5>
                       </div>
                       <ul className={styles.border}>
                         <li className={styles.navlinks}>
