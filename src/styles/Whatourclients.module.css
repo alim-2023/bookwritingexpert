@@ -1,60 +1,75 @@
-.ourclients{
-    padding-top: 70px;
-    padding-bottom: 70px;
-    font-family: 'Poppins'; 
+.ourclients {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: "Poppins";
 }
-.ourclients img{
-    filter: brightness(0);
+/* .ourclients img {
+  filter: brightness(0);
+} */
+.whatclientlogo {
+  text-align: center;
 }
-.whatclientlogo{
-    text-align: center;
-}
-.mark{
-    text-align: center;
-    margin-bottom: 0;
-    color: #FF9900;
-    font-size: 24px;
-    font-weight: 900;
-    text-transform: uppercase;
-    display: block;
-    padding-bottom: 5px;
-}
-.stars{
- 
-    color: #FF9900;
-    margin-bottom: 0;
+.mark {
+  text-align: center;
+  margin-bottom: 0;
+  color: #ff9900;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 5px;
 }
 
-.canva{
-    max-width: 800px;
+.clientData{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
-.looking{
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 2%;
-    margin-top: 2%;
+.clientData img{
+    width: 80px;
 }
 
-
-
-
-.whatclientlogo{
-    text-align: center;
-}
-.quit{
-    display: block;
-    width: 75px;
-    height: 75px;
-    margin: 0 auto;
-    border-radius: 50%;
-    margin-top: 3%;
+.clientDataTxt{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.value{
-    font-size: 50px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    line-height: 1;
-    margin-bottom: 2%;
+.stars {
+  color: #ff9900;
+  margin-bottom: 0;
+}
+
+.canva {
+  max-width: 800px;
+}
+
+.looking {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.whatclientlogo {
+  text-align: center;
+}
+.quit {
+  display: block;
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 3%;
+}
+
+.value {
+  font-size: 50px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 2%;
 }

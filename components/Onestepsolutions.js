@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container,Row,Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Onestepsolutions.module.css'
 import Link from 'next/link'
 
@@ -22,136 +22,135 @@ import book106 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
 const Onestepsolutions = () => {
 
 
-    const numdata5 = <span>Stories That Empower Young Minds: Let your imagination run wild and join us in unleashing creativity for the next generation through our exceptional children's book writing and <Link className='textdocationnone colorta' href="https://bookwritingexperts.com/book-publishing-services/">publishing services</Link></span>
+  const numdata5 = <span>Stories That Empower Young Minds: Let your imagination run wild and join us in unleashing creativity for the next generation through our exceptional children's book writing and <Link className='textdocationnone colorta' href="https://bookwritingexperts.com/book-publishing-services/">publishing services</Link></span>
 
-    const numdata6 = <span>Bringing Thrills and Suspense to Life - From heart-pumping action scenes to gripping suspense, our professional adventure <strong >story writing services</strong> will bring your ideas to life!
-    </span>
+  const numdata6 = <span>Bringing Thrills and Suspense to Life - From heart-pumping action scenes to gripping suspense, our professional adventure <strong >story writing services</strong> will bring your ideas to life!
+  </span>
 
-    const numdat7 = <span>
+  const numdat7 = <span>
 
-<span>From Concept to Bestseller: </span> 
-<span className={styles.join}>Join us on a journey from concept to bestseller with our exceptional <Link className='textdocationnone colorta' href="https://bookwritingexperts.com/book-editing-services/">novel editing</Link>, writing, and publishing services</span>
+    <span>From Concept to Bestseller: </span>
+    <span className={styles.join}>Join us on a journey from concept to bestseller with our exceptional <Link className='textdocationnone colorta' href="https://bookwritingexperts.com/book-editing-services/">novel editing</Link>, writing, and publishing services</span>
 
-    </span> 
+  </span>
 
-const numdat1 = 
+  const numdat1 =
 
 
-<span className={styles.join}>Taking you into the fictional world, our 
-<Link className='textdocationnone colorta' href="https://bookwritingexperts.com/ghostwriting-services/"> ghostwriters </Link> pen down some of the great tales effortlessly, making the best use of the words </span>
-
-   
+    <span className={styles.join}>Taking you into the fictional world, our
+      <Link className='textdocationnone colorta' href="https://bookwritingexperts.com/ghostwriting-services/"> ghostwriters </Link> pen down some of the great tales effortlessly, making the best use of the words </span>
 
 
 
 
-    const makestoriesimg =
+
+
+  const makestoriesimg =
     [
-    
-      { 
+
+      {
         num: '01',
         title: 'Fiction ',
-        text:numdat1,
-        storiesimg:book100
-     },
-      { 
+        text: numdat1,
+        storiesimg: book100
+      },
+      {
         num: '02',
         title: 'Non-Fiction',
-        text:'We trigger emotions and engage the target readers with our impeccable writing styles. We make non-fiction exciting and interesting.',
-        storiesimg:book101
-     },
-      { 
+        text: 'We trigger emotions and engage the target readers with our impeccable writing styles. We make non-fiction exciting and interesting.',
+        storiesimg: book101
+      },
+      {
         num: '03',
         title: 'Autobiography',
-        text:'Our expert ghostwriters surely know all the tricks to captivate and engage the readers by showcasing your hassles and extraordinary life story.',
-        storiesimg:book102
-     },
-      { 
+        text: 'Our expert ghostwriters surely know all the tricks to captivate and engage the readers by showcasing your hassles and extraordinary life story.',
+        storiesimg: book102
+      },
+      {
         num: '04',
         title: 'Christian Book',
-        text:'We significantly cover every life event by indexing the realness and keeping the emotional essence alive to take you back in time.',
-        storiesimg:book106
-     },
-      { 
+        text: 'We significantly cover every life event by indexing the realness and keeping the emotional essence alive to take you back in time.',
+        storiesimg: book106
+      },
+      {
         num: '05',
         title: 'Children`s Book',
-        text:numdata5,
-        storiesimg:book105 
-    },
-    
+        text: numdata5,
+        storiesimg: book105
+      },
+
     ];
 
-    
 
-    var makestories = {
-        dots: false,
-        arrows:false,
-        autoplay:true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                infinite: true,
-                
-              }
-            },
-            {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                initialSlide: 2
-              }
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
-      };
-  
+
+  var makestories = {
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+
 
   return (
-<>
-    <div className={styles.onestepsolutions}>
+    <>
+      <div className={styles.onestepsolutions}>
         <Container>
-            <Row>
-                <Col md={12}>
-                    <h2 className='font-f colortextgrey t-center mb-5'>Our <Link className='color-blue textdocationnone' href="https://bookwritingexperts.com/">Book Writing Company</Link> Can Be Your One-Step Solution!</h2>
-                </Col>
+          <Row>
+            <Col md={12}>
+              <h2 className='font-f colortextgrey t-center mb-5'>Our <Link className='color-blue textdocationnone' href="https://bookwritingexperts.com/">Book Writing Company</Link> Can Be Your One-Step Solution!</h2>
+            </Col>
 
-    <Col md={12}>
-    
-    <Slider {...makestories}>
-                     
-                     {makestoriesimg.map((item, i) => {
-                                             return(  
-                                 <div key={i}>
-                                    <h3 className='color-blue font-f font50 fw600 mb-4'>{item.num}</h3>
-                                    <h4 className='colorta font-f font17 fw600 mb-4'>{item.title}</h4>
-                                    <p className={` ${styles.wrtingtext} font15 font-f textcolor maxwidth`}>{item.text}</p>
-                                   <Image className='img-fluid'  src={item.storiesimg} alt='Book Writing Experts'></Image>
-                                 </div>
-                         )
-                       })}
-                              
-                </Slider> 
-    
-    </Col>
+            <Col md={12}>
 
-            </Row>
+              <Slider {...makestories}>
+
+                {makestoriesimg.map((item, i) => {
+                  return (
+                    <div key={i}>
+                      <h3 className='color-blue font-f font30 fw600 mb-4'>{item.title}</h3>
+                      <p className={` ${styles.wrtingtext} font15 font-f textcolor maxwidth`}>{item.text}</p>
+                      <Image className='img-fluid' src={item.storiesimg} alt='Book Writing Experts'></Image>
+                    </div>
+                  )
+                })}
+
+              </Slider>
+
+            </Col>
+
+          </Row>
         </Container>
 
-    </div>
+      </div>
     </>
   )
 }

@@ -7,62 +7,63 @@ import Head from 'next/head'
 import Experts from '../../components/Experts'
 import Dowecome from '../../components/Dowecome'
 import howdoimg from '/public/images/professional/professional.png'
-import Bookbadges from '../../components/Bookbadges'
-import Bookbadgesbook from '../../components/Bookbadgesbook'
+import BookPublishing from '../../components/Bookpublishing'
+import BookPromotion from '../../components/Bookpromotion'
 
 
 
 const Pricing = () => {
 
-    const bannertext=[
-        {
-          title: 'Services & Rates',
-          pra: 'We understand that every book project is unique. Call us to discuss how we can tailor our service to achieve your publishing goals.',
-          subtext:'We offer special services and compensation options not listed below. Please call to inquire.',
-          publishers:'*Note to Publishers and Agents:',
-          banners:'pricing',
-          alignclass:'alignclass',
-          classpost:'classpost',
-        }
-      ]
+  const priceHead = <h1 className='font50 fw700 color-blue'>The World Awaits Your Masterpiece!</h1>
 
-   
-    
+
+  const bannertext = [
+    {
+      title: priceHead,
+      pra: 'Do you wish to see your published work ranked among the best sellers? Want to earn the stellar reputation of a published author? Dream of having a well-written book to your name?',
+      banners: 'pricing',
+      alignclass: 'alignclass',
+      classpost: 'classpost',
+    }
+  ]
+
+
+
 
 
   return (
 
     <>
-    <Head>
-    <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <title>Book Writing Services Company - Book Writing Cube</title>
-    <meta name="description"
-        content="Book Writing Services Company to help you pen down your thoughts effortlessly onto paper. Connect to get started." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="tags" content="" />
-    <meta property="og:locale" content="en" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Book Writing Services Company - Book Writing Cube" />
-    <meta property="og:description"
-        content="Book Writing Services Company to help you pen down your thoughts effortlessly onto paper. Connect to get started." />
-    <meta property="og:url" content="https://www.bookwritingcube.com/" />
-    <meta property="og:site_name" content="Book Writing Services Company - Book Writing Cube" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="5 minutes" />
-    <link rel="icon" href="/favicon.png" />
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <title>Book Writing Services Company - Book Writing Cube</title>
+        <meta name="description"
+          content="Book Writing Services Company to help you pen down your thoughts effortlessly onto paper. Connect to get started." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="tags" content="" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Book Writing Services Company - Book Writing Cube" />
+        <meta property="og:description"
+          content="Book Writing Services Company to help you pen down your thoughts effortlessly onto paper. Connect to get started." />
+        <meta property="og:url" content="https://www.bookwritingcube.com/" />
+        <meta property="og:site_name" content="Book Writing Services Company - Book Writing Cube" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="5 minutes" />
+        <link rel="icon" href="/favicon.png" />
 
 
 
-    </Head>
+      </Head>
 
 
 
 
-    {/* banner components */}
+      {/* banner components */}
 
-    {bannertext.map((item, i) =>
+      {bannertext.map((item, i) =>
         <Banner key={i}
           title={item.title}
           text={item.pra}
@@ -71,40 +72,36 @@ const Pricing = () => {
           bannershome={item.banners}
           alignclass={item.alignclass}
 
-        
-       /> 
-       )}
 
-{/* Bookbadges */}
-<Bookbadges /> 
+        />
+      )}
 
-      
-   
+      {/* Bookbadges */}
+      <BookPublishing />
 
-
-{/* Dowecome */}
-<Dowecome
- title='Professional'
- text="Avail the chance to work alongside authors that are considered to be pioneers of the industry. Our commitment to quality and customer service is unmatched by anyone in the industry as we always try to keep our customers as happy as we can."
- subheading="Ghostwriting Services"
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
- image={howdoimg}
- Dowecome= "Dowecome"
-/>
+      {/* Bookbadges */}
+      <BookPromotion />
 
 
-{/* Bookbadges */}
-<Bookbadgesbook />   
+
+      {/* Dowecome */}
+      <Dowecome
+        title='Struggling To Sell More Books?'
+        text="Why Not Hire Expert Book Marketing Professionals To Promote Your Book!"
+        number="(302) 883-8877"
+        discuss="LET'S DISCUSS"
+        image={howdoimg}
+        Dowecome="Dowecome"
+      />
 
 
-{/* Talk To Our Experts! */}
-<Experts
-title="Talk To Our Experts!"
-text="Call and get a free consultation, sample, & a price quote."
-number="+1-302-883-8877"
-discuss="LET'S DISCUSS"
-/>
+      {/* Talk To Our Experts! */}
+      <Experts
+        title="Talk To Our Experts!"
+        text="Call and get a free consultation, sample, & a price quote."
+        number="+1-302-883-8877"
+        discuss="LET'S DISCUSS"
+      />
     </>
 
   )
