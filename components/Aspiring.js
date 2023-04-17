@@ -3,6 +3,7 @@ import styles from '@/styles/Aspiring.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
+import Freequote from './Freequote'
 
 
 const Aspiring = (props) => {
@@ -34,9 +35,15 @@ const Aspiring = (props) => {
 
                     </Col>
                     <Col md={5}>
-
+{ props.img ?  
 <Image src={props.img} className='img-fluid mt-3' />
-                          
+         
+
+ :
+ 
+ <Freequote formsaspire = 'formsaspire' />
+         
+        }
 
                     </Col>
                 </Row>

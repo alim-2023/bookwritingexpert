@@ -11,7 +11,8 @@ import fivestepprocess from '/public/images/whychoosebooks/fivestepprocess.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
 import Stillonthefence from '../../components/Stillonthefence'
-
+import Stopworrying from '../../components/Stopworrying'
+import Finetoothedbook from '../../components/Finetoothedbook'
 
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
@@ -111,6 +112,12 @@ const reasons = [
 
 ]
 
+const  geta = <span>Get A Customized Solution By <Link className='color-blue hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
+
+
+const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
+
+const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
 
 
   return (
@@ -174,6 +181,24 @@ const reasons = [
 
    {/* partners components */}
 <Partners/>
+
+
+{/* Dowecome */}
+<Dowecome
+ title = {geta}
+ text={work}
+Dowecome= "publishmybook"
+
+/>
+
+
+<Stopworrying 
+ title = 'Stop worrying about publishing books!'
+ subtitle = {posdata}
+ btn1 = 'Get a free Proposal'
+ btn2 = 'Talk to an expert'
+/>
+
 
 {/* Makestories */}
 <Makestoriesnew
