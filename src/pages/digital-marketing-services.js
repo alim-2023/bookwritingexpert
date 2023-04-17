@@ -10,9 +10,9 @@ import Whychoosebook from '../../components/Whychoosebook'
 import drivethebook1 from '/public/images/drivethebook/1.png'
 import Dowecome from '../../components/Dowecome'
 import Customersatisfaction from '../../components/Customersatisfaction'
-import youareonestepcloserto from '/public/images/youareonestepcloserto/youareonestepcloserto.png'
+import youareonestepcloserto from '/public/images/youareonestepcloserto/down2.jpg'
 
-
+import Whatourclients from '../../components/Whatourclients'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container,Row,Col } from 'react-bootstrap'
@@ -20,6 +20,10 @@ import Bookpublishingservices from '../../components/Bookpublishingservicesweoff
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
 import Buildyourownidentity from '../../components/Buildyourownidentity'
+import Companypull from '../../components/Companypull'
+import Buildingyour from '../../components/Buildingyour'
+import Bestinclass from '../../components/Bestinclass'
+import Stopworrying from '../../components/Stopworrying'
 
 const Digitalmarketingservices = () => {
 
@@ -179,10 +183,48 @@ image={youareonestepcloserto}
 
 
 
+ 
 
 
 
+<Buildingyour />
 
+
+<Lululogos/>
+
+{/* Aspiring */}
+<Aspiring
+ title= 'Let Our Digital Marketing Company Pull Off The Marketing Strain From Your Shoulders!'
+ text= 'Marketing, precisely book marketing, is not everyone’s cup of tea. But, for us, it’s just a piece of cake. Unequivocally, a lot goes into the advertising affair, from developing the sound pitching idea to devising the profitable social media campaigns, just to name a few. All these may seem daunting for you, but not for us. We share the incredible experience of helping authors launch and making them the internet sensation across multiple online platforms.'
+ number="(213) 289 3888"
+ discuss="LET'S DISCUSS"
+ img= {youareonestepcloserto}
+ 
+/>
+
+<Companypull
+ title= 'Helping Your Story Reach Nook And Corner Of The World With Gamut Of Digital Marketing Services!'
+ text= 'Call Us Now To Bring Your Book Under The Limelight.'
+ number="(213) 289 3888"
+ discuss="LET'S DISCUSS"
+/>
+
+
+<Bestinclass />
+
+
+<Stopworrying 
+ title = 'Selling Books is an uphill struggle!'
+ subtitle = 'One-Stop Solution For Ghostwriting, Promoting And Branding Your Digital Riches.'
+ subtitle2= 'Come, get your books written by experts!'
+ btn1 = 'Get a free Proposal'
+ btn2 = 'Talk to an expert'
+/>
+
+
+
+  {/* Talk To Our Whatourclients! */}
+  <Whatourclients />
 
    </>
   )

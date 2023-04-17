@@ -97,13 +97,13 @@ const Bookpublishingservices = () => {
 
 
 
-const  geta = <span>Get Connected To Your Readers With <Link className='color-blue textdocationnone hover' href='/book-editing-services'> Ebook Writing Experts! <br></br> </Link></span>
+const  geta = <span>Get Connected To Your Readers With <Link className='color-blue fw700 textdocationnone hover' href='/book-editing-services'> Ebook Writing Experts! <br></br> </Link></span>
 
 
 
 
 
-const posdata = <span>What Is Stopping You From Availing The Most <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Affordable EBooks Writing Services? </Link> </span>
+const posdata = <span>What Is Stopping You From Availing The Most <Link className='textdocationnone fw700 color-blue hover' href='/book-editing-services'>Affordable EBooks Writing Services? </Link> </span>
 
 
 
@@ -139,7 +139,7 @@ const fine = [
 
 ]
 
-const dateset = <span>  Waiting For Someone To <br></br> <Link href='#' className='color-blue textdocationnone hover'>Give Your Book An EBook Version?</Link> </span>
+const dateset = <span className='fw500'>  Waiting For Someone To <br></br> <Link href='#' className='color-blue textdocationnone hover fw700'>Give Your Book An EBook Version?</Link> </span>
 
 
 const datesettext = <span>  Get in touch with our <Link href='#' className='colortextgrey textdocationnone hover'>professional book writing</Link> specialists today. Our eBooks Writing Experts choose the most compelling words and perfect linguistics for your work. We promise original, customized, and timely delivery of your content without breaking your bank!</span>
@@ -276,9 +276,9 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
+<h2 class="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-<p className='font50 font-f fw500 color-black t-center pb-2'>We Aim To Add Value To Your <Link className='textdocationnone color-blue hover' href='/book-editing-services'> <br></br>EBooks!</Link></p>
+<p className='font50 font-f fw500 color-black t-center pb-2'>We Aim To Add Value To Your <Link className='textdocationnone color-blue hover fw700' href='/book-editing-services'> EBooks!</Link></p>
 
 </Row>
 
@@ -328,8 +328,8 @@ para='Let Our E-Book Writing Team Help You.'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Does One Need Professional Book Writing Services?</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <h2 className='font50 fw700 color-blue t-center'>Why Does One Need Professional Book Writing Services?</h2>
+    <p className='font15 fw500 color-black t-center pb-5 mt-3'>
     Our book writing team is composed of the industry's elite who know the ins and outs of the writing industry better than any of us. If you have any more questions about signing up for the professional book writing services, we may have your answers listed below!
     </p>
 
@@ -356,7 +356,7 @@ para='Let Our E-Book Writing Team Help You.'
 <div className={styles.stillbookwritingservices}>
 <Container >
 <Row >
-<h2 className='font48 fw900 color-white t-center font-f mb-5'>Why Choose Our E-Book Writing Services?</h2>  
+<h2 className='font50 fw700 color-white t-center font-f mb-5'>Why Choose Our E-Book Writing Services?</h2>  
 </Row>  
 
 <Row className='gy-5'>

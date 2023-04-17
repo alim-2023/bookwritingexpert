@@ -46,7 +46,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 const Bookpublishingservices = () => {
   const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
 
-  const text = <span>This type of <Link className='textdocationnone' href="/book-editing-services"> ebook editing service </Link>  is also called Mechanical Editing and sometimes referred to as Line Editing. The editor's singular job is to make sure the story has a more "professional" approach and fill any gaps in the original plot.</span>;
+  const text = <span>This type of <Link className='textdocationnone color-blue hover' href="/book-editing-services"> ebook editing service </Link>  is also called Mechanical Editing and sometimes referred to as Line Editing. The editor's singular job is to make sure the story has a more "professional" approach and fill any gaps in the original plot.</span>;
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>  Professional and unmatched</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Editing Services </Link>  <span className='d-block'>for all the Idealists within their reach</span> </h1>;
 
@@ -107,13 +107,13 @@ const Bookpublishingservices = () => {
 
 
 
-const  geta = <span>Reliable <Link className='color-blue textdocationnone hover' href='/book-editing-services'> Editing Solutions <br></br> </Link> For All!</span>
+const  geta = <span>Reliable <Link className='color-blue textdocationnone hover fw700' href='/book-editing-services'> Editing Solutions <br></br> </Link> For All!</span>
 
 
 
 
 
-const posdata = <span>How About A Group Of Professionals <Link className='textdocationnone color-white hover' href='/book-editing-services'>Edit Your Book </Link> Before Publishing?</span>
+const posdata = <span>How About A Group Of Professionals <Link className='textdocationnone color-blue fw700 hover' href='/book-editing-services'>Edit Your Book </Link> Before Publishing?</span>
 
 
 
@@ -276,9 +276,9 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
+<h2 class="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-<p className='font50 font-f fw500 color-black t-center pb-2'>We Want You To Get The Most Out Of Your <Link className='textdocationnone color-blue hover' href='/book-editing-services'> <br></br>Online Book Editing!</Link></p>
+<p className='font50 font-f fw500  colortextgrey t-center pb-2'>We Want You To Get The Most Out Of Your <Link className='textdocationnone color-blue hover fw700' href='/book-editing-services'> Online Book Editing!</Link></p>
 
 </Row>
 
@@ -365,8 +365,8 @@ para='Let Our Book Editing Team Help You.'
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Do You Need Professional Book Editing Services?</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <h2 className='font50 fw700 color-blue t-center'>Why Do You Need Professional Book Editing Services?</h2>
+    <p className='font15 fw500 color-black t-center pb-5 mt-3'>
     Editing is a meticulous process, one that requires severely dedicated efforts and time to accomplish. Finishing a novel is a job well done, so why not relax back and have someone take the load off.
     </p>
 
@@ -400,7 +400,7 @@ para='Let Our Book Editing Team Help You.'
 <Container className='servicetitle'>
   <Row>
     <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Book Editing Services?</h2>
+      <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Book Editing Services?</h2>
     </Col>
   </Row>
 </Container>

@@ -53,7 +53,7 @@ const Childrenbookillustrationsservices = () => {
     }
   ]
 
-const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
+const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone color-blue hover' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone color-blue hover' href="#">self publishing</Link> .</span>;
 
 const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
 
@@ -99,13 +99,13 @@ const reasons = [
 
 
 
-const  geta = <span>Get A Customized Solution By <Link className='color-blue hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
+const  geta = <span>Get A Customized Solution By <Link className='fw700 color-blue hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
 
 
 const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
 
 
-const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
+const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
 
 
 
@@ -141,7 +141,7 @@ const fine = [
 
 ]
 
-const dateset = <span>Let’s <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
+const dateset = <span className='fw500'>Let’s <Link className='textdocationnone fw700 color-blue hover' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
 
 
 
@@ -229,9 +229,9 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
+<h2 class="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-<p className='font50 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> <br></br> Book Marketing</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover fw700' href='/book-publishing-services'>  Book Marketing</Link></p>
 
 </Row>
 
@@ -328,7 +328,7 @@ para='Let Our Book Children’s Illustration Team Help You'
 <div className={styles.stillbookwritingservices}>
 <Container >
 <Row >
-<h2 className='font48 fw900 color-white t-center font-f mb-3 font-f'>You Need To Know What Type Of Children's Book Illustrations You Need For Your Book!</h2>  
+<h2 className='font50 fw700 color-white t-center font-f mb-3 font-f'>You Need To Know What Type Of Children's Book Illustrations You Need For Your Book!</h2>  
 
 <p  className='font15 fw500 color-white t-center pb-5 font-f'>Before you come to us for illustrations, you need to know that there is more than just one type of Children's Book Illustrations, and you must know which one fits your project better. Don't know what the various kinds of illustrations are? Well, allow us to educate you.</p>
 

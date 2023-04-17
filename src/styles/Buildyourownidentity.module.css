@@ -7,10 +7,11 @@
     border: 0;
     padding: 12px 30px;
     border-radius: 0;
-    background-color: #16467d;
+    background-color: #FF9900;
     color: #fff;
     text-decoration: none;
-    font-family: 'inter';
+    font-family: 'Poppins';
+    border-radius: 50px;
     display: block;
     text-align: center;
     width: 80%;

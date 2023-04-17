@@ -106,14 +106,14 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
 
 
 
-const  geta = <span>Book Promotion Has Just Become Easier With The Global <Link className='color-blue textdocationnone hover' href='/book-marketing-services'>Book Marketing Services.</Link></span>
+const  geta = <span>Book Promotion Has Just Become Easier With The Global <Link className='color-blue textdocationnone hover fw700' href='/book-marketing-services'>Book Marketing Services.</Link></span>
 
 
 
 const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='https://bookwritingexperts.com/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
 
 
-const posdata = <span>It’s Time You Let The <Link className='textdocationnone color-white hover' href='/book-marketing-services'>Marketing Experts</Link> Take Charge Of Your  <Link className='textdocationnone color-blue hover' href='/book-marketing-services'>Book Promotions!</Link> </span>
+const posdata = <span>It’s Time You Let The <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>Marketing Experts</Link> Take Charge Of Your  <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>Book Promotions!</Link> </span>
 
 
 
@@ -149,7 +149,7 @@ const fine = [
 
 ]
 
-const dateset = <span>Need An Expert For Your <br></br><Link className='textdocationnone color-blue hover' href='/book-marketing-services'> Book Promotions? </Link>  </span>
+const dateset = <span className='fw500'>Need An Expert For Your <br></br><Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'> Book Promotions? </Link>  </span>
 
 
 
@@ -236,9 +236,9 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
+<h2 class="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-<p className='font50 font-f fw500 color-black t-center pb-2'>Get More Readers On-Board With Our <Link className='textdocationnone color-blue hover' href='/book-marketing-services'> <br></br> Online Book Marketing Services</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>Get More Readers On-Board With Our <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>  Online Book Marketing Services</Link></p>
 
 </Row>
 
@@ -282,8 +282,8 @@ btn =  {item.btn}
   <Container>
 
   <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Why Book Marketing?</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <h2 className='font50 fw700 color-blue t-center'>Why Book Marketing?</h2>
+    <p className='font15 fw500 color-black t-center pb-5 mt-3'>
     It is a toolset tailored to your requirements and approaches. Adjusting it to your budget, fine-tuning it to fit your audience preferences, and preparing it for maximized exposure. Unlike other book marketing companies, we capitalize on commercialization, ensuring the highest book sales & profits.
     </p>
 
@@ -313,7 +313,7 @@ btn =  {item.btn}
 <Container className='servicetitle'>
   <Row>
     <Col>
-      <h2 className='color-blue fw900 font48 font-f t-center'>Why Choose Our Book Marketing Services?</h2>
+      <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Book Marketing Services?</h2>
     </Col>
   </Row>
 </Container>
