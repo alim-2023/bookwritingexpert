@@ -27,13 +27,13 @@ const Buildyourownidentity = () => {
 
 <div>
                         <h4  className='font17 fw500 color-blue t-center font-f'>Social Media Marketing</h4>
-                        <p className='font15 fw500 color-black t-center font-f'>Our digital marketing company has some world-class social media marketers who formulate sterling content and growth-focused campaigns to increase the chances of your publication’s sales.</p>
+                        <p className='font15 fw500 colortextgrey t-center font-f'>Our digital marketing company has some world-class social media marketers who formulate sterling content and growth-focused campaigns to increase the chances of your publication’s sales.</p>
                         <Link className={styles.lets} href='#'>LET'S DISCUSS</Link>
 </div>
 
 <div className='mt-5'>
                         <h4 className='font17 fw500 color-blue t-center font-f'>AMAZON BOOK MARKETING SERVICES</h4>
-                        <p className='font15 fw500 color-black t-center font-f'>Our Amazon marketing console helps emerging, and established authors promote their books like crazy. With Amazon marketing, our creatives create personalized ads for target readers who are likely to take an interest in your publication.</p>
+                        <p className='font15 fw500 colortextgrey t-center font-f'>Our Amazon marketing console helps emerging, and established authors promote their books like crazy. With Amazon marketing, our creatives create personalized ads for target readers who are likely to take an interest in your publication.</p>
                         <Link className={styles.lets} href='#'>LET'S DISCUSS</Link>
                     </div>
 
@@ -48,13 +48,13 @@ const Buildyourownidentity = () => {
 
     <div className=''>
             <h4  className='font17 fw500 color-blue t-center font-f'>BOOK COVERS</h4>
-            <p className='font15 fw500 color-black t-center font-f'>Our digital marketing services also entail designing book covers, as they act as the missing piece of the book’s popularity puzzle. People literally judge a book by its cover! Yes, indeed.</p>
+            <p className='font15 fw500 colortextgrey t-center font-f'>Our digital marketing services also entail designing book covers, as they act as the missing piece of the book’s popularity puzzle. People literally judge a book by its cover! Yes, indeed.</p>
              <Link className={styles.lets} href='#'>LET'S DISCUSS</Link>
     </div>
 
     <div className='mt-5'>
         <h4  className='font17 fw500 color-blue t-center font-f'>SEO</h4>
-        <p className='font15 fw500 color-black t-center font-f'>By cashing in on the perks of Search Engine Optimization, our marketers highlights the opportunity to help your book win the search game. With search engine marketing, we tap the untapped marketing odds, helpful for your book to grasp the maximum attention.</p>
+        <p className='font15 fw500 colortextgrey t-center font-f'>By cashing in on the perks of Search Engine Optimization, our marketers highlights the opportunity to help your book win the search game. With search engine marketing, we tap the untapped marketing odds, helpful for your book to grasp the maximum attention.</p>
            <Link className={styles.lets} href='#'>LET'S  DISCUSS </Link> 
                                           
     </div>

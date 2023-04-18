@@ -70,25 +70,31 @@
     font-size: 15px;
     font-weight: 500;
     padding: 12px 34px;
-    border: 2px solid #16467d;
+    border: 2px solid #FF9900;
     color: #000;
       font-family: 'Poppins'; 
     text-decoration: none;
+    border-radius: 50px;
 }
-
+.freediscuss:hover{
+    background-color:#FF9900;
+    color: #fff;
+}
 .freehomenumer {
     border: 0;
     padding: 12px 34px;
     border-radius: 0;
-    background-color:#16467d;
-    border: 2px solid #16467d;
+    background-color:#FF9900;
+    border: 2px solid #FF9900;
     color: #fff;
     margin-left: 3%;
       font-family: 'Poppins'; 
     text-decoration: none;
+    border-radius: 50px;
 }
 .freehomenumer:hover{
     color: white;
+    background-color: #000;
 }
 
 .popquote{

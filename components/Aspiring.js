@@ -16,7 +16,7 @@ const Aspiring = (props) => {
                 <Row className={styles.middle}>
                     <Col md={7}>
 
-                    <h2 className="fw600 font50 colortextgrey font-f mb-4">{props.title}</h2>
+                    <h2 className="fw500 font50 colortextgrey font-f mb-4">{props.title}</h2>
                      <p className='color-lightgray font14 fw400 font-f mt-3'>{props.text}</p>
                         { props.subtext ?
 
@@ -36,7 +36,7 @@ const Aspiring = (props) => {
                     </Col>
                     <Col md={5}>
 { props.img ?  
-<Image src={props.img} className='img-fluid mt-3' />
+<Image alt="Book Writing Experts" src={props.img} className='img-fluid mt-3' />
          
 
  :

@@ -26,15 +26,15 @@
     margin: 0 auto;
     margin-top: 5%;
     color: black;
-    font-family: 'inter';
+    font-family: 'Poppins';
 }
 .more{
     border: none;
     padding-left: 0;
     padding-top: 7px;
     cursor: pointer;
-    color: #16467d;
-    font-family: 'inter';
+    color: #f29a12;
+    font-family: 'Poppins';
     font-weight: 700;
     display: block;
 }

@@ -192,7 +192,7 @@ para='With extensive knowledge and creativity, our experts turn your brilliant i
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>Collaborate With A Professional Business Plan Writer Today!</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     A business plan is important because it serves as your roadmap for your business. It outlines your business goals, strategies, and how you plan on achieving them. Additionally, when you buy a business plan online, it can be used to attract investors and partners and can also be used as a tool to measure the success of your business.
                     </p>
 

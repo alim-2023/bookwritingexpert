@@ -101,35 +101,35 @@ const Banner = (props) => {
 
                 {props.subtext ?
 
-                  <p className={`${styles.newSubPara} fw500 font18 color-black font-f mt-4 m-0`}> <strong>{props.publishers}</strong> {props.subtext}</p>
+                  <p className={`${styles.newSubPara} fw500 font18 colortextgrey font-f mt-4 m-0`}> <strong>{props.publishers}</strong> {props.subtext}</p>
                   :
                   ''
                 }
 
                 {props.subtext1 ?
 
-                  <p className='fw500 font18 color-black font-f m-0'> {props.subtext1}</p>
+                  <p className='fw500 font18 colortextgrey font-f m-0'> {props.subtext1}</p>
                   :
                   ''
                 }
 
                 {props.subtext2 ?
 
-                  <p className='fw500 font18 color-black font-f m-0'> {props.subtext2}</p>
+                  <p className='fw500 font18 colortextgrey font-f m-0'> {props.subtext2}</p>
                   :
                   ''
                 }
 
                 {props.subtext3 ?
 
-                  <p className='fw500 font18 color-black font-f m-0'> {props.subtext3}</p>
+                  <p className='fw500 font18 colortextgrey font-f m-0'> {props.subtext3}</p>
                   :
                   ''
                 }
 
                 {props.subtext4 ?
 
-                  <p className='fw500 font18 color-black font-f'> {props.subtext4} <strong>{props.subtext4bold}</strong> </p>
+                  <p className='fw500 font18 colortextgrey font-f'> {props.subtext4} <strong>{props.subtext4bold}</strong> </p>
                   :
                   ''
                 }
@@ -162,16 +162,16 @@ const Banner = (props) => {
 
                 {props.homebanlogos ?
 
-                  <div class="row">
-                    <div class="col-12 col-lg-9">
+                  <div className="row">
+                    <div className="col-12 col-lg-9">
 
                       <div className={styles.homebannerlogo}>
                         <Image className={`${styles.homelogoimgnone} img-fluid`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
                       </div>
                     </div>
 
-                    <div class="row">
-                      <div class="col-12 col-lg-8">
+                    <div className="row">
+                      <div className="col-12 col-lg-8">
                         <Slider {...bannerslider} className='mt-3 homeSlider'>
                           {bannerlogo.map((item, i) => {
                             return (

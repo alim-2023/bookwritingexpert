@@ -263,7 +263,7 @@ Dowecome= "publishmybook"
 <Row >
 <h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
 
-<p className='font50 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>Book Marketing</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>Book Marketing</Link></p>
 
 </Row>
 
@@ -343,7 +343,7 @@ para='With extensive knowledge and creativity, our marketing experts transform y
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>Combining The Elements Of Author Marketing And Public Relations</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     In general, the purpose of the author is to entertain the readers with the story, inform them of reality, and persuade them of the truth. But with digital marketing on the rise, this purpose has an additional aspect—to market themselves for readership. The author's skill is reflected in the narrative and style they write in, but their readership is built when they are marketed well. With Book Writing Cube's author promotion services, we create captivation ads for authors. Whether they are Facebook ads for authors or Amazon ads for authors, we deliver!
                     </p>
 

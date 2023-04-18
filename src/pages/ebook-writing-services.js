@@ -276,9 +276,9 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 class="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
+<h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-<p className='font50 font-f fw500 color-black t-center pb-2'>We Aim To Add Value To Your <Link className='textdocationnone color-blue hover fw700' href='/book-editing-services'> EBooks!</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>We Aim To Add Value To Your <Link className='textdocationnone color-blue hover fw700' href='/book-editing-services'> EBooks!</Link></p>
 
 </Row>
 
@@ -329,7 +329,7 @@ para='Let Our E-Book Writing Team Help You.'
 
   <Row>
     <h2 className='font50 fw700 color-blue t-center'>Why Does One Need Professional Book Writing Services?</h2>
-    <p className='font15 fw500 color-black t-center pb-5 mt-3'>
+    <p className='font15 fw500 colortextgrey t-center pb-5 mt-3'>
     Our book writing team is composed of the industry's elite who know the ins and outs of the writing industry better than any of us. If you have any more questions about signing up for the professional book writing services, we may have your answers listed below!
     </p>
 

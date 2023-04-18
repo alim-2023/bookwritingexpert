@@ -221,7 +221,7 @@ para='The list of projects goes on, but the most recent ones are here to help yo
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>Formatting Services Act Like A Missing Piece Of Your Book Success!</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     Our experts leave no stone unturned when it comes to formatting your book to the universal standards and making it a masterpiece. It goes unsaid that formatting services help you control the narrative and make a good first impression on the potential readers. To help you know more about book formatting perks, we have some knowledge to share with you!
                     </p>
 

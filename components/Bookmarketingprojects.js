@@ -81,7 +81,7 @@ const Bookmarketingprojects = () => {
 
            
             <div>
-                    <h3 className="font30 fw700 font-f color-black">Running With Rollie</h3>
+                    <h3 className="font30 fw700 font-f colortextgrey">Running With Rollie</h3>
 
                     <h4 className='font20 fw500 text-transform'>Jeffrey Bradley​</h4>
                     <p className='color-tw font15 fw500 font-f'>
@@ -108,7 +108,7 @@ const Bookmarketingprojects = () => {
             </div> 
 
               <div>
-                    <h3 className="font30 fw700 font-f color-black">VIP FRUITSs</h3>
+                    <h3 className="font30 fw700 font-f colortextgrey">VIP FRUITSs</h3>
                     <h4 className='font20 fw500 text-transform'>ADAM MUSSELMANI​</h4>
 
                     <p className='color-tw font15 fw500'>
@@ -131,7 +131,7 @@ const Bookmarketingprojects = () => {
            
             </div>  
                  <div>
-                    <h3 className="font30 fw700 font-f color-black">Say Thanks: Today and Everyday</h3>
+                    <h3 className="font30 fw700 font-f colortextgrey">Say Thanks: Today and Everyday</h3>
 
                     <h4 className='font20 fw500 text-transform'>Dante S Amato​</h4>
                     <p className='color-tw font15 fw500'>
@@ -155,7 +155,7 @@ const Bookmarketingprojects = () => {
             </div>  
 
             <div>
-                    <h3 className="font30 fw700 font-f color-black">This One's For You</h3>
+                    <h3 className="font30 fw700 font-f colortextgrey">This One's For You</h3>
 
                     <h4 className='font20 fw500 text-transform'>TIFFANY​</h4>
                     <p className='color-tw font15 fw500'>

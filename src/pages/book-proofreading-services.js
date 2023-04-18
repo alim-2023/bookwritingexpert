@@ -265,7 +265,7 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 class="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
+<h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
 <p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our <Link className='textdocationnone fw700 color-blue hover' href='/book-proofreading-services'>Proofreading Services</Link> Are Designed to Polish Your Work to Perfection</p>
 
@@ -367,7 +367,7 @@ para='Here are a few proofreading projects that we accomplished with utmost fine
 
   <Row>
     <h2 className='font50 fw700 color-blue t-center'>Answers To Some Questions That May Be Whirling Around Your Head!</h2>
-    <p className='font15 fw500 color-black t-center pb-5 mt-3'>
+    <p className='font15 fw500 colortextgrey t-center pb-5 mt-3'>
     Our proofreading experts go above and beyond to make your manuscript flawless and attention-grabbing. Whether you are an author who wants to perfect your books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing Cube sets the bar high with its standard proofreading services online and knows what its clients may be thinking of. So, here are some frequently asked questions by clients.
     </p>
 

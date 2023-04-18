@@ -190,7 +190,7 @@ para='Have a glimpse of what accomplishment we have achieved so far.'
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>SEO Content Writing Helps Your Possession Be People’s Favorite!</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     We help people outshine and be a cut above the rest. With professionally written website content infused with relevant keywords, Book Writing Cube sets the stage for business success. Content is the KING; thus, we strive to turn the potential customers into die-hard followers with the power of Content.
                     </p>
 

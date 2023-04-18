@@ -276,7 +276,7 @@ Dowecome= "publishmybook"
 <div className={`${styles.finetoothedbook} customizedbook`}>
 <Container>
 <Row >
-<h2 class="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
+<h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
 <p className='font50 font-f fw500  colortextgrey t-center pb-2'>We Want You To Get The Most Out Of Your <Link className='textdocationnone color-blue hover fw700' href='/book-editing-services'> Online Book Editing!</Link></p>
 
@@ -366,7 +366,7 @@ para='Let Our Book Editing Team Help You.'
 
   <Row>
     <h2 className='font50 fw700 color-blue t-center'>Why Do You Need Professional Book Editing Services?</h2>
-    <p className='font15 fw500 color-black t-center pb-5 mt-3'>
+    <p className='font15 fw500 colortextgrey t-center pb-5 mt-3'>
     Editing is a meticulous process, one that requires severely dedicated efforts and time to accomplish. Finishing a novel is a job well done, so why not relax back and have someone take the load off.
     </p>
 

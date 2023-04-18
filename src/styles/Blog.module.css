@@ -17,9 +17,10 @@
     padding: 12px 30px;
     border-radius: 0;
     background-color: #ff9900;
+    border-radius: 50px;
     color: #fff;
     text-decoration: none;
-    font-family: 'inter';
+    font-family: 'Poppins';
    
 }
 .blogbtn:hover{

@@ -67,28 +67,28 @@ const Strugglingwriters = () => {
                     <Col md={12}>
                         <Slider {...mockupslider} className='mt-3 mockupslider'>
                             <div>
-                                <Image src={cover1} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover1} className='img-fluid' />
                             </div>
                             <div>
-                                <Image src={cover2} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover2} className='img-fluid' />
                             </div>
                             <div>
-                                <Image src={cover3} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover3} className='img-fluid' />
                             </div>
                             <div>
-                                <Image src={cover4} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover4} className='img-fluid' />
                             </div>
                             <div>
-                                <Image src={cover5} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover5} className='img-fluid' />
                             </div>
                             <div>
-                                <Image src={cover6} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover6} className='img-fluid' />
                             </div>
                             <div>
-                                <Image src={cover7} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover7} className='img-fluid' />
                             </div>
                             <div>
-                                <Image src={cover8} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover8} className='img-fluid' />
                             </div>
                         </Slider>
                     </Col>

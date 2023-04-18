@@ -184,7 +184,7 @@ const reasons = [
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>Competent And Impeccable Audiobook Production Service For Your Success</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     Audiobooks are becoming more and more popular as time goes on. You can listen to an audiobook while you're working out, cleaning the house, or driving. They're also perfect for people who like to read but don't have a lot of time. Book Writing Cube offers audiobook recording services for just that reason. Here is where your books are brought to life!
                     </p>
 

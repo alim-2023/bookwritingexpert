@@ -75,7 +75,7 @@ const Blogclientssays = () => {
     <Container>
         <Row>
             <Col md={7}>
-            <h2 className='color-blue font48 fw900 font-f'> What Our Clients Says  About Us</h2>
+            <h2 className='color-blue font50 fw700 font-f'> What Our Clients Says  About Us</h2>
 
             <Slider {...whatourclients}>
                      
@@ -88,7 +88,7 @@ const Blogclientssays = () => {
                        
                         </div> 
 
-                         <p className={`${styles.looking} font15 fw500 color-black font-f `}>
+                         <p className={`${styles.looking} font15 fw500 colortextgrey font-f `}>
                           
                          This is the first time I’ve worked with Book Writing Cube
                                                             and I’m happy that I chose to work with them.
@@ -118,7 +118,7 @@ const Blogclientssays = () => {
                      <div >
                            
                        <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`} width={30}   src={whatour}  alt='book_writing_cube'></Image> </div> 
-                         <p className={`${styles.looking} font15 fw500 color-black font-f `}>
+                         <p className={`${styles.looking} font15 fw500 colortextgrey font-f `}>
                          Everythign was managed in the most professional and convenient way. They are amazing with communications and answering all necessary questions. They deeply explained everything and guided me through the entire process. A big thank you to the team of Book Writing Cube.
                                 </p>
                                     <p className={styles.mark}><b>Elizabeth Waldorf - US</b></p>
@@ -130,7 +130,7 @@ const Blogclientssays = () => {
                      <div >
                             
                        <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`}  width={30}  src={whatour}  alt='book_writing_cube'></Image> </div> 
-                         <p className={`${styles.looking} font15 fw500 color-black font-f `}>
+                         <p className={`${styles.looking} font15 fw500 colortextgrey font-f `}>
                                   
                          As a self-published author, I had a hard time effectively promoting my book. But Book Writing Cube's marketing team helped turn my book into a success!
                                   
@@ -144,7 +144,7 @@ const Blogclientssays = () => {
                      <div >
                             
                        <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`} width={30}   src={whatour}  alt='book_writing_cube'></Image> </div> 
-                         <p className={`${styles.looking} font15 fw500 color-black font-f `}>
+                         <p className={`${styles.looking} font15 fw500 colortextgrey font-f `}>
 
                          My experience working with Book Writing Cube was great and Mark was a huge help! Looking forward to working with them again in the future.
                          </p>
@@ -157,7 +157,7 @@ const Blogclientssays = () => {
                      <div >
                        
                      <div className={styles.whatclientlogo}>   <Image className={`${styles.quit} img-fluid`} width={30}  src={whatour}  alt='book_writing_cube'></Image> </div> 
-                         <p className={`${styles.looking} font15 fw500 color-black font-f `}>
+                         <p className={`${styles.looking} font15 fw500 colortextgrey font-f `}>
 
                          Book Writing Cube's graphic designers made the most beautiful book cover for my book. I was shocked at how accurately they had portrayed my ideas.
 

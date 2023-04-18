@@ -190,7 +190,7 @@ para='Here’s a list of our done-and-dusted projects that we completed with utm
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>Untangle The Complexity Of Your Manuscript Selling With Our Book Marketing Services!</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     A picture speaks a thousand words, but a moving picture narrates a thousand episodes. With our book video trailer services, you can hit the chord with your target audience and make them go GAGA for your publication.
                     </p>
 

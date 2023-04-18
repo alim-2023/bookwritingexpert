@@ -223,7 +223,7 @@ para='Let Our Book Writing Team Help You.'
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>Why Does One Need Professional Book Writing Services?</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     Our book writing team is composed of the industry's elite who know the ins and outs of the writing industry better than any of us. If you have any more questions about signing up for the professional book writing services, we may have your answers listed below!
                     </p>
 
@@ -293,7 +293,7 @@ image={bookwritingcanbe}
 <Row >
 <h2 className='font48 fw900 color-blue  t-center font-f mb-2'>Fine-toothed book writing to give your readers a truly immersive experience with the help of our team of professional eBook writers!</h2>  
 
-<p className='font15 fw500 color-black t-center pb-2'>Book Writing Cube is a portal to bring your thoughts, ideas, or dreams to paper for your readers.</p>
+<p className='font15 fw500 colortextgrey t-center pb-2'>Book Writing Cube is a portal to bring your thoughts, ideas, or dreams to paper for your readers.</p>
 
 </Row>
 

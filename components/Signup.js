@@ -13,7 +13,7 @@ const Signup = () => {
                     <form>
                       
                 
-                    <h4 className={styles.getup}> <span className={styles.offfree}> <span className='color-black'>Contact</span> Form</span> </h4>
+                    <h4 className={styles.getup}> <span className={styles.offfree}> <span className='colortextgrey'>Contact</span> Form</span> </h4>
 
                     <p className='font-f t-center'>It was popularised in the 1960s with the release of Letraset sheets</p>
 

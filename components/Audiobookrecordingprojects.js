@@ -71,7 +71,7 @@ const Audiobookrecordingprojects = () => {
 
            
             <div>
-                    <h3 className="font30 fw900 font-f color-black">Power Transcended With Blood</h3>
+                    <h3 className="font30 fw900 font-f colortextgrey">Power Transcended With Blood</h3>
                     <p className='color-tw font15 fw500'>
                     The culmination of the book is when the evil sorcwho has been wreaking havoc on the kingdom, is fidefeated by the heroic knight. However, this vicomes at a great cost, as the knight is morwounded in the process. Before he dies, he givefinal words of wisdom to the young prince, who mustake up the mantle of protector of the kingdom.
                     </p>
@@ -88,7 +88,7 @@ const Audiobookrecordingprojects = () => {
 
 
               <div>
-                    <h3 className="font30 fw900 font-f color-black">Heart No longer Aches</h3>
+                    <h3 className="font30 fw900 font-f colortextgrey">Heart No longer Aches</h3>
                     <p className='color-tw font15 fw500'>
                     It was the final exam, and everyone was on edge. The room was muted except for the sound of pencils scratching paper. Suddenly, someone started chuckling. It began as a giggle but quickly turned into full-blown laughter. Everyone turned to see what was so funny, and they saw the student had written "I give up" on their exam. The laughter was contagious, and soon the whole room got infected with it. The teacher didn't know what to do, so they just let the students have their moment. It was a much-needed escape from anxiety, and everyone left the exam feeling lighter
                     </p>
@@ -102,7 +102,7 @@ const Audiobookrecordingprojects = () => {
 
 
                  <div>
-                    <h3 className="font30 fw900 font-f color-black">Life With Zero Fear</h3>
+                    <h3 className="font30 fw900 font-f colortextgrey">Life With Zero Fear</h3>
                     <p className='color-tw font15 fw500'>
                    
                     It was the final exam, and everyone was on edge. The room was muted except for the sound of pencils scratching paper. Suddenly, someone started chuckling. It began as a giggle but quickly turned into full-blown laughter. Everyone turned to see what was so funny, and they saw the student had written "I give up" on their exam. The laughter was contagious, and soon the whole room got infected with it. The teacher didn't know what to do, so they just let the students have their moment. It was a much-needed escape from anxiety, and everyone left the exam feeling lighter.
@@ -118,7 +118,7 @@ const Audiobookrecordingprojects = () => {
 
 
             <div>
-                    <h3 className="font30 fw900 font-f color-black">Peace That Comes With Wounds</h3>
+                    <h3 className="font30 fw900 font-f colortextgrey">Peace That Comes With Wounds</h3>
                     <p className='color-tw font15 fw500'>
                     The book's climax occurs when the heroes finally face off against the evil wizard who has been terrorizing the kingdom. After a long and epic battle, the heroes triumph, and the wizard is defeated. The people of the kingdom are finally free from his tyranny and can live in harmony once again.
                     </p>

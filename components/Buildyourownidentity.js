@@ -25,13 +25,13 @@ const Buildyourownidentity = () => {
 
 <div>
                         <h4  className='font17 fw500 color-blue t-center font-f'>Social Media Marketing</h4>
-                        <p className='font15 fw500 color-black t-center font-f'>Use Social Media to Market your Brand!</p>
+                        <p className='font15 fw500 colortextgrey t-center font-f'>Use Social Media to Market your Brand!</p>
                         <Link className={styles.lets} href='#'>LET'S DISCUSS</Link>
 </div>
 
 <div className='mt-5'>
                         <h4 className='font17 fw500 color-blue t-center font-f'>Email Marketing Plans</h4>
-                        <p className='font15 fw500 color-black t-center font-f'>Increase your Listings and Subscriptions on Email Today!</p>
+                        <p className='font15 fw500 colortextgrey t-center font-f'>Increase your Listings and Subscriptions on Email Today!</p>
                         <Link className={styles.lets} href='#'>LET'S DISCUSS</Link>
                     </div>
 
@@ -46,13 +46,13 @@ const Buildyourownidentity = () => {
 
     <div className=''>
             <h4  className='font17 fw500 color-blue t-center font-f'>Advertising Plans</h4>
-            <p className='font15 fw500 color-black t-center font-f'>Use Social Media to Market your Brand!</p>
+            <p className='font15 fw500 colortextgrey t-center font-f'>Use Social Media to Market your Brand!</p>
              <Link className={styles.lets} href='#'>LET'S DISCUSS</Link>
     </div>
 
     <div className='mt-5'>
         <h4  className='font17 fw500 color-blue t-center font-f'>SEO Services</h4>
-        <p className='font15 fw500 color-black t-center font-f'>Our Proven Game-Plan For SEO Success</p>
+        <p className='font15 fw500 colortextgrey t-center font-f'>Our Proven Game-Plan For SEO Success</p>
            <Link className={styles.lets} href='#'>LET'S  DISCUSS </Link> 
                                           
     </div>

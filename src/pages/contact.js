@@ -187,7 +187,7 @@ const Contact = () => {
 
 
                                 <Row>
-                                    <Col> <p className='font16 fw500 font-f color-black mt-4'>Desired Service(s)* see our <b> <em> rates and services </em></b> </p> </Col>
+                                    <Col> <p className='font16 fw500 font-f colortextgrey mt-4'>Desired Service(s)* see our <b> <em> rates and services </em></b> </p> </Col>
                                 </Row>
 
 
@@ -346,8 +346,8 @@ const Contact = () => {
 
                                 <Col className='mt-3 mb-5'>
                                     <em>
-                                        You may find our confidentiality policy <Link className='textdocationnone color-black' href="/privacy-policy"><strong className={styles.numpost}>here</strong></Link> , or request a signed NDA by email: <Link className='textdocationnone color-black' href="mailto:info@bookwritingcube.com"> <strong className={styles.numpost}>info@bookwritingcube.com</strong></Link> This site is protected by reCAPTCHA and the Google
-                                        <Link className='textdocationnone color-black' href="/privacy-policy"><strong className={styles.numpost}> Privacy Policy</strong></Link>  and Terms of Service <Link className='textdocationnone color-black' href="/terms-of-use"> <strong className={styles.numpost}>Terms of Service</strong> </Link> apply.
+                                        You may find our confidentiality policy <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}>here</strong></Link> , or request a signed NDA by email: <Link className='textdocationnone colortextgrey' href="mailto:info@bookwritingcube.com"> <strong className={styles.numpost}>info@bookwritingcube.com</strong></Link> This site is protected by reCAPTCHA and the Google
+                                        <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}> Privacy Policy</strong></Link>  and Terms of Service <Link className='textdocationnone colortextgrey' href="/terms-of-use"> <strong className={styles.numpost}>Terms of Service</strong> </Link> apply.
                                     </em>
 
                                 </Col>
@@ -371,7 +371,7 @@ const Contact = () => {
 
                             <h2 className='color-blue font50 fw700 font-f'> We Provide Everything You Need to
                                 Achieve Your Publishing Goals.</h2>
-                            <p className='font16 fw500 font-f color-black' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:(302)883-8877' className='textdocationnone color-black' > Call now:
+                            <p className='font16 fw500 font-f colortextgrey' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:(302)883-8877' className='textdocationnone colortextgrey' > Call now:
                                 (302) 883-8877 </Link></span> </p>
 
                         </Col>

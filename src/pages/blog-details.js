@@ -39,7 +39,7 @@ const Blogdetails = () => {
     <Container>
         <Row>
         <Col className={`${styles.above} col-md-12`}>
-    <Link className='textdocationnone' href='#'> <h2 className='color-blue fw900 font48 t-center font-f'>Rising Above the Competition: 8 Advanced Strategies for KDP Book Promotion and Marketing on Amazon</h2> </Link>
+    <Link className='textdocationnone' href='#'> <h2 className='color-blue fw700 font50 t-center font-f'>Rising Above the Competition: 8 Advanced Strategies for KDP Book Promotion and Marketing on Amazon</h2> </Link>
         </Col>
 
 
@@ -47,19 +47,19 @@ const Blogdetails = () => {
 
             <div className='d-flex gap-2'>
                         <Image src={sideicon} alt="book_writing_cube" priority width="25" height="25" />
-                        <p className='fw500 font18 color-black font-f'> By BWC Team in 2023</p>
+                        <p className='fw500 font18 colortextgrey font-f'> By BWC Team in 2023</p>
             </div>
 
                 <div>
                     <Image src={blogimage4} alt='book_writing_cube' priority  className='img-fluid' />
                 </div>
 
-                <p className='mt-3 fw500 font15 font-f'>The publishing landscape is more competitive than ever, so authors need to have knowledge about getting their books seen. Traditional methods like print-on-demand are becoming less effective as the digital marketplace evolves, creating a greater demand for modern strategies that get your book noticed in the growing pool of titles on <Link className='textdocationnone' href='#'>Kindle Direct Publishing</Link> (KDP) platforms.</p>
+                <p className='mt-3 fw500 font15 font-f'>The publishing landscape is more competitive than ever, so authors need to have knowledge about getting their books seen. Traditional methods like print-on-demand are becoming less effective as the digital marketplace evolves, creating a greater demand for modern strategies that get your book noticed in the growing pool of titles on <Link className='textdocationnone hover color-blue' href='#'>Kindle Direct Publishing</Link> (KDP) platforms.</p>
 
                 <p className='mt-3 fw500 font15 font-f'>If you're looking to rise above this competition, you have landed in the right place. This blog post explores the power of Amazon's targeted tools for book advertisement and strategies to increase visibility and elevate your eBooks into bestseller status.</p>
 
-                         <h2 className='font30 fw900 color-black font-f' id="1">Understanding the Importance of 
-                           <Link className='textdocationnone color-black' href="#"> KDP Advertising </Link>
+                         <h2 className='font30 fw700 colortextgrey font-f' id="1">Understanding the Importance of 
+                           <Link className='textdocationnone colortextgrey hover' href="#"> KDP Advertising </Link>
                             for Your Book 
                         </h2>
 
@@ -69,7 +69,7 @@ const Blogdetails = () => {
 
                         <p className='mt-3 fw500 font15 font-f'>These benefits help make KDP Advertising an invaluable tool for authors who want to maximize their Amazon book advertising success.</p>
 
-                        <h2 className='font30 fw900 color-black font-f' id="2">
+                        <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Harnessing the Power of Amazon's Targeted Advertising Tools
                         </h2>
                         
@@ -78,7 +78,7 @@ const Blogdetails = () => {
                         </p>
                         <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
-                        <h2 className='font30 fw900 color-black font-f' id="2">
+                        <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Maximizing Your Book's Visibility through KDP Select and Free Book Promotions
                         </h2>
                         
@@ -87,7 +87,7 @@ const Blogdetails = () => {
                         </p>
                         <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
-                        <h2 className='font30 fw900 color-black font-f' id="2">
+                        <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Measuring and Optimizing Your Book's KDP Promotion Results for Continued Success
                         </h2>
                         
@@ -96,7 +96,7 @@ const Blogdetails = () => {
                         </p>
                         <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
-                        <h2 className='font30 fw900 color-black font-f' id="2">
+                        <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Offer Excerpts
                         </h2>
                         
@@ -105,7 +105,7 @@ const Blogdetails = () => {
                         </p>
                         <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
-                        <h2 className='font30 fw900 color-black font-f' id="2">
+                        <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Participate In Online Forums
                         </h2>
                         

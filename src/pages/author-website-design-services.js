@@ -201,7 +201,7 @@ const reasons = [
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>Powerful Websites Designed By The Best In The Game!</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     As a professional author, it is important to have a website that represents you and your work well. At Book Writing Cube, a leading website designing company, we help you with that. A professional author's website design will help you stand out from the competition and make a great first impression on potential readers and clients. Professional website design services can help you create a website that is perfect for your needs.
                     </p>
 

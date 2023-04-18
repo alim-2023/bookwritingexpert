@@ -19,7 +19,7 @@ const Dowecome = (props) => {
                      <h3 className="fw300 font50 colortextgrey font-f mb-4">{props.title}</h3>
 
                      { props.subheading ?
-                        <h4 className={`${styles.subheading} font17 fw500 color-black font-f`}>{props.subheading}</h4>
+                        <h4 className={`${styles.subheading} font17 fw500 colortextgrey font-f`}>{props.subheading}</h4>
                      :
 ''
 }

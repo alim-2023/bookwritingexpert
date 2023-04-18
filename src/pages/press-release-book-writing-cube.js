@@ -126,9 +126,9 @@ const Announcement = () => {
                                 </li>
                                 <li className='font-f'><strong>Zip code: </strong> 97008
                                 </li>
-                                <li className='font-f'><strong>Email: </strong> <Link className='color-black font-f textdocationnone' href="mailto:info@bookwritingcube.com">info@bookwritingcube.com</Link>
+                                <li className='font-f'><strong>Email: </strong> <Link className='colortextgrey font-f textdocationnone' href="mailto:info@bookwritingcube.com">info@bookwritingcube.com</Link>
                                 </li>
-                                <li className='font-f'><strong>Phone: </strong> <Link className='color-black font-f textdocationnone' href="tel:+1302 883-8877">(302) 883-8877</Link>
+                                <li className='font-f'><strong>Phone: </strong> <Link className='colortextgrey font-f textdocationnone' href="tel:+1302 883-8877">(302) 883-8877</Link>
                                 </li>
                                 <li className='font-f'><strong>Working hours: </strong> Mon-Fri, 9:00 AM - 5:00 PM
                                 </li>

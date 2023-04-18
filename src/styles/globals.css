@@ -84,7 +84,7 @@ body{ font-family: 'Poppins'; }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black;
+  background: #223235;
 }
 
 /* Handle on hover */
@@ -106,15 +106,15 @@ body{ font-family: 'Poppins'; }
 .faqheading.accordion-header .accordion-button{
   background-color: unset;
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'Poppins';
-  color: black;
+  color: #223235;
 }
 
 .textbody.accordion-body{
   font-size: 1rem;
   font-family: 'Poppins';
-  color: black;
+  color: #223235;
 }
 
 .team.accordion-item:first-of-type {
@@ -131,7 +131,7 @@ body{ font-family: 'Poppins'; }
 .team.accordion-item:last-of-type {
   border-bottom-right-radius: unset;
   border-bottom-left-radius:  unset;
-  border: 1px solid black;
+  border: 1px solid #223235;
 }
 
 .team.accordion-item{
@@ -180,7 +180,7 @@ body{ font-family: 'Poppins'; }
   border-radius: 50px;
 }
 .testtimonials svg.slick-arrow.slick-prev:hover{
-  background-color: black;
+  background-color: #223235;
 }
 .testtimonials svg.slick-arrow.slick-next {
   background-color: #7f7f7f87;
@@ -189,7 +189,7 @@ body{ font-family: 'Poppins'; }
   border-radius: 50px;
 }
 .testtimonials svg.slick-arrow.slick-next:hover{
-  background-color: black;
+  background-color: #223235;
 }
 .testtimonials polyline{
   filter: invert(1);
@@ -205,7 +205,7 @@ body{ font-family: 'Poppins'; }
   left: -52px;
 }
 .testtimonials1 svg.slick-arrow.slick-prev:hover{
-  background-color: black;
+  background-color: #223235;
 }
 .testtimonials1 svg.slick-arrow.slick-next {
   background-color: #7f7f7f87;
@@ -214,7 +214,7 @@ body{ font-family: 'Poppins'; }
   border-radius: 50px;
 }
 .testtimonials1 svg.slick-arrow.slick-next:hover{
-  background-color: black;
+  background-color: #223235;
 }
 .testtimonials1 polyline{
   filter: invert(1);
@@ -262,7 +262,7 @@ body{ font-family: 'Poppins'; }
 }
 .blogslide .slick-dots li button:before {
   font-size: 13px;
-  color: #16467d;
+  color: #FF9900;
   border-color: transparent;
   opacity: 1;
   margin-top: 112%;

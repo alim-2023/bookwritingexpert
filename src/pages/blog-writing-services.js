@@ -254,7 +254,7 @@ para='Our team of brilliant blog writers has years’ worth of experience.'
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>The Importance Of Blog Writing In Today's Digitally-Driven Era</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     Blog writing is a great way to promote a book or a business. In addition, blogging can be a great way to connect with others who share your interests. Professional blog writing services can also be a great marketing tool. If you can write well and provide valuable information, people will be more likely to visit your blog. Our professional blog writers help you with that. This can lead to more traffic for your website or blog, which can, in turn, lead to more customers or clients.
                     </p>
 
@@ -316,7 +316,7 @@ classnumber = { item.classnum }
 <Row >
 <h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
 
-<p className='font50 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> Book Marketing</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> Book Marketing</Link></p>
 
 </Row>
 

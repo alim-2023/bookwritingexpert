@@ -25,7 +25,7 @@ const Pricing = () => {
 
   const priceHead = <h1 className='font50 fw700 color-blue'>The World Awaits Your Masterpiece!</h1>
 
-  const exprtSpan = <h2 className='fw500 font50 color-white font-f t-center font-f mb-4'><span className='color-blue fw700'>Book Writing Experts</span> Is waiting for you to Ask for a <span className='color-blue fw700'>Professional Ghostwriter</span></h2>;
+  const exprtSpan = <span className='fw500 font50 color-white font-f t-center font-f mb-4'><span className='color-blue fw700'>Book Writing Experts</span> Is waiting for you to Ask for a <span className='color-blue fw700'>Professional Ghostwriter</span></span>;
 
   const bannertext = [
     {

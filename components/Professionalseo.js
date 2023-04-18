@@ -17,7 +17,7 @@ const Professionalseo = () => {
             <Col md={12}>
             <h2 className='font48 fw900 color-blue font-f t-center'> Professional SEO Article Writing Services That Make an Impact</h2>
 
-            <p className='fw500 font18 color-black font-f mt-3 m-0 t-center'>
+            <p className='fw500 font18 colortextgrey font-f mt-3 m-0 t-center'>
                 Our team of article writers has worked on countless projects from vario niches.
             </p>
 

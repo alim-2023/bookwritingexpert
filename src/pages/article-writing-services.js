@@ -200,7 +200,7 @@ Dowecome= "publishmybook"
 
   <Row>
     <h2 className='font48 fw900 color-blue t-center'>High-Quality Article Writing Services To Expand Your Reach And Join The Big Leagues!</h2>
-    <p className='font15 fw500 color-black t-center pb-5'>
+    <p className='font15 fw500 colortextgrey t-center pb-5'>
     Expanding your reach with professional article writing services can be a great way to get your business in front of more potential customers. By having engaging and well-written content on your website, you can attract more visitors and keep them engaged with what you have to offer. Professional research article writing services can help you create content that is both informative and engaging, helping you to connect with more potential customers and grow your business.
                     </p>
 
@@ -248,7 +248,7 @@ Dowecome= "publishmybook"
 <Row >
 <h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>  
 
-<p className='font50 font-f fw500 color-black t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>  Book Marketing</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>  Book Marketing</Link></p>
 
 </Row>
 
