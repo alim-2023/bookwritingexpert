@@ -211,7 +211,7 @@ const Footer = () => {
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-publishing-services">Book Publishing</Link></li>
 
-                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/ebook-writing-services">Ebook Writing</Link></li>
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-writing-services">Book Writing</Link></li>
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-marketing-services">Book Marketing</Link></li>
 
