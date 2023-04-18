@@ -19,32 +19,32 @@ const Ourprocess = (props) => {
             </Row>
             <Row className={styles.borderpost}>
                 <Col md={5}>
-                    <div className={styles.dataslot}>
+                    <div className={`${styles.dataslot} ${styles.dataslotz1}`}>
                         <h3>{props.heading1}</h3>
                         <p className='color-lightgray font14 fw400 font-f t-center mt-3'> {props.para1} </p>
                     </div>
                     
-                    <div className={styles.dataslot2}>
+                    <div className={`${styles.dataslot2} ${styles.dataslotz2}`}>
                     <h3>    {props.num2}</h3>
                     </div>
 
 
-                    <div className={styles.dataslot}>
+                    <div className={`${styles.dataslot} ${styles.dataslotz1}`}>
                         <h3>{props.heading3}</h3>
                         <p className='color-lightgray font14 fw400 font-f t-center mt-3'> {props.para3} </p>
                     </div>
-                    <div className={styles.dataslot2}>
+                    <div className={`${styles.dataslot2} ${styles.dataslotz2}`}>
                     <h3> {props.num4} </h3>
                     </div>
 
-                    <div className={styles.dataslot}>
+                    <div className={`${styles.dataslot} ${styles.dataslotz1}`}>
                         <h3>{props.heading5}</h3>
                         <p className='color-lightgray font14 fw400 font-f t-center mt-3'> {props.para5} </p>
                     </div>
                 </Col>
                 <Col md={2} className={styles.sideline}>
                  
-        {/* <Image src={linedesign} className='img-fluid' > </Image> */}
+       <div className={styles.sidepic}></div>
 
                 </Col>
                 <Col md={5}>

@@ -137,11 +137,12 @@ col6: '6',
 <Partners/>
 
 {/* Makestories */}
+<div className='mt-5'>
 <Makestoriesnew
 title='Our Latest Digital Marketing Projects'
 para='Let Our Digital Marketing Team Help You'
 />
-
+</div>
 
 
 

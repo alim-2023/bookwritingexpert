@@ -81,6 +81,19 @@ background-color: #24303E;
 
 
 @media (max-width:991px)  {
+
+
+    .socialiconfooter .socaillinks {
+       
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 4px;
+    }
+
+
 .footermenu1 .footermenulinks {
 
     font-size: 10px;
@@ -94,6 +107,28 @@ background-color: #24303E;
 }
 
 @media (max-width:767px)  {
+
+    .footer h2 {
+        margin-top: 12%;
+    }
+
+    .imgsizes img {
+        width: 25%;
+        display: block;
+       
+    }
+
+   .footerborder .t-right {
+        text-align: center;
+    }
+
+    .footerborder img {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 2%;
+    }
     .awards {
         text-align: left;
     }
