@@ -2,9 +2,6 @@ import React from 'react'
 import styles from '@/styles/Whatourclients.module.css'
 import Image from 'next/image'
 import { Container } from 'react-bootstrap'
-import { GrFormPrevious } from 'react-icons/gr'
-import { GrFormNext } from 'react-icons/gr'
-
 import avtar1 from '../public/images/testimonial/avatar-1.png'
 import avtar2 from '../public/images/testimonial/avatar-2.png'
 import avtar3 from '../public/images/testimonial/avatar-3.png'
@@ -27,10 +24,6 @@ import Slider from 'react-slick'
 
 const Whatourclients = () => {
 
-
-
-
-
   var whatourclients = {
     dots: false,
     arrows: true,
@@ -39,8 +32,6 @@ const Whatourclients = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-
-    // nextArrow: <GrFormNext className='privious' />,
     responsive: [
       {
         breakpoint: 1024,
@@ -72,7 +63,7 @@ const Whatourclients = () => {
   return (
     <>
       <div className={styles.ourclients}>
-        <Container className='testtimonials'>
+        <Container className='testtimonials clintTesti'>
 
 
 
