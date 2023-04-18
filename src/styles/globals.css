@@ -275,10 +275,6 @@ body{ font-family: 'Poppins'; }
 
 }
 
-.faqssideicon .accordion-button:after {
-  margin-left: unset;
-}
-
 .faqheading .accordion-button:focus {
   border-color: unset;
   box-shadow: unset;

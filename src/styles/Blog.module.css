@@ -16,7 +16,7 @@
     border: 0;
     padding: 12px 30px;
     border-radius: 0;
-    background-color: #16467d;
+    background-color: #ff9900;
     color: #fff;
     text-decoration: none;
     font-family: 'inter';
@@ -29,7 +29,7 @@
 }
 
 .cardbodylist h5{
-    height: 170px;
+    height: 160px;
 }
 
 @media (max-width:767px)  {

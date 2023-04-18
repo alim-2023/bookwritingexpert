@@ -21,14 +21,13 @@
 
 .pricing {
   background-color: #141d29;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
   padding-top: 140px;
   padding-bottom: 70px;
   font-family: "Poppins";
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
 .bookpublishingservices {
   background-image: url(/images/bannerimages/bookpublishingservices.jpg);
@@ -272,9 +271,7 @@
   font-family: "Poppins";
 }
 .condition {
-  background-image: url(/images/bannerimages/bookeditingservices.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #141d29;
   padding-top: 130px;
   padding-bottom: 30px;
 
@@ -290,7 +287,7 @@
 .blogsbanner {
   padding-top: 140px;
   padding-bottom: 50px;
-  background-color: #f1f1f1;
+  background-color: #141d29;
   font-family: "Poppins";
 }
 
@@ -319,9 +316,9 @@
   font-weight: 900;
   font-size: 20px;
   text-transform: capitalize;
-  margin-top: 0;
-  color: #ff9900;
+  margin: 0 auto !important;
   font-family: "Poppins";
+  width: 100%;
 }
 .blogbanclass {
   width: 100%;
@@ -330,9 +327,7 @@
 }
 
 .faqs {
-  background-image: url(/images/bannerimages/faqsbanner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #141d29;
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: center;
@@ -414,7 +409,6 @@
 .newPara {
   max-width: 85%;
 }
-
 
 @media (max-width: 1200px) {
   .new1 {

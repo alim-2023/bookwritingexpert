@@ -3,19 +3,21 @@ import styles from '@/styles/Termsofuse.module.css'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
-import { Container,Row,Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import Aspiring from '../../components/Aspiring'
 
 const Termsofuse = () => {
 
-    const terms=[
-        {
-          title: 'Terms Of Use',
-          banners:'condition',
-          alignclass:'align',
-        }
-      ]
-    
+  const termsHead = <h1 className='font50 fw700 color-blue'>Terms Of Use</h1>
+
+  const terms = [
+    {
+      title: termsHead,
+      banners: 'condition',
+      alignclass: 'align',
+    }
+  ]
+
 
 
   return (
@@ -23,44 +25,44 @@ const Termsofuse = () => {
 
 
 
-    <Head>
-    <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <title>Terms of use - Hire Professional Book Writing Experts in the US -</title>
-    <meta name="description"
-        content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="tags" content="" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Terms of use  - Hire Professional Book Writing Experts in the US -" />
-    <meta property="og:description"
-        content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
-    <meta property="og:url" content="https://www.bookwritingcube.com/" />
-    <meta property="og:site_name" content="Terms of use  - Hire Professional Book Writing Experts in the US -" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="5 minutes" />
-    <link rel="icon" href="/favicon.png" />
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <title>Terms of use - Hire Professional Book Writing Experts in the US -</title>
+        <meta name="description"
+          content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="tags" content="" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Terms of use  - Hire Professional Book Writing Experts in the US -" />
+        <meta property="og:description"
+          content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
+        <meta property="og:url" content="https://www.bookwritingcube.com/" />
+        <meta property="og:site_name" content="Terms of use  - Hire Professional Book Writing Experts in the US -" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="5 minutes" />
+        <link rel="icon" href="/favicon.svg" />
 
-    </Head>
+      </Head>
 
-     {/* banner components */}
+      {/* banner components */}
 
-   {terms.map((item, i) =>
+      {terms.map((item, i) =>
         <Banner key={i}
           title={item.title}
           bannershome={item.banners}
           alignclass={item.alignclass}
-       /> 
-       )}
-      
+        />
+      )}
+
       <Container>
         <Row>
-        <div className={styles.termsofuse}>
+          <div className={styles.termsofuse}>
 
             <p className='font15 fw500 color-black font-f'>
-            Choice of visiting our homepage is solely the customer’s decision. Any dispute over privacy is subject to this notice and our Privacy Policy. This includes limitations on damages, arbitration of disputes, and the applicable law of the state. If the customers have any issues regarding the Privacy Policy, they should contact us at their best convenience. Our customer services shall be most happy to serve them. As our Policies are liable to change at any time, it is recommended that the customers go through the policy each time they enter the site to purchase.
+              Choice of visiting our homepage is solely the customer’s decision. Any dispute over privacy is subject to this notice and our Privacy Policy. This includes limitations on damages, arbitration of disputes, and the applicable law of the state. If the customers have any issues regarding the Privacy Policy, they should contact us at their best convenience. Our customer services shall be most happy to serve them. As our Policies are liable to change at any time, it is recommended that the customers go through the policy each time they enter the site to purchase.
             </p>
 
             <p className='font15 fw500 color-black font-f'>The company gathers navigational information about where visitors go on our website and information about the technical efficiencies of our website and service i.e. time to connect and time to download pages. This information allows us to see which areas of our Company’s Website are most visited and helps us understand our customers better than before. This also helps us improve the quality of those sites which are lacking in some way or the other. Unless otherwise noted, all materials, including images, illustrations, designs, icons, photographs, written and other materials that are part of this site collectively, the “Contents” are copyrights, trademarks, trade dress and/or other intellectual property owned, controlled or licensed by the Company.</p>
@@ -97,9 +99,9 @@ const Termsofuse = () => {
             <p className='font15 fw500 color-black font-f'>Revision turnaround time as per urgency is as follows:</p>
 
             <ul>
-                <li className='font15 fw500 color-black font-f'>For orders up to 24 hours of urgency; Revision turnaround time would be 24 hours.</li>
-                <li className='font15 fw500 color-black font-f'>For orders between 24-48 hours of urgency; Revision turnaround time would be 48 hours.</li>
-                <li className='font15 fw500 color-black font-f'>For orders of 48 hours and above; Revision turnaround time would be 72 hours.</li>
+              <li className='font15 fw500 color-black font-f'>For orders up to 24 hours of urgency; Revision turnaround time would be 24 hours.</li>
+              <li className='font15 fw500 color-black font-f'>For orders between 24-48 hours of urgency; Revision turnaround time would be 48 hours.</li>
+              <li className='font15 fw500 color-black font-f'>For orders of 48 hours and above; Revision turnaround time would be 72 hours.</li>
             </ul>
 
             <h3 className='font-f'>Our Programs</h3>
@@ -122,21 +124,21 @@ const Termsofuse = () => {
 
             <h3 className='font-f'>Best Price</h3>
 
-<p className='font15 fw500 color-black font-f'>We offer services at the best price along with exclusive free features. Customers are charged at a special discounted price. A quick read of our exclusive service features will help customers understand how we stay successful in the business. If customers find any site offering these EXCLUSIVE features, we will give them 10% additional discount. Furthermore, once a customer takes advantage of any promotional deals offering discounts, other discounts, such as the Bulk Order Discount and the Membership Discount will not be applicable to their order.</p>
+            <p className='font15 fw500 color-black font-f'>We offer services at the best price along with exclusive free features. Customers are charged at a special discounted price. A quick read of our exclusive service features will help customers understand how we stay successful in the business. If customers find any site offering these EXCLUSIVE features, we will give them 10% additional discount. Furthermore, once a customer takes advantage of any promotional deals offering discounts, other discounts, such as the Bulk Order Discount and the Membership Discount will not be applicable to their order.</p>
 
 
-<h3 className='font-f'>Disclaimers</h3>
+            <h3 className='font-f'>Disclaimers</h3>
 
 
-<ul>
-                <li className='font15 fw500 color-black font-f'>Customer expressly understands and agree that their use of the services is at their sole risk and that the services are provided “as is” and “as available.” In particular, the company, its subsidiaries, and affiliates, and its licensors do not represent or warrant to customers that:.</li>
-                <li className='font15 fw500 color-black font-f'>Customer’s use of the services will meet their requirements,</li>
-                <li className='font15 fw500 color-black font-f'>Customer’s use of the services will be uninterrupted, timely, secure or free from error,</li>
-                <li className='font15 fw500 color-black font-f'>Any information obtained by customers as a result of their use of the services will be accurate or reliable</li>
+            <ul>
+              <li className='font15 fw500 color-black font-f'>Customer expressly understands and agree that their use of the services is at their sole risk and that the services are provided “as is” and “as available.” In particular, the company, its subsidiaries, and affiliates, and its licensors do not represent or warrant to customers that:.</li>
+              <li className='font15 fw500 color-black font-f'>Customer’s use of the services will meet their requirements,</li>
+              <li className='font15 fw500 color-black font-f'>Customer’s use of the services will be uninterrupted, timely, secure or free from error,</li>
+              <li className='font15 fw500 color-black font-f'>Any information obtained by customers as a result of their use of the services will be accurate or reliable</li>
             </ul>
 
 
-        </div>
+          </div>
 
 
 
@@ -146,14 +148,14 @@ const Termsofuse = () => {
 
 
       {/* Aspiring */}
-<Aspiring
- title= 'Professional Book Writing and Publishing We Give New Life To Your Words'
- text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
- number="(302) 883-8877"
- discuss="LET'S DISCUSS"
-/>
+      <Aspiring
+        title='Professional Book Writing and Publishing We Give New Life To Your Words'
+        text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
+        number="(302) 883-8877"
+        discuss="LET'S DISCUSS"
+      />
     </>
- )
+  )
 }
 
 export default Termsofuse

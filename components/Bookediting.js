@@ -8,11 +8,11 @@ import Button from 'react-bootstrap/Button';
 import Freequote from './Freequote'
 
 // images
-import bookbadges2 from '/public/images/bookbadges/2.png'
-import bookbadges3 from '/public/images/bookbadges/3.png'
+import bookbadges6 from '/public/images/bookbadges/6.png'
+import bookbadges7 from '/public/images/bookbadges/7.png'
 
 
-const BookPromotion = (props) => {
+const BookEditing = (props) => {
 
 
     const [show, setShow] = useState(false);
@@ -25,16 +25,16 @@ const BookPromotion = (props) => {
 
         {
             title: 'STANDARD',
-            para: 'Digital Marketing Service for 6 months to make your ROI 200% and make your book a best seller on Amazon with 100% Money Back Guarantee.',
+            para: 'Creative content with a range of 200-300 pages.',
             btnname: 'Get A Quote',
-            bookbadges1: bookbadges2,
+            bookbadges1: bookbadges6,
         },
 
         {
             title: 'PREMIUM',
-            para: 'Digital Marketing Service for 12 months to make your ROI 400% and make your book a best seller on Amazon with 100% Money Back Guarantee.',
+            para: 'Creative content with a range of 200-300 pages.',
             btnname: 'Get A Quote',
-            bookbadges1: bookbadges3,
+            bookbadges1: bookbadges7,
         },
 
     ];
@@ -51,7 +51,7 @@ const BookPromotion = (props) => {
                     <Row className={` ${styles.bookrow} gy-3 `}>
 
                         <Col md={12}>
-                            <h1 className='font50 fw700 color-blue text-center mb-5'>Book Promotion</h1>
+                            <h1 className='font50 fw700 color-blue text-center mb-5'>Book Editing</h1>
                         </Col>
 
                         {data.map((post, i) => (
@@ -89,4 +89,4 @@ const BookPromotion = (props) => {
     )
 }
 
-export default BookPromotion
+export default BookEditing
