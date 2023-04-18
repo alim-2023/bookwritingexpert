@@ -28,7 +28,7 @@ import Stopworrying from '../../components/Stopworrying'
 const Digitalmarketingservices = () => {
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>     Stellar Digital Marketing Services Crafting Strong Branding Experiences For Your Brilliant Ideas!</span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>     Stellar Digital Marketing Services Crafting Strong Branding Experiences For Your Brilliant Ideas!</span>   </h1>;
 
   const bannertext=[
     {

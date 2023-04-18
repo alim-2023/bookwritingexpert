@@ -48,7 +48,7 @@ const Bookpublishingservices = () => {
   const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
 
   const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone color-blue hover'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <Link className='textdocationnone color-blue hover' href="/book-marketing-services"> Book Marketing Services </Link> <span className='d-block'>That Saves You From Getting Lost In The Mix!</span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <Link className='textdocationnone color-blue hover' href="/book-marketing-services"> Book Marketing Services </Link> <span className=''>That Saves You From Getting Lost In The Mix!</span>   </h1>;
 
 
 

@@ -22,7 +22,7 @@ import Stillonthefence from '../../components/Stillonthefence'
 
 const Audiobookrecordingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/book-formatting-services">Audiobook Recording Services  </Link> to Add a Touch of Captivity to Your Manuscripts’ Words!! </span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>    <Link className='fw700 textdocationnone color-blue hover' href="/book-formatting-services">Audiobook Recording Services  </Link> to Add a Touch of Captivity to Your Manuscripts’ Words!! </span>   </h1>;
 
   
   const bannertext=[

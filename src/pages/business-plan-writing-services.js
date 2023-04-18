@@ -23,7 +23,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Businessplanwritingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>     Business Plan Writing Services To Help You Follow A Roadmap To Business Success!</span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>     Business Plan Writing Services To Help You Follow A Roadmap To Business Success!</span>   </h1>;
 
 
   const bannertext=[

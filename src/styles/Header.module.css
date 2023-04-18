@@ -220,6 +220,14 @@
   color: #ff9900;
 }
 
+.megaLinks img{
+  width: 9%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
 @media (min-width: 1440px) {
   .border {
     gap: 40px;
@@ -239,6 +247,9 @@
 }
 
 @media (max-width: 1440px) {
+
+
+
   .serviceshover:hover .megamenu {
     display: flex;
     position: absolute;

@@ -32,7 +32,7 @@ import designprojects3 from '/public/images/designprojects/3.png'
 
 const Authorwebsitedesignservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/author-website-design-services">Author Website Design Services </Link> Helping You Up Your Branding Game! </span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>    <Link className='fw700 textdocationnone color-blue hover' href="/author-website-design-services">Author Website Design Services </Link> Helping You Up Your Branding Game! </span>   </h1>;
 
   const bannertext=[
     {

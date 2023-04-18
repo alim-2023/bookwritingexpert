@@ -207,7 +207,7 @@ const Footer = () => {
         <ul className={`${styles.footermenu1}  mt-4`}>
              
 
-                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-editing-services">Book Editing</Link></li>
+                <li className={ `${styles.footermenulinks} pt-1`}><Link className={styles.styleset} href="/book-editing-services">Book Editing</Link></li>
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-publishing-services">Book Publishing</Link></li>
 
@@ -217,7 +217,12 @@ const Footer = () => {
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/digital-marketing-services">Digital Marketing</Link></li>
 
-                {/* <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/press-release-book-writing-cube">Announcement</Link></li> */}
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/ook-proofreading-services">Proofreading Services</Link></li>
+
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/ghostwriting-services">Ghostwriting</Link></li>
+
+                <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/children-book-publication-services">Children Book Publication</Link></li>
+                
                 
             </ul>
 

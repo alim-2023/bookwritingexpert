@@ -48,7 +48,7 @@ const Bookpublishingservices = () => {
 
   const text = <span>This type of <Link className='textdocationnone color-blue hover' href="/book-editing-services"> ebook editing service </Link>  is also called Mechanical Editing and sometimes referred to as Line Editing. The editor's singular job is to make sure the story has a more "professional" approach and fill any gaps in the original plot.</span>;
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>  Professional and unmatched</span> <Link className='textdocationnone color-blue hover' href="/book-editing-services"> Book Editing Services </Link>  <span className='d-block'>for all the Idealists within their reach</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>  Professional and unmatched</span> <Link className='textdocationnone color-blue hover' href="/book-editing-services"> Book Editing Services </Link>  <span className=''>for all the Idealists within their reach</span> </h1>;
 
 
 

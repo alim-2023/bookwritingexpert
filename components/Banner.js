@@ -82,7 +82,7 @@ const Banner = (props) => {
 
         <Container>
           <Row>
-            <Col md={8} className={styles[props.alignclass]}>
+            <Col md={7} className={styles[props.alignclass]}>
 
               <div className={styles.homebannertext}>
 

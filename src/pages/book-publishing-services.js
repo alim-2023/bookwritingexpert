@@ -51,13 +51,13 @@ const Bookpublishingservices = () => {
 
   const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="/book-publishing-services" className='textdocationnone color-blue hover'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className='d-block'>To Our Struggling Authors</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className=''>To Our Struggling Authors</span> </h1>;
 
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Is your talent getting unnoticed due to problems in publishing? Not anymore! We have solutions to your problems! Publishing professionals at Book Writing Experts know the best and trouble-free means to publish your work and help you get it to the reader’s hand.',
+      pra: 'Is your talent getting unnoticed due to problems in publishing? Not anymore! We have solutions to your problems! Publishing.',
       discuss: 'LET S DISCUSS',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,

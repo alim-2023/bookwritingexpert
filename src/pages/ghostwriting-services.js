@@ -87,7 +87,7 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
   
   ]
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <span className='d-block'>Bring Your Ideas to Life With Our Expert</span> <Link className='textdocationnone color-blue hover' href="/book-proofreading-services"> Ghostwriting Services! </Link>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <span className=''>Bring Your Ideas to Life With Our Expert</span> <Link className='textdocationnone color-blue hover' href="/book-proofreading-services"> Ghostwriting Services! </Link>   </h1>;
 
 
 

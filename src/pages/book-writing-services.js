@@ -38,7 +38,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <Link className='textdocationnone color-blue hover' href="/ebook-writing-services">Ebook Writing Services</Link>  <span className='d-block'>That Give Meaning To Your Imagination!</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <Link className='textdocationnone color-blue hover' href="/ebook-writing-services">Ebook Writing Services</Link>  <span className=''>That Give Meaning To Your Imagination!</span> </h1>;
 
 
 

@@ -71,7 +71,7 @@ const Childrenbookpublicationservices = () => {
   const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover fw700' href='/children-book-publication-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/children-book-publication-services"> Book Publishing Services  </Link>  <span className='d-block'>To Our Struggling Authors</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/children-book-publication-services"> Book Publishing Services  </Link>  <span className=''>To Our Struggling Authors</span> </h1>;
 
   const bannertext=[
     {

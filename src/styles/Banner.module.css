@@ -410,6 +410,34 @@
 .newPara {
   max-width: 85%;
 }
+@media (max-width: 1440px) { 
+
+  .banner h1{
+    max-width: 85%;
+  }
+  .offeringyoubook h1{
+    max-width: 85%;
+  }
+  .bookpromotionservices h1{
+    max-width: 85%;
+  }
+  .ghostwriting h1{
+    max-width: 85%;
+  }
+  .ebook h1{
+    max-width: 85%;
+  }
+  .bookpublishingservices h1{
+    max-width: 85%;
+  }
+  .bookeditingservices h1{
+    max-width: 85%;
+  }
+  .digitalmarketingservices h1{
+    max-width: 85%;
+  }
+
+}
 
 @media (max-width: 1200px) {
   .new1 {

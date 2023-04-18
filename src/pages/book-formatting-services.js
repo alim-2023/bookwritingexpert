@@ -25,7 +25,7 @@ import { useState } from 'react'
 
 const Bookformattingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/book-formatting-services">Book Formatting Services   </Link> That Help You Proudly Put Your Name On Your Book! </span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>    <Link className='fw700 textdocationnone color-blue hover' href="/book-formatting-services">Book Formatting Services   </Link> That Help You Proudly Put Your Name On Your Book! </span>   </h1>;
 
   const bannertext=[
     {

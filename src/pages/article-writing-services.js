@@ -31,7 +31,7 @@ import mission3 from '/public/images/mission/3.png'
 const Articlewritingservices = () => {
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/article-writing-services">Magical Article Writing Services  </Link> That Cast A Spell on Your Target Readers!</span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>    <Link className='fw700 textdocationnone color-blue hover' href="/article-writing-services">Magical Article Writing Services  </Link> That Cast A Spell on Your Target Readers!</span>   </h1>;
 
   const bannertext=[
     {

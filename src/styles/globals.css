@@ -370,6 +370,13 @@ body {
 
 /* --------------------------- */
 
+@media (max-width: 1440px) {
+
+  .font50 {
+    font-size: 38px;
+}
+
+}
 @media (max-width: 1280px) {
   .customizedbook .col-md-4 {
     width: 100%;

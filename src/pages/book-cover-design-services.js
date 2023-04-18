@@ -24,7 +24,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 const Bookcoverdesignservices = () => {
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>    <Link className='fw700 textdocationnone color-blue hover' href="/blog-writing-services">Book Cover Design Services  </Link> To Help Your Manuscript The Best Selling Book Of All Times!</span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>    <Link className='fw700 textdocationnone color-blue hover' href="/blog-writing-services">Book Cover Design Services  </Link> To Help Your Manuscript The Best Selling Book Of All Times!</span>   </h1>;
 
   const bannertext=[
     {
