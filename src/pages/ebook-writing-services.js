@@ -38,7 +38,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <Link className='textdocationnone color-blue hover' href="/book-publishing-services">Ebook Writing Services</Link>  <span className='d-block'>That Give Meaning To Your Imagination!</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <Link className='textdocationnone color-blue hover' href="/ebook-writing-services">Ebook Writing Services</Link>  <span className='d-block'>That Give Meaning To Your Imagination!</span> </h1>;
 
 
 
@@ -97,13 +97,13 @@ const Bookpublishingservices = () => {
 
 
 
-const  geta = <span>Get Connected To Your Readers With <Link className='color-blue fw700 textdocationnone hover' href='/book-editing-services'> Ebook Writing Experts! <br></br> </Link></span>
+const  geta = <span>Get Connected To Your Readers With <Link className='color-blue fw700 textdocationnone hover' href='/ebook-writing-services'> Ebook Writing Experts! <br></br> </Link></span>
 
 
 
 
 
-const posdata = <span>What Is Stopping You From Availing The Most <Link className='textdocationnone fw700 color-blue hover' href='/book-editing-services'>Affordable EBooks Writing Services? </Link> </span>
+const posdata = <span>What Is Stopping You From Availing The Most <Link className='textdocationnone fw700 color-blue hover' href='/ebook-writing-services'>Affordable EBooks Writing Services? </Link> </span>
 
 
 
@@ -282,7 +282,7 @@ Dowecome= "publishmybook"
 <Row >
 <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-<p className='font50 font-f fw500 colortextgrey t-center pb-2'>We Aim To Add Value To Your <Link className='textdocationnone color-blue hover fw700' href='/book-editing-services'> EBooks!</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>We Aim To Add Value To Your <Link className='textdocationnone color-blue hover fw700' href='/ebook-writing-services'> EBooks!</Link></p>
 
 </Row>
 

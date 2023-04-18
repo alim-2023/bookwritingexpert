@@ -100,7 +100,7 @@ const  geta = <span><Link className='color-blue textdocationnone hover fw700' hr
 
 
 
-const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='https://bookwritingexperts.com/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
+const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
 
 
 const posdata = <span>It’s Time You Let The Marketing Experts Take Charge Of Your  <Link className='textdocationnone color-blue hover fw700' href='/book-promotion-services/'>Book Promotions!</Link> </span>
@@ -196,19 +196,19 @@ const reasons = [
 	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
 	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="https://bookwritingexperts.com/xmlrpc.php" />
+	<link rel="pingback" href="/xmlrpc.php" />
 
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 
 	<title>Book Promotion Services For Branding - Book Writing Experts</title>
 	<meta name="description" content="Book Promotion Services to leave your competitors in the dust. We know the science of sales and art of marketing your books, hire us today." />
-	<link rel="canonical" href="https://bookwritingexperts.com/book-promotion-services/" />
+	<link rel="canonical" href="/book-promotion-services/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Book Promotion Services For Branding - Book Writing Experts" />
 	<meta property="og:description" content="Book Promotion Services to leave your competitors in the dust. We know the science of sales and art of marketing your books, hire us today." />
-	<meta property="og:url" content="https://bookwritingexperts.com/book-promotion-services/" />
+	<meta property="og:url" content="/book-promotion-services/" />
 	<meta property="og:site_name" content="Book Writing" />
 	<meta property="article:modified_time" content="2023-03-31T11:38:52+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />

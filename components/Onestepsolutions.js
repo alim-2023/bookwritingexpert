@@ -22,7 +22,7 @@ import book106 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
 const Onestepsolutions = () => {
 
 
-  const numdata5 = <span>Stories That Empower Young Minds: Let your imagination run wild and join us in unleashing creativity for the next generation through our exceptional children's book writing and <Link className='textdocationnone colorta' href="https://bookwritingexperts.com/book-publishing-services/">publishing services</Link></span>
+  const numdata5 = <span>Stories That Empower Young Minds: Let your imagination run wild and join us in unleashing creativity for the next generation through our exceptional children's book writing and <Link className='textdocationnone colorta' href="/book-publishing-services">publishing services</Link></span>
 
   const numdata6 = <span>Bringing Thrills and Suspense to Life - From heart-pumping action scenes to gripping suspense, our professional adventure <strong >story writing services</strong> will bring your ideas to life!
   </span>
@@ -30,7 +30,7 @@ const Onestepsolutions = () => {
   const numdat7 = <span>
 
     <span>From Concept to Bestseller: </span>
-    <span className={styles.join}>Join us on a journey from concept to bestseller with our exceptional <Link className='textdocationnone colorta' href="https://bookwritingexperts.com/book-editing-services/">novel editing</Link>, writing, and publishing services</span>
+    <span className={styles.join}>Join us on a journey from concept to bestseller with our exceptional <Link className='textdocationnone colorta' href="/book-editing-services/">novel editing</Link>, writing, and publishing services</span>
 
   </span>
 
@@ -38,7 +38,7 @@ const Onestepsolutions = () => {
 
 
     <span className={styles.join}>Taking you into the fictional world, our
-      <Link className='textdocationnone colorta' href="https://bookwritingexperts.com/ghostwriting-services/"> ghostwriters </Link> pen down some of the great tales effortlessly, making the best use of the words </span>
+      <Link className='textdocationnone colorta' href="/ghostwriting-services/"> ghostwriters </Link> pen down some of the great tales effortlessly, making the best use of the words </span>
 
 
 
@@ -126,7 +126,7 @@ const Onestepsolutions = () => {
         <Container>
           <Row>
             <Col md={12}>
-              <h2 className='font-f fw500 colortextgrey t-center mb-5'>Our <Link className='color-blue textdocationnone fw700' href="https://bookwritingexperts.com/">Book Writing Company</Link> Can Be Your One-Step Solution!</h2>
+              <h2 className='font-f fw500 colortextgrey t-center mb-5'>Our <Link className='color-blue textdocationnone fw700' href="/">Book Writing Company</Link> Can Be Your One-Step Solution!</h2>
             </Col>
 
             <Col md={12}>

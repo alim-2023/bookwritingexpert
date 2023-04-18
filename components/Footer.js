@@ -185,7 +185,7 @@ const Footer = () => {
            
         </Col>    
         <Col md={3}>
-  <h2 className='font-f font22 fw500 border-bottom'>Nav Links</h2>
+  <h2 className='font-f font22 fw500 border-bottom'>Useful Links</h2>
             <ul className={`${styles.footermenu1} mt-4`}>
 
                 <li className={ `${styles.footermenulinks} `}><Link className={styles.styleset} href="/">Home</Link></li>
@@ -198,12 +198,7 @@ const Footer = () => {
 
             </ul>
 
-           <div className={styles.imgsizes}>
-
-        
-
-            <Image className='pt-1 img-fluid'  src={bbb} alt='Book Writing Cube BBB Business Review'></Image>
-            </div>
+           
         </Col>    
         <Col md={3}>
 
@@ -294,8 +289,10 @@ const Footer = () => {
             <p className='font14 text-center font-f'>© 2023 - All Rights Reserved Bhaoo INC</p>
         </Col>
         <Col md={4}>
-          
-            <p className='font14 t-right font-f'> <Link className={styles.styleset} href="/terms-of-use">Terms of Use</Link> | <Link className={styles.styleset} href="/privacy-policy">Privacy Policy</Link></p>
+          <div className={styles.aligntextrignt}>
+            <p className='font14 font-f'> <Link className={styles.styleset} href="/terms-of-use">Terms of Use</Link> | <Link className={styles.styleset} href="/privacy-policy">Privacy Policy</Link></p>
+          </div>
+
         </Col>
     </Row>
 

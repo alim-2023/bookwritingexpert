@@ -68,10 +68,10 @@ const Childrenbookpublicationservices = () => {
   ]
 
 
-  const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
+  const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover fw700' href='/children-book-publication-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className='d-block'>To Our Struggling Authors</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className='d-block'>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/children-book-publication-services"> Book Publishing Services  </Link>  <span className='d-block'>To Our Struggling Authors</span> </h1>;
 
   const bannertext=[
     {
@@ -95,7 +95,7 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
 
 
 const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
-const dateset = <span className='fw500'>Let’s <Link className='textdocationnone color-blue hover fw700' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
+const dateset = <span className='fw500'>Let’s <Link className='textdocationnone color-blue hover fw700' href='/children-book-publication-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
 
 const reasons = [
 
@@ -123,12 +123,12 @@ const reasons = [
 
 ]
 
-const  geta = <span>Get A Customized Solution By <Link className='color-blue hover textdocationnone fw700' href='/book-publishing-services'> Best Publishing Services </Link></span>
+const  geta = <span>Get A Customized Solution By <Link className='color-blue hover textdocationnone fw700' href='/children-book-publication-services'> Best Publishing Services </Link></span>
 
 
 
 
-const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
+const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/children-book-publication-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
 
 
 
@@ -217,7 +217,7 @@ Dowecome= "publishmybook"
 <Row >
 <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-<p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover fw700' href='/book-publishing-services'>  Book Marketing</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover fw700' href='/children-book-publication-services'>  Book Marketing</Link></p>
 
 </Row>
 

@@ -78,7 +78,9 @@ background-color: #24303E;
     width: 50%;
     display: block;
 }
-
+.aligntextrignt{
+    text-align: right;
+}
 
 @media (max-width:991px)  {
 
@@ -107,6 +109,9 @@ background-color: #24303E;
 }
 
 @media (max-width:767px)  {
+    .aligntextrignt{
+        text-align: center;
+    }
 
     .footer h2 {
         margin-top: 12%;
@@ -165,7 +170,8 @@ background-color: #24303E;
 }
 
 .socialiconfooter .socaillinks{
-    padding-right: 13px;
+
+    padding-right: unset;
     list-style: none;
 }
 

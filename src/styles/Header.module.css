@@ -133,9 +133,9 @@
   width: 100%;
 }
 .megamenu ul li a {
-  font-size: 14px;
+  font-size: 16px;
   color: #292929;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .megamenu ul li a:hover {
@@ -159,7 +159,7 @@
 .megaDiv p {
   margin-bottom: 0;
   padding: 0 15px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .megaDiv a {

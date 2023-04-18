@@ -73,3 +73,16 @@
   line-height: 1;
   margin-bottom: 2%;
 }
+
+
+@media (max-width:767px)  {
+
+  .value{
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 2%;
+}
+
+ }

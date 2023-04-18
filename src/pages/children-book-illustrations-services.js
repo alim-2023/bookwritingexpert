@@ -42,7 +42,7 @@ const Childrenbookillustrationsservices = () => {
   const bannertext=[
     {
       title: newSpan,
-      pra: 'While the words elaborate the story, illustrations in a book help your imagination grasp the picture that the author wanted to paint with his words for the world to see. We at Book Writing Cube have an arsenal of the market’s most polished, gifted, and elite Children’s Book illustration who would be more than happy to incorporate your aesthetic into the book and help add a whole lot of zing to your project.',
+      pra: 'While the words elaborate the story, illustrations in a book help your imagination grasp the picture that the author wanted to paint with his words for the world to see.',
       discuss:'LET S DISCUSS',
       homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
