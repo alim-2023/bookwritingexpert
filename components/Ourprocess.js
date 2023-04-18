@@ -5,7 +5,7 @@ import styles from '@/styles/Ourprocess.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Image from 'next/image'
 
-import dotlinesnew from '../public/images/dotlines/dotlines.png'
+// import dotlinesnew from '../public/images/dotlines/dotlines.png'
 
 const Ourprocess = (props) => {
   return (
@@ -43,7 +43,7 @@ const Ourprocess = (props) => {
                 </Col>
                 <Col md={2} className={styles.sideline}>
                  
-                <Image src={dotlinesnew} className='img-fluid h-100' />
+                {/* <Image src={dotlinesnew} className='img-fluid h-100' /> */}
 
                 </Col>
                 <Col md={5}>
