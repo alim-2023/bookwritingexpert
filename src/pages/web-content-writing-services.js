@@ -30,7 +30,7 @@ const Webcontentwritingservices = () => {
       title: newSpan,
       pra:'Is your website content outdated? Let us help you with it! At Book Writing Experts, we create Search Engine Optimized and high-quality website content that guarantees',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'webcontentwritingservices',
      
@@ -151,7 +151,7 @@ const reasons = [
 
 
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -255,7 +255,7 @@ classnumber = { item.classnum }
  title= 'WHelping You Build Digital Authority with SEO Friendly Content Writing Services!'
  text="We are equipped with the right resources to help your business appear in the Search Engine Result Pages (SERPs) so that you can enjoy witnessing the potential customers into actual clients. We help you target specific keywords and phrases relevant to your business, products, or services. This ensures that your Content is more likely to be found by people who are actually interested in what you have to offer."
  subtext='So, what are you waiting for? Hit us up with your requirements and get your hands on the Content that is well-organized and free of errors!'
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

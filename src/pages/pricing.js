@@ -32,7 +32,7 @@ const Pricing = () => {
       title: priceHead,
       pra: 'Do you wish to see your published work ranked among the best sellers? Want to earn the stellar reputation of a published author? Dream of having a well-written book to your name?',
       discuss: 'LET S DISCUSS',
-      homebannernum: '(302) 883-8877',
+      homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'pricing',
       classpost: 'classpost',
@@ -120,7 +120,7 @@ const Pricing = () => {
       <Dowecome
         title='Struggling To Sell More Books?'
         text="Why Not Hire Expert Book Marketing Professionals To Promote Your Book!"
-        number="(302) 883-8877"
+        number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={howdoimg}
         Dowecome="Dowecome"

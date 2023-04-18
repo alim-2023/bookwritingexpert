@@ -109,11 +109,11 @@ const Contact = () => {
                                     Let’s talk about your book
                                 </p>
                                 <p className='font20 fw500 font-f color-white'>
-                                    <span className=''>Phone:</span> <Link href='tel:(302)883-8877' className={` ${styles.numpost} fw700 color-white textdocationnone`}> (302) 883-8877 </Link>
+                                    <span className=''>Phone:</span> <Link href='tel:(302)883-8877' className={` ${styles.numpost} fw700 color-white textdocationnone`}> (213) 289 3888 </Link>
                                 </p>
                                 <p className='font20 fw500 font-f color-white'>
                                     <span className=''>Email:</span> <Link href='mailto:info(@)bookwritingcube(.)com' className={` ${styles.numpost} fw700 color-white textdocationnone`}>
-                                        info@bookwritingcube.com </Link>
+                                        support@bookwritingexperts.com </Link>
                                 </p>
 
                             </div>
@@ -169,7 +169,7 @@ const Contact = () => {
                 <Container id='contpost'>
                     <Row className={styles.conrow}>
                         <Col md={9}>
-                            <h2 className='t-center fw500 font30 color-blue font-f mb-5'> Fill Out The Form Below We Will Contact You Promptly</h2>
+                            <h2 className='t-center fw700 font50 color-blue font-f mb-5'> Fill Out The Form Below We Will Contact You Promptly</h2>
 
 
 
@@ -346,7 +346,7 @@ const Contact = () => {
 
                                 <Col className='mt-3 mb-5'>
                                     <em>
-                                        You may find our confidentiality policy <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}>here</strong></Link> , or request a signed NDA by email: <Link className='textdocationnone colortextgrey' href="mailto:info@bookwritingcube.com"> <strong className={styles.numpost}>info@bookwritingcube.com</strong></Link> This site is protected by reCAPTCHA and the Google
+                                        You may find our confidentiality policy <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}>here</strong></Link> , or request a signed NDA by email: <Link className='textdocationnone colortextgrey' href="mailto:support@bookwritingexperts.com"> <strong className={styles.numpost}>support@bookwritingexperts.com</strong></Link> This site is protected by reCAPTCHA and the Google
                                         <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}> Privacy Policy</strong></Link>  and Terms of Service <Link className='textdocationnone colortextgrey' href="/terms-of-use"> <strong className={styles.numpost}>Terms of Service</strong> </Link> apply.
                                     </em>
 
@@ -372,7 +372,7 @@ const Contact = () => {
                             <h2 className='color-blue font50 fw700 font-f'> We Provide Everything You Need to
                                 Achieve Your Publishing Goals.</h2>
                             <p className='font16 fw500 font-f colortextgrey' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:(302)883-8877' className='textdocationnone colortextgrey' > Call now:
-                                (302) 883-8877 </Link></span> </p>
+                                (213) 289 3888 </Link></span> </p>
 
                         </Col>
                     </Row>

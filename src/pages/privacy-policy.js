@@ -31,14 +31,14 @@ const Privacypolicy = () => {
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <title>Privacy policy - Hire Professional Book Writing Experts in the US -</title>
                 <meta name="description"
-                    content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
+                    content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (213) 289 3888 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="tags" content="" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Privacy policy - Hire Professional Book Writing Experts in the US -" />
                 <meta property="og:description"
-                    content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (302) 883-8877 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
+                    content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (213) 289 3888 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
                 <meta property="og:url" content="https://www.bookwritingcube.com/" />
                 <meta property="og:site_name" content="Privacy policy - Hire Professional Book Writing Experts in the US -" />
                 <meta name="twitter:card" content="summary_large_image" />
@@ -254,10 +254,10 @@ const Privacypolicy = () => {
 
                         <ul>
                             <li className='font15 fw500 colortextgrey font-f'>
-                                Toll-Free number: <Link className='textdocationnone' href="tel:(302)883-8877">(302) 883-8877</Link>
+                                Toll-Free number: <Link className='textdocationnone' href="tel:(302)883-8877">(213) 289 3888</Link>
                             </li>
                             <li className='font15 fw500 colortextgrey font-f'>
-                                E-mail: <Link className='textdocationnone' href="mailto:info@bookwritingcube.com">info@bookwritingcube.com</Link>
+                                E-mail: <Link className='textdocationnone' href="mailto:support@bookwritingexperts.com">support@bookwritingexperts.com</Link>
                             </li>
                         </ul>
 
@@ -274,7 +274,7 @@ const Privacypolicy = () => {
             <Aspiring
                 title='Professional Book Writing and Publishing We Give New Life To Your Words'
                 text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
-                number="(302) 883-8877"
+                number="(213) 289 3888"
                 discuss="LET'S DISCUSS"
             />
         </>

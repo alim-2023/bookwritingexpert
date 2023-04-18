@@ -40,7 +40,7 @@ const Whatourclients = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
 
-    nextArrow: <GrFormNext className='privious' />,
+    // nextArrow: <GrFormNext className='privious' />,
     responsive: [
       {
         breakpoint: 1024,

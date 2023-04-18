@@ -74,11 +74,11 @@
 
 .form-check-input {
   font-family: "inter";
-  color: black;
+  color: #223235;
 }
 .label2 label {
   font-size: 14px;
-  color: #000;
+  color: #223235;
   font-family: 'Poppins';
 }
 
@@ -86,11 +86,11 @@
   font-size: 15px;
   font-weight: 500;
   font-family: 'Poppins';
-  color: #000;
+  color: #223235;
   text-align: right;
 }
 .submitform:hover {
-  background-color: #000;
+  background-color: #223235;
 }
 
 .contactbg a:hover {

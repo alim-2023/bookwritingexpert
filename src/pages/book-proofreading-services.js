@@ -45,7 +45,7 @@ const Bookpublishingservices = () => {
           title: newSpan,
           pra: 'At Book Writing Experts, we have a team of professional and skilled proofreaders that have years’ worth of experience working on countless.',
           discuss:'LET S DISCUSS',
-          homebannernum:'(302) 883-8877',
+          homebannernum:'(213) 289 3888',
           banlogo:homebannerlogos,
           banners:'offeringyoubook',
  
@@ -186,25 +186,23 @@ const proofreading = <Link className='textdocationnone colortextgrey hover' href
   return (
    <>
    <Head>
-   <meta charSet="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+   <meta charSet="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
 	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="https://bookwritingexperts.com/xmlrpc.php" />
-
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+	<link rel="pingback" href="https://bookwritingexperts.com/xmlrpc.php"/>
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-
-  <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
-	<meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<link rel="canonical" href="https://bookwritingexperts.com/book-publishing-services/" />
+	<title>Best Book Proofreading Services - Book Writing Experts</title>
+	<meta name="description" content="Book Proofreading services make your manuscript flawless. Avail the services today from the experts who are adept at keeping an eagle eye on errors." />
+	<link rel="canonical" href="https://bookwritingexperts.com/book-proofreading-services/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
-	<meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<meta property="og:url" content="https://bookwritingexperts.com/book-publishing-services/" />
+	<meta property="og:title" content="Best Book Proofreading Services - Book Writing Experts" />
+	<meta property="og:description" content="Book Proofreading services make your manuscript flawless. Avail the services today from the experts who are adept at keeping an eagle eye on errors." />
+	<meta property="og:url" content="https://bookwritingexperts.com/book-proofreading-services/" />
 	<meta property="og:site_name" content="Book Writing" />
-	<meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+	<meta property="article:modified_time" content="2023-03-31T12:03:57+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
 	<meta name="twitter:data1" content="9 minutes" />
@@ -423,7 +421,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Have A Second Set Of Eyes To Catch The Errors That You Have Missed!'
  text="Call us to get professional editors who will comb through your work and correct any errors. Whether it's a typo or a more serious grammatical error, we'll make sure it's fixed before you submit your work."
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

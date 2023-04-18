@@ -52,8 +52,8 @@ const Buildingyour = (props) => {
                      <Row>
                      {makestoriesimg.map((item, i) => {
                                              return(  
-                               <Col md={3}>
-                                 <div key={i}>
+                               <Col md={3} key={i}>
+                                 <div>
                                    <Image className='pt-3 img-fluid'  src={item.storiesimg} alt='book_writing_cube'></Image>
                                  </div>
                                  </Col>

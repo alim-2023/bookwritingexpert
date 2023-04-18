@@ -40,7 +40,7 @@ export default function Home() {
       title: newSpan,
       pra: 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.',
       discuss: 'LET S DISCUSS',
-      homebannernum: '(302) 883-8877',
+      homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'banner',
 

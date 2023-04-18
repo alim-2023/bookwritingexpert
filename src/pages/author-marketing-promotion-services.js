@@ -41,7 +41,7 @@ const Authormarketingpromotionservices = () => {
       title: 'Capitalize On Your Visibility and Online Presence with Finest Author Marketing Promotion Services',
       pra: 'Reach a broader audience with author marketing promotion services. Our author book marketing services guarantee you an improved reputation and sales.',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'authormarketingpromotionservices',
      
@@ -210,7 +210,7 @@ const dateset = <span>Let’s <Link className='textdocationnone color-blue hover
     <meta name="twitter:data1" content="5 minutes" />
     <meta name="facebook-domain-verification" content="s4ocl50k325dpk61h3frbd8aajeybv" />
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -405,7 +405,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Create the right buzz for every title you pen down with our Author Marketing Promotion Services!'
  text="From amateur author to a brilliant success story, our author marketing services transform your name into a recognized brand."
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

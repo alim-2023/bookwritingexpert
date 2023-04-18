@@ -58,7 +58,7 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
           title: newSpan,
           pra: 'Are you struggling with reaching your target audience? Your book is all ready to be read, but there is no one to read it.',
           discuss:'LET S DISCUSS',
-          homebannernum:'(302) 883-8877',
+          homebannernum:'(213) 289 3888',
           banlogo:homebannerlogos,
           banners:'bookpromotionservices',
  
@@ -157,7 +157,7 @@ const dateset = <span className='fw500'>Need An Expert For Your <br></br><Link c
   return (
    <>
    <Head>
-   <meta charSet="UTF-8" />
+   <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
 	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
@@ -166,19 +166,20 @@ const dateset = <span className='fw500'>Need An Expert For Your <br></br><Link c
 
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-  <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
-	<meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<link rel="canonical" href="https://bookwritingexperts.com/book-publishing-services/" />
+
+	<title>Professional Book Marketing Services - Book Writing Experts</title>
+	<meta name="description" content="Book Marketing Services that makes you your readers&#039; most sought-after choice. Count on us to be counted worldwide. Hire us to get the job done." />
+	<link rel="canonical" href="https://bookwritingexperts.com/book-marketing-services/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
-	<meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<meta property="og:url" content="https://bookwritingexperts.com/book-publishing-services/" />
+	<meta property="og:title" content="Professional Book Marketing Services - Book Writing Experts" />
+	<meta property="og:description" content="Book Marketing Services that makes you your readers&#039; most sought-after choice. Count on us to be counted worldwide. Hire us to get the job done." />
+	<meta property="og:url" content="https://bookwritingexperts.com/book-marketing-services/" />
 	<meta property="og:site_name" content="Book Writing" />
-	<meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+	<meta property="article:modified_time" content="2023-03-31T11:37:31+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="9 minutes" />
+	<meta name="twitter:data1" content="7 minutes" />
   <link rel="icon" href="/favicon.svg" />
 
 
@@ -323,7 +324,7 @@ btn =  {item.btn}
  title='We Appreciate Our Clients Who Put Their Faith In Us.'
  text= 'Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our affordable book marketing services guarantee excellence-- because no task is too big or difficult when you have people like us working together as part of such a one-stop solution.'
  subtext= 'Good branding will amplify all your marketing efforts. But it takes professionalism and industry insight to make a trustworthy brand. To add to that, it takes much effort to find experienced professionals to get this job done—something only the best book marketing services can offer!'
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={bookmarketingservices1}
  whychooseclass= "marketyourbook"
@@ -335,7 +336,7 @@ btn =  {item.btn}
  title='Through Collaboration'
  text= 'Our book marketing services and packages include comprehensive publishing assistance and guidance. We will design a budget for you, covering the designing, publishing, printing, and editing needs of the book.'
  subtext= 'Our book marketers formulate online and offline strategies to make your work a recognized read. Unlike other book marketing companies, our job isn’t done till your reputation is established as a renowned name in the industry.'
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={bookmarketingservices2}
  whychooseclass= "marketyourbook"
@@ -348,7 +349,7 @@ btn =  {item.btn}
  title='Impeccable Customer Support'
  text= 'For us, our customer’s needs are the top priority. Regardless of the different profiles or the website updates and revisions, our book marketing services aim to make your work a stellar addition to the literature world.'
  subtext='From keeping up with marketing trends to revamping the strategies, the best book marketing services providers go the extra mile to make the bestselling title a reality.'
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={bookmarketingservices3}
  whychooseclass= "marketyourbook"
@@ -360,7 +361,7 @@ btn =  {item.btn}
  title='Impressive Strategic Implementation'
  text= 'Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our affordable book marketing services make sure the needs and preferences of the target readers are met.'
  subtext= 'Our experts provide thorough guidance about different types and strategies of marketing to gain complete customer satisfaction. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.'
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 image={bookmarketingservices4}
 whychooseclass= "marketyourbook"
@@ -382,7 +383,7 @@ whychooseclass= "marketyourbook"
 <Aspiring
  title= 'Ready To Make It Big With Our Book Marketing Services?'
  text="You are the ambassador of your own book—but that doesn’t mean it is a singly endeavor. It is an ever-changing, seriously challenging, and quite honestly, commercially competitive industry. The right book marketing plan, calculated milestones, and extended exposure—the all’s and must-haves of making your work a chart-topper! Let’s collaborate!"
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

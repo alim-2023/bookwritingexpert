@@ -47,7 +47,7 @@ const Bookpublishingservices = () => {
           title: newSpan,
           pra: 'Are you struggling with reaching your target audience? Your book is all ready to be read, but there is no one to read it?',
           discuss:'LET S DISCUSS',
-          homebannernum:'(302) 883-8877',
+          homebannernum:'(213) 289 3888',
           banlogo:homebannerlogos,
           banners:'bookpromotionservices',
  
@@ -190,6 +190,7 @@ const reasons = [
   return (
    <>
    <Head>
+
    <meta charSet="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
@@ -199,19 +200,22 @@ const reasons = [
 
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-  <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
-	<meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<link rel="canonical" href="https://bookwritingexperts.com/book-publishing-services/" />
+
+	<title>Book Promotion Services For Branding - Book Writing Experts</title>
+	<meta name="description" content="Book Promotion Services to leave your competitors in the dust. We know the science of sales and art of marketing your books, hire us today." />
+	<link rel="canonical" href="https://bookwritingexperts.com/book-promotion-services/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
-	<meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<meta property="og:url" content="https://bookwritingexperts.com/book-publishing-services/" />
+	<meta property="og:title" content="Book Promotion Services For Branding - Book Writing Experts" />
+	<meta property="og:description" content="Book Promotion Services to leave your competitors in the dust. We know the science of sales and art of marketing your books, hire us today." />
+	<meta property="og:url" content="https://bookwritingexperts.com/book-promotion-services/" />
 	<meta property="og:site_name" content="Book Writing" />
-	<meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+	<meta property="article:modified_time" content="2023-03-31T11:38:52+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="9 minutes" />
+	<meta name="twitter:data1" content="7 minutes" />
+
+
   <link rel="icon" href="/favicon.svg" />
 
 
@@ -383,7 +387,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Making Your Book a Stellar Addition to the Literature World!'
  text="If you want to watch your work take off and reach new heights, Book Writing Cube may help you do the trick. With extended years of experience in the industry, we know exactly what it takes to get your book noticed and gain maximum exposure. Call us now to take your book to the next level!"
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

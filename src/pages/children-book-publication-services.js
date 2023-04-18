@@ -78,7 +78,7 @@ const Childrenbookpublicationservices = () => {
       title: newSpan,
       pra: 'Make the most of the immense value with Children’s Book Publishing!',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'bookpublishingservices',
      
@@ -168,7 +168,7 @@ const  work = <span>Your work is over after creating a masterpiece. Let us take 
 
 
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -300,7 +300,7 @@ para='Let Our Children’s Book Publishing Team Help You'
  title='What Type Of Books Do We Publish?'
  text= {text}
  subtext={subtext}
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={copy}
  whychooseclass= "marketyourbook"
@@ -366,7 +366,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Ultimately, your success establishes our reputation'
  text="The experts at Book Writing Cube are well-aware of the amount of time and effort a singular literary composition requires. We value the work done and respect the passion for publishing the aspiring authors demonstrate. And we promise to help you finalize a composition you can take great pride in!"
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

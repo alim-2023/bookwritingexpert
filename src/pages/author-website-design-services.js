@@ -39,7 +39,7 @@ const Authorwebsitedesignservices = () => {
       title: newSpan,
       pra: 'Do you want the world to know you? Read your book and relate to your story? What is better than getting a professional website then.',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'empoweringauthorswith',
      
@@ -160,7 +160,7 @@ const reasons = [
     <meta name="facebook-domain-verification" content="s4ocl50k325dpk61h3frbd8aajeybv" />
 
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -267,7 +267,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Create Memorable Digital Experiences for Your Readers with Book Writing Cube’s Author Website Design Services!'
  text="Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!"
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

@@ -18,7 +18,7 @@ const Experts = (props) => {
                 <Link className='fw500 color-white font18 font-f' href="tel:+1-302-883-8877">{props.number}</Link>
               </div>
               <div className={styles.expertdiscuss}>
-                <Link className={styles.discuss1} href="#">{props.discuss}</Link>
+                <Link className={`${styles.discuss1} hover`} href="#">{props.discuss}</Link>
               </div>
             </Col>
           </Row>

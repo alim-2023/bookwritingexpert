@@ -18,7 +18,7 @@
   
 }
 .asnumber:hover{
-    background-color: #000;
+    background-color: #223235;
 }
 .asdiscuss:hover{
  
@@ -45,7 +45,7 @@
     font-weight: 500;
     padding: 12px 30px;
     border: 2px solid #16467d;
-    color: #000;
+    color: #223235;
     text-decoration: unset;
     font-family: 'Poppins';
 }

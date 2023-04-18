@@ -58,6 +58,13 @@ body{ font-family: 'Poppins'; }
 /* font-family */
 .font-f{ font-family: 'Poppins'; }
 
+.border-bottom{
+  
+  border-bottom: 1px solid #5e5c5c;
+  padding-bottom: 16px;
+
+}
+
 /* alignment */
 .t-center{ text-align: center; }
 .t-left{ text-align: left; }

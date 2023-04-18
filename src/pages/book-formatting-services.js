@@ -32,7 +32,7 @@ const Bookformattingservices = () => {
       title: newSpan,
       pra: 'We offer book formatting services that help make your book look professional and appealing to readers. We understand the importance of a well-formatted book',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'bookformattingservices',
      
@@ -184,7 +184,7 @@ const reasons = [
 
 
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -285,7 +285,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Polish Your Manuscripts To Perfection By Having Us On Your Side!'
  text="Looking for a book formatting service that can help make your dream of being a published author a reality? Look no further than our team of professionals at Book Writing Cube! We offer a wide range of book formatting services that are sure to meet your needs and exceed your expectations. Contact us today to learn more about our services."
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

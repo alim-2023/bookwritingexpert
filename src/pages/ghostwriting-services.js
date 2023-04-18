@@ -97,7 +97,7 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
           title: newSpan,
           pra: 'Let our experts fire the imagination of your readers with their killer writing techniques. Your story needs to be heard, and Book Writing Experts',
           discuss:'LET S DISCUSS',
-          homebannernum:'(302) 883-8877',
+          homebannernum:'(213) 289 3888',
           banlogo:homebannerlogos,
           banners:'ghostwriting',
  
@@ -200,7 +200,7 @@ const proofreading =  <span> Our <Link className='textdocationnone color-blue ho
   return (
    <>
    <Head>
-   <meta charSet="UTF-8" />
+   <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
 	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
@@ -209,19 +209,22 @@ const proofreading =  <span> Our <Link className='textdocationnone color-blue ho
 
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-  <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
-	<meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<link rel="canonical" href="https://bookwritingexperts.com/book-publishing-services/" />
+
+	<title>Top-Tier Ghostwriting Services - Book Writing Experts</title>
+	<meta name="description" content="Ghostwriting services that help aspiring authors launch into success. Get them today, as they are affordable and executed to perfection." />
+	<link rel="canonical" href="https://bookwritingexperts.com/ghostwriting-services/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
-	<meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<meta property="og:url" content="https://bookwritingexperts.com/book-publishing-services/" />
+	<meta property="og:title" content="Top-Tier Ghostwriting Services - Book Writing Experts" />
+	<meta property="og:description" content="Ghostwriting services that help aspiring authors launch into success. Get them today, as they are affordable and executed to perfection." />
+	<meta property="og:url" content="https://bookwritingexperts.com/ghostwriting-services/" />
 	<meta property="og:site_name" content="Book Writing" />
-	<meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+	<meta property="article:modified_time" content="2023-03-31T12:03:02+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
 	<meta name="twitter:data1" content="9 minutes" />
+
+
   <link rel="icon" href="/favicon.svg" />
 
 
@@ -411,7 +414,7 @@ classnumber = { item.classnum }
  title='And No, Hiring Ghostwriting Services Isn’t Illegal!'
  text= 'The misconception has prevailed ever since the phenomenon of ghostwriting services came into being. The ghostwriter`s job is to get paid in return for his written masterpiece. Creativity and a great idea can come from anywhere and anyone, and it doesn`t surely mean everyone has the right ability to articulate it. Ghostwriters are professionals working to make those ambitions a reality. It is a legal collaboration to get that idea out there because those ghostwriters are trained to write, edit, and publish that work.'
 
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={bookmarketingservices3}
  whychooseclass= "marketyourbook"
@@ -439,7 +442,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'At The End Of The Day, You Need The Whole Kit And Caboodle To Get It Down Right!'
  text="Give us a call, or leave an email, and our experts will guide you through the entire process, needs, and packages for ghostwriting services your book!"
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

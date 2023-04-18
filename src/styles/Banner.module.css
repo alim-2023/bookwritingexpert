@@ -292,8 +292,8 @@
 }
 
 .homenumer:hover {
-  background-color: black;
-  border: 1px solid black;
+  background-color: #223235;
+  border: 1px solid #223235;
 }
 
 .alignclass {
@@ -325,6 +325,7 @@
   margin: 0 auto;
   text-align: center;
 }
+
 
 .faqs {
   background-color: #141d29;
@@ -395,14 +396,14 @@
 .thankyoubtn {
   border: 0;
   padding: 12px 30px;
-  border-radius: 0;
+  border-radius: 50px;
   background-color: #ff9900;
   color: #fff;
   text-decoration: none;
   font-family: "Poppins";
 }
 .thankyoubtn:hover {
-  background-color: #000;
+  background-color: #223235;
   color: #f1f1f1;
 }
 

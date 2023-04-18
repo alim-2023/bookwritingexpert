@@ -74,11 +74,11 @@
 }
 
 .headertel:hover {
-  background-color: black;
+  background-color: #223235;
   color: white;
 }
 .headerbtncolor:hover {
-  background-color: black;
+  background-color: #223235;
   color: white;
 }
 
@@ -294,7 +294,7 @@
 }
 @media (max-width: 991px) {
   .menulinks {
-    color: black;
+    color: #223235;
   }
 
   .logonew {
@@ -321,7 +321,7 @@
     display: none !important;
     width: 100%;
     background-color: unset;
-    color: #000;
+    color: #223235;
     box-shadow: unset;
   }
 
@@ -330,7 +330,7 @@
   }
 
   .megamenu ul li a {
-    color: black;
+    color: #223235;
   }
   .megamenu ul li {
     width: max-content;

@@ -31,11 +31,11 @@
     letter-spacing: inherit;
     padding: 1em 1.5em;
     border: none;
-    border: 2px solid #000;
+    border: 2px solid #223235;
     border-radius: 5px;
     text-transform: capitalize;
     transition: color 1s;
-    color: #000;
+    color: #223235;
     font-family: 'Poppins';
     margin-left: 3%;
     border-radius: 50px;

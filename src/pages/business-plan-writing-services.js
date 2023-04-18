@@ -31,7 +31,7 @@ const Businessplanwritingservices = () => {
       title: newSpan,
       pra: 'It goes unsaid that a business plan helps business owners secure financing, attract investors, and grow the business.',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'ghostwriting',
      
@@ -154,7 +154,7 @@ const reasons = [
     <meta name="twitter:data1" content="5 minutes" />
 
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -254,7 +254,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Bring Your Business to Life with Book Writing Cube’s Meticulous Business Plan Writing Services!'
  text="Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!"
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

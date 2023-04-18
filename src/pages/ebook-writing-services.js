@@ -48,7 +48,7 @@ const Bookpublishingservices = () => {
           title: newSpan,
           pra: 'Quality eBook writing drives traffic, and our experienced writers know the tips and tricks of keeping the readers engaged with appealing word selection',
           discuss:'LET S DISCUSS',
-          homebannernum:'(302) 883-8877',
+          homebannernum:'(213) 289 3888',
           banlogo:homebannerlogos,
           banners:'ebook',
     
@@ -198,7 +198,8 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
   return (
    <>
    <Head>
-   <meta charSet="UTF-8" />
+
+   <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
 	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
@@ -207,19 +208,22 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
 
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-  <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
-	<meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<link rel="canonical" href="/book-publishing-services" />
+
+	<title>Professional Ebook Writing Services - Book Writing Experts</title>
+	<meta name="description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+	<link rel="canonical" href="https://bookwritingexperts.com/ebook-writing-services/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
-	<meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<meta property="og:url" content="/book-publishing-services" />
+	<meta property="og:title" content="Professional Ebook Writing Services - Book Writing Experts" />
+	<meta property="og:description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+	<meta property="og:url" content="https://bookwritingexperts.com/ebook-writing-services/" />
 	<meta property="og:site_name" content="Book Writing" />
-	<meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+	<meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="9 minutes" />
+	<meta name="twitter:data1" content="6 minutes" />
+
+
   <link rel="icon" href="/favicon.svg" />
 
 
@@ -380,7 +384,7 @@ classnumber = { item.classnum }
 <Selfpublishing
  title='Planning >> Writing >> Designing = eBook Customization Formula'
  text= {text}
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={publishmybook}
  whychooseclass= "marketyourbook"
@@ -411,7 +415,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Professional eBook Writing and Publishing We Give New Life To Your Words'
  text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

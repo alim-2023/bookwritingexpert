@@ -28,8 +28,8 @@ const Bookmarketingprojects = () => {
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 2,
-        prevArrow: <GrFormPrevious className='privious' />,
-        nextArrow: <GrFormNext className='privious' />,
+        // prevArrow: <GrFormPrevious className='privious' />,
+        // nextArrow: <GrFormNext className='privious' />,
         responsive: [
             {
               breakpoint: 1024,

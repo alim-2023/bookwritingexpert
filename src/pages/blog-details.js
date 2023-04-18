@@ -32,15 +32,23 @@ const Blogdetails = () => {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:label1" content="Est. reading time" />
     <meta name="twitter:data1" content="5 minutes" />
-    <link rel='icon' href='/favicon.png' />
+    <link rel='icon' href='/favicon.svg' />
     </Head>
     
     <div className={styles.blogdetails}>
-    <Container>
-        <Row>
-        <Col className={`${styles.above} col-md-12`}>
+<div className={styles.blogbg}>
+<Container>
+    <Row>
+    <Col className={`${styles.above} col-md-12`}>
     <Link className='textdocationnone' href='#'> <h2 className='color-blue fw700 font50 t-center font-f'>Rising Above the Competition: 8 Advanced Strategies for KDP Book Promotion and Marketing on Amazon</h2> </Link>
         </Col>
+    </Row>
+</Container>
+</div>
+
+    <Container className='mt-5'>
+        <Row>
+       
 
 
             <Col md={8}>

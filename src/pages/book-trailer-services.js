@@ -30,7 +30,7 @@ const Booktrailerservices = () => {
       subtext1:'By creating a short video that showcases your book, you can give potential readers a flavor of what your writing is like and help them decide if they’d like to check out your work.',
       subtext2:'Are you about to launch your book, or do you want to bring your published book to the limelight? If yes, confide in our book video trailer services. Rest assured, while working with us, you will have a delightful exit with a quality product in your hands!',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'buildexcitement',
      
@@ -151,7 +151,7 @@ const reasons = [
     <meta name="twitter:label1" content="Est. reading time" />
     <meta name="twitter:data1" content="5 minutes" />
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -256,7 +256,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Strengthen Your Marketing Efforts and Ensure Crazy Sales Of Your Publication With Us!'
  text="At Book Writing Cube, we specialize in creating engaging and visually appealing book trailers for authors and businesses. Our team of skilled professionals has years of experience in video production and graphic design, so you can be confident that your book trailer will be of the highest quality. We understand that a book trailer is one of the most important marketing tools an author has, so we work closely with our clients to ensure their vision is brought to life. We also offer a variety of customization options, i.e., custom comic book video trailer, to make sure that your book trailer is truly unique. Call us to make your book happen with our book trailer services."
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

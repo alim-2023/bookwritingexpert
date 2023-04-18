@@ -44,7 +44,7 @@ const Childrenbookillustrationsservices = () => {
       title: newSpan,
       pra: 'While the words elaborate the story, illustrations in a book help your imagination grasp the picture that the author wanted to paint with his words for the world to see. We at Book Writing Cube have an arsenal of the market’s most polished, gifted, and elite Children’s Book illustration who would be more than happy to incorporate your aesthetic into the book and help add a whole lot of zing to your project.',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'bookpublishingservices',
      
@@ -175,7 +175,7 @@ const dateset = <span className='fw500'>Let’s <Link className='textdocationnon
 	<meta name="twitter:label1" content="Est. reading time" />
 	<meta name="twitter:data1" content="5 minutes" />
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -356,7 +356,7 @@ classnumber = { item.classnum }
  title='What Type Of Books Do We Publish?'
  text= {text}
  subtext={subtext}
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={publishmybook}
  whychooseclass= "marketyourbook"
@@ -378,7 +378,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'You Are One Step Closer To Displaying Your Writing Excellence. Let Our Professional Help You Out.'
 text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

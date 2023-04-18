@@ -38,7 +38,7 @@ const Articlewritingservices = () => {
       title: newSpan,
       pra: 'Words have an enchanting effect on people, which is why we offer professional article writing services to produce captivating articles.',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'articlewritingservices',
      
@@ -297,7 +297,7 @@ num5 = '05'
 <Aspiring
  title= 'Get High-Quality and Effective Article Writing Services for Affordable Prices at Book Writing Cube!'
  text="Get in touch with one of our industry experts for more information about our online article writing services and pricing details by leaving your email or phone number below!"
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

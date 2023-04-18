@@ -35,7 +35,7 @@ const Digitalmarketingservices = () => {
       title: newSpan,
       pra: 'Book Writing Experts is the name of creative potential that establishes an indelible name for you. Our digital marketing expertise enhances your book’s visibility',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'digitalmarketingservices',
      
@@ -85,32 +85,34 @@ col6: '6',
   return (
    <>
    <Head>
-   <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <title>Digital Marketing Services Done To Perfection - Book Writing Cube</title>
-    <meta name="description"
-        content="We Offer Digital Marketing Services To Give Your Manuscript The Quality Attention. Call For Book Marketing." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="tags" content="" />
-    <meta name="DC.title" content="Digital Marketing Services" />
-    <meta name="geo.region" content="en" />
-    <meta name="geo.position" content="39.78373;-100.445882" />
-    <meta name="ICBM" content="39.78373, -100.445882" />
-    <meta name="DC.title" content="digital marketing services" />
-    <meta name="geo.region" content="GB" />
-    <meta name="geo.position" content="55.753005;-2.857642" />
-    <meta name="ICBM" content="55.753005, -2.857642" />
-    <meta property="og:locale" content="en" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Digital Marketing Services Done To Perfection - Book Writing Cube" />
-    <meta property="og:description" content="We Offer Digital Marketing Services To Give Your Manuscript The Quality Attention. Call For Book Marketing." />
-    <meta property="og:url" content="https://www.bookwritingcube.com/" />
-    <meta property="og:site_name" content="Digital Marketing Services Done To Perfection - Book Writing Cube" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="5 minutes" />
 
-  <link rel="icon" href="/favicon.png" />
+
+   <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://bookwritingexperts.com/xmlrpc.php" />
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+
+	<title>Top Tier Digital Marketing Services - Book Writing Experts</title>
+	<meta name="description" content="Digital Marketing Services that will help your business grow. We offer various services to help you achieve ultimate success. Call us to get them." />
+	<link rel="canonical" href="https://bookwritingexperts.com/digital-marketing-services/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Top Tier Digital Marketing Services - Book Writing Experts" />
+	<meta property="og:description" content="Digital Marketing Services that will help your business grow. We offer various services to help you achieve ultimate success. Call us to get them." />
+	<meta property="og:url" content="https://bookwritingexperts.com/digital-marketing-services/" />
+	<meta property="og:site_name" content="Book Writing" />
+	<meta property="article:modified_time" content="2023-03-31T11:58:56+00:00" />
+	<meta property="og:image" content="https://bookwritingexperts.com/wp-content/uploads/2021/05/complogo.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="45 minutes" />
+
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -151,7 +153,7 @@ para='Let Our Digital Marketing Team Help You'
 <Dowecome
  title='You Are One Step Closer To Displaying Your Writing Excellence. Let Our Professional Help You Out.'
  text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 Dowecome= "publishmybook"
 image={youareonestepcloserto}
@@ -177,7 +179,7 @@ image={youareonestepcloserto}
 <Aspiring
  title= 'Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
  text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

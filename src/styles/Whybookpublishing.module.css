@@ -69,7 +69,7 @@
 .design:before{
     position: absolute;
     content: "";
-    background-color: black;
+    background-color: #223235;
     width: 7px;
     height: 7px;
     top: 9px;

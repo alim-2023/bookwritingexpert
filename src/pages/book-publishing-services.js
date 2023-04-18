@@ -59,7 +59,7 @@ const Bookpublishingservices = () => {
       title: newSpan,
       pra: 'Is your talent getting unnoticed due to problems in publishing? Not anymore! We have solutions to your problems! Publishing professionals at Book Writing Experts know the best and trouble-free means to publish your work and help you get it to the reader’s hand.',
       discuss: 'LET S DISCUSS',
-      homebannernum: '(302) 883-8877',
+      homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'bookpublishingservices',
       process: 'OUR PROCESS, IN A MINUTE',
@@ -353,7 +353,7 @@ const Bookpublishingservices = () => {
         title='How Do "I Publish My Book?"'
         text='Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution.'
         subtext='We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited.'
-        number="(302) 883-8877"
+        number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={publishmybook}
         whychooseclass="marketyourbook"
@@ -364,7 +364,7 @@ const Bookpublishingservices = () => {
         title='What Type Of Books Do We Publish?'
         text={text}
         subtext={subtext}
-        number="(302) 883-8877"
+        number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={typeofbooks}
         whychooseclass="marketyourbook"
@@ -375,7 +375,7 @@ const Bookpublishingservices = () => {
         title='How Many Copies Of Your Book Will Be Published?'
         text='We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want.'
         subtext={kindledirectpublishing}
-        number="(302) 883-8877"
+        number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={copy}
         whychooseclass="marketyourbook"
@@ -387,7 +387,7 @@ const Bookpublishingservices = () => {
         title='How Will We Help You Market Your Book?'
         text='Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
         subtext='Our book marketing professionals will help your book and brand reach the success it deserves.'
-        number="(302) 883-8877"
+        number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={marketyourbook}
         whychooseclass="marketyourbook"

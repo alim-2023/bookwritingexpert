@@ -30,7 +30,7 @@ const Bookcoverdesignservices = () => {
     {
       title: newSpan,
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'bookcoverdesignservices',
      
@@ -156,7 +156,7 @@ const posdata = <span>Let Our Best <Link className='textdocationnone color-blue 
 
 
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -282,7 +282,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Professional Book Cover Design Services That Help Your Ideal Readers Judge Your Book By Its Cover!'
  text="Call us if you want to get your hands on the beautiful, engaging, and effective book cover to break the competition and make a 'NAME.' "
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

@@ -2,7 +2,7 @@
 
 background-color: #24303E;
   color: #fff;
-  padding-top: 100px;
+  padding-top: 80px;
   font-family: 'Poppins';
 }
 .footermenu1{
@@ -12,8 +12,9 @@ background-color: #24303E;
     font-family: 'Poppins'; 
     color: #fff;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     list-style: none;
+
 
 }
 .footerlogosize{
@@ -24,11 +25,20 @@ background-color: #24303E;
     display: flex;
     display: flex;
     padding: 0;
+    margin-top: 35px;
+   
 }
 
 .socialiconfooter .socaillinks {
-    padding-right: 12px;
     list-style: none;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 4%;
 }
 .awards{
     text-align: center;
@@ -52,6 +62,22 @@ background-color: #24303E;
 
 .styleset:hover{     color: #ddd; }
 
+
+.footerborder{
+    border-top: 1px solid white;
+    padding-top: 1%;
+}
+
+.footerborder img{
+    width: 70%;
+}
+.imgvisa img{
+    width: 70%;
+}
+.imgsizes img{
+    width: 50%;
+    display: block;
+}
 
 
 @media (max-width:991px)  {

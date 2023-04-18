@@ -7,6 +7,10 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.quit{
+    filter: brightness(.3);
+}
+
 .stars{
  
     color: #f29a12;
@@ -18,14 +22,14 @@
 .looking{
     max-width: 420px;
     margin: 0 auto;
-    color: black;
+    color: #223235;
     height: auto;
 }
 .mark{
     max-width: 420px;
     margin: 0 auto;
     margin-top: 5%;
-    color: black;
+    color: #223235;
     font-family: 'Poppins';
 }
 .more{

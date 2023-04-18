@@ -34,7 +34,7 @@ const Blogwritingservices = () => {
       title: newSpan,
       pra: 'Ever wish your audience gets lost in your stories? With blog writing services, our professionals help your dreams turn into reality.',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'blogwritingservices',
      
@@ -200,7 +200,7 @@ const fine = [
 
 
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -365,7 +365,7 @@ num5 = '05'
 <Aspiring
  title= 'For Blog Writing Services That Expedite Your Journey Towards Success, Contact Book Writing Cube Today!'
  text="Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!"
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

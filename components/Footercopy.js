@@ -161,34 +161,23 @@ const Footer = () => {
     <>
 <div className={styles.footer}>
 <Container>
-    <Row className='pb-5'>
-        <Col md={4}>
+    <Row>
+        <Col md={3}>
            <Image className={styles.footerlogosize} src={footerlogo} alt='book_writing_cube'></Image>
            <ul className={styles.footermenu1}>
-            <li className={ `${styles.footermenulinks} mt-4`}><MdEmail size={16}  />  <Link className={styles.styleset} href="mailto:support@bookwritingexperts.com">support@bookwritingexperts.com</Link></li>
+            <li className={ `${styles.footermenulinks} pt-4`}><MdEmail size={16}  />  <Link className={styles.styleset} href="mailto:support@bookwritingexperts.com">support@bookwritingexperts.com</Link></li>
             <li className={ `${styles.footermenulinks} pt-3`}><BsFillTelephoneFill size={12}  /> <Link className={styles.styleset} href="tel:(302)883-8877"> (302)883-8877 </Link></li>
             <li className={ `${styles.footermenulinks} pt-3`}> <ImLocation2 size={16}  /> 445 S.Figueroa Street, Los Angeles, CA 90071 </li>
 
         
 
            </ul>
-
-           <ul className={styles.socialiconfooter}>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.facebook.com/bookwritingexperts"><RiFacebookBoxFill size={20}  /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://twitter.com/bookwritingexp"><AiOutlineTwitter size={17}  /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.instagram.com/bookwritingexp/"><AiOutlineInstagram size={17}  /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.youtube.com/channel/UCMwHkNiJzrMd6MlPOBFMmLA"><BsYoutube size={17}  /></Link></li>
-                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.linkedin.com/company/bookwritingexp"><FaLinkedinIn size={17}  /></Link></li>
-            </ul>
-
-            <Image className='mt-3'  src={protectedlogo} alt='book_writing_cube'></Image>
-           
         </Col>    
-        <Col md={3}>
-  <h2 className='font-f font22 fw500 border-bottom'>Nav Links</h2>
-            <ul className={`${styles.footermenu1} mt-4`}>
+        <Col md={2}>
 
-                <li className={ `${styles.footermenulinks} `}><Link className={styles.styleset} href="/">Home</Link></li>
+            <ul className={`${styles.footermenu1} pt-4`}>
+
+                <li className={ `${styles.footermenulinks} pt-4`}><Link className={styles.styleset} href="/">Home</Link></li>
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/pricing">Pricing</Link></li>
 
@@ -198,19 +187,21 @@ const Footer = () => {
 
             </ul>
 
-           <div className={styles.imgsizes}>
+            <ul className={styles.socialiconfooter}>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.facebook.com/bookwritingcube"><RiFacebookBoxFill size={20}  /></Link></li>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://twitter.com/bookwrtgcube"><AiOutlineTwitter size={17}  /></Link></li>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.instagram.com/bookwritingcube_/"><AiOutlineInstagram size={17}  /></Link></li>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.youtube.com/channel/UCD-MEl7xlniOBEbpEVtpcvw"><BsYoutube size={17}  /></Link></li>
+                <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.linkedin.com/company/book-writing-cube/"><FaLinkedinIn size={17}  /></Link></li>
+            </ul>
 
-        
-
-            <Image className='pt-1 img-fluid'  src={bbb} alt='Book Writing Cube BBB Business Review'></Image>
-            </div>
+            <Image className='mt-5'  src={protectedlogo} alt='book_writing_cube'></Image>
+            
         </Col>    
-        <Col md={3}>
+        <Col md={2}>
 
-        <h2 className='font-f font22 fw500 border-bottom'>Services</h2>
-
-        <ul className={`${styles.footermenu1}  mt-4`}>
-                <li className={ `${styles.footermenulinks} `}><Link className={styles.styleset} href="/book-writing-services">Book Writing</Link> </li>
+        <ul className={`${styles.footermenu1} pt-4`}>
+                <li className={ `${styles.footermenulinks} pt-4`}><Link className={styles.styleset} href="/book-writing-services">Book Writing</Link> </li>
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-editing-services">Book Editing</Link></li>
 
@@ -228,78 +219,67 @@ const Footer = () => {
 
             
 
-            
-
         </Col>    
         <Col md={2}>
-        <h2 className='font-f font22 fw500 border-bottom'>Awards</h2>
-          
+            <Image className='pt-4 img-fluid'  src={bbb} alt='Book Writing Cube BBB Business Review'></Image>
+            <p className={`${styles.awards} font17 pt-3`}>Awards</p>
         
-       
+        <div className={styles.imgvisa}>
+
+            <Slider {...awardslogo}>
+
+                    {footerlogos1.map((item, i) => {
+                                        return(  
+                            <div key={i} className={styles.rightlogo}>
+                                <Image className='pt-3 img-fluid'  src={item.footerimg1} alt='book_writing_cube'></Image>
+                            </div>
+                    )
+                    })}
+                  
+            </Slider>
+
+
+        </div>
+            
+        </Col>    
+        <Col md={3}>
 
         <div className={styles.imgvisa}>
            
 
-           <Slider {...visalogo}>
+                    <Slider {...visalogo}>
 
 
 
-           {footerlogosnew.map((item, i) => {
-                               return(  
-                   <div key={i} className={styles.rightlogo}>
-                       <Image className='img-fluid'  src={item.footerlogosfuncy} alt='book_writing_cube'></Image>
-                   </div>
-           )
-           })}
+                    {footerlogosnew.map((item, i) => {
+                                        return(  
+                            <div key={i} className={styles.rightlogo}>
+                                <Image className='pt-4 img-fluid'  src={item.footerlogosfuncy} alt='book_writing_cube'></Image>
+                            </div>
+                    )
+                    })}
 
 
-    
-           
-           </Slider>
-
-
-
+             
+                    
+                    </Slider>
 
 
 
-</div>
-<div className={styles.imgvisa}>
-
-<Slider {...awardslogo}>
-
-        {footerlogos1.map((item, i) => {
-                            return(  
-                <div key={i} className={styles.rightlogo}>
-                    <Image className='pt-1 img-fluid'  src={item.footerimg1} alt='book_writing_cube'></Image>
-                </div>
-        )
-        })}
-      
-</Slider>
+            <Image className='pt-3 img-fluid'  src={visa} alt='book_writing_cube'></Image>
 
 
-</div>
+        </div>
             
         </Col>    
-       
     </Row>
 
-
-<div className={styles.footerborder}>
-    <Row className='pt-2'>
-        <Col md={4}>
-        <Image className='img-fluid'  src={visa} alt='book_writing_cube'></Image>
-        </Col>
-        <Col md={4}>
+    <Row className='pt-3'>
+        <Col md={12}>
             <p className='font14 text-center font-f'>© 2023 - All Rights Reserved Bhaoo INC</p>
-        </Col>
-        <Col md={4}>
-          
-            <p className='font14 t-right font-f'> <Link className={styles.styleset} href="/terms-of-use">Terms of Use</Link> | <Link className={styles.styleset} href="/privacy-policy">Privacy Policy</Link></p>
+            <p className='font14 text-center font-f'> <Link className={styles.styleset} href="/terms-of-use">Terms of Use</Link> | <Link className={styles.styleset} href="/privacy-policy">Privacy Policy</Link></p>
         </Col>
     </Row>
-
-    </div>
 </Container>
 </div>
     </>

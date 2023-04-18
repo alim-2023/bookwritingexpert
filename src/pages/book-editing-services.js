@@ -58,7 +58,7 @@ const Bookpublishingservices = () => {
           title: newSpan,
           pra: 'Putting your ideas on a piece of paper is never enough! You always need an editing expert who can turn your ideas into Perfection!',
           discuss:'LET S DISCUSS',
-          homebannernum:'(302) 883-8877',
+          homebannernum:'(213) 289 3888',
           banlogo:homebannerlogos,
           banners:'bookeditingservices',
     
@@ -198,7 +198,7 @@ const reasons = [
   return (
    <>
    <Head>
-   <meta charSet="UTF-8" />
+   <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
 	<meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
@@ -207,16 +207,17 @@ const reasons = [
 
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-  <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
-	<meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<link rel="canonical" href="/book-publishing-services" />
+
+	<title>Professional Book Editing Services - Book Writing Experts</title>
+	<meta name="description" content="Book editing services that fixes the writing flaws and make your book a flawless piece of content. Hire us today to get them at affordable pricing." />
+	<link rel="canonical" href="https://bookwritingexperts.com/book-editing-services/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
-	<meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
-	<meta property="og:url" content="/book-publishing-services" />
+	<meta property="og:title" content="Professional Book Editing Services - Book Writing Experts" />
+	<meta property="og:description" content="Book editing services that fixes the writing flaws and make your book a flawless piece of content. Hire us today to get them at affordable pricing." />
+	<meta property="og:url" content="https://bookwritingexperts.com/book-editing-services/" />
 	<meta property="og:site_name" content="Book Writing" />
-	<meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+	<meta property="article:modified_time" content="2023-03-31T12:01:27+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Est. reading time" />
 	<meta name="twitter:data1" content="9 minutes" />
@@ -410,7 +411,7 @@ para='Let Our Book Editing Team Help You.'
 <Selfpublishing
  title='Developmental Editing'
  text= 'We know that every word counts, so we`re committed to crafting captivating stories for any length and style. Our talented teams of book writing editor will take on your project from start to finish because no task is too big when you have people like us working together as part of such fantastic Book Editing & formatting services.'
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={whychooseourbookeditingservices1}
  whychooseclass= "marketyourbook"
@@ -421,7 +422,7 @@ para='Let Our Book Editing Team Help You.'
 <Whychoosebookwritingcube
  title='Editorial Assessment'
  text= 'Proofreading is essential to the success of every project taken up by book editing services. It’s an integral part of finishing your manuscript. Online book editor and proofreader look for errors, so you know that all text was correct before sending or releasing documents published by third parties like publishers.'
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={whychooseourbookeditingservices2}
  whychooseclass= "marketyourbook"
@@ -433,7 +434,7 @@ para='Let Our Book Editing Team Help You.'
 <Selfpublishing
  title='Structural Editing'
  text= 'In a world where so much information is available, it`s essential to make sure what you re putting out there represents your best work. The process of our book editing services includes exploiting the complexities of this process and turning them into success possibilities. It is also an opportunity for professional book editors and publishers who want help perfecting their craftsmanship with every word they type or publish.'
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
  image={whychooseourbookeditingservices3}
  whychooseclass= "marketyourbook"
@@ -444,7 +445,7 @@ para='Let Our Book Editing Team Help You.'
 <Whychoosebookwritingcube
  title='Copy Editing'
  text= {text}
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 image={whychooseourbookeditingservices4}
 whychooseclass= "marketyourbook"
@@ -472,7 +473,7 @@ whychooseclass= "marketyourbook"
 <Aspiring
  title= 'So, About That Story, Ready To Publish? Get Book Editing Done Today!'
  text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

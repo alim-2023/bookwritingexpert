@@ -30,7 +30,7 @@ const Audiobookrecordingservices = () => {
       title: newSpan,
       pra: 'Audiobooks are an investment that pays off in the longer run. Audiobook recording services help you get your book on audio, making it easier for people to enjoy while they’re on the go.',
       discuss:'LET S DISCUSS',
-      homebannernum:'(302) 883-8877',
+      homebannernum:'(213) 289 3888',
       banlogo:homebannerlogos,
       banners:'audiobookrecordingservices',
      
@@ -151,7 +151,7 @@ const reasons = [
 
 
 
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="/favicon.svg" />
 
    </Head>
    
@@ -251,7 +251,7 @@ classnumber = { item.classnum }
 <Aspiring
  title= 'Dive into The New Era of Audiobooks with Book Writing Cube’s High-Quality Audiobook Recording Services Today!'
  text="Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!"
- number="(302) 883-8877"
+ number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
 

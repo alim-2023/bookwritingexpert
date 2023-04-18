@@ -7,16 +7,17 @@
     border: 0;
     padding: 12px 30px;
     border-radius: 0;
-    background-color: #16467d;
+    background-color: #fa9600;
     color: #fff;
     text-decoration: unset;
     margin-left: 4px;
-    border: 1px solid #16467d;
+    border: 1px solid #fa9600;
+    border-radius: 50px;
     font-family: 'Poppins';
   
 }
 .btn404:hover{
-    background-color: black;
+    background-color: #223235;
     color: #fff;
 }
 
