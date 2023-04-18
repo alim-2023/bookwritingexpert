@@ -205,7 +205,7 @@ const Footer = () => {
         <h2 className='font-f font22 fw500 border-bottom'>Services</h2>
 
         <ul className={`${styles.footermenu1}  mt-4`}>
-                <li className={ `${styles.footermenulinks} `}><Link className={styles.styleset} href="/book-writing-services">Book Writing</Link> </li>
+             
 
                 <li className={ `${styles.footermenulinks} pt-3`}><Link className={styles.styleset} href="/book-editing-services">Book Editing</Link></li>
 
