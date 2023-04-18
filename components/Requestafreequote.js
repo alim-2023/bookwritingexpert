@@ -94,7 +94,7 @@ const Requestafreequote = () => {
                 <h4 className='fw700 font17 colorexpertgrey font-f'> For other inquiries only: </h4>
                 <p className={styles.bookemail}><BsFillTelephoneFill size={12}  /> 
                 
-                <Link className={styles.emailhref} href="tel:(302)883-8877"> (302)883-8877 </Link> </p>
+                <Link className={styles.emailhref} href="tel:213-289-3888"> 213-289-3888 </Link> </p>
             </div>
         
         

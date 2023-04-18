@@ -254,7 +254,7 @@ const Privacypolicy = () => {
 
                         <ul>
                             <li className='font15 fw500 colortextgrey font-f'>
-                                Toll-Free number: <Link className='textdocationnone' href="tel:(302)883-8877">(213) 289 3888</Link>
+                                Toll-Free number: <Link className='textdocationnone' href="tel:213-289-3888">(213) 289 3888</Link>
                             </li>
                             <li className='font15 fw500 colortextgrey font-f'>
                                 E-mail: <Link className='textdocationnone' href="mailto:support@bookwritingexperts.com">support@bookwritingexperts.com</Link>

@@ -109,7 +109,7 @@ const Contact = () => {
                                     Let’s talk about your book
                                 </p>
                                 <p className='font20 fw500 font-f color-white'>
-                                    <span className=''>Phone:</span> <Link href='tel:(302)883-8877' className={` ${styles.numpost} fw700 color-white textdocationnone`}> (213) 289 3888 </Link>
+                                    <span className=''>Phone:</span> <Link href='tel:213-289-3888' className={` ${styles.numpost} fw700 color-white textdocationnone`}> (213) 289 3888 </Link>
                                 </p>
                                 <p className='font20 fw500 font-f color-white'>
                                     <span className=''>Email:</span> <Link href='mailto:info(@)bookwritingcube(.)com' className={` ${styles.numpost} fw700 color-white textdocationnone`}>
@@ -371,7 +371,7 @@ const Contact = () => {
 
                             <h2 className='color-blue font50 fw700 font-f'> We Provide Everything You Need to
                                 Achieve Your Publishing Goals.</h2>
-                            <p className='font16 fw500 font-f colortextgrey' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:(302)883-8877' className='textdocationnone colortextgrey' > Call now:
+                            <p className='font16 fw500 font-f colortextgrey' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:213-289-3888' className='textdocationnone colortextgrey' > Call now:
                                 (213) 289 3888 </Link></span> </p>
 
                         </Col>

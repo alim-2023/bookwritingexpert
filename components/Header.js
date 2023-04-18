@@ -75,7 +75,7 @@ const Header = () => {
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
                           <FaBookOpen />
                           <div className={styles.megaDiv}>
-                            <Link className={styles.menulinks} href="/ebook-writing-services">Book Writing</Link>
+                            <Link className={styles.menulinks} href="/book-writing-services">Book Writing</Link>
                             <p>Get Connected To Your Readers With Ebook Writing Experts!</p>
                           </div>
                         </li>
