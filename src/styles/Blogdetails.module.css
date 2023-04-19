@@ -1,5 +1,9 @@
 .blogbg{
     background-color: #141d29;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 

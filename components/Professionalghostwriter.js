@@ -19,7 +19,7 @@ const Professionalghostwriter = () => {
                     <Link className='color-blue font50 font-f textdocationnone' href="https://bookwritingexperts.com/">Book Writing Experts </Link>
                       Is waiting for you to Ask for a <Link className='color-blue font50 font-f textdocationnone' href="https://bookwritingexperts.com/">Professional Ghostwriter</Link></h2>
 
-                     <p className='font16 textcolor font-f mt-4'>Hit us a message, or give us a call, and make the most of our Professional Ghostwriters.</p>
+                     <p className='font15 textcolor font-f mt-4'>Hit us a message, or give us a call, and make the most of our Professional Ghostwriters.</p>
                 </Col>
             </Row>
         </Container>

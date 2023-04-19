@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from '@/styles/Buildyourownidentity.module.css'
+import styles from '@/styles/Bestinclass.module.css'
 import { Container ,Row , Col } from 'react-bootstrap'
 import buildyourownidentity from '/public/images/buildyourownidentity/dulpost.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Buildyourownidentity = () => {
+const Bestinclass = () => {
   return (
    <>
     
@@ -71,4 +71,4 @@ const Buildyourownidentity = () => {
   )
 }
 
-export default Buildyourownidentity
+export default Bestinclass

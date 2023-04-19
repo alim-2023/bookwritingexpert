@@ -13,8 +13,8 @@
 
 .comprehensive {
     background-color: #fff;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-family: 'Poppins'; 
 }
 
@@ -93,9 +93,7 @@
     border-radius: 10px;
 }
 
-.post{
-  margin-bottom: 7%;;
-}
+
 .newimg{
   height: 100%;
 }

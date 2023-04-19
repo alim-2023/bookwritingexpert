@@ -187,7 +187,7 @@ const Contact = () => {
 
 
                                 <Row>
-                                    <Col> <p className='font16 fw500 font-f colortextgrey mt-4'>Desired Service(s)* see our <b> <em> rates and services </em></b> </p> </Col>
+                                    <Col> <p className='font15 fw500 font-f colortextgrey mt-4'>Desired Service(s)* see our <b> <em> rates and services </em></b> </p> </Col>
                                 </Row>
 
 
@@ -371,7 +371,7 @@ const Contact = () => {
 
                             <h2 className='color-blue font50 fw700 font-f'> We Provide Everything You Need to
                                 Achieve Your Publishing Goals.</h2>
-                            <p className='font16 fw500 font-f colortextgrey' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:213-289-3888' className='textdocationnone colortextgrey' > Call now:
+                            <p className='font15 fw500 font-f colortextgrey' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:213-289-3888' className='textdocationnone colortextgrey' > Call now:
                                 (213) 289 3888 </Link></span> </p>
 
                         </Col>

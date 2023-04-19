@@ -84,17 +84,14 @@ const Faqs = () => {
 
 
       {/* Aspiring */}
+      <div className='datacloud'>
       <Aspiring
         title='Allow us to dominate all the bookshelves and digital libraries, entrust our professional book writers with your book today!'
         text="Pick up the phone or email us, and book our book consultancy services today! The only thing standing in your way of being a best-selling author is not signing up for our professional book writing services! Allow us to assist you in getting there and getting the best and the most affordable book writers for hire today!"
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
-
-
-
-
       />
-
+</div>
 
 
     </>

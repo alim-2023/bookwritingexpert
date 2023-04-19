@@ -94,7 +94,7 @@ const Banner = (props) => {
 
                 {props.text ?
 
-                  <p className={`${styles.newPara} fw500 font16 color-white font-f mt-4 m-0`}>{props.text}</p>
+                  <p className={`${styles.newPara} fw500 font15 color-white font-f mt-4 m-0`}>{props.text}</p>
                   :
                   ''
                 }

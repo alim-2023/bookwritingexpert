@@ -325,6 +325,7 @@ num5 = '05'
 
 
 {/* Aspiring */}
+<div className='dataset'>
 <Aspiring
  title= {dateset} 
  text= 'Connect with us, and avail our best Editing Services at one go. We know the right formula for errorless content.'
@@ -332,7 +333,7 @@ num5 = '05'
  discuss="LET'S DISCUSS"
  img= {together}
 />
-
+</div>
 
 
 
@@ -470,13 +471,14 @@ whychooseclass= "marketyourbook"
 
 
 {/* Aspiring */}
+<div className='datacloud'>
 <Aspiring
  title= 'So, About That Story, Ready To Publish? Get Book Editing Done Today!'
  text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
  number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
-
+</div>
 
 
 

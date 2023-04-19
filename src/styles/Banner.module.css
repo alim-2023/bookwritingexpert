@@ -274,7 +274,9 @@
   background-color: #141d29;
   padding-top: 130px;
   padding-bottom: 30px;
-
+  height: 100vh;
+  display: flex;
+  align-items: center;
   background-position: center;
   font-family: "Poppins";
 }
@@ -289,6 +291,9 @@
   padding-bottom: 50px;
   background-color: #141d29;
   font-family: "Poppins";
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .homenumer:hover {
@@ -412,6 +417,12 @@
 }
 @media (max-width: 1440px) { 
 
+  .faqs h1{
+    max-width: 85%;
+  }
+  .pricing h1{
+    max-width: 85%;
+  }
   .banner h1{
     max-width: 85%;
   }

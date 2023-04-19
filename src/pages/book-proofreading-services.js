@@ -311,7 +311,17 @@ num5 = '05'
 
 />
 
-
+{/* Aspiring */}
+<div className='dataset'>
+<Aspiring
+ title= {dateset}
+ text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+ subtext= 'Trust the marketing professionals for it, do not risk it!'
+ number="(213) 289 3888"
+ discuss="LET'S DISCUSS"
+ img= {together}
+/>
+</div>
 
 
 
@@ -323,15 +333,6 @@ num5 = '05'
 
    
 
-{/* Aspiring */}
-<Aspiring
- title= {dateset}
- text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
- subtext= 'Trust the marketing professionals for it, do not risk it!'
- number="(213) 289 3888"
- discuss="LET'S DISCUSS"
- img= {together}
-/>
 
 
 
@@ -418,6 +419,8 @@ classnumber = { item.classnum }
  />
 
  {/* Aspiring */}
+
+ <div className='datacloud'>
 <Aspiring
  title= 'Have A Second Set Of Eyes To Catch The Errors That You Have Missed!'
  text="Call us to get professional editors who will comb through your work and correct any errors. Whether it's a typo or a more serious grammatical error, we'll make sure it's fixed before you submit your work."
@@ -425,7 +428,7 @@ classnumber = { item.classnum }
  discuss="LET'S DISCUSS"
 />
 
-
+</div>
 
 
 

@@ -284,6 +284,8 @@ const Bookpublishingservices = () => {
       />
 
       {/* Aspiring */}
+
+<div className='dataset'>
       <Aspiring
         title={dateset}
         text='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
@@ -292,7 +294,7 @@ const Bookpublishingservices = () => {
         discuss="LET'S DISCUSS"
         img={together}
       />
-
+</div>
 
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
@@ -336,7 +338,7 @@ const Bookpublishingservices = () => {
       <Lululogos />
 
 
-      <Container className='mt-5'>
+      <Container className={styles.publicservices}>
         <Row>
           <Col>
             <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
@@ -417,6 +419,8 @@ const Bookpublishingservices = () => {
 
 
       {/* Aspiring */}
+
+      <div className='datacloud'>
       <Aspiring
         title='Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
         text='Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube.'
@@ -426,7 +430,7 @@ const Bookpublishingservices = () => {
 
       />
 
-
+</div>
 
 
 

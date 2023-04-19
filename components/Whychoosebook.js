@@ -13,7 +13,7 @@ const Whychoosebook = (props) => {
 
 <Container>
 <Row>
-<h2 className='fw700 font50 color-blue font-f t-center mt-4'>{props.title}</h2>
+<h2 className='fw700 font50 color-blue font-f t-center'>{props.title}</h2>
     <p className={`${styles.whytext} font15 fw500 font-f t-center mt-3 mb-5`}>{props.text}</p>
     <div className={styles.whychooseimge}>
         <Image className='img-fluid' src={props.whychoose}  priority  alt='book_writing_cube'></Image>

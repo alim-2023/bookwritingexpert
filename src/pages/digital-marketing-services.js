@@ -25,6 +25,7 @@ import Buildingyour from '../../components/Buildingyour'
 import Bestinclass from '../../components/Bestinclass'
 import Stopworrying from '../../components/Stopworrying'
 
+
 const Digitalmarketingservices = () => {
 
 
@@ -136,13 +137,8 @@ col6: '6',
    {/* partners components */}
 <Partners/>
 
-{/* Makestories */}
-<div className='mt-5'>
-<Makestoriesnew
-title='Our Latest Digital Marketing Projects'
-para='Let Our Digital Marketing Team Help You'
-/>
-</div>
+
+
 
 
 
@@ -162,12 +158,18 @@ image={youareonestepcloserto}
 
 />
 
-
+{/* Makestories */}
+<div className='dataset'>
+<Makestoriesnew
+title='Our Latest Digital Marketing Projects'
+para='Let Our Digital Marketing Team Help You'
+/>
+</div>
 {/* Lululogos components */}
 
-<div className='mt-5'>
+
 <Lululogos/>
-</div>
+
 
 
 <Buildyourownidentity />
@@ -189,13 +191,14 @@ image={youareonestepcloserto}
  
 
 
-
+<div className='dataset'>
 <Buildingyour />
-
+</div>
 
 <Lululogos/>
 
 {/* Aspiring */}
+<div className='newdatecloud'>
 <Aspiring
  title= 'Let Our Digital Marketing Company Pull Off The Marketing Strain From Your Shoulders!'
  text= 'Marketing, precisely book marketing, is not everyone’s cup of tea. But, for us, it’s just a piece of cake. Unequivocally, a lot goes into the advertising affair, from developing the sound pitching idea to devising the profitable social media campaigns, just to name a few. All these may seem daunting for you, but not for us. We share the incredible experience of helping authors launch and making them the internet sensation across multiple online platforms.'
@@ -204,7 +207,7 @@ image={youareonestepcloserto}
  img= {youareonestepcloserto}
  
 />
-
+</div>
 <Companypull
  title= 'Helping Your Story Reach Nook And Corner Of The World With Gamut Of Digital Marketing Services!'
  text= 'Call Us Now To Bring Your Book Under The Limelight.'

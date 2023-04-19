@@ -27,7 +27,7 @@ import Whatourclients from '../../components/Whatourclients'
 import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Stillonthefence from '../../components/Stillonthefence'
-import drivethebook1 from '/public/images/drivethebook/1.png'
+import drivethebook1 from '/public/images/whychoosebooks/ourefficientauthorwebsitedesignprocess.png'
 import Whychoosebook from '../../components/Whychoosebook'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
@@ -295,6 +295,7 @@ btn =  {item.btn}
 
 
 {/* Aspiring */}
+<div className='dataset'>
 <Aspiring
  title= {dateset}
  text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
@@ -303,7 +304,7 @@ btn =  {item.btn}
  discuss="LET'S DISCUSS"
  img= {together}
 />
-
+</div>
 
 
 
@@ -384,13 +385,14 @@ classnumber = { item.classnum }
 
 
 {/* Aspiring */}
+<div className='datacloud'>
 <Aspiring
  title= 'Making Your Book a Stellar Addition to the Literature World!'
  text="If you want to watch your work take off and reach new heights, Book Writing Cube may help you do the trick. With extended years of experience in the industry, we know exactly what it takes to get your book noticed and gain maximum exposure. Call us now to take your book to the next level!"
  number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
-
+</div>
 
 
 

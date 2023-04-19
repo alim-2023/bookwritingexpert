@@ -46,7 +46,7 @@ const Blogdetails = () => {
 </Container>
 </div>
 
-    <Container className='mt-5'>
+    <Container className='dataset'>
         <Row>
        
 
@@ -120,7 +120,7 @@ const Blogdetails = () => {
                         <p className='mt-3 fw500 font15 font-f'>
                         Amazon is one of the largest and powerful online retail sites, with millions of customers searching for products daily. Amazon's targeted advertising tools are a great way to reach potential customers and boost sales for your Amazon book promotion.
                         </p>
-                        <p className='mt-3 fw500 font15 font-f mb-5'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
+                        <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
 
             </Col>

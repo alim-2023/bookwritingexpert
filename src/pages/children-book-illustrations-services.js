@@ -276,6 +276,7 @@ num5 = '05'
 />
 
 {/* Aspiring */}
+<div className='dataset'>
 <Aspiring
  title= {dateset}
  text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
@@ -284,7 +285,7 @@ num5 = '05'
  discuss="LET'S DISCUSS"
  img= {together}
 />
-
+</div>
 
   {/* Talk To Our Whatourclients! */}
   <Whatourclients />
@@ -352,6 +353,7 @@ classnumber = { item.classnum }
 
 
 {/* Selfpublishing */}
+<div className='dateai'>
 <Selfpublishing
  title='What Type Of Books Do We Publish?'
  text= {text}
@@ -361,7 +363,7 @@ classnumber = { item.classnum }
  image={publishmybook}
  whychooseclass= "marketyourbook"
  />
-
+</div>
 
 
 
@@ -375,13 +377,14 @@ classnumber = { item.classnum }
 
 
 {/* Aspiring */}
+<div className='datacloud'>
 <Aspiring
  title= 'You Are One Step Closer To Displaying Your Writing Excellence. Let Our Professional Help You Out.'
 text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
  number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
-
+</div>
 
 
 

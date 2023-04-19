@@ -259,6 +259,7 @@ const Bookpublishingservices = () => {
 
 
       {/* Aspiring */}
+      <div className='dataset'>
       <Aspiring
         title={dateset}
         text='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
@@ -267,7 +268,7 @@ const Bookpublishingservices = () => {
         discuss="LET'S DISCUSS"
         img={together}
       />
-
+</div>
 
 
       {/* Talk To Our Whatourclients! */}
@@ -380,6 +381,7 @@ const Bookpublishingservices = () => {
 
 
       {/* Aspiring */}
+      <div className='datacloud'>
       <Aspiring
         title='Ready To Make It Big With Our Book Marketing Services?'
         text="You are the ambassador of your own book—but that doesn’t mean it is a singly endeavor. It is an ever-changing, seriously challenging, and quite honestly, commercially competitive industry. The right book marketing plan, calculated milestones, and extended exposure—the all’s and must-haves of making your work a chart-topper! Let’s collaborate!"
@@ -387,7 +389,7 @@ const Bookpublishingservices = () => {
         discuss="LET'S DISCUSS"
       />
 
-
+</div>
 
 
 

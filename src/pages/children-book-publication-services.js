@@ -268,6 +268,7 @@ num5 = '05'
 
 
 {/* Aspiring */}
+<div className='dataset'>
 <Aspiring
  title= {dateset}
  text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
@@ -276,7 +277,7 @@ num5 = '05'
  discuss="LET'S DISCUSS"
  img= {together}
 />
-
+</div>
  {/* Talk To Our Whatourclients! */}
  <Whatourclients />
 
@@ -296,6 +297,7 @@ para='Let Our Children’s Book Publishing Team Help You'
 
 
 {/* Selfpublishing */}
+<div className='waitdatecloud'>
 <Selfpublishing
  title='What Type Of Books Do We Publish?'
  text= {text}
@@ -305,7 +307,7 @@ para='Let Our Children’s Book Publishing Team Help You'
  image={copy}
  whychooseclass= "marketyourbook"
  />
-
+</div>
 
 
 
@@ -315,9 +317,9 @@ para='Let Our Children’s Book Publishing Team Help You'
 
 
 {/* Lululogos components */}
-<div className='mt-5'>
+
 <Lululogos/>
-</div>
+
 
 
 {/* Stillonthefence component */}
@@ -363,13 +365,14 @@ classnumber = { item.classnum }
 
 
 {/* Aspiring */}
+<div className='datacloud'>
 <Aspiring
  title= 'Ultimately, your success establishes our reputation'
  text="The experts at Book Writing Cube are well-aware of the amount of time and effort a singular literary composition requires. We value the work done and respect the passion for publishing the aspiring authors demonstrate. And we promise to help you finalize a composition you can take great pride in!"
  number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />
-
+</div>
 
 
 

@@ -105,9 +105,9 @@ const Pricing = () => {
       <BookChildrenPublish />
 
       <BookChildrenIllus />
-
+<div className='datacloud'>
       <BookDigitalMarket />
-
+      </div>
       {/* Talk To Our Experts! */}
       <Experts
         title={exprtSpan}
