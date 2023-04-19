@@ -25,6 +25,11 @@
 
 @media (max-width:767px)  {
 
+    .customersatisfaction{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
     .customerbrandimg{
         height: unset;
         text-align: center;
