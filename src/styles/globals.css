@@ -345,7 +345,7 @@ body {
 }
 
 .clintTesti .slick-slider .slick-next::before {
-  content: url(../../public/right-arrow.png);
+  content: url(/right-arrow.png);
 }
 
 .clintTesti .slick-slider .slick-prev {
@@ -353,11 +353,11 @@ body {
 }
 
 .bookMarkTesti .slick-slider .slick-next::before {
-  content: url(../../public/next.png);
+  content: url(/next.png);
 }
 
 .bookMarkTesti .slick-slider .slick-prev::before {
-  content: url(../../public/prev.png);
+  content: url(/prev.png);
 }
 
 .bookMarkTesti .slick-slider .slick-next {
