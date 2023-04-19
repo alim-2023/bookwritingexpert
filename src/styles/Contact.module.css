@@ -103,10 +103,10 @@
 
 @media (max-width: 991px) {
   .contactbg {
-    background-color: #f1f1f1;
+    background-color: #141d29;
     padding-top: 70px;
     padding-bottom: 70px;
-  }
+}
   .numpost {
     font-size: 15px;
   }

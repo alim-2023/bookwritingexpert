@@ -153,6 +153,22 @@ background-color: #24303E;
 @media (max-width:480px)  {
 
 
+    .socialiconfooter .socaillinks  {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .footerborder{
+        padding-top: 7%;
+    }
+    .footerborder img{
+        padding-bottom: 5%;
+    }
+
+
     
 .footermenu1 .footermenulinks {
     font-size: 18px;

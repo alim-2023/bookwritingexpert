@@ -557,7 +557,23 @@
   }
 }
 @media (max-width: 767px) {
+  .banner {
+    background-image: unset;
+    background-color: #141d29;
+  }
+  .ghostwriting {
+    background-image: unset;
+    background-color: #141d29;
+  }
+  .ebook {
+    background-image: unset;
+    background-color: #141d29;
+  }
   .bookwritingservices {
+    background-image: unset;
+    background-color: #141d29;
+  }
+  .bookpublishingservices {
     background-image: unset;
     background-color: #141d29;
   }
@@ -630,17 +646,7 @@
     background-color: #141d29;
   }
 
-  .banner {
-    background-image: url(/images/bannerimages/hometabbanner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: "Poppins";
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    padding-top: 80px;
-  }
+
 }
 
 @media (max-width: 480px) {
