@@ -20,6 +20,8 @@
     height: 46px;
     left: 0;
     background-size: contain;
+    filter: brightness(0.4);
+
 }
 .posttitle {
     position: relative;
