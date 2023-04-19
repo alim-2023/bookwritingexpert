@@ -51,36 +51,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Best Book Writing Company - Book Writing Cube</title>
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description"
-          content="We Are A Book Writing Company That Delivers Exceptional Writing Services For Many Genres. Call Us To Get It." />
-        <meta name="tags" content="en" />
-        <meta name="DC.title" content="Book Writing Company" />
-        <meta name="geo.region" content="" />
-        <meta name="geo.position" content="39.78373;-100.445882" />
+        <title>Professional Book Writing Services Company</title>
+     
         <link rel="icon" href="/favicon.svg" />
-
-        <meta name="ICBM" content="39.78373, -100.445882" />
-        <meta name="DC.title" content="ghost writing company" />
-        <meta name="geo.region" content="GB" />
-        <meta name="geo.position" content="55.753005;-2.857642" />
-        <meta name="ICBM" content="55.753005, -2.857642" />
-        <meta property="og:locale" content="en" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Best Book Writing Company - Book Writing Cube" />
-        <meta property="og:description"
-          content="We Are A Book Writing Company That Delivers Exceptional Writing Services For Many Genres. Call Us To Get It." />
-        <meta property="og:url" content="https://www.bookwritingcube.com" />
-        <meta property="og:site_name" content="Best Book Writing Company - Book Writing Cube" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:label1" content="Est. reading time" />
-        <meta name="twitter:data1" content="5 minutes" />
-        <meta name="facebook-domain-verification" content="s4ocl50k325dpk61h3frbd8aajeybv" />
-        <meta name="google-site-verification" content="F7m5xKviPUMZOF5gFd6tdprcbKj_K1t7VyaYhmzcMMU" />
-
 
 
       </Head>
