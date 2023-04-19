@@ -273,7 +273,7 @@
     display: flex;
     position: absolute;
     visibility: visible;
-    width: 41%;
+    width: 100%;
   }
 
   .megamenu ul li a {
@@ -291,11 +291,15 @@
 }
 
 @media (max-width: 1215px) {
+
+  .megaImg img {
+    width: 75px;
+}
   .serviceshover:hover .megamenu {
     display: flex;
     position: absolute;
     visibility: visible;
-    width: 51%;
+    width: 100%;
   }
 }
 @media (max-width: 1024px) {
