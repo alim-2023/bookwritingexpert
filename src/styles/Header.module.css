@@ -304,10 +304,14 @@
   }
 }
 @media (max-width: 991px) {
-  .menulinks {
-    color: #223235;
-  }
 
+  .megaLinks img{
+    display: none;
+  }
+  .menulinks {
+    color: #ffffff;
+  }
+ 
   .logonew {
     filter: unset;
   }
@@ -341,7 +345,7 @@
   }
 
   .megamenu ul li a {
-    color: #223235;
+    color: #ffffff;
   }
   .megamenu ul li {
     width: max-content;
@@ -370,7 +374,7 @@
     position: unset;
     top: 0;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
 
   .headerbtnspacing {

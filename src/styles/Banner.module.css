@@ -559,75 +559,75 @@
 @media (max-width: 767px) {
   .bookwritingservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .pricing {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .bookpromotionservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .bookeditingservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .bookmarketingservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .offeringyoubook {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .blogwritingservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .bookcoverdesignservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .buildexcitement {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .topratedbusiness {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .childrenbookpublication {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .authormarketingpromotionservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .childrenbookIllustrations {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .digitalmarketingservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .bookformattingservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .audiobookrecordingservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .webcontentwritingservices {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
   .empoweringauthorswith {
     background-image: unset;
-    background-color: #f1f1f1;
+    background-color: #141d29;
   }
 
   .banner {
@@ -644,6 +644,11 @@
 }
 
 @media (max-width: 480px) {
+
+  .homebannerlogo {
+    
+    display: none;
+}
   .alignclass {
     width: 100%;
     margin: 0 auto;

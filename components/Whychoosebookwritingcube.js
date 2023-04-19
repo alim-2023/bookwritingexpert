@@ -13,7 +13,7 @@ const Whychoosebookwritingcube = (props) => {
     
     <div className={styles[props.whychooseclass]}>
     <Container>
-            <Row className={styles.middle}>
+            <Row className={`${styles.middle} gy-4`}>
 
                 <Col md={6}>
 

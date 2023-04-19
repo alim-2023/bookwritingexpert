@@ -54,7 +54,7 @@
         display: block;
         text-align: center;
         margin-left: 0px;
-        margin-top: 1%;
+        margin-top: 3%;
     }
     .asdiscuss {
         display: block;
@@ -64,6 +64,10 @@
 }
 
 @media (max-width:767px)  {
+
+    .middle{
+        flex-direction: column-reverse;
+    }
 
    
     .cube{

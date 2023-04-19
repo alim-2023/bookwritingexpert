@@ -12,7 +12,7 @@ const Dowecome = (props) => {
     
     <div className={styles[props.Dowecome]}>
         <Container>
-            <Row className={styles.middle}>
+            <Row className={` ${styles.middle} gy-4`}>
                 <Col md={7}>
 
                   <div className={styles.dowemargin}> 

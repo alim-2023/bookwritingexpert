@@ -13,7 +13,7 @@ const Aspiring = (props) => {
         <div className={styles.aspiring}>
 
             <Container>
-                <Row className={styles.middle}>
+                <Row className={`${styles.middle} gy-4`}>
                     <Col md={7}>
 
                     <h2 className="fw500 font50 colortextgrey font-f mb-4">{props.title}</h2>

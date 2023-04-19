@@ -424,6 +424,12 @@ body {
 }
 
 @media (max-width: 991px) {
+
+  .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
   .blogslide .slick-slider.slick-initialized {
     margin-right: unset;
   }
@@ -482,6 +488,10 @@ body {
   }
 }
 @media (max-width: 480px) {
+
+  .font50 {
+    font-size: 19px;
+}
   .font14 {
     font-size: 18px;
   }
