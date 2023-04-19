@@ -38,7 +38,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <Link className='textdocationnone color-blue hover' href="/ebook-writing-services">Ebook Writing Services</Link>  <span className=''>That Give Meaning To Your Imagination!</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <Link className='textdocationnone color-blue hover' href="/book-writing-services">Book Writing Services</Link>  <span className=''>That Give Meaning To Your Imagination!</span> </h1>;
 
 
 
@@ -97,13 +97,13 @@ const Bookpublishingservices = () => {
 
 
 
-const  geta = <span>Get Connected To Your Readers With <Link className='color-blue fw700 textdocationnone hover' href='/ebook-writing-services'> Ebook Writing Experts! <br></br> </Link></span>
+const  geta = <span>Get Connected To Your Readers With <Link className='color-blue fw700 textdocationnone hover' href='/book-writing-services'> Book Writing Experts! <br></br> </Link></span>
 
 
 
 
 
-const posdata = <span>What Is Stopping You From Availing The Most <Link className='textdocationnone fw700 color-blue hover' href='/ebook-writing-services'>Affordable EBooks Writing Services? </Link> </span>
+const posdata = <span>What Is Stopping You From Availing The Most <Link className='textdocationnone fw700 color-blue hover' href='/book-writing-services'>Affordable Books Writing Services? </Link> </span>
 
 
 
@@ -112,7 +112,7 @@ const fine = [
   {
     img: mission1,
     title:'Delivery Commitments',
-    text: 'Our clients are our utmost priority! We promise to deliver your EBooks right on time.',
+    text: 'Our clients are our utmost priority! We promise to deliver your Books right on time.',
     class: 'fintop',
   
 
@@ -121,7 +121,7 @@ const fine = [
   {
     img: mission2,
     title:'Originality',
-    text:'We have a team of expert eBooks writers who dedicatedly write original and customized content every time you take our services.',
+    text:'We have a team of expert Books writers who dedicatedly write original and customized content every time you take our services.',
     class: 'fintop',
     
 
@@ -130,7 +130,7 @@ const fine = [
   {
     img: mission3,
     title:'Well - Researched Personalization',
-    text:'The professional eBooks writers at the Book Writing Experts conduct in-depth research on the topic and deliver personalized content as per your requirements.',
+    text:'The professional Books writers at the Book Writing Experts conduct in-depth research on the topic and deliver personalized content as per your requirements.',
     class: 'fintop',
 
 
@@ -139,10 +139,10 @@ const fine = [
 
 ]
 
-const dateset = <span className='fw500'>  Waiting For Someone To <br></br> <Link href='#' className='color-blue textdocationnone hover fw700'>Give Your Book An EBook Version?</Link> </span>
+const dateset = <span className='fw500'>  Waiting For Someone To <br></br> <Link href='#' className='color-blue textdocationnone hover fw700'>Give Your Book An Book Version?</Link> </span>
 
 
-const datesettext = <span>  Get in touch with our <Link href='#' className='colortextgrey textdocationnone hover'>professional book writing</Link> specialists today. Our eBooks Writing Experts choose the most compelling words and perfect linguistics for your work. We promise original, customized, and timely delivery of your content without breaking your bank!</span>
+const datesettext = <span>  Get in touch with our <Link href='#' className='colortextgrey textdocationnone hover'>professional book writing</Link> specialists today. Our Books Writing Experts choose the most compelling words and perfect linguistics for your work. We promise original, customized, and timely delivery of your content without breaking your bank!</span>
 
 const reasons = [
 
@@ -188,7 +188,7 @@ const reasons = [
 ]
 
 
-const text = <span>We want to help you shine your eBook and make it compelling for readers, so we'll work with the most important ideas. You have an option of doing a one-hour interview where any challenging or confusing topics will be bouncing off us before they're even published.</span>;
+const text = <span>We want to help you shine your Book and make it compelling for readers, so we'll work with the most important ideas. You have an option of doing a one-hour interview where any challenging or confusing topics will be bouncing off us before they're even published.</span>;
 
 const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
 
@@ -210,13 +210,13 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
 
 
 	<title>Professional Book Writing Services - Book Writing Experts</title>
-	<meta name="description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
-	<link rel="canonical" href="https://bookwritingexperts.com/ebook-writing-services/" />
+	<meta name="description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+	<link rel="canonical" href="https://bookwritingexperts.com/book-writing-services/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Professional Ebook Writing Services - Book Writing Experts" />
-	<meta property="og:description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
-	<meta property="og:url" content="https://bookwritingexperts.com/ebook-writing-services/" />
+	<meta property="og:title" content="Professional Book Writing Services - Book Writing Experts" />
+	<meta property="og:description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+	<meta property="og:url" content="https://bookwritingexperts.com/book-writing-services/" />
 	<meta property="og:site_name" content="Book Writing" />
 	<meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
@@ -263,13 +263,13 @@ const  kindledirectpublishing = <span>Providing the Highest quality and cost-eff
 {/* Dowecome */}
 <Dowecome
  title = {geta}
- text= 'Writing an eBook is no walk in the park, and you do not have to go through this trouble. Book Writing Experts have a dedicated team of eBook Writers for you, right at your disposal. Our specialists do not just transform your words into a story but also help your book rank among the top sellers. We take your ideas to the world and help you reach out to the right readers through the right platforms.'
+ text= 'Writing an Book is no walk in the park, and you do not have to go through this trouble. Book Writing Experts have a dedicated team of Book Writers for you, right at your disposal. Our specialists do not just transform your words into a story but also help your book rank among the top sellers. We take your ideas to the world and help you reach out to the right readers through the right platforms.'
 Dowecome= "publishmybook"
 
 />
 
 <Stopworrying 
- title = 'Tired Of Trying To Write An Ebook On Your Own?'
+ title = 'Tired Of Trying To Write An Book On Your Own?'
  subtitle = {posdata}
  btn1 = 'Get a free Proposal'
  btn2 = 'Talk to an expert'
@@ -282,7 +282,7 @@ Dowecome= "publishmybook"
 <Row >
 <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-<p className='font50 font-f fw500 colortextgrey t-center pb-2'>We Aim To Add Value To Your <Link className='textdocationnone color-blue hover fw700' href='/ebook-writing-services'> EBooks!</Link></p>
+<p className='font50 font-f fw500 colortextgrey t-center pb-2'>We Aim To Add Value To Your <Link className='textdocationnone color-blue hover fw700' href='/book-writing-services'> Books!</Link></p>
 
 </Row>
 
@@ -384,7 +384,7 @@ classnumber = { item.classnum }
 
 <div className='mb-5 waitdate'>
 <Selfpublishing
- title='Planning >> Writing >> Designing = eBook Customization Formula'
+ title='Planning >> Writing >> Designing = Book Customization Formula'
  text= {text}
  number="(213) 289 3888"
  discuss="LET'S DISCUSS"
@@ -407,8 +407,8 @@ classnumber = { item.classnum }
 
 {/* Why Choose Book Writing Cube? */}
 <Whychoosebook
-   title="Ultimate Place for eBook Illustration and Designing"
-  text="Book Writing Cube has a team of professional illustrators and designers ready to breathe life into your idea. Our ebook editing service specialization lies in various genres that include:"
+   title="Ultimate Place for Book Illustration and Designing"
+  text="Book Writing Cube has a team of professional illustrators and designers ready to breathe life into your idea. Our book editing service specialization lies in various genres that include:"
   whychoose= {bookwritingprocess}
  />
 
@@ -416,7 +416,7 @@ classnumber = { item.classnum }
 {/* Aspiring */}
 <div className='datacloud'>
 <Aspiring
- title= 'Professional eBook Writing and Publishing We Give New Life To Your Words'
+ title= 'Professional Book Writing and Publishing We Give New Life To Your Words'
  text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
  number="(213) 289 3888"
  discuss="LET'S DISCUSS"
