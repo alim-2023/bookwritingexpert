@@ -323,8 +323,8 @@ btn =  {item.btn}
 
    {/* Makestories */}
 <Makestoriesnew
-title='Our E-Book Writing Projects'
-para='Let Our E-Book Writing Team Help You.'
+title='Our Book Writing Projects'
+para='Let Our Book Writing Team Help You.'
 />
 
 
@@ -361,7 +361,7 @@ para='Let Our E-Book Writing Team Help You.'
 <div className={styles.stillbookwritingservices}>
 <Container >
 <Row >
-<h2 className='font50 fw700 color-white t-center font-f mb-5'>Why Choose Our E-Book Writing Services?</h2>  
+<h2 className='font50 fw700 color-white t-center font-f mb-5'>Why Choose Our Book Writing Services?</h2>  
 </Row>  
 
 <Row className='gy-5'>
