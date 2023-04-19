@@ -464,6 +464,25 @@ body {
 }
 
 @media (max-width: 767px) {
+
+  .clintTesti .slick-slider .slick-next::before {
+    display: none;
+  }
+  
+  .clintTesti .slick-slider .slick-prev {
+    display: none !important;
+  }
+  
+  .bookMarkTesti .slick-slider .slick-next::before {
+    display: none;
+  }
+  
+  .bookMarkTesti .slick-slider .slick-prev::before {
+    display: none;
+  }
+  
+
+
   .font60 {
     font-size: 40px;
   }
