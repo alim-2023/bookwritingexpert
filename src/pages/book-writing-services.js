@@ -46,7 +46,7 @@ const Bookpublishingservices = () => {
     const bannertext=[
         {
           title: newSpan,
-          pra: 'Quality eBook writing drives traffic, and our experienced writers know the tips and tricks of keeping the readers engaged with appealing word selection',
+          pra: 'Quality Book writing drives traffic, and our experienced writers know the tips and tricks of keeping the readers engaged with appealing word selection',
           discuss:'LET S DISCUSS',
           homebannernum:'(213) 289 3888',
           banlogo:homebannerlogos,
@@ -72,12 +72,12 @@ const Bookpublishingservices = () => {
 
         {
           title: 'Why a book writer when I can write a book myself?',
-          text:  'Of course, you can write your book on your own, and we are sure that you would do a stellar job with it. But are you sure that you wouldn’t appreciate an extra helping hand? A helping hand from a professional eBook writer who has been doing this for longer than you had the idea of writing your own book. Our book writing services are a collaborative process between the client and our team where we merely help our client write the book that would sell well and is up to the industry’s standards. So I ask you again, won’t a professional know how to do this better?',
+          text:  'Of course, you can write your book on your own, and we are sure that you would do a stellar job with it. But are you sure that you wouldn’t appreciate an extra helping hand? A helping hand from a professional Book writer who has been doing this for longer than you had the idea of writing your own book. Our book writing services are a collaborative process between the client and our team where we merely help our client write the book that would sell well and is up to the industry’s standards. So I ask you again, won’t a professional know how to do this better?',
           col6: '6',
         },
         {
           title: 'How strict are you with your confidentiality?',
-          text: 'We are very strict and thorough when it comes to protecting the identity of our clients and our ghostwriters. We make our eBook ghostwriters sign an NDA where they aren’t allowed to take any material out of the office premises or tell anyone anything about the kind of project they are working on to protect our client’s identity. So many years in book writing services, and we have never had a scandal when it comes to protecting the anonymity of our client. As professional writing services, we maintain a very ethical decorum and play by the rules of the literary world.',
+          text: 'We are very strict and thorough when it comes to protecting the identity of our clients and our ghostwriters. We make our Book ghostwriters sign an NDA where they aren’t allowed to take any material out of the office premises or tell anyone anything about the kind of project they are working on to protect our client’s identity. So many years in book writing services, and we have never had a scandal when it comes to protecting the anonymity of our client. As professional writing services, we maintain a very ethical decorum and play by the rules of the literary world.',
           col6: '6',
         },
         {
