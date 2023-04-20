@@ -291,7 +291,7 @@ const Footer = () => {
         <Image className='img-fluid'  src={visa} alt='book_writing_cube'></Image>
         </Col>
         <Col md={4}>
-            <p className='font14 text-center font-f'>© 2023 - All Rights Reserved Bhaoo INC</p>
+            <p className='font14 text-center font-f'>© 2023 - All Rights Reserved</p>
         </Col>
         <Col md={4}>
           <div className={styles.aligntextrignt}>
