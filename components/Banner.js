@@ -78,7 +78,7 @@ const Banner = (props) => {
 
   return (
     <>
-      <div className={styles[props.bannershome]}>
+      <div className={`${styles[props.bannershome]} bannergllobal`}>
 
         <Container>
           <Row>

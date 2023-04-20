@@ -491,7 +491,7 @@ input::-webkit-inner-spin-button {
     font-size: 40px;
   }
   .font50 {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .quality .col-md-3 {
@@ -511,6 +511,10 @@ input::-webkit-inner-spin-button {
   }
 }
 @media (max-width: 480px) {
+
+  .bannergllobal h1{
+    font-size: 23px;;
+  }
 
   .font50 {
     font-size: 28px;
