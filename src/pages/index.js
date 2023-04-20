@@ -13,7 +13,7 @@ import Onestepsolutions from '../../components/Onestepsolutions'
 
 // import components
 
-import Banner from '../../components/Banner'
+import Homebanner from '../../components/Homebanner'
 import Partners from '../../components/Partners'
 import Whychoosebook from '../../components/Whychoosebook'
 import Gotastory from '../../components/Gotastory'
@@ -22,6 +22,7 @@ import Whatourclients from '../../components/Whatourclients'
 import Requestafreequote from '../../components/Requestafreequote'
 import Professionalghostwriter from '../../components/Professionalghostwriter'
 import Link from 'next/link'
+import Stopworrying from '../../components/Stopworrying'
 
 
 
@@ -34,11 +35,15 @@ export default function Home() {
   const exprtSpan = <span className='fw500 font50 color-white font-f t-center font-f mb-4'><span className='color-blue fw700'><Link className='color-blue hover textdocationnone' href="/">Book Writing Experts</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='color-blue hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Your ONE-STOP</span> <Link className='textdocationnone color-blue hover' href="/"> Ghostwriting, Editing And Publishing Service </Link>  <span className=''>Provider!</span> </h1>;
-  
+
+  const newPara = <p className='font16 color-white font-f mt-4 m-0'>We understand being an author is a challenging yet respectable profession, <br className='d-none d-md-block' /> but not everybody is lucky enough to become one.</p>
+
+  const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
+
   const bannertext = [
     {
       title: newSpan,
-      pra: 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.',
+      pra: newPara,
       discuss: 'LET S DISCUSS',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -52,7 +57,7 @@ export default function Home() {
     <>
       <Head>
         <title>Professional Book Writing Services Company</title>
-     
+
         <link rel="icon" href="/favicon.svg" />
 
 
@@ -62,7 +67,7 @@ export default function Home() {
         {/* banner components */}
 
         {bannertext.map((item, i) =>
-          <Banner key={i}
+          <Homebanner key={i}
             title={item.title}
             text={item.pra}
             discuss={item.discuss}
@@ -78,8 +83,7 @@ export default function Home() {
         <Partners />
 
         <Strugglingtogive
-
-          title="Are You Struggling to give Words to your Ideas?"
+          title=""
           text="You may be a victim of the following nuisances"
           list1="Slow Productivity"
           list2="Lack of Resources"
@@ -94,17 +98,6 @@ export default function Home() {
           btn3="(213) 289 3888"
         />
 
-        {/* Got a Story */}
-        <Gotastory />
-
-        {/*  Comprehensive */}
-        <Comprehensive />
-
-        {/* Lululogos components */}
-        <Lululogos />
-
-        <Strugglingwriters />
-
         {/* Talk To Our Experts! */}
         <Experts
           title={exprtSpan}
@@ -112,6 +105,22 @@ export default function Home() {
           number="+1-302-883-8877"
           discuss="LET'S DISCUSS"
         />
+
+        <Strugglingwriters />
+
+        <Stopworrying
+          title='Stop worrying about publishing books!'
+          subtitle={posdata}
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+
+
+        {/*  Comprehensive */}
+        <Comprehensive />
+
+        {/* Lululogos components */}
+        <Lululogos />
 
         {/* Why Choose Book Writing Cube? */}
         <Whychoosebook
@@ -125,11 +134,21 @@ export default function Home() {
 
         <Onestepsolutions />
 
+        {/* Talk To Our Experts! */}
+        <Experts
+          title={exprtSpan}
+          text="Hit us a message, or give us a call, and make the most of our Professional Ghostwriters."
+          number="+1-302-883-8877"
+          discuss="LET'S DISCUSS"
+        />
+
         {/* <Professionalghostwriter /> */}
 
         {/* Talk To Our Whatourclients! */}
         <Whatourclients />
 
+        {/* Got a Story */}
+        <Gotastory />
 
         {/* Talk To Our Requestafreequote! */}
         <Requestafreequote />

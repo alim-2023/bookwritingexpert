@@ -222,23 +222,23 @@ const Bookpublishingservices = () => {
 
       />
 
-<Stopworrying
+      <Stopworrying
         title='Stop worrying about publishing books!'
         subtitle={posdata}
         btn1='Get a free Proposal'
         btn2='Talk to an expert'
       />
 
-       {/* Makestories */}
-       <div className='dataset'>
-       <Makestoriesnew
-        title='Our Latest Book Publishing Projects'
-        para='Let Our Book Publishing Team Help You'
-      />
-  </div>
+      {/* Makestories */}
+      <div className='dataset'>
+        <Makestoriesnew
+          title='Our Latest Book Publishing Projects'
+          para='Let Our Book Publishing Team Help You'
+        />
+      </div>
 
 
-<Ourprocess
+      <Ourprocess
         title='What Is Our Book Publishing Process?'
         text='We have devised an elaborate workflow process to maximize transparency while also making sure that the final product`s quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we`re coming from and be aware of what`s going on. Our self publishing process follows these six stages, as listed below.'
         heading1='Manuscript Submission'
@@ -263,17 +263,17 @@ const Bookpublishingservices = () => {
       />
 
 
-<Stopworrying
+      <Stopworrying
         title2={dateset}
-        subtitle3= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
-        subtitle4= 'Trust the marketing professionals for it, do not risk it!'
+        subtitle3='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+        subtitle4='Trust the marketing professionals for it, do not risk it!'
         btn1='Get a free Proposal'
         btn2='Talk to an expert'
-      />      
+      />
 
-            {/* Aspiring */}
+      {/* Aspiring */}
 
-{/* <div className='dataset'>
+      {/* <div className='dataset'>
       <Aspiring
         title={dateset}
         text='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
@@ -285,14 +285,14 @@ const Bookpublishingservices = () => {
 </div> */}
 
 
-   {/* Bookpublishingservicesweoffer */}
-   <Bookpublishingservicesweoffer />
+      {/* Bookpublishingservicesweoffer */}
+      <Bookpublishingservicesweoffer />
 
-  {/* Lululogos components */}
-  <div className='dataset'>
-  <Lululogos />
-  </div>
-   <Container className={styles.publicservices}>
+      {/* Lululogos components */}
+      <div className='dataset'>
+        <Lululogos />
+      </div>
+      <Container className={styles.publicservices}>
         <Row>
           <Col>
             <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Amazon Publishing Services?</h2>
@@ -350,53 +350,53 @@ const Bookpublishingservices = () => {
       />
 
 
- {/* Customersatisfaction */}
- <Customersatisfaction />
+      {/* Customersatisfaction */}
+      <Customersatisfaction />
 
 
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 
-      
-
-
-
-
-
-    
-
-    
 
 
 
 
 
 
-     
-
-
-    
-   
-
-
-    
-
-
-  
 
 
 
 
- 
-
-
-
-   
 
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -404,16 +404,16 @@ const Bookpublishingservices = () => {
       {/* Aspiring */}
 
       <div className='datacloud'>
-      <Aspiring
-        title='Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
-        text='Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube.'
+        <Aspiring
+          title='Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
+          text='Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube.'
 
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
+          number="(213) 289 3888"
+          discuss="LET'S DISCUSS"
 
-      />
+        />
 
-</div>
+      </div>
 
 
 

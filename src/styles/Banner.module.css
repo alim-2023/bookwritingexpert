@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   padding-top: 100px;
+  text-align: left;
 }
 .aboutbanner {
   background-image: url(/images/bannerimages/aboutbanner.png);
@@ -331,7 +332,6 @@
   text-align: center;
 }
 
-
 .faqs {
   background-color: #141d29;
   padding-top: 140px;
@@ -412,11 +412,7 @@
   color: #f1f1f1;
 }
 
-
-@media (max-width: 1440px) { 
-
-
-
+@media (max-width: 1440px) {
 }
 
 @media (max-width: 1200px) {
@@ -614,20 +610,16 @@
     background-image: unset;
     background-color: #141d29;
   }
-
-
 }
 
 @media (max-width: 480px) {
-
   .bookpublishingservices h1 {
     max-width: 100%;
-}
+  }
 
   .homebannerlogo {
-    
     display: none;
-}
+  }
   .alignclass {
     width: 100%;
     margin: 0 auto;

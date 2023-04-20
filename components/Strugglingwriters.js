@@ -52,6 +52,40 @@ const Strugglingwriters = () => {
         ]
     };
 
+    var mockupslider2 = {
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        rtl: true,
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    infinite: true,
+
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+    };
+
     return (
         <div className={styles.strugglingwriters}>
             <Container>
@@ -65,7 +99,33 @@ const Strugglingwriters = () => {
 
                 <Row className={`${styles.aligncenter}`}>
                     <Col md={12}>
-                        <Slider {...mockupslider} className='mt-3 mockupslider'>
+                        <Slider {...mockupslider} className='mt-5 mockupslider'>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover1} className='img-fluid' />
+                            </div>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover2} className='img-fluid' />
+                            </div>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover3} className='img-fluid' />
+                            </div>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover4} className='img-fluid' />
+                            </div>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover5} className='img-fluid' />
+                            </div>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover6} className='img-fluid' />
+                            </div>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover7} className='img-fluid' />
+                            </div>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover8} className='img-fluid' />
+                            </div>
+                        </Slider>
+                        <Slider {...mockupslider2} className='mt-3 mockupslider'>
                             <div>
                                 <Image alt="Book Writing Experts" src={cover1} className='img-fluid' />
                             </div>
