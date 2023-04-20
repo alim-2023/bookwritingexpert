@@ -30,6 +30,23 @@
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.signup1{
+    background-color: #141d29;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    padding: 12px 40px 20px 40px;
+    border: 2px solid #fc9e31;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.concolor{
+    color: #e5e5e5;
+}
+.contacttextblack{
+    color: #223235;
+}
+.signup1 p{
+    color: white;
+}
 
 .textareanew{
     width: 100%;

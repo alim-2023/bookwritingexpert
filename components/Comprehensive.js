@@ -100,7 +100,7 @@ const Comprehensive = () => {
 
                     </Row>
 
-                    <Row className='gy-3'>
+                    <Row className='gy-5'>
                         {card.map((item, i) => {
                             return(
                                 <Col className={`${styles.post} col-md-3`}  key={i}>

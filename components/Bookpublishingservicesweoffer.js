@@ -19,7 +19,7 @@ const Bookpublishingservicesweoffer = () => {
                 pra: "This service is applicable for those looking to publish their creative pieces. We will be there to guide you through every step of the way! Our team of experts will provide you will necessary resources and assistance including marketing and distribution strategies so that you never have to feel overwhelmed by the burden of responsibility that comes with self publication. There will be zero intervention of any other party, you get to choose how you want your work to be published!"
 
             },
-           
+
             {
                 image: pubicon01,
                 title: 'Paperback Publication',
@@ -36,8 +36,8 @@ const Bookpublishingservicesweoffer = () => {
 
             },
 
-          
-               {
+
+            {
                 image: book,
                 title: "Other Self Publishing Services",
                 subTitle: "Other Self Publishing Services",
@@ -45,9 +45,9 @@ const Bookpublishingservicesweoffer = () => {
 
             },
 
-          
 
-           
+
+
         ]
     return (
         <>
@@ -67,10 +67,10 @@ const Bookpublishingservicesweoffer = () => {
 
                     <Row className='mt-4'>
                         {card.map((item, i) => {
-                            return(
-                                <Col className={`${styles.post} col-md-3`}  key={i}>
+                            return (
+                                <Col className={`${styles.post} col-md-3`} key={i}>
 
-                         
+
                                     <div className={styles.flipcard}>
                                         <div className={styles.flipcardinner}>
                                             <div className={`${styles.flipcardfront}  ${styles.flipcardfront1}`}>
@@ -84,13 +84,13 @@ const Bookpublishingservicesweoffer = () => {
                                             </div>
                                         </div>
                                     </div>
-                             
-                                  
-                            </Col>
+
+
+                                </Col>
                             )
                         })}
 
-                      
+
 
 
                     </Row>

@@ -222,46 +222,25 @@ const Bookpublishingservices = () => {
 
       />
 
-
-
-
-      <Stopworrying
+<Stopworrying
         title='Stop worrying about publishing books!'
         subtitle={posdata}
         btn1='Get a free Proposal'
         btn2='Talk to an expert'
       />
 
+       {/* Makestories */}
+       <div className='dataset'>
+       <Makestoriesnew
+        title='Our Latest Book Publishing Projects'
+        para='Let Our Book Publishing Team Help You'
+      />
+  </div>
 
 
-
-
-      <div className={`${styles.finetoothedbook} customizedbook`}>
-        <Container>
-          <Row >
-            <h2 className='color-lightgray   font25   t-center font-f mb-2'>Our Approach</h2>
-
-            <p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone fw700 color-blue hover' href='/book-publishing-services'>  Book Marketing</Link></p>
-
-          </Row>
-
-          <Row className='gy-5'>
-            {fine.map((item, i) =>
-              <Finetoothedbook key={i}
-                title={item.title}
-                text={item.text}
-                classtop={item.class}
-                img1={item.img}
-                btn={item.btn}
-              />
-            )}
-          </Row>
-        </Container>
-      </div>
-
-      <Ourprocess
-        title='Our Process'
-
+<Ourprocess
+        title='What Is Our Book Publishing Process?'
+        text='We have devised an elaborate workflow process to maximize transparency while also making sure that the final product`s quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we`re coming from and be aware of what`s going on. Our self publishing process follows these six stages, as listed below.'
         heading1='Manuscript Submission'
         para1='The writer contacts us for submission of their full-length manuscript, while submitting, we discuss our publishing rules and sign the contract.'
         num1='01'
@@ -283,9 +262,18 @@ const Bookpublishingservices = () => {
         num5='05'
       />
 
-      {/* Aspiring */}
 
-<div className='dataset'>
+<Stopworrying
+        title2={dateset}
+        subtitle3= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+        subtitle4= 'Trust the marketing professionals for it, do not risk it!'
+        btn1='Get a free Proposal'
+        btn2='Talk to an expert'
+      />      
+
+            {/* Aspiring */}
+
+{/* <div className='dataset'>
       <Aspiring
         title={dateset}
         text='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
@@ -294,54 +282,20 @@ const Bookpublishingservices = () => {
         discuss="LET'S DISCUSS"
         img={together}
       />
-</div>
-
-      {/* Talk To Our Whatourclients! */}
-      <Whatourclients />
+</div> */}
 
 
+   {/* Bookpublishingservicesweoffer */}
+   <Bookpublishingservicesweoffer />
 
-      {/* Makestories */}
-      <Makestoriesnew
-        title='Our Latest Book Publishing Projects'
-        para='Let Our Book Publishing Team Help You'
-      />
-
-
-
-      {/* Whybookpublishing */}
-      <div className={styles.whybookpublishing}>
-        <Container>
-
-          <Row>
-            <h2 className='font50 fw700 color-blue t-center mb-3'>Why Book Publishing?</h2>
-            <p className='font15 fw500 textcolor t-center pb-5'>
-              Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
-            </p>
-
-          </Row>
-
-          <Row>
-            {whybookpublishingdata.map((item, i) =>
-              <Whybookpublishing key={i}
-                title={item.title}
-                text={item.text}
-                col6={item.col6}
-              />
-            )}
-          </Row>
-        </Container>
-      </div>
-
-
-      {/* Lululogos components */}
-      <Lululogos />
-
-
-      <Container className={styles.publicservices}>
+  {/* Lululogos components */}
+  <div className='dataset'>
+  <Lululogos />
+  </div>
+   <Container className={styles.publicservices}>
         <Row>
           <Col>
-            <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Self Publishing Services?</h2>
+            <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Amazon Publishing Services?</h2>
           </Col>
         </Row>
       </Container>
@@ -396,24 +350,53 @@ const Bookpublishingservices = () => {
       />
 
 
+ {/* Customersatisfaction */}
+ <Customersatisfaction />
 
 
-      {/* Customersatisfaction */}
-      <Customersatisfaction />
+      {/* Talk To Our Whatourclients! */}
+      <Whatourclients />
 
-
-
-      {/* Bookpublishingservicesweoffer */}
-      <Bookpublishingservicesweoffer />
+      
 
 
 
 
-      <Whychoosebook
-        title="What Is Our Book Publishing Process?"
-        text="We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below."
-        whychoose={drivethebook1}
-      />
+
+    
+
+    
+
+
+
+
+
+
+     
+
+
+    
+   
+
+
+    
+
+
+  
+
+
+
+
+ 
+
+
+
+   
+
+
+
+
+    
 
 
 

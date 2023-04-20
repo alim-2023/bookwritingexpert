@@ -25,10 +25,11 @@
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
+    margin-top: 5%;
 }
 
 .clientData img{
-    width: 80px;
+  width: 125px;
 }
 
 .clientDataTxt{
@@ -45,6 +46,10 @@
 
 .canva {
   max-width: 800px;
+
+    line-height: 1.7;
+    max-width: 864px;
+    font-size: 23px;
 }
 
 .looking {
@@ -69,8 +74,8 @@
 .value {
   font-size: 50px;
   font-family: "Poppins";
-  font-weight: 500;
-  line-height: 1;
+  font-weight: 700;
+  line-height: 1.3;
   margin-bottom: 2%;
 }
 

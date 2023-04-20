@@ -5,15 +5,15 @@ import Image from 'next/image'
 
 import signup from '/public/images/signup/signup.webp'
 
-const Signup = () => {
+const Signup = (props) => {
   return (
-    <div className={styles.signup}>
+    <div className={styles[props.bannershome] }>
 
 
                     <form>
                       
                 
-                    <h4 className={styles.getup}> <span className={styles.offfree}> <span className='colortextgrey'>Contact</span> Form</span> </h4>
+                    <h4 className={styles.getup}> <span className={styles.offfree}> <span className={styles[props.contacttext] }>Contact</span> Form</span> </h4>
 
                     <p className='font-f t-center'>It was popularised in the 1960s with the release of Letraset sheets</p>
 

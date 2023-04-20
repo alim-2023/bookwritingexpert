@@ -391,11 +391,19 @@ body {
   padding-bottom: 100px;
 }
 
+.bannergllobal{
+  text-align: center;
+}
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.clintTesti .slick-prev, .slick-next {
+  top: 90%!important;
 }
 
 /* --------------------------- */

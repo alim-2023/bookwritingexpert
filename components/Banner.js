@@ -39,7 +39,7 @@ const Banner = (props) => {
     autoplay: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
       {
@@ -82,7 +82,7 @@ const Banner = (props) => {
 
         <Container>
           <Row>
-            <Col md={7} className={styles[props.alignclass]}>
+            <Col md={12} className={styles[props.alignclass]}>
 
               <div className={styles.homebannertext}>
 
@@ -163,16 +163,16 @@ const Banner = (props) => {
                 {props.homebanlogos ?
 
                   <div className="row">
-                    <div className="col-12 col-lg-9">
+                    <div className="col-12 col-lg-12">
 
                       <div className={styles.homebannerlogo}>
-                        <Image className={`${styles.homelogoimgnone} img-fluid`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
+                        <Image className={`${styles.homelogoimgnone} img-fluid mt-3`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
                       </div>
                     </div>
 
                     <div className="row">
-                      <div className="col-12 col-lg-8">
-                        <Slider {...bannerslider} className='mt-3 homeSlider'>
+                      <div className="col-12 col-lg-12">
+                        <Slider {...bannerslider} className='mt-5 homeSlider'>
                           {bannerlogo.map((item, i) => {
                             return (
                               <div key={i}>
