@@ -33,7 +33,7 @@ const Strugglingtogive = (props) => {
 
             </div>
 
-            <div className='mt-4'>
+            <div>
                 <a href="#footercontact"> <button className={styles.btnget1}> {props.btn1} </button></a>
                 <a href="#"><button className={styles.btnget2}> {props.btn2} </button></a>
                 <a href="tel:(213) 289 3888"><button className={styles.btnget2}> {props.btn3} </button></a>
