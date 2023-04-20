@@ -42,7 +42,10 @@ const Strugglingtogive = (props) => {
 
             <Col md={5}>
 
-<Signup />
+<Signup
+ bannershome='signup'
+ contacttext='contacttextblack'
+/>
 
         
                 
