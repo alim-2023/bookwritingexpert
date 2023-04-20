@@ -129,11 +129,6 @@ export default function Home() {
           whychoose={whychoose}
         />
 
-        {/* Lululogos components */}
-        <Lululogos />
-
-        <Onestepsolutions />
-
         {/* Talk To Our Experts! */}
         <Experts
           title={exprtSpan}
@@ -141,6 +136,16 @@ export default function Home() {
           number="+1-302-883-8877"
           discuss="LET'S DISCUSS"
         />
+
+        <Onestepsolutions />
+
+        <Stopworrying
+          title='Stop worrying about publishing books!'
+          subtitle={posdata}
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+
 
         {/* <Professionalghostwriter /> */}
 
