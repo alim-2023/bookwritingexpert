@@ -368,7 +368,7 @@ para='Let Our Book Editing Team Help You.'
 
   <Row>
     <h2 className='font50 fw700 color-blue t-center'>Why Do You Need Professional Book Editing Services?</h2>
-    <p className='font15 fw500 colortextgrey t-center pb-5 mt-3'>
+    <p className='font15  textcolor t-center pb-5 mt-3'>
     Editing is a meticulous process, one that requires severely dedicated efforts and time to accomplish. Finishing a novel is a job well done, so why not relax back and have someone take the load off.
     </p>
 

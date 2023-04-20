@@ -315,7 +315,7 @@ const Bookpublishingservices = () => {
 
           <Row>
             <h2 className='font50 fw700 color-blue t-center mb-3'>Why Book Publishing?</h2>
-            <p className='font15 fw500 colortextgrey t-center pb-5'>
+            <p className='font15 fw500 textcolor t-center pb-5'>
               Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!
             </p>
 

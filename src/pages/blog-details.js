@@ -62,65 +62,65 @@ const Blogdetails = () => {
                     <Image src={blogimage4} alt='book_writing_cube' priority  className='img-fluid' />
                 </div>
 
-                <p className='mt-3 fw500 font15 font-f'>The publishing landscape is more competitive than ever, so authors need to have knowledge about getting their books seen. Traditional methods like print-on-demand are becoming less effective as the digital marketplace evolves, creating a greater demand for modern strategies that get your book noticed in the growing pool of titles on <Link className='textdocationnone hover color-blue' href='#'>Kindle Direct Publishing</Link> (KDP) platforms.</p>
+                <p className='textcolor mt-3  font15 font-f'>The publishing landscape is more competitive than ever, so authors need to have knowledge about getting their books seen. Traditional methods like print-on-demand are becoming less effective as the digital marketplace evolves, creating a greater demand for modern strategies that get your book noticed in the growing pool of titles on <Link className='textdocationnone hover color-blue' href='#'>Kindle Direct Publishing</Link> (KDP) platforms.</p>
 
-                <p className='mt-3 fw500 font15 font-f'>If you're looking to rise above this competition, you have landed in the right place. This blog post explores the power of Amazon's targeted tools for book advertisement and strategies to increase visibility and elevate your eBooks into bestseller status.</p>
+                <p className='textcolor mt-3  font15 font-f'>If you're looking to rise above this competition, you have landed in the right place. This blog post explores the power of Amazon's targeted tools for book advertisement and strategies to increase visibility and elevate your eBooks into bestseller status.</p>
 
                          <h2 className='font30 fw700 colortextgrey font-f' id="1">Understanding the Importance of 
                            <Link className='textdocationnone colortextgrey hover' href="#"> KDP Advertising </Link>
                             for Your Book 
                         </h2>
 
-                        <p className='mt-3 fw500 font15 font-f'>When it comes to Amazon book marketing, KDP Advertising is an essential component of success. By creating a sponsored ads campaign, authors can promote their books on Amazon and various other channels to reach more readers and increase sales.</p>
+                        <p className='textcolor mt-3  font15 font-f'>When it comes to Amazon book marketing, KDP Advertising is an essential component of success. By creating a sponsored ads campaign, authors can promote their books on Amazon and various other channels to reach more readers and increase sales.</p>
 
-                        <p className='mt-3 fw500 font15 font-f'>KDP Advertising allows you to target potential customers based on their interests and demographics, which gives your book the best chance of reaching its desired audience. Furthermore, Amazon's powerful algorithms ensure that your book is shown to the right people at the right time, making it more likely for readers to purchase it.</p>
+                        <p className='textcolor mt-3  font15 font-f'>KDP Advertising allows you to target potential customers based on their interests and demographics, which gives your book the best chance of reaching its desired audience. Furthermore, Amazon's powerful algorithms ensure that your book is shown to the right people at the right time, making it more likely for readers to purchase it.</p>
 
-                        <p className='mt-3 fw500 font15 font-f'>These benefits help make KDP Advertising an invaluable tool for authors who want to maximize their Amazon book advertising success.</p>
+                        <p className='textcolor mt-3  font15 font-f'>These benefits help make KDP Advertising an invaluable tool for authors who want to maximize their Amazon book advertising success.</p>
 
                         <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Harnessing the Power of Amazon's Targeted Advertising Tools
                         </h2>
                         
-                        <p className='mt-3 fw500 font15 font-f'>
+                        <p className='textcolor mt-3  font15 font-f'>
                         Amazon is one of the largest and powerful online retail sites, with millions of customers searching for products daily. Amazon's targeted advertising tools are a great way to reach potential customers and boost sales for your Amazon book promotion.
                         </p>
-                        <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
+                        <p className='textcolor mt-3  font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
                         <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Maximizing Your Book's Visibility through KDP Select and Free Book Promotions
                         </h2>
                         
-                        <p className='mt-3 fw500 font15 font-f'>
+                        <p className='textcolor mt-3  font15 font-f'>
                         Amazon is one of the largest and powerful online retail sites, with millions of customers searching for products daily. Amazon's targeted advertising tools are a great way to reach potential customers and boost sales for your Amazon book promotion.
                         </p>
-                        <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
+                        <p className='textcolor mt-3  font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
                         <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Measuring and Optimizing Your Book's KDP Promotion Results for Continued Success
                         </h2>
                         
-                        <p className='mt-3 fw500 font15 font-f'>
+                        <p className='textcolor mt-3  font15 font-f'>
                         Amazon is one of the largest and powerful online retail sites, with millions of customers searching for products daily. Amazon's targeted advertising tools are a great way to reach potential customers and boost sales for your Amazon book promotion.
                         </p>
-                        <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
+                        <p className='textcolor mt-3  font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
                         <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Offer Excerpts
                         </h2>
                         
-                        <p className='mt-3 fw500 font15 font-f'>
+                        <p className='textcolor mt-3  font15 font-f'>
                         Amazon is one of the largest and powerful online retail sites, with millions of customers searching for products daily. Amazon's targeted advertising tools are a great way to reach potential customers and boost sales for your Amazon book promotion.
                         </p>
-                        <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
+                        <p className='textcolor mt-3  font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
                         <h2 className='font30 fw700 colortextgrey font-f' id="2">
                         Participate In Online Forums
                         </h2>
                         
-                        <p className='mt-3 fw500 font15 font-f'>
+                        <p className='textcolor mt-3  font15 font-f'>
                         Amazon is one of the largest and powerful online retail sites, with millions of customers searching for products daily. Amazon's targeted advertising tools are a great way to reach potential customers and boost sales for your Amazon book promotion.
                         </p>
-                        <p className='mt-3 fw500 font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
+                        <p className='textcolor mt-3  font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
 
             </Col>

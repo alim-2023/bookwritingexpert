@@ -364,7 +364,7 @@ para='Become a renowned author with the help of our ghostwriters!'
 
   <Row>
     <h2 className='font50 fw700 color-blue t-center'>When Should You Hire Ghost Writing Services?</h2>
-    <p className='font15 fw500 colortextgrey t-center pb-5 mt-3'>
+    <p className='font15 textcolor  t-center pb-5 mt-3'>
     The right time to hire a ghostwriter is when you want to pen down your story. In fact, when the will is there but intangible realities like time don’t favor you—that’s when a ghostwriter comes into play!
     </p>
 
@@ -392,7 +392,7 @@ para='Become a renowned author with the help of our ghostwriters!'
 <div className={styles.stillbookwritingservices}>
 <Container >
 <Row >
-<h2 className='font48 fw900 color-white t-center font-f mb-5'>Why choose our ghostwriting services?</h2>  
+<h2 className='font50 fw700 color-white t-center font-f mb-5'>Why choose our ghostwriting services?</h2>  
 </Row>  
 
 <Row className='gy-5'>

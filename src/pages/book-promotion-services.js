@@ -326,7 +326,7 @@ para='Here`s a list of the projects we nailed with our marketing expertise.'
 
   <Row>
     <h2 className='font50 fw700 color-blue t-center'>Untangle The Complexity Of Your Manuscript Selling With Our Book Marketing Services!</h2>
-    <p className='font15 fw500 colortextgrey t-center pb-5 mt-3'>
+    <p className='font15  textcolor t-center pb-5 mt-3'>
     Book Writing Cube is a creative studio that offers book promotion services to help authors and business personas get their work noticed by potential readers. We offer various services to suit your needs, including book trailer creation, social media marketing, and more. We're here to help you get your work out there and seen by as many people as possible. Here are a few FAQs that our professional book marketers curated to add information to your knowledge bag.
                     </p>
 

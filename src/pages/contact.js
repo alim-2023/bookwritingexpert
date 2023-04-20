@@ -96,7 +96,7 @@ const Contact = () => {
             <div className={styles.contactbg}>
 
                 <Container>
-                    <Row>
+                    <Row className='gy-4'>
                         <Col md={5}>
 
 
@@ -124,36 +124,19 @@ const Contact = () => {
                             </p>
 
                         </Col>
-                        <Col md={3}>
-
-
-                            <iframe width='100%' height='252' id='gmap_canvas' src='https://maps.google.com/maps?q=12365%20SW%20Pioneer%20Ln%20Suite%20106,%20Beaverton,%20OR%2097008,%20United%20States&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed'></iframe>
-
-
-
-                            <h2 className='color-white fw500 font30 font-f mt-4 t-center'>
-                                Beaverton
-                            </h2>
-                            <h4 className='font-f fw400 font20 color-white t-center' >(Headquarters)</h4>
-                            <p className='font-f fw300 mt-3 color-white t-center' >
-                                Head Office: 12365 SW Pioneer Ln Suite 106, Beaverton, OR 97008, United States
-                            </p>
-
-
-                        </Col>
+                    
                         <Col md={1}></Col>
-                        <Col md={3}>
+                        <Col md={6}>
 
-                            <iframe width='100%' height='252' id='gmap_canvas' src='https://maps.google.com/maps?q=651%20N%20Broad%20St,%20Suite%20206%20Middletown,%20DE%2019709&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed'></iframe>
+                            {/* <iframe width='100%' height='252' id='gmap_canvas' src='https://maps.google.com/maps?q=651%20N%20Broad%20St,%20Suite%20206%20Middletown,%20DE%2019709&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed'></iframe> */}
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.6200791070223!2d-118.25944002448333!3d34.053615473156526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b26b2805e7%3A0x631167a0f496a896!2sUnion%20Bank%20Plaza%2C%20445%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090071%2C%20USA!5e0!3m2!1sen!2s!4v1681986458438!5m2!1sen!2s" width='100%' height='252' ></iframe>
 
 
-                            <h2 className='color-white fw500 font30 font-f mt-4 t-center'>
-                                Middletown
-
-                            </h2>
-                            <h4 className='font-f fw400 font20 color-white t-center' >(Operations)</h4>
+                        
+                            <h4 className='font-f fw400 font20 color-white t-center mt-3' >(Operations)</h4>
                             <p className='font-f fw300 mt-3 color-white t-center' >
-                                651 N Broad St, Suite 206 Middletown, DE 19709
+                            445 S.Figueroa Street, Los Angeles, CA 90071
                             </p>
 
 
@@ -345,7 +328,7 @@ const Contact = () => {
                                 </Row>
 
                                 <Col className='mt-3 mb-5'>
-                                    <em>
+                                    <em className='textcolor'>
                                         You may find our confidentiality policy <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}>here</strong></Link> , or request a signed NDA by email: <Link className='textdocationnone colortextgrey' href="mailto:support@bookwritingexperts.com"> <strong className={styles.numpost}>support@bookwritingexperts.com</strong></Link> This site is protected by reCAPTCHA and the Google
                                         <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}> Privacy Policy</strong></Link>  and Terms of Service <Link className='textdocationnone colortextgrey' href="/terms-of-use"> <strong className={styles.numpost}>Terms of Service</strong> </Link> apply.
                                     </em>
@@ -371,7 +354,7 @@ const Contact = () => {
 
                             <h2 className='color-blue font50 fw700 font-f'> We Provide Everything You Need to
                                 Achieve Your Publishing Goals.</h2>
-                            <p className='font15 fw500 font-f colortextgrey' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:213-289-3888' className='textdocationnone colortextgrey' > Call now:
+                            <p className='font15  font-f colortextgrey' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:213-289-3888' className='textdocationnone colortextgrey' > Call now:
                                 (213) 289 3888 </Link></span> </p>
 
                         </Col>

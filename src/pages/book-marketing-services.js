@@ -285,7 +285,7 @@ const Bookpublishingservices = () => {
 
           <Row>
             <h2 className='font50 fw700 color-blue t-center'>Why Book Marketing?</h2>
-            <p className='font15 fw500 colortextgrey t-center pb-5 mt-3'>
+            <p className='font15  textcolor t-center pb-5 mt-3'>
               It is a toolset tailored to your requirements and approaches. Adjusting it to your budget, fine-tuning it to fit your audience preferences, and preparing it for maximized exposure. Unlike other book marketing companies, we capitalize on commercialization, ensuring the highest book sales & profits.
             </p>
 

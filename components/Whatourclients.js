@@ -80,7 +80,7 @@ const Whatourclients = () => {
               <h3 className='font18 fw700 color-blue mb-4'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
 
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
-              <p className={` ${styles.canva} font15 fw100 font-f`}>
+              <p className={` ${styles.canva} font15 fw100 font-f textcolor`}>
 
                 Since I was short on money and couldn’t afford an expensive proofreader for the book, I was legit quite worried because having a second opinion is always better? My friend recommended Book Writing Experts’ affordable proofreading services, and wow! They were very accommodating and got my work done in 3 days only. So happy!
 
@@ -104,7 +104,7 @@ const Whatourclients = () => {
               <div className={styles.whatclientlogo}>    </div>
               <h3 className='font18 fw700 color-blue mb-4'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
-              <p className={` ${styles.canva} font15 fw100 font-f`}>This was my first book to be 	My sister was struggling with her book sales; I recommended Book Writing Experts book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time.
+              <p className={` ${styles.canva} font15 fw100 font-f textcolor`}>This was my first book to be 	My sister was struggling with her book sales; I recommended Book Writing Experts book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time.
               </p>
 
               <div className={styles.clientData}>
@@ -125,7 +125,7 @@ const Whatourclients = () => {
               <div className={styles.whatclientlogo}>    </div>
               <h3 className='font18 fw700 color-blue mb-4'>GRATITUDE FROM GLOBAL FOLLOWERS </h3>
               <h2 className={styles.value}>Rave Reviews from Our <br></br> Valued Clients</h2>
-              <p className={` ${styles.canva} font15 fw100 font-f`}>I worked with Sam Jordan for a few months preparing my first book. Sam was very helpful and courteous. We connected on the phone several times a week. I am not the most patient person, but I found Sam to be capable and professional. He helped me overcome any fears I had about the process. I had some difficulty understanding the formatting process for chapters and their titles. Sam walked me through it with very few problems. I now think of Sam as a friend. I have already written several chapters for a new book, and when it’s ready, Sam will be the one I look for to help me.</p>
+              <p className={` ${styles.canva} font15 fw100 font-f textcolor`}>I worked with Sam Jordan for a few months preparing my first book. Sam was very helpful and courteous. We connected on the phone several times a week. I am not the most patient person, but I found Sam to be capable and professional. He helped me overcome any fears I had about the process. I had some difficulty understanding the formatting process for chapters and their titles. Sam walked me through it with very few problems. I now think of Sam as a friend. I have already written several chapters for a new book, and when it’s ready, Sam will be the one I look for to help me.</p>
 
               <div className={styles.clientData}>
                 <div>

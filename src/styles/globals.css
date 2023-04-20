@@ -183,7 +183,7 @@ body {
 .textbody.accordion-body {
   font-size: 1rem;
   font-family: "Poppins";
-  color: #223235;
+  color: #777;
 }
 
 .team.accordion-item:first-of-type {

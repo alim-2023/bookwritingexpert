@@ -12,7 +12,7 @@ const Strugglingtogive = (props) => {
     <div className={styles.strugglingtogive}>
 
     <Container>
-        <Row className={styles.forent}> 
+        <Row className={` ${styles.forent} gy-4`}> 
             <Col md={7}>
             <h2 className='color-blue font50 fw700 font-f mb-4'>{props.title}</h2>
             <p className='textcolor font-f mb-4 font15'>You may be a victim of the following nuisances</p>

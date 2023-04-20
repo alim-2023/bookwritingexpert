@@ -17,7 +17,7 @@ const Stillonthefence = (props) => {
 <Col md={6}>
    <div className={styles[props.classnumber]}>
         <h5 className="font20 fw700 colortextgrey font-f">{props.title}</h5>
-        <p className={` ${styles.stilltext} colortextgrey font15 fw500 font-f`}>{props.text}</p>
+        <p className={` ${styles.stilltext} textcolor font15  font-f`}>{props.text}</p>
       
    </div>
 </Col>
@@ -27,8 +27,8 @@ const Stillonthefence = (props) => {
 
 <Col md={4}>
    <div  className={styles[props.classnumber]}>
-        <h5 className="font30 fw700 color-white font-f t-center">{props.title}</h5>
-        <p className={` ${styles.stilltext} color-white font15 fw500 font-f t-center`}>{props.text}</p>
+        <h5 className="font30 fw500 color-white font-f t-center">{props.title}</h5>
+        <p className={` ${styles.stilltext} color-white font15 fw100 font-f t-center`}>{props.text}</p>
       
    </div>
 </Col>

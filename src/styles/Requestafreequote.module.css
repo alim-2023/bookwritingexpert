@@ -47,6 +47,10 @@
 }
 @media (max-width:991px)  { 
 
+    .emailhref {
+        font-size: 11px;
+    }
+
     .bookemail{
         font-size: 14px;
     }

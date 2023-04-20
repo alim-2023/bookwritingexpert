@@ -82,7 +82,7 @@ const Makestoriesnew = (props) => {
       
       <Container>
         <h2 className="fw700 font50 color-blue font-f t-center">{props.title} </h2>
-        <h2 className="font18 fw500 font-f t-center mt-3 mb-5"> {props.para}</h2>
+        <h2 className="font18  font-f t-center mt-3 mb-5 textcolor"> {props.para}</h2>
 
         <Slider {...makestories}>
                      

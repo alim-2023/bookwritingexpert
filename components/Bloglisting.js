@@ -60,7 +60,7 @@ const Bloglisting = () => {
             <Image src={item.image} className='img-fluid' priority alt="book_writing_cube"></Image>
             <div className={styles.cardbodylist}>
                 <Link className='textdocationnone' href="#">
-                <h5 className='fw700 font22 colorexpertgrey font-f'> {item.title} </h5> </Link>
+                <h5 className='fw500 font22 colorexpertgrey font-f'> {item.title} </h5> </Link>
                 <Link className={styles.blogbtn} href="/blog-details">{item.read}</Link>
              </div>
                 </div>
