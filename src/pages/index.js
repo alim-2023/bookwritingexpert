@@ -95,7 +95,7 @@ export default function Home() {
         />
 
         {/* Got a Story */}
-        <Gotastory />
+        {/* <Gotastory /> */}
 
         {/*  Comprehensive */}
         <Comprehensive />
