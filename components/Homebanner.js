@@ -39,7 +39,7 @@ const Homebanner = (props) => {
         autoplay: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
             {
@@ -82,7 +82,7 @@ const Homebanner = (props) => {
 
                 <Container>
                     <Row>
-                        <Col md={7} className={styles[props.alignclass]}>
+                        <Col md={6} className={styles[props.alignclass]}>
 
                             <div className={styles.homebannertext}>
 
@@ -93,7 +93,8 @@ const Homebanner = (props) => {
                                 }
 
                                 {props.text ?
-                                    props.text
+
+                                    <p className={`${styles.newPara}  font16 color-white font-f mt-4 m-0`}>{props.text}</p>
                                     :
                                     ''
                                 }

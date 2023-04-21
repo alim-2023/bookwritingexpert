@@ -23,6 +23,7 @@ import Requestafreequote from '../../components/Requestafreequote'
 import Professionalghostwriter from '../../components/Professionalghostwriter'
 import Link from 'next/link'
 import Stopworrying from '../../components/Stopworrying'
+import Customersatisfaction from '../../components/Customersatisfaction'
 
 
 
@@ -36,14 +37,12 @@ export default function Home() {
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Your ONE-STOP</span> <Link className='textdocationnone color-blue hover' href="/"> Ghostwriting, Editing And Publishing Service </Link>  <span className=''>Provider!</span> </h1>;
 
-  const newPara = <p className='font16 color-white font-f mt-4 m-0'>We understand being an author is a challenging yet respectable profession, <br className='d-none d-md-block' /> but not everybody is lucky enough to become one.</p>
-
   const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
 
   const bannertext = [
     {
       title: newSpan,
-      pra: newPara,
+      pra: 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.',
       discuss: 'LET S DISCUSS',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -119,8 +118,8 @@ export default function Home() {
         {/*  Comprehensive */}
         <Comprehensive />
 
-        {/* Lululogos components */}
-        <Lululogos />
+        {/* Customersatisfaction */}
+        <Customersatisfaction />
 
         {/* Why Choose Book Writing Cube? */}
         <Whychoosebook
