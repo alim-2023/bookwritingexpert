@@ -14,6 +14,11 @@ import mission3 from '/public/images/mission/3.png'
 import drivethebook1 from '/public/images/whychoosebooks/bookeditingprocess.png'
 
 import together from '/public/images/together/together.png'
+import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
+import copy from '/public/images/selfpublishingservices/copy.png'
+import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
+import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
+//---------
 import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.jpg'
 import copy from '/public/images/selfpublishingservices/copy.jpg'
 import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
