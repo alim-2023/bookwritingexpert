@@ -18,11 +18,6 @@ import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.png'
 import copy from '/public/images/selfpublishingservices/copy.png'
 import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
 import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-//---------
-import typeofbooks from '/public/images/selfpublishingservices/typeofbooks.jpg'
-import copy from '/public/images/selfpublishingservices/copy.jpg'
-import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.jpg'
 // import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
 // import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
 
