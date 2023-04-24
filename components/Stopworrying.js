@@ -41,7 +41,13 @@ const Stopworrying = (props) => {
             }
 
 
+            <p className='font15 color-white fw100 font-f t-center'>{props.text}</p>
+            {props.subtext ?
 
+              <p className='font15 color-white fw100 font-f t-center'>{props.subtext}</p>
+              :
+              ''
+            }
 
 
             <h2 className='font50 color-white fw300 font-f t-center mt-4'>{props.subtitle}</h2>

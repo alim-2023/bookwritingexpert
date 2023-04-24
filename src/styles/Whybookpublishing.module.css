@@ -13,6 +13,11 @@
     background-color: #f8f8f8;
 }
 
+.servicetitle{
+    background-color: #f8f8f8;
+    padding-top: 100px;
+}
+
 .posttitle:before {
     position: absolute;
     content: '';
@@ -44,8 +49,7 @@
 }
 
 .stillbookwritingservices{
-
-    background-color: #16467d;
+    background-color: #141d29;
     padding-top: 100px;
     padding-bottom: 100px;
     counter-reset: section;

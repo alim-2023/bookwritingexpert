@@ -164,7 +164,8 @@ body {
 .still {
   counter-reset: section;
   position: relative;
-  padding-top: 100px;
+  padding: 100px 0;
+  background-color: #141d29;
 }
 .still h2 {
   padding-bottom: 40px;
@@ -368,7 +369,12 @@ body {
   left: -50px;
 }
 
-
+.dataSetCo{
+  margin-top: 100px;
+}
+.datacloudco{
+  padding-bottom: 100px;
+}
 .dataset{
   padding-top: 100px;
 }

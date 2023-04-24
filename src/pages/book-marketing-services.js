@@ -258,29 +258,51 @@ const Bookpublishingservices = () => {
       </div>
 
 
-      {/* Aspiring */}
-      <div className='dataset'>
-      <Aspiring
-        title={dateset}
-        text='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
-        subtext='Trust the marketing professionals for it, do not risk it!'
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
-        img={together}
+
+      <Ourprocess
+        title='What Is Our Book Marketing Process?'
+        text="The best book marketing services come with an elaborate process of guaranteeing transparency and communication. We do this through an extensive process of updating our customers at every project stage. This helps the customer understand where we're coming from and be aware of what's going on."
+        heading1='Research'
+        para1='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque ipsum, accumsan ac aliquet ut, sollicitudin maximus dolor.'
+        num1='01'
+
+        heading2='Target Audience'
+        para2='Sed est ligula, suscipit ac lectus in, semper bibendum diam. Nunc interdum velit in turpis sagittis pulvinar.'
+        num2='02'
+
+        heading3='Social Media Marketing & Other Media Channels'
+        para3='Vestibulum tristique in dui in blandit. Nam commodo purus eget orci pharetra, a lorem facilisis.'
+        num3='03'
+
+        heading4='Marketing Plan & Design'
+        para4='Aenean fringilla accumsan est, quis vestibulum purus imperdiet at. Vestibulum ac pretium risus. Fusce of to tristique massa a fringilla aliquet. Nullam facilisis vel finibus lorem sodales.'
+        num4='04'
+
+        heading5='Google, Search Engine & Deployment Of Marketing Plan'
+        para5='Donec gravida sollicitudin nisl pellentesque vulputate. Nam egestas, urna vel fringilla euismod, sapien quam posuere felis.'
+        num5='05'
       />
-</div>
 
 
-      {/* Talk To Our Whatourclients! */}
-      <Whatourclients />
+      {/* Stopworrying */}
+      <div className='dataSetCo'>
+        <Stopworrying
+          title2={dateset}
+          text='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+          subtext='Trust the marketing professionals for it, do not risk it!'
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
 
 
-      <Bookmarketingprojects />
+
+      {/* <Bookmarketingprojects /> */}
 
 
 
       {/* Whybookpublishing */}
-      <div className={styles.whybookpublishing}>
+      {/* <div className={styles.whybookpublishing}>
         <Container>
 
           <Row>
@@ -301,24 +323,19 @@ const Bookpublishingservices = () => {
             )}
           </Row>
         </Container>
-      </div>
+      </div> */}
 
 
 
-      {/* Lululogos components */}
-      <Lululogos />
-
-
-
-
-
-      <Container className='servicetitle'>
-        <Row>
-          <Col>
-            <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Book Marketing Services?</h2>
-          </Col>
-        </Row>
-      </Container>
+      <section className={styles.servicetitle}>
+        <Container>
+          <Row>
+            <Col>
+              <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Book Marketing Services?</h2>
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
       {/* Selfpublishing */}
       <Selfpublishing
@@ -369,27 +386,24 @@ const Bookpublishingservices = () => {
       />
 
 
+      {/* Talk To Our Whatourclients! */}
+      <Whatourclients />
 
 
-
-      <Whychoosebook
-        title="What Is Our Book Marketing Process?"
-        text="The best book marketing services come with an elaborate process of guaranteeing transparency and communication. We do this through an extensive process of updating our customers at every project stage. This helps the customer understand where we're coming from and be aware of what's going on."
-        whychoose={bookmarketingprocess}
-      />
-
+      {/* Lululogos components */}
+      <Lululogos />
 
 
       {/* Aspiring */}
       <div className='datacloud'>
-      <Aspiring
-        title='Ready To Make It Big With Our Book Marketing Services?'
-        text="You are the ambassador of your own book—but that doesn’t mean it is a singly endeavor. It is an ever-changing, seriously challenging, and quite honestly, commercially competitive industry. The right book marketing plan, calculated milestones, and extended exposure—the all’s and must-haves of making your work a chart-topper! Let’s collaborate!"
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
-      />
+        <Aspiring
+          title='Ready To Make It Big With Our Book Marketing Services?'
+          text="You are the ambassador of your own book—but that doesn’t mean it is a singly endeavor. It is an ever-changing, seriously challenging, and quite honestly, commercially competitive industry. The right book marketing plan, calculated milestones, and extended exposure—the all’s and must-haves of making your work a chart-topper! Let’s collaborate!"
+          number="(213) 289 3888"
+          discuss="LET'S DISCUSS"
+        />
 
-</div>
+      </div>
 
 
 
