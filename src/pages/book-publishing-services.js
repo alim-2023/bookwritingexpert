@@ -288,7 +288,15 @@ const Bookpublishingservices = () => {
 
 
 
-
+      <section className={styles.publicservices}>
+        <Container>
+          <Row>
+            <Col>
+              <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Amazon Publishing Services?</h2>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       {/* Selfpublishing */}
       <Selfpublishing
         title='How Do "I Publish My Book?"'
@@ -346,15 +354,6 @@ const Bookpublishingservices = () => {
       <div>
         <Lululogos />
       </div>
-      <Container className={styles.publicservices}>
-        <Row>
-          <Col>
-            <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Amazon Publishing Services?</h2>
-          </Col>
-        </Row>
-      </Container>
-
-
 
 
       {/* Aspiring */}
