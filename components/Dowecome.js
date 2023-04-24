@@ -24,7 +24,7 @@ const Dowecome = (props) => {
                   ''
                 }
 
-                <p className='font15 fw400 font-f textcolor'>{props.text}</p>
+                <p className='font15 fw400 font-f textcolor pe-lg-5 pe-0'>{props.text}</p>
 
                 {props.subtext ?
 

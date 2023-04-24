@@ -84,7 +84,7 @@ const Banner = (props) => {
           <Row>
             <Col md={12} className={styles[props.alignclass]}>
 
-              <div className={styles.homebannertext}>
+              <div className={`${styles.homebannertext} ${styles.otherBanner}`}>
 
                 {props.title ?
                   props.title
