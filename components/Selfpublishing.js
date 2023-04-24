@@ -15,10 +15,7 @@ const Selfpublishing = (props) => {
                 <Container>
                     <Row className={`${styles.middle} gy-4`}>
 
-
-
-
-                        <Col md={6}>
+                        <Col md={7}>
 
                             <div className={styles.cube}>
 
@@ -43,7 +40,7 @@ const Selfpublishing = (props) => {
 
                         </Col>
 
-                        <Col md={6}>
+                        <Col md={4}>
 
                             <div className={styles.image}>
                                 <Image src={props.image} className={`${styles.imgshowdow} img-fluid`} alt='book_writing_cube'></Image>

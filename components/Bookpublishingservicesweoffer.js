@@ -57,9 +57,9 @@ const Bookpublishingservicesweoffer = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <h2 className="fw700 font50 color-blue font-f t-center mb-3">Book Publishing Services That We Have To Offer</h2>
+                            <h2 className="fw700 font50 text-white font-f t-center mb-3">Book Publishing Services That We Have To Offer</h2>
 
-                            <p className="font15  font-f t-center textcolor mb-3">We offer a wide range of self publishing services. There are several options you can choose from and get a final product in your required time frame at very affordable prices! We have packages designed to cater to every budget, so your literary vision can turn into a reality!</p>
+                            <p className="font15 text-white font-f t-center textcolor mb-3">We offer a wide range of self publishing services. There are several options you can choose from and get a final product in your required time frame at very affordable prices! We have packages designed to cater to every budget, so your literary vision can turn into a reality!</p>
 
                         </Col>
 
@@ -78,8 +78,8 @@ const Bookpublishingservicesweoffer = () => {
                                                 <h3>{item.subTitle}</h3>
                                             </div>
                                             <div className={styles.flipcardback}>
-                                                <h3>{item.title}</h3>
-                                                <p>{item.pra}</p>
+                                                <h3 className='text-white'>{item.title}</h3>
+                                                <p className='text-white'>{item.pra}</p>
 
                                             </div>
                                         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container,Row,Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Whychoosebookwritingcube.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,55 +8,55 @@ import Link from 'next/link'
 
 
 const Whychoosebookwritingcube = (props) => {
-  return (
-    <>
-    
-    <div className={styles[props.whychooseclass]}>
-    <Container>
-            <Row className={`${styles.middle} gy-4`}>
+    return (
+        <>
 
-                <Col md={6}>
+            <div className={styles[props.whychooseclass]}>
+                <Container>
+                    <Row className={`${styles.middle} gy-4`}>
 
-                    <div className={styles.image}>
-                        <Image src={props.image} className={`${styles.imgshowdow} img-fluid`} alt='book_writing_cube'></Image>
-                    </div>
-                               
-                </Col>    
+                        <Col md={4}>
 
+                            <div className={styles.image}>
+                                <Image src={props.image} className={`${styles.imgshowdow} img-fluid`} alt='book_writing_cube'></Image>
+                            </div>
 
-                <Col md={6}>
-
-<div className={styles.cube}>
-               
-                    <h3 className="fw700 font50 color-blue font-f mb-2">{props.title}</h3>
-                     <p className='font15 textcolor font-f'>{props.text}</p>
-                        { props.subtext ?
-
-                            <p  className='font15 textcolor font-f'>{props.subtext}</p>
-                            :
-                                ''
-                        }
+                        </Col>
 
 
-                    <div className='mt-4'>
-                        <Link className={styles.asdiscuss} href="#">{props.discuss}</Link>
-                        <Link className={styles.asnumber} href="tel:+1-302-883-8877"> {props.number}</Link>
-                        
-                    </div>
+                        <Col md={7}>
 
-                    </div>
+                            <div className={styles.cube}>
 
-                    
-                </Col>    
-            </Row>
-        </Container>
+                                <h3 className="fw700 font50 color-blue font-f mb-2">{props.title}</h3>
+                                <p className='font15 textcolor font-f'>{props.text}</p>
+                                {props.subtext ?
+
+                                    <p className='font15 textcolor font-f'>{props.subtext}</p>
+                                    :
+                                    ''
+                                }
+
+
+                                <div className='mt-4'>
+                                    <Link className={styles.asdiscuss} href="#">{props.discuss}</Link>
+                                    <Link className={styles.asnumber} href="tel:+1-302-883-8877"> {props.number}</Link>
+
+                                </div>
+
+                            </div>
+
+
+                        </Col>
+                    </Row>
+                </Container>
 
 
 
-    </div>
-    
-    </>
-  )
+            </div>
+
+        </>
+    )
 }
 
 export default Whychoosebookwritingcube

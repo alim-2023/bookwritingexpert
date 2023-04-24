@@ -222,12 +222,12 @@ const Bookpublishingservices = () => {
 
       />
 
-      <Stopworrying
+      {/* <Stopworrying
         title='Stop worrying about publishing books!'
         subtitle={posdata}
         btn1='Get a free Proposal'
         btn2='Talk to an expert'
-      />
+      /> */}
 
       {/* Makestories */}
       <div className='dataset'>
@@ -237,6 +237,8 @@ const Bookpublishingservices = () => {
         />
       </div>
 
+      {/* Bookpublishingservicesweoffer */}
+      <Bookpublishingservicesweoffer />
 
       <Ourprocess
         title='What Is Our Book Publishing Process?'
@@ -283,23 +285,6 @@ const Bookpublishingservices = () => {
         img={together}
       />
 </div> */}
-
-
-      {/* Bookpublishingservicesweoffer */}
-      <Bookpublishingservicesweoffer />
-
-      {/* Lululogos components */}
-      <div className='dataset'>
-        <Lululogos />
-      </div>
-      <Container className={styles.publicservices}>
-        <Row>
-          <Col>
-            <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Amazon Publishing Services?</h2>
-          </Col>
-        </Row>
-      </Container>
-
 
 
 
@@ -357,46 +342,17 @@ const Bookpublishingservices = () => {
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      {/* Lululogos components */}
+      <div>
+        <Lululogos />
+      </div>
+      <Container className={styles.publicservices}>
+        <Row>
+          <Col>
+            <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Amazon Publishing Services?</h2>
+          </Col>
+        </Row>
+      </Container>
 
 
 

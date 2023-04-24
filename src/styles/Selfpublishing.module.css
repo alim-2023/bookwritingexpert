@@ -1,80 +1,78 @@
-.whychoosebookwritingcube{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.whychoosebookwritingcube {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.whychoosebookwritingcube .middle{
-    align-items: center;
+.whychoosebookwritingcube .middle {
+  align-items: center;
 }
-.marketyourbook .middle{
-    align-items: center;
+.marketyourbook .middle {
+  align-items: center;
 }
-.marketyourbook{
-    padding-top: 70px;
+.middle {
+  justify-content: space-between;
 }
-.asnumber:hover{
-    background-color: #223235;
+.marketyourbook {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f8f8f8;
 }
-.asdiscuss:hover{
- 
-    background-color: #FF9900;
-    color: #fff;
+.asnumber:hover {
+  background-color: #223235;
 }
-.asnumber{
-    border: 0;
-    padding: 12px 30px;
-    border-radius: 0;
-    background-color: #FF9900;
-    color: #fff;
-    text-decoration: unset;
-    margin-left: 10px;
-    border: 1px solid #FF9900;
-    border-radius: 50px;
-    font-family: 'Poppins';
+.asdiscuss:hover {
+  background-color: #ff9900;
+  color: #fff;
 }
-.asnumber:hover{
-    color:white;
+.asnumber {
+  border: 0;
+  padding: 12px 30px;
+  border-radius: 0;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: unset;
+  margin-left: 10px;
+  border: 1px solid #ff9900;
+  border-radius: 50px;
+  font-family: "Poppins";
 }
-.asdiscuss{
-    font-size: 15px;
-    font-weight: 500;
-    padding: 12px 18px;
-    border: 2px solid #FF9900;
-    color: #223235;
-    text-decoration: unset;
-    font-family: 'Poppins';
-    border-radius: 50px;
+.asnumber:hover {
+  color: white;
 }
-.imgshowdow{
-    box-shadow: 0 0 21px 3px #ddd;
+.asdiscuss {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 18px;
+  border: 2px solid #ff9900;
+  color: #223235;
+  text-decoration: unset;
+  font-family: "Poppins";
+  border-radius: 50px;
 }
-@media (max-width:991px)  {
+.imgshowdow {
+  box-shadow: 0 0 21px 3px #ddd;
+}
+@media (max-width: 991px) {
+  .asnumber {
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 3%;
+  }
+  .asdiscuss {
+    display: block;
+    text-align: center;
+  }
+}
 
-   
-    .asnumber {
-        display: block;
-        text-align: center;
-        margin-left: 0px;
-        margin-top: 3%;
-    }
-    .asdiscuss {
-        display: block;
-        text-align: center;
-    }
+@media (max-width: 767px) {
+  .middle {
+    flex-direction: column-reverse;
+  }
 
-}
-
-@media (max-width:767px)  {
-
-    .middle{
-        flex-direction: column-reverse;
-    }
-
-   
-    .cube{
-        margin-top: 5%;
-    }
-    .marketyourbook {
-        padding-top: 50px;
-    }
-
+  .cube {
+    margin-top: 5%;
+  }
+  .marketyourbook {
+    padding-top: 50px;
+  }
 }
