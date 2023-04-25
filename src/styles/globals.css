@@ -337,6 +337,13 @@ body {
 
 /* Farooq Css */
 
+.sliderImg .slick-slider img{
+  width: 90%;
+}
+.sliderImg2 .slick-slider img{
+  width: 70%;
+}
+
 .slick-slider.homeSlider img {
   filter: brightness(100) invert(1);
 }

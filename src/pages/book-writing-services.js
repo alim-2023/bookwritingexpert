@@ -269,7 +269,7 @@ const Bookpublishingservices = () => {
 
 
       {/* Makestories */}
-      <div className='dataSetCo'>
+      <div className='dataSetCo sliderImg'>
         <Makestoriesnew
           title='Our Book Editing Projects'
           para='Let Our Book Editing Team Help You.'

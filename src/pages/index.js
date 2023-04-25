@@ -105,7 +105,9 @@ export default function Home() {
           discuss="LET'S DISCUSS"
         />
 
-        <Strugglingwriters />
+        <div className='sliderImg'>
+          <Strugglingwriters />
+        </div>
 
         <Stopworrying
           title='Stop worrying about publishing books!'
@@ -117,7 +119,7 @@ export default function Home() {
 
         {/*  Comprehensive */}
         <div className='datacloudco'>
-        <Comprehensive />
+          <Comprehensive />
         </div>
         {/* Customersatisfaction */}
         <Customersatisfaction />
@@ -137,7 +139,10 @@ export default function Home() {
           discuss="LET'S DISCUSS"
         />
 
+        
+        <div className='sliderImg2'>
         <Onestepsolutions />
+        </div>
 
 
         {/* Stopworrying */}

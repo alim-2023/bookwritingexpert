@@ -207,10 +207,6 @@ const Bookpublishingservices = () => {
       )}
 
 
-    
-
-
-
 
 
       {/* Dowecome */}
@@ -229,7 +225,7 @@ const Bookpublishingservices = () => {
       /> */}
 
       {/* Makestories */}
-      <div className='dataset'>
+      <div className='dataset sliderImg'>
         <Makestoriesnew
           title='Our Latest Book Publishing Projects'
           para='Let Our Book Publishing Team Help You'
