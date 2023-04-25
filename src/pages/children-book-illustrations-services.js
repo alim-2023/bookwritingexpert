@@ -212,8 +212,13 @@ Dowecome= "publishmybook"
 
 />
 
-
-
+{/* Makestories */}
+<div className='dataset'>
+<Makestoriesnew
+title='Our Latest Illustrations Books Projects'
+para='Let Our Book Children’s Illustration Team Help You'
+/>
+</div>
 
 <Stopworrying 
  title = 'Stop worrying about publishing books!'
@@ -276,7 +281,7 @@ num5 = '05'
 />
 
 {/* Aspiring */}
-<div className='dataset'>
+{/* <div className='dataset'>
 <Aspiring
  title= {dateset}
  text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
@@ -285,7 +290,19 @@ num5 = '05'
  discuss="LET'S DISCUSS"
  img= {together}
 />
-</div>
+</div> */}
+
+
+{/* Stopworrying */}
+<div className='dataSetCo'>
+        <Stopworrying
+          title2={dateset}
+          subtitle3='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+          subtext= 'Trust the marketing professionals for it, do not risk it!'
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
 
   {/* Talk To Our Whatourclients! */}
   <Whatourclients />
@@ -311,17 +328,13 @@ num5 = '05'
 
 
 
-{/* Makestories */}
-<Makestoriesnew
-title='Our Latest Illustrations Books Projects'
-para='Let Our Book Children’s Illustration Team Help You'
-/>
+
 
 
 
 
 {/* Lululogos components */}
-<Lululogos/>
+{/* <Lululogos/> */}
 
 
 
@@ -353,7 +366,7 @@ classnumber = { item.classnum }
 
 
 {/* Selfpublishing */}
-<div className='dateai'>
+
 <Selfpublishing
  title='What Type Of Books Do We Publish?'
  text= {text}
@@ -363,17 +376,17 @@ classnumber = { item.classnum }
  image={publishmybook}
  whychooseclass= "marketyourbook"
  />
-</div>
+
 
 
 
 
 {/* Why Choose Book Writing Cube? */}
-<Whychoosebook
+{/* <Whychoosebook
    title="5 Steps To Our Children's Book Illustrations Process!"
   text="We at Book Writing Cube have a detailed five-step process to getting your Children's Book Illustrations as good as you want them to be. This process is pretty much similar for illustrators all over the world, and we appreciate it if we educate our clients beforehand on what goes on in the entire illustration process."
   whychoose= {stepstoour}
- />
+ /> */}
 
 
 {/* Aspiring */}

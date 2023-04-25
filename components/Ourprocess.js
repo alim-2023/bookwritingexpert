@@ -14,8 +14,15 @@ const Ourprocess = (props) => {
         <Container>
             <Row>
                 <Col md={11} className='mx-auto'>
+                { props.title2 ?
                     <h2 className='font50 fw700 t-center mb-2 color-blue mb-5'> {props.title2} </h2>
-                    <h2 className='font50 fw700 t-center mb-2 color-blue'> {props.title} </h2>
+                    : '' }
+
+              { props.title ?
+                    <h2 className='font50 fw700 t-center mb-2 color-blue mb-5'> {props.title} </h2>
+
+                    : '' }
+
                     { props.text ?
                       <p className='color-lightgray font15 fw400 font-f t-center mb-5'> {props.text} </p>
                     

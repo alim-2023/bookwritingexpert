@@ -116,8 +116,9 @@ export default function Home() {
 
 
         {/*  Comprehensive */}
+        <div className='datacloudco'>
         <Comprehensive />
-
+        </div>
         {/* Customersatisfaction */}
         <Customersatisfaction />
 

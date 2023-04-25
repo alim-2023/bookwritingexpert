@@ -272,11 +272,12 @@ Dowecome= "publishmybook"
 
 
 {/* Makestories */}
+<div className='dataset'>
 <Makestoriesnew
 title='Our Ghostwriting Services Projects'
 para='Become a renowned author with the help of our ghostwriters!'
 />
-
+</div>
 <Stopworrying 
  title = 'Transform Your Ideas Into Words That Matters!'
  subtitle = {posdata}
@@ -425,7 +426,7 @@ classnumber = { item.classnum }
 </div>
 
 {/* Selfpublishing */}
-<div className='waitdate'>
+
 <Selfpublishing
  title='And No, Hiring Ghostwriting Services Isn’t Illegal!'
  text= 'The misconception has prevailed ever since the phenomenon of ghostwriting services came into being. The ghostwriter`s job is to get paid in return for his written masterpiece. Creativity and a great idea can come from anywhere and anyone, and it doesn`t surely mean everyone has the right ability to articulate it. Ghostwriters are professionals working to make those ambitions a reality. It is a legal collaboration to get that idea out there because those ghostwriters are trained to write, edit, and publish that work.'
@@ -435,7 +436,7 @@ classnumber = { item.classnum }
  image={bookmarketingservices3}
  whychooseclass= "marketyourbook"
  />
-</div>
+
 
 {/* Lululogos components */}
 

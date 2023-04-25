@@ -206,11 +206,12 @@ Dowecome= "publishmybook"
 
 
 {/* Makestories */}
+<div className='dataset'>
 <Makestoriesnew
 title='Our Latest Children’s Book Publishing Projects'
 para='Let Our Children’s Book Publishing Team Help You'
 />
-
+</div>
 
 <Stopworrying 
  title = 'Stop worrying about publishing books!'
