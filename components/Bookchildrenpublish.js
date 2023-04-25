@@ -51,7 +51,7 @@ const BookChildrenPublish = (props) => {
                     <Row className={` ${styles.bookrow} gy-3 `}>
 
                         <Col md={12}>
-                            <h1 className='font50 fw700 color-blue text-center mb-5'>Children Book Publication</h1>
+                            <h2 className='font50 fw700 color-blue text-center mb-5'>Children Book Publication</h2>
                         </Col>
 
                         {data.map((post, i) => (
