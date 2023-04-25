@@ -90,7 +90,8 @@ const Faqs = () => {
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
       />
-      
+
+
 
 </div>
 
