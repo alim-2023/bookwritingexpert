@@ -423,14 +423,6 @@ const Bookpublishingservices = () => {
       />
 
 
-
-      <Formattingservices />
-
-
-      <Tablelayout />
-
-
-
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 

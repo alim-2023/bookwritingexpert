@@ -14,6 +14,16 @@ import cover5 from '../public/images/thousandsofstruggling/Book-Mockup5.png'
 import cover6 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
 import cover7 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
 import cover8 from '../public/images/thousandsofstruggling/Book-Mockup8.png'
+import cover9 from '../public/images/thousandsofstruggling/book-mockup-1.png'
+import cover10 from '../public/images/thousandsofstruggling/book-mockup-2.png'
+import cover11 from '../public/images/thousandsofstruggling/book-mockup-3.png'
+import cover12 from '../public/images/thousandsofstruggling/book-mockup-4.png'
+import cover13 from '../public/images/thousandsofstruggling/book-mockup-5.png'
+import cover14 from '../public/images/thousandsofstruggling/book-mockup-6.png'
+import cover15 from '../public/images/thousandsofstruggling/book-mockup-7.png'
+import cover16 from '../public/images/thousandsofstruggling/book-mockup-8.png'
+import cover17 from '../public/images/thousandsofstruggling/book-mockup-9.png'
+import cover18 from '../public/images/thousandsofstruggling/book-mockup-10.png'
 
 
 
@@ -32,10 +42,27 @@ const Makestoriesnew = (props) => {
       { storiesimg: cover1 },
       { storiesimg: cover2 },
       { storiesimg: cover3 },
+      { storiesimg: cover4 },
       { storiesimg: cover5 },
       { storiesimg: cover6 },
       { storiesimg: cover7 },
+      { storiesimg: cover8 },
 
+    ];
+
+  const makestoriesimg2 =
+    [
+
+      { storiesimg: cover9 },
+      { storiesimg: cover10 },
+      { storiesimg: cover11 },
+      { storiesimg: cover12 },
+      { storiesimg: cover13 },
+      { storiesimg: cover14 },
+      { storiesimg: cover15 },
+      { storiesimg: cover16 },
+      { storiesimg: cover17 },
+      { storiesimg: cover18 },
 
     ];
 
@@ -136,7 +163,7 @@ const Makestoriesnew = (props) => {
           </Slider>
           <Slider {...makestories2}>
 
-            {makestoriesimg.map((item, i) => {
+            {makestoriesimg2.map((item, i) => {
               return (
                 <div key={i}>
                   <Image className='pt-3 img-fluid' src={item.storiesimg} alt='book_writing_cube'></Image>

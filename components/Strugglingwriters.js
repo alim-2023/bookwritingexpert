@@ -16,16 +16,16 @@ import cover5 from '../public/images/thousandsofstruggling/Book-Mockup5.png'
 import cover6 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
 import cover7 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
 import cover8 from '../public/images/thousandsofstruggling/Book-Mockup8.png'
-// import cover9 from '../public/images/thousandsofstruggling/book-mockup-1.png'
-// import cover10 from '../public/images/thousandsofstruggling/book-mockup-2.png'
-// import cover11 from '../public/images/thousandsofstruggling/book-mockup-3.png'
-// import cover12 from '../public/images/thousandsofstruggling/book-mockup-4.png'
-// import cover13 from '../public/images/thousandsofstruggling/book-mockup-5.png'
-// import cover14 from '../public/images/thousandsofstruggling/book-mockup-6.png'
-// import cover15 from '../public/images/thousandsofstruggling/book-mockup-7.png'
-// import cover16 from '../public/images/thousandsofstruggling/book-mockup-8.png'
-// import cover17 from '../public/images/thousandsofstruggling/book-mockup-9.png'
-// import cover18 from '../public/images/thousandsofstruggling/book-mockup-10.png'
+import cover9 from '../public/images/thousandsofstruggling/book-mockup-1.png'
+import cover10 from '../public/images/thousandsofstruggling/book-mockup-2.png'
+import cover11 from '../public/images/thousandsofstruggling/book-mockup-3.png'
+import cover12 from '../public/images/thousandsofstruggling/book-mockup-4.png'
+import cover13 from '../public/images/thousandsofstruggling/book-mockup-5.png'
+import cover14 from '../public/images/thousandsofstruggling/book-mockup-6.png'
+import cover15 from '../public/images/thousandsofstruggling/book-mockup-7.png'
+import cover16 from '../public/images/thousandsofstruggling/book-mockup-8.png'
+import cover17 from '../public/images/thousandsofstruggling/book-mockup-9.png'
+import cover18 from '../public/images/thousandsofstruggling/book-mockup-10.png'
 
 const Strugglingwriters = () => {
 
@@ -137,28 +137,34 @@ const Strugglingwriters = () => {
                         </Slider>
                         <Slider {...mockupslider2} className='mt-3 mockupslider'>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover1} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover9} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover2} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover10} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover3} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover11} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover4} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover12} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover5} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover13} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover6} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover14} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover7} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover15} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover8} className='img-fluid' />
+                                <Image alt="Book Writing Experts" src={cover16} className='img-fluid' />
+                            </div>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover17} className='img-fluid' />
+                            </div>
+                            <div>
+                                <Image alt="Book Writing Experts" src={cover18} className='img-fluid' />
                             </div>
                         </Slider>
                     </Col>
