@@ -139,12 +139,15 @@ export default function Home() {
         <Onestepsolutions />
 
 
-        <Stopworrying
-          title='Stop worrying about publishing books!'
-          subtitle={posdata}
-          btn1='Get a free Proposal'
-          btn2='Talk to an expert'
-        />
+        {/* Stopworrying */}
+        <div className='dataSetCo'>
+          <Stopworrying
+            title='Stop worrying about publishing books!'
+            subtitle={posdata}
+            btn1='Get a free Proposal'
+            btn2='Talk to an expert'
+          />
+        </div>
 
 
         {/* <Professionalghostwriter /> */}

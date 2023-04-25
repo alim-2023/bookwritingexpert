@@ -265,16 +265,20 @@ const Bookpublishingservices = () => {
       />
 
 
-      <Stopworrying
-        title2={dateset}
-        subtitle3='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
-        subtitle4='Trust the marketing professionals for it, do not risk it!'
-        btn1='Get a free Proposal'
-        btn2='Talk to an expert'
-      />
+      {/* Stopworrying */}
+      <div className='dataSetCo'>
+        <Stopworrying
+          title2={dateset}
+          subtitle3='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+          subtitle4='Trust the marketing professionals for it, do not risk it!'
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
+
+
 
       {/* Aspiring */}
-
       {/* <div className='dataset'>
       <Aspiring
         title={dateset}
