@@ -440,9 +440,9 @@ const Bookpublishingservices = () => {
 
       {/* Lululogos components */}
 
-      <div className='mt-5'>
-        <Lululogos />
-      </div>
+    
+        {/* <Lululogos /> */}
+      
 
 
       {/* Aspiring */}

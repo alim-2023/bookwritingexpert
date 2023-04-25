@@ -258,44 +258,23 @@ btn =  {item.btn}
 title= '5 Steps To Our Children`s Book Illustrations Process!'
 
 heading1 = 'Understanding The Client`s Aesthetic:'
-para1 = 'Understanding what our client wants and how exactly they want
-it done is essential for any project. We often ask our clients to
-draw us a rough sketch or show us an inspiration of what they
-want from us and how they want the project to look like. In this
-part of the project, we usually coordinate with the clients and
-brainstorm with them and our team to put forward ideas that
-would serve both the client`s purpose and fit trends in the market.'
+para1 = 'Understanding what our client wants and how exactly they want it done is essential for any project.We often ask our clients to draw us a rough sketch or show us an inspiration of what they want from us and how they want the project to look like. In this part of the project, we usually coordinate with the clients and brainstorm with them and our team to put forward ideas that would serve both the client`s purpose and fit trends in the market.'
 num1 = '01'
 
 heading2 = 'Detailed Interviews With The Client:'
-para2 = 'Before we head back to the drawing board, our illustrators
-would have a detailed correspondence with the client and ask in
-great detail about what attributes they would like to see in each
-character and what they want in every character to stand out or
-if they have anything specific that they cannot compromise on.'
+para2 = 'Before we head back to the drawing board, our illustrators would have a detailed correspondence with the client and ask in great detail about what attributes they would like to see in each character and what they want in every character to stand out or if they have anything specific that they cannot compromise on.'
 num2 = '02'
 
 heading3 = 'lllustrating Begins:'
-para3 = 'Once the illustrator has the information they need, they go to
-the storyboard and put together a piece that is very much in the
-initial stages for the client to see. They would make sure that all
-the feedback was taken into consideration before putting this
-initial piece together, and it fits all the brief.'
+para3 = 'Once the illustrator has the information they need, they go to the storyboard and put together a piece that is very much in the initial stages for the client to see. They would make sure that all the feedback was taken into consideration before putting this initial piece together, and it fits all the brief.'
 num3 = '03'
 
 heading4 = 'Client`s Feedback:'
-para4 = 'In this step of the process, the illustrator would mail or show
-what they`ve put together on their storyboard to the client and
-see what they have to say. The feedback they get after
-revealing the initial art, they would listen to it carefully and try to
-accommodate it.'
+para4 = 'In this step of the process, the illustrator would mail or show what they`ve put together on their storyboard to the client and see what they have to say. The feedback they get after revealing the initial art, they would listen to it carefully and try to accommodate it.'
 num4 = '04'
 
 heading5 = 'The Big Reveal:'
-para5 = 'Once the client has provided ample feedback, the illustrator
-would take it back to the storyboard, incorporate the requested
-changes, and then when the final piece is done; it will be
-revealed to the client for the final approval.'
+para5 = 'Once the client has provided ample feedback, the illustrator would take it back to the storyboard, incorporate the requested changes, and then when the final piece is done; it will be revealed to the client for the final approval.'
 num5 = '05'
 
 
