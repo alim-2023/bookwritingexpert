@@ -197,7 +197,7 @@ const dateset = <span className='fw500'>Let’s <Link className='textdocationnon
    
 
    {/* partners components */}
-<Partners/>
+
 
 
 

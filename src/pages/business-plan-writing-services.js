@@ -176,7 +176,7 @@ const reasons = [
    
 
    {/* partners components */}
-<Partners/>
+
 
 {/* Makestories */}
 <Makestoriesnew

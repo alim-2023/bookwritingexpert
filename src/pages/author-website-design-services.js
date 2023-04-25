@@ -182,7 +182,7 @@ const reasons = [
    
 
    {/* partners components */}
-<Partners/>
+
 
 
 <Ourcaptivatingauthor

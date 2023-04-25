@@ -250,8 +250,7 @@ const Bookpublishingservices = () => {
       )}
 
 
-      {/* partners components */}
-      <Partners />
+    
 
 
       {/* Dowecome */}
@@ -421,6 +420,18 @@ const Bookpublishingservices = () => {
         image={whychooseourbookeditingservices4}
         whychooseclass="marketyourbook"
       />
+
+
+ {/* Stopworrying */}
+ <div className='dataSetCo'>
+        <Stopworrying
+          title2={dateset}
+          text='Connect with us, and avail our best Editing Services at one go. We know the right formula for errorless content.'
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
+
 
 
       {/* Talk To Our Whatourclients! */}

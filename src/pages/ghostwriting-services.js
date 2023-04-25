@@ -255,7 +255,7 @@ const proofreading =  <span> Our <Link className='textdocationnone color-blue ho
    
 
    {/* partners components */}
-<Partners/>
+
 
 
 
@@ -268,6 +268,13 @@ const proofreading =  <span> Our <Link className='textdocationnone color-blue ho
 
 Dowecome= "publishmybook"
 
+/>
+
+
+{/* Makestories */}
+<Makestoriesnew
+title='Our Ghostwriting Services Projects'
+para='Become a renowned author with the help of our ghostwriters!'
 />
 
 <Stopworrying 
@@ -305,26 +312,26 @@ btn =  {item.btn}
 
 
 <Ourprocess 
-title= {proofreading}
+title= 'What Is Our Ghost Writing Process?'
 
-heading1 = 'Studying, Researching, and Drafting'
-para1 = 'Our Ghost Writing team leaves no stones unturned when they start the research. Upon that, we draft an outline as per your idea, get it approved, and start working accordingly.'
+heading1 = 'Book Writing Consultancy'
+para1 = 'Once the draft is submitted, it entirely depends on the communication as we need your feedback to proceed.Prompt feedback would mean a prompt delivery of the next draft.'
 num1 = '01'
 
-heading2 = 'The Initial Writing Begins'
+heading2 = 'Receive & Feedback'
 para2 = 'As per the outline, our expert ghostwriters start writing the initial content that reflects your ideology behind book writing.'
 num2 = '02'
 
-heading3 = 'Critics, Edits, and Proofreading'
-para3 = 'We make the Book writing content firm through critical reviews, which leads to required edits by the professionals. After making changes, our proofreaders double-check the content and leave no lapse behind.'
+heading3 = 'FinalDraft & QA:'
+para3 = 'Once we are done writing the book, we do not just abandon you.We send it to our QA team that fact-checks and scans the draft for errors that may have missed your or our team`s keen eye.'
 num3 = '03'
 
-heading4 = ''
-para4 = 'In this step, we determine what looks best where. The Formatting and Designing team critically looks into the finalized content and presents it with the best graphical details.'
+heading4 = 'Final Reviewing & Cover Design:'
+para4 = 'As soon as you approve the changes, our team implements them, and then sends it back to you for a final review. Once we get your go-ahead, we schedule a meeting with our design team and get your book a cover that you want.'
 num4 = '04'
 
-heading5 = 'Market And Promote The Book'
-para5 = 'With the completion of your book, we design strategies. And take complete responsibility to market, distribute, and promote your work through effective channels.'
+heading5 = 'Completing The Project & Reassuring Further Assistance:'
+para5 = 'With that,our bok writing comes to an end. In case you need further assistance with editng, publishing, and/or marketing, our team will further connect you to our publishing and marketing team.'
 num5 = '05'
 
 
@@ -332,7 +339,7 @@ num5 = '05'
 
 
 {/* Aspiring */}
-<div className='dataset'>
+{/* <div className='dataset'>
 <Aspiring
  title= {dateset}
  text= 'Book Writing Experts has got you covered with the Best-Ghostwriting services. You are just one click away!'
@@ -341,7 +348,18 @@ num5 = '05'
  discuss="LET'S DISCUSS"
  img= {together}
 />
-</div>
+</div> */}
+
+
+{/* Stopworrying */}
+<div className='dataSetCo'>
+        <Stopworrying
+          title2={dateset}
+          subtitle3='Book Writing Experts has got you covered with the Best-Ghostwriting services. You are just one click away!'
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
 
 
 
@@ -351,15 +369,11 @@ num5 = '05'
 
 
 
-{/* Makestories */}
-<Makestoriesnew
-title='Our Ghostwriting Services Projects'
-para='Become a renowned author with the help of our ghostwriters!'
-/>
+
 
 
    {/* Whybookpublishing */}
-<div className={styles.whybookpublishing}>
+{/* <div className={styles.whybookpublishing}>
   <Container>
 
   <Row>
@@ -380,7 +394,7 @@ para='Become a renowned author with the help of our ghostwriters!'
       )}
     </Row>            
   </Container>   
-</div>
+</div> */}
 
 
 
@@ -425,16 +439,16 @@ classnumber = { item.classnum }
 
 {/* Lululogos components */}
 
-<div className='mt-5'>
+{/* <div className='mt-5'>
 <Lululogos/>
-</div>
+</div> */}
 
 {/* Why Choose Book Writing Cube? */}
-<Whychoosebook
+{/* <Whychoosebook
    title="What Is Our Ghost Writing Process?"
   text="Our professional ghost writing services is a collaborative process between our client and our team that has the following steps:"
   whychoose= {bookwritingprocess}
- />
+ /> */}
 
 
 

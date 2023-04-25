@@ -166,7 +166,7 @@ const Banner = (props) => {
                     <div className="col-12 col-lg-12">
 
                       <div className={styles.homebannerlogo}>
-                        <Image className={`${styles.homelogoimgnone} img-fluid mt-3`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
+                        <Image className={`${styles.homelogoimgnone} img-fluid mt-4`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
                       </div>
                     </div>
 

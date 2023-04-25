@@ -208,7 +208,7 @@ const fine = [
    
 
    {/* partners components */}
-<Partners/>
+
 
 {/* Makestories */}
 <Makestoriesnew

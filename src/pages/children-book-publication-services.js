@@ -190,7 +190,7 @@ const  work = <span>Your work is over after creating a masterpiece. Let us take 
    
 
    {/* partners components */}
-<Partners/>
+
 
 
 
@@ -203,6 +203,14 @@ const  work = <span>Your work is over after creating a masterpiece. Let us take 
 Dowecome= "publishmybook"
 
 />
+
+
+{/* Makestories */}
+<Makestoriesnew
+title='Our Latest Children’s Book Publishing Projects'
+para='Let Our Children’s Book Publishing Team Help You'
+/>
+
 
 <Stopworrying 
  title = 'Stop worrying about publishing books!'
@@ -236,26 +244,26 @@ btn =  {item.btn}
 </div>
 
 <Ourprocess 
-title= 'Our Process'
+title= 'What Is Our Children Book Publication Process?'
 
-heading1 = 'Manuscript Submission'
-para1 = 'The writer contacts us for submission of their full-length manuscript, while submitting, we discuss our publishing rules and sign the contract.'
+heading1 = 'Book Writing Consultancy'
+para1 = 'Once the draft is submitted, it entirely depends on the communication as we need your feedback to proceed.Prompt feedback would mean a prompt delivery of the next draft.'
 num1 = '01'
 
-heading2 = 'Peers Review'
-para2 = 'Our experienced editors then review the manuscript and make the required changes with the writer’s permission.'
+heading2 = 'Receive & Feedback'
+para2 = 'As per the outline, our expert ghostwriters start writing the initial content that reflects your ideology behind book writing.'
 num2 = '02'
 
-heading3 = 'Formatting and Typesetting'
-para3 = 'After the manuscript is reviewed by editors, our experts do the formatting and add images.'
+heading3 = 'FinalDraft & QA:'
+para3 = 'Once we are done writing the book, we do not just abandon you.We send it to our QA team that fact-checks and scans the draft for errors that may have missed your or our team`s keen eye.'
 num3 = '03'
 
-heading4 = 'Book Production'
-para4 = 'We design the first copy of the book and take reviews from the writer. The rest of the books are produced on the same pattern while keeping all the important aspects into consideration.'
+heading4 = 'Final Reviewing & Cover Design:'
+para4 = 'As soon as you approve the changes, our team implements them, and then sends it back to you for a final review. Once we get your go-ahead, we schedule a meeting with our design team and get your book a cover that you want.'
 num4 = '04'
 
-heading5 = 'Marketing, Publishing, and Distribution'
-para5 = 'Before publishing, we spread awareness about the book to create demand. And Voila! The book is published now!'
+heading5 = 'Completing The Project & Reassuring Further Assistance:'
+para5 = 'With that,our bok writing comes to an end. In case you need further assistance with editng, publishing, and/or marketing, our team will further connect you to our publishing and marketing team.'
 num5 = '05'
 
 
@@ -268,7 +276,7 @@ num5 = '05'
 
 
 {/* Aspiring */}
-<div className='dataset'>
+{/* <div className='dataset'>
 <Aspiring
  title= {dateset}
  text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
@@ -277,7 +285,23 @@ num5 = '05'
  discuss="LET'S DISCUSS"
  img= {together}
 />
-</div>
+</div> */}
+
+
+{/* Stopworrying */}
+<div className='dataSetCo'>
+        <Stopworrying
+          title2={dateset}
+          subtitle3='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+          subtext= 'Trust the marketing professionals for it, do not risk it!'
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
+
+
+
+
  {/* Talk To Our Whatourclients! */}
  <Whatourclients />
 
@@ -285,11 +309,7 @@ num5 = '05'
 
 
 
-{/* Makestories */}
-<Makestoriesnew
-title='Our Latest Children’s Book Publishing Projects'
-para='Let Our Children’s Book Publishing Team Help You'
-/>
+
 
 
 
@@ -297,7 +317,7 @@ para='Let Our Children’s Book Publishing Team Help You'
 
 
 {/* Selfpublishing */}
-<div className='waitdatecloud'>
+<div className=''>
 <Selfpublishing
  title='What Type Of Books Do We Publish?'
  text= {text}
@@ -318,7 +338,7 @@ para='Let Our Children’s Book Publishing Team Help You'
 
 {/* Lululogos components */}
 
-<Lululogos/>
+{/* <Lululogos/> */}
 
 
 
@@ -354,11 +374,11 @@ classnumber = { item.classnum }
 
 
 {/* Why Choose Book Writing Cube? */}
-<Whychoosebook
+{/* <Whychoosebook
    title="What Is Our Children Book Publication Process?"
   text="Our professional book writing services is a collaborative process between our client and our team that has the following steps:"
   whychoose= {whatisourchildren}
- />
+ /> */}
 
 
  

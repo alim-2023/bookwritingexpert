@@ -180,7 +180,7 @@ const posdata = <span>Let Our Best <Link className='textdocationnone color-blue 
    
 
    {/* partners components */}
-<Partners/>
+
 
 
 {/* Dowecome */}

@@ -96,7 +96,7 @@ const About = () => {
 
 
 {/* partners components */}
-<Partners/>   
+   
 
 {/* Makestories */}
 <Makestories

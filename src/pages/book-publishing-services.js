@@ -207,8 +207,7 @@ const Bookpublishingservices = () => {
       )}
 
 
-      {/* partners components */}
-      <Partners />
+    
 
 
 

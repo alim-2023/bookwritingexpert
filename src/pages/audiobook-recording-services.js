@@ -173,7 +173,7 @@ const reasons = [
    
 
    {/* partners components */}
-<Partners/>
+
 
 <Audiobookrecordingprojects />
 

@@ -73,8 +73,7 @@ const Faqs = () => {
 
 
 
-      {/* partners components */}
-      <Partners />
+    
 
 
       {/* Faqslist */}

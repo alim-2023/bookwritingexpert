@@ -245,8 +245,7 @@ const Bookpublishingservices = () => {
       )}
 
 
-      {/* partners components */}
-      <Partners />
+    
 
 
 
@@ -370,8 +369,7 @@ const Bookpublishingservices = () => {
 
 
 
-      {/* Lululogos components */}
-      <Lululogos />
+ 
 
 
 

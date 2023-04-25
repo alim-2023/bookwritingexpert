@@ -232,7 +232,7 @@ const dateset = <span>Let’s <Link className='textdocationnone color-blue hover
    
 
    {/* partners components */}
-<Partners/>
+
 
 
 

@@ -135,7 +135,7 @@ col6: '6',
    
 
    {/* partners components */}
-<Partners/>
+
 
 
 

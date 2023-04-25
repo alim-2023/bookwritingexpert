@@ -35,7 +35,7 @@ const Strugglingwriters = () => {
         autoplay: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
             {
@@ -69,7 +69,7 @@ const Strugglingwriters = () => {
         infinite: true,
         rtl: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
             {

@@ -45,11 +45,11 @@
 }
 
 .canva {
-  max-width: 800px;
+  max-width: 1000px;
 
     line-height: 1.7;
-    max-width: 864px;
-    font-size: 23px;
+  
+    font-size: 25px;
 }
 
 .looking {

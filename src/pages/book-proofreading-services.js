@@ -236,7 +236,7 @@ const proofreading = <Link className='textdocationnone colortextgrey hover' href
    
 
    {/* partners components */}
-<Partners/>
+
 
 
 
@@ -286,43 +286,44 @@ btn =  {item.btn}
 
 
 <Ourprocess 
-title= 'Our Streamlined Proofreading Process'
+title= 'This Is How You Get A Fresh Pair Of Eyes On Your Manuscript.'
 
-heading1 = 'Submit Your Document'
-para1 = 'After getting in touch with our client, we receive the document that needs to be proofread'
+heading1 = 'We Receive Your Book'
+para1 = 'Our proofreaders receive the manuscript/book to get the process of proofreading started.'
 num1 = '01'
 
-heading2 = 'Read & Analyze'
-para2 = 'Our team of professional proofreaders reads and analyzes the document for grammatical and formatting errors. '
+heading2 = 'We Start Scrutinizing Your Manuscript'
+para2 = 'Our professional proofreading personas read throught the entire book,looking for errors or typos'
 num2 = '02'
 
-heading3 = {proofreading}
-para3 = 'Once the errors are identified and highlighted, our skilled proofreaders begin the proofreading process, making necessary changes to improve the quality of the document. '
+heading3 = 'Rectification Starts!'
+para3 = 'Once all the errors have been found, they are corrected in the manuscript. '
 num3 = '03'
 
-heading4 = 'Editing Tools'
-para4 = 'Our proofreaders use the latest editing tools to scan the document for any remaining errors that might have missed their eyes.'
+heading4 = 'Consistency Checked'
+para4 = 'Our proofreaders will read through the book one last time tp catch any final errors or typos.Once they have finished, they will send you proof of the book so that you can see all the changes that they have made.'
 num4 = '04'
 
-heading5 = 'Final Approval & Delivery'
-para5 = 'After the approved changes are incorporated into the document, we deliver a polished document, free of any errors. '
+heading5 = 'Your Book Is Now Error-free'
+para5 = 'An error-free and flawlessly written book is sent off to you in this step.'
 num5 = '05'
 
 
 />
 
-{/* Aspiring */}
-<div className='dataset'>
-<Aspiring
- title= {dateset}
- text= 'It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
- subtext= 'Trust the marketing professionals for it, do not risk it!'
- number="(213) 289 3888"
- discuss="LET'S DISCUSS"
- img= {together}
-/>
-</div>
 
+
+
+
+  {/* Stopworrying */}
+  <div className='dataSetCo'>
+        <Stopworrying
+          title2={dateset}
+          subtitle3='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
 
 
 
@@ -353,43 +354,16 @@ num5 = '05'
 
 
 
-{/* Makestories */}
-<Makestoriesnew
-title='Our Done and Dusted Proofreading Projects That Speak For Our Credibility'
-para='Here are a few proofreading projects that we accomplished with utmost finesse.'
-/>
 
 
-{/* Whybookpublishing */}
-<div className={styles.whybookpublishing}>
-  <Container>
 
-  <Row>
-    <h2 className='font50 fw700 color-blue t-center'>Answers To Some Questions That May Be Whirling Around Your Head!</h2>
-    <p className='font15 textcolor colortextgrey t-center pb-5 mt-3'>
-    Our proofreading experts go above and beyond to make your manuscript flawless and attention-grabbing. Whether you are an author who wants to perfect your books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing Cube sets the bar high with its standard proofreading services online and knows what its clients may be thinking of. So, here are some frequently asked questions by clients.
-    </p>
-
-  </Row>
-
-    <Row>
-      {whybookpublishingdata.map((item, i) =>
-        <Whybookpublishing  key={i}
-          title={item.title}
-          text={item.text}
-          col6={item.col6}
-        />
-      )}
-    </Row>            
-  </Container>   
-</div>
 
 
 
 
 {/* Stillonthefence component */}
 
-<Container className='still'>
+<Container fluid className='still'>
 
 
 <Row >
@@ -411,12 +385,7 @@ classnumber = { item.classnum }
 
 
 
-{/* Why Choose Book Writing Cube? */}
-<Whychoosebook
-   title="This Is How You Get A Fresh Pair Of Eyes On Your Manuscript."
-  text="Here’s how we set the wheel of proofreading services in motion."
-  whychoose= {thisishowyouget}
- />
+
 
  {/* Aspiring */}
 

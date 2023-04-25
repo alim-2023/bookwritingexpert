@@ -168,7 +168,7 @@ const fine = [
    
 
    {/* partners components */}
-<Partners/>
+
 
 
 {/* Dowecome */}
