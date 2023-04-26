@@ -1,13 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import whychoose from '/public/images/whychoosebooks/bg-img.png'
-import Comprehensive from '../../components/Comprehensive'
-import Lululogos from '../../components/Lululogos'
-import Strugglingtogive from '../../components/Strugglingtogive'
-import Strugglingwriters from '../../components/Strugglingwriters'
-import Onestepsolutions from '../../components/Onestepsolutions'
+
 
 
 
@@ -20,10 +17,12 @@ import Gotastory from '../../components/Gotastory'
 import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
 import Requestafreequote from '../../components/Requestafreequote'
-import Professionalghostwriter from '../../components/Professionalghostwriter'
-import Link from 'next/link'
 import Stopworrying from '../../components/Stopworrying'
 import Customersatisfaction from '../../components/Customersatisfaction'
+import Comprehensive from '../../components/Comprehensive'
+import Strugglingtogive from '../../components/Strugglingtogive'
+import Strugglingwriters from '../../components/Strugglingwriters'
+import Onestepsolutions from '../../components/Onestepsolutions'
 
 
 
@@ -56,7 +55,6 @@ export default function Home() {
     <>
       <Head>
         <title>Professional Book Writing Services Company</title>
-
         <link rel="icon" href="/favicon.svg" />
 
 
