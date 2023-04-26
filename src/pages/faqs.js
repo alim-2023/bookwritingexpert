@@ -3,7 +3,6 @@ import Head from 'next/head'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Aspiring from '../../components/Aspiring'
-import Partners from '../../components/Partners'
 import Faqslist from '../../components/Faqslist'
 
 
