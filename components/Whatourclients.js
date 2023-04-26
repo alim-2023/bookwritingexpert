@@ -32,6 +32,7 @@ const Whatourclients = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 1024,

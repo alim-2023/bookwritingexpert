@@ -82,12 +82,22 @@
 
 @media (max-width:767px)  {
 
-  .value{
-    font-size: 25px;
+  .value {
+    font-size: 35px;
     font-family: "Poppins";
     font-weight: 700;
     line-height: 1;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+ }
+
+
+@media (max-width:480px)  {
+
+.canva{
+    font-size: 14px;
+    text-align: justify;
 }
 
  }

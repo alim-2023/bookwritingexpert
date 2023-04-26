@@ -68,6 +68,9 @@
 }
 
 @media (max-width:480px)  {
+    .emailhref {
+        font-size: 14px;
+    }
 
     .bookemail{
         font-size: 17px;

@@ -593,6 +593,15 @@ input::-webkit-inner-spin-button {
   }
 }
 @media (max-width: 480px) {
+
+  .dblockmobile{
+    display: block;
+  }
+
+  .maxwidth {
+    max-width: 100%;
+    text-align: justify;
+  }
   .getmodal .modal-dialog {
  
     max-width: 90%;
@@ -625,7 +634,7 @@ input::-webkit-inner-spin-button {
     font-size: 18px;
   }
   .font15 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .testtimonials svg.slick-arrow.slick-prev {
