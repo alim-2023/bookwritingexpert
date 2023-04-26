@@ -5,38 +5,28 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-import bookwritingcanbe from '/public/images/bookwritingcanbe/bookwritingcanbe.png'
-import together from '/public/images/together/together.png'
 import whychooseourbookeditingservices1 from '/public/images/whychooseourbookeditingservices/1.png'
 import whychooseourbookeditingservices2 from '/public/images/whychooseourbookeditingservices/2.png'
 import whychooseourbookeditingservices3 from '/public/images/whychooseourbookeditingservices/3.png'
 import whychooseourbookeditingservices4 from '/public/images/whychooseourbookeditingservices/4.png'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-import drivethebook1 from '/public/images/whychoosebooks/bookeditingprocess.png'
+
 
 // components
 import Banner from '../../components/Banner'
-import Whybookpublishing from '../../components/Whybookpublishing'
-import Partners from '../../components/Partners'
 import Dowecome from '../../components/Dowecome'
-import Signup from '../../components/Signup'
 import Stopworrying from '../../components/Stopworrying'
 import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
 import Makestoriesnew from '../../components/Makestoriesnew'
-import Stillonthefence from '../../components/Stillonthefence'
 import Lululogos from '../../components/Lululogos'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Selfpublishing from '../../components/Selfpublishing'
-import Whychoosebook from '../../components/Whychoosebook'
-import Formattingservices from '../../components/Formattingservices'
-import Tablelayout from '../../components/Tablelayout'
+
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -44,7 +34,8 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 
 const Bookpublishingservices = () => {
-  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+
+
 
   const text = <span>This type of <Link className='textdocationnone color-blue hover' href="/book-editing-services"> ebook editing service </Link>  is also called Mechanical Editing and sometimes referred to as Line Editing. The editor's singular job is to make sure the story has a more "professional" approach and fill any gaps in the original plot.</span>;
 
@@ -68,50 +59,7 @@ const Bookpublishingservices = () => {
     }
   ]
 
-
-
-
-
-
-
-
-  const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="/book-editing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
-
-
-  const whybookpublishingdata = [
-
-    {
-      title: 'The predetermined prerequisite:',
-      text: 'Once your novel is completed, thorough read and content assessment are of crucial importance. From fixing grammar errors to pinpointing the structural improvements, our online book editor ensures the manuscript is finalized to perfection.',
-      col6: '6',
-    },
-    {
-      title: 'The much-needed assistance:',
-      text: 'Reading and re-reading every line and pondering over each comma and semi-colon are surely mind-numbing aspects of book writing. The professional book editors have the right skills and prowess to correct, improve, and fine-tune the content.',
-      col6: '6',
-    },
-    {
-      title: 'The must-have consultation:',
-      text: 'We know you take great pride in your work; we respect and value that. However, an expert’s advice does make all the difference. Our book writing editor helps you figure out the why’s and how’s of giving your work a professional touch.',
-      col6: '6',
-    },
-    {
-      title: 'The proven technique:',
-      text: 'Editing requires constant work. Hiring book editing and formatting services can save you the hassle of time and effort investment. Besides, when you know the best-in-town has your manuscript taken care of, you can give up worrying about if it would be a bestseller—because that’s one thing we don’t get wrong!',
-      col6: '6',
-    },
-
-  ]
-
-
-
-
-
   const geta = <span>Reliable <Link className='color-blue textdocationnone hover fw700' href='/book-editing-services'> Editing Solutions <br></br> </Link> For All!</span>
-
-
-
-
 
   const posdata = <span>How About A Group Of Professionals <Link className='textdocationnone color-blue fw700 hover' href='/book-editing-services'>Edit Your Book </Link> Before Publishing?</span>
 
@@ -152,48 +100,7 @@ const Bookpublishingservices = () => {
   const dateset = <span>  Tired Of Making Edits In <br></br> Your Draft? </span>
 
 
-  const reasons = [
 
-    {
-      title: 'World-Class bookwriting Team',
-      text: 'Work with the industry’s top writers, editors, and publishing strategists. Our team approach gives you the best chance for success.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Personalized Strategic Approach',
-      text: 'Our process begins with 4extensive publishing strategy sessions to ensure we develop a plan to achieve your goals.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Refined Process',
-      text: 'Enjoy the efficiency and dependability of our professionally managed bookwriting process.',
-      classnum: 'number1',
-
-    },
-
-    {
-      title: 'Book Writing experts',
-      text: 'Our team includes #1 New York Times- Book Writers and award-winning authors for almost every genre.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Big-5 Editors',
-      text: 'Your project will be managed and edited by a former acquisitions editor from a Big-5 publisher with numerous New York Times - Book Writing titles.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Publishing Navigation',
-      text: 'We guide you through every step of the book publishing process. We can place your book directly with traditional publishers or help you choose the ideal hybrid publishing solution.',
-      classnum: 'number1',
-
-    },
-
-
-  ]
 
   return (
     <>
@@ -341,29 +248,7 @@ const Bookpublishingservices = () => {
       </div>
 
 
-      {/* Whybookpublishing */}
-      {/* <div className={styles.whybookpublishing}>
-        <Container>
-
-          <Row>
-            <h2 className='font50 fw700 color-blue t-center'>Why Do You Need Professional Book Editing Services?</h2>
-            <p className='font15  textcolor t-center pb-5 mt-3'>
-              Editing is a meticulous process, one that requires severely dedicated efforts and time to accomplish. Finishing a novel is a job well done, so why not relax back and have someone take the load off.
-            </p>
-
-          </Row>
-
-          <Row>
-            {whybookpublishingdata.map((item, i) =>
-              <Whybookpublishing key={i}
-                title={item.title}
-                text={item.text}
-                col6={item.col6}
-              />
-            )}
-          </Row>
-        </Container>
-      </div> */}
+      
 
 
 
