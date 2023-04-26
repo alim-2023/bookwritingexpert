@@ -437,6 +437,18 @@ input::-webkit-inner-spin-button {
   max-width: 70%;
 }
 
+.contpost{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contfom {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f8f8f8;
+}
 
 /* --------------------------- */
 
@@ -592,17 +604,17 @@ input::-webkit-inner-spin-button {
 }
 
   .bannergllobal h1{
-    font-size: 23px;;
+    font-size: 35px;;
   }
 
   .font50 {
-    font-size: 28px;
+    font-size: 35px;
 }
   .font14 {
     font-size: 18px;
   }
   .font16 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .font17 {

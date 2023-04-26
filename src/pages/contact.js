@@ -149,7 +149,7 @@ const Contact = () => {
 
             <div className={styles.contfom}>
 
-                <Container id='contpost'>
+                <Container className='contpost'>
                     <Row className={styles.conrow}>
                         <Col md={9}>
                             <h2 className='t-center fw700 font50 color-blue font-f mb-5'> Fill Out The Form Below We Will Contact You Promptly</h2>
