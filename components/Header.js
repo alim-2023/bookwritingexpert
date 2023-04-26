@@ -29,9 +29,10 @@ import headericon8 from '../public/images/headericon/8.png'
 import headericon9 from '../public/images/headericon/9.png'
 import headericon10 from '../public/images/headericon/10.png'
 
+import Modal from 'react-bootstrap/Modal';
 
-
-
+import Button from 'react-bootstrap/Button';
+import Getstarted from './Getstarted'
 
 
 
@@ -46,6 +47,11 @@ const Header = () => {
 
 
   }
+
+  const [show, setShow] = useState(false);
+
+  function modal(events) { event.preventDefault(); setShow(true); }
+  function closemodal() { setShow(false); }
 
   return (
     <>
@@ -198,7 +204,7 @@ const Header = () => {
                 </li>
 
 
-                <li className={`${styles.navlinks} ${styles.headertel} ${styles.headerbtnspacing}`}><Link className={styles.headerbtncolor} href="">Get A Quote</Link></li>
+                <li onClick={modal} className={`${styles.navlinks} ${styles.headertel} ${styles.headerbtnspacing}`}><Link className={styles.headerbtncolor} href="">Get A Quote</Link></li>
 
               </ul>
             </Navbar.Collapse>
@@ -210,7 +216,10 @@ const Header = () => {
       <Sticky />
 
 
+      <Modal show={show} centered onHide={closemodal} className='getmodal'>
+                    <Modal.Body> <Getstarted /> <span onClick={closemodal} className={styles.cross}>x</span> </Modal.Body>
 
+      </Modal>
 
 
     </>

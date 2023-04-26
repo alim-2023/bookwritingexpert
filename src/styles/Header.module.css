@@ -1,3 +1,21 @@
+.cross {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  background-color: #223235;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-family: 'Poppins';
+  cursor: pointer;
+}
+
 .border {
   border-top: 2px solid #ccc;
   display: flex;
@@ -421,6 +439,15 @@
 }
 
 @media (max-width: 480px) {
+
+
+  .cross {
+    top: -4px;
+    right: 7px;
+}
+
+
+
   .border {
     border-right: unset;
   }

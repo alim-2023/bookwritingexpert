@@ -379,6 +379,9 @@ body {
 .dataSetCo{
   margin-top: 100px;
 }
+.start{
+  margin-bottom: 20px;
+}
 .datacloudco{
   padding-bottom: 100px;
 }
@@ -419,6 +422,21 @@ input::-webkit-inner-spin-button {
 .clintTesti .slick-prev, .slick-next {
   top: 90%!important;
 }
+
+.getmodal .modal-content {
+  background: #f7f4f8 url(/images/getstarted/getstarted.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+
+}
+.getmodal .modal-dialog {
+ 
+  max-width: 70%;
+}
+
 
 /* --------------------------- */
 
@@ -491,6 +509,15 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 767px) {
 
+ .getmodal  {
+    margin: 1rem;
+   
+}
+
+  .start{
+    margin-bottom: 10px;
+  }
+
   /* .clintTesti .slick-slider .slick-next::before {
     display: none;
   }
@@ -554,6 +581,15 @@ input::-webkit-inner-spin-button {
   }
 }
 @media (max-width: 480px) {
+  .getmodal .modal-dialog {
+ 
+    max-width: 90%;
+  }
+
+  .getmodal  {
+    margin: .5rem;
+   
+}
 
   .bannergllobal h1{
     font-size: 23px;;
