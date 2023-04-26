@@ -99,40 +99,14 @@ const Homebanner = (props) => {
                                     ''
                                 }
 
-                                {props.subtext ?
+                              
 
-                                    <p className={`${styles.newSubPara} fw500 font18 colortextgrey font-f mt-4 m-0`}> <strong>{props.publishers}</strong> {props.subtext}</p>
-                                    :
-                                    ''
-                                }
+                              
 
-                                {props.subtext1 ?
+                             
 
-                                    <p className='fw500 font18 colortextgrey font-f m-0'> {props.subtext1}</p>
-                                    :
-                                    ''
-                                }
 
-                                {props.subtext2 ?
-
-                                    <p className='fw500 font18 colortextgrey font-f m-0'> {props.subtext2}</p>
-                                    :
-                                    ''
-                                }
-
-                                {props.subtext3 ?
-
-                                    <p className='fw500 font18 colortextgrey font-f m-0'> {props.subtext3}</p>
-                                    :
-                                    ''
-                                }
-
-                                {props.subtext4 ?
-
-                                    <p className='fw500 font18 colortextgrey font-f'> {props.subtext4} <strong>{props.subtext4bold}</strong> </p>
-                                    :
-                                    ''
-                                }
+                          
 
                                 {props.discuss ?
                                     <div className='mt-5'>
