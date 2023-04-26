@@ -5,35 +5,27 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-
-import together from '/public/images/together/together.png'
 import bookmarketingservices1 from '/public/images/bookmarketingservices/1.png'
 import bookmarketingservices2 from '/public/images/bookmarketingservices/2.png'
 import bookmarketingservices3 from '/public/images/bookmarketingservices/3.png'
 import bookmarketingservices4 from '/public/images/bookmarketingservices/4.png'
-import bookmarketingprocess from '/public/images/whychoosebooks/bookmarketingprocess.png'
+
 
 // components
 import Banner from '../../components/Banner'
-import Whybookpublishing from '../../components/Whybookpublishing'
-import Partners from '../../components/Partners'
 import Dowecome from '../../components/Dowecome'
-import Signup from '../../components/Signup'
 import Stopworrying from '../../components/Stopworrying'
 import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-import Bookmarketingprojects from '../../components/Bookmarketingprojects'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
-import Whychoosebook from '../../components/Whychoosebook'
+
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -42,16 +34,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-
-  const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone color-blue hover' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone color-blue hover' href="#">self publishing</Link> .</span>;
-
-  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-
-  const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone color-blue hover'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <Link className='textdocationnone color-blue hover' href="/book-marketing-services"> Book Marketing Services </Link> <span className=''>That Saves You From Getting Lost In The Mix!</span>   </h1>;
-
-
-
 
   const bannertext = [
     {
@@ -68,54 +51,10 @@ const Bookpublishingservices = () => {
     }
   ]
 
-
-
-
-
-
-
-
-  const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone color-blue hover' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
-
-
-  const whybookpublishingdata = [
-
-    {
-      title: 'The awareness & trust capture:',
-      text: 'The key is to make your work known before you make it available. We keep them eager to earn their trust, all while making sure your marketing content aligns with what they seek.',
-      col6: '6',
-    },
-    {
-      title: 'The socially responsive bond',
-      text: 'There’s nothing more value-adding in book marketing than social media engagement. The seal-the-deal tip here is to know what they expect. The readers are on the constant quest for good literature; keep them hooked on your work with posts, comments, and tags.',
-      col6: '6',
-    },
-    {
-      title: 'The authenticity deal',
-      text: 'Of course, it doesn’t mean your book should have a distinctive idea, just the marketing strategy. The trick here is to utilize the digital marketing strategies effectively for reputation building—audience-focused and platform-oriented content.',
-      col6: '6',
-    },
-    {
-      title: 'The profit-generating finale',
-      text: 'Readers are quick and harsh assessors; they want to know why your work is worthy. Creating a focused book promotion plan is fundamental to a book’s success. Make the traction of your work the trump card for sales and profits amplification.',
-      col6: '6',
-    },
-
-  ]
-
-
-
-
   const geta = <span>Book Promotion Has Just Become Easier With The Global <Link className='color-blue textdocationnone hover fw700' href='/book-marketing-services'>Book Marketing Services.</Link></span>
 
 
-
-  const work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='https://bookwritingexperts.com/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
-
-
   const posdata = <span>It’s Time You Let The <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>Marketing Experts</Link> Take Charge Of Your  <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>Book Promotions!</Link> </span>
-
-
 
   const fine = [
 
@@ -295,34 +234,6 @@ const Bookpublishingservices = () => {
       </div>
 
 
-
-      {/* <Bookmarketingprojects /> */}
-
-
-
-      {/* Whybookpublishing */}
-      {/* <div className={styles.whybookpublishing}>
-        <Container>
-
-          <Row>
-            <h2 className='font50 fw700 color-blue t-center'>Why Book Marketing?</h2>
-            <p className='font15  textcolor t-center pb-5 mt-3'>
-              It is a toolset tailored to your requirements and approaches. Adjusting it to your budget, fine-tuning it to fit your audience preferences, and preparing it for maximized exposure. Unlike other book marketing companies, we capitalize on commercialization, ensuring the highest book sales & profits.
-            </p>
-
-          </Row>
-
-          <Row>
-            {whybookpublishingdata.map((item, i) =>
-              <Whybookpublishing key={i}
-                title={item.title}
-                text={item.text}
-                col6={item.col6}
-              />
-            )}
-          </Row>
-        </Container>
-      </div> */}
 
 
 
