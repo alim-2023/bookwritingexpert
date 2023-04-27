@@ -39,7 +39,7 @@ const Buildyourownidentity = () => {
 </Col>
 <Col md={6}>
 
-<Image src={buildyourownidentity} className='img-fluid' alt='book_writing_cube'></Image>
+<Image loading="lazy" src={buildyourownidentity} className='img-fluid' alt='book_writing_cube'></Image>
 
 </Col>
 <Col md={3}>

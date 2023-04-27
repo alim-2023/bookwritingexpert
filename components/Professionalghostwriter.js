@@ -12,7 +12,7 @@ const Professionalghostwriter = () => {
         <Container>
             <Row className={styles.writercenter}>
                 <Col md={6}>
-                    <Image alt="Book Writing Experts" src={professionalghostwriter} className='img-fluid' />
+                    <Image loading="lazy" alt="Book Writing Experts" src={professionalghostwriter} className='img-fluid' />
                 </Col>
                 <Col md={6}>
                 <h2>

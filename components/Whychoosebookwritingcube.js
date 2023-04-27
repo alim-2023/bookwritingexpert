@@ -18,7 +18,7 @@ const Whychoosebookwritingcube = (props) => {
                         <Col md={4}>
 
                             <div className={styles.image}>
-                                <Image src={props.image} className={`${styles.imgshowdow} img-fluid`} alt='book_writing_cube'></Image>
+                                <Image loading="lazy" src={props.image} className={`${styles.imgshowdow} img-fluid`} alt='book_writing_cube'></Image>
                             </div>
 
                         </Col>

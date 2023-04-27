@@ -155,7 +155,7 @@ const Makestoriesnew = (props) => {
             {makestoriesimg.map((item, i) => {
               return (
                 <div key={i}>
-                  <Image className='pt-3 img-fluid' src={item.storiesimg} alt='book_writing_cube'></Image>
+                  <Image loading="lazy" className='pt-3 img-fluid' src={item.storiesimg} alt='book_writing_cube'></Image>
                 </div>
               )
             })}
@@ -166,7 +166,7 @@ const Makestoriesnew = (props) => {
             {makestoriesimg2.map((item, i) => {
               return (
                 <div key={i}>
-                  <Image className='pt-3 img-fluid' src={item.storiesimg} alt='book_writing_cube'></Image>
+                  <Image loading="lazy" className='pt-3 img-fluid' src={item.storiesimg} alt='book_writing_cube'></Image>
                 </div>
               )
             })}

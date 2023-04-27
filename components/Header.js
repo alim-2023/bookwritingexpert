@@ -60,7 +60,7 @@ const Header = () => {
         <Navbar expand="lg">
           <Container className={styles.headerContainer}>
 
-            <Link href="/"><Image className={styles.logonew} src={logo}  priority={true} alt='logo'></Image> </Link>
+            <Link href="/"><Image loading="lazy" className={styles.logonew} src={logo}   alt='logo'></Image> </Link>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className={styles.navalign}>
@@ -76,35 +76,35 @@ const Header = () => {
                       </div>
                       <ul className={styles.border}>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                         <Image alt="Book Writing Experts" src={headericon1} className='img-fluid'></Image>
+                         <Image loading="lazy" alt="Book Writing Experts" src={headericon1} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/book-publishing-services">Book Publishing</Link>
                             <p>Get A Customized Solution By Best Publishing Services.</p>
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                        <Image alt="Book Writing Experts" src={headericon2} className='img-fluid'></Image>
+                        <Image loading="lazy" alt="Book Writing Experts" src={headericon2} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/book-promotion-services">Book Promotion</Link>
                             <p>Book Promotion Services Helping You Be A Cut Above The Rest!</p>
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                        <Image alt="Book Writing Experts" src={headericon3} className='img-fluid'></Image>
+                        <Image loading="lazy" alt="Book Writing Experts" src={headericon3} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/book-writing-services">Book Writing</Link>
                             <p>Get Connected To Your Readers With Ebook Writing Experts!</p>
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                        <Image alt="Book Writing Experts" src={headericon4} className='img-fluid'></Image>
+                        <Image loading="lazy" alt="Book Writing Experts" src={headericon4} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/book-editing-services">Book Editing</Link>
                             <p>Professional and unmatched Reliable Editing Solutions For All!</p>
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                        <Image alt="Book Writing Experts" src={headericon5} className='img-fluid'></Image>
+                        <Image loading="lazy" alt="Book Writing Experts" src={headericon5} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/book-marketing-services">Book Marketing</Link>
                             <p>Book Promotion Has Just Become Easier With The Global Book...</p>
@@ -118,35 +118,35 @@ const Header = () => {
                       </div>
                       <ul className={styles.border}>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                        <Image alt="Book Writing Experts" src={headericon6} className='img-fluid'></Image>
+                        <Image loading="lazy" alt="Book Writing Experts" src={headericon6} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/book-proofreading-services">Proofreading Services</Link>
                             <p>Professional Proofreading Services To Turn Your Words Into Masterpieces.</p>
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                        <Image alt="Book Writing Experts" src={headericon7} className='img-fluid'></Image>
+                        <Image loading="lazy" alt="Book Writing Experts" src={headericon7} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/ghostwriting-services">Ghostwriting</Link>
                             <p>Our Ghostwriting Team Has A Knack For Telling Stories.</p>
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                        <Image alt="Book Writing Experts" src={headericon8} className='img-fluid'></Image>
+                        <Image loading="lazy" alt="Book Writing Experts" src={headericon8} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/children-book-publication-services">Children Book Publication</Link>
                             <p>Your how’s, what’s, and why’s of children’s book Publishing, answered!</p>
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                        <Image alt="Book Writing Experts" src={headericon9} className='img-fluid'></Image>
+                        <Image loading="lazy" alt="Book Writing Experts" src={headericon9} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/children-book-illustrations-services">Children's Book Illustrations</Link>
                             <p>What Type Of Children's Book Illustrations You Need For Your Book!</p>
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
-                        <Image alt="Book Writing Experts" src={headericon10} className='img-fluid'></Image>
+                        <Image loading="lazy" alt="Book Writing Experts" src={headericon10} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/digital-marketing-services">Digital Marketing</Link>
                             <p>You Are One Step Closer To Displaying Your Writing Excellence...</p>
@@ -161,15 +161,15 @@ const Header = () => {
                       <ul className={styles.border}>
                         <li className={styles.navlinks}>
                           <div className={`${styles.megaImg} mt-3`}>
-                            <Image className='img-fluid'
+                            <Image loading="lazy" className='img-fluid'
                               src={avtar1}
                               alt='bookwritingexpert'
                             />
-                            <Image className='img-fluid'
+                            <Image loading="lazy" className='img-fluid'
                               src={avtar2}
                               alt='bookwritingexpert'
                             />
-                            <Image className='img-fluid'
+                            <Image loading="lazy" className='img-fluid'
                               src={avtar3}
                               alt='bookwritingexpert'
                             />

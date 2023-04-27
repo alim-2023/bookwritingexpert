@@ -84,9 +84,9 @@ const Bookmarketingprojects = () => {
 
               <div className={styles.mize1}>
 
-                <Image src={fb1} className='img-fluid' alt='book_writing_cube'></Image>
-                <Image src={fb2} className='img-fluid' alt='book_writing_cube'></Image>
-                <Image src={fb3} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb1} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb2} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb3} className='img-fluid' alt='book_writing_cube'></Image>
 
               </div>
 
@@ -111,9 +111,9 @@ const Bookmarketingprojects = () => {
 
               <div className={styles.mize1}>
 
-                <Image src={fb1} className='img-fluid' alt='book_writing_cube'></Image>
-                <Image src={fb2} className='img-fluid' alt='book_writing_cube'></Image>
-                <Image src={fb3} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb1} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb2} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb3} className='img-fluid' alt='book_writing_cube'></Image>
 
               </div>
             </div>
@@ -135,9 +135,9 @@ const Bookmarketingprojects = () => {
 
               <div className={styles.mize1}>
 
-                <Image src={fb1} className='img-fluid' alt='book_writing_cube'></Image>
-                <Image src={fb2} className='img-fluid' alt='book_writing_cube'></Image>
-                <Image src={fb3} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb1} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb2} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb3} className='img-fluid' alt='book_writing_cube'></Image>
 
               </div>
             </div>
@@ -158,9 +158,9 @@ const Bookmarketingprojects = () => {
 
               <div className={styles.mize1}>
 
-                <Image src={fb1} className='img-fluid' alt='book_writing_cube'></Image>
-                <Image src={fb2} className='img-fluid' alt='book_writing_cube'></Image>
-                <Image src={fb3} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb1} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb2} className='img-fluid' alt='book_writing_cube'></Image>
+                <Image loading="lazy" src={fb3} className='img-fluid' alt='book_writing_cube'></Image>
 
               </div>
             </div>

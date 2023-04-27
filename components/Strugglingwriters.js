@@ -111,60 +111,60 @@ const Strugglingwriters = () => {
                     <Col md={12}>
                         <Slider {...mockupslider} className='mt-5 mockupslider'>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover1} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover1} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover2} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover2} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover3} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover3} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover4} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover4} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover5} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover5} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover6} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover6} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover7} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover7} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover8} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover8} className='img-fluid' />
                             </div>
                         </Slider>
                         <Slider {...mockupslider2} className='mt-3 mockupslider'>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover9} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover9} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover10} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover10} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover11} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover11} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover12} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover12} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover13} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover13} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover14} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover14} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover15} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover15} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover16} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover16} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover17} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover17} className='img-fluid' />
                             </div>
                             <div>
-                                <Image alt="Book Writing Experts" src={cover18} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover18} className='img-fluid' />
                             </div>
                         </Slider>
                     </Col>

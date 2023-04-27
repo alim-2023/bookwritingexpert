@@ -140,7 +140,7 @@ const Homebanner = (props) => {
                                         <div className="col-12 col-lg-12">
 
                                             <div className={styles.homebannerlogo}>
-                                                <Image className={`${styles.homelogoimgnone} img-fluid mt-3`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
+                                                <Image loading="lazy" className={`${styles.homelogoimgnone} img-fluid mt-3`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
                                             </div>
                                         </div>
 
@@ -150,7 +150,7 @@ const Homebanner = (props) => {
                                                     {bannerlogo.map((item, i) => {
                                                         return (
                                                             <div key={i}>
-                                                                <Image className='pt-3 img-fluid brandnewlogo' src={item.banlogo} alt='book_writing_cube'></Image>
+                                                                <Image loading="lazy" className='pt-3 img-fluid brandnewlogo' src={item.banlogo} alt='book_writing_cube'></Image>
                                                             </div>
                                                         )
                                                     })}
