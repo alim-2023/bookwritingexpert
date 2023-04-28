@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import axios from "axios"; 
 import { useState } from "react";
-
+import Router from 'next/router'
 
 const Freequote = (props) => {
 
@@ -29,25 +29,16 @@ const Freequote = (props) => {
 
         setScore('Wating For Send Data');
 
-        try {
-            // make axios post request
-            const response = await axios({
-              method: "post",
-              url: "https://httpbin.org/post",
-              data: JSONdata,
-            });
-           
+        axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+          .then((response) => {
+            console.log(response.data);
             setScore('Thank You');
-            window.location = "/thank-you"
+          });
   
-          } 
-          catch(error) {
-            console.log(error)
-          }
-
-    
-
-    
+           const {pathname} = Router
+           if(pathname == pathname ){
+              Router.push('/thank-you')
+           }    
 
  }
 
