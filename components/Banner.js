@@ -7,11 +7,9 @@ import Slider from 'react-slick'
 import Modal from 'react-bootstrap/Modal'
 import { useState } from 'react';
 import { BsFillPlayFill } from 'react-icons/bs'
-import Button from 'react-bootstrap'
 
 // images
 import banslider1 from '../public/images/bannerimages/banslider1.png'
-import banslider2 from '../public/images/bannerimages/banslider2.png'
 import banslider3 from '../public/images/bannerimages/banslider3.png'
 import banslider4 from '../public/images/bannerimages/banslider4.png'
 
@@ -21,11 +19,9 @@ const Banner = (props) => {
     [
 
       { banlogo: banslider1 },
-      // { banlogo:banslider2 },
       { banlogo: banslider3 },
       { banlogo: banslider4 },
       { banlogo: banslider1 },
-      // { banlogo:banslider2 },
       { banlogo: banslider3 },
       { banlogo: banslider4 },
 

@@ -77,10 +77,10 @@ const Childrenbookpublicationservices = () => {
 
   const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
 
-  const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
-  const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+
+
   const dateset = <span className='fw500'>Let’s <Link className='textdocationnone color-blue hover fw700' href='/children-book-publication-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
 
   const reasons = [

@@ -2,7 +2,6 @@ import React from 'react'
 import styles from '@/styles/Comprehensive.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
-
 import comprehensive1 from '../public/images/comprehensive/1.png'
 import comprehensive2 from '../public/images/comprehensive/2.png'
 import comprehensive3 from '../public/images/comprehensive/3.png'

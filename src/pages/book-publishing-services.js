@@ -5,9 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import mission1 from '/public/images/mission/1.png'
-import mission2 from '/public/images/mission/2.png'
-import mission3 from '/public/images/mission/3.png'
 import typeofbooks from '/public/images/selfpublishingservices/1.jpg'
 import copy from '/public/images/selfpublishingservices/2.jpg'
 import marketyourbook from '/public/images/selfpublishingservices/3.jpg'
@@ -61,82 +58,10 @@ const Bookpublishingservices = () => {
 
 
 
-
-
-
-  const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone color-blue hover' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
-
-
-  const whybookpublishingdata = [
-
-    {
-      title: 'How can I publish my book?',
-      text: 'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
-      col6: '6',
-    },
-    {
-      title: 'What’s different about Self Publishing?',
-      text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
-      col6: '6',
-    },
-    {
-      title: 'How much does it cost to have a book published?',
-      text: 'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
-      col6: '6',
-    },
-    {
-      title: 'Can I publish on different publishing platforms?',
-      text: datapost,
-      col6: '6',
-    },
-
-  ]
-
-
-
-
-
   const geta = <span>Get A Customized Solution By <Link className='color-blue fw700 hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
 
 
   const work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
-
-
-  const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
-
-
-
-  const fine = [
-
-    {
-      img: mission1,
-      title: 'Outstanding Marketing Campaigns',
-      text: 'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
-      class: 'fintop',
-
-
-    },
-
-    {
-      img: mission2,
-      title: 'Outstanding Marketing Campaigns',
-      text: 'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
-      class: 'fintop',
-
-
-    },
-
-    {
-      img: mission3,
-      title: 'Outstanding Marketing Campaigns',
-      text: 'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
-      class: 'fintop',
-
-
-    },
-
-
-  ]
 
   const dateset = <span className='fw500'>Let’s <Link className='textdocationnone fw700 color-blue hover' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
 
@@ -205,12 +130,6 @@ const Bookpublishingservices = () => {
 
       />
 
-      {/* <Stopworrying
-        title='Stop worrying about publishing books!'
-        subtitle={posdata}
-        btn1='Get a free Proposal'
-        btn2='Talk to an expert'
-      /> */}
 
       {/* Makestories */}
       <div className='dataset sliderImg'>
@@ -258,20 +177,6 @@ const Bookpublishingservices = () => {
           btn2='Talk to an expert'
         />
       </div>
-
-
-
-      {/* Aspiring */}
-      {/* <div className='dataset'>
-      <Aspiring
-        title={dateset}
-        text='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
-        subtext='Trust the marketing professionals for it, do not risk it!'
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
-        img={together}
-      />
-</div> */}
 
 
 

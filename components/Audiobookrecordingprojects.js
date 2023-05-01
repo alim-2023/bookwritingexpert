@@ -3,12 +3,9 @@ import styles from '@/styles/Audiobookrecordingprojects.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Slider from 'react-slick'
 import Image from 'next/image'
-
-
 // slick css
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import { GrFormPrevious } from 'react-icons/gr'
 import { GrFormNext } from 'react-icons/gr'
 

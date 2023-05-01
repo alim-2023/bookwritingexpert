@@ -5,15 +5,10 @@ import styles from '@/styles/Stillonthefence.module.css'
 
 const Stillonthefence = (props) => {
 
+return (
 
-
-
-  return (
-    <>
-      
-
+ <>    
 {props.col6 ? 
-
 <Col md={6}>
    <div className={styles[props.classnumber]}>
         <h5 className="font20 fw700 text-white font-f">{props.title}</h5>
@@ -21,10 +16,7 @@ const Stillonthefence = (props) => {
       
    </div>
 </Col>
-
-
 : 
-
 <Col md={4}>
    <div  className={styles[props.classnumber]}>
         <h5 className="font30 fw500 color-white font-f t-center">{props.title}</h5>
@@ -32,16 +24,8 @@ const Stillonthefence = (props) => {
       
    </div>
 </Col>
-
-
-
-
-
 }
-
-
-
-    </>
+</>
   )
 }
 

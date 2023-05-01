@@ -2,17 +2,12 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Onestepsolutions.module.css'
 import Link from 'next/link'
-
 import Image from 'next/image'
 // slick css
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
-
-
 // images
-
 import book100 from '../public/images/thousandsofstruggling/Book-Mockup.png'
 import book101 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
 import book102 from '../public/images/thousandsofstruggling/Book-Mockup3.png'

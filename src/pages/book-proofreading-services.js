@@ -5,7 +5,6 @@ import { Container,Row } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
@@ -48,40 +47,6 @@ const Bookpublishingservices = () => {
         }
       ]
 
-
-
-
-    
-   
-      
-      
-      const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone color-blue hover' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
-      
-      
-      const whybookpublishingdata = [
-
-        {
-          title: 'How Much Does A Book Proofreading Service Cost?',
-          text:  'The cost of the best proofreading services depends on the length of your manuscript and the level of editing needed.',
-          col6: '6',
-        },
-        {
-          title: 'What Happens During The Book Proofreading Process?',
-          text: 'During the book proofreading process, the editor will carefully read through your manuscript and make corrections as needed. They will also provide feedback on elements such as plot, character development, and pacing.',
-          col6: '6',
-        },
-        {
-        title:'How Long Does It Take To Complete A Book Proofreading?',
-        text:'The length of time it takes to complete a book proofreading depends on the length of your manuscript and the level of editing needed.',
-        col6: '6',
-        },
-        {
-        title:'What Are The Benefits Of Using A Book Proofreading Service?',
-        text: 'The benefits of using a book proofreading service include having a professionally edited manuscript, catching errors before publication, and improving the overall quality of your book.',
-        col6: '6',
-        },
-        
-        ]
 
 
       const reasons = [
@@ -130,11 +95,6 @@ const Bookpublishingservices = () => {
 
 const  geta = <span> <Link className='color-blue textdocationnone hover fw700' href='/book-proofreading-services'>Professional Proofreading Services</Link> To Turn Your Words Into Masterpieces</span>
 
-
-
-const  work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='https://bookwritingexperts.com/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
-
-
 const posdata = <span>Adding Value To Your Masterpiece With Our Exceptional  <Link className='textdocationnone color-blue fw700 hover' href='/book-proofreading-services'>Proofreading Services!</Link> </span>
 
 
@@ -174,7 +134,7 @@ const fine = [
 const dateset = <span className='fw500'>Need An Expert For Your <br></br><Link className='textdocationnone color-blue hover fw700' href='/book-proofreading-services'> Book Promotions? </Link>  </span>
 
 
-const proofreading = <Link className='textdocationnone colortextgrey hover' href='/book-proofreading-services'>Proofreading</Link>
+
 
   return (
    <>

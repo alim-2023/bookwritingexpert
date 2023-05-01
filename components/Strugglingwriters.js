@@ -4,9 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
 import Slider from 'react-slick'
 
-
-
-
 // images
 import cover1 from '../public/images/thousandsofstruggling/Book-Mockup.png'
 import cover2 from '../public/images/thousandsofstruggling/Book-Mockup2.png'

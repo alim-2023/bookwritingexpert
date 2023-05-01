@@ -2,22 +2,18 @@ import React, { useState } from 'react'
 import styles from '@/styles/Header.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'next/image'
 import logo from '../public/images/logo.svg';
 
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { IoMdArrowDropdown } from 'react-icons/io';
-import { FaBookOpen, FaLocationArrow } from 'react-icons/fa';
+import { FaLocationArrow } from 'react-icons/fa';
 import Sticky from '../components/Sticky';
-
 import avtar1 from '../public/images/testimonial/avatar-1.png'
 import avtar2 from '../public/images/testimonial/avatar-2.png'
 import avtar3 from '../public/images/testimonial/avatar-3.png'
-
 import headericon1 from '../public/images/headericon/1.png'
 import headericon2 from '../public/images/headericon/2.png'
 import headericon3 from '../public/images/headericon/3.png'
@@ -28,10 +24,7 @@ import headericon7 from '../public/images/headericon/7.png'
 import headericon8 from '../public/images/headericon/8.png'
 import headericon9 from '../public/images/headericon/9.png'
 import headericon10 from '../public/images/headericon/10.png'
-
 import Modal from 'react-bootstrap/Modal';
-
-import Button from 'react-bootstrap/Button';
 import Getstarted from './Getstarted'
 
 

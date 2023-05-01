@@ -3,7 +3,6 @@ import { Container,Row,Col } from 'react-bootstrap'
 import styles from '@/styles/Professionalghostwriter.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-
 import professionalghostwriter from '/public/images/professionalghostwriter/professionalghostwriter.webp'
 
 const Professionalghostwriter = () => {

@@ -5,7 +5,6 @@ import { Container, Row } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
@@ -53,49 +52,7 @@ const Bookpublishingservices = () => {
   ]
 
 
-
-
-
-
-
-
-  const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
-
-
-  const whybookpublishingdata = [
-
-    {
-      title: 'Why a book writer when I can write a book myself?',
-      text: 'Of course, you can write your book on your own, and we are sure that you would do a stellar job with it. But are you sure that you wouldn’t appreciate an extra helping hand? A helping hand from a professional Book writer who has been doing this for longer than you had the idea of writing your own book. Our book writing services are a collaborative process between the client and our team where we merely help our client write the book that would sell well and is up to the industry’s standards. So I ask you again, won’t a professional know how to do this better?',
-      col6: '6',
-    },
-    {
-      title: 'How strict are you with your confidentiality?',
-      text: 'We are very strict and thorough when it comes to protecting the identity of our clients and our ghostwriters. We make our Book ghostwriters sign an NDA where they aren’t allowed to take any material out of the office premises or tell anyone anything about the kind of project they are working on to protect our client’s identity. So many years in book writing services, and we have never had a scandal when it comes to protecting the anonymity of our client. As professional writing services, we maintain a very ethical decorum and play by the rules of the literary world.',
-      col6: '6',
-    },
-    {
-      title: 'Such book editing services, are they very expensive?',
-      text: 'It doesn’t have to be! We have various packages, depending upon the nature of your project and what kind of package would suit it better. And don’t worry, we have a very flexible mode of payment that wouldn’t cost you an arm and a leg.',
-      col6: '6',
-    },
-    {
-      title: 'What genres do you cover?',
-      text: 'All! We cover all genres from fiction to autobiographies, fantasy thrillers, to children’s literature. Our book writing services cover all genres and all types of work f literature. We have an arsenal of teams dedicated to numerous genres, and all of them are tremendous at their job.',
-      col6: '6',
-    },
-
-  ]
-
-
-
-
-
   const geta = <span>Get Connected To Your Readers With <Link className='color-blue fw700 textdocationnone hover' href='/book-writing-services'> Book Writing Experts! <br></br> </Link></span>
-
-
-
-
 
   const posdata = <span>What Is Stopping You From Availing The Most <Link className='textdocationnone fw700 color-blue hover' href='/book-writing-services'>Affordable Books Writing Services? </Link> </span>
 
@@ -181,12 +138,9 @@ const Bookpublishingservices = () => {
 
   ]
 
-
   const text = <span>We want to help you shine your Book and make it compelling for readers, so we'll work with the most important ideas. You have an option of doing a one-hour interview where any challenging or confusing topics will be bouncing off us before they're even published.</span>;
 
-  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
 
-  const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
   return (

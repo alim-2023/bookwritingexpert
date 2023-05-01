@@ -3,20 +3,13 @@ import styles from '@/styles/Makestories.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
 import Image from 'next/image'
 
-
 // images
-
 import makestories1 from '../public/images/buildingyour/1.jpg'
 import makestories2 from '../public/images/buildingyour/2.jpg'
 import makestories3 from '../public/images/buildingyour/3.jpg'
 import makestories4 from '../public/images/buildingyour/4.jpg'
 
-
-
-
-
 // slick css
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'

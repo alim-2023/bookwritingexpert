@@ -6,17 +6,10 @@ import avtar1 from '../public/images/testimonial/avatar-1.png'
 import avtar2 from '../public/images/testimonial/avatar-2.png'
 import avtar3 from '../public/images/testimonial/avatar-3.png'
 
-
-
 // footer icons
 import { AiFillStar } from 'react-icons/ai';
 
-// images
-import whatour from '../public/images/whatourclients/whatour.png'
-
-
 // slick css
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'

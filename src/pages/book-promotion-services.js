@@ -48,51 +48,7 @@ const Bookpublishingservices = () => {
     }
   ]
 
-
-
-
-
-
-
-
-  const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone color-blue hover' href="/book-publishing-services">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
-
-
-  const whybookpublishingdata = [
-
-    {
-      title: 'Why Do I Need Book Promotion Services?',
-      text: 'There are a lot of reasons why you might need book promotion services. Perhaps you are self-publishing and want to make sure your book gets seen by as many people as possible. Or maybe you have got a traditional publisher, but they are not doing much to promote your book. In either case, working with a book promotion company can help you get your book in front of more readers.',
-      col6: '6',
-    },
-    {
-      title: 'What Kind of Services Do Book Promotion Companies Offer?',
-      text: 'Book promotion companies offer a wide range of services, from helping you create a social media campaign to organizing a book tour. They can also provide more general marketing and publicity assistance, such as drafting press releases, working with book reviewers, or kindle book promotion services for authors.',
-      col6: '6',
-    },
-    {
-      title: 'How Much Do Book Promotion Services Cost?',
-      text: 'The cost of book promotion services varies depending on the company you work with and the scope of the project. In general, you can expect to pay several hundred dollars for basic services and upwards of a few thousand for more comprehensive campaigns.',
-      col6: '6',
-    },
-    {
-      title: 'How Does Book Promotion Help Businesses?',
-      text: 'Book promotion can help businesses in many ways. It can generate awareness for a companys products or services, help create or increase brand recognition, and even drive sales. Promotions can be targeted to specific audiences and can take many forms, from online ads and social media campaigns to in-person events and personal interactions. When done correctly, book promotion can be an extremely effective marketing tool. It can reach a wide audience, build interest and excitement, and ultimately help boost a companys bottom line. With so much potential, it is no wonder that businesses of all sizes are turning to book promotion to help them grow and succeed.',
-      col6: '6',
-    },
-
-  ]
-
-
-
-
-
   const geta = <span><Link className='color-blue textdocationnone hover fw700' href='/book-promotion-services/'>Book Promotion Services</Link> Helping You Be A Cut Above The Rest!</span>
-
-
-
-  const work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
-
 
   const posdata = <span>It’s Time You Let The Marketing Experts Take Charge Of Your  <Link className='textdocationnone color-blue hover fw700' href='/book-promotion-services/'>Book Promotions!</Link> </span>
 

@@ -3,13 +3,11 @@ import styles from '@/styles/Partners.module.css'
 import Image from 'next/image'
 
 // slick css
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 
 // images
-
 import partnerslogo1 from '../public/images/partnerslogo/partnerslogo1.png'
 import partnerslogo2 from '../public/images/partnerslogo/partnerslogo2.png'
 import partnerslogo8 from '../public/images/partnerslogo/partnerslogo8.png'
@@ -21,7 +19,6 @@ import partnerslogo12 from '../public/images/partnerslogo/partnerslogo12.png'
 
 const partnerdata =
 [
-
   { img1:partnerslogo1 },
   { img1:partnerslogo2 },
   { img1:partnerslogo8 },
@@ -29,7 +26,6 @@ const partnerdata =
   { img1:partnerslogo10 },
   { img1:partnerslogo11 },
   { img1:partnerslogo12 },
-
 ];
 
 
