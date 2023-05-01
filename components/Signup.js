@@ -4,54 +4,54 @@ import Image from 'next/image'
 import signup from '/public/images/signup/signup.webp'
 import { useState } from "react";
 import Router from 'next/router'
-import axios from "axios"; 
+import axios from "axios";
 
 const Signup = (props) => {
 
   const [score, setScore] = useState('SUBMIT');
 
   const handleSubmit = async (event) => {
-    
-      event.preventDefault()
-  
 
-      const data = {
-        first: event.target.first.value,
-        email: event.target.last.value,
-        phone: event.target.phone.value,
-        message: event.target.message.value,
-      }
-  
-      
+    event.preventDefault()
 
-      const JSONdata = JSON.stringify(data)
 
-      setScore('Wating For Send Data');
+    const data = {
+      first: event.target.first.value,
+      email: event.target.last.value,
+      phone: event.target.phone.value,
+      message: event.target.message.value,
+    }
 
-      axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-        .then((response) => {
-          console.log(response.data);
-          setScore('Thank You');
-        });
 
-         const {pathname} = Router
-         if(pathname == pathname ){
-            Router.push('/thank-you')
-         }    
 
-}
+    const JSONdata = JSON.stringify(data)
+
+    setScore('Wating For Send Data');
+
+    axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+      .then((response) => {
+        console.log(response.data);
+        setScore('Thank You');
+      });
+
+    const { pathname } = Router
+    if (pathname == pathname) {
+      Router.push('/thank-you')
+    }
+
+  }
 
 
   return (
     <div className={styles[props.bannershome]}>
       <form onSubmit={handleSubmit}>
-          <h4 className={styles.getup}> <span className={styles.offfree}> <span className={styles[props.contacttext]}>Contact</span> Form</span> </h4>
-          <p className='font-f t-center'>It was popularised in the 1960s with the release of Letraset sheets</p>
-          <input type="text" className={styles.nametext} required name="first" placeholder="Full Name..." />
-          <input type="email" className={styles.nametext} required name="last" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter your Email Address" />
-          <input type="number" className={styles.nametext} required name="phone" placeholder="Phone Number" />
-          <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Enter a brief description about your project"></textarea>
-          <button className={styles.freebtn} type="submit">{score} </button>
+        <h4 className={styles.getup}> <span className={styles.offfree}> <span className={styles[props.contacttext]}>Contact</span> Form</span> </h4>
+        <p className='font-f t-center'>It was popularised in the 1960s with the release of Letraset sheets</p>
+        <input type="text" className={styles.nametext} required name="first" placeholder="Full Name..." />
+        <input type="email" className={styles.nametext} required name="last" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter your Email Address" />
+        <input type="number" className={styles.nametext} required name="phone" placeholder="Phone Number" />
+        <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Enter a brief description about your project"></textarea>
+        <button className={styles.freebtn} type="submit">{score} </button>
       </form>
     </div>
   )

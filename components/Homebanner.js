@@ -21,11 +21,9 @@ const Homebanner = (props) => {
         [
 
             { banlogo: banslider1 },
-            // { banlogo:banslider2 },
             { banlogo: banslider3 },
             { banlogo: banslider4 },
             { banlogo: banslider1 },
-            // { banlogo:banslider2 },
             { banlogo: banslider3 },
             { banlogo: banslider4 },
 
@@ -98,16 +96,6 @@ const Homebanner = (props) => {
                                     :
                                     ''
                                 }
-
-                              
-
-                              
-
-                             
-
-
-                          
-
                                 {props.discuss ?
                                     <div className='mt-5'>
                                         <Link className={styles.discuss} href="#">{props.discuss}</Link>

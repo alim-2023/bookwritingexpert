@@ -1,21 +1,18 @@
 import React from 'react'
-
 // css
 import styles from '@/styles/Ourprocess.module.css'
 import { Container,Row,Col } from 'react-bootstrap'
-import Image from 'next/image'
-
-// // images
-// import linedesign from '../public/images/linedesign/linedesign.png'
 
 const Ourprocess = (props) => {
+
+
   return (
     <div className={styles.ourprocess}>
         <Container>
             <Row>
                 <Col md={11} className='mx-auto'>
                 { props.title2 ?
-                    <h2 className='font50 fw700 t-center mb-2 color-blue mb-5'> {props.title2} </h2>
+                    <h2 className='font50 fw700 t-center mb-2 color-blue mb-5'> {props.title2}  </h2>
                     : '' }
 
               { props.title ?

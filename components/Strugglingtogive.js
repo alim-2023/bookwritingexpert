@@ -2,9 +2,6 @@ import React from 'react'
 import styles from '@/styles/Strugglingtogive.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import { TiTick } from 'react-icons/ti'
-
-import newview from '../public/images/strugglingtogive/new-image-one.webp'
-import Image from 'next/image'
 import Signup from './Signup'
 
 const Strugglingtogive = (props) => {

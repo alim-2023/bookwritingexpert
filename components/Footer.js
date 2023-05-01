@@ -3,14 +3,10 @@ import { Container, Row , Col } from 'react-bootstrap'
 import styles from '@/styles/Footer.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-
-
 // images 
 import footerlogo from '../public/images/logo.svg'
 import protectedlogo from '../public/images/footer/protected.png'
-import bbb from '../public/images/footer/bbb.png'
 import visa from '../public/images/footer/visa.png'
-
 import logo1 from '../public/images/footer/logo1.png'
 import logo2 from '../public/images/footer/logo2.png'
 import logo3 from '../public/images/footer/logo3.png'
@@ -23,16 +19,11 @@ import logo9 from '../public/images/footer/logo9.png'
 import logo10 from '../public/images/footer/logo10.png'
 import logo11 from '../public/images/footer/logo11.png'
 import logo12 from '../public/images/footer/logo12.png'
-
-
 import logonew1 from '../public/images/footer/logonew1.png'
 import logonew2 from '../public/images/footer/logonew2.png'
 import logonew3 from '../public/images/footer/logonew3.png'
 import logonew4 from '../public/images/footer/logonew4.png'
 import logonew5 from '../public/images/footer/logonew5.png'
-
-
-
 // footer icons
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
@@ -42,9 +33,7 @@ import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { BsYoutube } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
-
 // slick css
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'

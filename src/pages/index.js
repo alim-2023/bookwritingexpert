@@ -18,9 +18,6 @@ import Strugglingtogive from '../../components/Strugglingtogive'
 import Strugglingwriters from '../../components/Strugglingwriters'
 import Onestepsolutions from '../../components/Onestepsolutions'
 
-
-
-
 export default function Home() {
 
   const exprtSpan = <span className='fw500 font50 color-white font-f t-center font-f mb-4'><span className='color-blue fw700'><Link className='dblockmobile color-blue hover textdocationnone' href="/">Book Writing Experts</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile color-blue hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
@@ -37,9 +34,6 @@ export default function Home() {
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'banner',
-
-
-
     }
   ]
   return (
@@ -128,9 +122,9 @@ export default function Home() {
           discuss="LET'S DISCUSS"
         />
 
-        
+
         <div className='sliderImg2'>
-        <Onestepsolutions />
+          <Onestepsolutions />
         </div>
 
 

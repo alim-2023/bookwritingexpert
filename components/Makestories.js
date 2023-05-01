@@ -3,9 +3,7 @@ import styles from '@/styles/Makestories.module.css'
 import { Container } from 'react-bootstrap'
 import Image from 'next/image'
 
-
 // images
-
 import makestories1 from '../public/images/makestories/makestories1.png'
 import makestories2 from '../public/images/makestories/makestories2.png'
 import makestories3 from '../public/images/makestories/makestories3.png'
@@ -13,10 +11,7 @@ import makestories4 from '../public/images/makestories/makestories4.png'
 import makestories5 from '../public/images/makestories/makestories5.png'
 import makestories6 from '../public/images/makestories/makestories6.png'
 
-
-
 // slick css
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'

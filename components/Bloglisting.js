@@ -3,7 +3,6 @@ import { Container,Row,Col } from 'react-bootstrap'
 import styles from '@/styles/Blog.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-
 import blogimage4 from '/public/images/blogimage/4.png'
 import blogimage5 from '/public/images/blogimage/5.png'
 import blogimage6 from '/public/images/blogimage/6.png'

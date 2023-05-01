@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '@/styles/Getstarted.module.css'
 import Link from 'next/link'
-
 import axios from "axios";
 import { useState } from "react";
 import { Row, Col } from 'react-bootstrap';
