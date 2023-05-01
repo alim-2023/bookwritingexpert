@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import { Container,Row,Col } from 'react-bootstrap'
+import { Container,Row } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
@@ -10,23 +10,16 @@ import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
 
-import together from '/public/images/together/together.png'
-import thisishowyouget from '/public/images/whychoosebooks/thisishowyouget.png'
-
 // components
 import Banner from '../../components/Banner'
-import Whybookpublishing from '../../components/Whybookpublishing'
-import Partners from '../../components/Partners'
 import Dowecome from '../../components/Dowecome'
-import Signup from '../../components/Signup'
 import Stopworrying from '../../components/Stopworrying'
 import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
-import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
-import Whychoosebook from '../../components/Whychoosebook'
+
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 

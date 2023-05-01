@@ -1,38 +1,22 @@
 import React from 'react'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Head from 'next/head'
-import stepstoour from '/public/images/whychoosebooks/stepstoour.png'
-
 import Banner from '../../components/Banner'
-import Partners from '../../components/Partners'
-
 import Makestoriesnew from '../../components/Makestoriesnew'
-import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
-import Whychoosebook from '../../components/Whychoosebook'
 import Dowecome from '../../components/Dowecome'
-import Customersatisfaction from '../../components/Customersatisfaction'
-
 import Childrenbook from '../../components/Childrenbook'
-
-import ipublishmybook from '/public/images/ipublishmybook/ipublishmybook.png'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-
 import Stopworrying from '../../components/Stopworrying'
 import Finetoothedbook from '../../components/Finetoothedbook'
 import Ourprocess from '../../components/Ourprocess'
-import together from '/public/images/together/together.png'
 import Whatourclients from '../../components/Whatourclients'
 import Selfpublishing from '../../components/Selfpublishing'
 import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
-
-import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
-import { Container, Row, Col } from 'react-bootstrap'
-import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
-import Whybookpublishing from '../../components/Whybookpublishing'
+import { Container, Row } from 'react-bootstrap'
 import styles from '@/styles/Whybookpublishing.module.css'
 
 const Childrenbookillustrationsservices = () => {

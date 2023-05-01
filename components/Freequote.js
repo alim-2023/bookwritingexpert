@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '@/styles/Freequote.module.css'
 import Link from 'next/link'
-
 import axios from "axios"; 
 import { useState } from "react";
 import Router from 'next/router'

@@ -1,50 +1,84 @@
 import React from 'react'
 import styles from '@/styles/Requestafreequote.module.css'
-import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Form } from 'react-bootstrap'
-import Button from 'react-bootstrap/Button';
 import Link from 'next/link'
-import axios from "axios";
 import { useState } from "react";
 // footer icons
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import Router from 'next/router'
+// import {FormEvent, useState} from "react";
+// import { NextPage } from 'next'
 
 
 const Requestafreequote = () => {
 
 
-  const [score, setScore] = useState('Get a Quote');
+  // const [score, setScore] = useState('Get a Quote');
+  // const handleSubmit = async (event) => {
 
-  const handleSubmit = async (event) => {
-
-    event.preventDefault()
-
+  //   event.preventDefault()
 
 
-    const data = {
-      first: event.target.first.value,
-      email: event.target.last.value,
-      phone: event.target.phone.value,
-    }
+
+  //   const data = {
+  //     first: event.target.first.value,
+  //     email: event.target.last.value,
+  //     phone: event.target.phone.value,
+  //   }
 
 
-    const JSONdata = JSON.stringify(data)
+  //   const JSONdata = JSON.stringify(data)
 
+  //   setScore('Wating For Send Data');
+
+  //     axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+  //       .then((response) => {
+  //         console.log(response.data);
+  //         setScore('Thank You');
+  //       });
+
+  //        const {pathname} = Router
+  //        if(pathname == pathname ){
+  //           Router.push('/thank-you')
+  //        }
+  // }
+
+  const [score, setScore] = useState('Submit');
+  const [first, setName] = useState('');
+  const [last, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+
+  
+
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    let bodyContent = JSON.stringify({
+      name: e.target.name.value,
+      email:  e.target.email.value,
+      phone: e.target.phone.value,
+    });
+    
+    
     setScore('Wating For Send Data');
-
-      axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-        .then((response) => {
-          console.log(response.data);
-          setScore('Thank You');
-        });
-
-         const {pathname} = Router
-         if(pathname == pathname ){
-            Router.push('/thank-you')
-         }
+    let response = await fetch("http://localhost:3000/api/submit", { 
+      method: "POST",
+      body: bodyContent
+    });
+    
+    let data = await response.text();
+    console.log(data);
+  
+  
+    
+    
+    e.target.reset();
+    setScore('Thank You');
+    // const { pathname } = Router
+    // if (pathname == pathname) {
+    //   Router.push('/thank-you')
+    // }
   }
 
   return (
@@ -57,11 +91,13 @@ const Requestafreequote = () => {
 
           <form className={styles.formalign} onSubmit={handleSubmit}>
             <Row>
-              <Col md={4}> <input type="text" className={styles.formfree} required name="first" placeholder='Name' /></Col>
-              <Col md={4}>  <input type="text" className={styles.formfree} required name="last" placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></Col>
-              <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /> </Col>
+              <Col md={4}> <input type="text" className={styles.formfree} required name="name" placeholder='Name' onChange={e => setName(e.target.value)} /></Col>
+
+              <Col md={4}>  <input type="email" className={styles.formfree} required name="email" placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" onChange={e => setEmail(e.target.value)} /></Col>
+
+              <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" onChange={e => setPhone(e.target.value)} /> </Col>
             </Row>
-            <button className={styles.freebtn} type="submit"> {score}  </button>
+            <button className={styles.freebtn} type="submit"> {score} </button>
           </form>
 
           <Row className={styles.leftemail}>

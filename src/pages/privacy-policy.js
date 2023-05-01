@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '@/styles/Termsofuse.module.css'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
 import { Container, Row, Col } from 'react-bootstrap'

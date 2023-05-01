@@ -5,22 +5,14 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-
-import together from '/public/images/together/together.png'
-import Whychoosebook from '../../components/Whychoosebook'
-import bookwritingprocess from '/public/images/whychoosebooks/bookwritingprocess.png'
 import bookmarketingservices3 from '/public/images/bookmarketingservices/3.png'
 
 // components
 import Banner from '../../components/Banner'
-import Whybookpublishing from '../../components/Whybookpublishing'
-import Partners from '../../components/Partners'
 import Dowecome from '../../components/Dowecome'
-import Signup from '../../components/Signup'
 import Stopworrying from '../../components/Stopworrying'
 import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
@@ -28,7 +20,6 @@ import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
 import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
-import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'

@@ -5,35 +5,23 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-
-
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-
-import drivethebook1 from '/public/images/whychoosebooks/bookeditingprocess.png'
-
-import together from '/public/images/together/together.png'
 import typeofbooks from '/public/images/selfpublishingservices/1.jpg'
 import copy from '/public/images/selfpublishingservices/2.jpg'
 import marketyourbook from '/public/images/selfpublishingservices/3.jpg'
 import publishmybook from '/public/images/selfpublishingservices/4.jpg'
-// import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
-// import marketyourbook from '/public/images/selfpublishingservices/marketyourbook.jpg'
+
 
 // components
 import Banner from '../../components/Banner'
-import Whybookpublishing from '../../components/Whybookpublishing'
-import Partners from '../../components/Partners'
 import Dowecome from '../../components/Dowecome'
-import Signup from '../../components/Signup'
 import Stopworrying from '../../components/Stopworrying'
-import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
 import Makestoriesnew from '../../components/Makestoriesnew'
-import Whychoosebook from '../../components/Whychoosebook'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Selfpublishing from '../../components/Selfpublishing'
 import Lululogos from '../../components/Lululogos'
