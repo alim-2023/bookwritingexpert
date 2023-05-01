@@ -8,7 +8,6 @@ import Aspiring from '../../components/Aspiring'
 import Dowecome from '../../components/Dowecome'
 import youareonestepcloserto from '/public/images/youareonestepcloserto/down2.jpg'
 import Whatourclients from '../../components/Whatourclients'
-import Link from 'next/link'
 import Buildyourownidentity from '../../components/Buildyourownidentity'
 import Companypull from '../../components/Companypull'
 import Buildingyour from '../../components/Buildingyour'
@@ -35,40 +34,13 @@ const Digitalmarketingservices = () => {
     }
   ]
 
-  const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
-
-  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-
-  const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
-  const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
 
 
-  const whybookpublishingdata = [
 
-    {
-      title: 'How can I publish my book?',
-      text: 'The first thing you need to do after making up your mind about publishing a book is to find a publishing house. There are several types of publications including online publication, paperback or hardcopy publishing as well as self Publication. You need to select the kind of publication you want and then work with the publisher company to assist you with the process.',
-      col6: '6',
-    },
-    {
-      title: 'What’s different about Self Publishing?',
-      text: 'By self publishing a book, you get full authority of your work including the management and other processes of publishing like editing, cover design and even marketing strategies. You have to pay a certain amount as fee and you get to call the shots! At Book Writing Cube, different teams designated for different kinds of publications.',
-      col6: '6',
-    },
-    {
-      title: 'How much does it cost to have a book published?',
-      text: 'If you’re worried about the initial investment you have to put in order to get your book published, don’t fret too much! There are various packages available from which you can select the one that works for you. We work with every kind of budget to give your clients the best experience and help them publish their work for the world to read!',
-      col6: '6',
-    },
-    {
-      title: 'Can I publish on different publishing platforms?',
-      text: datapost,
-      col6: '6',
-    },
 
-  ]
+
 
 
 

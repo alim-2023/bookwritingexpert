@@ -1,13 +1,11 @@
 import React from 'react'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
-import Partners from '../../components/Partners'
 import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
 import Head from 'next/head'
 import Makestories from '../../components/Makestories'
 import Lululogos from '../../components/Lululogos'
-import Image from 'next/image'
 import howdoimg from '/public/images/howdowecomeintobeing/howdowecomeintobeing.png'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import whychoosebookritingcube from '/public/images/whychoosebookritingcube/whychoosebookritingcube.png'
@@ -33,11 +31,7 @@ const About = () => {
         }
       ]
 
-      const greeting1 = 'Welcome to React';
-      const greeting = {
-        title:  <p> Providing the Highest quality and cost-effective <Link href="/posts/first-post">kindle direct publishing</Link>  and printing services to our clients, with shipping and handling across the state.</p>,
-        description: 'Your component library for ...',
-      };
+ 
     
 
 

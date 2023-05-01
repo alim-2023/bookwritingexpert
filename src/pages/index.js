@@ -1,11 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { Inter } from 'next/font/google'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import whychoose from '/public/images/whychoosebooks/bg-img.png'
 
 // import components
-
 import Homebanner from '../../components/Homebanner'
 import Partners from '../../components/Partners'
 import Whychoosebook from '../../components/Whychoosebook'
@@ -21,7 +19,7 @@ import Strugglingwriters from '../../components/Strugglingwriters'
 import Onestepsolutions from '../../components/Onestepsolutions'
 
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
 
