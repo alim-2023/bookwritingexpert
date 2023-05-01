@@ -4,9 +4,6 @@ import styles from '@/styles/Whychoosebookwritingcube.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-
-
-
 const Whychoosebookwritingcube = (props) => {
     return (
         <>
