@@ -46,7 +46,7 @@ const Slug = () => {
                     <Container>
                         <Row>
                             <Col className={`${styles.above} col-md-12`}>
-                                <Link className='textdocationnone' href={slug1}> <h2 className='color-blue fw700 font50 t-center font-f'> {slug1} </h2> </Link>
+                                <Link className='textdocationnone' href='#'> <h2 className='color-blue fw700 font50 t-center font-f'> {slug1} </h2> </Link>
                             </Col>
                         </Row>
                     </Container>
