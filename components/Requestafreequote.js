@@ -29,7 +29,7 @@ const Requestafreequote = () => {
 
 
     setScore('Wating For Sending Data');
-    let response = await fetch("http://localhost:3000/api/submit", {
+    let response = await fetch("/api/submit", {
       method: "POST",
       body: bodyContent
     });
