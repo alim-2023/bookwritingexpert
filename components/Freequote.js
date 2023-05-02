@@ -10,34 +10,49 @@ const Freequote = (props) => {
 
   const [score, setScore] = useState('SUBMIT');
 
-    const handleSubmit = async (event) => {
-      
-        event.preventDefault()
+    const handleSubmit = async (e) => {
+        e.preventDefault()
     
 
-        const data = {
-          first: event.target.first.value,
-          email: event.target.last.value,
-          phone: event.target.phone.value,
-          message: event.target.message.value,
-        }
+        let bodyContent = JSON.stringify({
+          name: e.target.name.value,
+          email: e.target.email.value,
+          phone: e.target.phone.value,
+          message: e.target.message.value,
+        });
+
+        setScore('Wating For Sending Data');
+        let response = await fetch("/api/submit", {
+          method: "POST",
+          body: bodyContent
+        });
+    
+        let data = await response.text();
+        console.log(data);
+
+        e.target.reset();
+        setScore('Thank You');
+        // const { pathname } = Router
+        // if (pathname == pathname) {
+        //   Router.push('/thank-you')
+        // }
     
         
 
-        const JSONdata = JSON.stringify(data)
+        // const JSONdata = JSON.stringify(data)
 
-        setScore('Wating For Send Data');
+        // setScore('Wating For Send Data');
 
-        axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-          .then((response) => {
-            console.log(response.data);
-            setScore('Thank You');
-          });
+        // axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+        //   .then((response) => {
+        //     console.log(response.data);
+        //     setScore('Thank You');
+        //   });
   
-           const {pathname} = Router
-           if(pathname == pathname ){
-              Router.push('/thank-you')
-           }    
+        //    const {pathname} = Router
+        //    if(pathname == pathname ){
+        //       Router.push('/thank-you')
+        //    }    
 
  }
 
@@ -51,10 +66,10 @@ const Freequote = (props) => {
 
                     <form className={styles.formalign}  onSubmit={handleSubmit}>
                         <label className={styles.label}>Full Name*</label>
-                        <input type="text" className={styles.formfree} required  name="first" placeholder="Your name..." />
+                        <input type="text" className={styles.formfree} required  name="name" placeholder="Your name..." />
 
                         <label className={styles.label}>Email Address*</label>
-                        <input type="text" className={styles.formfree} required name="last" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Type Email Address" />
+                        <input type="email" className={styles.formfree} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Type Email Address" />
 
                         <label className={styles.label}>Phone *</label>
                         <input type="number" className={styles.formfree} required name="phone" placeholder="123-456-7890" /> 
