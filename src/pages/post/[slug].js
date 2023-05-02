@@ -10,7 +10,7 @@ import Freequote from '../../../components/Freequote'
 import Blogclientssays from '../../../components/Blogclientssays'
 import { useRouter } from 'next/router'
 
-const Blogdetails = () => {
+const Slug = () => {
 
     const router = useRouter()
     const slug1 = router.query.slug
@@ -159,4 +159,4 @@ const Blogdetails = () => {
     )
 }
 
-export default Blogdetails
+export default Slug
