@@ -95,6 +95,17 @@
 }
 
 @media (max-width: 991px) {
+
+  .btn1 {
+    display: block;
+    text-align: center;
+}
+  .btn2 {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 10px;
+}
   .asnumber {
     display: block;
     text-align: center;
@@ -122,3 +133,5 @@
     margin-top: 5%;
   }
 }
+
+

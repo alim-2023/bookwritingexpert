@@ -420,14 +420,15 @@
 
 @media (max-width: 1200px) {
   .new1 {
-    display: block;
-    margin-left: unset;
-    width: max-content;
-    margin-top: 5%;
-  }
+    margin: 25px auto;
+    margin-left: 1%;
+    
+}
 }
 
 @media (max-width: 991px) {
+
+
   .logonew {
     filter: unset;
   }
@@ -525,6 +526,16 @@
   }
 }
 @media (max-width: 767px) {
+
+  .discuss {
+    font-size: 12px;
+    padding: 9px 10px;
+}
+  .homenumer {
+    font-size: 12px;
+    padding: 9px 10px;
+}
+
   .banner {
     background-image: unset;
     background-color: #141d29;
@@ -616,6 +627,27 @@
 }
 
 @media (max-width: 480px) {
+
+  .new1{
+    font-size: 12px;
+    display: block;
+    width: fit-content;
+    margin: 25px auto;
+  }
+
+  /* .discuss {
+    font-size: 12px;
+    padding: 9px 10px;
+    display: block;
+    margin-bottom: 2%;
+}
+  .homenumer {
+    font-size: 12px;
+    padding: 9px 10px;
+    display: block;
+} */
+
+ 
   .bookpublishingservices h1 {
     max-width: 100%;
   }

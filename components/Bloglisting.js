@@ -14,31 +14,37 @@ const Bloglisting = () => {
         {
           image: blogimage4,
           title:'Rising Above the Competition: 8 Advanced Strategies for KDP Book Promotion and Marketing on Amazon',
+          slug:'8-advanced-strategies-for-kdp-book-promotion-and-marketing-on-amazon',
           read:'Read More',
         },
         {
             image: blogimage5,
             title:'Maximizing Your KDP Royalties: A Guide to Book Pricing Strategies',
+            slug:'a-guide-to-book-pricing-strategies',
             read:'Read More',
         },
         {
             image: blogimage6,
             title:'Maximizing Your Amazon Book Promotion: Advanced Tactics for Increased Book Sales',
+            slug:'advanced-tactics-for-increased-book-sales',
             read:'Read More',
         },
         {
             image: blogimage6,
             title:' Maximizing Your Amazon Book Promotion: Advanced Tactics for Increased Book Sales',
+            slug:'advanced-tactics-for-increased-book-sales',
             read:'Read More',
         },
         {
             image: blogimage6,
             title:' Maximizing Your Amazon Book Promotion: Advanced Tactics for Increased Book Sales',
+            slug:'advanced-tactics-for-increased-book-sales',
             read:'Read More',
         },
         {
             image: blogimage6,
             title:' Maximizing Your Amazon Book Promotion: Advanced Tactics for Increased Book Sales',
+            slug:'advanced-tactics-for-increased-book-sales',
             read:'Read More',
         },
       ]
@@ -60,7 +66,7 @@ const Bloglisting = () => {
             <div className={styles.cardbodylist}>
                 <Link className='textdocationnone' href="#">
                 <h5 className='fw500 font22 colorexpertgrey font-f'> {item.title} </h5> </Link>
-                <Link className={styles.blogbtn} href="/blog-details">{item.read}</Link>
+                <Link className={styles.blogbtn} href={`/post/${item.slug}`}>{item.read}</Link>
              </div>
                 </div>
             </Col>
