@@ -57,9 +57,9 @@ const Bookpublishingservicesweoffer = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <h2 className="fw700 font50 text-white font-f t-center mb-3">Book Publishing Services That We Have To Offer</h2>
+                            <h2 className="fw700 font50 text-white font-f t-center mb-3">The Book Publishing Services We Provide!</h2>
 
-                            <p className="font15 text-white font-f t-center textcolor mb-3">We offer a wide range of self publishing services. There are several options you can choose from and get a final product in your required time frame at very affordable prices! We have packages designed to cater to every budget, so your literary vision can turn into a reality!</p>
+                            <p className="font15 text-white font-f t-center textcolor mb-3">We provide various self-publishing services. There are many options available to you, and you can have the finished project for a very low price and in the time frame you require! With our reasonable package options, you may realize your literary idea! Through our partnerships with a vast network of geographically diverse print-on-demand suppliers and book distributors, we help writers self-publish their books for global distribution.</p>
 
                         </Col>
 

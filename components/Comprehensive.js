@@ -25,21 +25,21 @@ const Comprehensive = () => {
                 image: icon1,
                 title: 'Book Editing',
                 subTitle: "Book Editing",
-                pra: "We know that every word counts, so we're committed to crafting captivating stories for any length and style. Our talented staff will take on your project from start to finish because no task is too big when you have people like us working together..."
+                pra: "You already have some ideas in your head, but they need to be developed before they can materialize into something substantial and complete for readers everywhere. We take great delight in nurturing the seeds of your creativity so you can share with the world the amazing notions that are brewing in your mind."
 
             },
             {
                 image: icon2,
                 title: 'Book Writing',
                 subTitle: "Book Writing",
-                pra: "When you think about writing a book, know that it doesn't have to be complicated. As absurd as it may sound, thoughts/ideas may already exist within your head as seed or germinating premises of stories that still need development before they can blossom into anything concrete and comprehensive for readers around the world."
+                pra: "From our writing approach to phrasing selection, we're all about creating riveting stories of any length or type. Let us handle your project from beginning to end with absolute finesse since, when you have professionals like us on your team, no responsibility is too huge."
 
             },
             {
                 image: icon11,
                 title: 'Book Publishing Services',
                 subTitle: "Book Publishing Services",
-                pra: "Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word is polished and prepared to create an impact."
+                pra: "Every word is carefully crafted and ready to make an impression. We can create engrossing stories thanks to our experience. Your manuscript receives the consideration it merits! You believe, and we'll take care of the rest."
 
             },
             {
@@ -47,7 +47,7 @@ const Comprehensive = () => {
                 title: 'Article Publication',
                 subTitle: "Article Publication",
                 subTitle: "Article Publication",
-                pra: "We are an Award-winning Children’s Book Publisher, with some top-sellers and best- sellers in our portfolio. Publishing a book has never been easier."
+                pra: "The barriers to book publishing are removed by our competent publishing service providers. We walk the authors through every step, from book production and publication to global book distribution and marketing. Publishing had never been this easy!"
 
             },
 
@@ -55,7 +55,7 @@ const Comprehensive = () => {
                 image: icon7,
                 title: 'Children’s Book Publication',
                 subTitle: "Children’s Book Publication",
-                pra: "Children’s Book Publishing is no easier task. Of course, the length of the book is relatively short, but précising an idea with a well-instilled message requires multiple rewrites and re-drafts."
+                pra: "Publishing children's books is no easy undertaking. Even though the book is only a little over 100 pages long, not everything appeals to these tiny beings. It takes several rewrites and re-drafts to concisely express an idea with a clear message, and we are here to assist."
 
             },
 
@@ -63,7 +63,7 @@ const Comprehensive = () => {
                 image: icon10,
                 title: 'E-Book Writing',
                 subTitle: "E-Book Writing",
-                pra: "We want to help you shine your eBook and make it compelling for readers, so we'll work with the most important ideas. You have an option of doing a one-hour interview where any challenging or confusing topics will be bouncing off us before they're even published."
+                pra: "Professional eBook writing increases traffic, and our experienced authors are aware of the best practices for retaining readers through compelling word choice. When it comes to custom eBook writing services, we are the best choice. Try collaborating with us! You won't regret doing it!"
 
             },
 
@@ -71,7 +71,7 @@ const Comprehensive = () => {
                 image: icon8,
                 title: "Children's Book Illustrations",
                 subTitle: "Children's Book Illustrations",
-                pra: "Children are the most unfiltered and harshest critics! That doesn't mean they are not biased. They pick up the book and flip through pages, looking at the images and illustrations, and if those speak to them,"
+                pra: "Kids may be choosy and unfiltered when they want to be with the things that are offered to them! That does not mean they are impartial. They pick up the book and flip over the pages to evaluate whether the illustrations and designs appeal to them. Give them books they'll be eager to return to time and time again!"
 
             },
 
@@ -79,7 +79,7 @@ const Comprehensive = () => {
                 image: icon9,
                 title: 'Book Marketing',
                 subTitle: "Book Marketing",
-                pra: "We promote & market your book in the most effective way, and bring your book(s) from the shadows of the back-of-the-shelf to Best seller. We are the book marketing & book promotion experts you need;"
+                pra: "Stop getting lost in the mix with our remarkable book marketing services! We advertise and promote your book in the most efficient way possible, taking it from the back of the shelf to the top of the bestseller list. We are the marketing & promotion specialists for the books you require."
 
             },
 
@@ -111,7 +111,7 @@ const Comprehensive = () => {
                                                 <h3>{item.subTitle}</h3>
                                             </div>
                                             <div className={styles.flipcardback}>
-                                                <h3>{item.title}</h3>
+                                                <h3 className='mt-2'>{item.title}</h3>
                                                 <p>{item.pra}</p>
 
                                             </div>

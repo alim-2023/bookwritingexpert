@@ -98,39 +98,39 @@ const Bookpublishingservices = () => {
   const reasons = [
 
     {
-      title: 'World-Class bookwriting Team',
-      text: 'Work with the industry’s top writers, editors, and publishing strategists. Our team approach gives you the best chance for success.',
+      title: 'A Top-Notch Group Of Writers',
+      text: 'Work with some of the industry`s top editors, authors, and publishing strategists. Our team-based strategy will give you the best chance of success.',
       classnum: 'number1',
 
     },
     {
-      title: 'Personalized Strategic Approach',
-      text: 'Our process begins with 4extensive publishing strategy sessions to ensure we develop a plan to achieve your goals.',
+      title: 'Individualized Approach to Strategy',
+      text: 'In order to ensure that we develop a strategy that will help you achieve your goals, we first hold four extensive publishing strategy meetings.',
       classnum: 'number1',
 
     },
     {
-      title: 'Refined Process',
-      text: 'Enjoy the efficiency and dependability of our professionally managed bookwriting process.',
+      title: 'Fine-Tuned Process',
+      text: 'Enjoy the dependability and effectiveness of our professionally managed book-writing process.',
       classnum: 'number1',
 
     },
 
     {
-      title: 'Book Writing experts',
-      text: 'Our team includes #1 New York Times- Book Writers and award-winning authors for almost every genre.',
+      title: 'Specialists in Books Composing',
+      text: 'Authors from practically every genre who have received accolades are on our team, along with #1 New York Times Book Writers.',
       classnum: 'number1',
 
     },
     {
-      title: 'Big-5 Editors',
-      text: 'Your project will be managed and edited by a former acquisitions editor from a Big-5 publisher with numerous New York Times - Book Writing titles.',
+      title: 'The Best of the Best Editors',
+      text: 'Your proposal will be supervised and edited by a former acquisitions editor from a Big-5 publisher with a number of New York Times’ book writing titles to their credit.',
       classnum: 'number1',
 
     },
     {
-      title: 'Publishing Navigation',
-      text: 'We guide you through every step of the book publishing process. We can place your book directly with traditional publishers or help you choose the ideal hybrid publishing solution.',
+      title: 'Publishing Process',
+      text: 'Publishing Process We will walk you through the entire book publication process. We can either place your book directly with traditional publishers or assist you in choosing the best hybrid publishing solution.',
       classnum: 'number1',
 
     },
@@ -355,7 +355,7 @@ const Bookpublishingservices = () => {
       <div className={styles.stillbookwritingservices}>
         <Container >
           <Row >
-            <h2 className='font50 fw700 color-white t-center font-f mb-5'>Why Choose Our Book Writing Services?</h2>
+            <h2 className='font50 fw700 color-white t-center font-f mb-5'>What Distinguishes Us?</h2>
           </Row>
 
           <Row className='gy-5'>

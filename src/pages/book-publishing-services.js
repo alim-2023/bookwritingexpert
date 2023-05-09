@@ -31,10 +31,10 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 
 const Bookpublishingservices = () => {
-  const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone color-blue hover' href="/book-publishing-services">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone color-blue hover' href="/book-publishing-services">self publishing</Link> .</span>;
-  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+  const text = <span>We write, market, and review books of all kinds.</span>;
+  const subtext = <span> Profit from our wide range of book publication styles and forms to secure your position as a book writing guru. In addition to publishing children's books, we are among the top Amazon publishing service suppliers.</span>;
 
-  const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="/book-publishing-services" className='textdocationnone color-blue hover'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
+  // const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="/book-publishing-services" className='textdocationnone color-blue hover'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className=''>To Our Struggling Authors</span> </h1>;
 
@@ -143,8 +143,8 @@ const Bookpublishingservices = () => {
       <Bookpublishingservicesweoffer />
 
       <Ourprocess
-        title='What Is Our Book Publishing Process?'
-        text='We have devised an elaborate workflow process to maximize transparency while also making sure that the final product`s quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we`re coming from and be aware of what`s going on. Our self publishing process follows these six stages, as listed below.'
+        title='What Is Our Process of Publishing a Book?'
+        text='Without compromising the quality of the finished product, we have developed a complex workflow procedure. We accomplish this through a thorough process that involves informing our clients at each project stage and requesting approvals. This makes the customer more aware of what`s happening at each stage. These six processes, which are listed below, comprise our self-publishing process.'
         heading1='Manuscript Submission'
         para1='The writer contacts us for submission of their full-length manuscript, while submitting, we discuss our publishing rules and sign the contract.'
         num1='01'
@@ -191,9 +191,9 @@ const Bookpublishingservices = () => {
       </section>
       {/* Selfpublishing */}
       <Selfpublishing
-        title='How Do "I Publish My Book?"'
-        text='Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution.'
-        subtext='We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited.'
+        title='How Does The "Publishing Process" Come About?'
+        text='Do you want your book or novel to evoke strong emotions among readers? Do you have a life or career-related inspirational story to share? Would you like to compel your readers to explore their imaginations? There are amazing stories all around us, but not everyone can write in a way that provokes thought. This is where our service can be of assistance.'
+        subtext='For us, our customer comes first. Therefore, we make sure that everything—from page-turners to suspenseful conclusions—feels expertly managed. We want you to keep your readership, and our book editing team looks forward to proofreading and editing your next thing.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={publishmybook}
@@ -202,7 +202,7 @@ const Bookpublishingservices = () => {
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title='What Type Of Books Do We Publish?'
+        title='Our Willingness To Publish Knows No Bounds!'
         text={text}
         subtext={subtext}
         number="(213) 289 3888"
@@ -213,9 +213,8 @@ const Bookpublishingservices = () => {
 
       {/* Selfpublishing */}
       <Selfpublishing
-        title='How Many Copies Of Your Book Will Be Published?'
-        text='We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want.'
-        subtext={kindledirectpublishing}
+        title='Unlimited Book Distribution!'
+        text='We produce and publish books to meet your specifications. We create your account with Amazon and other websites so we may publish and print books for you without having to meet any minimum order restrictions. You have the option to request printing of as many or as few copies. Providing our clients with the highest quality and most affordable Kindle direct publishing and printing services, as well as shipping and handling throughout the state.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={copy}
@@ -225,9 +224,9 @@ const Bookpublishingservices = () => {
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title='How Will We Help You Market Your Book?'
-        text='Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.'
-        subtext='Our book marketing professionals will help your book and brand reach the success it deserves.'
+        title='All Of Your Burning Book Marketing Questions- Answered!'
+        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Book Writing Experts based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
+        subtext='Whether you are an experienced writer or a beginner, our advice and marketing tactics will help you build a global internet presence. Our book marketing experts will assist your book and brand in achieving the success they deserve.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={marketyourbook}
@@ -252,8 +251,8 @@ const Bookpublishingservices = () => {
 
       <div className='datacloud'>
         <Aspiring
-          title='Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
-          text='Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube.'
+          title='Book Cover Designs That Stand Out'
+          text='We are a fantastic choice for cover designs, page layouts, and book designs. We have a group of qualified graphic designers who have created dozens of book covers and page layouts. Our designers will work with you to ensure that your book and cover are supplied according to specifications using all of the information they have. To address any potential technical issues, we offer efficient maintenance for the given files.'
 
           number="(213) 289 3888"
           discuss="LET'S DISCUSS"
