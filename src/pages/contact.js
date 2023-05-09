@@ -352,10 +352,8 @@ const Contact = () => {
                     <Row className={styles.conrow}>
                         <Col md={9}>
 
-                            <h2 className='color-blue font50 fw700 font-f'> We Provide Everything You Need to
-                                Achieve Your Publishing Goals.</h2>
-                            <p className='font15  font-f colortextgrey' >Let’s talk about how we can make your book a success. <span className='font20 fw700 font-f' ><Link href='tel:213-289-3888' className='textdocationnone colortextgrey' > Call now:
-                                (213) 289 3888 </Link></span> </p>
+                            <h2 className='color-blue font50 fw700 font-f'> Everything You Need to Achieve Your Publishing Goals is Accessible Here.</h2>
+                            <p className='font15  font-f colortextgrey' >Contact us, and let's talk about how we can make your book the market's next bestseller. </p>
 
                         </Col>
                     </Row>

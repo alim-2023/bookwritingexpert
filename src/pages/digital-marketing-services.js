@@ -110,8 +110,8 @@ const Digitalmarketingservices = () => {
 
       {/* Dowecome */}
       <Dowecome
-        title='You Are One Step Closer To Displaying Your Writing Excellence. Let Our Professional Help You Out.'
-        text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
+        title='You`re So Close to Revealing Your Writing Capability- Take Yourself a Hand from Our Experts!'
+        text="The complexities of the book-writing process might be perplexing at times. Even the thought of editing, proofreading, and publishing all by yourself is terrifying. We understand the effort, tenacity, and difficulty involved, so why not hire a helping hand? We are merely a phone call, text message, or email away! Let's work together."
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         Dowecome="publishmybook"
@@ -142,8 +142,8 @@ const Digitalmarketingservices = () => {
 
       {/* Aspiring */}
       <Aspiring
-        title='Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out'
-        text="Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube."
+        title='Book Cover Designs That Stand Out'
+        text="We are a fantastic choice for cover designs, page layouts, and book designs. We have a group of qualified graphic designers who have created dozens of book covers and page layouts. Our designers will work with you to ensure that your book and cover are supplied according to specifications using all of the information they have. To address any potential technical issues, we offer efficient maintenance for the given files."
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
       />

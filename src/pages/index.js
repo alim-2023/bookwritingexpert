@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import whychoose from '/public/images/whychoosebooks/bg-img.png'
-
 // import components
 import Homebanner from '../../components/Homebanner'
 import Partners from '../../components/Partners'

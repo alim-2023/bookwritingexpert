@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
@@ -35,39 +35,39 @@ const Bookpublishingservices = () => {
   const reasons = [
 
     {
-      title: 'World-class ghostwriting services Team',
-      text: 'Work with the industry’s top writers, editors, and publishing strategists. Our team approach gives you the best chance for success.',
+      title: 'Share Your Tale Via Professional Ghostwriters',
+      text: 'Team up with the best editors, authors, and publishing strategists in the business. Your chances of success are greatest with our team-based approach. Make your goal of having a book published a reality by utilizing the skills of one of our qualified ghostwriters.',
       classnum: 'number1',
 
     },
     {
-      title: 'Personalized Strategic Approach',
-      text: 'Our process begins with extensive writing, editing, and publishing strategies to ensure the development of a feasible project completion budget and timeline.',
+      title: 'Our Ghostwriters Adopt A Personable Style',
+      text: 'At Book Writing Experts, we provide a personalized approach since we recognize that each project is unique. Consider using our ghostwriting services if you want to write a novel, a nonfiction book, a children`s book, an autobiography, a history book, or a business book.',
       classnum: 'number1',
 
     },
     {
-      title: 'Refined Process',
-      text: 'Enjoy the efficiency and dependability of a professionally managed ghostwriting services process',
+      title: 'Explicit And Precise Approach',
+      text: 'Enjoy the consistency and effectiveness of a process that is professionally managed for ghostwriting services.',
       classnum: 'number1',
 
     },
 
     {
-      title: 'Trained ghostwriters',
-      text: ' Our team includes the industry’s best ghostwriters who have worked with acclaimed authors for every genre.',
+      title: 'The Best Team of Ghostwriters',
+      text: 'We acknowledge that not everyone can write at the same level as their thoughts and that some people find it difficult to put their ideas into words. And hence, we`ve assembled a great team of experienced ghostwriters who can provide all of this and more.',
       classnum: 'number1',
 
     },
     {
-      title: 'Big-5 publishers',
-      text: 'We work in collaboration with the industry’s top 5 publishers and publishing houses. Book Writing Cube guarantees you the acquisition of well-thought-through contracts with the best in town publishers',
+      title: 'Top-5 Publishers',
+      text: 'We collaborate with the top five publishers and publishing houses in the industry. We strive the hardest to offer you well-thought-out contracts with the best in-town publishers.',
       classnum: 'number1',
 
     },
     {
-      title: 'Online and offline formats',
-      text: 'We provide our clients with thorough guidance about the online and offline publishing processes. From well-designed paperback and hardcover to well-formatted eBook, our hybrid approach is our all-in-one publishing solution.',
+      title: 'Both Online And Offline Formats',
+      text: 'We thoroughly guide our customers through the online and offline publication processes. Our hybrid technique is our integrated publishing solution, from well-designed paperback and hardback to well-formatted eBook.',
       classnum: 'number1',
 
     },
@@ -306,7 +306,7 @@ const Bookpublishingservices = () => {
       <div className={styles.stillbookwritingservices}>
         <Container >
           <Row >
-            <h2 className='font50 fw700 color-white t-center font-f mb-5'>Why choose our ghostwriting services?</h2>
+            <h2 className='font50 fw700 color-white t-center font-f mb-5'>Why Us?</h2>
           </Row>
 
           <Row className='gy-5'>
@@ -327,8 +327,8 @@ const Bookpublishingservices = () => {
       {/* Selfpublishing */}
 
       <Selfpublishing
-        title='And No, Hiring Ghostwriting Services Isn’t Illegal!'
-        text='The misconception has prevailed ever since the phenomenon of ghostwriting services came into being. The ghostwriter`s job is to get paid in return for his written masterpiece. Creativity and a great idea can come from anywhere and anyone, and it doesn`t surely mean everyone has the right ability to articulate it. Ghostwriters are professionals working to make those ambitions a reality. It is a legal collaboration to get that idea out there because those ghostwriters are trained to write, edit, and publish that work.'
+        title='And, No, Hiring Ghostwriters Is Not Against The Law!'
+        text='Since the emergence of the phenomenon of ghostwriting services, misperception has been prevalent. The role of the ghostwriter is to receive payment for his literary masterpiece. Anyone can be creative and have a fantastic idea, but that doesn`t necessarily mean they can all express it clearly. Professional ghostwriters are hard to make those goals a reality. Due to the fact that those ghostwriters are qualified to create, edit, and publish that work, spreading the concept is a legal partnership.'
 
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
@@ -340,8 +340,8 @@ const Bookpublishingservices = () => {
       {/* Aspiring */}
       <div className='datacloud'>
         <Aspiring
-          title='At The End Of The Day, You Need The Whole Kit And Caboodle To Get It Down Right!'
-          text="Give us a call, or leave an email, and our experts will guide you through the entire process, needs, and packages for ghostwriting services your book!"
+          title='When It Comes Down To It, You Need The Whole Nine Yards To Nail It!'
+          text="Call us or send us an email, and our professionals will walk you through the full procedure, requirements, and packages for ghostwriting services for your book!"
           number="(213) 289 3888"
           discuss="LET'S DISCUSS"
         />

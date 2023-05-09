@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '@/styles/Termsofuse.module.css'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import Link from 'next/link'
 import Aspiring from '../../components/Aspiring'
 

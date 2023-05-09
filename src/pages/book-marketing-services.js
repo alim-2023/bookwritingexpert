@@ -198,26 +198,27 @@ const Bookpublishingservices = () => {
 
 
       <Ourprocess
-        title='What Is Our Book Marketing Process?'
-        text="The best book marketing services come with an elaborate process of guaranteeing transparency and communication. We do this through an extensive process of updating our customers at every project stage. This helps the customer understand where we're coming from and be aware of what's going on."
-        heading1='Research'
-        para1='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque ipsum, accumsan ac aliquet ut, sollicitudin maximus dolor.'
+        title='How Will Your Book Be promoted?'
+        text="The top book marketing firms have a complex procedure for ensuring communication and transparency. We accomplish this by a thorough procedure of informing our clients at each stage of the project. This aids the customer in comprehending our perspective and keeping themselves informed of the situation."
+
+        heading1='The Basics:'
+        para1='Your step-by-step plan for getting your book in front of the right readers, at the right time and place, with the correct money is your book marketing plan. Consider your strategy as a marketing campaign to help sell more copies of your book.'
         num1='01'
 
-        heading2='Target Audience'
-        para2='Sed est ligula, suscipit ac lectus in, semper bibendum diam. Nunc interdum velit in turpis sagittis pulvinar.'
+        heading2='Marketing on Social-Media & Additional Media Channels'
+        para2='When creating content, we first consider your audience and what it will take to reach them, including where and what kind of content we will need to create. Will a book trailer be produced? Will Facebook ads be used by us? Beforehand decisions will be made and informed to you.'
         num2='02'
 
-        heading3='Social Media Marketing & Other Media Channels'
-        para3='Vestibulum tristique in dui in blandit. Nam commodo purus eget orci pharetra, a lorem facilisis.'
+        heading3='Google, Search Engine, and Marketing Plan Implementation:'
+        para3='It is crucial to have an SEO plan since it keeps you focused when producing content. Our strategy will make sure that your book reaches people that are searching for exactly what you offer!'
         num3='03'
 
-        heading4='Marketing Plan & Design'
-        para4='Aenean fringilla accumsan est, quis vestibulum purus imperdiet at. Vestibulum ac pretium risus. Fusce of to tristique massa a fringilla aliquet. Nullam facilisis vel finibus lorem sodales.'
+        heading4='Target Audience'
+        para4='You`ve just finished writing a new book, and you obviously want the entire world to read it. However, based on the subject and genre, only a certain set of people will be interested. We create a strategy to focus on the people who are most likely to be interested in your book in order to increase the number of prospective readers.'
         num4='04'
 
-        heading5='Google, Search Engine & Deployment Of Marketing Plan'
-        para5='Donec gravida sollicitudin nisl pellentesque vulputate. Nam egestas, urna vel fringilla euismod, sapien quam posuere felis.'
+        heading5='Effective Marketing Strategy Is What Is Needed!'
+        para5='Several book marketing strategies are used in a well-designed book marketing plan. An author`s website, social media, paid advertisements, or lead magnets are examples of this. To ensure that your book sells well, we`ll show you how to employ several book promotional strategies. You can sit back while we do all the work for you!'
         num5='05'
       />
 
@@ -249,9 +250,9 @@ const Bookpublishingservices = () => {
 
       {/* Selfpublishing */}
       <Selfpublishing
-        title='We Appreciate Our Clients Who Put Their Faith In Us.'
-        text='Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our affordable book marketing services guarantee excellence-- because no task is too big or difficult when you have people like us working together as part of such a one-stop solution.'
-        subtext='Good branding will amplify all your marketing efforts. But it takes professionalism and industry insight to make a trustworthy brand. To add to that, it takes much effort to find experienced professionals to get this job done—something only the best book marketing services can offer!'
+        title='Our Experience Allows Us To Weave Together Enthralling Stories.'
+        text='No task is too huge or tough when you have people like us working together as part of such a one-stop solution, which is why our reasonably priced book marketing services guarantee quality from start to finish.'
+        subtext='All of your marketing efforts will be amplified by strong branding. But to create a trustworthy brand, professionalism, and knowledge of the sector are required. We have adopted new strategies to help our authors feel at ease with the authoring work, whether it be book writing, editing, or marketing, as we have observed that it was a demanding task for them to get their work published via traditional approaches. '
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={bookmarketingservices1}
@@ -261,9 +262,8 @@ const Bookpublishingservices = () => {
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title='Through Collaboration'
-        text='Our book marketing services and packages include comprehensive publishing assistance and guidance. We will design a budget for you, covering the designing, publishing, printing, and editing needs of the book.'
-        subtext='Our book marketers formulate online and offline strategies to make your work a recognized read. Unlike other book marketing companies, our job isn’t done till your reputation is established as a renowned name in the industry.'
+        title='Collaboration is the Secret to Everything!'
+        text='Extensive publishing support and counseling are included in our book marketing services and packages. We will create a budget for you that takes into account the book`s demands for designing, publishing, printing, and editing. Our book marketers create online and offline tactics to increase the readership of your book. Unlike other book marketing firms, we don`t consider our work complete until you have a solid reputation as a household name in the sector.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={bookmarketingservices2}
@@ -274,9 +274,9 @@ const Bookpublishingservices = () => {
 
       {/* Selfpublishing */}
       <Selfpublishing
-        title='Impeccable Customer Support'
-        text='For us, our customer’s needs are the top priority. Regardless of the different profiles or the website updates and revisions, our book marketing services aim to make your work a stellar addition to the literature world.'
-        subtext='From keeping up with marketing trends to revamping the strategies, the best book marketing services providers go the extra mile to make the bestselling title a reality.'
+        title='Customer Service That Is Second To None!'
+        text='The demands of our customers come first for us. No matter which profiles you use or how often you update and revise your website, our book promotion services are designed to elevate your writing to a new level.'
+        subtext='The best book marketing service companies go above and above to ensure that the bestseller title becomes a reality, staying on top of marketing trends and updating strategy.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={bookmarketingservices3}
@@ -286,9 +286,9 @@ const Bookpublishingservices = () => {
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title='Impressive Strategic Implementation'
-        text='Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our affordable book marketing services make sure the needs and preferences of the target readers are met.'
-        subtext='Our experts provide thorough guidance about different types and strategies of marketing to gain complete customer satisfaction. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.'
+        title='An Impressive Implementation Of Strategy'
+        text='Every marketing strategy, platform, and product needs a well-tailored execution plan. Our inexpensive book marketing services ensure that the wants and preferences of the target readers are addressed because every book has a different readership.'
+        subtext='To ensure complete customer pleasure, our professionals offer extensive advice on the various types and marketing tactics. We incorporate social media platforms, blogging, guest posting, and email marketing in our bundles of book marketing services.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={bookmarketingservices4}
@@ -307,8 +307,8 @@ const Bookpublishingservices = () => {
       {/* Aspiring */}
       <div className='datacloud'>
         <Aspiring
-          title='Ready To Make It Big With Our Book Marketing Services?'
-          text="You are the ambassador of your own book—but that doesn’t mean it is a singly endeavor. It is an ever-changing, seriously challenging, and quite honestly, commercially competitive industry. The right book marketing plan, calculated milestones, and extended exposure—the all’s and must-haves of making your work a chart-topper! Let’s collaborate!"
+          title='With Our Book Marketing Services, You Can Flip The Industry On Its Head!'
+          text="You are the face of your book, but it doesn't imply it is a single project. It is a dynamic, challenging, and, to be honest, commercially competitive industry. The correct book marketing strategy, measured milestones, and extensive exposure are all musts for making your work a chart-topper! Let's work together!"
           number="(213) 289 3888"
           discuss="LET'S DISCUSS"
         />

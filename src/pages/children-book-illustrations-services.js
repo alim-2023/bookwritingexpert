@@ -44,29 +44,29 @@ const Childrenbookillustrationsservices = () => {
   const reasons = [
 
     {
-      title: 'Spot Illustration:',
-      text: 'Spot illustration is the tiny pieces or single piece of illustration drawn on the first or the title pages of each chapter to help breathe some life into the text or provide a little more context. It could be basic line art like or a small caricature drawn right above the title of the chapter, which takes up a quarter or lesser portion of the page. They are less expressive and have more to do with just intriguing the reader or enticing their imagination enough to carry on reading.',
+      title: 'Spot Illustrations:',
+      text: 'A spot illustration is a small section or single illustration that is drawn on the first or title page of each chapter to add color or context. Above the chapter title, which occupies a quarter or less of the page, there may be some simple line art or a small caricature.',
       classnum: 'number1',
 
     },
 
     {
-      title: 'Half-page illustrations:',
-      text: 'As the name suggests, half-page illustrations are the illustrations that cover more than a quarter or at maximum half of the page of the book. This kind of illustration usually accompanies words by expressing one of the most intriguing aspects of the story and is not usually confined to the chapter`s title page. It can be a scene, a small introduction to a new character, a minor altercation between the characters that need to be highlighted, etc.',
+      title: 'Half-Page Illustrations:',
+      text: 'Illustrations that take up more than a quarter or, at most, half of a book page are referred to as half-page illustrations, as their name suggests. This type of image typically goes along with words by emphasizing one of the fascinating components of the narrative and is not typically limited to the chapter`s title page.',
       classnum: 'number1',
 
     },
 
     {
-      title: 'Single page illustrations:',
-      text: 'IThese kinds of illustrations typically cover the whole page and are far more detailed and expressive than the formerly explained ones. These are in great detail, and the text usually becomes optional, as the illustration speaks for itself.',
+      title: 'Single-Page Illustrations:',
+      text: 'Unlike the ones previously described, these illustrations often take up the entire page and are far more expressive and detailed. These are quite thorough, and the text is typically no longer necessary because the graphic speaks for itself.',
       classnum: 'number1',
 
     },
 
     {
-      title: 'Spread illustrations:',
-      text: 'These specific kinds of illustrations are usually spread on both the book`s pages and are usually more expressive and in greater detail than the text at this point is mostly optional. You could say they are like comic books, but rather, an image takes up the whole page than just a small part of the strip.',
+      title: 'Spread Illustrations: ',
+      text: 'These particular drawings are spread across both pages of the book and are typically more emotive and detailed than the text, which at this point, is mostly optional. You may compare them to comic books, except instead of just a little section of the strip, an image occupies the entire page.',
       classnum: 'number1',
 
     },
@@ -232,26 +232,26 @@ const Childrenbookillustrationsservices = () => {
       </div>
 
       <Ourprocess
-        title='5 Steps To Our Children`s Book Illustrations Process!'
+        title='The Steps In The Process Of Illustrating A Children`s Book!'
 
-        heading1='Understanding The Client`s Aesthetic:'
-        para1='Understanding what our client wants and how exactly they want it done is essential for any project.We often ask our clients to draw us a rough sketch or show us an inspiration of what they want from us and how they want the project to look like. In this part of the project, we usually coordinate with the clients and brainstorm with them and our team to put forward ideas that would serve both the client`s purpose and fit trends in the market.'
+        heading1='Identifying The Aesthetic Elements from Our Client:'
+        para1='Prior to beginning any project, it is crucial to comprehend the needs and preferences of our clients. We frequently request that our customers draw us a rough draught or provide us with ideas for what they want from us and how they envision the project will appear. During this stage of the project, we typically coordinate with the clients and brainstorm with them and our team to present ideas that would both serve the clients` needs and conform to market trends.'
         num1='01'
 
-        heading2='Detailed Interviews With The Client:'
-        para2='Before we head back to the drawing board, our illustrators would have a detailed correspondence with the client and ask in great detail about what attributes they would like to see in each character and what they want in every character to stand out or if they have anything specific that they cannot compromise on.'
+        heading2='The Art Commences:'
+        para2='As soon as the artist obtains the necessary information, they move to the storyboard and create a piece that is still very much in its early phases for the client to view. Before assembling this initial piece, they would ensure that all the input had been taken into account and that it complied with the brief.'
         num2='02'
 
-        heading3='lllustrating Begins:'
-        para3='Once the illustrator has the information they need, they go to the storyboard and put together a piece that is very much in the initial stages for the client to see. They would make sure that all the feedback was taken into consideration before putting this initial piece together, and it fits all the brief.'
+        heading3='Arranging The Final Artwork And Text!'
+        para3='After receiving thorough feedback from the customer, the illustrator would return to the storyboard and make the necessary adjustments before revealing the finished product to the client for final approval.'
         num3='03'
 
-        heading4='Client`s Feedback:'
-        para4='In this step of the process, the illustrator would mail or show what they`ve put together on their storyboard to the client and see what they have to say. The feedback they get after revealing the initial art, they would listen to it carefully and try to accommodate it.'
+        heading4='Comprehensive Client Interviews:'
+        para4='Before we start over at the drawing board, our illustrators would have an in-depth conversation with the client to find out in great detail what traits they would like to see in each character and what they want in each character to stand out. They would also inquire as to whether the client had any particular requirements that they could not compromise on.'
         num4='04'
 
-        heading5='The Big Reveal:'
-        para5='Once the client has provided ample feedback, the illustrator would take it back to the storyboard, incorporate the requested changes, and then when the final piece is done; it will be revealed to the client for the final approval.'
+        heading5='We Actively Seek Feedback:'
+        para5='At this stage of the process, the illustrator would send the client what they had put together on their storyboard or show it to them in person to receive their feedback. They attentively consider the input they receive after releasing the first artwork and make an effort to take it into consideration.'
         num5='05'
 
 
@@ -319,9 +319,9 @@ const Childrenbookillustrationsservices = () => {
       <div className={styles.stillbookwritingservices}>
         <Container >
           <Row >
-            <h2 className='font50 fw700 color-white t-center font-f mb-3 font-f'>You Need To Know What Type Of Children's Book Illustrations You Need For Your Book!</h2>
+            <h2 className='font50 fw700 color-white t-center font-f mb-3 font-f'>The Ideal Illustrations for Children's Books!</h2>
 
-            <p className='font15  color-white t-center pb-5 font-f'>Before you come to us for illustrations, you need to know that there is more than just one type of Children's Book Illustrations, and you must know which one fits your project better. Don't know what the various kinds of illustrations are? Well, allow us to educate you.</p>
+            <p className='font15  color-white t-center pb-5 font-f'>Through compelling text and excellent illustrations, we hope to explore and illuminate the emotional and amusing aspects of children's experiences and social interactions. Why not come along with us? There are several different kinds of children's book illustrations, so before you contact us, for instance, you should be aware of them all and decide which one is best for your project. Don't know what the different types of illustrations are? Allow us to enlighten you.</p>
 
           </Row>
 

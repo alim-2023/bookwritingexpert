@@ -6,6 +6,7 @@ import { useState } from "react";
 // footer icons
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
+import Router from 'next/router';
 
 
 const Requestafreequote = () => {
@@ -42,10 +43,10 @@ const Requestafreequote = () => {
 
     e.target.reset();
     setScore('Thank You');
-    // const { pathname } = Router
-    // if (pathname == pathname) {
-    //   Router.push('/thank-you')
-    // }
+    const { pathname } = Router
+    if (pathname == pathname) {
+      Router.push('/thank-you')
+    }
   }
 
   return (

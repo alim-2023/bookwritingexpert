@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
-
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/mission/1.png'
@@ -12,8 +11,6 @@ import whychooseourbookeditingservices1 from '/public/images/whychooseourbookedi
 import whychooseourbookeditingservices2 from '/public/images/whychooseourbookeditingservices/2.png'
 import whychooseourbookeditingservices3 from '/public/images/whychooseourbookeditingservices/3.png'
 import whychooseourbookeditingservices4 from '/public/images/whychooseourbookeditingservices/4.png'
-
-
 // components
 import Banner from '../../components/Banner'
 import Dowecome from '../../components/Dowecome'
@@ -26,23 +23,12 @@ import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Selfpublishing from '../../components/Selfpublishing'
-
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
-
-
-
 const Bookpublishingservices = () => {
 
-
-
-  const text = <span>This type of <Link className='textdocationnone color-blue hover' href="/book-editing-services"> ebook editing service </Link>  is also called Mechanical Editing and sometimes referred to as Line Editing. The editor's singular job is to make sure the story has a more "professional" approach and fill any gaps in the original plot.</span>;
-
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>  Professional and unmatched</span> <Link className='textdocationnone color-blue hover' href="/book-editing-services"> Book Editing Services </Link>  <span className=''>for all the Idealists within their reach</span> </h1>;
-
-
-
 
   const bannertext = [
     {
@@ -157,7 +143,7 @@ const Bookpublishingservices = () => {
       )}
 
 
-    
+
 
 
       {/* Dowecome */}
@@ -248,7 +234,7 @@ const Bookpublishingservices = () => {
       </div>
 
 
-      
+
 
 
 
@@ -265,7 +251,7 @@ const Bookpublishingservices = () => {
       {/* Selfpublishing */}
       <Selfpublishing
         title='Developmental Editing'
-        text='We know that every word counts, so we`re committed to crafting captivating stories for any length and style. Our talented teams of book writing editor will take on your project from start to finish because no task is too big when you have people like us working together as part of such fantastic Book Editing & formatting services.'
+        text='Every word matters, and we`re committed to crafting engrossing tales of every length and literary genre. When people like us collaborate as part of such amazing Book Editing & formatting services, no task is too big.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={whychooseourbookeditingservices1}
@@ -276,7 +262,7 @@ const Bookpublishingservices = () => {
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
         title='Editorial Assessment'
-        text='Proofreading is essential to the success of every project taken up by book editing services. It’s an integral part of finishing your manuscript. Online book editor and proofreader look for errors, so you know that all text was correct before sending or releasing documents published by third parties like publishers.'
+        text='The success of any project handled by book editing service providers depends on proofreading. It is a crucial step to finalize your manuscript. Our book editors and proofreaders examine for errors before shipping or releasing books published by third parties, such as publishers, to verify that the language is accurate and error-free.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={whychooseourbookeditingservices2}
@@ -288,7 +274,7 @@ const Bookpublishingservices = () => {
       {/* Selfpublishing */}
       <Selfpublishing
         title='Structural Editing'
-        text='In a world where so much information is available, it`s essential to make sure what you re putting out there represents your best work. The process of our book editing services includes exploiting the complexities of this process and turning them into success possibilities. It is also an opportunity for professional book editors and publishers who want help perfecting their craftsmanship with every word they type or publish.'
+        text='We take advantage of the difficulties in the structuring process and turn them into profitable opportunities as part of our book editing services. Professional book editors and publishers who want to hone their craft with each word they write or print can also take advantage of this chance.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={whychooseourbookeditingservices3}
@@ -299,7 +285,7 @@ const Bookpublishingservices = () => {
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
         title='Copy Editing'
-        text={text}
+        text='Mechanical editing and, in some situations, line editing are other names for this kind of ebook editing service. The story`s "professional" approach and any plot holes must be fixed by the editor; nothing else falls under their purview.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={whychooseourbookeditingservices4}
@@ -307,8 +293,8 @@ const Bookpublishingservices = () => {
       />
 
 
- {/* Stopworrying */}
- <div className='dataSetCo'>
+      {/* Stopworrying */}
+      <div className='dataSetCo'>
         <Stopworrying
           title2={dateset}
           text='Connect with us, and avail our best Editing Services at one go. We know the right formula for errorless content.'
@@ -325,16 +311,16 @@ const Bookpublishingservices = () => {
 
       {/* Lululogos components */}
 
-    
-        <Lululogos />
-      
+
+      <Lululogos />
+
 
 
       {/* Aspiring */}
       <div className='datacloud'>
         <Aspiring
-          title='So, About That Story, Ready To Publish? Get Book Editing Done Today!'
-          text="Editing, proofreading, publishing--all that form the criticalities of the book writing process. We know the effort it takes, the perseverance it needs, and the struggle it brings, so why not hire a helping hand? We are only a call, message, or email away! Let’s collaborate."
+          title='At First Glance, Book Editing Appears Challenging, But We Are Here To Help!'
+          text="The complexities of the book-writing process might be perplexing at times. Even the thought of editing, proofreading, and publishing all by yourself is terrifying. We understand the effort, tenacity, and difficulty involved, so why not hire a helping hand? We are merely a phone call, text message, or email away! Let's work together."
           number="(213) 289 3888"
           discuss="LET'S DISCUSS"
         />

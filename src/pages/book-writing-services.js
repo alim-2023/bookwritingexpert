@@ -261,26 +261,27 @@ const Bookpublishingservices = () => {
 
 
       <Ourprocess
-        title='Ultimate Place for Book Illustration and Designing'
-        text='Book Writing Cube has a team of professional illustrators and designers ready to breathe life into your idea. Our book editing service specialization lies in various genres that include:'
-        heading1='Book Writing Consultancy'
-        para1='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta risus et ligula congue placerat. Etiam lacinia, nisl ac aliquam venenatis,'
+        title='The Ultimate Destination for Book Writing Services'
+        text='Book Writing Experts offers a team of skilled writers and designers waiting to bring your concept to life. Our book writing service specializes in a variety of genres, including: research-based books, self-help, fiction, autobiographies, and children’s books.'
+
+        heading1='Talk to a Book Writing Consultant'
+        para1='Everything depends on communication because we need your input to move forward. A detailed discussion on the topic or story is the key to a successful book.'
         num1='01'
 
-        heading2='Receive & Feedback'
-        para2='Fusce vitae feugiat mauris. Suspendisse porttitor sed neque in mollis. Sed mollis sapien sed enim hendrerit, nec tristique ante facilisis.'
+        heading2='The Writing Phase Begins'
+        para2='Our skilled ghostwriters begin writing, keeping in mind your writing philosophy and ideas, in accordance with the framework.'
         num2='02'
 
-        heading3='Final Draft & QA'
-        para3='Vestibulum fermentum orci urna, sit amet feugiat nisi viverra a. Cras tristique, lacus sed gravida tincidunt, velit ipsum placerat massa, a pharetra lorem dolor ut nulla.'
+        heading3='Q/A and Submission'
+        para3='After each chapter that we write, we send the draft to our QA team, who fact-checks it and checks it for any mistakes that might have escaped your or the team`s attentive eye. The draft will then be submitted to you for review. A prompt delivery of the following draft would result from prompt feedback. Once you give your approval, our team makes the necessary changes before sending the document back to you for a final review.'
         num3='03'
 
-        heading4='Final Review & Cover Design'
-        para4='Nam ut egestas mi. Phasellus vitae velit maximus, placerat lorem vitae, ultricies lectus. Donec sem urna, accumsan sit amet iaculis eget, fringilla quis ex. Cras ut odio egestas.'
+        heading4='Cover Design'
+        para4='Next, we set up a meeting with our design team to get your book the cover you desire. Do you choose a book with a boring or unappealing cover when you explore bookstore shelves? Or do you choose a cover that grabs your attention, something that is distinct and immediately begins to tell a story? The second option is most likely the answer. And that`s only the beginning of the reasons why a good book cover design is crucial. The book cover should creatively speak for your tale. The process of actually selling your book comes next. '
         num4='04'
 
-        heading5='Completing The Project & Reassuring Further Assistance'
-        para5='Curabitur fermentum ultricies urna, in mollis sapien iaculis sed. Aliquam id risus eleifend, venenatis mi ut, scelerisque ipsum. Suspendisse potenti. Mauris quis porttitor nunc.'
+        heading5='Feedback and Provision of Other Services'
+        para5='Our book writing comes to a stop at this point. Our team will further connect you to our publishing and marketing teams if you require more help with editing, publishing, and/or marketing.'
         num5='05'
 
 

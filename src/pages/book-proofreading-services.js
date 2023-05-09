@@ -52,39 +52,39 @@ const Bookpublishingservices = () => {
       const reasons = [
 
         {
-          title:'Second-to-none Proofreading Services',
-          text:'To help you improve the readability of your book, our proofreading experts go the extra mile and ensure not a single flaw remains unattended. The rendered online proofreading services are of the highest quality, which means you can rest assured of being in good hands.',
+          title:'The Best Proofreading Services',
+          text:'Our proofreading specialists go above and beyond to ensure that no error goes uncorrected in order to assist you in improving the readability of your book.',
           col:'6',
           classnum: 'number',
         },
         {
-          title:'Highly Experienced Proofreaders',
-          text:'We have a team of highly experienced and skilled proofreaders who are experts in their field and work diligently to ensure that your document is error-free.',
+          title:'High-caliber proofreaders',
+          text:'Our team of proofreaders is composed of professionals with a wealth of knowledge and expertise who work carefully to guarantee that your document is error-free.',
           col:'6',
           classnum: 'number',
         },
         {
-          title:'Money-back Satisfaction Guaranteed',
-          text:'We offer a money-back satisfaction guarantee so that you can be confident that you will be happy with the results of our proofreading services.',
+          title:'Guaranteed Satisfaction',
+          text:'In order for you to be confident that you will be pleased with the outcomes of our proofreading services, we provide a money-back satisfaction guarantee.',
           col:'6',
           classnum: 'number',
         },
       
         {
-          title:'24/7 Operational',
-          text:'We are available 24/7 to provide you with our proofreading services so that you can get your document back as soon as possible.',
+          title:'Always-on Service',
+          text:'You may receive your work returned as quickly as possible by utilizing our proofreading services, which are available to you around the clock.',
           col:'6',
           classnum: 'number',
         },
         {
-          title:'Pricing That Makes Sense',
-          text:'We offer a range of affordable pricing options to suit your needs and budgets. Our affordable proofreading services are what you need to make your book covert into a best-selling publication.',
+          title:'Reasonable Pricing',
+          text:'We provide several reasonable pricing alternatives to meet your goals and financial constraints. You need our reasonably priced proofreading services to turn your work into a best-selling book.',
           col:'6',
           classnum: 'number',
         },
         {
-          title:'All Ears to You',
-          text:'Sun never sets on Book Writing Cube. We welcome queries of our valued clients with the laser-speedy response and ensure their concerns are addressed at the earliest possible.',
+          title:'Around-The-Clock Availability',
+          text:' With lightning-fast responses, we gladly accept inquiries from our esteemed clients and make sure their concerns are taken care of as soon as possible.',
           col:'6',
           classnum: 'number',
         },
@@ -239,26 +239,26 @@ btn =  {item.btn}
 
 
 <Ourprocess 
-title= 'This Is How You Get A Fresh Pair Of Eyes On Your Manuscript.'
+title= 'Our entire support package for advanced proofreading provides our customers with a one-stop shop for high-quality editorial and publication services throughout the effortless process.'
 
-heading1 = 'We Receive Your Book'
-para1 = 'Our proofreaders receive the manuscript/book to get the process of proofreading started.'
+heading1 = 'The Procedure Begins!'
+para1 = 'The manuscript or book is given to our proofreaders to begin the proofreading process.'
 num1 = '01'
 
-heading2 = 'We Start Scrutinizing Your Manuscript'
-para2 = 'Our professional proofreading personas read throught the entire book,looking for errors or typos'
+heading2 = 'Our Editors Get on With It!'
+para2 = 'Once every mistake has been identified, it is corrected in the manuscript.'
 num2 = '02'
 
-heading3 = 'Rectification Starts!'
-para3 = 'Once all the errors have been found, they are corrected in the manuscript. '
+heading3 = 'Oh, Your Book Just Became Error-Free!'
+para3 = 'This process involves sending you a flawlessly written book that is devoid of errors.'
 num3 = '03'
 
-heading4 = 'Consistency Checked'
-para4 = 'Our proofreaders will read through the book one last time tp catch any final errors or typos.Once they have finished, they will send you proof of the book so that you can see all the changes that they have made.'
+heading4 = 'Onto the Canvas Go the Final Touches!'
+para4 = 'Our expert proofreaders go over the entire book, looking for any mistakes or omissions.'
 num4 = '04'
 
-heading5 = 'Your Book Is Now Error-free'
-para5 = 'An error-free and flawlessly written book is sent off to you in this step.'
+heading5 = 'The Text Is Reviewed for Final Consistency!'
+para5 = 'Our proofreaders will go over the book one last time to look for any last-minute mistakes or inconsistencies. When they`re done, they`ll send you a proof copy of the book so you can review all the changes they made.'
 num5 = '05'
 
 
@@ -320,7 +320,7 @@ num5 = '05'
 
 
 <Row >
-<h2 className='font50 fw700 color-blue t-center font-f mb-5'>Why Do You Need To Invest In Our Professional Proofreading Services?</h2>  
+<h2 className='font50 fw700 color-blue t-center font-f mb-5'>Why Should You Spend Time On Our Expert Proofreading Services?</h2>  
 </Row>  
 
 <Row className='gy-5'>
@@ -344,8 +344,8 @@ classnumber = { item.classnum }
 
  <div className='datacloud'>
 <Aspiring
- title= 'Have A Second Set Of Eyes To Catch The Errors That You Have Missed!'
- text="Call us to get professional editors who will comb through your work and correct any errors. Whether it's a typo or a more serious grammatical error, we'll make sure it's fixed before you submit your work."
+ title= 'Have Someone There to Help You When Things Get Tough!'
+ text="Contact us to hire qualified editors to review your paper and fix any mistakes. Our team will ensure it's fixed before you submit your work, whether it's an oversight or a significant grammatical error."
  number="(213) 289 3888"
  discuss="LET'S DISCUSS"
 />

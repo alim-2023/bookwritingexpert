@@ -93,39 +93,39 @@ const Bookpublishingservices = () => {
   const reasons = [
 
     {
-      title: 'Proven Track Record',
-      text: 'Our company has a proven track record of successful book promotion campaigns.',
+      title: 'Demonstrated Record of Performance',
+      text: 'Our organization has a track record of executing successful book promotion strategies.',
       col: '6',
       classnum: 'number',
     },
     {
-      title: 'Team of Marketing Gurus',
-      text: 'Book Writing Cube has a team of experienced and creative professionals who can provide customized book promotion services. Every marketing approach, platform, and product requires a well-tailored strategy and plan of execution. Since every book has a different audience, our book marketing services make sure the needs and preferences of the target readers are met.',
+      title: 'An Expert Team in Marketing.',
+      text: 'Book Writing Experts is a team of skilled and creative book promotion professionals who can give customized services. Every marketing strategy, platform, and product necessitates a well-tailored strategy and execution plan. Because each book`s audience is unique, our book marketing services ensure that the needs and preferences of the target readers are met.',
       col: '6',
       classnum: 'number',
     },
     {
-      title: 'Cost-Effective Solutions',
-      text: 'We offer cost-effective book promotion services for authors that fit any budget. The packages we offer regarding book marketing services include social media platforms, blogging, guest posting, and email marketing.',
+      title: 'Solutions At a Low Cost.',
+      text: 'We provide affordable book promotion services for authors on any budget. We offer book marketing packages that cover social media platforms, blogging, guest posting, and email marketing.',
       col: '6',
       classnum: 'number',
     },
 
     {
-      title: 'Extensive Network',
-      text: 'We bear a wide range of contacts and resources to promote your book effectively. We`ve helped authors from all genres and backgrounds achieve their publishing goals, and we can do the same for you.',
+      title: 'Extensive Connections!',
+      text: 'We have a vast range of contacts and resources to properly advertise your book. We`ve assisted authors of many genres and backgrounds in reaching their publishing objectives, and we can do the same for you.',
       col: '6',
       classnum: 'number',
     },
     {
-      title: 'Deep Understanding',
-      text: 'We have a deep understanding of the book promotion process and know how to get results.',
+      title: 'Complete Comprehension!',
+      text: 'We have a thorough understanding of the book promotion process and know how to generate results',
       col: '6',
       classnum: 'number',
     },
     {
-      title: 'Result-driven Approach',
-      text: 'We are committed to providing the best possible online book promotion services and achieving the desired results for our clients.',
+      title: 'Methodology Focused on Results!',
+      text: 'We are dedicated to offering the best online book promotion services possible and obtaining the desired outcomes for our clients.',
       col: '6',
       classnum: 'number',
     },
@@ -252,26 +252,27 @@ const Bookpublishingservices = () => {
 
 
       <Ourprocess
-        title='Here’s How We Buckle up To Drive the Book Promotion Engine!'
-        text="We have a team of marketing maestros who maximize the marketing channels and make your book the talk of the town. Here is a recipe of how their marketing is cooked to perfection:"
-        heading1='Assessment & Development'
-        para1='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque ipsum, accumsan ac aliquet ut, sollicitudin maximus dolor.'
+        title='How The Book Promotion Process Unfolds!'
+        text="Our team of marketing experts uses all available resources to promote your book as widely as possible. The following is a blueprint for their successful marketing strategy:"
+
+        heading1='Evaluation and Advancement:'
+        para1='Provide your book with the attention it deserves. Author promotion services and benefits might help you expand your audience.'
         num1='01'
 
-        heading2='Execution'
-        para2='Sed est ligula, suscipit ac lectus in, semper bibendum diam. Nunc interdum velit in turpis sagittis pulvinar.'
+        heading2='Inspection and Assessment:'
+        para2='Profit from one of the most effective sales tactics. Set up and manage price promotions for your books with ease.'
         num2='02'
 
-        heading3='Monitoring & Analyzing'
-        para3='Vestibulum tristique in dui in blandit. Nam commodo purus eget orci pharetra, a lorem facilisis.'
+        heading3='Coherence Verified!'
+        para3='We assist you in becoming featured in thousands of our store partners. Get your book featured on book promotion websites, newsletters, and other publications.'
         num3='03'
 
-        heading4='Execution Continues'
-        para4='Aenean fringilla accumsan est, quis vestibulum purus imperdiet at. Vestibulum ac pretium risus. Fusce of to tristique massa a fringilla aliquet. Nullam facilisis vel finibus lorem sodales.'
+        heading4='Delivery!'
+        para4='To make it simple and effective for you to promote your independently published books, we`ve teamed up with leading book publishers. On one platform, get a variety of promotional benefits.'
         num4='04'
 
-        heading5='Celebration!'
-        para5='Donec gravida sollicitudin nisl pellentesque vulputate. Nam egestas, urna vel fringilla euismod, sapien quam posuere felis.'
+        heading5='Continued Execution!'
+        para5='Our book promotion services assist you in expanding your audience in addition to publication and distribution assistance. Find the ideal venues for promoting your print, audio, or eBook. '
         num5='05'
       />
 
@@ -330,7 +331,7 @@ const Bookpublishingservices = () => {
         <Container>
           <Row >
             <Col lg={10} className='mx-auto'>
-              <h2 className='font50 fw700 color-blue t-center font-f mb-5'>Still On the Fence? We Have Reasons For You To Confide In Us!</h2>
+              <h2 className='font50 fw700 color-blue t-center font-f mb-5'>Are You Still Unconvinced? You Can Trust Us Because of What We Can Offer You!</h2>
             </Col>
           </Row>
 

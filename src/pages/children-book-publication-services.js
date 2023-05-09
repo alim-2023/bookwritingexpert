@@ -62,7 +62,7 @@ const Childrenbookpublicationservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Make the most of the immense value with Children’s Book Publishing!',
+      pra: 'Publish a book that children will enjoy. Realistic books that are representative of socially conscious children!',
       discuss: 'LET S DISCUSS',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -86,20 +86,20 @@ const Childrenbookpublicationservices = () => {
   const reasons = [
 
     {
-      title: 'Book reviewing',
-      text: 'Our dedicated teams go through every word and illustration before handing over the final draft to you. We make sure the illustrations are contextually correct while ensuring the rhythmic flow of the content. At Book Writing Cube, our proofreaders go the extra with text and illustration alignments and sizing.',
+      title: 'Reviewing Books',
+      text: 'Before giving you the final draught, our devoted teams carefully review each word and each illustration. While ensuring the rhythmic flow of the narrative, we ensure that the pictures are contextually appropriate.',
       classnum: 'number1',
 
     },
     {
-      title: 'Book composition',
-      text: 'Once the text and illustrations are checked for grammar and context, we offer the client an initial draft for further review. Our experts provide you with different options when it comes to the spread and type of illustration in order to keep your book publication cost-effective.',
+      title: 'Book Structure',
+      text: 'We provide the client with a first draught for additional evaluation after the text and illustrations have been reviewed for grammar and context.',
       classnum: 'number1',
 
     },
     {
-      title: 'Book publication',
-      text: 'In this final stage, we help you with typesetting, page trim, length, and cover of the book. Our design and illustration professionals facilitate you in finalizing the publishing draft. Be it enhancing the color scheme or changing the typography, we offer multiple revisions to help you publish the always-wanted book under your name.',
+      title: 'Publication Of A Book',
+      text: 'In this last phase, we assist you with typesetting, page trimming, book length, and the book cover. Our illustration and design experts assist you in polishing the publishing draught.',
       classnum: 'number1',
 
     },
@@ -231,22 +231,23 @@ const Childrenbookpublicationservices = () => {
       </div>
 
       <Ourprocess
-        title='What Is Our Children Book Publication Process?'
+        title='The Publication Process For Children s Books'
+        text='Every story deserves to be heard. The fulfillment that a successful book can offer to our authors is what matters most to us.'
 
-        heading1='Book Writing Consultancy'
-        para1='Once the draft is submitted, it entirely depends on the communication as we need your feedback to proceed.Prompt feedback would mean a prompt delivery of the next draft.'
+        heading1='Embracing the Concept '
+        para1='The first and most important thing we need to know when publishing a children`s book is the publication strategy you have in mind. If not, our staff would love to be of help!'
         num1='01'
 
-        heading2='Receive & Feedback'
-        para2='As per the outline, our expert ghostwriters start writing the initial content that reflects your ideology behind book writing.'
+        heading2='Cover Design And Illustrations'
+        para2='Cover art and inner page illustrations go a long way when it comes to publishing a colorful and impressive children’s book. Our designers can translate your ideas to bright and interesting artwork.'
         num2='02'
 
-        heading3='FinalDraft & QA:'
-        para3='Once we are done writing the book, we do not just abandon you.We send it to our QA team that fact-checks and scans the draft for errors that may have missed your or our team`s keen eye.'
+        heading3='Publishing Made Simple!'
+        para3='Want to self-publish a children`s book but don`t know how? You can look over our publishing packages and select the one that best meets your needs. '
         num3='03'
 
-        heading4='Final Reviewing & Cover Design:'
-        para4='As soon as you approve the changes, our team implements them, and then sends it back to you for a final review. Once we get your go-ahead, we schedule a meeting with our design team and get your book a cover that you want.'
+        heading4='We Need Your Feedback!'
+        para4='We`re interested in hearing whether or not you were satisfied with our work for you once your book has been released. Customers come first in our business; thus, we would greatly appreciate hearing from you!'
         num4='04'
 
         heading5='Completing The Project & Reassuring Further Assistance:'
@@ -333,11 +334,9 @@ const Childrenbookpublicationservices = () => {
       <div className={styles.stillbookwritingservices}>
         <Container >
           <Row >
-            <h2 className='font50 fw700 color-white t-center font-f mb-3'>Enticement, exposure, and expansion—acing the toughest gig!</h2>
+            <h2 className='font50 fw700 color-white t-center font-f mb-3'>Creating Stories to Captivate Children’s Interest!</h2>
 
-            <p className="font15  font-f t-center color-white  mb-5">Know this: not many authors secure any deal with the publishers.
-              But at Book Writing Cube, we help you connect and collaborate with high-profile publishers and
-              Children's Book Publishing experts.
+            <p className="font15  font-f t-center color-white  mb-5">Be aware that not many authors manage to negotiate an agreement with the publishers. But at our company, we assist you in making contact with prominent publications and working with them.
             </p>
           </Row>
 
@@ -374,8 +373,8 @@ const Childrenbookpublicationservices = () => {
       {/* Aspiring */}
       <div className='datacloud'>
         <Aspiring
-          title='Ultimately, your success establishes our reputation'
-          text="The experts at Book Writing Cube are well-aware of the amount of time and effort a singular literary composition requires. We value the work done and respect the passion for publishing the aspiring authors demonstrate. And we promise to help you finalize a composition you can take great pride in!"
+          title='Your Accomplishment Cements Our Reputation!'
+          text="Our professionals understand how much time and effort a single literary composition necessitates. We cherish the work done and admire the budding authors' enthusiasm for publishing. And we vow to assist you in completing a composition that you will be proud of!"
           number="(213) 289 3888"
           discuss="LET'S DISCUSS"
         />
