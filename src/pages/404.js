@@ -37,8 +37,8 @@ const Error = () => {
     <Row>
         <Col>
             <h2 className='fw600 font60 color-blue t-center font-f mb-4'>404 NOT FOUND</h2>
-            <h4 className="fw500 font40 colortextgrey t-center font-f mb-2">THIS IS SOMEWHAT EMBARRASSING, ISN’T IT?</h4>
-            <p className="font18 fw400 colortextgrey t-center font-f mb-4">It looks like nothing was found at this location. Maybe try a search?</p>
+            <h4 className="fw500 font40 color-white t-center font-f mb-2">THIS IS SOMEWHAT EMBARRASSING, ISN’T IT?</h4>
+            <p className="font18 fw400 color-white t-center font-f mb-4">It looks like nothing was found at this location. Maybe try a search?</p>
 
             <div className='mt-4 t-center'>
                         <Link href="#" className={styles.btn404}>LET'S DISCUSS</Link>
