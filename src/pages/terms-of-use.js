@@ -3,6 +3,7 @@ import styles from '@/styles/Termsofuse.module.css'
 import Head from 'next/head'
 import { Container, Row, Col } from 'react-bootstrap'
 import Aspiring from '../../components/Aspiring'
+import Banner from '../../components/Banner'
 
 const Termsofuse = () => {
 
