@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Signup from './Signup'
 
-
 const Aspiring = (props) => {
     return (
         <>

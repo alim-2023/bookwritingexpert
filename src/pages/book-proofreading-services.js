@@ -2,13 +2,11 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import { Container,Row } from 'react-bootstrap'
-
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-
 // components
 import Banner from '../../components/Banner'
 import Dowecome from '../../components/Dowecome'
@@ -18,7 +16,6 @@ import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
 import Stillonthefence from '../../components/Stillonthefence'
-
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 

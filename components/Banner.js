@@ -7,7 +7,6 @@ import Slider from 'react-slick'
 import Modal from 'react-bootstrap/Modal'
 import { useState } from 'react';
 import { BsFillPlayFill } from 'react-icons/bs'
-
 // images
 import banslider1 from '../public/images/bannerimages/banslider1.png'
 import banslider3 from '../public/images/bannerimages/banslider3.png'

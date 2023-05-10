@@ -2,15 +2,12 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
-
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import typeofbooks from '/public/images/selfpublishingservices/1.jpg'
 import copy from '/public/images/selfpublishingservices/2.jpg'
 import marketyourbook from '/public/images/selfpublishingservices/3.jpg'
 import publishmybook from '/public/images/selfpublishingservices/4.jpg'
-
-
 // components
 import Banner from '../../components/Banner'
 import Dowecome from '../../components/Dowecome'
@@ -33,8 +30,6 @@ import styles from '@/styles/Whybookpublishing.module.css'
 const Bookpublishingservices = () => {
   const text = <span>We write, market, and review books of all kinds.</span>;
   const subtext = <span> Profit from our wide range of book publication styles and forms to secure your position as a book writing guru. In addition to publishing children's books, we are among the top Amazon publishing service suppliers.</span>;
-
-  // const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="/book-publishing-services" className='textdocationnone color-blue hover'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className=''>To Our Struggling Authors</span> </h1>;
 

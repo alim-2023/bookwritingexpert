@@ -14,15 +14,12 @@ import { Container,Row } from 'react-bootstrap'
 import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
 import Stillonthefence from '../../components/Stillonthefence'
-
 import Stopworrying from '../../components/Stopworrying'
 import Finetoothedbook from '../../components/Finetoothedbook'
 import Ourprocess from '../../components/Ourprocess'
-
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
-
 import together from '/public/images/together/together.png'
 import Whatourclients from '../../components/Whatourclients'
 

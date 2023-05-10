@@ -70,9 +70,9 @@ const Getstarted = (props) => {
             <Col md={6}>
               <input type="text" className={styles.formfree} required name="last" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter Your Email" />
             </Col>
-       
 
-    
+
+
             <Col md={6}>
               <input type="number" className={styles.formfree} required name="phone" placeholder="Phone Number" />
             </Col>
@@ -91,7 +91,7 @@ const Getstarted = (props) => {
 
               </select>
             </Col>
-       
+
             <Col md={12}>
               <textarea className={styles.formfree} required name="message" rows="3" placeholder="Enter your Message"></textarea>
             </Col>

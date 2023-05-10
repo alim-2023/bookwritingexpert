@@ -16,8 +16,6 @@ import BookChildrenIllus from '../../components/Bookchildrenillus'
 import BookDigitalMarket from '../../components/Bookdigitalmarket'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 
-
-
 const Pricing = () => {
 
   const priceHead = <h1 className='font50 fw700 color-blue'>The World Awaits Your Masterpiece!</h1>

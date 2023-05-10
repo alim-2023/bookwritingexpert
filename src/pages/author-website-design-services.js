@@ -12,8 +12,6 @@ import Whybookpublishing from '../../components/Whybookpublishing'
 import styles from '@/styles/Whybookpublishing.module.css'
 import Stillonthefence from '../../components/Stillonthefence'
 import Ourcaptivatingauthor from '../../components/Ourcaptivatingauthor'
-
-
 import designprojects1 from '/public/images/designprojects/1.png'
 import designprojects2 from '/public/images/designprojects/2.png'
 import designprojects3 from '/public/images/designprojects/3.png'

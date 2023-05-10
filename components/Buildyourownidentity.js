@@ -19,7 +19,7 @@ const Buildyourownidentity = () => {
                     </Row>
 
 
-                    <Row className={` ${styles.media} gy-5 `}>
+                    <Row className={` ${styles.media} gy-5`}>
 
                         <Col md={3}>
 
