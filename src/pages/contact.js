@@ -124,7 +124,7 @@ const Contact = () => {
                             </p>
 
                         </Col>
-                    
+
                         <Col md={1}></Col>
                         <Col md={6}>
 
@@ -133,10 +133,10 @@ const Contact = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.6200791070223!2d-118.25944002448333!3d34.053615473156526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b26b2805e7%3A0x631167a0f496a896!2sUnion%20Bank%20Plaza%2C%20445%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090071%2C%20USA!5e0!3m2!1sen!2s!4v1681986458438!5m2!1sen!2s" width='100%' height='252' ></iframe>
 
 
-                        
+
                             <h4 className='font-f fw400 font20 color-white t-center mt-3' >(Operations)</h4>
                             <p className='font-f fw300 mt-3 color-white t-center' >
-                            445 S.Figueroa Street, Los Angeles, CA 90071
+                                445 S.Figueroa Street, Los Angeles, CA 90071
                             </p>
 
 
