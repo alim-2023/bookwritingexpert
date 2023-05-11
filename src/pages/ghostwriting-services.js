@@ -86,20 +86,10 @@ const Bookpublishingservices = () => {
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'ghostwriting',
-
-
-
-
     }
   ]
 
-
-
-
-
   const geta = <span>Our <Link className='color-blue textdocationnone hover fw700' href='/ghostwriting-services'> Ghostwriting </Link>Team Has A Knack For Telling Stories</span>
-
-
 
   const posdata = <span>Get The <Link className='textdocationnone color-blue hover fw700' href='/ghostwriting-services'>Top Ghostwriting Services</Link> From The Writers Who Best Understands The Readers?</span>
 

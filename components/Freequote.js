@@ -8,7 +8,7 @@ import Router from 'next/router'
 const Freequote = (props) => {
 
 
-  const [score, setScore] = useState('SUBMIT');
+  const [score, setScore] = useState('Submit');
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -32,10 +32,10 @@ const Freequote = (props) => {
 
     e.target.reset();
     setScore('Thank You');
-    // const { pathname } = Router
-    // if (pathname == pathname) {
-    //   Router.push('/thank-you')
-    // }
+    const { pathname } = Router
+    if (pathname == pathname) {
+      Router.push('/thank-you')
+    }
 
 
 

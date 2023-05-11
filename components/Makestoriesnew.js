@@ -5,7 +5,6 @@ import Image from 'next/image'
 
 
 // images
-
 import cover1 from '../public/images/thousandsofstruggling/Book-Mockup.png'
 import cover2 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
 import cover3 from '../public/images/thousandsofstruggling/Book-Mockup3.png'
@@ -28,7 +27,6 @@ import cover18 from '../public/images/thousandsofstruggling/book-mockup-10.png'
 
 
 // slick css
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'

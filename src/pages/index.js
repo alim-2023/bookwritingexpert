@@ -17,13 +17,12 @@ import Strugglingtogive from '../../components/Strugglingtogive'
 import Strugglingwriters from '../../components/Strugglingwriters'
 import Onestepsolutions from '../../components/Onestepsolutions'
 
+
 export default function Home() {
 
   const exprtSpan = <span className='fw500 font50 color-white font-f t-center font-f mb-4'><span className='color-blue fw700'><Link className='dblockmobile color-blue hover textdocationnone' href="/">Book Writing Experts</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile color-blue hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Your ONE-STOP</span> <Link className='dblockmobile textdocationnone color-blue hover' href="/"> Ghostwriting, Editing And Publishing Service </Link>  <span className=''>Provider!</span> </h1>;
-
-
 
   const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
@@ -39,18 +38,20 @@ export default function Home() {
       banners: 'banner',
     }
   ]
+
+
+
+
   return (
     <>
       <Head>
         <title>Professional Book Writing Services Company</title>
         <link rel="icon" href="/favicon.svg" />
-
-
       </Head>
+
+
       <main>
-
         {/* banner components */}
-
         {bannertext.map((item, i) =>
           <Homebanner key={i}
             title={item.title}
@@ -61,8 +62,6 @@ export default function Home() {
             bannershome={item.banners}
           />
         )}
-
-
 
         {/* partners components */}
         <Partners />
@@ -107,6 +106,7 @@ export default function Home() {
         <div className='datacloudco'>
           <Comprehensive />
         </div>
+
         {/* Customersatisfaction */}
         <Customersatisfaction />
 
@@ -140,9 +140,6 @@ export default function Home() {
             btn2='Talk to an expert'
           />
         </div>
-
-
-        {/* <Professionalghostwriter /> */}
 
         {/* Talk To Our Whatourclients! */}
         <Whatourclients />

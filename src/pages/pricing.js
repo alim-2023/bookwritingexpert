@@ -34,10 +34,6 @@ const Pricing = () => {
     }
   ]
 
-
-
-
-
   return (
 
     <>
@@ -61,15 +57,9 @@ const Pricing = () => {
         <meta name="twitter:data1" content="5 minutes" />
         <link rel="icon" href="/favicon.svg" />
 
-
-
       </Head>
 
-
-
-
       {/* banner components */}
-
       {bannertext.map((item, i) =>
         <Banner key={i}
           title={item.title}

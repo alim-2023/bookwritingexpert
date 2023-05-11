@@ -5,11 +5,6 @@ import Banner from '../../components/Banner'
 import Aspiring from '../../components/Aspiring'
 import Faqslist from '../../components/Faqslist'
 
-
-
-
-
-
 const Faqs = () => {
 
   const faqsHead = <h1 className='font50 fw700 color-blue'>Create An Impact With Our Non Fiction ghostwriting Services</h1>
@@ -22,9 +17,6 @@ const Faqs = () => {
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       faqs: 'faqs',
-
-
-
     }
   ]
 
