@@ -274,7 +274,7 @@ const Bookpublishingservices = () => {
         num3='03'
 
         heading4='Cover Design'
-        para4='Next, we set up a meeting with our design team to get your book the cover you desire. Do you choose a book with a boring or unappealing cover when you explore bookstore shelves? Or do you choose a cover that grabs your attention, something that is distinct and immediately begins to tell a story? The second option is most likely the answer. And that`s only the beginning of the reasons why a good book cover design is crucial. The book cover should creatively speak for your tale. The process of actually selling your book comes next. '
+        para4='Have you ever found yourself browsing on a book shelf? Do the most interesting covers catch your eye? They always do.  People always do judge the book by its cover. That’s the reason designing book covers is a tedious but the most important of all our jobs. The design team gets on board with the client to design a cover that best speaks for the book.'
         num4='04'
 
         heading5='Feedback and Provision of Other Services'
