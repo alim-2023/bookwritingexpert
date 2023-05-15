@@ -235,7 +235,7 @@ const Childrenbookillustrationsservices = () => {
         title='The Steps In The Process Of Illustrating A Children`s Book!'
 
         heading1='Identifying the Aesthetic Elements from our client:'
-        para1='Before the beginning of any project, it’s vital our team comprehends the expectations and preferences set by the client. With the needed back & forth, our team is well equipped with the necessary information to start the project. Once we have a framework of what you have envisioned for your book, we start throwing ideas accumulated by the team. Only the best ideas make it to the final stage.'
+        para1='Before starting a project, it’s vital our team grasps the expectations set by the client. After a complete assessment our team kicks off with needed information. Once your envisioned  framework is ready, we start throwing ideas accumulated by the team. Only the best ones make it to the final stage.'
         num1='01'
 
         heading2='The Art Commences:'

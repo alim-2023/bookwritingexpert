@@ -270,7 +270,7 @@ const Bookpublishingservices = () => {
         num2='02'
 
         heading3='Q/A and Submission'
-        para3='After each chapter that we write, we send the draft to our QA team, who fact-checks it and checks it for any mistakes that might have escaped your or the team`s attentive eye. The draft will then be submitted to you for review. A prompt delivery of the following draft would result from prompt feedback. Once you give your approval, our team makes the necessary changes before sending the document back to you for a final review.'
+        para3='After completion of each chapter, the draft is sent to the QA for full screening. Once all mistakes are fixed, the draft is then shared to the client for review. If there’s a feedback of any sort, that gets incorporated and adjusted, before sharing it again with the client for final review.'
         num3='03'
 
         heading4='Cover Design'

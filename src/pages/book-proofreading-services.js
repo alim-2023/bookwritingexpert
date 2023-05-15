@@ -236,7 +236,7 @@ const Bookpublishingservices = () => {
 
 
       <Ourprocess
-        title='Our advanced proofreading process makes us a one stop solution for all our clients. Top notch editorials and publications optimized as per your needs.'
+        title='Our Book Proofreading Process Makes Us A One Stop Solution. Top Notch Editorials And Publications Tailor-Made, As Per Your Needs.'
 
         heading1='The Procedure Begins!'
         para1='The manuscript or book is given to our proofreaders to begin the proofreading process.'

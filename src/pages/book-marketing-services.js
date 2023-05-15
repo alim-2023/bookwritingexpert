@@ -218,7 +218,7 @@ const Bookpublishingservices = () => {
         num4='04'
 
         heading5='Effective Marketing Strategy Is What Is Needed!'
-        para5='Several book marketing strategies are used in a well-designed book marketing plan. An author`s website, social media, paid advertisements, or lead magnets are examples of this. To ensure that your book sells well, we`ll show you how to employ several book promotional strategies. You can sit back while we do all the work for you!'
+        para5='Multiple book marketing strategies are in place, in order to make your book a huge success. The author’s website, Social media tools/platforms, paid advertisements and other lead magnets are the first check-points. We’re industry experts, hence assure you to sit back and relax while we call the shots.'
         num5='05'
       />
 
