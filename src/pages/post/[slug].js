@@ -20,24 +20,33 @@ const Slug = () => {
         <>
 
             <Head>
-                <meta charSet="UTF-8" />
-                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                <title>8 Advanced Strategies for KDP Book Promotion and Marketing</title>
-                <meta name="description"
-                    content="Unlock your book’s full potential with advanced KDP promotion and marketing. Click here to uncover strategies to drive more traffic and sales." />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta name="robots" content="max-image-preview:large" />
-                <meta name="tags" content="" />
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+                <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+                <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+                <link rel="profile" href="http://gmpg.org/xfn/11" />
+                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+                <title>The Role Of Amazon KDP In Multilingual Book Publishing Services</title>
+                <meta name="description" content="In this blog, we will explore the role of Amazon KDP Global in enhancing publishing reach through multilingual book publishing services" />
+                <link rel="canonical" href="" />
                 <meta property="og:locale" content="en_US" />
-                <meta property="og:type" content="website" />
-                <meta property="og:title" content="8 Advanced Strategies for KDP Book Promotion and Marketing" />
-                <meta property="og:description"
-                    content="Unlock your book’s full potential with advanced KDP promotion and marketing. Click here to uncover strategies to drive more traffic and sales." />
-                <meta property="og:url" content="https://www.bookwritingcube.com/8-advanced-strategies-for-kdp-book-promotion-and-marketing/" />
-                <meta property="og:site_name" content="8 Advanced Strategies for KDP Book Promotion and Marketing" />
+                <meta property="og:type" content="article" />
+                <meta property="og:title" content="The Role Of Amazon KDP In Multilingual Book Publishing Services" />
+                <meta property="og:description" content="In this blog, we will explore the role of Amazon KDP Global in enhancing publishing reach through multilingual book publishing services" />
+                <meta property="og:url" content="" />
+                <meta property="og:site_name" content="Book Writing" />
+                <meta property="article:published_time" content="2023-05-15T12:40:22+00:00" />
+                <meta property="article:modified_time" content="2023-05-15T13:43:41+00:00" />
+                <meta property="og:image" content="" />
+                <meta property="og:image:width" content="1400" />
+                <meta property="og:image:height" content="800" />
+                <meta property="og:image:type" content="image/jpeg" />
+                <meta name="author" content="Book Writing Experts" />
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:label1" content="Est. reading time" />
-                <meta name="twitter:data1" content="5 minutes" />
+                <meta name="twitter:label1" content="Written by" />
+                <meta name="twitter:data1" content="Book Writing Experts" />
+                <meta name="twitter:label2" content="Est. reading time" />
+                <meta name="twitter:data2" content="13 minutes" />
                 <link rel='icon' href='/favicon.svg' />
             </Head>
 
