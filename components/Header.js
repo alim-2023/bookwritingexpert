@@ -92,13 +92,13 @@ const Header = () => {
                             <p>Professional and unmatched Reliable Editing Solutions For All!</p>
                           </div>
                         </li>
-                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                        {/* <li className={`${styles.navlinks} ${styles.megaLinks}`}>
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon5} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/book-marketing-services">Book Marketing</Link>
                             <p>Book Promotion Has Just Become Easier With The Global Book...</p>
                           </div>
-                        </li>
+                        </li> */}
                       </ul>
                     </Col>
                     <Col md={4}>
@@ -113,7 +113,7 @@ const Header = () => {
                             <p>Professional Proofreading Services To Turn Your Words Into Masterpieces.</p>
                           </div>
                         </li>
-                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                        {/* <li className={`${styles.navlinks} ${styles.megaLinks}`}>
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon7} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/ghostwriting-services">Ghostwriting</Link>
@@ -132,6 +132,13 @@ const Header = () => {
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/children-book-illustrations-services">Children's Book Illustrations</Link>
                             <p>What Type Of Children's Book Illustrations You Need For Your Book!</p>
+                          </div>
+                        </li> */}
+                              <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon5} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/book-marketing-services">Book Marketing</Link>
+                            <p>Book Promotion Has Just Become Easier With The Global Book...</p>
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>

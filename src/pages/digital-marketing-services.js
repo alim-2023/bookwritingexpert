@@ -48,10 +48,28 @@ const Digitalmarketingservices = () => {
   return (
     <>
       <Head>
-
-
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+        <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+    
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <title>Top Tier Digital Marketing Services - Book Writing Experts</title>
+        <meta name="description" content="Digital Marketing Services that will help your business grow. We offer various services to help you achieve ultimate success. Call us to get them." />
+        <link rel="canonical" href="/digital-marketing-services" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Top Tier Digital Marketing Services - Book Writing Experts" />
+        <meta property="og:description" content="Digital Marketing Services that will help your business grow. We offer various services to help you achieve ultimate success. Call us to get them." />
+        <meta property="og:url" content="/digital-marketing-services" />
+        <meta property="og:site_name" content="Book Writing" />
+        <meta property="article:modified_time" content="2023-03-31T11:58:56+00:00" />
+        <meta property="og:image" content="/complogo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="45 minutes" />
         <link rel="icon" href="/favicon.svg" />
-
       </Head>
 
 

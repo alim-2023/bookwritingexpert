@@ -143,16 +143,26 @@ const Bookpublishingservices = () => {
   return (
     <>
       <Head>
-
-  
-
-
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+        <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <title>Professional Book Writing Services - Book Writing Experts</title>
+        <meta name="description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <link rel="canonical" href="/book-writing-services" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Professional Book Writing Services - Book Writing Experts" />
+        <meta property="og:description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <meta property="og:url" content="/book-writing-services" />
+        <meta property="og:site_name" content="Book Writing" />
+        <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="6 minutes" />
         <link rel="icon" href="/favicon.svg" />
-
-
-
-
-
       </Head>
 
 
@@ -176,7 +186,7 @@ const Bookpublishingservices = () => {
       )}
 
 
-    
+
 
 
 

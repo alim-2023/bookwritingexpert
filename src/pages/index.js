@@ -45,8 +45,29 @@ export default function Home() {
   return (
     <>
       <Head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+        <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+    
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Professional Book Writing Services Company</title>
+        <meta name="description" content="Book Writing Services that transform your ideas to the best-selling book. Call us if you need help writing a book or penning down your thoughts." />
+        <link rel="canonical" href="https://bookwritingexperts.com/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Professional Book Writing Services Company" />
+        <meta property="og:description" content="Book Writing Services that transform your ideas to the best-selling book. Call us if you need help writing a book or penning down your thoughts." />
+        <meta property="og:url" content="https://bookwritingexperts.com/" />
+        <meta property="og:site_name" content="Book Writing" />
+        <meta property="article:modified_time" content="2023-01-12T00:00:46+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="13 minutes" />
         <link rel="icon" href="/favicon.svg" />
+
       </Head>
 
 
