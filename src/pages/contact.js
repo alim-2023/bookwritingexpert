@@ -72,23 +72,6 @@ const Contact = () => {
 
             <Head>
 
-                <meta charSet='UTF-8' />
-                <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
-                <title>Book Writing Services Company- Book Writing Cube</title>
-                <meta name='description'
-                    content='Book Writing Services Company that helps you become the best-selling author of all times. Get in touch today.' />
-                <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-                <meta name='tags' content='' />
-                <meta property='og:locale' content='en' />
-                <meta property='og:type' content='website' />
-                <meta property='og:title' content='Book Writing Services Company- Book Writing Cube' />
-                <meta property='og:description'
-                    content='Book Writing Services Company that helps you become the best-selling author of all times. Get in touch today.' />
-                <meta property='og:url' content='https://www.bookwritingcube.com/contact' />
-                <meta property='og:site_name' content='Book Writing Services Company- Book Writing Cube' />
-                <meta name='twitter:card' content='summary_large_image' />
-                <meta name='twitter:label1' content='Est. reading time' />
-                <meta name='twitter:data1' content='5 minutes' />
                 <link rel="icon" href="/favicon.svg" />
 
             </Head>

@@ -128,29 +128,7 @@ const Childrenbookillustrationsservices = () => {
       <Head>
 
 
-        <meta charSet="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <title>Children Book Illustrations Services - Book Writing Cube</title>
-        <meta name="description" content="Children Book Illustration Services That Hit The Chord With Kids and Hook Them To Read. Visit Our Website To Get Services For You." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="tags" content="" />
-        <meta name="DC.title" content="children book illustrations" />
-        <meta name="geo.region" content="GB" />
-        <meta name="geo.position" content="54.702355;-3.276575" />
-        <meta name="ICBM" content="54.702355, -3.276575" />
-        <meta name="DC.title" content="children book illustrations" />
-        <meta name="geo.region" content="US" />
-        <meta name="geo.position" content="39.78373;-100.445882" />
-        <meta name="ICBM" content="39.78373, -100.445882" />
-        <meta property="og:locale" content="en" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Children Book Illustrations Services - Book Writing Cube" />
-        <meta property="og:description" content="Children Book Illustration Services That Hit The Chord With Kids and Hook Them To Read. Visit Our Website To Get Services For You." />
-        <meta property="og:url" content="https://www.bookwritingcube.com/" />
-        <meta property="og:site_name" content="Children Book Illustrations Services - Book Writing Cube" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:label1" content="Est. reading time" />
-        <meta name="twitter:data1" content="5 minutes" />
+     
 
         <link rel="icon" href="/favicon.svg" />
 

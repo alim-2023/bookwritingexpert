@@ -28,23 +28,7 @@ const Announcement = () => {
 
             <Head>
 
-                <meta charSet="UTF-8" />
-                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                <title>Book Writing Cube Sets The Record Straight On Domain Ownership</title>
-                <meta name="description"
-                    content="Don't let domain ownership confusion compromise your book writing and publishing endeavors. Book Writing Cube clarifies domain ownership confusion.read on to learn more!" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta name="tags" content="" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:type" content="website" />
-                <meta property="og:title" content="Book Writing Cube Sets The Record Straight On Domain Ownership" />
-                <meta property="og:description"
-                    content="Don't let domain ownership confusion compromise your book writing and publishing endeavors. Book Writing Cube clarifies domain ownership confusion.read on to learn more!" />
-                <meta property="og:url" content="https://www.bookwritingcube.com/press-release-book-writing-cube/" />
-                <meta property="og:site_name" content="Book Writing Cube Sets The Record Straight On Domain Ownership" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:label1" content="Est. reading time" />
-                <meta name="twitter:data1" content="5 minutes" />
+
 
                 <link rel="icon" href="/favicon.svg" />
 

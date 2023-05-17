@@ -26,23 +26,7 @@ const Privacypolicy = () => {
 
 
             <Head>
-                <meta charSet="UTF-8" />
-                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                <title>Privacy policy - Hire Professional Book Writing Experts in the US -</title>
-                <meta name="description"
-                    content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (213) 289 3888 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta name="tags" content="" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:type" content="website" />
-                <meta property="og:title" content="Privacy policy - Hire Professional Book Writing Experts in the US -" />
-                <meta property="og:description"
-                    content="Our Professional Editors Will Improve Your Manuscript Before Publication We bring the art of proofreading and editing to perfection Lets Discuss Lets Discuss (213) 289 3888 Request A Free Quote. The published manifestation of your writing dreams! Get Free Consultancy Your Intense and Compelling Story Needs Professional Proof-Reading and Editing Our team has experience […]" />
-                <meta property="og:url" content="https://www.bookwritingcube.com/" />
-                <meta property="og:site_name" content="Privacy policy - Hire Professional Book Writing Experts in the US -" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:label1" content="Est. reading time" />
-                <meta name="twitter:data1" content="5 minutes" />
+
                 <link rel="icon" href="/favicon.svg" />
 
             </Head>
