@@ -130,6 +130,9 @@ const Homebanner = (props) => {
                                             <div className={styles.homebannerlogo}>
                                                 <Image loading="lazy" className={`${styles.homelogoimgnone} img-fluid mt-3`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
                                             </div>
+                                            <div className={styles.homebannerlogo2}>
+                                                <Image loading="lazy" className={`${styles.homelogoimgnone} img-fluid mt-5`} src={props.homebanlogos2} alt='book_writing_cube' ></Image>
+                                            </div>
                                         </div>
                                     </div>
                                     :

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import homebanlogos2 from '/public/images/bannerimages/homebannerlogos2.webp'
 import whychoose from '/public/images/whychoosebooks/bg-img.png'
 // import components
 import Homebanner from '../../components/Homebanner'
@@ -184,6 +185,7 @@ export default function Home() {
             discuss= 'LET S DISCUSS'
             homebannernum= '(213) 289 3888'
             homebanlogos= {homebannerlogos}
+            homebanlogos2= {homebanlogos2}
             bannershome= 'banner'
           />
        
