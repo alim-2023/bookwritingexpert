@@ -21,12 +21,12 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Childrenbookillustrationsservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Give Your Book the Aesthetic Edge Over the Others. Avail our </span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Illustration Services   </Link>  <span className=''> to Elevate the Experience for Your Readers! </span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className=''>To Our Struggling Authors</span> </h1>;
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'While your words might do justice, illustrations take your book experience to a whole new level. Let us bring your imaginary characters on the paper for your readers to connect.',
+      pra: 'While the words elaborate the story, illustrations in a book help your imagination grasp the picture that the author wanted to paint with his words for the world to see.',
       discuss: 'LET S DISCUSS',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,

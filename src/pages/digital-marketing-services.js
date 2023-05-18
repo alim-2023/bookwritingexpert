@@ -18,12 +18,12 @@ import Stopworrying from '../../components/Stopworrying'
 const Digitalmarketingservices = () => {
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>     Result-focused Digital Marketing Services, Crafted to Enhance Your Book Experience for The Readers.</span>   </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>     Stellar Digital Marketing Services Crafting Strong Branding Experiences For Your Brilliant Ideas!</span>   </h1>;
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Amplify your book sales through our digital marketing services. Build credibility and reach out to a greater audience as you already are.',
+      pra: 'Book Writing Experts is the name of creative potential that establishes an indelible name for you. Our digital marketing expertise enhances your book’s visibility',
       discuss: 'LET S DISCUSS',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -48,7 +48,7 @@ const Digitalmarketingservices = () => {
   return (
     <>
       <Head>
-        <meta charSet="UTF-8" />
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />

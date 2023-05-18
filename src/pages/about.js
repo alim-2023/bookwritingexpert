@@ -86,7 +86,7 @@ const About = () => {
       <Experts
         title="Talk To Our Experts!"
         text="Call and get a free consultation, sample, & a price quote."
-        number="(213) 289 3888"
+        number="+1-302-883-8877"
         discuss="LET'S DISCUSS"
       />
 
