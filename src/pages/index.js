@@ -29,6 +29,8 @@ export default function Home() {
 
   const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
+  const discuss = <span>LET 'S DISCUSS</span>
+
 
 
 
@@ -182,7 +184,7 @@ export default function Home() {
           <Homebanner 
             title =  {newSpan}
             text= 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.'
-            discuss= 'LET S DISCUSS'
+            discuss= {discuss}
             homebannernum= '(213) 289 3888'
             homebanlogos= {homebannerlogos}
             homebanlogos2= {homebanlogos2}
