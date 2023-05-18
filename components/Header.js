@@ -126,14 +126,14 @@ const Header = () => {
                             <Link className={styles.menulinks} href="/children-book-publication-services">Children Book Publication</Link>
                             <p>Your how’s, what’s, and why’s of children’s book Publishing, answered!</p>
                           </div>
-                        </li>
+                        </li>*/}
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon9} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/children-book-illustrations-services">Children's Book Illustrations</Link>
                             <p>What Type Of Children's Book Illustrations You Need For Your Book!</p>
                           </div>
-                        </li> */}
+                        </li> 
                               <li className={`${styles.navlinks} ${styles.megaLinks}`}>
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon5} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
