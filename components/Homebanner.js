@@ -7,11 +7,10 @@ import Slider from 'react-slick'
 import Modal from 'react-bootstrap/Modal'
 import { useState } from 'react';
 import { BsFillPlayFill } from 'react-icons/bs'
-import Button from 'react-bootstrap'
+
 
 // images
 import banslider1 from '../public/images/bannerimages/banslider1.png'
-import banslider2 from '../public/images/bannerimages/banslider2.png'
 import banslider3 from '../public/images/bannerimages/banslider3.png'
 import banslider4 from '../public/images/bannerimages/banslider4.png'
 
@@ -132,27 +131,31 @@ const Homebanner = (props) => {
                                                 <Image loading="lazy" className={`${styles.homelogoimgnone} img-fluid mt-3`} src={props.homebanlogos} alt='book_writing_cube' ></Image>
                                             </div>
                                         </div>
-
-                                        <div className="row">
-                                            <div className="col-12 col-lg-12">
-                                                <Slider {...bannerslider} className='mt-5 homeSlider'>
-                                                    {bannerlogo.map((item, i) => {
-                                                        return (
-                                                            <div key={i}>
-                                                                <Image loading="lazy" className='pt-3 img-fluid brandnewlogo' src={item.banlogo} alt='book_writing_cube'></Image>
-                                                            </div>
-                                                        )
-                                                    })}
-                                                </Slider>
-                                            </div>
-                                        </div>
-
-
-
                                     </div>
                                     :
                                     ''
                                 }
+
+
+                                {/* <div className="row">
+                                    <div className="col-12 col-lg-12">
+                                        <Slider {...bannerslider} className='mt-5 homeSlider'>
+                                            {bannerlogo.map((item, i) => {
+                                                return (
+                                                    <div key={i}>
+                                                        <Image loading="lazy" className='pt-3 img-fluid brandnewlogo' src={item.banlogo} alt='book_writing_cube'></Image>
+                                                    </div>
+                                                )
+                                            })}
+                                        </Slider>
+                                    </div>
+                                </div> */}
+
+
+
+
+
+
                             </div>
 
 

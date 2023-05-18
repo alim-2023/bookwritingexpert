@@ -47,7 +47,7 @@ const Comprehensive = () => {
                 title: 'Article Publication',
                 subTitle: "Article Publication",
                 subTitle: "Article Publication",
-                pra: "The barriers to book publishing are removed by our competent publishing service providers. We walk the authors through every step, from book production and publication to global book distribution and marketing. Publishing had never been this easy!"
+                pra: "Content creation has always been an automated process to us. Writing blogs and Articles and publishing them is an easy task for us. Our job doesn’t end once we’re done publishing, we also share it on multiple online platforms in order to gain traction to your content. "
 
             },
 

@@ -71,7 +71,7 @@ const Contact = () => {
         <>
 
             <Head>
-                <meta charset="UTF-8" />
+                <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
                 <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
                 <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
@@ -101,12 +101,14 @@ const Contact = () => {
 
 
                             <h2 className='color-blue font50 fw700 font-f'>
-                                Elevate your book. Get published.
+                            Have your story read.
+Get published.
+
                             </h2>
                             <div className={`${styles.published} pt-5`}>
 
                                 <p className='fw500 font20 color-white font-f'>
-                                    Let’s talk about your book
+                                Let’s get in touch!
                                 </p>
                                 <p className='font20 fw500 font-f color-white'>
                                     <span className=''>Phone:</span> <Link href='tel:213-289-3888' className={` ${styles.numpost} fw700 color-white textdocationnone`}> (213) 289 3888 </Link>
@@ -120,7 +122,7 @@ const Contact = () => {
 
 
                             <p className='fw500 font20 color-white font-f mt-5'>
-                                …or fill out the contact <Link href='#contpost' className='textdocationnone color-white'>form below</Link>
+                            Unable to reach us? Fill out the  <Link href='#contpost' className='textdocationnone color-white'>form below</Link>
                             </p>
 
                         </Col>
@@ -352,8 +354,8 @@ const Contact = () => {
                     <Row className={styles.conrow}>
                         <Col md={9}>
 
-                            <h2 className='color-blue font50 fw700 font-f'> Everything You Need to Achieve Your Publishing Goals is Accessible Here.</h2>
-                            <p className='font15  font-f colortextgrey' >Contact us, and let's talk about how we can make your book the market's next bestseller. </p>
+                            <h2 className='color-blue font50 fw700 font-f'> Your Publishing Goals Will All Be Realized Here!</h2>
+                            <p className='font15  font-f colortextgrey' >Contact us and have yourself a best seller book written now. </p>
 
                         </Col>
                     </Row>

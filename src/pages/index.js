@@ -30,16 +30,7 @@ export default function Home() {
 
 
 
-  const bannertext = [
-    {
-      title: newSpan,
-      pra: 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.',
-      discuss: 'LET S DISCUSS',
-      homebannernum: '(213) 289 3888',
-      banlogo: homebannerlogos,
-      banners: 'banner',
-    }
-  ]
+
 
 
   const schema = {
@@ -144,7 +135,7 @@ export default function Home() {
 
       <Head>
 
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
@@ -186,16 +177,16 @@ export default function Home() {
 
       <main>
         {/* banner components */}
-        {bannertext.map((item, i) =>
-          <Homebanner key={i}
-            title={item.title}
-            text={item.pra}
-            discuss={item.discuss}
-            homebannernum={item.homebannernum}
-            homebanlogos={item.banlogo}
-            bannershome={item.banners}
+       
+          <Homebanner 
+            title =  {newSpan}
+            text= 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.'
+            discuss= 'LET S DISCUSS'
+            homebannernum= '(213) 289 3888'
+            homebanlogos= {homebannerlogos}
+            bannershome= 'banner'
           />
-        )}
+       
 
         {/* partners components */}
         <Partners />
@@ -220,7 +211,7 @@ export default function Home() {
         <Experts
           title={exprtSpan}
           text="Hit us a message, or give us a call, and make the most of our Professional Ghostwriters."
-          number="+1-302-883-8877"
+          number="(213) 289 3888"
           discuss="LET'S DISCUSS"
         />
 
@@ -252,12 +243,12 @@ export default function Home() {
         />
 
         {/* Talk To Our Experts! */}
-        <Experts
+        {/* <Experts
           title={exprtSpan}
           text="Hit us a message, or give us a call, and make the most of our Professional Ghostwriters."
-          number="+1-302-883-8877"
+          number="(213) 289 3888"
           discuss="LET'S DISCUSS"
-        />
+        /> */}
 
 
         <div className='sliderImg2'>
