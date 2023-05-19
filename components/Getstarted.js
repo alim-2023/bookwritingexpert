@@ -17,7 +17,7 @@ const Getstarted = (props) => {
 
     const data = {
       first: event.target.first.value,
-      email: event.target.last.value,
+      email: event.target.email.value,
       phone: event.target.phone.value,
       services: event.target.services.value,
       message: event.target.message.value,
@@ -69,7 +69,7 @@ const Getstarted = (props) => {
               <input type="text" className={styles.formfree} required name="first" placeholder="Enter Your Name" />
             </Col>
             <Col md={6}>
-              <input type="email" className={styles.formfree} required name="last" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter Your Email" />
+              <input type="email" className={styles.formfree} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter Your Email" />
             </Col>
 
 

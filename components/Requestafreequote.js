@@ -7,15 +7,13 @@ import { useState } from "react";
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import Router from 'next/router';
-
+import axios from "axios";
 
 const Requestafreequote = () => {
 
 
   const [score, setScore] = useState('Submit');
-  const [first, setName] = useState('');
-  const [last, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
+
 
 
 
@@ -29,26 +27,30 @@ const Requestafreequote = () => {
       phone: e.target.phone.value,
     });
 
+    const JSONdata = JSON.stringify(bodyContent)
 
-    setScore('Wating For Sending Data');
-    let response = await fetch("/api/submit", {
-      method: "POST",
-      body: bodyContent
-    });
+    setScore('Wating For Send Data');
 
-    let data = await response.text();
-    console.log(data);
+    axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+      .then((response) => {
+        setScore('Thank You');
+        console.log(response.data);
+      });
 
-
-
-
-    e.target.reset();
-    setScore('Thank You');
     const { pathname } = Router
     if (pathname == pathname) {
       Router.push('/thank-you')
     }
+
   }
+
+
+
+
+
+
+
+  
 
   return (
     <>
@@ -57,11 +59,11 @@ const Requestafreequote = () => {
           <h2 className="fw700 font50 color-blue font-f t-center mb-3 pt-5 mt-5">Request A Free Quote</h2>
           <form className={styles.formalign} onSubmit={handleSubmit}>
             <Row>
-              <Col md={4}> <input type="text" className={styles.formfree} required name="name" placeholder='Name' onChange={e => setName(e.target.value)} /></Col>
+              <Col md={4}> <input type="text" className={styles.formfree} required name="name" placeholder='Name'  /></Col>
 
-              <Col md={4}>  <input type="email" className={styles.formfree} required name="email" placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" onChange={e => setEmail(e.target.value)} /></Col>
+              <Col md={4}>  <input type="email" className={styles.formfree} required name="email" placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></Col>
 
-              <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" onChange={e => setPhone(e.target.value)} /> </Col>
+              <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  /> </Col>
             </Row>
             <button className={styles.freebtn} type="submit"> {score} </button>
           </form>

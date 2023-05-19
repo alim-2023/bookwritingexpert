@@ -15,7 +15,7 @@ const Signup = (props) => {
 
     const data = {
       first: event.target.first.value,
-      email: event.target.last.value,
+      email: event.target.email.value,
       phone: event.target.phone.value,
       message: event.target.message.value,
     }
@@ -46,7 +46,7 @@ const Signup = (props) => {
         <h4 className={styles.getup}> <em className='color-blue font25'>Unable to reach us?</em> </h4>
         <p className='font-f t-center'> <em>Write to us and we’ll get back to you, at our earliest!</em> </p>
         <input type="text" className={styles.nametext} required name="first" placeholder="Full Name:" />
-        <input type="email" className={styles.nametext} required name="last" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address:" />
+        <input type="email" className={styles.nametext} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address:" />
         <input type="number" className={styles.nametext} required name="phone" placeholder="Phone Number:" />
         <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Your project brief:"></textarea>
         <button className={styles.freebtn} type="submit">{score} </button>
