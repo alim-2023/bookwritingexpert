@@ -29,12 +29,12 @@ import styles from '@/styles/Whybookpublishing.module.css'
 const Bookpublishingservices = () => {
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>  Professional and unmatched</span> <Link className='textdocationnone color-blue hover' href="/book-editing-services"> Book Editing Services </Link>  <span className=''>for all the Idealists within their reach</span> </h1>;
-
+  const discuss = <span>LET'S DISCUSS</span>
   const bannertext = [
     {
       title: newSpan,
       pra: 'Putting your ideas on a piece of paper is never enough! You always need an editing expert who can turn your ideas into Perfection!',
-      discuss: 'LET S DISCUSS',
+      discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'bookeditingservices',

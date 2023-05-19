@@ -26,14 +26,14 @@ const Bookpublishingservices = () => {
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <Link className='textdocationnone color-blue hover' href="/book-proofreading-services"> Book Proofreading Services </Link> <span className=''>That Make Your Book Flawless To The Level Of Finesse!</span>   </h1>;
 
-
+  const discuss = <span>LET'S DISCUSS</span>
 
 
   const bannertext = [
     {
       title: newSpan,
       pra: 'At Book Writing Experts, we have a team of professional and skilled proofreaders that have years’ worth of experience working on countless.',
-      discuss: 'LET S DISCUSS',
+      discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'offeringyoubook',

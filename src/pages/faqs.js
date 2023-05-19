@@ -9,11 +9,13 @@ const Faqs = () => {
 
   const faqsHead = <h1 className='font50 fw700 color-blue'>Create An Impact With Our Non Fiction ghostwriting Services</h1>
 
+  const discuss = <span>LET'S DISCUSS</span>
+
   const bannertext = [
     {
       title: faqsHead,
       pra: 'At highly affordable pricing, we bring our team of competent non fiction ghostwriters with their promising expertise',
-      discuss: 'LET S DISCUSS',
+      discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       faqs: 'faqs',

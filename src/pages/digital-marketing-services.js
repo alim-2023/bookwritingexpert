@@ -20,11 +20,13 @@ const Digitalmarketingservices = () => {
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>     Result-focused Digital Marketing Services, Crafted to Enhance Your Book Experience for The Readers.</span>   </h1>;
 
+  const discuss = <span>LET'S DISCUSS</span>
+
   const bannertext = [
     {
       title: newSpan,
       pra: 'Amplify your book sales through our digital marketing services. Build credibility and reach out to a greater audience as you already are.',
-      discuss: 'LET S DISCUSS',
+      discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'digitalmarketingservices',

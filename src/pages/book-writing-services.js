@@ -30,14 +30,14 @@ const Bookpublishingservices = () => {
 
   const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <Link className='textdocationnone color-blue hover' href="/book-writing-services">Book Writing Services</Link>  <span className=''>That Give Meaning To Your Imagination!</span> </h1>;
 
-
+  const discuss = <span>LET'S DISCUSS</span>
 
 
   const bannertext = [
     {
       title: newSpan,
       pra: 'Quality Book writing drives traffic, and our experienced writers know the tips and tricks of keeping the readers engaged with appealing word selection',
-      discuss: 'LET S DISCUSS',
+      discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'ebook',

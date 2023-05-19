@@ -22,11 +22,13 @@ const Pricing = () => {
 
   const exprtSpan = <span className='fw500 font50 color-white font-f t-center font-f mb-4'><span className='color-blue fw700'>Book Writing Experts</span> Is waiting for you to Ask for a <span className='color-blue fw700'>Professional Ghostwriter</span></span>;
 
+  const discuss = <span>LET'S DISCUSS</span>
+
   const bannertext = [
     {
       title: priceHead,
       pra: 'Do you wish to see your published work ranked among the best sellers? Want to earn the stellar reputation of a published author? Dream of having a well-written book to your name?',
-      discuss: 'LET S DISCUSS',
+      discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'pricing',

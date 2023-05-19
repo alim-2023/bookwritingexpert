@@ -29,7 +29,7 @@ export default function Home() {
 
   const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
-  const discuss = <span>LET 'S DISCUSS</span>
+  const discuss = <span>LET'S DISCUSS</span>
 
 
 
