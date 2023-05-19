@@ -4,7 +4,7 @@ import Link from 'next/link'
 import axios from "axios";
 import { useState } from "react";
 import { Row, Col } from 'react-bootstrap';
-
+import Router from 'next/router'
 const Getstarted = (props) => {
 
 
@@ -19,6 +19,7 @@ const Getstarted = (props) => {
       first: event.target.first.value,
       email: event.target.last.value,
       phone: event.target.phone.value,
+      services: event.target.services.value,
       message: event.target.message.value,
     }
 
@@ -28,21 +29,21 @@ const Getstarted = (props) => {
 
     setScore('Wating For Send Data');
 
-    try {
-      // make axios post request
+   
       const response = await axios({
         method: "post",
-        url: "https://httpbin.org/post",
+        url: "https://jsonplaceholder.typicode.com/posts",
         data: JSONdata,
       });
-
+      console.log(response.data);
       setScore('Thank You');
-      window.location = "/thank-you"
+      const { pathname } = Router
+      if (pathname == pathname) {
+        Router.push('/thank-you')
+      }
 
-    }
-    catch (error) {
-      console.log(error)
-    }
+    
+ 
 
 
 
@@ -68,7 +69,7 @@ const Getstarted = (props) => {
               <input type="text" className={styles.formfree} required name="first" placeholder="Enter Your Name" />
             </Col>
             <Col md={6}>
-              <input type="text" className={styles.formfree} required name="last" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter Your Email" />
+              <input type="email" className={styles.formfree} required name="last" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter Your Email" />
             </Col>
 
 
@@ -78,16 +79,16 @@ const Getstarted = (props) => {
             </Col>
             <Col md={6}>
               {/* <input type="number" className={styles.formfree} required name="phone" placeholder="Phone Number" /> */}
-              <select className={`${styles.formfree} ${styles.formdrop}`}>
-                <option>Please select Service(s)</option>
-                <option>Ghost Writing</option>
-                <option>Editing</option>
-                <option>Publishing</option>
-                <option>Proofreading</option>
-                <option>Blog Writing</option>
-                <option>Website Content Writing</option>
-                <option>Book Promotion</option>
-                <option>Book Writing</option>
+              <select name="services" className={`${styles.formfree} ${styles.formdrop}`}>
+                <option value="">Please select Service(s)</option>
+                <option value="Ghost Writing">Ghost Writing</option>
+                <option value="Editing">Editing</option>
+                <option value="Publishing">Publishing</option>
+                <option value="Proofreading">Proofreading</option>
+                <option value="Blog Writing">Blog Writing</option>
+                <option value="Website Content Writing">Website Content Writing</option>
+                <option value="Book Promotion">Book Promotion</option>
+                <option value="Book Writing">Book Writing</option>
 
               </select>
             </Col>
@@ -108,7 +109,7 @@ const Getstarted = (props) => {
 
 
 
-          <button className={styles.freebtn} type="submit">Submit </button>
+          <button className={styles.freebtn} type="submit"> {score} </button>
         </form>
 
 

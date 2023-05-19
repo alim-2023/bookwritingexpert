@@ -3,7 +3,7 @@ import styles from '@/styles/Contact.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Link from 'next/link'
 import Head from 'next/head'
-
+import Router from 'next/router';
 import axios from "axios";
 import { useState } from "react";
 
@@ -16,52 +16,34 @@ const Contact = () => {
         event.preventDefault()
 
 
-        // const name = document.querySelector('#name').value
-        // const email = document.querySelector('#email').value
-
-
-        // if (!name) {
-        //   alert('Please Enter Your Name.')
-        //   return false
-        // }
-        // if (!email) {
-        //   alert('Please Enter Your Email.')
-        //   return false
-        // }
-
 
         const data = {
             first: event.target.first.value,
             email: event.target.last.value,
             phone: event.target.phone.value,
             zip: event.target.zip.value,
-
-
-
             checknow: event.target.checknow.value,
             message: event.target.message.value,
         }
 
 
         const JSONdata = JSON.stringify(data)
-
         setScore('Wating For Send Data');
 
-        try {
-            // make axios post request
-            const response = await axios({
-                method: "post",
-                url: "https://httpbin.org/post",
-                data: JSONdata,
+
+        axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
+            .then((response) => {
+                setScore('Thank You');
+                console.log(response.data);
             });
-
-            setScore('Thank You');
-            window.location = "/thank-you"
-
+        setScore('Thank You');
+        const { pathname } = Router
+        if (pathname == pathname) {
+            Router.push('/thank-you')
         }
-        catch (error) {
-            console.log(error)
-        }
+
+
+
 
 
     }
@@ -101,14 +83,14 @@ const Contact = () => {
 
 
                             <h2 className='color-blue font50 fw700 font-f'>
-                            Have your story read.
-Get published.
+                                Have your story read.
+                                Get published.
 
                             </h2>
                             <div className={`${styles.published} pt-5`}>
 
                                 <p className='fw500 font20 color-white font-f'>
-                                Let’s get in touch!
+                                    Let’s get in touch!
                                 </p>
                                 <p className='font20 fw500 font-f color-white'>
                                     <span className=''>Phone:</span> <Link href='tel:213-289-3888' className={` ${styles.numpost} fw700 color-white textdocationnone`}> (213) 289 3888 </Link>
@@ -122,7 +104,7 @@ Get published.
 
 
                             <p className='fw500 font20 color-white font-f mt-5'>
-                            Unable to reach us? Fill out the  <Link href='#contpost' className='textdocationnone color-white'>form below</Link>
+                                Unable to reach us? Fill out the  <Link href='#contpost' className='textdocationnone color-white'>form below</Link>
                             </p>
 
                         </Col>
@@ -130,7 +112,6 @@ Get published.
                         <Col md={1}></Col>
                         <Col md={6}>
 
-                            {/* <iframe width='100%' height='252' id='gmap_canvas' src='https://maps.google.com/maps?q=651%20N%20Broad%20St,%20Suite%20206%20Middletown,%20DE%2019709&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed'></iframe> */}
 
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.6200791070223!2d-118.25944002448333!3d34.053615473156526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b26b2805e7%3A0x631167a0f496a896!2sUnion%20Bank%20Plaza%2C%20445%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090071%2C%20USA!5e0!3m2!1sen!2s!4v1681986458438!5m2!1sen!2s" width='100%' height='252' ></iframe>
 
@@ -179,7 +160,7 @@ Get published.
                                 <Row className='gy-3'>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Ghostwriting--I want to hire a professional to write or rewrite my book' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Ghostwriting--I want to hire a professional to write or rewrite my book' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Ghostwriting--I want to hire a professional to write or rewrite my book
                                             </label>
@@ -187,7 +168,7 @@ Get published.
                                     </Col>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Editing--I have written a manuscript and would like a professional to review and/or edit it' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Editing--I have written a manuscript and would like a professional to review and/or edit it' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Editing--I have written a manuscript and would like a professional to review and/or edit it
                                             </label>
@@ -196,7 +177,7 @@ Get published.
 
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Book Coaching--I want to write my book on my own, but with the help of a professional to guide me' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Book Coaching--I want to write my book on my own, but with the help of a professional to guide me' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Book Coaching--I want to write my book on my own, but with the help of a professional to guide me
                                             </label>
@@ -204,7 +185,7 @@ Get published.
                                     </Col>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Cultural Accuracy Reading--I would like a professional to review my manuscript and ensure it isn’t offensive, inaccurate, or perpetuating harmful stereotypes' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Cultural Accuracy Reading--I would like a professional to review my manuscript and ensure it isn’t offensive, inaccurate, or perpetuating harmful stereotypes' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Cultural Accuracy Reading--I would like a professional to review my manuscript and ensure it isn’t offensive, inaccurate, or perpetuating harmful stereotypes
                                             </label>
@@ -216,7 +197,7 @@ Get published.
                                 <Row className='gy-3'>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Book Proposal' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Book Proposal' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Book Proposal
                                             </label>
@@ -224,7 +205,7 @@ Get published.
                                     </Col>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Beta Reader Services' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Beta Reader Services' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Beta Reader Services
                                             </label>
@@ -233,7 +214,7 @@ Get published.
 
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Other' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Other' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Other
                                             </label>
@@ -251,7 +232,7 @@ Get published.
                                 <Row className='gy-3'>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Business' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Business' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Business
                                             </label>
@@ -259,7 +240,7 @@ Get published.
                                     </Col>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Memoir/Biography' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Memoir/Biography' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Memoir/Biography
                                             </label>
@@ -268,7 +249,7 @@ Get published.
 
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Health' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Health' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Health
                                             </label>
@@ -276,7 +257,7 @@ Get published.
                                     </Col>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Self-Help/Personal Development' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Self-Help/Personal Development' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Self-Help/Personal Development
                                             </label>
@@ -288,7 +269,7 @@ Get published.
                                 <Row className='gy-3'>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Fiction' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Fiction' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Fiction
                                             </label>
@@ -296,7 +277,7 @@ Get published.
                                     </Col>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='General Nonfiction' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='General Nonfiction' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 General Nonfiction
                                             </label>
@@ -305,7 +286,7 @@ Get published.
 
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Children’s' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Children’s' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Children’s
                                             </label>
@@ -313,7 +294,7 @@ Get published.
                                     </Col>
                                     <Col md={3}>
                                         <div className='form-check'>
-                                            <input className='form-check-input' type='checkbox' name='checknow' value='Others' id='flexCheckDefault' />
+                                            <input className='form-check-input' type='checkbox' name='checknow' value='Others' />
                                             <label className='form-check-label' htmlFor='flexCheckDefault'>
                                                 Others
                                             </label>

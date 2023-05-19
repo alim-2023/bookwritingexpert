@@ -8,26 +8,17 @@ const Error = () => {
     return (
         <>
             <Head>
-
-                <meta charSet="UTF-8" />
-                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                <title>404 - Hire Professional Book Writing Experts in the US -</title>
-                <meta name="description"
-                    content="Receive the Best Fraction of Profits with Our Publication Services We give you maximum creative control that retains royalties with a self-published book. Discuss your publishing requirement and strategies with us. Lets Discuss Lets Discuss (213) 289 3888 Request A Free Quote Your Budget3k-5k5k-7k7k-10k10k-15k15k-20k20k-25k25k-30k30k-40k40k-50k The published manifestation of your writing dreams! Get Free Consultancy Publishing by […]" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta name="tags" content="" />
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+                <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+                <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+                <link rel="profile" href="http://gmpg.org/xfn/11" />
+                <meta name='robots' content='noindex, follow' />
+                <title>Page not found - Book Writing</title>
                 <meta property="og:locale" content="en_US" />
-                <meta property="og:type" content="website" />
-                <meta property="og:title" content="Book Publishing - Hire Professional Book Writing Experts in the US -" />
-                <meta property="og:description"
-                    content="Receive the Best Fraction of Profits with Our Publication Services We give you maximum creative control that retains royalties with a self-published book. Discuss your publishing requirement and strategies with us. Lets Discuss Lets Discuss (213) 289 3888 Request A Free Quote Your Budget3k-5k5k-7k7k-10k10k-15k15k-20k20k-25k25k-30k30k-40k40k-50k The published manifestation of your writing dreams! Get Free Consultancy Publishing by […]" />
-                <meta property="og:url" content="https://www.bestsellingpublisher.com/" />
-                <meta property="og:site_name" content="Book Publishing - Hire Professional Book Writing Experts in the US -" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:label1" content="Est. reading time" />
-                <meta name="twitter:data1" content="5 minutes" />
+                <meta property="og:title" content="Page not found - Book Writing" />
+                <meta property="og:site_name" content="Book Writing" />
                 <link rel="icon" href="/favicon.svg" />
-
             </Head>
 
 
@@ -39,7 +30,6 @@ const Error = () => {
                             <h2 className='fw600 font60 color-blue t-center font-f mb-4'>404 NOT FOUND</h2>
                             <h4 className="fw500 font40 color-white t-center font-f mb-2">THIS IS SOMEWHAT EMBARRASSING, ISN’T IT?</h4>
                             <p className="font18 fw400 color-white t-center font-f mb-4">It looks like nothing was found at this location. Maybe try a search?</p>
-
                             <div className='mt-4 t-center'>
                                 <Link href="#" className={styles.btn404}>LET'S DISCUSS</Link>
                                 <Link href="tel:(800) 781-9093" className={styles.btn404}>(800) 781-9093</Link>

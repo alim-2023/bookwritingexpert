@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from '@/styles/Signup.module.css'
-import Image from 'next/image'
-import signup from '/public/images/signup/signup.webp'
 import { useState } from "react";
 import Router from 'next/router'
 import axios from "axios";
@@ -31,7 +29,7 @@ const Signup = (props) => {
     axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
       .then((response) => {
         setScore('Thank You');
-        console.log(response);
+        console.log(response.data);
       });
 
     const { pathname } = Router
