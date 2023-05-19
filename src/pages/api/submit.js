@@ -14,6 +14,7 @@ export default async function handler(req, res ) {
     let email = req.body.email;
     let phone = req.body.phone;
         
+    console.log(name);
     
     try {
         const auth = new google.auth.GoogleAuth({

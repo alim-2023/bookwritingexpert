@@ -22,6 +22,7 @@ const Requestafreequote = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
     let bodyContent = JSON.stringify({
       name: e.target.name.value,
       email: e.target.email.value,

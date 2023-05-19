@@ -30,8 +30,8 @@ const Signup = (props) => {
 
     axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
       .then((response) => {
-        console.log(response.data);
         setScore('Thank You');
+        console.log(response);
       });
 
     const { pathname } = Router
