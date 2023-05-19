@@ -13,15 +13,12 @@ const Freequote = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-
     const data = {
       first: e.target.first.value,
       email: e.target.email.value,
       phone: e.target.phone.value,
       message: e.target.message.value,
     }
-
-
 
     const JSONdata = JSON.stringify(data)
 
@@ -37,10 +34,6 @@ const Freequote = (props) => {
     if (pathname == pathname) {
       Router.push('/thank-you')
     }
-
-
-
-
 
   }
 
