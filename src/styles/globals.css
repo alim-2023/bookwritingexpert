@@ -452,6 +452,142 @@ input::-webkit-inner-spin-button {
 
 
 
+
+/* blog api integration css */
+
+.elementor-widget-container p {
+  font-family: 'Poppins';
+  color: #777;
+  font-size: 15px;
+}
+.elementor-widget-container span {
+  font-family: 'Poppins';
+  color: #777;
+
+}
+.elementor-widget-container h2 {
+  font-family: 'Poppins';
+  font-weight: 100;
+}
+.elementor-widget-container h4 {
+  font-family: 'Poppins';
+  font-weight: 100;
+}
+.elementor-widget-container h3 {
+  font-family: 'Poppins';
+  font-weight: 100;
+  line-height: 17px;
+}
+.elementor-widget-container h5 {
+  font-family: 'Poppins';
+  font-weight: 100;
+}
+.elementor-widget-container b{
+  font-family: 'Poppins';
+}
+.elementor-widget-container h1 {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 38px;
+  color: #ff9900;
+  margin-top: 2%;
+  
+}
+.elementor-post__meta-data {
+  font-family: 'Poppins';
+
+}
+
+.elementor-widget-container a{
+  color: #ff9900;
+  text-decoration: none;
+}
+.elementor-widget-container a:hover{
+  color: black;
+}
+.elementor-widget-container img.attachment-full{
+  width: 100%;
+  height: auto;
+  margin-bottom: 4%;
+}
+
+h3.elementor-heading-title.elementor-size-default {
+  color: #A4A4A4;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  margin-bottom: 5%;
+}
+.elementor-widget-container ol {
+  list-style: none;
+  padding: 0;
+}
+.elementor-widget-container ul li {
+  list-style: none;
+}
+.elementor-widget-container ul {
+  padding: 0;
+}
+span.elementor-heading-title.elementor-size-default a {
+  color: white;
+  font-family: 'Poppins';
+}
+span.elementor-heading-title.elementor-size-default {
+  padding: 5px 20px 5px 20px;
+  background-color: #FC9E31;
+}
+
+.elementor-section .elementor-container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  gap:20px
+}
+.elementor-element.elementor-element-5b119ed1 {
+  width: 75%;
+}
+.elementor-9730 .elementor-element.elementor-element-e70b409 {
+  width: 25%;
+}
+h3.elementor-post__title a {
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  line-height: .2;
+}
+.elementor-post__meta-data {
+  font-size: 11px;
+  color: #bcbbbc;
+}
+.elementor-posts .elementor-post {
+  display: flex;
+}
+.elementor-post__thumbnail img {
+  
+  width: 50px;
+  height: 50px;
+}
+.elementor-posts .elementor-post {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8%;
+}
+span.elementor-icon-list-text {
+  color: #A4A4A4;
+  font-size: 20px;
+  font-family: 'Poppins';
+}
+h4.elementor-heading-title.elementor-size-default {
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.aligncenter {
+  width: 100%;
+  height: auto;
+}
 /* --------------------------- */
 
 @media (max-width: 1440px) {

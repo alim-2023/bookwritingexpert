@@ -33,6 +33,7 @@ const Bloglisting = () => {
     const imageLoader = ({ src, width, quality }) => {
         return `${src}?w=${width}&q=${quality || 75}`;
     };
+    console.log(imageLoader);
     return (
         <>
             <div className={styles.bloglisting}>
@@ -54,8 +55,8 @@ const Bloglisting = () => {
                                 <div className={styles.bloglist}>
                                     <Image loading="lazy" width={1000} height={300} src={item._embedded['wp:featuredmedia']['0'].source_url} loader={imageLoader} className='img-fluid' alt="book_writing_cube" />
                                     <div className={styles.cardbodylist}>
-                                        <h3><Link href={`/post/${item.slug}`} className="mt-3 font-f color-black textdocationnone hover">{item.title.rendered}</Link></h3>
-                                        <Link href={`/post/${item.slug}`} className={`${styles.blogbtn} mt-3`}>Continue Reading »</Link>
+                                        <h3><Link href={`/${item.slug}`} className="mt-3 font-f color-black textdocationnone hover">{item.title.rendered}</Link></h3>
+                                        <Link href={`/${item.slug}`} className={`${styles.blogbtn} mt-3`}>Continue Reading »</Link>
                                     </div>
                                 </div>
                             </Col>

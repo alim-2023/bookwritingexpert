@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Blogdetails.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
-import Blogclientssays from '../../../components/Blogclientssays'
+import Blogclientssays from '../../components/Blogclientssays'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react';
 const Slug = () => {
@@ -84,7 +84,7 @@ const Slug = () => {
 
                     {posts.map((item, i) =>
                           
-                          <Col md={8} key={i}>
+                          <Col md={12} key={i}>
                               <div className={styles.bloglist}>
                                   {/* <Image loading="lazy" width={1000} height={300} src={item._embedded['wp:featuredmedia']['0'].source_url} loader={imageLoader} className='img-fluid' alt="book_writing_cube" /> */}
                                   <div className={styles.cardbodylist}>
