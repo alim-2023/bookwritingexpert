@@ -5,7 +5,8 @@
 
 .bloglist {
     box-shadow: 0 0 21px 3px #ddd;
-    height: 400px;
+    height: 450px;
+    
 }
 
 .cardbodylist {
@@ -16,8 +17,9 @@
 }
 
 .cardbodylist h3{
-    font-size: 18px;
-    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .blogbtn{
@@ -30,7 +32,8 @@
     text-decoration: none;
     font-family: 'Poppins';
    min-width: 200px;
-   width: 200px;
+   width: fit-content;
+   text-align: center;
 }
 .blogbtn:hover{
     color: #fff;

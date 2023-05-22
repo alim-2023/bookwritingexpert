@@ -9,12 +9,28 @@ import sideicon from '/public/images/blogimage/sideicon.png'
 import Freequote from '../../../components/Freequote'
 import Blogclientssays from '../../../components/Blogclientssays'
 import { useRouter } from 'next/router'
-
+import { useEffect, useState } from 'react';
 const Slug = () => {
 
     const router = useRouter()
     const slug1 = router.query.slug
 
+    const [show, setshow] = useState(true);
+    const [posts, setPosts] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+
+            const response = await fetch(`https://bookwritingexperts.com/wp-json/wp/v2/posts?_embed&slug=${slug1}`);
+            const data = await response.json();
+            console.log(data);
+            setPosts(data);
+            setshow(false);
+        };
+      
+        fetchData();
+    }, []);
+    console.log(posts[1]);
 
     return (
         <>
@@ -63,7 +79,30 @@ const Slug = () => {
 
                 <Container className='dataset'>
                     <Row>
-                        <Col md={8}>
+
+                    {show ?
+                            <h1 className="font50 fw700 color-blue t-center font-f">Loading ...</h1>
+                            :
+                            ''
+                        }
+
+                    {posts.map((item, i) =>
+                          
+                          <Col md={8} key={i}>
+                              <div className={styles.bloglist}>
+                                  {/* <Image loading="lazy" width={1000} height={300} src={item._embedded['wp:featuredmedia']['0'].source_url} loader={imageLoader} className='img-fluid' alt="book_writing_cube" /> */}
+                                  <div className={styles.cardbodylist}>
+                                  {/* <h3>{item.title.rendered}</h3> */}
+                                  <div dangerouslySetInnerHTML={{__html: item.content.rendered}}>
+                                        
+                                  </div>
+                                  </div>
+                              </div>
+                          </Col>
+                      )}
+
+
+                        {/* <Col md={8}>
 
                             <div className='d-flex gap-2'>
                                 <Image loading="lazy" src={sideicon} alt="book_writing_cube" width="25" height="25" />
@@ -135,8 +174,8 @@ const Slug = () => {
                             <p className='textcolor mt-3  font15 font-f'>Here are five tips for capitalizing on the power of Amazon's targeted advertising tools:</p>
 
 
-                        </Col>
-                        <Col md={4}>
+                        </Col> */}
+                        {/* <Col md={4}>
 
                             <div>
                                 <h4 className={styles.tableofcontent}>Table of Contents</h4>
@@ -156,7 +195,7 @@ const Slug = () => {
                                 formsaspire='blogformsaspire'
                             />
 
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
 
