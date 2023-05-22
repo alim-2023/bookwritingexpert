@@ -290,11 +290,11 @@
 }
 
 .blogsbanner {
-  padding-top: 140px;
-  padding-bottom: 50px;
+  padding-top: 200px;
+  padding-bottom: 150px;
   background-color: #141d29;
   font-family: "Poppins";
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
 }

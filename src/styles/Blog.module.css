@@ -1,6 +1,6 @@
-.bloglisting{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.bloglisting {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .bloglist {
@@ -10,10 +10,11 @@
 }
 
 .cardbodylist {
-    padding: 15px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
 }
 
 .cardbodylist h3{
@@ -35,26 +36,23 @@
    width: fit-content;
    text-align: center;
 }
-.blogbtn:hover{
-    color: #fff;
-    background-color: #223235;
-    
+.blogbtn:hover {
+  color: #fff;
+  background-color: #223235;
 }
 
-.cardbodylist h5{
-    height: 160px;
+.cardbodylist h5 {
+  height: 160px;
 }
 
-@media (max-width:767px)  {
-
-    .cardbodylist h5 {
-        height: auto;
-        margin-bottom: 6%;
-    }
-    .cardbodylist {
-        padding: 1.25rem;
-        height: auto;
-        padding-bottom: 7%;
-    }
-
- }
+@media (max-width: 767px) {
+  .cardbodylist h5 {
+    height: auto;
+    margin-bottom: 6%;
+  }
+  .cardbodylist {
+    padding: 1.25rem;
+    height: auto;
+    padding-bottom: 7%;
+  }
+}

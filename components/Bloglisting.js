@@ -8,8 +8,6 @@ import { useEffect, useState } from 'react';
 
 const Bloglisting = () => {
 
-
-
     const [posts, setPosts] = useState([]);
 
     const [show, setshow] = useState(true);
@@ -37,8 +35,6 @@ const Bloglisting = () => {
     };
     return (
         <>
-
-
             <div className={styles.bloglisting}>
 
                 <Container>
@@ -65,13 +61,9 @@ const Bloglisting = () => {
                             </Col>
                         )}
 
-
                     </Row>
                 </Container>
-
-
             </div>
-
         </>
     )
 }
