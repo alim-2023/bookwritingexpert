@@ -3,10 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Blogdetails.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
-import Image from 'next/image'
-import blogimage4 from '/public/images/blogimage/4.png'
-import sideicon from '/public/images/blogimage/sideicon.png'
-import Freequote from '../../../components/Freequote'
 import Blogclientssays from '../../../components/Blogclientssays'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react';
@@ -23,14 +19,14 @@ const Slug = () => {
 
             const response = await fetch(`https://bookwritingexperts.com/wp-json/wp/v2/posts?_embed&slug=${slug1}`);
             const data = await response.json();
-            console.log(data);
+           
             setPosts(data);
             setshow(false);
         };
       
         fetchData();
     }, []);
-    console.log(posts[1]);
+ 
 
     return (
         <>
@@ -110,7 +106,7 @@ const Slug = () => {
                             </div>
 
                             <div>
-                                <Image loading="lazy" src={blogimage4} alt='book_writing_cube' className='img-fluid' />
+                                <Image loading="lazy" src={blogimage4} alt='book writing expert' className='img-fluid' />
                             </div>
 
                             <p className='textcolor mt-3  font15 font-f'>The publishing landscape is more competitive than ever, so authors need to have knowledge about getting their books seen. Traditional methods like print-on-demand are becoming less effective as the digital marketplace evolves, creating a greater demand for modern strategies that get your book noticed in the growing pool of titles on <Link className='textdocationnone hover color-blue' href='#'>Kindle Direct Publishing</Link> (KDP) platforms.</p>

@@ -43,7 +43,7 @@ const Selfpublishing = (props) => {
                         <Col md={4}>
 
                             <div className={styles.image}>
-                                <Image loading="lazy" src={props.image} className={`${styles.imgshowdow} img-fluid`} alt='book_writing_cube'></Image>
+                                <Image loading="lazy" src={props.image} className={`${styles.imgshowdow} img-fluid`} alt='book writing expert'></Image>
                             </div>
 
                         </Col>
