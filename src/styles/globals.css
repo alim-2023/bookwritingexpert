@@ -588,6 +588,11 @@ h4.elementor-heading-title.elementor-size-default {
   width: 100%;
   height: auto;
 }
+
+section.elementor-section.elementor-top-section.elementor-element.elementor-element-640d66f.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default {
+    display: none;
+}
+
 /* --------------------------- */
 
 @media (max-width: 1440px) {

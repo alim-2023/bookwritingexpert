@@ -90,21 +90,15 @@ const Blogclientssays = () => {
 
                   <p className={`${styles.looking} font15  textcolor font-f `}>
 
-                    This is the first time I’ve worked with Book Writing Cube
-                    and I’m happy that I chose to work with them.
-                    I am self-publishing my book for the first time and I didn’t
-                    know what to expect... <span className={clickto ? `` : `${styles.active1}`} >
-                      To be honest I happen to come by Book Writing Cube by accident. I was researching websites that helped with self-publishing and I clicked on it and accidentally clicked on the chat icon. Someone responded and at first I didn’t write anything back. But then I decided to take a chance and the person I talked to put me in contact with Mark Rivera. Mark and his team have been very helpful during this whole process. They take my suggestions and show me where I can make improvements. So far I am very satisfied with the work they have been doing. I know that they will do everything they can to make my debut book a success. I am very confident of that.
-                    </span>
+                  My sister was struggling with her book sales; I recommended Book Writing Experts book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time.
 
-                    <span onClick={toggle} className={styles.more} href="#">
-                      Read  {clickto ? `Less` : `More`}</span>
+                  
 
                   </p>
 
 
 
-                  <p className={styles.mark}><b>Sharon Mondier - US</b></p>
+                  <p className={styles.mark}><b>James Moris</b></p>
 
 
 
@@ -119,9 +113,9 @@ const Blogclientssays = () => {
 
                   <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='book writing expert'></Image> </div>
                   <p className={`${styles.looking} font15  textcolor font-f `}>
-                    Everythign was managed in the most professional and convenient way. They are amazing with communications and answering all necessary questions. They deeply explained everything and guided me through the entire process. A big thank you to the team of Book Writing Cube.
+                  Book writing Experts are truly remarkable! I worked with Sam Jordan and he stayed in contact with me almost every day. This was my first time as and Author and To put it mildly, I probably drove him crazy, but he never once was unkind or got angry a true professional and patients of a saint.
                   </p>
-                  <p className={styles.mark}><b>Elizabeth Waldorf - US</b></p>
+                  <p className={styles.mark}><b>Evelyn Keplinger</b></p>
 
 
                   <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
@@ -132,10 +126,10 @@ const Blogclientssays = () => {
                   <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='book writing expert'></Image> </div>
                   <p className={`${styles.looking} font15  textcolor font-f `}>
 
-                    As a self-published author, I had a hard time effectively promoting my book. But Book Writing Cube's marketing team helped turn my book into a success!
+                  I worked with Sam Jordan for a few months preparing my first book. Sam was very helpful and courteous. We connected on the phone several times a week. I am not the most patient person, but I found Sam to be capable and professional. He helped me overcome any fears I had about the process..
 
                   </p>
-                  <p className={styles.mark}><b>Ana  - US</b></p>
+                  <p className={styles.mark}><b>Ron</b></p>
 
 
                   <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
@@ -146,9 +140,9 @@ const Blogclientssays = () => {
                   <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='book writing expert'></Image> </div>
                   <p className={`${styles.looking} font15  textcolor font-f `}>
 
-                    My experience working with Book Writing Cube was great and Mark was a huge help! Looking forward to working with them again in the future.
+                  my creation of this 24 chapter book is actually a 24 part mini series. But once Claire and Sam from the book writing experts Joined forces with me  they turned my little Mini masterpiece into a  Netflix/Amazon series. 43 years of silence Will become an overnight Box office success. Thank you Claire. I love your team.
                   </p>
-                  <p className={styles.mark}><b>Mark M. Cole - US</b></p>
+                  <p className={styles.mark}><b>Luis Reyes</b></p>
 
 
                   <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
@@ -159,12 +153,12 @@ const Blogclientssays = () => {
                   <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='book writing expert'></Image> </div>
                   <p className={`${styles.looking} font15  textcolor font-f `}>
 
-                    Book Writing Cube's graphic designers made the most beautiful book cover for my book. I was shocked at how accurately they had portrayed my ideas.
+                  Since I was short on money and couldn’t afford an expensive proofreader for the book, I was legit quite worried because having a second opinion is always better? My friend recommended Book Writing Experts’ affordable proofreading services, and wow! They were very accommodating and got my work done in 3 days only. So happy!
 
                   </p>
 
 
-                  <p className={styles.mark}><b>Jason Bill - US</b></p>
+                  <p className={styles.mark}><b>Dyuti Hai</b></p>
 
 
                   <p className={styles.stars}><AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /> <AiFillStar size={20} /></p>
