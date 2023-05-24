@@ -92,7 +92,7 @@ const Bookpublishingservices = () => {
 
   const dateset = <span className='fw500'>Need An Expert For Your <br></br><Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'> Book Promotions? </Link>  </span>
 
-  const schema = { 
+  const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "mainEntityOfPage": {
@@ -101,11 +101,11 @@ const Bookpublishingservices = () => {
     },
     "headline": "Connect To The Best Book Marketing Service Providers In Town!",
     "description": "Book Marketing Services",
-    "image": "",  
+    "image": "",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
-    },  
+    },
     "publisher": {
       "@type": "Organization",
       "name": "",
@@ -131,7 +131,7 @@ const Bookpublishingservices = () => {
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
     ]
-   }
+  }
   const schema2 = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
@@ -175,8 +175,8 @@ const Bookpublishingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
-   }
+    ]
+  }
   const schema3 = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -192,7 +192,7 @@ const Bookpublishingservices = () => {
       "@type": "country",
       "name": "us"
     }
-   }
+  }
 
 
   return (
@@ -203,7 +203,7 @@ const Bookpublishingservices = () => {
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-    
+
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Professional Book Marketing Services - Book Writing Experts</title>
         <meta name="description" content="Book Marketing Services that makes you your readers&#039; most sought-after choice. Count on us to be counted worldwide. Hire us to get the job done." />
@@ -220,19 +220,26 @@ const Bookpublishingservices = () => {
         <meta name="twitter:data1" content="7 minutes" />
         <link rel="icon" href="/favicon.svg" />
 
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema1)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema2)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema3)}
-        </script>
 
+
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
+        />
 
       </Head>
 

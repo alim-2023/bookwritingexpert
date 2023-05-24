@@ -51,8 +51,8 @@ const Pricing = () => {
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
     ]
-   }
-  const schema1 = { 
+  }
+  const schema1 = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "bookwritingexperts",
@@ -95,7 +95,7 @@ const Pricing = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
   }
 
   return (

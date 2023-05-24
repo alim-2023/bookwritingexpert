@@ -160,18 +160,24 @@ export default function Home() {
         <meta name="twitter:data1" content="13 minutes" />
         <link rel="icon" href="/favicon.svg" />
 
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema1)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema2)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema3)}
-        </script>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
+        />
 
         {/* <Schema /> */}
 
@@ -180,17 +186,17 @@ export default function Home() {
 
       <main>
         {/* banner components */}
-       
-          <Homebanner 
-            title =  {newSpan}
-            text= 'We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.'
-            discuss= {discuss}
-            homebannernum= '(213) 289 3888'
-            homebanlogos= {homebannerlogos}
-            homebanlogos2= {homebanlogos2}
-            bannershome= 'banner'
-          />
-       
+
+        <Homebanner
+          title={newSpan}
+          text='We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.'
+          discuss={discuss}
+          homebannernum='(213) 289 3888'
+          homebanlogos={homebannerlogos}
+          homebanlogos2={homebanlogos2}
+          bannershome='banner'
+        />
+
 
         {/* partners components */}
         <Partners />

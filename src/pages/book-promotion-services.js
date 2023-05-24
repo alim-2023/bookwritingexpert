@@ -158,7 +158,7 @@ const Bookpublishingservices = () => {
     },
     "datePublished": "2022-03-21"
 
-   }
+  }
   const schema1 = {
     "@context": "https://schema.org",
     "@type": "Corporation",
@@ -174,8 +174,8 @@ const Bookpublishingservices = () => {
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
     ]
-   }
-  const schema2 = { 
+  }
+  const schema2 = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "bookwritingexperts",
@@ -218,9 +218,9 @@ const Bookpublishingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
   }
-  const schema3 = { 
+  const schema3 = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "book promotion services book promotion company",
@@ -247,7 +247,7 @@ const Bookpublishingservices = () => {
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-    
+
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Book Promotion Services For Branding - Book Writing Experts</title>
         <meta name="description" content="Book Promotion Services to leave your competitors in the dust. We know the science of sales and art of marketing your books, hire us today." />
@@ -264,20 +264,22 @@ const Bookpublishingservices = () => {
         <meta name="twitter:data1" content="7 minutes" />
         <link rel="icon" href="/favicon.svg" />
 
-
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema1)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema2)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema3)}
-        </script>
-
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
+        />
 
 
 

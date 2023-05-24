@@ -114,15 +114,20 @@ const Blogs = () => {
         <meta property="og:site_name" content="Book Writing" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/favicon.svg" />
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema1)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema2)}
-        </script>
+      
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
 
       </Head>
 

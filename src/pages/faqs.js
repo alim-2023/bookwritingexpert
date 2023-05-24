@@ -111,13 +111,14 @@ const Faqs = () => {
         <meta name="twitter:data1" content="7 minutes" />
         <link rel="icon" href="/favicon.svg" />
 
-
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema1)}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
 
       </Head>
 

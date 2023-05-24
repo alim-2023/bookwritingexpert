@@ -161,7 +161,7 @@ const Bookpublishingservices = () => {
       }
     },
     "datePublished": "2022-03-21"
-   }
+  }
   const schema1 = {
     "@context": "https://schema.org",
     "@type": "Corporation",
@@ -178,8 +178,8 @@ const Bookpublishingservices = () => {
       "https://www.pinterest.com/bookwritingexperts/"
     ]
 
-   }
-  const schema2 = { 
+  }
+  const schema2 = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "bookwritingexperts",
@@ -222,7 +222,7 @@ const Bookpublishingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
   }
   const schema3 = {
     "@context": "https://schema.org",
@@ -239,7 +239,7 @@ const Bookpublishingservices = () => {
       "@type": "country",
       "name": "us"
     }
-   }
+  }
 
   return (
     <>
@@ -264,19 +264,26 @@ const Bookpublishingservices = () => {
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="6 minutes" />
         <link rel="icon" href="/favicon.svg" />
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema1)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema2)}
-        </script>
-        <script type="application/ld+json">
-          {JSON.stringify(schema3)}
-        </script>
 
+
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
+        />
 
       </Head>
 
