@@ -17,7 +17,7 @@ import Comprehensive from '../../components/Comprehensive'
 import Strugglingtogive from '../../components/Strugglingtogive'
 import Strugglingwriters from '../../components/Strugglingwriters'
 import Onestepsolutions from '../../components/Onestepsolutions'
-
+import Script from 'next/script'
 
 
 
@@ -134,8 +134,31 @@ export default function Home() {
 
         {/* <Schema /> */}
 
+        { /* 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-210274244-13"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-210274244-13');
+        </script> */ }
 
       </Head>
+
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=UA-210274244-13"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-210274244-13');
+        `}
+      </Script>
 
       <main>
         {/* banner components */}
