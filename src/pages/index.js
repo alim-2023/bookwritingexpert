@@ -134,17 +134,9 @@ export default function Home() {
 
         {/* <Schema /> */}
 
-        { /* 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-210274244-13"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-210274244-13');
-        </script> */ }
-
       </Head>
+
+      
 
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=UA-210274244-13"
