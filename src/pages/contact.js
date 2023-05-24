@@ -70,7 +70,7 @@ const Contact = () => {
      }
     const schema1 = { 
 
-        "@context": "https://schema.org",
+    "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "bookwritingexperts",
         "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",

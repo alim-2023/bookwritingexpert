@@ -49,7 +49,7 @@ const Pricing = () => {
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
+      "https://www.pinterest.com/bookwritingexperts/",
     ]
    }
   const schema1 = { 
@@ -67,7 +67,7 @@ const Pricing = () => {
       "addressLocality": "Los Angeles",
       "addressRegion": "CA",
       "postalCode": "90071",
-      "addressCountry": "US"
+      "addressCountry": "US",
     },
     "geo": {
       "@type": "GeoCoordinates",
@@ -83,10 +83,10 @@ const Pricing = () => {
         "Thursday",
         "Friday",
         "Saturday",
-        "Sunday"
+        "Sunday",
       ],
       "opens": "00:00",
-      "closes": "23:59"
+      "closes": "23:59",
     },
     "sameAs": [
       "https://bookwritingexperts.com/",
@@ -94,7 +94,7 @@ const Pricing = () => {
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
-      "https://www.pinterest.com/bookwritingexperts/"
+      "https://www.pinterest.com/bookwritingexperts/",
     ] 
   }
 
