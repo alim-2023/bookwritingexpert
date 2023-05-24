@@ -124,10 +124,10 @@ const Pricing = () => {
         <link rel="icon" href="/favicon.svg" />
 
         <script type="application/ld+json">
-          {JSON.stringify(schema)}
+          {schema}
         </script>
         <script type="application/ld+json">
-          {JSON.stringify(schema1)}
+          {schema1}
         </script>
 
 
