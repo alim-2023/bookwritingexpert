@@ -121,7 +121,7 @@ const Onestepsolutions = () => {
         <Container>
           <Row>
             <Col md={12}>
-              <h2 className='font-f fw500 colortextgrey t-center mb-5'>Our <Link className='color-blue textdocationnone fw700' href="/">Book Writing Company</Link> Can Be Your One-Step Solution!</h2>
+              <h2 className='font-f fw500 colortextgrey t-center mb-5'>Our <Link className='color-blue textdocationnone fw700' href="/">Book Writing Company</Link> Will Be A One Stop Solution For You!</h2>
             </Col>
 
             <Col md={12}>

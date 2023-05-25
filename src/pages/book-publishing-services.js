@@ -31,13 +31,13 @@ const Bookpublishingservices = () => {
   const text = <span>We write, market, and review books of all kinds.</span>;
   const subtext = <span> Profit from our wide range of book publication styles and forms to secure your position as a book writing guru. In addition to publishing children's books, we are among the top Amazon publishing service suppliers.</span>;
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className=''>To Our Struggling Authors</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className=''>All Prospective Authors.</span> </h1>;
   const discuss = <span>LET'S DISCUSS</span>
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Is your talent getting unnoticed due to problems in publishing? Not anymore! We have solutions to your problems! Publishing.',
+      pra: 'Book Writing Expert is one of the most preferred publishing agencies, specialized for publishing on all available platforms. Simplifying the publication process for all writers to be, get your book published on Amazon or Barnes & Nobles at the earliest.',
       discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
