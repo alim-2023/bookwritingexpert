@@ -1,143 +1,192 @@
 import React from 'react'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import Banner from '../../components/Banner'
 import Head from 'next/head'
-import Partners from '../../components/Partners'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Lululogos from '../../components/Lululogos'
-import Aspiring from '../../components/Aspiring'
-import Whychoosebook from '../../components/Whychoosebook'
-import ourprosperousblog from '/public/images/whychoosebooks/ourprosperousblog.png'
-import Dowecome from '../../components/Dowecome'
-import Customersatisfaction from '../../components/Customersatisfaction'
-import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
-import Bookpublishingservices from '../../components/Bookpublishingservicesweoffer'
-import Whybookpublishing from '../../components/Whybookpublishing'
-import styles from '@/styles/Whybookpublishing.module.css'
-import Stillonthefence from '../../components/Stillonthefence'
+// images
+import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import typeofbooks from '/public/images/selfpublishingservices/1.jpg'
+import copy from '/public/images/selfpublishingservices/2.jpg'
+import marketyourbook from '/public/images/selfpublishingservices/3.jpg'
+import publishmybook from '/public/images/selfpublishingservices/4.jpg'
+// components
+import Banner from '../../components/Banner'
+import Dowecome from '../../components/Dowecome'
 import Stopworrying from '../../components/Stopworrying'
-import Finetoothedbook from '../../components/Finetoothedbook'
+import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
+import Whatourclients from '../../components/Whatourclients'
+import Makestoriesnew from '../../components/Makestoriesnew'
+import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
+import Selfpublishing from '../../components/Selfpublishing'
+import Lululogos from '../../components/Lululogos'
+import Customersatisfaction from '../../components/Customersatisfaction'
+import Bookpublishingservicesweoffer from '../../components/Bookpublishingservicesweoffer'
+// css
+import styles from '@/styles/Whybookpublishing.module.css'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'
+import Finetoothedbook from '../../components/Finetoothedbook'
 
-const Blogwritingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>    <Link className='fw700 textdocationnone color-blue hover' href="/blog-writing-services">Blog Writing Services  </Link> to Help You Come Closer To Your Refined Prospects!</span>   </h1>;
 
+
+const blogWritingService = () => {
+  const text = <span>We write, market, and review books of all kinds.</span>;
+  const subtext = <span> Profit from our wide range of book publication styles and forms to secure your position as a book writing guru. In addition to publishing children's books, we are among the top Amazon publishing service suppliers.</span>;
+
+  const newSpan = <h1 className='font50 fw700 color-white font-f hero-span'><Link className='textdocationnone color-blue hover' href="/blog-writing-service/">Blog Writing Services</Link> to Help You Come Closer <br /> To Your Refined Prospects!</h1>;
+  const discuss = <span>LET'S DISCUSS</span>
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Ever wish your audience gets lost in your stories? With blog writing services, our professionals help your dreams turn into reality.',
-      discuss: 'LET S DISCUSS',
+      pra: 'Ever wish your audience gets lost in your stories? With blog writing services, our professionals help your dreams turn into reality. It’s not a piece of cake to bring in motivated readers and target customers to the arsenal. However, experts at our company excel at driving promising leads to your website and generating more interest in what you have to offer. Our blog writing services serve as the ideal mode of marketing and advertising for your business or book. So, are you ready to attract new customers and promote your products or services in a positive light? Just give us a call, and let the pros do wonders with our content blog writing services!',
+      discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
-      banners: 'blogwritingservices',
+      banners: 'bookpublishingservices',
+      process: 'OUR PROCESS, IN A MINUTE',
 
 
 
     }
   ]
 
-  const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
-
-  const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
-
-  const kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
 
 
-  const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+
+  const geta = <span>Take Off The Marketing Strain From Your Shoulders With Our <Link className='textdocationnone color-blue hover' href="/blog-writing-service/">Online Blog Writing Services!</Link></span>
 
 
-  const whybookpublishingdata = [
+  const work = <>
+    <span>To help authors and business owners nail their marketing efforts, we offer informative and engaging content, better known as blog writing. We know you wear many hats, and marketing may serve as an additional chore on your plate; however, not anymore. Book Writing Experts offers high-quality content more quickly than you could on your own, signifying that your blog section will stay fresh and updated with new content on a regular basis.</span>
+    <br /><br />
+    <span>Buckle up to attract new customers and fans in the process, and win the race against your competition with our professional blog writing services!</span>
+  </>
 
-    {
-      title: 'What is blog writing services?',
-      text: 'Businesses need content that engages their audience and drives conversions. A blog is a great way to accomplish this, but many businesses don’t have the time or resources to produce high-quality blog content on a regular basis. This is where our content blog writing services and guest blog writing services come in.',
-      col6: '6',
+  const dateset = <span className='fw500'>Hire Us To Establish Yourself As <br /> An Expert In Your Field!
+  </span>
+
+
+  const schema = {
+
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://bookwritingexperts.com/book-publishing-services/"
     },
-    {
-      title: 'What is the importance of blog writing for businesses?',
-      text: 'Blog writing services can help businesses by providing high-quality, engaging content that helps to achieve their marketing and business goals. Services vary, but most will provide articles on a specific topic or niche, customized to the client’s needs. There are many benefits of using a blog writing service. Perhaps the most obvious is that it frees up time for businesses to focus on other aspects of their operations.',
-      col6: '6',
+    "headline": "Providing Full Fledged Book Publishing Services To Our Struggling Authors",
+    "description": "Top-Rated Book Publishing Services by Book Writing",
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
+    "author": {
+      "@type": "Organization",
+      "name": "Mini Investments"
     },
-    {
-      title: 'How can blog writing help you become successful?',
-      text: 'There’s no doubt that a successful blog can be a powerful tool. It can help you build your brand, connect with customers, and even drive sales. But what if you don’t have the time or expertise to write compelling content? That’s where business blog writing services come in. Best blog writing services can provide high-quality, engaging content that will help you achieve your business goals. Whether you need help developing ideas, crafting headlines, or writing entire posts, these services can take the burden off of your shoulders so you can focus on other aspects of your business.',
-      col6: '6',
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "url": ""
+      }
     },
-    {
-      title: 'What is the cost of blog writing services?',
-      text: 'Blogging is a popular way to share your thoughts and ideas with the world. The cost of blog writing services can vary depending on the quality and experience of the writer, as well as the length and complexity of the project. Our team of talented writers has experience working on numerous projects. At Book Writing Cube, our blog writing services packages’ prices vary for the success and ease of our valued clients.',
-      col6: '6',
+    "datePublished": "2022-03-18"
+
+  }
+
+  const schema1 = {
+
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "bookwritingexperts",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
+    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ]
+
+  }
+
+  const schema2 = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "bookwritingexperts",
+    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "@id": "",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
+    "telephone": "2132893888",
+    "priceRange": "$99",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "445 S Figueroa St",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90071",
+      "addressCountry": "US"
     },
-
-  ]
-
-
-
-
-  const reasons = [
-
-    {
-      title: 'Home to Industry Experts',
-      text: 'We have a team of experienced and qualified writers who can provide quality content for your blog.',
-      col: '6',
-      classnum: 'number',
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.0536155,
+      "longitude": -118.2568651
     },
-    {
-      title: 'Dynamic Services',
-      text: 'We offer a variety of writing services, including blog writing, article writing, and copywriting.',
-      col: '6',
-      classnum: 'number',
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
     },
-    {
-      title: 'High-Quality Content',
-      text: 'We always deliver high-quality content on time and within budget.',
-      col: '6',
-      classnum: 'number',
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ]
+
+  }
+
+
+  const schema3 = {
+
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
+    "description": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
+    "provider": {
+      "@type": "Organization",
+      "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
+      "url": "https://bookwritingexperts.com/book-publishing-services/"
     },
+    "serviceType": ["book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing"],
+    "areaServed": {
+      "@type": "country",
+      "name": "us"
+    }
 
-    {
-      title: 'Thorough Reviews',
-      text: 'We have a team of proofreaders who check all content for accuracy and grammar mistakes.',
-      col: '6',
-      classnum: 'number',
-    },
-    {
-      title: 'Customer Satisfaction Above All',
-      text: 'At Book Writing Cube, we offer a 100% satisfaction guarantee on all our services.',
-      col: '6',
-      classnum: 'number',
-    },
-    {
-      title: 'Trusted & Reputable in the Industry',
-      text: 'We are a reliable and trustworthy company that you can count on.',
-      col: '6',
-      classnum: 'number',
-    },
-
-
-  ]
-
-  const geta = <span>Get A Customized Solution By <Link className='color-blue hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
-
-
-  const work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
-
-  const posdata = <span>Let Our Best <Link className='textdocationnone color-blue hover' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link> Service Providers Handle All Your Publishing Troubles!</span>
-
-
+  }
   const fine = [
 
     {
       img: mission1,
-      title: 'Outstanding Marketing Campaigns',
-      text: 'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+      title: 'Ideas That Are Fresh and Unique!',
+      text: 'Our professional blog writers aspire to inspire readers with innovative and unique ideas. Not to mention, the business blog writing services process starts with determining the purpose of the blog based on the client’s needs, i.e., is it about building an audience for an author or about generating leads',
       class: 'fintop',
 
 
@@ -145,8 +194,8 @@ const Blogwritingservices = () => {
 
     {
       img: mission2,
-      title: 'Outstanding Marketing Campaigns',
-      text: 'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+      title: 'Confidentiality Never Gets Compromised!',
+      text: 'We respect our clients and strive to maintain confidentiality in every way possible. By signing an agreement, we ensure that we will never compromise on our clients’ information. So while working with us, rest assured that you are in the right hands. ',
       class: 'fintop',
 
 
@@ -154,8 +203,8 @@ const Blogwritingservices = () => {
 
     {
       img: mission3,
-      title: 'Outstanding Marketing Campaigns',
-      text: 'Our team has the expertise, experience and know-how to run excellent book marketing campaigns. We are familiar with the best strategies to target the right prospects to sell your books.',
+      title: 'You Get The Best That Helps You Stand Out From The Rest!',
+      text: 'In this step, we bring the writing to the final phase. Needless to say, the process of guest blog writing services includes creating catchy titles, writing interesting and informative content, and adding images or videos to enhance the blog post.',
       class: 'fintop',
 
 
@@ -163,16 +212,49 @@ const Blogwritingservices = () => {
 
 
   ]
-
   return (
     <>
       <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+        <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
 
-
-
-
-
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <title>Get Your Book on Amazon KDP with Top-Rated Book Publishing Services</title>
+        <meta name="description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+        <link rel="canonical" href="/book-publishing-services" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Get Your Book on Amazon KDP with Top-Rated Book Publishing Services" />
+        <meta property="og:description" content="Looking for a reliable Book Publishing Company? BWE can help you get your book published using Amazon Publishing Services and Kindle Direct Publishing. Call us now to bring your book to life today!" />
+        <meta property="og:url" content="/book-publishing-services" />
+        <meta property="og:site_name" content="Book Writing" />
+        <meta property="article:modified_time" content="2023-03-31T12:04:48+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="9 minutes" />
         <link rel="icon" href="/favicon.svg" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
+        />
+
 
       </Head>
 
@@ -185,15 +267,17 @@ const Blogwritingservices = () => {
         <Banner key={i}
           title={item.title}
           text={item.pra}
+          subtext1={item.subtext1}
+          subtext2={item.subtext2}
+          subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           homebanlogos={item.banlogo}
           bannershome={item.banners}
+          processs={item.process}
         />
       )}
 
-
-      {/* partners components */}
 
 
 
@@ -206,109 +290,20 @@ const Blogwritingservices = () => {
       />
 
 
-      <Stopworrying
-        title='Stop worrying about publishing books!'
-        subtitle={posdata}
-        btn1='Get a free Proposal'
-        btn2='Talk to an expert'
-      />
-
       {/* Makestories */}
-      <Makestoriesnew
-        title='A Quick Look At Our Successful Blog Writing Projects'
-        para='Our team of brilliant blog writers has years’ worth of experience.'
-      />
+      {/* <div className='dataset sliderImg'>
+        <Makestoriesnew
+          title='Our Latest Book Publishing Projects'
+          para='Let Our Book Publishing Team Help You'
+        />
+      </div> */}
 
+      {/* Bookpublishingservicesweoffer */}
+      {/* <Bookpublishingservicesweoffer /> */}
 
-      {/* Whybookpublishing */}
-      <div className={styles.whybookpublishing}>
-        <Container>
-
-          <Row>
-            <h2 className='font48 fw900 color-blue t-center'>The Importance Of Blog Writing In Today's Digitally-Driven Era</h2>
-            <p className='font15 fw500 colortextgrey t-center pb-5'>
-              Blog writing is a great way to promote a book or a business. In addition, blogging can be a great way to connect with others who share your interests. Professional blog writing services can also be a great marketing tool. If you can write well and provide valuable information, people will be more likely to visit your blog. Our professional blog writers help you with that. This can lead to more traffic for your website or blog, which can, in turn, lead to more customers or clients.
-            </p>
-
-          </Row>
-
-          <Row>
-            {whybookpublishingdata.map((item, i) =>
-              <Whybookpublishing key={i}
-                title={item.title}
-                text={item.text}
-                col6={item.col6}
-              />
-            )}
-          </Row>
-        </Container>
-      </div>
-
-      {/* Lululogos components */}
-      <Lululogos />
-
-
-
-      {/* Stillonthefence component */}
-
-      <Container className='still'>
-
-
-        <Row >
-          <h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Our Spectacular Blog Writing Services Are Ideal For Your Business</h2>
-        </Row>
-
-        <Row className='gy-5'>
-          {reasons.map((item, i) =>
-            <Stillonthefence key={i}
-              title={item.title}
-              text={item.text}
-              col6={item.col}
-              classnumber={item.classnum}
-            />
-          )}
-
-        </Row>
-      </Container>
-
-
-
-
-
-      {/* Why Choose Book Writing Cube? */}
-      <Whychoosebook
-        title="Our Prosperous Blog Writing Process Crafted For Your Success"
-        text="Book Writing Cube's professional and affordable blog writing services offer custom-tailored solutions designed for your success."
-        whychoose={ourprosperousblog}
-      />
-
-
-      <div className={`${styles.finetoothedbook} customizedbook`}>
-        <Container>
-          <Row >
-            <h2 className='color-lightgray   font48   t-center font-f mb-2'>Our Approach</h2>
-
-            <p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover' href='/book-publishing-services'> Book Marketing</Link></p>
-
-          </Row>
-
-          <Row className='gy-5'>
-            {fine.map((item, i) =>
-              <Finetoothedbook key={i}
-                title={item.title}
-                text={item.text}
-                classtop={item.class}
-                img1={item.img}
-                btn={item.btn}
-              />
-            )}
-          </Row>
-        </Container>
-      </div>
-
-      <Ourprocess
-        title='Our Process'
-
+      {/* <Ourprocess
+        title='What Is Our Process of Publishing a Book?'
+        text='Without compromising the quality of the finished product, we have developed a complex workflow procedure. We accomplish this through a thorough process that involves informing our clients at each project stage and requesting approvals. This makes the customer more aware of what`s happening at each stage. These six processes, which are listed below, comprise our self-publishing process.'
         heading1='Manuscript Submission'
         para1='The writer contacts us for submission of their full-length manuscript, while submitting, we discuss our publishing rules and sign the contract.'
         num1='01'
@@ -328,18 +323,135 @@ const Blogwritingservices = () => {
         heading5='Marketing, Publishing, and Distribution'
         para5='Before publishing, we spread awareness about the book to create demand. And Voila! The book is published now!'
         num5='05'
+      /> */}
 
 
+      {/* Stopworrying */}
+      <div className='dataSetCo'>
+        <Stopworrying
+          title2={dateset}
+          subtitle3='Best Blog writing services can help you take your business to the next level by helping you communicate with customers in an informative and engaging way. We help you connect with customers on a more personal level and showcase your unique brand voice.'
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
+
+
+
+      {/* <section className={styles.publicservices}>
+        <Container>
+          <Row>
+            <Col>
+              <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Amazon Publishing Services?</h2>
+            </Col>
+          </Row>
+        </Container>
+      </section> */}
+      {/* Selfpublishing */}
+
+      <div className={`${styles.finetoothedbook} customizedbook`}>
+        <Container>
+          <Row >
+            <h2 className='color-lightgray   font25   t-center font-f mb-2'>Our Approach</h2>
+
+            <p className='font50 font-f fw500 colortextgrey t-center pb-2'>Let Your Ideal Audience Go GAGA For <br /> You with Our <Link className='textdocationnone color-blue hover' href="/blog-writing-service/">Blog Writing Service</Link></p>
+
+          </Row>
+
+          <Row className='gy-5'>
+            {fine.map((item, i) =>
+              <Finetoothedbook key={i}
+                title={item.title}
+                text={item.text}
+                classtop={item.class}
+                img1={item.img}
+                btn={item.btn}
+              />
+            )}
+          </Row>
+        </Container>
+      </div>
+      <Selfpublishing
+        title= "Make A World Of Difference In How You Express Yourself & How You Connect With The World!"
+        text='With professional blog writers, we help you control the narrative and allow you to share your ideas and thoughts with the world! '
+        number="(213) 289 3888"
+        discuss="LET'S DISCUSS"
+        image={publishmybook}
+        whychooseclass="marketyourbook"
       />
+
+      {/* Whychoosebookwritingcube */}
+      {/* <Whychoosebookwritingcube
+        title='Our Willingness To Publish Knows No Bounds!'
+        text={text}
+        subtext={subtext}
+        number="(213) 289 3888"
+        discuss="LET'S DISCUSS"
+        image={typeofbooks}
+        whychooseclass="marketyourbook"
+      /> */}
+
+      {/* Selfpublishing */}
+      {/* <Selfpublishing
+        title='Want Articles That Boost Engagement And Expand Your Reach?'
+        text='Connect with our experienced writers that have the knowledge of the latest industry trends to write gripping articles, paving the way to success for you!'
+        number="(213) 289 3888"
+        discuss="LET'S DISCUSS"
+        image={copy}
+        whychooseclass="marketyourbook"
+      /> */}
+
+
+      {/* Whychoosebookwritingcube */}
+      {/* <Whychoosebookwritingcube
+        title='All Of Your Burning Book Marketing Questions- Answered!'
+        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Book Writing Experts based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
+        subtext='Whether you are an experienced writer or a beginner, our advice and marketing tactics will help you build a global internet presence. Our book marketing experts will assist your book and brand in achieving the success they deserve.'
+        number="(213) 289 3888"
+        discuss="LET'S DISCUSS"
+        image={marketyourbook}
+        whychooseclass="marketyourbook"
+      /> */}
+
+
+      {/* Customersatisfaction */}
+      <Customersatisfaction />
+
+
+      {/* Talk To Our Whatourclients! */}
+      <Whatourclients />
+
+      {/* Lululogos components */}
+      <div>
+        <Lululogos />
+      </div>
 
 
       {/* Aspiring */}
-      <Aspiring
-        title='For Blog Writing Services That Expedite Your Journey Towards Success, Contact Book Writing Cube Today!'
-        text="Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!"
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
-      />
+
+      <div className='datacloud'>
+        <Aspiring
+          title='Book Cover Designs That Stand Out'
+          text='We are a fantastic choice for cover designs, page layouts, and book designs. We have a group of qualified graphic designers who have created dozens of book covers and page layouts. Our designers will work with you to ensure that your book and cover are supplied according to specifications using all of the information they have. To address any potential technical issues, we offer efficient maintenance for the given files.'
+
+          number="(213) 289 3888"
+          discuss="LET'S DISCUSS"
+
+        />
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -352,4 +464,4 @@ const Blogwritingservices = () => {
   )
 }
 
-export default Blogwritingservices
+export default blogWritingService
