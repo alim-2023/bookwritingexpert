@@ -63,7 +63,7 @@ const Header = () => {
                       <div className={styles.megaTitle}>
                         <h5 className='font15 mt-4 pt-3'>Services</h5>
                       </div>
-                      <ul className={styles.border}>
+                      <ul className={`${styles.border} scrollNav`} >
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon1} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
@@ -92,6 +92,27 @@ const Header = () => {
                             <p>Professional and unmatched Reliable Editing Solutions For All!</p>
                           </div>
                         </li>
+                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon2} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/business-plan-writing-services">Business Plan Writing Services</Link>
+                            <p>Professional and unmatched Reliable Business Plan Writing Solutions For All!</p>
+                          </div>
+                        </li>
+                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon3} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/ghostwriting-services">Ghostwriting Services</Link>
+                            <p>Professional and unmatched Reliable Ghostwriting Solutions For All!</p>
+                          </div>
+                        </li>
+                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon5} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/web-content-writing-services">Web Content Writing Services</Link>
+                            <p>Professional and unmatched Reliable Web Content Writing For All!</p>
+                          </div>
+                        </li>
                         {/* <li className={`${styles.navlinks} ${styles.megaLinks}`}>
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon5} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
@@ -105,7 +126,7 @@ const Header = () => {
                       <div className={styles.megaTitle}>
                         <h5 className={`${styles.unUseDiv} font15 mt-4 pt-3`}>Services</h5>
                       </div>
-                      <ul className={styles.border}>
+                      <ul className={`${styles.border} scrollNav`} >
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon6} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
@@ -146,6 +167,28 @@ const Header = () => {
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/digital-marketing-services">Digital Marketing</Link>
                             <p>You Are One Step Closer To Displaying Your Writing Excellence...</p>
+                          </div>
+                          
+                        </li>
+                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon10} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/book-trailer-services">Book Trailer Services</Link>
+                            <p>You Are One Step Closer To Displaying Your Book Trailer Excellence...</p>
+                          </div>
+                        </li>
+                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon9} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/ebook-writing-services">Ebook Writing Services</Link>
+                            <p>You Are One Step Closer To Displaying Your Ebook Writing Excellence...</p>
+                          </div>
+                        </li>
+                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon7} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/book-formatting-services">Book Formatting Services</Link>
+                            <p>You Are One Step Closer To Displaying Your Book Formatting Excellence...</p>
                           </div>
                         </li>
                       </ul>

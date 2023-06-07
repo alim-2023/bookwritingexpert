@@ -4,10 +4,11 @@ import Link from 'next/link'
 import { Container, Row } from 'react-bootstrap'
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import mission1 from '/public/images/mission/1.png'
-import mission2 from '/public/images/mission/2.png'
-import mission3 from '/public/images/mission/3.png'
+import mission1 from '/public/images/businessplanwriting/ss.png'
+import mission2 from '/public/images/businessplanwriting/fdf.png'
+import mission3 from '/public/images/businessplanwriting/hg.png'
 import bookmarketingservices3 from '/public/images/bookmarketingservices/3.png'
+import newimagetwoo from '/public/images/booktrailerservcies/newimagetwoo.png'
 // components
 import Banner from '../../components/Banner'
 import Dowecome from '../../components/Dowecome'
@@ -19,6 +20,7 @@ import Whatourclients from '../../components/Whatourclients'
 import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
 import Selfpublishing from '../../components/Selfpublishing'
+import Lululogos from '../../components/Lululogos'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -73,7 +75,7 @@ const Bookpublishingservices = () => {
 
   ]
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <span className=''>Bring Your Ideas to Life With Our Expert</span> <Link className='textdocationnone color-blue hover' href="/ghostwriting-services"> Ghostwriting Services! </Link>   </h1>;
+  const newSpan =  <span className='font50 fw700 color-white font-f hero-span'>Bring Your Ideas to Life With Our Expert <Link className='textdocationnone color-white hover' href="/ghostwriting-services"> Ghostwriting Services! </Link> </span>;
 
 
 
@@ -81,7 +83,7 @@ const Bookpublishingservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Let our experts fire the imagination of your readers with their killer writing techniques. Your story needs to be heard, and Book Writing Experts',
+      pra: 'Let our experts fire the imagination of your readers with their killer writing techniques. Your story needs to be heard, and Book Writing Experts make sure your story keep the readers hooked onto it until the end.',
       discuss: 'LET S DISCUSS',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -92,7 +94,6 @@ const Bookpublishingservices = () => {
   const geta = <span>Our <Link className='color-blue textdocationnone hover fw700' href='/ghostwriting-services'> Ghostwriting </Link>Team Has A Knack For Telling Stories</span>
 
   const posdata = <span>Get The <Link className='textdocationnone color-blue hover fw700' href='/ghostwriting-services'>Top Ghostwriting Services</Link> From The Writers Who Best Understands The Readers?</span>
-
 
 
   const fine = [
@@ -239,81 +240,58 @@ const Bookpublishingservices = () => {
 
 
       <Ourprocess
-        title='What Is Our Ghost Writing Process?'
+        title='Our Ghostwriting Service Process'
 
-        heading1='Book Writing Consultancy'
-        para1='Once the draft is submitted, it entirely depends on the communication as we need your feedback to proceed.Prompt feedback would mean a prompt delivery of the next draft.'
+        heading1='Studying, Researching, and Drafting'
+        para1='Our Ghost Writing team leaves no stones unturned when they start the research. Upon that, we draft an outline as per your idea, get it approved, and start working accordingly.'
         num1='01'
 
-        heading2='Receive & Feedback'
+        heading2='The Initial Writing Begins'
         para2='As per the outline, our expert ghostwriters start writing the initial content that reflects your ideology behind book writing.'
         num2='02'
 
-        heading3='FinalDraft & QA:'
-        para3='Once we are done writing the book, we do not just abandon you.We send it to our QA team that fact-checks and scans the draft for errors that may have missed your or our team`s keen eye.'
+        heading3='Critics, Edits, and Proofreading'
+        para3='We make the Book writing content firm through critical reviews, which leads to required edits by the professionals. After making changes, our proofreaders double-check the content and leave no lapse behind.'
         num3='03'
 
-        heading4='Final Reviewing & Cover Design:'
-        para4='As soon as you approve the changes, our team implements them, and then sends it back to you for a final review. Once we get your go-ahead, we schedule a meeting with our design team and get your book a cover that you want.'
+        heading4='Formatting And Designing Process'
+        para4='In this step, we determine what looks best where. The Formatting and Designing team critically looks into the finalized content and presents it with the best graphical details.'
         num4='04'
 
-        heading5='Completing The Project & Reassuring Further Assistance:'
-        para5='With that,our bok writing comes to an end. In case you need further assistance with editng, publishing, and/or marketing, our team will further connect you to our publishing and marketing team.'
+        heading5='Market And Promote The Book'
+        para5='With the completion of your book, we design strategies. And take complete responsibility to market, distribute, and promote your work through effective channels.'
         num5='05'
 
 
       />
 
 
+  {/* Selfpublishing */}
 
+  <Selfpublishing
+        title='A Complete Solution To Your Ghost Writing Essentials Is Here!'
+        text='Book Writing Experts has got you covered with the Best-Ghostwriting services. You are just one click away!'
 
-      {/* Stopworrying */}
-      <div className='dataSetCo'>
-        <Stopworrying
-          title2={dateset}
-          subtitle3='Book Writing Experts has got you covered with the Best-Ghostwriting services. You are just one click away!'
-          btn1='Get a free Proposal'
-          btn2='Talk to an expert'
-        />
-      </div>
+        number="(213) 289 3888"
+        discuss="LET'S DISCUSS"
+        image={newimagetwoo}
+        whychooseclass="marketyourbook"
+      />
+    {/* Lululogos components */}
+   
+
+    
 
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 
-      {/* Stillonthefence component */}
-      <div className={styles.stillbookwritingservices}>
-        <Container >
-          <Row >
-            <h2 className='font50 fw700 color-white t-center font-f mb-5'>Why Us?</h2>
-          </Row>
 
-          <Row className='gy-5'>
-            {reasons.map((item, i) =>
-              <Stillonthefence key={i}
-                title={item.title}
-                text={item.text}
-                col6={item.col}
-                classnumber={item.classnum}
-              />
-            )}
 
-          </Row>
-        </Container>
 
-      </div>
+      <Lululogos />
 
-      {/* Selfpublishing */}
 
-      <Selfpublishing
-        title='And, No, Hiring Ghostwriters Is Not Against The Law!'
-        text='Since the emergence of the phenomenon of ghostwriting services, misperception has been prevalent. The role of the ghostwriter is to receive payment for his literary masterpiece. Anyone can be creative and have a fantastic idea, but that doesn`t necessarily mean they can all express it clearly. Professional ghostwriters are hard to make those goals a reality. Due to the fact that those ghostwriters are qualified to create, edit, and publish that work, spreading the concept is a legal partnership.'
-
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
-        image={bookmarketingservices3}
-        whychooseclass="marketyourbook"
-      />
-
+  
 
       {/* Aspiring */}
       <div className='datacloud'>
@@ -325,7 +303,7 @@ const Bookpublishingservices = () => {
         />
       </div>
 
-
+  
 
     </>
   )

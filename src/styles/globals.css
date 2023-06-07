@@ -808,3 +808,15 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
     font-size: 18px;
   }
 }
+
+.scrollBox{
+  height: 250px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scrollNav{
+
+  height: 460px;
+  overflow: scroll;
+}

@@ -1,227 +1,317 @@
 import React from 'react'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import Banner from '../../components/Banner'
 import Head from 'next/head'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Lululogos from '../../components/Lululogos'
-import Aspiring from '../../components/Aspiring'
-import Whychoosebook from '../../components/Whychoosebook'
-import ourstreamlinedbusiness from '/public/images/whychoosebooks/ourstreamlinedbusiness.png'
-import Stillonthefence from '../../components/Stillonthefence'
 import Link from 'next/link'
-import { Container,Row } from 'react-bootstrap'
-import Whybookpublishing from '../../components/Whybookpublishing'
+import { Container, Row } from 'react-bootstrap'
+// images
+import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import mission1 from '/public/images/businessplanwriting/ss.png'
+import mission2 from '/public/images/businessplanwriting/fdf.png'
+import mission3 from '/public/images/businessplanwriting/hg.png'
+import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
+import newimagetwoo from '/public/images/booktrailerservcies/newimagetwoo.png'
+// components
+import Banner from '../../components/Banner'
+import Dowecome from '../../components/Dowecome'
+import Stopworrying from '../../components/Stopworrying'
+import Finetoothedbook from '../../components/Finetoothedbook'
+import Aspiring from '../../components/Aspiring'
+import Ourprocess from '../../components/Ourprocess'
+import Whatourclients from '../../components/Whatourclients'
+import Makestoriesnew from '../../components/Makestoriesnew'
+import Stillonthefence from '../../components/Stillonthefence'
+import Lululogos from '../../components/Lululogos'
+import Selfpublishing from '../../components/Selfpublishing'
+// css
 import styles from '@/styles/Whybookpublishing.module.css'
 
-const Businessplanwritingservices = () => {
-
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>     Business Plan Writing Services To Help You Follow A Roadmap To Business Success!</span>   </h1>;
 
 
-  const bannertext=[
+
+const businessplanWringservices = () => {
+
+  const newSpan = <h1 className='font50 fw700 color-white font-f hero-span'>  Business Plan Writing Services
+  To Help You Follow A Roadmap To Business Success! </h1>;
+
+  const discuss = <span>LET'S DISCUSS</span>
+
+
+  const bannertext = [
     {
       title: newSpan,
-      pra: 'It goes unsaid that a business plan helps business owners secure financing, attract investors, and grow the business.',
-      discuss:'LET S DISCUSS',
-      homebannernum:'(213) 289 3888',
-      banlogo:homebannerlogos,
-      banners:'ghostwriting',
-     
-       
+      pra: 'It goes unsaid that a business plan helps business owners secure financing, attract investors, and grow the business. If you need help getting your business off the ground, our team at Book Writing Experts can assist you. We specialize in creating customized business plans that will help you secure funding and launch your company successfully. Our services are affordable, and we offer a free consultation to get started. Contact us today to learn more about how we can help you achieve your business goals!',
+      discuss: discuss,
+      homebannernum: '(213) 289 3888',
+      banlogo: homebannerlogos,
+      banners: 'ghostwriting',
+
+
+
 
     }
   ]
 
-const text = <span>We write, edit, publish and market all genres of books. Also, we provide similar services to <Link className='textdocationnone' href="#">self publish ebooks</Link>. So, we can also help you with <Link className='textdocationnone' href="#">self publishing</Link> .</span>;
 
-const subtext = <span>Benefit from our wide-ranging array of book publication formats and forms and book your place as a book writing cube. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</span>;
+  const geta = <span className='fw700 color-black'>We Know What It Takes To Write A Business Plan That Wins!</span>
 
-const  kindledirectpublishing = <span>Providing the Highest quality and cost-effective <Link href="#" className='textdocationnone'>kindle direct publishing</Link> and printing services to our clients, with shipping and handling across the state.</span>
+  const posdata = <span  className='fw700'>We Don’t Write Business Plans <br/> That Don’t Bring Results. </span>
 
+  const datap =<span className=''>We’ve helped countless businesses put together comprehensive and effective business plans, and our professional business plan writer can do the same for you. Buy a business plan online now!
 
-const datapost = <span>Yes, you can. The Book Writing Cube team will assist you in choosing the platform i.e.,  <Link className='textdocationnone' href="#">Amazon KDP</Link> that you want to publish on. They will also assist you in making sure your manuscript is in the correct format as per the prescribed guidelines of the platform you have chosen for publication and point you in the right direction!</span>
+  </span>
 
+  const fine = [
 
-const whybookpublishingdata = [
-
-{
-  title: 'What is a business plan writing service?',
-  text:  'A business plan service is a company that specializes in creating business plans for businesses of all sizes. They usually have a team of writers who are experienced in business planning and can help you create a professional and detailed plan that will outline your company’s goals, strategies, and financial projections.',
-  col6: '6',
-},
-{
-  title: 'Why do I need a business plan?',
-  text: 'A well-written business plan is essential for any business, regardless of size or industry. It will give you a roadmap to follow as you grow and scale your company, and it will also provide potential investors with an understanding of your business model and how you intend to make money. Without a sound plan, it will be very difficult to secure funding or attract top talent.',
-  col6: '6',
-},
-{
-title:'What are some common mistakes people make when writing a business plan?',
-text:'There are several common mistakes that people make when writing a business plan. These include failing to do adequate market research, not having a clear understanding of their target market, not having realistic financial projections, and not including a detailed marketing strategy. We offer business plan writers for hire that are experienced and skilled.',
-col6: '6',
-},
-{
-title:'How much does a business plan writing service cost?',
-text: 'The cost of a business plan writing service will vary depending on the size and scope of your project. Be sure to get quotes from multiple companies before making a decision, as prices can vary significantly. At Book Writing Cube, we offer various packages set at different prices for your convenience.',
-col6: '6',
-},
-
-]
+    {
+      img: mission1,
+      title: 'Researching',
+      text: 'This step involves gathering information about your industry, competitors, and target market. We understand the dynamics of your industry and what it takes to succeed in it. This research will also help us develop realistic financial projections for your business.',
+      class: 'fintop',
 
 
+    },
 
-const reasons = [
-
-  {
-    title:'High-Quality Serviced',
-    text:'You`ll get a professionally written business plan that will help you secure funding and get your business off the ground.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Home to Industry Experts',
-    text:'We have a team of experienced business plan writers who will work with you to understand your business and objectives and craft a custom-tailored business plan for you.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Meticulous Business Plans',
-    text:'Our plans are comprehensive and cover all aspects of starting and running your business, from market analysis to financial projections.',
-    col:'6',
-    classnum: 'number',
-  },
-
-  {
-    title:'Cost-Effective Prices',
-    text:'We offer affordable rates without compromising on quality or service.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Customer Satisfaction',
-    text:'All our plans come with a 100% satisfaction guarantee - if you`re not happy with your plan, we`ll revise it until you are.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Trusted by Many',
-    text:'We have an extensive track record of helping businesses secure funding and achieve their goals. Contact us today to see how we can help you too.',
-    col:'6',
-    classnum: 'number',
-  },
+    {
+      img: mission2,
+      title: 'Planning',
+      text: 'The next step is to develop a detailed business plan that includes your business model, marketing strategy, and financial projections. This planning process will help us identify your unique selling proposition and what it will take to achieve your goals.',
+      class: 'fintop',
 
 
-]
+    },
 
+    {
+      img: mission3,
+      title: 'Writing',
+      text: 'Once we have completed research and planning, our experienced writers will be ready to write your business plan. This document will be the roadmap for your business, so it is important to make sure it is clear, concise, and comprehensive. Include an executive summary, company description, market analysis, product/service offering, marketing strategy, financial projections, and management team bios.',
+      class: 'fintop',
+
+
+    },
+
+
+  ]
+
+  const dateset = <span className='fw500'>  Waiting For Someone To <br></br> <Link href='#' className='color-blue textdocationnone hover fw700'>Give Your Book An Book Version?</Link> </span>
+
+
+  const datesettext = <span>  Get in touch with our <Link href='#' className='color-blue textdocationnone hover'>professional book writing</Link> specialists today. Our Books Writing Experts choose the most compelling words and perfect linguistics for your work. We promise original, customized, and timely delivery of your content without breaking your bank!</span>
+
+  const reasons = [
+
+    {
+      title: 'A Top-Notch Group Of Writers',
+      text: 'Work with some of the industry`s top editors, authors, and publishing strategists. Our team-based strategy will give you the best chance of success.',
+      classnum: 'number1',
+
+    },
+    {
+      title: 'Individualized Approach to Strategy',
+      text: 'In order to ensure that we develop a strategy that will help you achieve your goals, we first hold four extensive publishing strategy meetings.',
+      classnum: 'number1',
+
+    },
+    {
+      title: 'Fine-Tuned Process',
+      text: 'Enjoy the dependability and effectiveness of our professionally managed book-writing process.',
+      classnum: 'number1',
+
+    },
+
+    {
+      title: 'Specialists in Books Composing',
+      text: 'Authors from practically every genre who have received accolades are on our team, along with #1 New York Times Book Writers.',
+      classnum: 'number1',
+
+    },
+    {
+      title: 'The Best of the Best Editors',
+      text: 'Your proposal will be supervised and edited by a former acquisitions editor from a Big-5 publisher with a number of New York Times’ book writing titles to their credit.',
+      classnum: 'number1',
+
+    },
+    {
+      title: 'Publishing Process',
+      text: 'Publishing Process We will walk you through the entire book publication process. We can either place your book directly with traditional publishers or assist you in choosing the best hybrid publishing solution.',
+      classnum: 'number1',
+
+    },
+
+
+  ]
+
+  const text = <span>We believe that every business deserves a great plan. Our team of experienced writers will help you create an engaging and professional document, while our creative approach ensures that your plan stands out from the competition. So if you’re looking for an edge in today’s competitive marketplace, Book Writing Cube is the perfect partner for business plan service.
+
+  </span>;
+
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://bookwritingexperts.com/ebook-writing-services/"
+    },
+    "headline": "Ebook Writing Services That Give Meaning To Your Imagination!",
+    "description": "Ebook Writing Services",
+    "image": "",
+    "author": {
+      "@type": "Organization",
+      "name": "Mini Investments"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "url": ""
+      }
+    },
+    "datePublished": "2022-03-21"
+  }
+  const schema1 = {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "bookwritingexperts",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/ebook-writing-services/",
+    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ]
+
+  }
+  const schema2 = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "bookwritingexperts",
+    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "@id": "",
+    "url": "https://bookwritingexperts.com/ebook-writing-services/",
+    "telephone": "2132893888",
+    "priceRange": "$99",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "445 S Figueroa St",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90071",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.0536155,
+      "longitude": -118.2568651
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ]
+  }
+  const schema3 = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "ebook writing services ebook writers",
+    "description": "ebook writing services ebook writers ebook writing services ebook writers ebook writing services ebook writers",
+    "provider": {
+      "@type": "Organization",
+      "name": "book editing services book editing company book editors",
+      "url": "https://bookwritingexperts.com/ebook-writing-services/"
+    },
+    "serviceType": ["ebook writing services ebook writers"],
+    "areaServed": {
+      "@type": "country",
+      "name": "us"
+    }
+  }
 
   return (
-   <>
-   <Head>
+    <>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+        <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <title>Professional Book Writing Services - Book Writing Experts</title>
+        <meta name="description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <link rel="canonical" href="/book-writing-services" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Professional Book Writing Services - Book Writing Experts" />
+        <meta property="og:description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <meta property="og:url" content="/book-writing-services" />
+        <meta property="og:site_name" content="Book Writing" />
+        <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="6 minutes" />
+        <link rel="icon" href="/favicon.svg" />
 
 
 
-  <link rel="icon" href="/favicon.svg" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
 
-   </Head>
-   
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
+        />
+
+      </Head>
 
 
-   
-   {/* banner components */}
 
-   {bannertext.map((item, i) =>
+
+      {/* banner components */}
+
+      {bannertext.map((item, i) =>
         <Banner key={i}
           title={item.title}
           text={item.pra}
+          subtext1={item.subtext1}
+          subtext2={item.subtext2}
+          subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           homebanlogos={item.banlogo}
           bannershome={item.banners}
-       /> 
-       )}
-   
-
-   {/* partners components */}
-
-
-{/* Makestories */}
-<Makestoriesnew
-title='A Quick Look At Our Spectacular Business Plan Projects'
-para='With extensive knowledge and creativity, our experts turn your brilliant ideas into successful business plans!
-'
-/>
-
-
-{/* Whybookpublishing */}
-<div className={styles.whybookpublishing}>
-  <Container>
-
-  <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Collaborate With A Professional Business Plan Writer Today!</h2>
-    <p className='font15 fw500 colortextgrey t-center pb-5'>
-    A business plan is important because it serves as your roadmap for your business. It outlines your business goals, strategies, and how you plan on achieving them. Additionally, when you buy a business plan online, it can be used to attract investors and partners and can also be used as a tool to measure the success of your business.
-                    </p>
-
-  </Row>
-
-    <Row>
-      {whybookpublishingdata.map((item, i) =>
-        <Whybookpublishing  key={i}
-          title={item.title}
-          text={item.text}
-          col6={item.col6}
+          processs={item.process}
         />
       )}
-    </Row>            
-  </Container>   
-</div>
-
-{/* Lululogos components */}
-<Lululogos/>
-
-
-
-
-{/* Stillonthefence component */}
-
-<Container className='still'>
-
-
-<Row >
-<h2 className='font48 fw900 color-blue t-center font-f mb-5'>Why Our Business Plan Writing Services Are Ideal For You</h2>  
-</Row>  
-
-<Row className='gy-5'>
-{ reasons.map((item, i) =>
-<Stillonthefence key={i}
-title =  {item.title}
-text =   {item.text}
-col6 = { item.col }
-classnumber = { item.classnum }
-/>
-  )}
-
-</Row>  
-</Container>
-
-
-
-
-
-{/* Why Choose Book Writing Cube? */}
-<Whychoosebook
-   title="Our Streamlined Business Plan Writing Process for Your Success"
-  text="If you're looking to start a business but don't know where to begin, the Book Writing Cube can help! Our 5-step process will take you from idea to launch and set you up for success along the way."
-  whychoose= {ourstreamlinedbusiness}
- />
-
-
-{/* Aspiring */}
-<Aspiring
- title= 'Bring Your Business to Life with Book Writing Cube’s Meticulous Business Plan Writing Services!'
- text="Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!"
- number="(213) 289 3888"
- discuss="LET'S DISCUSS"
-/>
 
 
 
@@ -230,8 +320,165 @@ classnumber = { item.classnum }
 
 
 
-   </>
+      {/* Dowecome */}
+      <Dowecome
+        title={geta}
+        text='Business plans are important for small businesses and startups because they provide essential guidance on starting and operating a successful business. While many business plans writing companies are out there, Book Writing Experts is peerless.  If you’re ready to take your business to the next level, contact us to get started on your custom business plan. We offer affordable rates and flexible payment plans so that you can get the help you need without breaking the bank. Trust us to help you achieve your business dreams.
+
+        '
+        Dowecome="publishmybook"
+
+      />
+
+
+    
+
+
+      {/* Stopworrying */}
+      <Stopworrying
+        title='Dealing with the stress of formatting your books?'
+        title2={posdata}
+        subtext={datap}
+        btn1='Get a free Proposal'
+        btn2='Talk to an expert'
+      />
+
+
+
+      <div className={`${styles.finetoothedbook} customizedbook`}>
+        <Container>
+          <Row >
+            <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
+
+            <p className='font30 font-f fw500 colortextgrey t-center pb-2'>Three-Step Game Plan to Writing an Effective Business Plan!
+</p>
+
+          </Row>
+
+          <Row className='gy-5'>
+            {fine.map((item, i) =>
+              <Finetoothedbook key={i}
+                title={item.title}
+                text={item.text}
+                classtop={item.class}
+                img1={item.img}
+                btn={item.btn}
+              />
+            )}
+          </Row>
+        </Container>
+      </div>
+
+
+
+      <Ourprocess
+        title='Our Modernized Business Plan Writing Process'
+     
+        heading1='Business Plan Brief'
+        para1='We will discuss your business ideas with you and get to know your business inside and out. This step is crucial in order to develop a custom-tailored plan that will set you up for success.'
+        num1='01'
+
+        heading2='Comprehensive Research'
+        para2='We’ll conduct market research and feasibility studies to ensure that your business idea has potential.'
+        num2='02'
+
+        heading3='Create a Financial Model'
+        para3='We’ll create a detailed financial model for your business, including pro forma statements and cash flow projections.'
+        num3='03'
+
+        heading4='Write the Plan'
+        para4='We’ll craft a well-written and convincing executive summary that will capture the attention of investors and lenders.'
+        num4='04'
+
+        heading5='Final Document'
+        para5='Finally, we’ll put everything together in a professional business plan document that you can use to raise capital and grow your business.'
+        num5='05'
+
+
+      />
+
+
+
+      {/* Stopworrying */}
+      <div className='dataSetCo'>
+        <Stopworrying
+          title2={dateset}
+          text={datesettext}
+          btn1='Get a free Proposal'
+          btn2='Talk to an expert'
+        />
+      </div>
+
+
+
+      {/* Whybookpublishing */}
+      {/* <div className={styles.whybookpublishing}>
+        <Container>
+
+          <Row>
+            <h2 className='font50 fw700 color-blue t-center'>Why Does One Need Professional Book Writing Services?</h2>
+            <p className='font15  textcolor t-center pb-5 mt-3'>
+              Our book writing team is composed of the industry's elite who know the ins and outs of the writing industry better than any of us. If you have any more questions about signing up for the professional book writing services, we may have your answers listed below!
+            </p>
+
+          </Row>
+
+          <Row>
+            {whybookpublishingdata.map((item, i) =>
+              <Whybookpublishing key={i}
+                title={item.title}
+                text={item.text}
+                col6={item.col6}
+              />
+            )}
+          </Row>
+        </Container>
+      </div> */}
+
+
+
+
+      {/* Selfpublishing */}
+
+      <div>
+        <Selfpublishing
+          title='Helping Entrepreneurs And Small Businesses Achieve Their Goals'
+          text={text}
+          number="(213) 289 3888"
+          discuss="LET'S DISCUSS"
+          image={newimagetwoo}
+          whychooseclass="marketyourbook"
+        />
+      </div>
+
+
+
+ 
+
+      {/* Talk To Our Whatourclients! */}
+      <Whatourclients />
+
+
+
+          {/* Lululogos components */}
+          <Lululogos />
+
+
+
+
+      {/* Aspiring */}
+      <div className='datacloud'>
+        <Aspiring
+          title='Professional Book Writing and Publishing We Give New Life To Your Words'
+          text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
+          number="(213) 289 3888"
+          discuss="LET'S DISCUSS"
+        />
+      </div>
+
+
+    </>
   )
 }
 
-export default Businessplanwritingservices
+export default businessplanWringservices
