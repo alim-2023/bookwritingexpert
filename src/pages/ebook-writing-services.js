@@ -29,7 +29,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const EbookWritingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-white font-f hero-span'> <Link className='color-white textdocationnone hover' href='/ebook-writing-services'>Ebook Writing Services</Link> That Give Meaning To Your Imagination! </h1>;
+  const newSpan = <h1 className='font50 fw700 color-white font-f hero-span'> <Link className='color-white textdocationnone hover' href='/eebook-writing-services'>Ebook Writing Services</Link> That Give Meaning To Your Imagination! </h1>;
 
   const discuss = <span>LET'S DISCUSS</span>
 
@@ -50,13 +50,13 @@ const EbookWritingservices = () => {
   ]
 
 
-  const geta = <span className='fw700 color-black'>Get Connected To Your Readers With <Link className='color-black textdocationnone hover' href='/ebook-writing-services'> Ebook Writing Experts!</Link></span>
+  const geta = <span className='fw700 color-black'>Get Connected To Your Readers With <Link className='color-black textdocationnone hover' href='/eebook-writing-services'> Ebook Writing Experts!</Link></span>
 
   const titleDb = <span className=' color-blue'>Tired Of Trying To Write An Ebook On Your Own?</span>
   const posdata = <span  className='fw700'>What Is Stopping You From Availing The Most Affordable EBooks Writing Services? </span>
 
 
-  const WaitingForSomeone = <span>Waiting For Someone To <Link className='color-black textdocationnone hover' href='/ebook-writing-services'> Give Your Book An EBook Version?</Link></span>
+  const WaitingForSomeone = <span>Waiting For Someone To <Link className='color-black textdocationnone hover' href='/eebook-writing-services'> Give Your Book An EBook Version?</Link></span>
 
   const fine = [
 
@@ -181,7 +181,6 @@ const EbookWritingservices = () => {
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
     ]
-
   }
   const schema2 = {
     "@context": "https://schema.org",
@@ -226,24 +225,9 @@ const EbookWritingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ]
+    ] 
   }
-  const schema3 = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "ebook writing services ebook writers",
-    "description": "ebook writing services ebook writers ebook writing services ebook writers ebook writing services ebook writers",
-    "provider": {
-      "@type": "Organization",
-      "name": "book editing services book editing company book editors",
-      "url": "https://bookwritingexperts.com/ebook-writing-services/"
-    },
-    "serviceType": ["ebook writing services ebook writers"],
-    "areaServed": {
-      "@type": "country",
-      "name": "us"
-    }
-  }
+  
 
   return (
     <>
@@ -254,14 +238,14 @@ const EbookWritingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Book Writing Services - Book Writing Experts</title>
-        <meta name="description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
-        <link rel="canonical" href="/book-writing-services" />
+        <title>Professional Ebook Writing Services - Book Writing Experts</title>
+        <meta name="description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <link rel="canonical" href="/ebook-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Book Writing Services - Book Writing Experts" />
-        <meta property="og:description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
-        <meta property="og:url" content="/book-writing-services" />
+        <meta property="og:title" content="Professional Ebook Writing Services - Book Writing Experts" />
+        <meta property="og:description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <meta property="og:url" content="/ebook-writing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -284,10 +268,7 @@ const EbookWritingservices = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
-        />
+     
 
       </Head>
 

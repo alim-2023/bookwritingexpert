@@ -151,10 +151,10 @@ const EbookWritingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/ebook-writing-services/"
+      "@id": "https://bookwritingexperts.com/web-content-writing-service/"
     },
-    "headline": "Ebook Writing Services That Give Meaning To Your Imagination!",
-    "description": "Ebook Writing Services",
+    "headline": "Web Content Writing Service That Gives Your Business Persona A Professional Look!",
+    "description": "Web Content Writing Service",
     "image": "",
     "author": {
       "@type": "Organization",
@@ -175,7 +175,7 @@ const EbookWritingservices = () => {
     "@type": "Corporation",
     "name": "bookwritingexperts",
     "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/ebook-writing-services/",
+    "url": "https://bookwritingexperts.com/web-content-writing-service/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
       "https://bookwritingexperts.com/",
@@ -185,7 +185,6 @@ const EbookWritingservices = () => {
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
     ]
-
   }
   const schema2 = {
     "@context": "https://schema.org",
@@ -193,7 +192,7 @@ const EbookWritingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/ebook-writing-services/",
+    "url": "https://bookwritingexperts.com/web-content-writing-service/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -230,24 +229,9 @@ const EbookWritingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ]
+    ] 
   }
-  const schema3 = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "ebook writing services ebook writers",
-    "description": "ebook writing services ebook writers ebook writing services ebook writers ebook writing services ebook writers",
-    "provider": {
-      "@type": "Organization",
-      "name": "book editing services book editing company book editors",
-      "url": "https://bookwritingexperts.com/ebook-writing-services/"
-    },
-    "serviceType": ["ebook writing services ebook writers"],
-    "areaServed": {
-      "@type": "country",
-      "name": "us"
-    }
-  }
+ 
 
   return (
     <>
@@ -258,13 +242,13 @@ const EbookWritingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Book Writing Services - Book Writing Experts</title>
-        <meta name="description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <title>Web Content Writing Service - Book Writing Experts</title>
+        <meta name="description" content="Web Content Writing Service to help you create a striking impression on your ideal audience. Get in touch with our seasoned writers." />
         <link rel="canonical" href="/book-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Book Writing Services - Book Writing Experts" />
-        <meta property="og:description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <meta property="og:title" content="Web Content Writing Service - Book Writing Experts" />
+        <meta property="og:description" content="Web Content Writing Service to help you create a striking impression on your ideal audience. Get in touch with our seasoned writers." />
         <meta property="og:url" content="/book-writing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
@@ -288,10 +272,7 @@ const EbookWritingservices = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
-        />
+     
 
       </Head>
 

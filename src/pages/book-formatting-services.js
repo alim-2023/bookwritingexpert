@@ -150,10 +150,10 @@ const EbookWritingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/ebook-writing-services/"
+      "@id": "https://bookwritingexperts.com/formatting-services/"
     },
-    "headline": "Ebook Writing Services That Give Meaning To Your Imagination!",
-    "description": "Ebook Writing Services",
+    "headline": "Formatting Services To Help You Pen Down Your Thoughts Effortlessly!",
+    "description": "Formatting Services",
     "image": "",
     "author": {
       "@type": "Organization",
@@ -174,7 +174,7 @@ const EbookWritingservices = () => {
     "@type": "Corporation",
     "name": "bookwritingexperts",
     "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/ebook-writing-services/",
+    "url": "https://bookwritingexperts.com/book-formatting-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
       "https://bookwritingexperts.com/",
@@ -184,7 +184,6 @@ const EbookWritingservices = () => {
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
     ]
-
   }
   const schema2 = {
     "@context": "https://schema.org",
@@ -192,7 +191,7 @@ const EbookWritingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/ebook-writing-services/",
+    "url": "https://bookwritingexperts.com/book-formatting-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -229,25 +228,19 @@ const EbookWritingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ]
+    ] 
   }
   const schema3 = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "ebook writing services ebook writers",
-    "description": "ebook writing services ebook writers ebook writing services ebook writers ebook writing services ebook writers",
-    "provider": {
-      "@type": "Organization",
-      "name": "book editing services book editing company book editors",
-      "url": "https://bookwritingexperts.com/ebook-writing-services/"
-    },
-    "serviceType": ["ebook writing services ebook writers"],
-    "areaServed": {
-      "@type": "country",
-      "name": "us"
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "bookwritingexperts",
+    "url": "https://bookwritingexperts.com/book-formatting-services/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://bookwritingexperts.com/formatting-services/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
     }
   }
-
   return (
     <>
       <Head>
@@ -257,13 +250,13 @@ const EbookWritingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Book Writing Services - Book Writing Experts</title>
-        <meta name="description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <title>Book Formatting Services - Book Writing Experts</title>
+        <meta name="description" content="Book Formatting Services that meet the global formatting standards. Call the experts to get it done at affordable price range." />
         <link rel="canonical" href="/book-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Book Writing Services - Book Writing Experts" />
-        <meta property="og:description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <meta property="og:title" content="Book Formatting Services - Book Writing Experts" />
+        <meta property="og:description" content="Book Formatting Services that meet the global formatting standards. Call the experts to get it done at affordable price range." />
         <meta property="og:url" content="/book-writing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />

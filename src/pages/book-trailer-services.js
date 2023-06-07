@@ -105,10 +105,10 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/book-marketing-services/"
+      "@id": "https://bookwritingexperts.com/book-trailer-services/"
     },
-    "headline": "Connect To The Best Book Marketing Service Providers In Town!",
-    "description": "Book Marketing Services",
+    "headline": "Book Trailer Services That Create Hype For Your Digital Asset!",
+    "description": "Book Trailer Services",
     "image": "",
     "author": {
       "@type": "Organization",
@@ -122,14 +122,14 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
         "url": ""
       }
     },
-    "datePublished": "2022-03-18"
+    "datePublished": "2022-03-21"
   }
   const schema1 = {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
     "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/book-marketing-services/",
+    "url": "https://bookwritingexperts.com/book-trailer-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
       "https://bookwritingexperts.com/",
@@ -146,7 +146,7 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/book-marketing-services/",
+    "url": "https://bookwritingexperts.com/book-trailer-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -183,24 +183,9 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ]
+    ] 
   }
-  const schema3 = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "book marketing services book marketing company book marketing agency best book marketing services book advertising services",
-    "description": "book marketing services book marketing company book marketing agency best book marketing services book advertising services book marketing services book marketing company book marketing agency best book marketing services book advertising services",
-    "provider": {
-      "@type": "Organization",
-      "name": "book marketing services book marketing company book marketing agency best book marketing services book advertising services",
-      "url": "https://bookwritingexperts.com/book-marketing-services/"
-    },
-    "serviceType": ["book marketing services book marketing company book marketing agency best book marketing services book advertising services"],
-    "areaServed": {
-      "@type": "country",
-      "name": "us"
-    }
-  }
+ 
 
 
   return (
@@ -215,12 +200,12 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Impactful Book Trailer Services - Book Writing Experts</title>
         <meta name="description" content="Book trailer services to make a lasting impression on your audience. Avail our services and stay ahead of your competitors." />
-        <link rel="canonical" href="/book-marketing-services" />
+        <link rel="canonical" href="/book-trailer-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Impactful Book Trailer Services - Book Writing Experts" />
         <meta property="og:description" content="Book trailer services to make a lasting impression on your audience. Avail our services and stay ahead of your competitors." />
-        <meta property="og:url" content="/book-marketing-services" />
+        <meta property="og:url" content="/book-trailer-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T11:37:31+00:00" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -244,11 +229,6 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
-        />
-
       </Head>
 
 
