@@ -150,6 +150,12 @@
   top: 0;
   width: 100%;
 }
+.headerblue {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #141D29;
+}
 .megamenu ul li a {
   font-size: 16px;
   color: #292929;

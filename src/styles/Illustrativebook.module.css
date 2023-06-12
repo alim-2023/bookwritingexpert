@@ -1,0 +1,42 @@
+.plust {
+    background-color: #141D29;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+}
+.discuss{
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 50px;
+    background-color: #ff9900;
+    color: #fff;
+    text-decoration: unset;
+    border: 1px solid #ff9900;
+    font-family: "Poppins";
+}
+.discuss:hover{
+    color: #fff;
+}
+.homenumer:hover{
+    color: #fff;
+}
+.homenumer{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 18px;
+    border: 2px solid #ff9900;
+    color: #fff;
+    text-decoration: unset;
+    font-family: "Poppins";
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
+.cartoon{
+    position: relative;
+}
+.cartoon{
+    position: absolute;
+    margin-top: -9%;
+    right: 9%;
+}

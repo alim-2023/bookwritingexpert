@@ -26,6 +26,8 @@ import headericon10 from '../public/images/headericon/10.png'
 import Modal from 'react-bootstrap/Modal';
 import Getstarted from './Getstarted'
 
+import { useRouter } from "next/router";
+
 const Header = () => {
 
   const [click, setclick] = useState(false);
@@ -42,10 +44,15 @@ const Header = () => {
   function modal(e) { e.preventDefault(); setShow(true); }
   function closemodal() { setShow(false); }
 
+
+  const router = useRouter();
+
+
+ 
   return (
     <>
 
-      <header className={styles.headerhome}>
+      <header className={ router.pathname == '/illustration' || router.pathname == ''  ?  styles.headerblue : styles.headerhome}>
         <Navbar expand="lg">
           <Container className={styles.headerContainer}>
 
@@ -145,6 +152,13 @@ const Header = () => {
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon10} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/digital-marketing-services">Digital Marketing</Link>
+                            <p>You Are One Step Closer To Displaying Your Writing Excellence...</p>
+                          </div>
+                        </li>
+                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon10} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/illustration">Illustration</Link>
                             <p>You Are One Step Closer To Displaying Your Writing Excellence...</p>
                           </div>
                         </li>

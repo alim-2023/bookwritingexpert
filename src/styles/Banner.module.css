@@ -119,6 +119,18 @@
   background-position: center;
   font-family: "Poppins";
 }
+.illustrationbook {
+  background-image: url(/images/bannerimages/banner.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 135px;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 70px;
+  background-position: 0% 75%;
+  font-family: "Poppins";
+}
 .ebook {
   background-image: url(/images/bannerimages/ebook.jpg);
   background-size: cover;
@@ -413,6 +425,25 @@
 .thankyoubtn:hover {
   background-color: #223235;
   color: #f1f1f1;
+}
+.free{
+  color: #fff;
+  font-weight: 300;
+  border-radius: 10px;
+  text-align: center;
+  text-align: center;
+  padding: 8px 30px;
+  margin: 20px 0 0;
+  border: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  background: #FD9802;
+  width: 100%;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.free:hover{
+  color: #fff;
 }
 
 @media (min-width: 1440px) {

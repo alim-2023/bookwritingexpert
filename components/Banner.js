@@ -154,6 +154,13 @@ const Banner = (props) => {
                   </div>
                   : ''}
 
+                {props.free ?
+                  <div className='mt-4 mb-5'>
+
+                    <Link className={styles.free} href="/"> {props.free} </Link>
+                  </div>
+                  : ''}
+
 
                 {props.homebanlogos ?
 
