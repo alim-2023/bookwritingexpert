@@ -90,7 +90,7 @@ const Bookpublishingservices = () => {
   ]
 
 
-  const geta = <span> <Link className='color-blue textdocationnone hover fw700' href='/book-proofreading-services'>Professional Proofreading Services</Link> To Turn Your Words Into Masterpieces</span>
+  const geta = <span> <Link className='color-blue textdocationnone hover fw700' href='/book-proofreading-services'>Professional Proofreading Services</Link> to Turn Your Words into a Masterpiece!</span>
 
   const posdata = <span>Adding Value To Your Masterpiece With Our Exceptional  <Link className='textdocationnone color-blue fw700 hover' href='/book-proofreading-services'>Proofreading Services!</Link> </span>
 
@@ -310,7 +310,7 @@ const Bookpublishingservices = () => {
       {/* Dowecome */}
       <Dowecome
         title={geta}
-        text='Our aim is to provide our clients with above satisfactory work. Our team of brilliant proofreaders ensures your draft is free of minor errors, inconsistencies, and formatting mistakes. This greatly improves the quality of your work before the publication process begins. '
+        text='Or aim is to provide our clients with quality feedback and a holistic solution. Our proofreaders are minesweepers who ensure your manuscript free from inconsistencies, errors and formatting mistakes. This will in turn greatly enhance your final product for the reader to praise and enjoy!'
 
         Dowecome="publishmybook"
 

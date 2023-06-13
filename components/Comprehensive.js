@@ -25,7 +25,7 @@ const Comprehensive = () => {
                 image: icon1,
                 title: 'Book Editing',
                 subTitle: "Book Editing",
-                pra: "You already have some ideas in your head, but they need to be developed before they can materialize into something substantial and complete for readers everywhere. We take great delight in nurturing the seeds of your creativity so you can share with the world the amazing notions that are brewing in your mind."
+                pra: "Once your ideas are on paper, you need an expert’s eye to look for the red flags. Book editing can be a tiresome and redundant process for which we have experts running the show. Book Writing Expert enhances your book’s vocabulary and sentence formations, in order to provide your readers a refined product."
 
             },
             {
@@ -39,7 +39,7 @@ const Comprehensive = () => {
                 image: icon11,
                 title: 'Book Publishing Services',
                 subTitle: "Book Publishing Services",
-                pra: "Every word is carefully crafted and ready to make an impression. We can create engrossing stories thanks to our experience. Your manuscript receives the consideration it merits! You believe, and we'll take care of the rest."
+                pra: "Book Writing Expert is one of the most preferred publishing agencies, specializing in book publishing on all platforms. Having assisted thousands of fiction/non-fiction writers become documented authors. We guarantee you a completely seamless publication process."
 
             },
             {
