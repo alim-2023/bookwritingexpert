@@ -1,257 +1,311 @@
 import React from 'react'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import Banner from '../../components/Banner'
 import Head from 'next/head'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Lululogos from '../../components/Lululogos'
-import Aspiring from '../../components/Aspiring'
-import Whychoosebook from '../../components/Whychoosebook'
-import howtheformatting from '/public/images/whychoosebooks/howtheformatting.png'
 import Link from 'next/link'
-import { Container,Row } from 'react-bootstrap'
-import Whybookpublishing from '../../components/Whybookpublishing'
-import styles from '@/styles/Whybookpublishing.module.css'
+import { Container, Row } from 'react-bootstrap'
+// images
+import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import mission1 from '/public/images/bookformating/icon-1.png'
+import mission2 from '/public/images/bookformating/icon-2.png'
+import mission3 from '/public/images/bookformating/icon-3.png'
+import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
+import newimagetwoo from '/public/images/booktrailerservcies/newimagetwoo.png'
+// components
+import Banner from '../../components/Banner'
+import Dowecome from '../../components/Dowecome'
+import Stopworrying from '../../components/Stopworrying'
+import Finetoothedbook from '../../components/Finetoothedbook'
+import Aspiring from '../../components/Aspiring'
+import Ourprocess from '../../components/Ourprocess'
+import Whatourclients from '../../components/Whatourclients'
+import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
-import { useState } from 'react'
+import Lululogos from '../../components/Lululogos'
+import Selfpublishing from '../../components/Selfpublishing'
+// css
+import styles from '@/styles/Whybookpublishing.module.css'
 
-const Bookformattingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>    <Link className='fw700 textdocationnone color-blue hover' href="/book-formatting-services">Book Formatting Services   </Link> That Help You Proudly Put Your Name On Your Book! </span>   </h1>;
 
-  const bannertext=[
+
+const EbookWritingservices = () => {
+
+  const newSpan = <h1 className='font50 fw700 color-white font-f hero-span'> <Link className='color-white textdocationnone hover' href='/ebook-writing-services'>Book Formatting Services</Link> That Help You Proudly Put Your Name On Your Book! </h1>;
+
+  const discuss = <span>LET'S DISCUSS</span>
+
+
+  const bannertext = [
     {
       title: newSpan,
-      pra: 'We offer book formatting services that help make your book look professional and appealing to readers. We understand the importance of a well-formatted book',
-      discuss:'LET S DISCUSS',
-      homebannernum:'(213) 289 3888',
-      banlogo:homebannerlogos,
-      banners:'bookformattingservices',
-     
-       
+      pra: 'We offer book formatting services that help make your book look professional and appealing to readers. We understand the importance of a well-formatted book, and our team of experts will work closely with you to ensure that your book meets all the necessary requirements. To help your masterpiece be error-free, our formatting services fit the bill! Hone your writing skills with us. Rest assured, we are the ones you need to make your book the best it can be!',
+      discuss: discuss,
+      homebannernum: '(213) 289 3888',
+      banlogo: homebannerlogos,
+      banners: 'articlewritingservices',
+
+
+
 
     }
   ]
 
-  const [clicktoggle, setclicktoggle] = useState(false);
 
-  function toggle() {
+  const geta = <span className='fw700 color-black'>With Us, Get Ready To Finally See Your Hard Work In Print!</span>
 
-    setclicktoggle((prevState) => !prevState);
-  
+  const titleDb = <span className=' color-blue'>Do You Want To Captivate Your Readers From Beginning To End?
+  </span>
+  const posdata = <span  className='fw700' >Give Your Book The Professional Look It Deserves With Our <Link className='color-white textdocationnone hover'  href='/book-formatting-services'>Formatting Services!</Link> </span>
 
+
+  const WaitingForSomeone = <span>Waiting For Someone To <Link className='color-black textdocationnone hover' href='/ebook-writing-services' > Give Your Book An EBook Version?</Link></span>
+
+  const fine = [
+
+    {
+      img: mission1,
+      title: 'Identifying and Rectifying the Flaws',
+      text: 'Our formatting professionals receive the manuscript from the clients to start spotting the flaws. With every possible error spotted, we jump-start fixing the imperfections to make the book impeccably flawless.',
+      class: 'fintop',
+
+
+    },
+
+    {
+      img: mission2,
+      title: 'Bringing Right Expertise and Tools to the Table',
+      text: 'To format your book for success, our formatting pros go over the manuscript with a fine-tooth comb. They know how to best use the formatting tools to rectify the issues and make the book bright-eyed and bushy-tailed.',
+      class: 'fintop',
+
+
+    },
+
+    {
+      img: mission3,
+      title: 'Customized Formatting Services',
+      text: 'Our best book formatting services are designed by keeping the genre of your book and the unique requirements in mind. We ensure to leave no stone unturned when it comes to delivering the formatting services for your masterpiece!',
+      class: 'fintop',
+
+
+    },
+
+
+  ]
+
+  const dateset = <span className='fw500'>  Are You On The Lookout For <br></br> <Link href='/book-formatting-services' className='color-blue textdocationnone hover fw700'>Professional Formatting Services?</Link> </span>
+
+
+  const datesettext = <span>  Book Writing Experts is the perfect destination to stop by. You can confide in us for formatting your book up to the universal standards. Have us on your side and define the success of your book with our professional book formatting services!
+
+  </span>
+
+  const reasons = [
+
+    {
+      title: 'A Top-Notch Group Of Writers',
+      text: 'Work with some of the industry`s top editors, authors, and publishing strategists. Our team-based strategy will give you the best chance of success.',
+      classnum: 'number1',
+
+    },
+    {
+      title: 'Individualized Approach to Strategy',
+      text: 'In order to ensure that we develop a strategy that will help you achieve your goals, we first hold four extensive publishing strategy meetings.',
+      classnum: 'number1',
+
+    },
+    {
+      title: 'Fine-Tuned Process',
+      text: 'Enjoy the dependability and effectiveness of our professionally managed book-writing process.',
+      classnum: 'number1',
+
+    },
+
+    {
+      title: 'Specialists in Books Composing',
+      text: 'Authors from practically every genre who have received accolades are on our team, along with #1 New York Times Book Writers.',
+      classnum: 'number1',
+
+    },
+    {
+      title: 'The Best of the Best Editors',
+      text: 'Your proposal will be supervised and edited by a former acquisitions editor from a Big-5 publisher with a number of New York Times’ book writing titles to their credit.',
+      classnum: 'number1',
+
+    },
+    {
+      title: 'Publishing Process',
+      text: 'Publishing Process We will walk you through the entire book publication process. We can either place your book directly with traditional publishers or assist you in choosing the best hybrid publishing solution.',
+      classnum: 'number1',
+
+    },
+
+
+  ]
+
+  const text = <span>Get in touch with our professional book writing specialists today. Our eBooks Writing Experts choose the most compelling words and perfect linguistics for your work. We promise original, customized, and timely delivery of your content without breaking your bank!
+  </span>;
+
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://bookwritingexperts.com/formatting-services/"
+    },
+    "headline": "Formatting Services To Help You Pen Down Your Thoughts Effortlessly!",
+    "description": "Formatting Services",
+    "image": "",
+    "author": {
+      "@type": "Organization",
+      "name": "Mini Investments"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "url": ""
+      }
+    },
+    "datePublished": "2022-03-21"
   }
-
-
-
-
-const data = <><span className={styles.alignment}> Here are a few ways that a professionally formatted book can help business owners:</span>
- <span className={styles.alignment}>Therefore, a well-formatted book looks more professional and is more likely to be taken seriously by potential customers and clients</span>   
- 
- <span onClick={toggle} className={styles.motive}>Read More</span>
-
-
-
-
- <span className={ clicktoggle ?  `${styles.active1} ${styles.alignment} ${styles.proper} ${styles.design}` : 
- `${styles.alignment} ${styles.proper} ${styles.design}` }>A properly formatted and designed book is more likely to be picked up and read, which means your message will actually be seen and absorbed by readers.</span>
- <span className={ clicktoggle ?  `${styles.active1} ${styles.alignment}  ${styles.design}` : 
- `${styles.alignment}  ${styles.design}` }>A well-formatted book gives the impression that you are a professional who takes pride in your work – something that can definitely rub off on potential customers and clients.</span>
-
- <span className={ clicktoggle ?  `${styles.active1} ${styles.alignment}  ${styles.design}` : 
- `${styles.alignment}  ${styles.design}` }>A well-formatted book is easier to read and navigate, making readers more likely to stick with it until the end. This gives you a better chance of getting your message across and making a lasting impression.</span>
-
- <span className={ clicktoggle ?  `${styles.active1} ${styles.alignment}  ${styles.design}` : 
- `${styles.alignment}  ${styles.design}` }>Last but not least, having a professionally formatted book can help you stand out from the competition. In today's crowded marketplace, it's more important than ever to find ways to make your business stand out – and a well-formatted book can certainly help you do that.So if you're looking for a way to give your business a boost, investing in a professionally formatted book is definitely a wise move.</span>
-
- 
- 
- </>
-
-
-
-const whybookpublishingdata = [
-
-{
-  title: 'What Does Book Formatting Include?',
-  text:  'Professional formatting services generally include setting up the basic layout of the book, including margins, pagination, and chapter headings. It may also involve more complex tasks, such as creating a table of contents and index pages.',
-  col6: '6',
-},
-{
-  title: 'How Does Book Formatting Services Providers Help Business Owners?',
-  text: 'Formatting a book can be a difficult and time-consuming task, but it’s important to get it right if you want your book to look professional and be successful. A good book formatting service will take care of all the details for you, from choosing the right font and line spacing to creating a table of contents and index. They’ll also make sure that your book is compatible with all the major e-book platforms, so you can reach the widest possible audience. Working with professional book formatting services helps businesses stand out from the crowd and give you the best chance of success. To cut a long story short, investing in professional book formatting services is a smart move that will pay off in the long run.',
-  col6: '6',
-},
-{
-title:'How to Format a Document for Book Formatting?',
-text:'When formatting a document for books, there are a few things to keep in mind. First, you will want to make sure that your document is in a font that is easy to read. Times New Roman or Arial are both good options. You will also want to make sure that your margins are at least 1 inch on all sides, and that your text is double-spaced. Finally, you will want to include a header at the top of each page that includes the title of your book and your name. Professional document formatting services take care of this process.',
-col6: '6',
-},
-{
-title:'How Do Formatted Books Help Business Owners?',
-text: data,
-col6: '6',
-},
-
-]
-
-
-
-
-const reasons = [
-
-  {
-    title:'Experienced Professionals',
-    text:'We have a team of highly experienced and qualified professionals who are experts in book formatting.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Affordable Rates',
-    text:'We offer affordable rates without compromising on quality.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'On-Time Delivery',
-    text:'We deliver your formatted books within the promised timeframe.',
-    col:'6',
-    classnum: 'number',
-  },
-
-  {
-    title:'Quality Assurance',
-    text:'We have a 100% satisfaction guarantee, ensuring that you are happy with our book formatting services. Book Writing Cube has a proven track record of providing high-quality book formatting services to authors worldwide.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Customer Support',
-    text:'We`re always available to answer any questions you may have about our services. In short, we provide 24/7 customer support to answer all your queries and doubts.',
-    col:'6',
-    classnum: 'number',
-  },
-  {
-    title:'Modern Tools',
-    text:'We use the latest software and technology to format your books perfectly.',
-    col:'6',
-    classnum: 'number',
-  },
-
-
-]
-
-
+  const schema1 = {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "bookwritingexperts",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-formatting-services/",
+    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ]
+  }
+  const schema2 = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "bookwritingexperts",
+    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "@id": "",
+    "url": "https://bookwritingexperts.com/book-formatting-services/",
+    "telephone": "2132893888",
+    "priceRange": "$99",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "445 S Figueroa St",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90071",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.0536155,
+      "longitude": -118.2568651
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ] 
+  }
+  const schema3 = {
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "bookwritingexperts",
+    "url": "https://bookwritingexperts.com/book-formatting-services/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://bookwritingexperts.com/formatting-services/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
   return (
-   <>
-   <Head>
+    <>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+        <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <title>Book Formatting Services - Book Writing Experts</title>
+        <meta name="description" content="Book Formatting Services that meet the global formatting standards. Call the experts to get it done at affordable price range." />
+        <link rel="canonical" href="/book-writing-services" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Book Formatting Services - Book Writing Experts" />
+        <meta property="og:description" content="Book Formatting Services that meet the global formatting standards. Call the experts to get it done at affordable price range." />
+        <meta property="og:url" content="/book-writing-services" />
+        <meta property="og:site_name" content="Book Writing" />
+        <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="6 minutes" />
+        <link rel="icon" href="/favicon.svg" />
+
+
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
+        />
+
+      </Head>
 
 
 
 
-  <link rel="icon" href="/favicon.svg" />
+      {/* banner components */}
 
-   </Head>
-   
-
-
-   
-   {/* banner components */}
-
-   {bannertext.map((item, i) =>
+      {bannertext.map((item, i) =>
         <Banner key={i}
           title={item.title}
           text={item.pra}
+          subtext1={item.subtext1}
+          subtext2={item.subtext2}
+          subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           homebanlogos={item.banlogo}
           bannershome={item.banners}
-       /> 
-       )}
-   
-
-   {/* partners components */}
-
-
-{/* Makestories */}
-<Makestoriesnew
-title='Our Recent Formatting Projects That Made Our Clients WOW!'
-para='The list of projects goes on, but the most recent ones are here to help you confide in our formatting services expertise.'
-/>
-
-
-{/* Whybookpublishing */}
-<div className={styles.whybookpublishing}>
-  <Container>
-
-  <Row>
-    <h2 className='font48 fw900 color-blue t-center'>Formatting Services Act Like A Missing Piece Of Your Book Success!</h2>
-    <p className='font15 fw500 colortextgrey t-center pb-5'>
-    Our experts leave no stone unturned when it comes to formatting your book to the universal standards and making it a masterpiece. It goes unsaid that formatting services help you control the narrative and make a good first impression on the potential readers. To help you know more about book formatting perks, we have some knowledge to share with you!
-                    </p>
-
-  </Row>
-
-    <Row>
-      {whybookpublishingdata.map((item, i) =>
-        <Whybookpublishing  key={i}
-          title={item.title}
-          text={item.text}
-          col6={item.col6}
+          processs={item.process}
         />
       )}
-    </Row>            
-  </Container>   
-</div>
-
-{/* Lululogos components */}
-<Lululogos/>
-
-
-
-
-{/* Stillonthefence component */}
-
-<Container className='still'>
-
-
-<Row >
-<h2 className='font48 fw900 color-blue t-center font-f mb-5'>What Makes Us Your Top Pick?</h2>  
-</Row>  
-
-<Row className='gy-5'>
-{ reasons.map((item, i) =>
-<Stillonthefence key={i}
-title =  {item.title}
-text =   {item.text}
-col6 = { item.col }
-classnumber = { item.classnum }
-/>
-  )}
-
-</Row>  
-</Container>
-
-
-
-
-
-
-
-{/* Why Choose Book Writing Cube? */}
-<Whychoosebook
-   title="How The Formatting Wheels Are Set In Motion?"
-  text="Our professionals follow a five-step game plan to make your manuscript perfect to the level of finesse."
-  whychoose= {howtheformatting}
- />
-
-
-{/* Aspiring */}
-<Aspiring
- title= 'Polish Your Manuscripts To Perfection By Having Us On Your Side!'
- text="Looking for a book formatting service that can help make your dream of being a published author a reality? Look no further than our team of professionals at Book Writing Cube! We offer a wide range of book formatting services that are sure to meet your needs and exceed your expectations. Contact us today to learn more about our services."
- number="(213) 289 3888"
- discuss="LET'S DISCUSS"
-/>
 
 
 
@@ -260,8 +314,123 @@ classnumber = { item.classnum }
 
 
 
-   </>
+      {/* Dowecome */}
+      <Dowecome
+        title={geta}
+        text='Document formatting services can save you a lot of time and hassle when it comes to getting your book ready for publication. A professional formatter will ensure that your book meets all the necessary requirements in terms of layout, design, and typography, as well as making sure it complies with any international standards. If you want to get rid of this tedious process, give our professionals a call and let your book outshine!'
+        Dowecome="publishmybook"
+
+      />
+
+
+    
+
+
+      {/* Stopworrying */}
+      <Stopworrying
+        title={titleDb}
+        title2={posdata}
+        btn1='Get a free Proposal'
+        btn2='Talk to an expert'
+      />
+
+
+
+      <div className='pt-5 pb-5'>
+        <Container>
+          <Row className='pt-5 pb-5'>
+            <h2 className="color-lightgray font25 t-center font-f mb-2">Our Approach</h2>
+
+            <p className='font30 font-f fw500 colortextgrey t-center pb-2'>We Take Your Raw Manuscript And Turn It Into A Finished, Print-Ready Book.
+</p>
+
+          </Row>
+
+          <Row className='gy-5'>
+            {fine.map((item, i) =>
+              <Finetoothedbook key={i}
+                title={item.title}
+                text={item.text}
+                classtop={item.class}
+                img1={item.img}
+                btn={item.btn}
+              />
+            )}
+          </Row>
+        </Container>
+      </div>
+
+
+
+    
+      {/* Whybookpublishing */}
+      {/* <div className={styles.whybookpublishing}>
+        <Container>
+
+          <Row>
+            <h2 className='font50 fw700 color-blue t-center'>Why Does One Need Professional Book Writing Services?</h2>
+            <p className='font15  textcolor t-center pb-5 mt-3'>
+              Our book writing team is composed of the industry's elite who know the ins and outs of the writing industry better than any of us. If you have any more questions about signing up for the professional book writing services, we may have your answers listed below!
+            </p>
+
+          </Row>
+
+          <Row>
+            {whybookpublishingdata.map((item, i) =>
+              <Whybookpublishing key={i}
+                title={item.title}
+                text={item.text}
+                col6={item.col6}
+              />
+            )}
+          </Row>
+        </Container>
+      </div> */}
+
+
+
+
+      {/* Selfpublishing */}
+
+      <div>
+        <Selfpublishing
+          title={WaitingForSomeone}
+          text={text}
+          number="(213) 289 3888"
+          discuss="LET'S DISCUSS"
+          image={newimagetwoo}
+          whychooseclass="marketyourbook"
+        />
+      </div>
+
+
+
+ 
+
+      {/* Talk To Our Whatourclients! */}
+      <Whatourclients />
+
+
+
+          {/* Lululogos components */}
+          <Lululogos />
+
+
+
+
+      {/* Aspiring */}
+      <div className='datacloud'>
+        <Aspiring
+          title='Professional Book Formatting Services We Give New Life To Your Words'
+          text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
+          number="(213) 289 3888"
+          discuss="LET'S DISCUSS"
+        />
+      </div>
+
+
+    </>
   )
 }
 
-export default Bookformattingservices
+export default EbookWritingservices

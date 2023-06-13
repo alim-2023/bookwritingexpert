@@ -1,122 +1,234 @@
 import React from 'react'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import Banner from '../../components/Banner'
 import Head from 'next/head'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Lululogos from '../../components/Lululogos'
+import Link from 'next/link'
+import { Container, Row, Col } from 'react-bootstrap'
+
+// images
+import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import mission1 from '/public/images/mission/1.png'
+import mission2 from '/public/images/mission/2.png'
+import mission3 from '/public/images/mission/3.png'
+import bookmarketingservices1 from '/public/images/bookmarketingservices/1.png'
+import bookmarketingservices2 from '/public/images/bookmarketingservices/2.png'
+import newimagetwoo from '/public/images/booktrailerservcies/newimagetwoo.png'
+import bookmarketingservices4 from '/public/images/bookmarketingservices/4.png'
+
+
+// components
+import Banner from '../../components/Banner'
+import Dowecome from '../../components/Dowecome'
+import Stopworrying from '../../components/Stopworrying'
+import Finetoothedbook from '../../components/Finetoothedbook'
 import Aspiring from '../../components/Aspiring'
-import Whychoosebook from '../../components/Whychoosebook'
-import stepsthatwe from '/public/images/whychoosebooks/stepsthatwe.png'
-import Stillonthefence from '../../components/Stillonthefence'
-import { Container, Row } from 'react-bootstrap'
-import Whybookpublishing from '../../components/Whybookpublishing'
+import Ourprocess from '../../components/Ourprocess'
+import Whatourclients from '../../components/Whatourclients'
+import Lululogos from '../../components/Lululogos'
+import Selfpublishing from '../../components/Selfpublishing'
+import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
+
+// css
 import styles from '@/styles/Whybookpublishing.module.css'
 
-const Booktrailerservices = () => {
 
+
+
+const BookTrailerServcies = () => {
+
+  const newSpan = <h1 className='font50 fw700 color-white font-f hero-span'>Our Marvelous  <Link className='textdocationnone color-blue hover' href="/book-trailer-services"> Book Trailer Services</Link> <span className=''></span> Add Creativity To Your Writing Projects!</h1>;
+
+  const discuss = <span>LET'S DISCUSS</span>
 
   const bannertext = [
     {
-      title: 'Build Excitement For Your Forthcoming Book With Our Book Trailer Services!',
-      pra: 'Don’t you want to generate interest in your book? Book trailers can fit the bill.Without the shadow of a doubt, they give potential customers a taste of what your book is about, and it can also help build buzz around your book.',
-      subtext1: 'By creating a short video that showcases your book, you can give potential readers a flavor of what your writing is like and help them decide if they’d like to check out your work.',
-      subtext2: 'Are you about to launch your book, or do you want to bring your published book to the limelight? If yes, confide in our book video trailer services. Rest assured, while working with us, you will have a delightful exit with a quality product in your hands!',
-      discuss: 'LET S DISCUSS',
+      title: newSpan,
+      pra: 'Looking for a new and captivating way to promote your upcoming book? Look no further, Book Writing Experts have you covered! Our unmatched book video trailer services help you create the online hype your book deserves. Our experts bring creativity and passion into the mix.',
+      discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
-      banners: 'buildexcitement',
+      banners: 'bookvideotrailer',
+
+
+
+
     }
   ]
 
+  const geta = <span className='font50 fw700 font-f hero-span'> 
+  
+  <Link  className='textdocationnone color-black hover fw700' href='/book-trailer-services/'> Book Video Trailers</Link>  Are The Future For
+  <Link  className='textdocationnone color-black hover fw700' href='/book-trailer-services/'> 
+  Digital Book Promotions</Link>,
+   Get On The Trend With Us! 
 
+  </span>
 
-  const datapost = <><span className={styles.keepit}>Keep it short and sweet</span><span className={styles.keepit}>Make sure the audio is clear and easy to hear</span><span className={styles.keepit}>Include engaging visuals</span><span className={styles.keepit}>Tell a story</span><span className={styles.keepit}>Highlight the key points of your book</span></>
+const leveup = <span className='font50 fw700 font-f  color-black textdocationnone  hero-span'>Level Up Your <Link href='/book-trailer-services' className='textdocationnone color-black hover fw700'>Book Promotion</Link> Game With Our #1 <Link className='textdocationnone color-black hover fw700' href='/book-trailer-services'>Book Video Trailer Services</Link> </span>
 
+  const posdata = <span>Creative <Link className='textdocationnone color-blue hover fw700' href='/book-trailer-services'>Book Video Trailers</Link> Are Now Accessible At One-Click; Reach Us Now!</span>
 
-
-
-  const whybookpublishingdata = [
-
-    {
-      title: 'Can I Use Copyrighted Music In My Book Trailer?',
-      text: 'You can use copyrighted music in your book trailer as long as you have obtained the appropriate permissions and licenses.',
-      col6: '6',
-    },
-    {
-      title: 'What Are Some Tips For Making A Great Book Trailer?',
-      text: 'Some tips for making a great book trailer include:',
-      subtext: datapost,
-      col6: '6',
-    },
-    {
-      title: 'How Do I Promote My Book Trailer?',
-      text: 'There are several ways to promote your book trailer. You can post it on social media, include it on your website or blog, and submit it to online directories and book-related websites. You can also embed the trailer on other websites and share it via email or word-of-mouth.',
-      col6: '6',
-    },
-    {
-      title: 'How Do Book Trailers Help Authors?',
-      text: 'Book trailers are a relatively new phenomenon, and they are becoming increasingly popular as a way for authors to promote their books. A book trailer is a short film or video that gives viewers a taste of what the book is about and tries to generate interest in it. They can be used to reach out to potential readers who might not otherwise be aware of the book. Moreover, book trailers can help create a buzz around a book and generate word-of-mouth interest. Lastly, book trailers can also serve as a reminder to people who have already read the book and enjoyed it, encouraging them to recommend it to others. Overall, book trailers can be a very effective marketing tool for authors, and they are definitely worth considering if you are looking for ways to promote your book.',
-      col6: '6',
-    },
-
-  ]
-
-
-
-
-  const reasons = [
+  const fine = [
 
     {
-      title: 'Expertise and Creativity',
-      text: 'The team at Book Writing Cube has a wealth of experience and creativity, which allows them to produce high-quality book trailer service that will grab attention and get people talking.',
-      col: '6',
-      classnum: 'number',
-    },
-    {
-      title: 'Unique Approach',
-      text: 'Our company takes a unique approach to book trailer production, ensuring each one is tailored to the specific book and target audience. For example, when it comes to creating a custom comic book video trailer, we go the extra mile to invoke the element of humor in the video.',
-      col: '6',
-      classnum: 'number',
-    },
-    {
-      title: 'Cost-Effective',
-      text: 'We offer competitive rates for book trailer production, making it a cost-effective option for authors and publishers.',
-      col: '6',
-      classnum: 'number',
+      img: mission1,
+      title: 'Engaging Content',
+      text: 'We understand the importance of creating a trailer that accurately reflects the tone and style of your book. We will work with you to ensure that your trailer is an accurate representation of your work.',
+      class: 'fintop',
+
+
     },
 
     {
-      title: 'Fast Turnaround',
-      text: 'We understand the importance of timely delivery, and our team will work to ensure that your book trailer is completed as quickly as possible.',
-      col: '6',
-      classnum: 'number',
+      img: mission2,
+      title: 'Promotion',
+      text: 'We have a wide network of contacts in the book industry, and we can help you promote your book through these channels. We will work with you to ensure that your book reaches the widest possible audience.',
+      class: 'fintop',
+
+
     },
+
     {
-      title: 'Flexible',
-      text: 'We are flexible and accommodating, working with you to ensure that your book trailer meets your specific needs and requirements.',
-      col: '6',
-      classnum: 'number',
-    },
-    {
-      title: 'Guaranteed Satisfaction',
-      text: 'Our company is dedicated to customer satisfaction, and they guarantee that you will be happy with the final product.',
-      col: '6',
-      classnum: 'number',
+      img: mission3,
+      title: 'Creativity At Work',
+      text: 'We are committed to helping you create a trailer that is both creative and informative. We will work with you to ensure that your trailer is entertaining and informative. With our help, you can create a book video trailer that will make a lasting impression on your audience.',
+      class: 'fintop',
+
+
     },
 
 
   ]
 
+  const dateset = <span className='fw500'>Need An Expert For Your <br></br><Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'> Book Promotions? </Link>  </span>
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://bookwritingexperts.com/book-trailer-services/"
+    },
+    "headline": "Book Trailer Services That Create Hype For Your Digital Asset!",
+    "description": "Book Trailer Services",
+    "image": "",
+    "author": {
+      "@type": "Organization",
+      "name": "Mini Investments"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "url": ""
+      }
+    },
+    "datePublished": "2022-03-21"
+  }
+  const schema1 = {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "bookwritingexperts",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-trailer-services/",
+    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ]
+  }
+  const schema2 = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "bookwritingexperts",
+    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "@id": "",
+    "url": "https://bookwritingexperts.com/book-trailer-services/",
+    "telephone": "2132893888",
+    "priceRange": "$99",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "445 S Figueroa St",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90071",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.0536155,
+      "longitude": -118.2568651
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ] 
+  }
+ 
 
 
   return (
     <>
       <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
+        <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
 
-  
-
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <title>Impactful Book Trailer Services - Book Writing Experts</title>
+        <meta name="description" content="Book trailer services to make a lasting impression on your audience. Avail our services and stay ahead of your competitors." />
+        <link rel="canonical" href="/book-trailer-services" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Impactful Book Trailer Services - Book Writing Experts" />
+        <meta property="og:description" content="Book trailer services to make a lasting impression on your audience. Avail our services and stay ahead of your competitors." />
+        <meta property="og:url" content="/book-trailer-services" />
+        <meta property="og:site_name" content="Book Writing" />
+        <meta property="article:modified_time" content="2023-03-31T11:37:31+00:00" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="7 minutes" />
         <link rel="icon" href="/favicon.svg" />
 
+
+
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
       </Head>
 
 
@@ -130,97 +242,108 @@ const Booktrailerservices = () => {
           text={item.pra}
           subtext1={item.subtext1}
           subtext2={item.subtext2}
+          subtext3={item.subtext3}
           discuss={item.discuss}
           homebannernum={item.homebannernum}
           homebanlogos={item.banlogo}
           bannershome={item.banners}
+          processs={item.process}
         />
       )}
 
-      {/* Makestories */}
-      <Makestoriesnew
-        title='Our Recent Book Trailer Projects That Roar For Our Sound Expertise!'
-        para='Here’s a list of our done-and-dusted projects that we completed with utmost excellence and received rave reviews from our clients.'
+
+
+
+
+
+
+
+      {/* Dowecome */}
+      <Dowecome
+        title={geta}
+        text='What’s the best way to get people interested in your book? By creating a video trailer, of course! A book video trailer is a short, attention-grabbing clip that gives viewers a taste of what your book is all about. At Book Writing Experts, we create visually appealing book video trailers infused with creativity and innovation!'
+        subtext=''
+        Dowecome="publishmybook"
+
       />
 
-      {/* Whybookpublishing */}
-      <div className={styles.whybookpublishing}>
-        <Container>
+      <Stopworrying
+        title='With The Right Mediums,
+        Book Promotion Is Not That Hard!'
+        subtitle={posdata}
+        btn1='Get a free Proposal'
+        btn2='Talk to an expert'
+      />
 
-          <Row>
-            <h2 className='font48 fw900 color-blue t-center'>Untangle The Complexity Of Your Manuscript Selling With Our Book Marketing Services!</h2>
-            <p className='font15 fw500 colortextgrey t-center pb-5'>
-              A picture speaks a thousand words, but a moving picture narrates a thousand episodes. With our book video trailer services, you can hit the chord with your target audience and make them go GAGA for your publication.
-            </p>
+
+
+      <div className='pt-5 pb-5'>
+        <Container>
+          <Row  className="pt-5 pb-5">
+            <h2 className="color-lightgray font25 t-center font-f mb-2">Our Approach</h2>
+
+            <p className='font50 font-f fw500 colortextgrey t-center pb-2'>Beat Your Competitors with Concise, Informative, and Engaging <Link className='textdocationnone color-blue hover fw700' href='/book-trailer-services'>  Book Video Trailers</Link></p>
 
           </Row>
 
-          <Row>
-            {whybookpublishingdata.map((item, i) =>
-              <Whybookpublishing key={i}
+          <Row className='gy-5'>
+            {fine.map((item, i) =>
+              <Finetoothedbook key={i}
                 title={item.title}
                 text={item.text}
-                subtext={item.subtext}
-                col6={item.col6}
+                classtop={item.class}
+                img1={item.img}
+                btn={item.btn}
               />
             )}
           </Row>
         </Container>
       </div>
 
+   {/* Selfpublishing */}
+   <Selfpublishing
+        title= {leveup}
+        text='First impression is indeed the last impression, which is why Book Writing Experts offer the best book video trailer services for our valued clients. Make the right impression on your readers with compelling book video trailers! '
+      
+        number="(213) 289 3888"
+        discuss="LET'S DISCUSS"
+        image={newimagetwoo}
+        whychooseclass="marketyourbook"
+      />
+
+
+
+     
+
+
+
+
+     
+
+
+   
+
+      {/* Talk To Our Whatourclients! */}
+      <Whatourclients />
+
+
       {/* Lululogos components */}
       <Lululogos />
 
 
-
-
-      {/* Stillonthefence component */}
-
-      <Container className='still'>
-
-
-        <Row >
-          <h2 className='font48 fw900 color-blue t-center font-f mb-5'>Fasten Your Belt to Experience the Sheer Expertness under Our Roof!</h2>
-        </Row>
-
-        <Row className='gy-5'>
-          {reasons.map((item, i) =>
-            <Stillonthefence key={i}
-              title={item.title}
-              text={item.text}
-              col6={item.col}
-              classnumber={item.classnum}
-            />
-          )}
-
-        </Row>
-      </Container>
-
-      {/* Why Choose Book Writing Cube? */}
-      <Whychoosebook
-        title="Steps That We Follow To Create an Enthralling Book Trailer for You!"
-        text="We throw creativity and innovation into the process so that your book doesn't get lost in the mix. We don't start until we have all the necessary information and requirements gathered from you."
-        whychoose={stepsthatwe}
-      />
-
-
       {/* Aspiring */}
-      <Aspiring
-        title='Strengthen Your Marketing Efforts and Ensure Crazy Sales Of Your Publication With Us!'
-        text="At Book Writing Cube, we specialize in creating engaging and visually appealing book trailers for authors and businesses. Our team of skilled professionals has years of experience in video production and graphic design, so you can be confident that your book trailer will be of the highest quality. We understand that a book trailer is one of the most important marketing tools an author has, so we work closely with our clients to ensure their vision is brought to life. We also offer a variety of customization options, i.e., custom comic book video trailer, to make sure that your book trailer is truly unique. Call us to make your book happen with our book trailer services."
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
-      />
+      <div className='datacloud'>
+        <Aspiring
+          title='Let’s Commence On The Journey To Book Excellence!'
+          text="Give us a call at (213) 289 3888, or hit us up with your queries by filling out the form below."
+          number="(213) 289 3888"
+          discuss="LET'S DISCUSS"
+        />
 
-
-
-
-
-
-
+      </div>
 
     </>
   )
 }
 
-export default Booktrailerservices
+export default BookTrailerServcies

@@ -29,7 +29,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const EbookWritingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-white font-f hero-span'><Link className='color-white textdocationnone hover' href='/web-content-writing-services'>Web Content Writing Service</Link> That Gives Your Business Persona A Professional Look! </h1>;
+  const newSpan = <h1 className='font50 fw700 color-white font-f hero-span'> <Link className='color-white textdocationnone hover' href='/eebook-writing-services'>Ebook Writing Services</Link> That Give Meaning To Your Imagination! </h1>;
 
   const discuss = <span>LET'S DISCUSS</span>
 
@@ -37,11 +37,11 @@ const EbookWritingservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Is your website content outdated? Let us help you with it! At Book Writing Experts, we create Search Engine Optimized and high-quality website content that guarantees increased traffic and conversions. We have a team of writers with the experience and skill set required to provide the best and cost-effective writing solutions.',
+      pra: 'Quality eBook writing drives traffic, and our experienced writers know the tips and tricks of keeping the readers engaged with appealing word selection. We are the right solution for custom eBook writing services. Try working with us! You will not regret it!',
       discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
-      banners: 'webcontentwritingservices',
+      banners: 'ebook',
 
 
 
@@ -50,21 +50,20 @@ const EbookWritingservices = () => {
   ]
 
 
-  const geta = <span className='fw700 color-black'><Link className='color-black textdocationnone hover' href='/web-content-writing-services'> Web Content Writing Service</Link> That Voices Your Brand Values In The Most Professional Tone! </span>
+  const geta = <span className='fw700 color-black'>Get Connected To Your Readers With <Link className='color-black textdocationnone hover' href='/eebook-writing-services'> Ebook Writing Experts!</Link></span>
 
-  const titleDb = <span className=' color-blue'>Want To Boost Traffic? </span>
-  const posdata = <span  className='fw700'>
-  Discuss Your Requirements With Our Qualified Team Of <Link className='color-white textdocationnone hover' href='/web-content-writing-services'>Content Writers</Link>  And Get Best Solutions!</span>
+  const titleDb = <span className=' color-blue'>Tired Of Trying To Write An Ebook On Your Own?</span>
+  const posdata = <span  className='fw700'>What Is Stopping You From Availing The Most Affordable EBooks Writing Services? </span>
 
 
-  const WaitingForSomeone = <span>Tired Of The Same Outdated Content On Your Website?</span>
+  const WaitingForSomeone = <span>Waiting For Someone To <Link className='color-black textdocationnone hover' href='/eebook-writing-services'> Give Your Book An EBook Version?</Link></span>
 
   const fine = [
 
     {
       img: mission1,
-      title: 'Top notch Content',
-      text: 'We have a team of experts who knows how to present words that make the content attractive to the reader’s eye. Our website content is search engine optimized to help you get a higher ranking on the search engine result page.',
+      title: 'Researching',
+      text: 'This step involves gathering information about your industry, competitors, and target market. We understand the dynamics of your industry and what it takes to succeed in it. This research will also help us develop realistic financial projections for your business.',
       class: 'fintop',
 
 
@@ -72,8 +71,8 @@ const EbookWritingservices = () => {
 
     {
       img: mission2,
-      title: 'Quick Turnaround',
-      text: 'Our team of expert content writers makes sure that each project is completed before the deadline so that we have time to get client’s feedback and make changes if required.',
+      title: 'Planning',
+      text: 'The next step is to develop a detailed business plan that includes your business model, marketing strategy, and financial projections. This planning process will help us identify your unique selling proposition and what it will take to achieve your goals.',
       class: 'fintop',
 
 
@@ -81,8 +80,8 @@ const EbookWritingservices = () => {
 
     {
       img: mission3,
-      title: '100% Content Satisfaction',
-      text: 'We keep our clients in the loop while working for them. All the content is discussed with them and finalized only after their approval. If the client is not satisfied with any piece of content, we redesign it for their satisfaction.',
+      title: 'Writing',
+      text: 'Once we have completed research and planning, our experienced writers will be ready to write your business plan. This document will be the roadmap for your business, so it is important to make sure it is clear, concise, and comprehensive. Include an executive summary, company description, market analysis, product/service offering, marketing strategy, financial projections, and management team bios.',
       class: 'fintop',
 
 
@@ -91,8 +90,7 @@ const EbookWritingservices = () => {
 
   ]
 
-  const dateset = <span className='fw500'> Tired Of The Same Outdated Content On Your Website?
-  </span>
+  const dateset = <span className='fw500'>  Waiting For Someone To <br></br> <Link href='#' className='color-blue textdocationnone hover fw700'>Give Your Book An Book Version?</Link> </span>
 
 
   const datesettext = <span>  Get in touch with our <Link href='#' className='color-blue textdocationnone hover'>professional book writing</Link> specialists today. Our Books Writing Experts choose the most compelling words and perfect linguistics for your work. We promise original, customized, and timely delivery of your content without breaking your bank!</span>
@@ -140,9 +138,7 @@ const EbookWritingservices = () => {
 
   ]
 
-  const text = <span>Allow us to provide some refreshments to your website and make it beneficial for your visitors.
-
-
+  const text = <span>Get in touch with our professional book writing specialists today. Our eBooks Writing Experts choose the most compelling words and perfect linguistics for your work. We promise original, customized, and timely delivery of your content without breaking your bank!
   </span>;
 
 
@@ -151,10 +147,10 @@ const EbookWritingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/web-content-writing-service/"
+      "@id": "https://bookwritingexperts.com/ebook-writing-services/"
     },
-    "headline": "Web Content Writing Service That Gives Your Business Persona A Professional Look!",
-    "description": "Web Content Writing Service",
+    "headline": "Ebook Writing Services That Give Meaning To Your Imagination!",
+    "description": "Ebook Writing Services",
     "image": "",
     "author": {
       "@type": "Organization",
@@ -175,7 +171,7 @@ const EbookWritingservices = () => {
     "@type": "Corporation",
     "name": "bookwritingexperts",
     "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/web-content-writing-service/",
+    "url": "https://bookwritingexperts.com/ebook-writing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
       "https://bookwritingexperts.com/",
@@ -192,7 +188,7 @@ const EbookWritingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/web-content-writing-service/",
+    "url": "https://bookwritingexperts.com/ebook-writing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -231,7 +227,7 @@ const EbookWritingservices = () => {
       "https://www.pinterest.com/bookwritingexperts/"
     ] 
   }
- 
+  
 
   return (
     <>
@@ -242,14 +238,14 @@ const EbookWritingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Web Content Writing Service - Book Writing Experts</title>
-        <meta name="description" content="Web Content Writing Service to help you create a striking impression on your ideal audience. Get in touch with our seasoned writers." />
-        <link rel="canonical" href="/book-writing-services" />
+        <title>Professional Ebook Writing Services - Book Writing Experts</title>
+        <meta name="description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <link rel="canonical" href="/ebook-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Web Content Writing Service - Book Writing Experts" />
-        <meta property="og:description" content="Web Content Writing Service to help you create a striking impression on your ideal audience. Get in touch with our seasoned writers." />
-        <meta property="og:url" content="/book-writing-services" />
+        <meta property="og:title" content="Professional Ebook Writing Services - Book Writing Experts" />
+        <meta property="og:description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
+        <meta property="og:url" content="/ebook-writing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -306,7 +302,7 @@ const EbookWritingservices = () => {
       {/* Dowecome */}
       <Dowecome
         title={geta}
-        text='Although the first impression is not the last, it leaves a deep mark in the visitor’s mind. Our Professional Content writers are always ready to provide you unique and informative content that engages the audience completely and makes them stay longer. If you desire to improve the quality and quantity of traffic on your website, allow our experts to redesign your content. Let us give your website a professional look.'
+        text='Writing an eBook is no walk in the park, and you do not have to go through this trouble. Book Writing Experts have a dedicated team of eBook Writers for you, right at your disposal. Our specialists do not just transform your words into a story but also help your book rank among the top sellers. We take your ideas to the world and help you reach out to the right readers through the right platforms.'
         Dowecome="publishmybook"
 
       />
@@ -340,8 +336,7 @@ const EbookWritingservices = () => {
           <Row className='pt-5 pb-5'>
             <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
-            <p className='font30 font-f fw500 colortextgrey t-center pb-2'>We Aim To Enhance Your ROI By Fueling Your Website With Impressive Content!
-</p>
+            <p className='font30 font-f fw500 colortextgrey t-center pb-2'>We Aim To Add Value To Your EBooks!</p>
 
           </Row>
 
@@ -420,7 +415,7 @@ const EbookWritingservices = () => {
       {/* Aspiring */}
       <div className='datacloud'>
         <Aspiring
-          title='Professional Web Content Writing Services We Give New Life To Your Words'
+          title='Professional Ebook Writing Services We Give New Life To Your Words'
           text="Your idea is unique, and you need a company that will take it from start to finish. We are here for all the steps, so your legacy can live in words."
           number="(213) 289 3888"
           discuss="LET'S DISCUSS"

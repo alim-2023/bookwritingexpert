@@ -19,7 +19,9 @@ const Finetoothedbook = (props) => {
           <h4 className="font20 fw600 colorexpertgrey font-f t-center">{props.title}</h4>
 
           {props.text ?
+          <div className='scrollBox'>
             <p className='color-lightgray font14 fw400 font-f t-center mt-3'>{props.text}</p>
+          </div>
             : ''}
 
 
