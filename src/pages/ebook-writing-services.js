@@ -4,9 +4,9 @@ import Link from 'next/link'
 import { Container, Row } from 'react-bootstrap'
 // images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import mission1 from '/public/images/EbookWritingservices/fssf.png'
-import mission2 from '/public/images/EbookWritingservices/bgdf.png'
-import mission3 from '/public/images/EbookWritingservices/dfdgf.png'
+import mission1 from '/public/images/ebookWritingservices/fssf.png'
+import mission2 from '/public/images/ebookWritingservices/bgdf.png'
+import mission3 from '/public/images/ebookWritingservices/dfdgf.png'
 import publishmybook from '/public/images/selfpublishingservices/publishmybook.png'
 import newimagetwoo from '/public/images/booktrailerservcies/newimagetwoo.png'
 // components
