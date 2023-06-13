@@ -114,6 +114,13 @@ const Header = () => {
                           </div>
                         </li>
                         <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon3} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/ghostwriting-services2">Ghostwriting Servicesnew</Link>
+                            <p>Professional and unmatched Reliable Ghostwriting Solutions For All!</p>
+                          </div>
+                        </li>
+                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon5} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/web-content-writing-services">Web Content Writing Services</Link>
@@ -202,6 +209,13 @@ const Header = () => {
                           <Image loading="lazy" alt="Book Writing Experts" src={headericon10} className='img-fluid'></Image>
                           <div className={styles.megaDiv}>
                             <Link className={styles.menulinks} href="/illustration">Illustration</Link>
+                            <p>You Are One Step Closer To Displaying Your Writing Excellence...</p>
+                          </div>
+                        </li>
+                        <li className={`${styles.navlinks} ${styles.megaLinks}`}>
+                          <Image loading="lazy" alt="Book Writing Experts" src={headericon10} className='img-fluid'></Image>
+                          <div className={styles.megaDiv}>
+                            <Link className={styles.menulinks} href="/audiobookproduction">Audio book production</Link>
                             <p>You Are One Step Closer To Displaying Your Writing Excellence...</p>
                           </div>
                         </li>
