@@ -1,334 +1,269 @@
-import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import { Container, Row } from 'react-bootstrap'
-// images
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
-import mission1 from '/public/images/mission/1.png'
-import mission2 from '/public/images/mission/2.png'
-import mission3 from '/public/images/mission/3.png'
-import bookmarketingservices3 from '/public/images/bookmarketingservices/3.png'
-// components
+import whychoose from '/public/images/whychoosebooks/bg-img.png'
+// import components
 import Banner from '../../components/Banner'
-import Dowecome from '../../components/Dowecome'
-import Stopworrying from '../../components/Stopworrying'
-import Finetoothedbook from '../../components/Finetoothedbook'
-import Aspiring from '../../components/Aspiring'
-import Ourprocess from '../../components/Ourprocess'
+import Partners from '../../components/Partners'
+import Whychoosebook from '../../components/Whychoosebook'
+import Gotastory from '../../components/Gotastory'
+import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
-import Makestoriesnew from '../../components/Makestoriesnew'
-import Stillonthefence from '../../components/Stillonthefence'
-import Selfpublishing from '../../components/Selfpublishing'
-// css
-import styles from '@/styles/Whybookpublishing.module.css'
+import Requestafreequote from '../../components/Requestafreequote'
+import Stoppublish from '../../components/Stoppublish'
+import Customersatisfaction from '../../components/Customersatisfaction'
+import Strugglingtogive from '../../components/Strugglingtogive'
+import Illustrativebook from '../../components/Illustrativebook'
+import Onestepsolutions from '../../components/Onestepsolutions'
+import Script from 'next/script'
+import Stunningillustrations from '../../components/Stunningillustrations'
+import Serviceproviders from '../../components/Serviceproviders'
+import banslider12 from '/public/images/illustrativebook/cartoon1.svg'
+import Providestunning from '../../components/Providestunning'
+
+
+function Ghostwritingservices() {
 
 
 
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Get Your</span>  <Link className='dblockmobile textdocationnone color-blue hover' href="/ghostwriting-services">  Book Ghost Writing <br></br> Services </Link>  <span className=''> from Our Team of Top Ghost <br></br> Writing for Hire.</span> </h1>;
 
-const Bookpublishingservices = () => {
+  const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
+  const dataspan = <h1 className='font50 color-white font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/ghostwriting-services"> Book Writing Experts </Link>  Is  waiting for you to Ask for a    <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/ghostwriting-services"> Professional Ghost Writing </Link> </h1>;
 
-
-
-  const reasons = [
-
-    {
-      title: 'Share Your Tale Via Professional Ghostwriters',
-      text: 'Team up with the best editors, authors, and publishing strategists in the business. Your chances of success are greatest with our team-based approach. Make your goal of having a book published a reality by utilizing the skills of one of our qualified ghostwriters.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Our Ghostwriters Adopt A Personable Style',
-      text: 'At Book Writing Experts, we provide a personalized approach since we recognize that each project is unique. Consider using our ghostwriting services if you want to write a novel, a nonfiction book, a children`s book, an autobiography, a history book, or a business book.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Explicit And Precise Approach',
-      text: 'Enjoy the consistency and effectiveness of a process that is professionally managed for ghostwriting services.',
-      classnum: 'number1',
-
-    },
-
-    {
-      title: 'The Best Team of Ghostwriters',
-      text: 'We acknowledge that not everyone can write at the same level as their thoughts and that some people find it difficult to put their ideas into words. And hence, we`ve assembled a great team of experienced ghostwriters who can provide all of this and more.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Top-5 Publishers',
-      text: 'We collaborate with the top five publishers and publishing houses in the industry. We strive the hardest to offer you well-thought-out contracts with the best in-town publishers.',
-      classnum: 'number1',
-
-    },
-    {
-      title: 'Both Online And Offline Formats',
-      text: 'We thoroughly guide our customers through the online and offline publication processes. Our hybrid technique is our integrated publishing solution, from well-designed paperback and hardback to well-formatted eBook.',
-      classnum: 'number1',
-
-    },
-
-
-  ]
-
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <span className=''>Bring Your Ideas to Life With Our Expert</span> <Link className='textdocationnone color-blue hover' href="/ghostwriting-services"> Ghostwriting Services! </Link>   </h1>;
-
+  const holddata =  <h2 className='font-f font50 t-center'> We Provide Stunning <Link className="color-blue textdocationnone fw700 hover" href="/ghostwriting-services">Ghost Writing  <br className="d-none d-xl-block" /> For Your Book</Link> </h2>
 
 
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Let our experts fire the imagination of your readers with their killer writing techniques. Your story needs to be heard, and Book Writing Experts',
-      discuss: 'LET S DISCUSS',
+      free: 'FREE AUTHOR CONSULTATION CALL',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
-      banners: 'ghostwriting',
+      banners: 'ghost',
     }
   ]
 
-  const geta = <span>Our <Link className='color-blue textdocationnone hover fw700' href='/ghostwriting-services'> Ghostwriting </Link>Team Has A Knack For Telling Stories</span>
-
-  const posdata = <span>Get The <Link className='textdocationnone color-blue hover fw700' href='/ghostwriting-services'>Top Ghostwriting Services</Link> From The Writers Who Best Understands The Readers?</span>
 
 
 
-  const fine = [
-
-    {
-      img: mission1,
-      title: 'Well versed writers',
-      text: 'To provide high-quality work, we have a team of native speakers who have years of content writing experience.',
-      class: 'fintop',
 
 
+
+  const schema1 = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://bookwritingexperts.com/"
     },
-
-    {
-      img: mission2,
-      title: 'Refund Policy',
-      text: 'We offer a refund if the client is not satisfied with our overall work. After all, client satisfaction comes first!',
-      class: 'fintop',
-
-
+    "headline": "Book Writing Company",
+    "description": "Book Writing Company",
+    "image": "",
+    "author": {
+      "@type": "Organization",
+      "name": "Mini Investments"
     },
-
-    {
-      img: mission3,
-      title: 'Customized Offers',
-      text: 'Different clients have different needs. We take care of their requirements with customized packages',
-      class: 'fintop',
-
-
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "url": ""
+      }
     },
+    "datePublished": "2022-03-21"
+  }
 
+  const schema2 = {
+    "@context": "https://schema.org",
+    "@type": "Corporation",
+    "name": "bookwritingexperts",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/",
+    "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ]
+  }
 
-  ]
-
-  const dateset = <span className='fw500'>A Complete Solution To Your <Link className='textdocationnone color-blue hover fw700' href='/ghostwriting-services'>Ghost Writing </Link> Essentials Is Here! </span>
-
-
-
-
+  const schema3 = {
+    "@context": "https://schema.org", "@type": "Service", "name": "book writing services book writing company book writers affordable book writing services", "description": "book writing services book writing company book writers affordable book writing services book writing services book writing company book writers affordable book writing services", "provider": { "@type": "Organization", "name": "book writing services book writing company book writers affordable book writing services", "url": "https://bookwritingexperts.com/" },
+    "serviceType": ["book writing services book writing company book writers affordable book writing services"], "areaServed": { "@type": "country", "name": "us" }
+  }
 
   return (
     <>
+
+
       <Head>
+
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-    
+
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Top-Tier Ghostwriting Services - Book Writing Experts</title>
-        <meta name="description" content="Ghostwriting services that help aspiring authors launch into success. Get them today, as they are affordable and executed to perfection." />
-        <link rel="canonical" href="https://bookwritingexperts.com/ghostwriting-services/" />
+        <title>Professional Book Writing Services Company</title>
+        <meta name="description" content="Book Writing Services that transform your ideas to the best-selling book. Call us if you need help writing a book or penning down your thoughts." />
+        <link rel="canonical" href="https://bookwritingexperts.com/" />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="Top-Tier Ghostwriting Services - Book Writing Experts" />
-        <meta property="og:description" content="Ghostwriting services that help aspiring authors launch into success. Get them today, as they are affordable and executed to perfection." />
-        <meta property="og:url" content="https://bookwritingexperts.com/ghostwriting-services/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Professional Book Writing Services Company" />
+        <meta property="og:description" content="Book Writing Services that transform your ideas to the best-selling book. Call us if you need help writing a book or penning down your thoughts." />
+        <meta property="og:url" content="https://bookwritingexperts.com/" />
         <meta property="og:site_name" content="Book Writing" />
-        <meta property="article:modified_time" content="2023-03-31T12:03:02+00:00" />
+        <meta property="article:modified_time" content="2023-01-12T00:00:46+00:00" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:label1" content="Est. reading time" />
-        <meta name="twitter:data1" content="9 minutes" />
+        <meta name="twitter:data1" content="13 minutes" />
         <link rel="icon" href="/favicon.svg" />
+
+
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema3) }}
+        />
+
+        {/* <Schema /> */}
+
       </Head>
 
 
+      {/* googletagmanager */}
+
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=UA-210274244-13"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-210274244-13');
+        `}
+      </Script>
+
+      <main>
+        {/* banner components */}
+
+        {/* banner components */}
+
+        {bannertext.map((item, i) =>
+          <Banner key={i}
+            title={item.title}
+            subtext1={item.subtext1}
+            subtext2={item.subtext2}
+            subtext3={item.subtext3}
+            free={item.free}
+            homebannernum={item.homebannernum}
+            bannershome={item.banners}
+            processs={item.process}
+          />
+        )}
 
 
-      {/* banner components */}
+        {/* partners components */}
+        <Partners />
 
-      {bannertext.map((item, i) =>
-        <Banner key={i}
-          title={item.title}
-          text={item.pra}
-          subtext1={item.subtext1}
-          subtext2={item.subtext2}
-          subtext3={item.subtext3}
-          discuss={item.discuss}
-          homebannernum={item.homebannernum}
-          homebanlogos={item.banlogo}
-          bannershome={item.banners}
-          processs={item.process}
+        <Strugglingtogive
+          title=""
+          text="You may be a victim of the following nuisances"
+          list1="Slow Productivity"
+          list2="Lack of Resources"
+          list3="Mismanaged Time Schedules"
+          list4="Financial Constraints"
+          list5="Demotivation"
+          list6="Delayed Creativity Process"
+          list7="Delayed Writing Process"
+          list8="Continuous Revisions"
+          btn1="Get a free Proposal"
+          btn2="Talk to an expert"
+          btn3="(213) 289 3888"
         />
-      )}
 
-
-      {/* partners components */}
-
-
-
-
-
-
-      {/* Dowecome */}
-      <Dowecome
-        title={geta}
-        text='The Ghost Writers at Book Writing Experts deliver compelling stories that persuade their audience to read more. We have a scattered team of experts that provide excellent ghostwriting services for all genres, fiction to nonfiction, from mystery to horror, history to humor, magic to romance, you name it, and we will get it written for you. We understand your requirements, draft the manuscript, utilize the best resources, make edits, and deliver your mere idea as a Powerful Book.'
-
-        Dowecome="publishmybook"
-
-      />
-
-
-      {/* Makestories */}
-      <div className='dataset sliderImg'>
-        <Makestoriesnew
-          title='Our Ghostwriting Services Projects'
-          para='Become a renowned author with the help of our ghostwriters!'
+        <Illustrativebook
+          title={dataspan}
+          para='Hit us a message, or give us a call, and make the most of our Professional Ghost Writing'
+          cartoonimg = {banslider12}
+          cartoon = 'cartoon1'
         />
-      </div>
-      <Stopworrying
-        title='Transform Your Ideas Into Words That Matters!'
-        subtitle={posdata}
-        btn1='Get a free Proposal'
-        btn2='Talk to an expert'
-      />
 
 
-
-      <div className={`${styles.finetoothedbook} customizedbook`}>
-        <Container>
-          <Row >
-            <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
-
-            <p className='font50 font-f fw500 colortextgrey t-center pb-2'>Our Mission Is To Maximize Value For Our Authors With Online <Link className='textdocationnone color-blue hover fw700' href='/ghostwriting-services'>Book Marketing</Link></p>
-
-          </Row>
-
-          <Row className='gy-5'>
-            {fine.map((item, i) =>
-              <Finetoothedbook key={i}
-                title={item.title}
-                text={item.text}
-                classtop={item.class}
-                img1={item.img}
-                btn={item.btn}
-              />
-            )}
-          </Row>
-        </Container>
-      </div>
-
-
-
-      <Ourprocess
-        title='What Is Our Ghost Writing Process?'
-
-        heading1='Book Writing Consultancy'
-        para1='Once the draft is submitted, it entirely depends on the communication as we need your feedback to proceed.Prompt feedback would mean a prompt delivery of the next draft.'
-        num1='01'
-
-        heading2='Receive & Feedback'
-        para2='As per the outline, our expert ghostwriters start writing the initial content that reflects your ideology behind book writing.'
-        num2='02'
-
-        heading3='FinalDraft & QA:'
-        para3='Once we are done writing the book, we do not just abandon you.We send it to our QA team that fact-checks and scans the draft for errors that may have missed your or our team`s keen eye.'
-        num3='03'
-
-        heading4='Final Reviewing & Cover Design:'
-        para4='As soon as you approve the changes, our team implements them, and then sends it back to you for a final review. Once we get your go-ahead, we schedule a meeting with our design team and get your book a cover that you want.'
-        num4='04'
-
-        heading5='Completing The Project & Reassuring Further Assistance:'
-        para5='With that,our bok writing comes to an end. In case you need further assistance with editng, publishing, and/or marketing, our team will further connect you to our publishing and marketing team.'
-        num5='05'
-
-
-      />
+<Providestunning
+title = {holddata}
+/>
 
 
 
 
-      {/* Stopworrying */}
-      <div className='dataSetCo'>
-        <Stopworrying
-          title2={dateset}
-          subtitle3='Book Writing Experts has got you covered with the Best-Ghostwriting services. You are just one click away!'
+
+
+        <Stoppublish
+          title='Stop worrying about publishing books!'
+          subtitle={posdata}
           btn1='Get a free Proposal'
           btn2='Talk to an expert'
+          stopworrying = 'stopworrying1'
         />
-      </div>
 
-      {/* Talk To Our Whatourclients! */}
-      <Whatourclients />
-
-      {/* Stillonthefence component */}
-      <div className={styles.stillbookwritingservices}>
-        <Container >
-          <Row >
-            <h2 className='font50 fw700 color-white t-center font-f mb-5'>Why Us?</h2>
-          </Row>
-
-          <Row className='gy-5'>
-            {reasons.map((item, i) =>
-              <Stillonthefence key={i}
-                title={item.title}
-                text={item.text}
-                col6={item.col}
-                classnumber={item.classnum}
-              />
-            )}
-
-          </Row>
-        </Container>
-
-      </div>
-
-      {/* Selfpublishing */}
-
-      <Selfpublishing
-        title='And, No, Hiring Ghostwriters Is Not Against The Law!'
-        text='Since the emergence of the phenomenon of ghostwriting services, misperception has been prevalent. The role of the ghostwriter is to receive payment for his literary masterpiece. Anyone can be creative and have a fantastic idea, but that doesn`t necessarily mean they can all express it clearly. Professional ghostwriters are hard to make those goals a reality. Due to the fact that those ghostwriters are qualified to create, edit, and publish that work, spreading the concept is a legal partnership.'
-
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
-        image={bookmarketingservices3}
-        whychooseclass="marketyourbook"
-      />
-
-
-      {/* Aspiring */}
-      <div className='datacloud'>
-        <Aspiring
-          title='When It Comes Down To It, You Need The Whole Nine Yards To Nail It!'
-          text="Call us or send us an email, and our professionals will walk you through the full procedure, requirements, and packages for ghostwriting services for your book!"
-          number="(213) 289 3888"
-          discuss="LET'S DISCUSS"
+        {/* Why Choose Book Writing Cube? */}
+        <Whychoosebook
+          title="Why Choose Book Writing Expert?"
+          text="We are aware of the distinctiveness of the content creation needs of our customers. We take great pride in the incredibly various opinions, experiences, and knowledge that our team of authors can contribute. To ensure the greatest efficacy, we firmly believe in and work towards a transparent collaboration between you and us. For the greatest candor, we develop intricate production processes that accommodate each of our clients uniquely. The typical content around here is remarkable, genuine, and original!"
+          whychoose={whychoose}
         />
-      </div>
+
+
+        {/* Customersatisfaction */}
+        <Customersatisfaction />
 
 
 
+
+
+
+        <div className='datacloud'>
+          <Onestepsolutions />
+        </div>
+
+        <Serviceproviders
+     
+        />
+
+
+
+        {/* Talk To Our Whatourclients! */}
+        <Whatourclients />
+
+        {/* Got a Story */}
+        <Gotastory />
+
+        {/* Talk To Our Requestafreequote! */}
+        <Requestafreequote />
+
+      </main>
     </>
   )
 }
-
-export default Bookpublishingservices
+export default Ghostwritingservices

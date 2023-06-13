@@ -4,11 +4,11 @@ import React from 'react'
 import styles from '@/styles/Stoppublish.module.css'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
-import proposal from '/public/images/getproposel/proposal.svg'
+
 
 const Stoppublish = (props) => {
   return (
-    <div className={styles.stopworrying}>
+    <div className={styles[props.stopworrying]} >
 
       <Container>
         <Row>

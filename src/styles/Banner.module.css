@@ -107,16 +107,26 @@
   background-position: center;
   font-family: "Poppins";
 }
-.ghostwriting {
-  background-image: url(/images/bannerimages/ghost.jpg);
+.ghost {
+  background-image: url(/images/bannerimages/ghostbann.svg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 140px;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding-bottom: 70px;
-  background-position: center;
+  font-family: "Poppins";
+}
+.audiobookproduction {
+  background-image: url(/images/bannerimages/audiobook.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  height: 100vh;
+  display: flex;
+
+  padding-bottom: 70px;
   font-family: "Poppins";
 }
 .illustrationbook {
@@ -466,6 +476,20 @@
 @media (max-width: 991px) {
 
 
+  .ghost {
+   
+    align-items: center;
+  }
+  .audiobookproduction {
+  
+    align-items: center;
+  }
+  .illustrationbook {
+   
+    align-items: center;
+  }
+
+
   .logonew {
     filter: unset;
   }
@@ -563,6 +587,19 @@
   }
 }
 @media (max-width: 767px) {
+
+
+  .ghost {
+    background-image: unset;
+    background-color: #141d29;
+   
+  }
+ 
+  .illustrationbook {
+    background-image: unset;
+    background-color: #141d29;
+   
+  }
 
   .discuss {
     font-size: 12px;

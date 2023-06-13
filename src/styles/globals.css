@@ -45,6 +45,9 @@ body {
 .hover:hover {
   color: #ff9900;
 }
+.hover1:hover {
+  color: black;
+}
 .textdocationnone {
   text-decoration: none;
 }
@@ -121,6 +124,10 @@ body {
 .border-bottom {
   border-bottom: 1px solid #5e5c5c;
   padding-bottom: 16px;
+}
+
+.linh{
+  line-height: 1.4;
 }
 
 /* alignment */
@@ -593,6 +600,36 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
     display: none;
 }
 
+
+/* audio playercss */
+
+
+
+audio#myAudio {
+  width: 85%;
+  background: unset;
+  margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------------- */
 
 @media (max-width: 1440px) {
@@ -616,6 +653,10 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 }
 
 @media (max-width: 1200px) {
+  .font40 {
+    font-size: 34px;
+}
+
   .quality .col-md-3 {
     flex: 0 0 auto;
     width: 50%;
@@ -623,6 +664,17 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 }
 
 @media (max-width: 991px) {
+
+  audio#myAudio {
+    width: 85%;
+    background: unset;
+    margin-top: 2%;
+  }
+  
+
+  .font50 {
+    font-size: 29px;
+}
 
   .navbar-toggler-icon {
     filter: invert(1);
@@ -763,7 +815,10 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   }
 
   .font50 {
-    font-size: 35px;
+    font-size: 24px;
+}
+.font40 {
+  font-size: 20px;
 }
   .font14 {
     font-size: 18px;

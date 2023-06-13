@@ -18,17 +18,18 @@ import Onestepsolutions from '../../components/Onestepsolutions'
 import Script from 'next/script'
 import Stunningillustrations from '../../components/Stunningillustrations'
 import Serviceproviders from '../../components/Serviceproviders'
+import banslider12 from '/public/images/illustrativebook/cartoon.svg'
 
 
 function Illustrationbook() {
 
 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Get Your Book Illustrations</span> <br></br> <Link className='dblockmobile textdocationnone color-blue hover' href="/illustration"> Illustration Services </Link>  <span className=''>from Our Team <br></br>  of Top Illustrators for Hire.</span> </h1>;
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Get Your Book Illustrations</span>  <br className="d-none d-xl-block" /> <Link className='dblockmobile textdocationnone color-blue hover' href="/illustration"> Illustration Services </Link>  <span className=''>from Our Team  <br className="d-none d-xl-block" />  of Top Illustrators for Hire.</span> </h1>;
 
   const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
-  const dataspan = <h1 className='font50 color-white font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Book Writing Experts </Link>  Is <br></br> waiting for you to Ask for a  <br></br>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Professional Illustrative Book </Link> </h1>;
+  const dataspan = <h1 className='font50 color-white font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Book Writing Experts </Link>  Is  <br className="d-none d-xl-block" /> waiting for you to Ask for a   <br className="d-none d-xl-block" />  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Professional Illustrative Book </Link> </h1>;
 
 
 
@@ -201,6 +202,8 @@ function Illustrationbook() {
         <Illustrativebook
           title={dataspan}
           para='Hit us a message, or give us a call, and make the most of our Professional Illustrative Book'
+          cartoonimg = {banslider12}
+          cartoon = 'cartoon'
         />
 
         <Stunningillustrations />
@@ -215,6 +218,7 @@ function Illustrationbook() {
           subtitle={posdata}
           btn1='Get a free Proposal'
           btn2='Talk to an expert'
+          stopworrying = 'stopworrying'
         />
 
         {/* Why Choose Book Writing Cube? */}

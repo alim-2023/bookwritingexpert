@@ -24,7 +24,7 @@ const Stunningillustrations = () => {
                         <Col lg={12}>
                 
 
-                        <h2 className="font-f fw500 colortextgrey t-center mb-5">We Provide Stunning <Link className="color-blue textdocationnone fw700" href="#">Illustrations For <br></br> Your Book</Link> </h2>
+                        <h2 className="font-f fw500 colortextgrey t-center mb-5">We Provide Stunning <Link className="color-blue textdocationnone fw700" href="#">Illustrations For  <br className="d-none d-xl-block" /> Your Book</Link> </h2>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>

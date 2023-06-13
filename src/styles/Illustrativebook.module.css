@@ -35,8 +35,64 @@
 .cartoon{
     position: relative;
 }
-.cartoon{
+.cartoon img{
     position: absolute;
-    margin-top: -9%;
-    right: 9%;
+    top: -100px;
+    max-width: 110%;
+   
+     
 }
+.cartoon1{
+    position: relative;
+}
+.cartoon1 img{
+    position: absolute;
+    top: -130px;
+   
+     
+}
+.bookspost {
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 991px) {
+
+   
+
+    .cartoon1 img {
+        position: unset;
+        margin-top: 5%;
+      }
+      .cartoon img {
+        position: unset;
+        margin-top: 5%;
+        max-width: 100%;
+      }
+    .cartoon1  {
+        text-align: center;
+      }
+      .cartoon {
+        text-align: center;
+      }
+
+
+ }
+
+ @media (max-width: 480px) {
+    .discuss {
+        display: block;
+        text-align: center;
+    }
+    .homenumer{
+        margin-left: unset;
+        display: block;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+  }
+
+
+

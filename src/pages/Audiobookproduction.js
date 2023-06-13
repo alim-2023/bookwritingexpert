@@ -10,35 +10,40 @@ import Gotastory from '../../components/Gotastory'
 import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'
 import Requestafreequote from '../../components/Requestafreequote'
-import Stopworrying from '../../components/Stopworrying'
+import Stoppublish from '../../components/Stoppublish'
 import Customersatisfaction from '../../components/Customersatisfaction'
-
 import Strugglingtogive from '../../components/Strugglingtogive'
 import Illustrativebook from '../../components/Illustrativebook'
 import Onestepsolutions from '../../components/Onestepsolutions'
 import Script from 'next/script'
 import Stunningillustrations from '../../components/Stunningillustrations'
+import Serviceproviders from '../../components/Serviceproviders'
+import banslider12 from '/public/images/illustrativebook/cartoon1.svg'
+import Providestunning from '../../components/Providestunning'
+import Professionalaudiobook from '../../components/Professionalaudiobook'
 
 
 function Audiobookproduction() {
 
- 
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Get Your Book Illustrations</span> <br></br> <Link className='dblockmobile textdocationnone color-blue hover' href="/illustration"> Illustration Services </Link>  <span className=''>from Our Team <br></br>  of Top Illustrators for Hire.</span> </h1>;
 
-  const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
+  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Get Your</span>  <Link className='dblockmobile textdocationnone color-blue hover' href="/ghostwriting-services">  Book Ghost Writing <br></br> Services </Link>  <span className=''> from Our Team of Top Ghost <br></br> Writing for Hire.</span> </h1>;
 
-  const dataspan = <h1 className='font50 color-white font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Book Writing Experts </Link>  Is <br></br> waiting for you to Ask for a  <br></br>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Professional Illustrative Book </Link> </h1>;
+  const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='#'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
+  const dataspan = <h1 className='font50 color-white font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/ghostwriting-services"> Book Writing Experts </Link>  Is  waiting for you to Ask for a    <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/ghostwriting-services"> Professional Ghost Writing </Link> </h1>;
+
+
+  const holddata =  <h2 className='font-f font50 t-center'> We Provide Stunning <Link className="color-blue textdocationnone fw700 hover" href="/audiobookproduction">Audio Book  <br className="d-none d-xl-block" />Production</Link> </h2>
 
 
   const bannertext = [
     {
-      title: newSpan,
-      free: 'FREE AUTHOR CONSULTATION CALL',
+      title: '',
+      free: '',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
-      banners: 'illustrationbook',
+      banners: 'audiobookproduction',
     }
   ]
 
@@ -166,17 +171,17 @@ function Audiobookproduction() {
         {/* banner components */}
 
         {bannertext.map((item, i) =>
-        <Banner key={i}
-          title={item.title}
-          subtext1={item.subtext1}
-          subtext2={item.subtext2}
-          subtext3={item.subtext3}
-          free={item.free}
-          homebannernum={item.homebannernum}
-          bannershome={item.banners}
-          processs={item.process}
-        />
-      )}
+          <Banner key={i}
+            title={item.title}
+            subtext1={item.subtext1}
+            subtext2={item.subtext2}
+            subtext3={item.subtext3}
+            free={item.free}
+            homebannernum={item.homebannernum}
+            bannershome={item.banners}
+            processs={item.process}
+          />
+        )}
 
 
         {/* partners components */}
@@ -198,30 +203,26 @@ function Audiobookproduction() {
           btn3="(213) 289 3888"
         />
 
-        <Illustrativebook
-          title = {dataspan}
-          para  =  'Hit us a message, or give us a call, and make the most of our Professional Illustrative Book'
+        <Professionalaudiobook />
+    
+
+
+        <Providestunning
+        
+        title = {holddata}
+        
+        
         />
 
-        <Stunningillustrations />
 
 
-        
-
-
-
-        <Stopworrying
+        <Stoppublish
           title='Stop worrying about publishing books!'
           subtitle={posdata}
           btn1='Get a free Proposal'
           btn2='Talk to an expert'
+          stopworrying = 'stopworrying1'
         />
-
-
-  
-
-        {/* Customersatisfaction */}
-        <Customersatisfaction />
 
         {/* Why Choose Book Writing Cube? */}
         <Whychoosebook
@@ -230,12 +231,22 @@ function Audiobookproduction() {
           whychoose={whychoose}
         />
 
-      
+
+        {/* Customersatisfaction */}
+        <Customersatisfaction />
 
 
-        <div className='sliderImg2'>
+
+
+
+
+        <div className='datacloud'>
           <Onestepsolutions />
         </div>
+
+        <Serviceproviders
+     
+        />
 
 
 

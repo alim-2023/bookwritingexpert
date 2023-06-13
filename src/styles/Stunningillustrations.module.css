@@ -36,3 +36,26 @@
 .stun h2 a:hover{
     color: black;
 }
+
+@media (max-width:991px)  { 
+
+    .stun h2 {
+        font-size: 25px;
+    }
+
+    .btn1 {
+        width: 35%;
+    }
+}
+@media (max-width:767px)  { 
+
+    .btn1 {
+        width: 50%;
+    }
+}
+@media (max-width:480px)  { 
+
+    .btn1 {
+        width: 100%;
+    }
+}

@@ -13,12 +13,12 @@ const Serviceproviders = (props) => {
         <div className={styles.stopworrying}>
 
             <Container>
-                <Row>
+                <Row className={` ${styles.books} gy-5 `}>
                     <Col md={8}>
                         <h3 className='font25 font-f color-white fw300'> Stop worrying about publishing books! </h3>
 
-                        <h2 className='font50 font-f color-white fw300'>
-                            Let Our Best <Link className='color-blue fw700 textdocationnone hover' href="#">Amazon Kindle Direct <br></br> Publishing (KDP)</Link> Service Providers <br></br> Handle All Your Publishing Troubles!
+                        <h2 className='font40 font-f color-white fw300'>
+                            Let Our Best <Link className='color-blue fw700 textdocationnone hover' href="#">Amazon Kindle Direct  <br className="d-none d-xl-block" /> Publishing (KDP)</Link> Service Providers  <br className="d-none d-xl-block" /> Handle All Your Publishing Troubles!
                         </h2>
 
                         <div className={styles.aligntop}>
