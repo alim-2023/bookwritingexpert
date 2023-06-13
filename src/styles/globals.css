@@ -605,10 +605,172 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 
 
 
-audio#myAudio {
+/* audio#myAudio {
   width: 85%;
   background: unset;
   margin-top: 10%;
+} */
+.chapter {
+  margin-top: -5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.audio-player {
+  height: 50px;
+  width: 350px;
+  background: #444;
+  box-shadow:unset;
+
+  font-family: "Poppins";
+  color: white;
+  font-size: 0.75em;
+  overflow: visible;
+
+  display: grid;
+  grid-template-rows: 6px auto;
+  width: 70%;
+  background-color: #fc9e31;
+  margin-top: 15%;
+  .timeline {
+    background: white;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    box-shadow: unset;
+    .progress {
+      background: #bfbfbf;
+      width: 0%;
+      height: 100%;
+      transition: 0.25s;
+      border-radius: unset;
+    }
+  }
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 20px;
+    position: relative;
+
+    > * {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .toggle-play {
+      &.play {
+        cursor: pointer;
+        position: relative;
+        left: 0;
+        height: 0;
+        width: 0;
+        border: 7px solid #0000;
+        border-left: 13px solid #FD9802;
+        transform: scale(1.5);
+       
+        &:hover {
+          transform: scale(1.6);
+        }
+      }
+      &.pause {
+        height: 15px;
+        width: 20px;
+        cursor: pointer;
+        position: relative;
+        background-color: #fd9802;
+        left: -8px;
+        &:before {
+          position: absolute;
+          top: 0;
+          left: 0px;
+          background: white;
+          content: "";
+          height: 15px;
+          width: 3px;
+        }
+        &:after {
+          position: absolute;
+          top: 0;
+          right: 8px;
+          background: white;
+          content: "";
+          height: 15px;
+          width: 2px;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    .time {
+      display: flex;
+      gap: 9px;
+      > * {
+        padding: 2px;
+      }
+    }
+    .volume-container {
+      cursor: pointer;
+      .volume-button {
+        height: 26px;
+        display: flex;
+        align-items: center;
+        .volume {
+          transform: scale(0.7);
+        }
+      }
+      
+      position: relative;
+      z-index: 2;
+      .volume-slider {
+        position: absolute;
+        left: -3px; top: 15px;
+        z-index: -1;
+        width: 0;
+        height: 15px;
+        background: white;
+        box-shadow: 0 0 20px #000a;
+        transition: .25s;
+        .volume-percentage {
+          background: coral;
+          height: 100%;
+          width: 75%;
+        }
+      }
+      &:hover {
+        .volume-slider {
+          left: -123px;
+          width: 120px;
+        }
+      }
+    }
+  }
+}
+
+
+.time {
+  display: flex;
+  gap: 9px;
+}
+.length {
+  display: none;
+}
+.play-container {
+  background-color: white;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+  border-radius: 50px;
+  height: 60px;
+  position: absolute;
+  margin-top: -9%;
+  right: 18%;
+  margin-top: -24%;
+  right: -36%;
+  padding-left: 3%;
 }
 
 

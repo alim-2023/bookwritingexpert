@@ -28,47 +28,47 @@ const Stunningillustrations = () => {
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image src={homebannerlogos1} className="img-fluid" ></Image>
+                                <Image alt="Book Writing Experts" src={homebannerlogos1} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image src={homebannerlogos2} className="img-fluid" ></Image>
+                                <Image alt="Book Writing Experts" src={homebannerlogos2} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image src={homebannerlogos3} className="img-fluid" ></Image>
+                                <Image alt="Book Writing Experts" src={homebannerlogos3} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image src={homebannerlogos6} className="img-fluid" ></Image>
+                                <Image alt="Book Writing Experts" src={homebannerlogos6} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image src={homebannerlogos4} className="img-fluid" ></Image>
+                                <Image alt="Book Writing Experts" src={homebannerlogos4} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image src={homebannerlogos5} className="img-fluid" ></Image>
+                                <Image alt="Book Writing Experts" src={homebannerlogos5} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image src={homebannerlogos9} className="img-fluid" ></Image>
+                                <Image alt="Book Writing Experts" src={homebannerlogos9} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image src={homebannerlogos7} className="img-fluid" ></Image>
+                                <Image alt="Book Writing Experts" src={homebannerlogos7} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image src={homebannerlogos8} className="img-fluid" ></Image>
+                                <Image alt="Book Writing Experts" src={homebannerlogos8} className="img-fluid" ></Image>
                             </div>
                         </Col>
                     </Row>

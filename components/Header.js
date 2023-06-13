@@ -52,7 +52,7 @@ const Header = () => {
   return (
     <>
 
-      <header className={ router.pathname == '/illustration' || router.pathname == '/ghostwriting-services' || router.pathname == '/audiobookproduction'  ?  styles.headerblue : styles.headerhome}>
+      <header className={ router.pathname == '/illustration' || router.pathname == '/ghostwriting-services2' || router.pathname == '/audiobookproduction'  ?  styles.headerblue : styles.headerhome}>
         <Navbar expand="lg">
           <Container className={styles.headerContainer}>
 
