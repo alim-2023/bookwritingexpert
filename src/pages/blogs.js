@@ -6,6 +6,7 @@ import Head from 'next/head'
 const Blogs = () => {
 
   const blogsHead = <h1 className='font50 fw700 color-blue'>Blogs</h1>
+
   
 
   const bannertext = [
