@@ -601,15 +601,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 }
 
 
-/* audio playercss */
 
-
-
-/* audio#myAudio {
-  width: 85%;
-  background: unset;
-  margin-top: 10%;
-} */
 .chapter {
   margin-top: -5%;
   display: flex;
@@ -774,22 +766,16 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 }
 
 
+.scrollBox{
+  height: 250px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.scrollNav{
+  height: 460px;
+  overflow-y: scroll;
+}
 
 
 /* --------------------------- */
@@ -801,6 +787,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 }
 
 }
+
 @media (max-width: 1280px) {
   .customizedbook .col-md-4 {
     width: 100%;
@@ -956,6 +943,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
     font-size: 1rem;
   }
 }
+
 @media (max-width: 480px) {
   .bannergllobal .homeSlider{
     display: none;
@@ -1033,14 +1021,3 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   }
 }
 
-.scrollBox{
-  height: 250px;
-  overflow: hidden;
-  overflow-y: scroll;
-}
-
-.scrollNav{
-
-  height: 460px;
-  overflow: scroll;
-}
