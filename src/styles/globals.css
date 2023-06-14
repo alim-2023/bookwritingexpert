@@ -827,6 +827,13 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 
 @media (max-width: 991px) {
 
+  .border {
+    align-items: unset;
+}
+.scrollNav {
+  height: unset;
+  overflow: unset;
+}
   audio#myAudio {
     width: 85%;
     background: unset;
