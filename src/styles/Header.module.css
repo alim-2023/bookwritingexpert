@@ -34,7 +34,7 @@
   border-top: 2px solid #ccc;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 30px;
   margin-top: 3%;
   margin-bottom: 10%;
@@ -389,6 +389,19 @@
   .headerhome .megamenu.active {
     display: block !important;
   }
+  .headerblue .megamenu {
+    visibility: visible;
+    position: unset;
+    display: none !important;
+    width: 100%;
+    background-color: unset;
+    color: #223235;
+    box-shadow: unset;
+  }
+
+  .headerblue .megamenu.active {
+    display: block !important;
+  }
 
   .megamenu ul li a {
     color: #ffffff;
@@ -417,6 +430,12 @@
   }
 
   .headerhome {
+    position: unset;
+    top: 0;
+    width: 100%;
+    background-color: #141d29;
+  }
+  .headerblue {
     position: unset;
     top: 0;
     width: 100%;
