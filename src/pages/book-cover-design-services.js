@@ -287,51 +287,18 @@ const bookCoverDesignServices = () => {
       />
 
 
-      {/* Makestories */}
-      {/* <div className='dataset sliderImg'>
-        <Makestoriesnew
-          title='Our Latest Book Publishing Projects'
-          para='Let Our Book Publishing Team Help You'
-        />
-      </div> */}
-
-      {/* Bookpublishingservicesweoffer */}
-      {/* <Bookpublishingservicesweoffer /> */}
-
-      {/* <Ourprocess
-        title='What Is Our Process of Publishing a Book?'
-        text='Without compromising the quality of the finished product, we have developed a complex workflow procedure. We accomplish this through a thorough process that involves informing our clients at each project stage and requesting approvals. This makes the customer more aware of what`s happening at each stage. These six processes, which are listed below, comprise our self-publishing process.'
-        heading1='Manuscript Submission'
-        para1='The writer contacts us for submission of their full-length manuscript, while submitting, we discuss our publishing rules and sign the contract.'
-        num1='01'
-
-        heading2='Peers Review'
-        para2='Our experienced editors then review the manuscript and make the required changes with the writer’s permission.'
-        num2='02'
-
-        heading3='Formatting and Typesetting'
-        para3='After the manuscript is reviewed by editors, our experts do the formatting and add images.'
-        num3='03'
-
-        heading4='Book Production'
-        para4='We design the first copy of the book and take reviews from the writer. The rest of the books are produced on the same pattern while keeping all the important aspects into consideration.'
-        num4='04'
-
-        heading5='Marketing, Publishing, and Distribution'
-        para5='Before publishing, we spread awareness about the book to create demand. And Voila! The book is published now!'
-        num5='05'
-      /> */}
+  
 
 
       {/* Stopworrying */}
-      <div className='dataSetCo'>
+    
         <Stopworrying
           title2={dateset}
           subtitle3='In Search For Enticing Book Covers?'
           btn1='Get a free Proposal'
           btn2='Talk to an expert'
         />
-      </div>
+    
 
 
 
@@ -368,15 +335,7 @@ const bookCoverDesignServices = () => {
           </Row>
         </Container>
       </div>
-      <Selfpublishing
-        title= "Don’t Know How To Give Your Book An Attractive Cover?"
-        text='We Can Help You! Book Writing Experts Have Ideas For You That Will Work.'
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
-        image={publishmybook}
-        whychooseclass="marketyourbook"
-      />
-
+     
       {/* Whychoosebookwritingcube */}
       {/* <Whychoosebookwritingcube
         title='Our Willingness To Publish Knows No Bounds!'
@@ -413,6 +372,16 @@ const bookCoverDesignServices = () => {
 
       {/* Customersatisfaction */}
       <Customersatisfaction />
+
+      <Selfpublishing
+        title= "Don’t Know How To Give Your Book An Attractive Cover?"
+        text='We Can Help You! Book Writing Experts Have Ideas For You That Will Work.'
+        number="(213) 289 3888"
+        discuss="LET'S DISCUSS"
+        image={publishmybook}
+        whychooseclass="marketyourbook"
+      />
+
 
 
       {/* Talk To Our Whatourclients! */}

@@ -55,10 +55,8 @@ const BookTrailerServcies = () => {
 
   const geta = <span className='font50 fw700 font-f hero-span'> 
   
-  <Link  className='textdocationnone color-black hover fw700' href='/book-trailer-services/'> Book Video Trailers</Link>  Are The Future For
-  <Link  className='textdocationnone color-black hover fw700' href='/book-trailer-services/'> 
-  Digital Book Promotions</Link>,
-   Get On The Trend With Us! 
+  <Link  className='textdocationnone color-blue hover fw700' href='/book-trailer-services/'> Book Video Trailers</Link>  Are The Future For 
+   <Link  className='textdocationnone color-blue hover fw700' href='/book-trailer-services/'> Digital Book Promotions,</Link> Get On The Trend With Us! 
 
   </span>
 
