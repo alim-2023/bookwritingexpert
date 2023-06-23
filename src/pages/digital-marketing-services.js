@@ -13,6 +13,8 @@ import Companypull from '../../components/Companypull'
 import Buildingyour from '../../components/Buildingyour'
 import Bestinclass from '../../components/Bestinclass'
 import Stopworrying from '../../components/Stopworrying'
+import Major from '../../components/Major'
+import Cta from '../../components/Cta'
 
 
 const Digitalmarketingservices = () => {
@@ -193,7 +195,7 @@ const Digitalmarketingservices = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
         />
-                <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
@@ -245,6 +247,12 @@ const Digitalmarketingservices = () => {
 
 
       />
+
+      {/* Major */}
+      <Major />
+
+      {/* Cta */}
+      <Cta />
 
       {/* Makestories */}
       <div className='dataset sliderImg'>

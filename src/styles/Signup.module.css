@@ -105,12 +105,48 @@
   top: 24px;
 }
 
+.ourform {
+  background-color: #f8f8f8;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.ourform p {
+  display: none;
+}
+
+.ourform form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.ourform form input {
+  width: 30%;
+  margin-bottom: 0;
+  border: 2px solid #fc9e31;
+}
+
+.ourform form textarea {
+  display: none;
+}
+
+.ourform form button {
+  height: 50px;
+  max-width: fit-content;
+  border-radius: 0;
+  padding: 0 30px;
+  margin: 10px auto 0;
+}
+
 @media (min-width: 1400px) {
   .signup1 {
     margin-left: 25px;
   }
 }
-
 
 @media (max-width: 1400px) {
   .nametext {
@@ -128,6 +164,18 @@
     position: relative;
     top: 24px;
   }
+
+  .ourform form {
+    flex-direction: column;
+  }
+
+  .ourform form input {
+    width: 100%;
+  }
+
+  .ourform form button {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 767px) {
   .signsimg {
@@ -142,5 +190,5 @@
 @media (max-width: 480px) {
   .freebtn {
     font-size: 14px;
-}
+  }
 }

@@ -21,6 +21,8 @@ import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
 import Selfpublishing from '../../components/Selfpublishing'
 import Lululogos from '../../components/Lululogos'
+import Major from '../../components/Major'
+import Cta from '../../components/Cta'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -75,7 +77,7 @@ const Bookpublishingservices = () => {
 
   ]
 
-  const newSpan =  <span className='font50 fw700 color-white font-f hero-span'>Bring Your Ideas to Life With Our Expert <Link className='textdocationnone color-white hover' href="/ghostwriting-services"> Ghostwriting Services! </Link> </span>;
+  const newSpan = <span className='font50 fw700 color-white font-f hero-span'>Bring Your Ideas to Life With Our Expert <Link className='textdocationnone color-white hover' href="/ghostwriting-services"> Ghostwriting Services! </Link> </span>;
 
 
 
@@ -134,29 +136,29 @@ const Bookpublishingservices = () => {
 
 
   const schema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://bookwritingexperts.com/ghostwriting-services/"
-  },
-  "headline": "Bring Your Ideas to Life With Our Expert Ghostwriting Services!",
-  "description": "Ghostwriting Services",
-  "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",  
-  "author": {
-    "@type": "Organization",
-    "name": "Mini Investments"
-  },  
-  "publisher": {
-    "@type": "Organization",
-    "name": "",
-    "logo": {
-      "@type": "ImageObject",
-      "url": ""
-    }
-  },
-  "datePublished": "2022-03-18"
-}
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://bookwritingexperts.com/ghostwriting-services/"
+    },
+    "headline": "Bring Your Ideas to Life With Our Expert Ghostwriting Services!",
+    "description": "Ghostwriting Services",
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",
+    "author": {
+      "@type": "Organization",
+      "name": "Mini Investments"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "url": ""
+      }
+    },
+    "datePublished": "2022-03-18"
+  }
   const schema1 = {
     "@context": "https://schema.org",
     "@type": "Corporation",
@@ -217,7 +219,7 @@ const Bookpublishingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
   }
 
 
@@ -230,7 +232,7 @@ const Bookpublishingservices = () => {
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-    
+
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Top-Tier Ghostwriting Services - Book Writing Experts</title>
         <meta name="description" content="Ghostwriting services that help aspiring authors launch into success. Get them today, as they are affordable and executed to perfection." />
@@ -246,8 +248,8 @@ const Bookpublishingservices = () => {
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="9 minutes" />
         <link rel="icon" href="/favicon.svg" />
-     
-     
+
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -261,8 +263,8 @@ const Bookpublishingservices = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
-     
-     
+
+
       </Head>
 
 
@@ -302,6 +304,11 @@ const Bookpublishingservices = () => {
 
       />
 
+      {/* Major */}
+      <Major />
+
+      {/* Cta */}
+      <Cta />
 
       {/* Makestories */}
       <div className='dataset sliderImg'>
@@ -371,9 +378,9 @@ const Bookpublishingservices = () => {
       />
 
 
-  {/* Selfpublishing */}
+      {/* Selfpublishing */}
 
-  <Selfpublishing
+      <Selfpublishing
         title='A Complete Solution To Your Ghost Writing Essentials Is Here!'
         text='Book Writing Experts has got you covered with the Best-Ghostwriting services. You are just one click away!'
 
@@ -382,10 +389,10 @@ const Bookpublishingservices = () => {
         image={newimagetwoo}
         whychooseclass="marketyourbook"
       />
-    {/* Lululogos components */}
-   
+      {/* Lululogos components */}
 
-    
+
+
 
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
@@ -396,7 +403,7 @@ const Bookpublishingservices = () => {
       <Lululogos />
 
 
-  
+
 
       {/* Aspiring */}
       <div className='datacloud'>
@@ -408,7 +415,7 @@ const Bookpublishingservices = () => {
         />
       </div>
 
-  
+
 
     </>
   )

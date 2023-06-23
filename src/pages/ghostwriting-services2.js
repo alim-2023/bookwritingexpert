@@ -32,7 +32,7 @@ function Ghostwritingservices() {
 
   const dataspan = <h1 className='font50 color-white font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/ghostwriting-services"> Book Writing Experts </Link>  Is  waiting for you to Ask for a    <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/ghostwriting-services"> Professional Ghost Writing </Link> </h1>;
 
-  const holddata =  <h2 className='font-f font50 t-center'> We Provide Stunning <Link className="color-blue textdocationnone fw700 hover" href="/ghostwriting-services">Ghost Writing  <br className="d-none d-xl-block" /> For Your Book</Link> </h2>
+  const holddata = <h2 className='font-f font50 t-center'> We Provide Stunning <Link className="color-blue textdocationnone fw700 hover" href="/ghostwriting-services">Ghost Writing  <br className="d-none d-xl-block" /> For Your Book</Link> </h2>
 
 
 
@@ -205,14 +205,14 @@ function Ghostwritingservices() {
         <Illustrativebook
           title={dataspan}
           para='Hit us a message, or give us a call, and make the most of our Professional Ghost Writing'
-          cartoonimg = {banslider12}
-          cartoon = 'cartoon1'
+          cartoonimg={banslider12}
+          cartoon='cartoon1'
         />
 
 
-<Providestunning
-title = {holddata}
-/>
+        <Providestunning
+          title={holddata}
+        />
 
 
 
@@ -224,7 +224,7 @@ title = {holddata}
           subtitle={posdata}
           btn1='Get a free Proposal'
           btn2='Talk to an expert'
-          stopworrying = 'stopworrying1'
+          stopworrying='stopworrying1'
         />
 
         {/* Why Choose Book Writing Cube? */}
@@ -248,7 +248,7 @@ title = {holddata}
         </div>
 
         <Serviceproviders
-     
+
         />
 
 

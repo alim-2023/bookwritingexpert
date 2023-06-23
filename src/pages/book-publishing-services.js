@@ -21,9 +21,10 @@ import Selfpublishing from '../../components/Selfpublishing'
 import Lululogos from '../../components/Lululogos'
 import Customersatisfaction from '../../components/Customersatisfaction'
 import Bookpublishingservicesweoffer from '../../components/Bookpublishingservicesweoffer'
+import Major from '../../components/Major'
+import Cta from '../../components/Cta'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
-
 
 
 
@@ -251,6 +252,11 @@ const Bookpublishingservices = () => {
 
       />
 
+      {/* Major */}
+      <Major />
+
+      {/* Cta */}
+      <Cta />
 
       {/* Makestories */}
       <div className='dataset sliderImg'>

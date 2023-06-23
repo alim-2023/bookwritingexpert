@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 // images
-import book100 from '../public/images/thousandsofstruggling/Book-Mockup.png'
+import book100 from '../public/images/thousandsofstruggling/Book-Mockup1.png'
 import book101 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
 import book102 from '../public/images/thousandsofstruggling/Book-Mockup3.png'
 import book105 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
@@ -126,7 +126,7 @@ const Onestepsolutions = () => {
 
             <Col md={12}>
 
-              <Slider {...makestories}>
+              <Slider {...makestories} className='makestories'>
 
                 {makestoriesimg.map((item, i) => {
                   return (

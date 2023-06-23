@@ -20,6 +20,8 @@ import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
+import Major from '../../components/Major'
+import Cta from '../../components/Cta'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -321,6 +323,13 @@ const Bookpublishingservices = () => {
         Dowecome="publishmybook"
 
       />
+
+
+      {/* Major */}
+      <Major />
+
+      {/* Cta */}
+      <Cta />
 
 
       {/* Makestories */}

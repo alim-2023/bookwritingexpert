@@ -21,6 +21,7 @@ import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
+import Major from '../../components/Major'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -30,7 +31,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 const businessplanWringservices = () => {
 
   const newSpan = <h1 className='font50 fw700 color-white font-f hero-span'>  Business Plan Writing Services
-  To Help You Follow A Roadmap To Business Success! </h1>;
+    To Help You Follow A Roadmap To Business Success! </h1>;
 
   const discuss = <span>LET'S DISCUSS</span>
 
@@ -53,9 +54,9 @@ const businessplanWringservices = () => {
 
   const geta = <span className='fw700 color-black'>We Know What It Takes To Write A Business Plan That Wins!</span>
 
-  const posdata = <span  className='fw700'>We Don’t Write Business Plans <br/> That Don’t Bring Results. </span>
+  const posdata = <span className='fw700'>We Don’t Write Business Plans <br /> That Don’t Bring Results. </span>
 
-  const datap =<span className=''>We’ve helped countless businesses put together comprehensive and effective business plans, and our professional business plan writer can do the same for you. Buy a business plan online now!
+  const datap = <span className=''>We’ve helped countless businesses put together comprehensive and effective business plans, and our professional business plan writer can do the same for you. Buy a business plan online now!
 
   </span>
 
@@ -153,11 +154,11 @@ const businessplanWringservices = () => {
     },
     "headline": "Business Plan Writing Services - Book Writing Experts",
     "description": "Business Plan Writing Services offered by Book Writing Experts ensure to turn your dream into a successfully launched and hit business. Call us now.",
-    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",  
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
-    },  
+    },
     "publisher": {
       "@type": "Organization",
       "name": "",
@@ -229,7 +230,7 @@ const businessplanWringservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
   }
 
 
@@ -272,7 +273,7 @@ const businessplanWringservices = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
-       
+
       </Head>
 
 
@@ -311,7 +312,8 @@ const businessplanWringservices = () => {
       />
 
 
-    
+      {/* Major */}
+      <Major />
 
 
       {/* Stopworrying */}
@@ -331,7 +333,7 @@ const businessplanWringservices = () => {
             <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
             <p className='font30 font-f fw500 colortextgrey t-center pb-2'>Three-Step Game Plan to Writing an Effective Business Plan!
-</p>
+            </p>
 
           </Row>
 
@@ -353,7 +355,7 @@ const businessplanWringservices = () => {
 
       <Ourprocess
         title='Our Modernized Business Plan Writing Process'
-     
+
         heading1='Business Plan Brief'
         para1='We will discuss your business ideas with you and get to know your business inside and out. This step is crucial in order to develop a custom-tailored plan that will set you up for success.'
         num1='01'
@@ -433,15 +435,15 @@ const businessplanWringservices = () => {
 
 
 
- 
+
 
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 
 
 
-          {/* Lululogos components */}
-          <Lululogos />
+      {/* Lululogos components */}
+      <Lululogos />
 
 
 

@@ -16,6 +16,7 @@ import Aspiring from '../../components/Aspiring'
 import Ourprocess from '../../components/Ourprocess'
 import Whatourclients from '../../components/Whatourclients'
 import Stillonthefence from '../../components/Stillonthefence'
+import Major from '../../components/Major'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -155,7 +156,7 @@ const Bookpublishingservices = () => {
       }
     },
     "datePublished": "2022-03-21"
-   }
+  }
   const schema1 = {
     "@context": "https://schema.org",
     "@type": "Corporation",
@@ -172,7 +173,7 @@ const Bookpublishingservices = () => {
       "https://www.pinterest.com/bookwritingexperts/"
     ]
 
-   }
+  }
   const schema2 = {
 
     "@context": "https://schema.org",
@@ -217,9 +218,9 @@ const Bookpublishingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
 
-   }
+  }
   const schema3 = {
     "@context": "https://schema.org/",
     "@type": "WebSite",
@@ -230,7 +231,7 @@ const Bookpublishingservices = () => {
       "target": "https://bookwritingexperts.com/proofreading-services/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
-   }
+  }
 
 
 
@@ -242,7 +243,7 @@ const Bookpublishingservices = () => {
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-    
+
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Best Book Proofreading Services - Book Writing Experts</title>
         <meta name="description" content="Book Proofreading services make your manuscript flawless. Avail the services today from the experts who are adept at keeping an eagle eye on errors." />
@@ -268,7 +269,7 @@ const Bookpublishingservices = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
         />
-                <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
@@ -315,6 +316,9 @@ const Bookpublishingservices = () => {
         Dowecome="publishmybook"
 
       />
+
+      {/* Major */}
+      <Major />
 
       <Stopworrying
         title='Best Online Proofreading Service'

@@ -25,6 +25,8 @@ import Whatourclients from '../../components/Whatourclients'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
+import Major from '../../components/Major'
+
 
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
@@ -53,14 +55,14 @@ const BookTrailerServcies = () => {
     }
   ]
 
-  const geta = <span className='font50 fw700 font-f hero-span'> 
-  
-  <Link  className='textdocationnone color-blue hover fw700' href='/book-trailer-services/'> Book Video Trailers</Link>  Are The Future For 
-   <Link  className='textdocationnone color-blue hover fw700' href='/book-trailer-services/'> Digital Book Promotions,</Link> Get On The Trend With Us! 
+  const geta = <span className='font50 fw700 font-f hero-span'>
+
+    <Link className='textdocationnone color-blue hover fw700' href='/book-trailer-services/'> Book Video Trailers</Link>  Are The Future For
+    <Link className='textdocationnone color-blue hover fw700' href='/book-trailer-services/'> Digital Book Promotions,</Link> Get On The Trend With Us!
 
   </span>
 
-const leveup = <span className='font50 fw700 font-f  color-black textdocationnone  hero-span'>Level Up Your <Link href='/book-trailer-services' className='textdocationnone color-black hover fw700'>Book Promotion</Link> Game With Our #1 <Link className='textdocationnone color-black hover fw700' href='/book-trailer-services'>Book Video Trailer Services</Link> </span>
+  const leveup = <span className='font50 fw700 font-f  color-black textdocationnone  hero-span'>Level Up Your <Link href='/book-trailer-services' className='textdocationnone color-black hover fw700'>Book Promotion</Link> Game With Our #1 <Link className='textdocationnone color-black hover fw700' href='/book-trailer-services'>Book Video Trailer Services</Link> </span>
 
   const posdata = <span>Creative <Link className='textdocationnone color-blue hover fw700' href='/book-trailer-services'>Book Video Trailers</Link> Are Now Accessible At One-Click; Reach Us Now!</span>
 
@@ -181,9 +183,9 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
   }
- 
+
 
 
   return (
@@ -265,6 +267,9 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
 
       />
 
+      {/* Major */}
+      <Major />
+
       <Stopworrying
         title='With The Right Mediums,
         Book Promotion Is Not That Hard!'
@@ -277,7 +282,7 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
 
       <div className='pt-5 pb-5'>
         <Container>
-          <Row  className="pt-5 pb-5">
+          <Row className="pt-5 pb-5">
             <h2 className="color-lightgray font25 t-center font-f mb-2">Our Approach</h2>
 
             <p className='font50 font-f fw500 colortextgrey t-center pb-2'>Beat Your Competitors with Concise, Informative, and Engaging <Link className='textdocationnone color-blue hover fw700' href='/book-trailer-services'>  Book Video Trailers</Link></p>
@@ -298,11 +303,11 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
         </Container>
       </div>
 
-   {/* Selfpublishing */}
-   <Selfpublishing
-        title= {leveup}
+      {/* Selfpublishing */}
+      <Selfpublishing
+        title={leveup}
         text='First impression is indeed the last impression, which is why Book Writing Experts offer the best book video trailer services for our valued clients. Make the right impression on your readers with compelling book video trailers! '
-      
+
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={newimagetwoo}
@@ -311,15 +316,15 @@ const leveup = <span className='font50 fw700 font-f  color-black textdocationnon
 
 
 
-     
 
 
 
 
-     
 
 
-   
+
+
+
 
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />

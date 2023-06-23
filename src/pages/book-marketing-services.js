@@ -25,6 +25,7 @@ import Whatourclients from '../../components/Whatourclients'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
+import Major from '../../components/Major'
 
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
@@ -278,6 +279,9 @@ const Bookpublishingservices = () => {
         Dowecome="publishmybook"
 
       />
+
+      {/* Major */}
+      <Major />
 
       <Stopworrying
         title='Tired of waiting for people to read your book?'

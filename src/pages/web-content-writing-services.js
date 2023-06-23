@@ -21,6 +21,7 @@ import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
+import Major from '../../components/Major'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -53,8 +54,8 @@ const EbookWritingservices = () => {
   const geta = <span className='fw700 color-black'><Link className='color-black textdocationnone hover' href='/web-content-writing-services'> Web Content Writing Service</Link> That Voices Your Brand Values In The Most Professional Tone! </span>
 
   const titleDb = <span className=' color-blue'>Want To Boost Traffic? </span>
-  const posdata = <span  className='fw700'>
-  Discuss Your Requirements With Our Qualified Team Of <Link className='color-white textdocationnone hover' href='/web-content-writing-services'>Content Writers</Link>  And Get Best Solutions!</span>
+  const posdata = <span className='fw700'>
+    Discuss Your Requirements With Our Qualified Team Of <Link className='color-white textdocationnone hover' href='/web-content-writing-services'>Content Writers</Link>  And Get Best Solutions!</span>
 
 
   const WaitingForSomeone = <span>Tired Of The Same Outdated Content On Your Website?</span>
@@ -229,9 +230,9 @@ const EbookWritingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
   }
- 
+
 
   return (
     <>
@@ -272,7 +273,7 @@ const EbookWritingservices = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
-     
+
 
       </Head>
 
@@ -312,7 +313,8 @@ const EbookWritingservices = () => {
       />
 
 
-    
+      {/* Major */}
+      <Major />
 
 
       {/* Stopworrying */}
@@ -324,7 +326,7 @@ const EbookWritingservices = () => {
       />
 
 
- <div>
+      <div>
         <Selfpublishing
           title={WaitingForSomeone}
           text={text}
@@ -341,7 +343,7 @@ const EbookWritingservices = () => {
             <h2 className="color-lightgray   font25   t-center font-f mb-2">Our Approach</h2>
 
             <p className='font30 font-f fw500 colortextgrey t-center pb-2'>We Aim To Enhance Your ROI By Fueling Your Website With Impressive Content!
-</p>
+            </p>
 
           </Row>
 
@@ -361,7 +363,7 @@ const EbookWritingservices = () => {
 
 
 
-    
+
       {/* Whybookpublishing */}
       {/* <div className={styles.whybookpublishing}>
         <Container>
@@ -404,15 +406,15 @@ const EbookWritingservices = () => {
 
 
 
- 
+
 
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 
 
 
-          {/* Lululogos components */}
-          <Lululogos />
+      {/* Lululogos components */}
+      <Lululogos />
 
 
 

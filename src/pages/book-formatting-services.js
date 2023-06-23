@@ -21,6 +21,7 @@ import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
+import Major from '../../components/Major'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -54,7 +55,7 @@ const EbookWritingservices = () => {
 
   const titleDb = <span className=' color-blue'>Do You Want To Captivate Your Readers From Beginning To End?
   </span>
-  const posdata = <span  className='fw700' >Give Your Book The Professional Look It Deserves With Our <Link className='color-white textdocationnone hover'  href='/book-formatting-services'>Formatting Services!</Link> </span>
+  const posdata = <span className='fw700' >Give Your Book The Professional Look It Deserves With Our <Link className='color-white textdocationnone hover' href='/book-formatting-services'>Formatting Services!</Link> </span>
 
 
   const WaitingForSomeone = <span>Waiting For Someone To <Link className='color-black textdocationnone hover' href='/ebook-writing-services' > Give Your Book An EBook Version?</Link></span>
@@ -228,7 +229,7 @@ const EbookWritingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
   }
   const schema3 = {
     "@context": "https://schema.org/",
@@ -323,7 +324,8 @@ const EbookWritingservices = () => {
       />
 
 
-    
+      {/* Major */}
+      <Major />
 
 
       {/* Stopworrying */}
@@ -342,7 +344,7 @@ const EbookWritingservices = () => {
             <h2 className="color-lightgray font25 t-center font-f mb-2">Our Approach</h2>
 
             <p className='font30 font-f fw500 colortextgrey t-center pb-2'>We Take Your Raw Manuscript And Turn It Into A Finished, Print-Ready Book.
-</p>
+            </p>
 
           </Row>
 
@@ -362,7 +364,7 @@ const EbookWritingservices = () => {
 
 
 
-    
+
       {/* Whybookpublishing */}
       {/* <div className={styles.whybookpublishing}>
         <Container>
@@ -405,15 +407,15 @@ const EbookWritingservices = () => {
 
 
 
- 
+
 
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 
 
 
-          {/* Lululogos components */}
-          <Lululogos />
+      {/* Lululogos components */}
+      <Lululogos />
 
 
 

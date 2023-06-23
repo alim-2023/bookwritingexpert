@@ -777,6 +777,13 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   overflow-y: scroll;
 }
 
+/* ================== */
+
+.makestories img,
+.mockupslider img{
+  width: 70%;
+  margin: 0 auto;
+}
 
 /* --------------------------- */
 

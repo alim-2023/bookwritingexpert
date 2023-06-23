@@ -21,6 +21,7 @@ import Makestoriesnew from '../../components/Makestoriesnew'
 import Stillonthefence from '../../components/Stillonthefence'
 import Lululogos from '../../components/Lululogos'
 import Selfpublishing from '../../components/Selfpublishing'
+import Major from '../../components/Major'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -53,7 +54,7 @@ const EbookWritingservices = () => {
   const geta = <span className='fw700 color-black'>Get Connected To Your Readers With <Link className='color-black textdocationnone hover' href='/eebook-writing-services'> Ebook Writing Experts!</Link></span>
 
   const titleDb = <span className=' color-blue'>Tired Of Trying To Write An Ebook On Your Own?</span>
-  const posdata = <span  className='fw700'>What Is Stopping You From Availing The Most Affordable EBooks Writing Services? </span>
+  const posdata = <span className='fw700'>What Is Stopping You From Availing The Most Affordable EBooks Writing Services? </span>
 
 
   const WaitingForSomeone = <span>Waiting For Someone To <Link className='color-black textdocationnone hover' href='/eebook-writing-services'> Give Your Book An EBook Version?</Link></span>
@@ -225,9 +226,9 @@ const EbookWritingservices = () => {
       "https://www.instagram.com/bookwritingexpert/",
       "https://www.linkedin.com/company/book-writing-exp/",
       "https://www.pinterest.com/bookwritingexperts/"
-    ] 
+    ]
   }
-  
+
 
   return (
     <>
@@ -268,7 +269,7 @@ const EbookWritingservices = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
-     
+
 
       </Head>
 
@@ -308,7 +309,8 @@ const EbookWritingservices = () => {
       />
 
 
-    
+      {/* Major */}
+      <Major />
 
 
       {/* Stopworrying */}
@@ -320,7 +322,7 @@ const EbookWritingservices = () => {
       />
 
 
- <div>
+      <div>
         <Selfpublishing
           title={WaitingForSomeone}
           text={text}
@@ -356,7 +358,7 @@ const EbookWritingservices = () => {
 
 
 
-    
+
       {/* Whybookpublishing */}
       {/* <div className={styles.whybookpublishing}>
         <Container>
@@ -399,15 +401,15 @@ const EbookWritingservices = () => {
 
 
 
- 
+
 
       {/* Talk To Our Whatourclients! */}
       <Whatourclients />
 
 
 
-          {/* Lululogos components */}
-          <Lululogos />
+      {/* Lululogos components */}
+      <Lululogos />
 
 
 

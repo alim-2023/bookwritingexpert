@@ -23,6 +23,8 @@ import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Whychoosebookwritingcube from '../../components/Whychoosebookwritingcube'
 import Selfpublishing from '../../components/Selfpublishing'
+import Major from '../../components/Major'
+import Cta from '../../components/Cta'
 // css
 import styles from '@/styles/Whybookpublishing.module.css'
 
@@ -98,11 +100,11 @@ const Bookpublishingservices = () => {
     },
     "headline": "Professional Book Editing Services For All The Idealists Within Their Reach",
     "description": "Book Editing Services",
-    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/editing-jpg.jpg?id=8355",  
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/editing-jpg.jpg?id=8355",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
-    },  
+    },
     "publisher": {
       "@type": "Organization",
       "name": "",
@@ -114,8 +116,8 @@ const Bookpublishingservices = () => {
     "datePublished": "2022-03-18"
 
 
-   }
-  const schema1 = { 
+  }
+  const schema1 = {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
@@ -135,51 +137,51 @@ const Bookpublishingservices = () => {
   const schema2 = {
 
     "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "bookwritingexperts",
-  "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
-  "@id": "",
-  "url": "https://bookwritingexperts.com/book-editing-services/",
-  "telephone": "2132893888",
-  "priceRange": "$99",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "445 S Figueroa St",
-    "addressLocality": "Los Angeles",
-    "addressRegion": "CA",
-    "postalCode": "90071",
-    "addressCountry": "US"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 34.0536155,
-    "longitude": -118.2568651
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday"
-    ],
-    "opens": "00:00",
-    "closes": "23:59"
-  },
-  "sameAs": [
-    "https://bookwritingexperts.com/",
-    "https://www.facebook.com/bookwritingexperts",
-    "https://twitter.com/bookwritingexp",
-    "https://www.instagram.com/bookwritingexpert/",
-    "https://www.linkedin.com/company/book-writing-exp/",
-    "https://www.pinterest.com/bookwritingexperts/"
-  ] 
+    "@type": "ProfessionalService",
+    "name": "bookwritingexperts",
+    "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
+    "@id": "",
+    "url": "https://bookwritingexperts.com/book-editing-services/",
+    "telephone": "2132893888",
+    "priceRange": "$99",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "445 S Figueroa St",
+      "addressLocality": "Los Angeles",
+      "addressRegion": "CA",
+      "postalCode": "90071",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.0536155,
+      "longitude": -118.2568651
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://bookwritingexperts.com/",
+      "https://www.facebook.com/bookwritingexperts",
+      "https://twitter.com/bookwritingexp",
+      "https://www.instagram.com/bookwritingexpert/",
+      "https://www.linkedin.com/company/book-writing-exp/",
+      "https://www.pinterest.com/bookwritingexperts/"
+    ]
 
-   }
-  const schema3 = { 
+  }
+  const schema3 = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "book editing services book editing company book editors",
@@ -205,7 +207,7 @@ const Bookpublishingservices = () => {
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-    
+
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Professional Book Editing Services - Book Writing Experts</title>
         <meta name="description" content="Book editing services that fixes the writing flaws and make your book a flawless piece of content. Hire us today to get them at affordable pricing." />
@@ -231,7 +233,7 @@ const Bookpublishingservices = () => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema1) }}
         />
-                <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema2) }}
         />
@@ -273,6 +275,12 @@ const Bookpublishingservices = () => {
         Dowecome="publishmybook"
 
       />
+
+      {/* Major */}
+      <Major />
+
+      {/* Cta */}
+      <Cta />
 
       {/* Makestories */}
       <div className='dataSetCo sliderImg'>
