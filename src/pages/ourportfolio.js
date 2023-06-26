@@ -57,7 +57,7 @@ const ourportfolio = () => {
                 <Container className={styles.rate1}>
                     <Row className={`${styles.provide} gy-4`}>
                         <Col md={6}>
-                            <h2 className='color-black font40 font-f'>We Provide Stunning <Link href="/portfoliobookpublishing" className='fw600 color-blue textdocationnone hover'> Book Publishing </Link></h2>
+                            <h2 className='color-black font40 font-f'>We Provide Stunning <br></br> <Link href="/portfoliobookpublishing" className='fw600 color-blue textdocationnone hover'> Book Publishing </Link></h2>
                         </Col>
                         <Col md={6}>
                             <Link className={styles.more} href="/portfoliobookpublishing">See More</Link>
@@ -84,7 +84,7 @@ const ourportfolio = () => {
                 <Container className={styles.rate}>
                     <Row className={`${styles.provide} gy-4`}>
                         <Col md={6}>
-                            <h2 className='color-black font40 font-f'>We Provide Stunning <Link href="/portfoliobookwriting" className='fw600 color-blue textdocationnone hover'> Book Writing </Link></h2>
+                            <h2 className='color-black font40 font-f'>We Provide Stunning <br></br> <Link href="/portfoliobookwriting" className='fw600 color-blue textdocationnone hover'> Book Writing </Link></h2>
                         </Col>
                         <Col md={6}>
                             <Link className={styles.more} href="/portfoliobookwriting">See More</Link>
@@ -115,7 +115,7 @@ const ourportfolio = () => {
                 <Container className={styles.rate}>
                     <Row className={`${styles.provide} gy-4`}>
                         <Col md={6}>
-                            <h2 className='color-black font40 font-f'>We Provide Stunning <Link href="/portfoliobookediting" className='fw600 color-blue textdocationnone hover'> Book Editing </Link></h2>
+                            <h2 className='color-black font40 font-f'>We Provide Stunning  <br></br><Link href="/portfoliobookediting" className='fw600 color-blue textdocationnone hover'> Book Editing </Link></h2>
                         </Col>
                         <Col md={6}>
                             <Link className={styles.more} href="/portfoliobookediting">See More</Link>
@@ -146,7 +146,7 @@ const ourportfolio = () => {
                 <Container className={styles.rate}>
                     <Row className={`${styles.provide} gy-4`}>
                         <Col md={6}>
-                            <h2 className='color-black font40 font-f'>We Provide Stunning <Link href="/portfoliobookmarketing" className='fw600 color-blue textdocationnone hover'>Book Marketing </Link></h2>
+                            <h2 className='color-black font40 font-f'>We Provide Stunning <br></br> <Link href="/portfoliobookmarketing" className='fw600 color-blue textdocationnone hover'>Book Marketing </Link></h2>
                         </Col>
                         <Col md={6}>
                             <Link className={styles.more} href="/portfoliobookmarketing">See More</Link>
