@@ -52,7 +52,7 @@ const ourportfolio = () => {
 
 
 
-                <Container className={styles.rate}>
+                <Container className={styles.rate1}>
                 
 
 

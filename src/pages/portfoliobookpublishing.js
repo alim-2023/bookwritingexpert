@@ -49,7 +49,7 @@ const ourportfolio = () => {
                   </div>
                 </div>
 
-                <Container className={styles.rate}>
+                <Container className={styles.rate1}>
                 
 
 
