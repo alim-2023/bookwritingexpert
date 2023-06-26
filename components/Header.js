@@ -254,7 +254,7 @@ const Header = () => {
                   </Row>
                 </li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/pricing">Pricing</Link></li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="/faqs">Faq's</Link></li>
+                <li className={styles.navlinks}><Link className={styles.menulinks} href="/ourportfolio"> Our Portfolio</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/blogs">Blogs</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/contact">Contact us</Link></li>
               </ul>
