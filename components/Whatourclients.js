@@ -2,9 +2,9 @@ import React from 'react'
 import styles from '@/styles/Whatourclients.module.css'
 import Image from 'next/image'
 import { Container } from 'react-bootstrap'
-import avtar1 from '../public/images/testimonial/avatar-1.png'
-import avtar2 from '../public/images/testimonial/avatar-2.png'
-import avtar3 from '../public/images/testimonial/avatar-3.png'
+import avtar1 from '../public/images/testimonial/avatar-11.png'
+import avtar2 from '../public/images/testimonial/avatar-22.png'
+import avtar3 from '../public/images/testimonial/avatar-33.png'
 
 // footer icons
 import { AiFillStar } from 'react-icons/ai';
