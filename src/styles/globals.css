@@ -95,6 +95,9 @@ body {
 .font25 {
   font-size: 25px;
 }
+.font70{
+  font-size: 70px;
+}
 
 /* fontweignt */
 .fw900 {
@@ -128,6 +131,9 @@ body {
 
 .linh{
   line-height: 1.4;
+}
+.linhight{
+  line-height: 1;
 }
 
 /* alignment */
