@@ -958,6 +958,9 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 }
 
 @media (max-width: 480px) {
+  .font70{
+    font-size: 40px;
+  }
   .bannergllobal .homeSlider{
     display: none;
   }

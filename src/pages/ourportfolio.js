@@ -54,7 +54,7 @@ const ourportfolio = () => {
 
 
 
-                <Container className={styles.rate}>
+                <Container className={styles.rate1}>
                     <Row className={`${styles.provide} gy-4`}>
                         <Col md={6}>
                             <h2 className='color-black font40 font-f'>We Provide Stunning <Link href="/portfoliobookpublishing" className='fw600 color-blue textdocationnone hover'> Book Publishing </Link></h2>
