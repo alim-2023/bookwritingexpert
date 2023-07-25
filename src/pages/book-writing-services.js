@@ -30,15 +30,15 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'>  <Link className='textdocationnone color-blue hover' href="/book-writing-services">Book Writing Services</Link>  <span className=''>That Give Meaning To Your Imagination!</span> </h1>;
+  const newSpan = <h1 className='font50  color-white font-f hero-span'> Leave Your Mark Forever: Our  <Link className='textdocationnone color-blue hover fw700' href="/book-writing-services">Book Marketing Services</Link>  <span className=''>Will Ensure Your Book To Leave a Lasting Impression!</span> </h1>;
 
-  const discuss = <span>LET'S DISCUSS</span>
+  const discuss = <span>Market Your Book Now!</span>
 
 
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Quality Book writing drives traffic, and our experienced writers know the tips and tricks of keeping the readers engaged with appealing word selection',
+      pra: 'Is Your Book Ready to Be Read, But Struggling to Reach Its Target Audience?',
       discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -343,7 +343,7 @@ const Bookpublishingservices = () => {
 
       {/* Stopworrying */}
       <Stopworrying
-        title='Tired Of Trying To Write An Book On Your Own?'
+        title='Are You Seeking For a Swift Solution to Reach a Mass Readership?'
         subtitle={posdata}
         btn1='Get a free Proposal'
         btn2='Talk to an expert'

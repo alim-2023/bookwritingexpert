@@ -42,8 +42,8 @@ const Signup = (props) => {
 
   return (
     <div className={`${styles[props.bannershome]} ${styles[props.form]}`}>
-        <h4 className={styles.getup}> <em className='color-blue font25'>Unable to reach us?</em> </h4>
-        <p className='font-f t-center'> <em>Write to us and we’ll get back to you, at our earliest!</em> </p>
+        <h4 className={styles.getup}> <em className='color-blue font25'>Can't Reach Us?</em> </h4>
+        <p className='font-f t-center'> <em>Drop your details, and we'll soon respond to your inquiry!</em> </p>
       <form onSubmit={handleSubmit}>
         <input type="text" className={styles.nametext} required name="first" placeholder="Full Name:" />
         <input type="email" className={styles.nametext} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address:" />
