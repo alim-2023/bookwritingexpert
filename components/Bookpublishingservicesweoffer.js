@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '@/styles/Bookpublishingservices.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
+import Link from 'next/link'
 import bookediting from '../public/images/bookpublishingservices/book-editing.png'
 import pubicon01 from '../public/images/bookpublishingservices/pub-icon01.png'
 import pubicon02 from '../public/images/bookpublishingservices/pub-icon02.png'
@@ -14,34 +15,34 @@ const Bookpublishingservicesweoffer = () => {
 
             {
                 image: bookediting,
-                title: 'Self Publication',
-                subTitle: "Self Publication",
-                pra: "This service is applicable for those looking to publish their creative pieces. We will be there to guide you through every step of the way! Our team of experts will provide you will necessary resources and assistance including marketing and distribution strategies so that you never have to feel overwhelmed by the burden of responsibility that comes with self publication. There will be zero intervention of any other party, you get to choose how you want your work to be published!"
+                title: (<> <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Amazon KDP</Link> </>),
+                subTitle: "Amazon KDP",
+                pra: (<> Dreaming of becoming an <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Amazon KDP</Link> published author? We're here to turn that dream into a reality! This service is ideal for creators seeking to publish their work with full autonomy. Our skilled team is prepared to guide you through every facet of the process. We offer expert resources and assistance, including tailored marketing and distribution strategies. With us, the journey of self-publication becomes less challenging and more exciting. You maintain complete control over your work, with the assurance that our support is just a step away. Trust us to help you navigate the exciting world of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Amazon KDP</Link> publishing and let your story shine! </>)
 
             },
 
             {
                 image: pubicon01,
-                title: 'Paperback Publication',
-                subTitle: "Paperback Publication",
-                pra: "We believe in making your book available across the globe. We ensure that your book stays on-demand and readily available in hardcover and paperback formats. Our extensive marketing and distribution approaches make sure your book accessible on every platform. It enables the readers to find all that they need through one source. Our devoted team of top professionals."
+                title: (<> <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Self-Publishing</Link> </>),
+                subTitle: "Self-Publishing",
+                pra: (<> If you are eager to share your creative masterpiece with the world, our <Link className='textdocationnone text-white hover' href="/book-publishing-services/">self publishing service</Link> is designed just for you. We are committed to standing by your side throughout the entire process, ensuring you feel supported, not swamped. Our expert team is equipped to offer you valuable resources and personalized assistance, encompassing areas like effective marketing and smart distribution. The beauty of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">self publishing</Link> lies in retaining complete control of your work – and that is precisely what we promise. No interference, just your vision published exactly the way you envisioned it! </>)
 
             },
 
             {
                 image: pubicon02,
-                title: 'Online Publication',
-                subTitle: "Online Publication",
-                pra: "We pride ourselves in turning average writers into published authors by giving them control over every aspect of their creative concept and publishing objective for an eBook – from brainstorming through editing. We are more than just book publishers, we help bring out your marketing plan for a successful launch and greater returns!"
+                title: (<> <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Lulu Book Publishing</Link> </>),
+                subTitle: "Lulu Book Publishing",
+                pra: (<> Unleash your creativity with our <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Lulu Book Publishing</Link> service! This bespoke offering is ideal for those ready to bring their unique literary pieces to life. Our dedicated team of expert <Link className='textdocationnone text-white hover' href="/book-publishing-services/">lulu book publishers</Link> will be with you at every turn, providing valuable resources and personalized assistance including potent marketing and distribution strategies. Enjoy the convenience of self-publishing without the stress, as we alleviate the overwhelming responsibilities that come with it. With us, you're at the helm, making decisions about how your work should be presented to the world. Embrace your journey of self-publishing with confidence, knowing we're with you every step of the way! </>)
 
             },
 
 
             {
                 image: book,
-                title: "Other Self Publishing Services",
-                subTitle: "Other Self Publishing Services",
-                pra: "Certified partners with the “Amazon Self Publishing Services”. Being Amazon's Self Publishing Partners gives us the edge to get the Fastest Turn around time to publish book on amazon. Self Publishing doesn’t necessarily mean that you will never be contacted by a Major Traditional Publishing House, elf Publishing gives you the freedom to control every aspect of the process as per your vision. Publish book on amazon."
+                title: (<> <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Ingramspark Publishing Services</Link> </>),
+                subTitle: "Ingramspark Publishing Services",
+                pra: (<> Dive into the world of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Ingramspark Publishing Services</Link> with us! Perfect for budding authors eager to share their creativity with the world, we provide an end-to-end service that ensures your self-publishing journey is seamless and fulfilling. Our team stands ready to guide you through every stage of the process, offering critical resources and support, including tailored marketing and distribution strategies. With us, you're never alone in the vast self-publishing landscape. We pledge zero interference from third parties, providing you with the autonomy to publish your work exactly as you envision. Join us, and let's bring your literary vision to life! </>)
 
             },
 
@@ -57,9 +58,9 @@ const Bookpublishingservicesweoffer = () => {
 
                     <Row>
                         <Col xl={12}>
-                            <h2 className="fw700 font50 text-white font-f t-center mb-3">The Book Publishing Services We Provide!</h2>
+                            <h2 className="fw700 font50 text-white font-f t-center mb-3">The <Link className='textdocationnone text-white hover' href="/book-publishing-services/">Book Publishing Services</Link> We Provide!</h2>
 
-                            <p className="font15 text-white font-f t-center textcolor mb-3">We provide various self-publishing services. There are many options available to you, and you can have the finished project for a very low price and in the time frame you require! With our reasonable package options, you may realize your literary idea! Through our partnerships with a vast network of geographically diverse print-on-demand suppliers and book distributors, we help writers self-publish their books for global distribution.</p>
+                            <p className="font15 text-white font-f t-center textcolor mb-3">Book Writing Experts proudly provides a comprehensive range of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing services</Link>. From the initial manuscript evaluation to final proofreading, and including steps such as detailed editing, layout design, and cover art creation, we've got you covered. We also offer guidance through the often complex world of distribution, marketing, and copyright registration. Our commitment is to deliver a professional, seamless service that allows your unique voice to reach readers worldwide. Entrust your literary journey to our expert team.</p>
 
                         </Col>
 

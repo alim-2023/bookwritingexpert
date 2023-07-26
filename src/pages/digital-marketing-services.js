@@ -2,6 +2,7 @@ import React from 'react'
 import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
 import Banner from '../../components/Banner'
 import Head from 'next/head'
+import Link from 'next/link'
 import Makestoriesnew from '../../components/Makestoriesnew'
 import Lululogos from '../../components/Lululogos'
 import Aspiring from '../../components/Aspiring'
@@ -19,26 +20,23 @@ import Cta from '../../components/Cta'
 
 const Digitalmarketingservices = () => {
 
-
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>     Result-focused Digital Marketing Services, Crafted to Enhance Your Book Experience for The Readers.</span>   </h1>;
-
-  const discuss = <span>LET'S DISCUSS</span>
-
   const bannertext = [
     {
-      title: newSpan,
-      pra: 'Amplify your book sales through our digital marketing services. Build credibility and reach out to a greater audience as you already are.',
-      discuss: discuss,
+      title: (
+        <>
+          <h1 className='font50 fw300 text-white font-f hero-span'>Propel Your Book's Success With Customized <Link className='textdocationnone fw700 color-blue hover' href="/digital-marketing-services/">Digital Book Marketing Services</Link>, Designed To Enrich The Reader Experience.</h1>
+        </>
+      ),
+      pra: (
+        <> Supercharge Your Book Sales with Our Innovative <Link className='textdocationnone text-white hover' href="/digital-marketing-services/">Digital Book Marketing Services</Link>. Expand Your Reach, Build  Extraordinary Credibility, and Engage an Ever-Growing Audience. </>
+      ),
+      discuss: "LET'S DISCUSS",
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'digitalmarketingservices',
 
-
-
     }
   ]
-
-
 
 
   const schema = {
@@ -227,25 +225,9 @@ const Digitalmarketingservices = () => {
       {/* partners components */}
 
 
-
-
-
-
-
-
-
-
-
       {/* Dowecome */}
       <Dowecome
-        title='You`re So Close to Revealing Your Writing Capability- Take Yourself a Hand from Our Experts!'
-        text="The complexities of the book-writing process might be perplexing at times. Even the thought of editing, proofreading, and publishing all by yourself is terrifying. We understand the effort, tenacity, and difficulty involved, so why not hire a helping hand? We are merely a phone call, text message, or email away! Let's work together."
-        number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
         Dowecome="publishmybook"
-        image={youareonestepcloserto}
-
-
       />
 
       {/* Major */}
@@ -261,8 +243,8 @@ const Digitalmarketingservices = () => {
           para='Let Our Digital Marketing Team Help You'
         />
       </div>
-      {/* Lululogos components */}
 
+      {/* Lululogos components */}
 
       <Lululogos />
 
@@ -276,10 +258,10 @@ const Digitalmarketingservices = () => {
 
       {/* Aspiring */}
       <Aspiring
-        title='Book Cover Designs That Stand Out'
-        text="We are a fantastic choice for cover designs, page layouts, and book designs. We have a group of qualified graphic designers who have created dozens of book covers and page layouts. Our designers will work with you to ensure that your book and cover are supplied according to specifications using all of the information they have. To address any potential technical issues, we offer efficient maintenance for the given files."
+        title='Eye-Catching Book Cover Designs: Standing Out From The Crowd'
+        text={<> Our exceptional <Link className='textdocationnone color-lightgray hover' href="/digital-marketing-services/">digital book marketing services</Link> help to design cover designs, page layouts, and book designs, that are the perfect choice for your business. Our highly skilled graphic designers have crafted numerous captivating book covers and page layouts. By hiring our skilled designers, we ensure that your book and cover are specifically customized to meet your business needs and requirements. </>}
         number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
+        discuss="Chat With Us Today!"
       />
 
 
@@ -296,19 +278,21 @@ const Digitalmarketingservices = () => {
       {/* Aspiring */}
       <div className='newdatecloud'>
         <Aspiring
-          title='Let Our Digital Marketing Company Pull Off The Marketing Strain From Your Shoulders!'
-          text='Marketing, precisely book marketing, is not everyone’s cup of tea. But, for us, it’s just a piece of cake. Unequivocally, a lot goes into the advertising affair, from developing the sound pitching idea to devising the profitable social media campaigns, just to name a few. All these may seem daunting for you, but not for us. We share the incredible experience of helping authors launch and making them the internet sensation across multiple online platforms.'
+          title={<> Relieve Your Marketing Burden With Our <Link className='textdocationnone color-blue hover' href="/digital-marketing-services/">Digital Book Marketing Agency</Link>! </>}
+          text={<> Marketing, especially book marketing, can be a challenging task for many. However, for <strong>Book Writing Experts</strong>, it's a breeze. We understand the intricacies of advertising, from crafting compelling pitches to devising profitable social media campaigns and beyond. While these tasks may seem overwhelming to you, we have the expertise and experience to handle them with ease. Let us shoulder the marketing strain and pave the way for your success! </>}
           number="(213) 289 3888"
-          discuss="LET'S DISCUSS"
+          discuss="Hire Our Book Marketing Services Today!"
           img={youareonestepcloserto}
 
         />
       </div>
+
+
       <Companypull
-        title='Helping Your Story Reach Nook And Corner Of The World With Gamut Of Digital Marketing Services!'
-        text='Call Us Now To Bring Your Book Under The Limelight.'
+        title={<> Expanding Your Story's Global Presence through Comprehensive <Link className='textdocationnone text-white hover' href="/digital-marketing-services/">Digital Marketing Services</Link>! </>}
+        text={<> Contact Us Today to Illuminate Your Book's Path to Success. </>}
         number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
+        discuss="We are Available 24/7 Chat With Us!"
       />
 
 
@@ -316,11 +300,11 @@ const Digitalmarketingservices = () => {
 
 
       <Stopworrying
-        title='Selling Books is an uphill struggle!'
-        subtitle='One-Stop Solution For Ghostwriting, Promoting And Branding Your Digital Riches.'
-        subtitle2='Come, get your books written by experts!'
+        title='Conquer the Challenges of Book Selling!'
+        subtitle='One-Stop Solution For Ghostwriting, Promoting, And Branding Your Digital Riches.'
+        subtitle2='Trust your books to be crafted by our team of professional writers.'
         btn1='Get a free Proposal'
-        btn2='Talk to an expert'
+        btn2='Hire Our Digital Book Marketing Services Now! '
       />
 
 

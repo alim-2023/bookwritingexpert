@@ -13,6 +13,7 @@ return (
    <div className={styles[props.classnumber]}>
         <h5 className="font20 fw700 text-white font-f">{props.title}</h5>
         <p className={` ${styles.stilltext} color-white font15  font-f`}>{props.text}</p>
+        <p className={` ${styles.stilltext} color-white font15  font-f`}>{props.text2}</p>
       
    </div>
 </Col>

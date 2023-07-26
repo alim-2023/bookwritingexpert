@@ -29,17 +29,18 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 
 const Bookpublishingservices = () => {
-  const text = <span>We write, market, and review books of all kinds.</span>;
-  const subtext = <span> Profit from our wide range of book publication styles and forms to secure your position as a book writing guru. In addition to publishing children's books, we are among the top Amazon publishing service suppliers.</span>;
-
-  const newSpan = <h1 className='font50 fw700 color-blue font-f hero-span'> <span className=''>Providing Full Fledged</span> <Link className='textdocationnone color-blue hover' href="/book-publishing-services"> Book Publishing Services  </Link>  <span className=''>All Prospective Authors.</span> </h1>;
-  const discuss = <span>LET'S DISCUSS</span>
 
   const bannertext = [
     {
-      title: newSpan,
-      pra: 'Book Writing Expert is one of the most preferred publishing agencies, specialized for publishing on all available platforms. Simplifying the publication process for all writers to be, get your book published on Amazon or Barnes & Nobles at the earliest.',
-      discuss: discuss,
+      title: (
+        <>
+          <h1 className='font50 fw300 text-white font-f hero-span'>It’s Time to Convert Your Literary Dreams To Reality With Our Diverse Range of <Link className='textdocationnone fw700 color-blue hover' href="/book-publishing-services/">Book Publishing Services</Link>.</h1>
+        </>
+      ),
+      pra: (
+        <> Are you facing complications regarding <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link>? Break free from the challenges of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link> with the help of Book Writing Experts! </>
+      ),
+      discuss: (<> Hire The Best Book Publishers Today! </>),
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'bookpublishingservices',
@@ -50,16 +51,7 @@ const Bookpublishingservices = () => {
     }
   ]
 
-
-
-
-
-  const geta = <span>Get A Customized Solution By <Link className='color-blue fw700 hover textdocationnone' href='/book-publishing-services'> Best Publishing Services </Link></span>
-
-
-  const work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
-
-  const dateset = <span className='fw500'>Let’s <Link className='textdocationnone fw700 color-blue hover' href='/book-publishing-services'> Publish Your <br></br> Masterpiece</Link>  Together! </span>
+  const work = <span>Your work is over after creating a masterpiece. Let us take the lead from here. Our <Link className='colortextgrey textdocationnone hover' href='/book-publishing-services/'> Amazon publishing services </Link> include the three crucial areas of the publishing process: Production, Marketing, and Distribution. As the best publishers, our experience lies in publishing many books by professional writers. And our publishing experts have upgraded many authors to published book authors universally. It’s time for you to get famous!</span>
 
 
   const schema = {
@@ -246,10 +238,7 @@ const Bookpublishingservices = () => {
 
       {/* Dowecome */}
       <Dowecome
-        title={geta}
-        text={work}
         Dowecome="publishmybook"
-
       />
 
       {/* Major */}
@@ -261,8 +250,8 @@ const Bookpublishingservices = () => {
       {/* Makestories */}
       <div className='dataset sliderImg'>
         <Makestoriesnew
-          title='Our Latest Book Publishing Projects'
-          para='Let Our Book Publishing Team Help You'
+          title={<> Dwell into Our Recent <Link className='textdocationnone color-blue hover' href="/book-publishing-services/">Book Publishing</Link> Projects! </>}
+          para={<> Allow our professional <Link className='textdocationnone textcolor hover' href="/book-publishing-services/">book publishers</Link> to assist you in your literary endeavors. </>}
         />
       </div>
 
@@ -270,26 +259,26 @@ const Bookpublishingservices = () => {
       <Bookpublishingservicesweoffer />
 
       <Ourprocess
-        title='What Is Our Process of Publishing a Book?'
-        text='Without compromising the quality of the finished product, we have developed a complex workflow procedure. We accomplish this through a thorough process that involves informing our clients at each project stage and requesting approvals. This makes the customer more aware of what`s happening at each stage. These six processes, which are listed below, comprise our self-publishing process.'
-        heading1='Manuscript Submission'
-        para1='The writer contacts us for submission of their full-length manuscript, while submitting, we discuss our publishing rules and sign the contract.'
+        title={<> How Does Our Incredibly Crafted <Link className='textdocationnone color-blue hover' href="/book-publishing-services/">Book Publishing</Link> Journey Unfold? </>}
+        text='Join us on a streamlined journey from manuscript to masterpiece. Our process includes refining narratives, crafting compelling visuals, meticulous book preparation, and handling distribution, marketing, and copyright tasks. Discover the elegance of our efficient book publishing process, designed to make your literary vision a global reality.'
+        heading1='Manuscript Assessment'
+        para1='Your journey begins with us diving into your raw manuscript. Our dedicated team diligently assesses your work, identifying its strengths and areas for improvement.'
         num1='01'
 
-        heading2='Peers Review'
-        para2='Our experienced editors then review the manuscript and make the required changes with the writer’s permission.'
+        heading2='Editing and Refinement'
+        para2={<> Your words are then entrusted to our skilled <Link className='textdocationnone color-lightgray hover' href="/book-editing-services/">book editors</Link>, who meticulously refine your narrative, ensuring optimal clarity, coherence, and compelling storytelling. </>}
         num2='02'
 
-        heading3='Formatting and Typesetting'
-        para3='After the manuscript is reviewed by editors, our experts do the formatting and add images.'
+        heading3='Design and Layout'
+        para3='Once the editing phase is complete, our talented designers step in. They artistically bring your book to life, creating an engaging layout and an impactful cover that echoes your unique voice.'
         num3='03'
 
-        heading4='Book Production'
-        para4='We design the first copy of the book and take reviews from the writer. The rest of the books are produced on the same pattern while keeping all the important aspects into consideration.'
+        heading4='Book Preparation'
+        para4='We then prepare your book for publishing. Every detail is scrutinized to align with industry standards, maintaining the highest level of quality.'
         num4='04'
 
-        heading5='Marketing, Publishing, and Distribution'
-        para5='Before publishing, we spread awareness about the book to create demand. And Voila! The book is published now!'
+        heading5='Distribution, Marketing, and Copyright'
+        para5='Here comes the moment you wait for the most! Your masterpiece is finally ready to reach the masses. We navigate the complexities of distribution, craft strategic marketing plans, and register the copyright, ensuring your book makes its mark in the literary world.'
         num5='05'
       />
 
@@ -297,11 +286,11 @@ const Bookpublishingservices = () => {
       {/* Stopworrying */}
       <div className='dataSetCo'>
         <Stopworrying
-          title2={dateset}
-          subtitle3='It’s time you get book marketing experts on board and take their help in marketing your book. Your story needs to be heard by everyone; make sure you are not going for the shady agency and putting your book reputation in jeopardy.'
-          subtitle4='Trust the marketing professionals for it, do not risk it!'
+          title2={<> Hire Our <Link className='textdocationnone fw700 color-blue hover' href='/book-publishing-services/'>Book Publishing Company</Link> to Bring Your Literary Masterpiece to Life! </>}
+          subtitle3='Are you looking for a publishing partner? Well, Book Writing Experts will inspire you in your literary adventures. We are here to help you transform your literary dreams into reality. At our publishing company, we believe in nurturing and supporting talented authors like you, and we are dedicated to bringing your masterpiece to the bookshelves.'
+          subtitle4='So, what’s stopping you from reaching your goals to become an aspiring novelist? '
           btn1='Get a free Proposal'
-          btn2='Talk to an expert'
+          btn2='Looking For a Publishing Partner? Hire Us Today!'
         />
       </div>
 
@@ -311,39 +300,39 @@ const Bookpublishingservices = () => {
         <Container>
           <Row>
             <Col>
-              <h2 className='color-blue fw700 font50 font-f t-center'>Why Choose Our Amazon Publishing Services?</h2>
+              <h2 className='color-blue fw700 font50 font-f t-center'>
+                Why Choose Our <Link className='textdocationnone color-blue hover' href='/book-publishing-services/'>Amazon Publishing Services</Link>?
+              </h2>
             </Col>
           </Row>
         </Container>
       </section>
       {/* Selfpublishing */}
       <Selfpublishing
-        title='How Does The "Publishing Process" Come About?'
-        text='Do you want your book or novel to evoke strong emotions among readers? Do you have a life or career-related inspirational story to share? Would you like to compel your readers to explore their imaginations? There are amazing stories all around us, but not everyone can write in a way that provokes thought. This is where our service can be of assistance.'
-        subtext='For us, our customer comes first. Therefore, we make sure that everything—from page-turners to suspenseful conclusions—feels expertly managed. We want you to keep your readership, and our book editing team looks forward to proofreading and editing your next thing.'
+        title='Prime-Quality and Expertise'
+        text={<> Our <Link className='textdocationnone textcolor hover' href='/book-publishing-services/'>Amazon Publishing Services</Link> are backed by a team of experienced professionals who have in-depth knowledge and expertise in the publishing industry. We are committed to delivering high-quality content that meets industry standards and exceeds your expectations. With our services, you can trust that your books will be handled with care and precision. </>}
         number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
+        discuss="Consult With Our Expert Team Now!"
         image={publishmybook}
         whychooseclass="marketyourbook"
       />
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title='Our Willingness To Publish Knows No Bounds!'
-        text={text}
-        subtext={subtext}
+        title='Enhanced Visibility and Reach'
+        text={<> Choosing our <Link className='textdocationnone textcolor hover' href='/book-publishing-services/'>Amazon Publishing Services</Link> opens up new avenues for your book to reach a wider audience. With Amazon's vast customer base and powerful marketing tools, we can help boost the visibility of your book, increase its discoverability, and maximize its potential for success. Our strategies are designed to enhance your book's presence and attract more readers. </>}
         number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
+        discuss="Let’s Discuss Your Book Publishing Project"
         image={typeofbooks}
         whychooseclass="marketyourbook"
       />
 
       {/* Selfpublishing */}
       <Selfpublishing
-        title='Unlimited Book Distribution!'
-        text='We produce and publish books to meet your specifications. We create your account with Amazon and other websites so we may publish and print books for you without having to meet any minimum order restrictions. You have the option to request printing of as many or as few copies. Providing our clients with the highest quality and most affordable Kindle direct publishing and printing services, as well as shipping and handling throughout the state.'
+        title='Streamlined Publishing Process'
+        text={<> We at Book Writing Experts understand the importance of a smooth and efficient <Link className='textdocationnone textcolor hover' href='/book-publishing-services/'>book publishing</Link> process. With our services, you can expect a streamlined workflow that simplifies the publishing journey. From manuscript formatting and editing to cover design and eBook conversion, we handle every aspect professionally, allowing you to focus on your writing while we take care of the technicalities. </>}
         number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
+        discuss="Chat Now!"
         image={copy}
         whychooseclass="marketyourbook"
       />
@@ -351,11 +340,10 @@ const Bookpublishingservices = () => {
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title='All Of Your Burning Book Marketing Questions- Answered!'
-        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Book Writing Experts based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
-        subtext='Whether you are an experienced writer or a beginner, our advice and marketing tactics will help you build a global internet presence. Our book marketing experts will assist your book and brand in achieving the success they deserve.'
+        title='Comprehensive Marketing Support'
+        text={<> Our <Link className='textdocationnone textcolor hover' href='/book-publishing-services/'>Amazon Publishing Services</Link> go beyond just publishing your book. We offer comprehensive marketing support to help you build a strong author platform and promote your work effectively. Our marketing strategies include targeted advertising, social media campaigns, email marketing, and more, tailored to your specific audience and genre. We strive to maximize your book's exposure and generate buzz in the competitive publishing landscape. </>}
         number="(213) 289 3888"
-        discuss="LET'S DISCUSS"
+        discuss="Click On This Chat Button and Get Our Assistance"
         image={marketyourbook}
         whychooseclass="marketyourbook"
       />
@@ -378,33 +366,13 @@ const Bookpublishingservices = () => {
 
       <div className='datacloud'>
         <Aspiring
-          title='Book Cover Designs That Stand Out'
-          text='We are a fantastic choice for cover designs, page layouts, and book designs. We have a group of qualified graphic designers who have created dozens of book covers and page layouts. Our designers will work with you to ensure that your book and cover are supplied according to specifications using all of the information they have. To address any potential technical issues, we offer efficient maintenance for the given files.'
-
+          title={<> Choose Our <Link className='textdocationnone color-blue fw700 hover' href='/book-publishing-services/'>Book Publishing Company</Link> and Expand Your Reach in the Book Realm! </>}
+          text={<> Ready to turn the page on your publishing dreams? Let us write your success story together! Choose our <Link className='textdocationnone color-lightgray hover' href='/book-publishing-services/'>book publishing company</Link> and let your words come to life. Start your literary journey now! </>}
           number="(213) 289 3888"
-          discuss="LET'S DISCUSS"
-
+          discuss="Get Your Free Proposal!"
         />
 
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </>
