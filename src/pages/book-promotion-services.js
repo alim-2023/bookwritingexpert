@@ -38,8 +38,8 @@ const Bookpublishingservices = () => {
         </>
       ),
       pra: 'Are you struggling to connect with your intended audience? Worry no more because your book is yearning for readers to immerse themselves in its pages, but the world has yet to discover its wonders!',
-      discuss: (<> Hire Our Book Promotion Services Today! </>),
-      homebannernum: '(213) 289 3888',
+      discuss: 'Hire Our Book Promotion Services Today!',
+      homebannernum: 'Call Us Now at (213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'bookpromotionservices',
     }
@@ -376,7 +376,6 @@ const Bookpublishingservices = () => {
           title2={<> Seeking an Expert for Your <Link className='textdocationnone color-blue fw700 hover' href='/book-promotion-services/'>Book Promotions</Link>? </>}
           text={`It's time to bring in the expertise of book promotion professionals and elevate your book's visibility. Your story deserves to be heard by everyone, but it's crucial to avoid questionable agencies that could potentially harm your book's reputation.`}
           subtext='Don’t leave it to luck! Craft your triumph tale today.'
-          btn1='Get a free Proposal'
           btn2='Chat With Our Expert Now!'
         />
       </div>
@@ -448,8 +447,7 @@ const Bookpublishingservices = () => {
         <Aspiring
           title={<> Transforming Your Book into a Literary Gem: Join the Ranks of Literature With The Best <Link className='textdocationnone color-blue fw700 hover' href='/book-promotion-services/'>Book Promotion Services</Link>! </>}
           text={<> Ready to witness your work soar to new heights? Look no further than the <strong>Book Writing Experts</strong>. Our extensive industry experience gives us the knowledge and expertise to make your book stand out and garner unparalleled exposure. Take the leap and call us today to propel your book to the next level! </>}
-          number="(213) 289 3888"
-          discuss="Get A Free Proposal"
+          number="Call us at (213) 289 3888"
         />
       </div>
 

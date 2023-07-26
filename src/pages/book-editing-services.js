@@ -44,7 +44,7 @@ const Bookpublishingservices = () => {
       title: newSpan,
       pra: ideas,
       discuss: discuss,
-      homebannernum: '(213) 289 3888',
+      homebannernum: 'Call Us Now At (213) 289 3888 ',
       banlogo: homebannerlogos,
       banners: 'bookeditingservices',
 
@@ -478,8 +478,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
         <Stopworrying
           title2= {mishaps}
           text= {errorless}
-          btn1='Chat With Our Experts Today!'
-          btn2='Talk to an expert'
+          btn2='Chat With Our Experts Today!'
         />
       </div>
 
@@ -501,7 +500,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
         <Aspiring
           title= {glance}
           text= {perplexing}
-          number="(213) 289 3888"
+          number="Call Us At (213) 289 3888 "
         />
       </div>
 

@@ -41,7 +41,7 @@ const Bookpublishingservices = () => {
         <> Are you facing complications regarding <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link>? Break free from the challenges of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link> with the help of Book Writing Experts! </>
       ),
       discuss: (<> Hire The Best Book Publishers Today! </>),
-      homebannernum: '(213) 289 3888',
+      homebannernum: 'Call Us at (213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'bookpublishingservices',
       process: 'OUR PROCESS, IN A MINUTE',
@@ -368,8 +368,7 @@ const Bookpublishingservices = () => {
         <Aspiring
           title={<> Choose Our <Link className='textdocationnone color-blue fw700 hover' href='/book-publishing-services/'>Book Publishing Company</Link> and Expand Your Reach in the Book Realm! </>}
           text={<> Ready to turn the page on your publishing dreams? Let us write your success story together! Choose our <Link className='textdocationnone color-lightgray hover' href='/book-publishing-services/'>book publishing company</Link> and let your words come to life. Start your literary journey now! </>}
-          number="(213) 289 3888"
-          discuss="Get Your Free Proposal!"
+          number="Call at (213) 289 3888"
         />
 
       </div>

@@ -42,8 +42,8 @@ const Companypull = (props) => {
 
 
                         <div className='mt-5'>
-                            <Link className={styles.btn1} href="#">Get a free Proposal</Link>
-                            <Link className={styles.btn2} href="#">Talk to an expert</Link>
+                
+                            <Link className={styles.btn1} href="#">We are Available 24/7 Chat With Us!</Link>
                             <Link className={styles.btn2} href="tel:(213) 289 3888"> {props.number}</Link>
                             
                         </div>

@@ -65,9 +65,9 @@ const Stopworrying = (props) => {
 
             <div className={styles.aligntop}>
 
-              <Link href='#' className={styles.btn1}> {props.btn1} </Link>
-              <Link href='#' className={styles.btn2}> {props.btn2} </Link>
-              <Link href='tel:2132893888' className={styles.btn2}>(213) 289 3888</Link>
+          
+              <Link href='#' className={styles.btn1}> {props.btn2} </Link>
+              <Link href='tel:2132893888' className={styles.btn2}>Call Us At (213) 289 3888</Link>
 
             </div>
 

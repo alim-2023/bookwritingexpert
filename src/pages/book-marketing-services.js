@@ -44,7 +44,7 @@ const Bookpublishingservices = () => {
       title: newSpan,
       pra: 'Is Your Book Ready to Be Read, But Struggling to Reach Its Target Audience?',
       discuss: discuss,
-      homebannernum: '(213) 289 3888',
+      homebannernum: 'Call Our Team At (213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'bookpromotionservices',
 
@@ -462,7 +462,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         <Aspiring
           title={industry}
           text={challenging}
-          number="(213) 289 3888"
+          number="Call Our Team - (213) 289 3888"
         />
 
       </div>

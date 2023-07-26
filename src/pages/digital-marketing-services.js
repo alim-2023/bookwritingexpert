@@ -280,8 +280,7 @@ const Digitalmarketingservices = () => {
         <Aspiring
           title={<> Relieve Your Marketing Burden With Our <Link className='textdocationnone color-blue hover' href="/digital-marketing-services/">Digital Book Marketing Agency</Link>! </>}
           text={<> Marketing, especially book marketing, can be a challenging task for many. However, for <strong>Book Writing Experts</strong>, it's a breeze. We understand the intricacies of advertising, from crafting compelling pitches to devising profitable social media campaigns and beyond. While these tasks may seem overwhelming to you, we have the expertise and experience to handle them with ease. Let us shoulder the marketing strain and pave the way for your success! </>}
-          number="(213) 289 3888"
-          discuss="Hire Our Book Marketing Services Today!"
+          number="Dial (213) 289 3888"
           img={youareonestepcloserto}
 
         />
@@ -291,8 +290,7 @@ const Digitalmarketingservices = () => {
       <Companypull
         title={<> Expanding Your Story's Global Presence through Comprehensive <Link className='textdocationnone text-white hover' href="/digital-marketing-services/">Digital Marketing Services</Link>! </>}
         text={<> Contact Us Today to Illuminate Your Book's Path to Success. </>}
-        number="(213) 289 3888"
-        discuss="We are Available 24/7 Chat With Us!"
+        number="Call At (213) 289 3888"
       />
 
 

@@ -41,7 +41,7 @@ const EbookWritingservices = () => {
         <> Let us be the voice of your creativity and bring your novels to life with our expert <Link className='textdocationnone text-white hover' href="/ebook-writing-services/">ebook writers</Link>. We breathe life into your ideas, crafting exceptional narratives. </>
       ),
       discuss: "Hire Professional Ebook Writing Services!",
-      homebannernum: '(213) 289 3888',
+      homebannernum: 'Call Us at (213) 289 3888',
       banlogo: homebannerlogos,
       banners: 'ebook',
 
@@ -404,8 +404,7 @@ const EbookWritingservices = () => {
           title={<> Revitalize Your Words With Our Expert <Link className='color-blue textdocationnone hover' href='/ebook-writing-services/'>Ebook Writing Services</Link>! </>}
           text="Trust us to guide you through every step, ensuring your legacy thrives in the power of words."
           subtext="So, ask yourself, what is restricting you to reach your goals?"
-          number="(213) 289 3888"
-          discuss="Redeem Your Free Proposal"
+          number="Call Now At (213) 289 3888"
         />
       </div>
 
