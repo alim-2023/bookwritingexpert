@@ -95,7 +95,7 @@ const EbookWritingservices = () => {
   const dateset = <span className='fw500'>  Are You On The Lookout For <br></br> <Link href='/book-formatting-services' className='color-blue textdocationnone hover fw700'>Professional Formatting Services?</Link> </span>
 
 
-  const datesettext = <span>  Texas Book Publishing is the perfect destination to stop by. You can confide in us for formatting your book up to the universal standards. Have us on your side and define the success of your book with our professional book formatting services!
+  const datesettext = <span>  Book Writing Experts is the perfect destination to stop by. You can confide in us for formatting your book up to the universal standards. Have us on your side and define the success of your book with our professional book formatting services!
 
   </span>
 
@@ -151,7 +151,7 @@ const EbookWritingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/formatting-services/"
+      "@id": "https://bookwritingexperts.com/formatting-services/"
     },
     "headline": "Formatting Services To Help You Pen Down Your Thoughts Effortlessly!",
     "description": "Formatting Services",
@@ -174,11 +174,11 @@ const EbookWritingservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-formatting-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-formatting-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -192,7 +192,7 @@ const EbookWritingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/book-formatting-services/",
+    "url": "https://bookwritingexperts.com/book-formatting-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -223,7 +223,7 @@ const EbookWritingservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -235,10 +235,10 @@ const EbookWritingservices = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     "name": "bookwritingexperts",
-    "url": "https://texasbookpublishing.com/book-formatting-services/",
+    "url": "https://bookwritingexperts.com/book-formatting-services/",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://texasbookpublishing.com/formatting-services/search?q={search_term_string}",
+      "target": "https://bookwritingexperts.com/formatting-services/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -251,12 +251,12 @@ const EbookWritingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Book Formatting Services - Texas Book Publishing</title>
+        <title>Book Formatting Services - Book Writing Experts</title>
         <meta name="description" content="Book Formatting Services that meet the global formatting standards. Call the experts to get it done at affordable price range." />
         <link rel="canonical" href="/book-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Book Formatting Services - Texas Book Publishing" />
+        <meta property="og:title" content="Book Formatting Services - Book Writing Experts" />
         <meta property="og:description" content="Book Formatting Services that meet the global formatting standards. Call the experts to get it done at affordable price range." />
         <meta property="og:url" content="/book-writing-services" />
         <meta property="og:site_name" content="Book Writing" />

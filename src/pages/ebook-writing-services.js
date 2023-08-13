@@ -56,7 +56,7 @@ const EbookWritingservices = () => {
     {
       img: mission1,
       title: 'Delivery Commitments',
-      text: (<> At <strong>Texas Book Publishing</strong>, we prioritize our clients above all else! Our <Link className='color-lightgray textdocationnone hover' href='/ebook-writing-services/'>ebook writers</Link> guarantee timely delivery of your e-books, ensuring you receive them right on schedule. </>),
+      text: (<> At <strong>Book Writing Experts</strong>, we prioritize our clients above all else! Our <Link className='color-lightgray textdocationnone hover' href='/ebook-writing-services/'>ebook writers</Link> guarantee timely delivery of your e-books, ensuring you receive them right on schedule. </>),
       class: 'fintop',
 
 
@@ -74,7 +74,7 @@ const EbookWritingservices = () => {
     {
       img: mission3,
       title: 'Thoroughly Researched Customization:',
-      text: (<> At <strong>Texas Book Publishing</strong>, our team of professional <Link className='color-lightgray textdocationnone hover' href='/ebook-writing-services/'>ebook writers</Link> conducts comprehensive research on the subject matter, ensuring the delivery of personalized content tailored to your specific requirements. </>),
+      text: (<> At <strong>Book Writing Experts</strong>, our team of professional <Link className='color-lightgray textdocationnone hover' href='/ebook-writing-services/'>ebook writers</Link> conducts comprehensive research on the subject matter, ensuring the delivery of personalized content tailored to your specific requirements. </>),
       class: 'fintop',
 
 
@@ -140,7 +140,7 @@ const EbookWritingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/ebook-writing-services/"
+      "@id": "https://bookwritingexperts.com/ebook-writing-services/"
     },
     "headline": "Ebook Writing Services That Give Meaning To Your Imagination!",
     "description": "Ebook Writing Services",
@@ -163,11 +163,11 @@ const EbookWritingservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/ebook-writing-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/ebook-writing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -181,7 +181,7 @@ const EbookWritingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/ebook-writing-services/",
+    "url": "https://bookwritingexperts.com/ebook-writing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -212,7 +212,7 @@ const EbookWritingservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -231,12 +231,12 @@ const EbookWritingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Ebook Writing Services - Texas Book Publishing</title>
+        <title>Professional Ebook Writing Services - Book Writing Experts</title>
         <meta name="description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
         <link rel="canonical" href="/ebook-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Ebook Writing Services - Texas Book Publishing" />
+        <meta property="og:title" content="Professional Ebook Writing Services - Book Writing Experts" />
         <meta property="og:description" content="Ebook Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
         <meta property="og:url" content="/ebook-writing-services" />
         <meta property="og:site_name" content="Book Writing" />

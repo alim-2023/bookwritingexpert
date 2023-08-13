@@ -52,7 +52,7 @@ const Bookpublishingservices = () => {
     {
       img: mission1,
       title: 'Promoting Your Book Creatively',
-      text: (<> At <strong>Texas Book Publishing</strong>, we excel in the art of <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion</Link>, employing our marketing experts' creative prowess to attract and engage audiences. Our campaigns are strategically designed with one clear objective: to entice your target audience and inspire them to delve into your book. It's as simple as that! </>),
+      text: (<> At <strong>Book Writing Expert</strong>, we excel in the art of <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion</Link>, employing our marketing experts' creative prowess to attract and engage audiences. Our campaigns are strategically designed with one clear objective: to entice your target audience and inspire them to delve into your book. It's as simple as that! </>),
       class: 'fintop',
     },
 
@@ -66,7 +66,7 @@ const Bookpublishingservices = () => {
     {
       img: mission3,
       title: 'Tailored Services that Make a Difference',
-      text: (<>At <strong>Texas Book Publishing</strong>, you can expect nothing less than exceptional and advanced-level <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion services</Link>. Our experienced and award-winning team goes above and beyond to secure reviews and market your book effectively. No matter the size or genre of your campaign, we elevate its potential to new heights. </>),
+      text: (<>At <strong>Book Writing Experts</strong>, you can expect nothing less than exceptional and advanced-level <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion services</Link>. Our experienced and award-winning team goes above and beyond to secure reviews and market your book effectively. No matter the size or genre of your campaign, we elevate its potential to new heights. </>),
       class: 'fintop',
     },
   ]
@@ -82,7 +82,7 @@ const Bookpublishingservices = () => {
     },
     {
       title: 'Expert Marketing Team: Tailored Strategies',
-      text: (<> Our team of skilled professionals at <strong>Texas Book Publishing</strong> specializes in <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion</Link>. We understand the importance of customized strategies that cater to the unique audience of each book, ensuring effective engagement with your target readers. </>),
+      text: (<> Our team of skilled professionals at <strong>Book Writing Experts</strong> specializes in <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion</Link>. We understand the importance of customized strategies that cater to the unique audience of each book, ensuring effective engagement with your target readers. </>),
       col: '6',
       classnum: 'number',
     },
@@ -108,7 +108,7 @@ const Bookpublishingservices = () => {
     {
       title: 'Results-Focused Methodology: Your Success Matters',
       text: (<> Our unwavering dedication lies in providing top-notch online <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion services</Link>, driven by the desire to achieve the best outcomes for our clients. We are committed to delivering the results your book deserves. </>),
-      text2: (<> Choose <strong>Texas Book Publishing</strong> for a <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion</Link> experience that exceeds your expectations, propelling your success to new heights! </>),
+      text2: (<> Choose <strong>Book Writing Experts</strong> for a <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion</Link> experience that exceeds your expectations, propelling your success to new heights! </>),
       col: '6',
       classnum: 'number',
     },
@@ -122,7 +122,7 @@ const Bookpublishingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-promotion-services/"
+      "@id": "https://bookwritingexperts.com/book-promotion-services/"
     },
     "headline": "Book Promotion Services That Connects You To The Reader’s Fraternity!",
     "description": "Book Promotion Services",
@@ -146,11 +146,11 @@ const Bookpublishingservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-promotion-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-promotion-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -164,7 +164,7 @@ const Bookpublishingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/book-promotion-services/",
+    "url": "https://bookwritingexperts.com/book-promotion-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -195,7 +195,7 @@ const Bookpublishingservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -211,7 +211,7 @@ const Bookpublishingservices = () => {
     "provider": {
       "@type": "Organization",
       "name": "book promotion services book promotion company",
-      "url": "https://texasbookpublishing.com/book-promotion-services/"
+      "url": "https://bookwritingexperts.com/book-promotion-services/"
     },
     "serviceType": ["book promotion services book promotion company"],
     "areaServed": {
@@ -232,12 +232,12 @@ const Bookpublishingservices = () => {
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Book Promotion Services For Branding - Texas Book Publishing</title>
+        <title>Book Promotion Services For Branding - Book Writing Experts</title>
         <meta name="description" content="Book Promotion Services to leave your competitors in the dust. We know the science of sales and art of marketing your books, hire us today." />
         <link rel="canonical" href="/book-promotion-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Book Promotion Services For Branding - Texas Book Publishing" />
+        <meta property="og:title" content="Book Promotion Services For Branding - Book Writing Experts" />
         <meta property="og:description" content="Book Promotion Services to leave your competitors in the dust. We know the science of sales and art of marketing your books, hire us today." />
         <meta property="og:url" content="/book-promotion-services" />
         <meta property="og:site_name" content="Book Writing" />
@@ -446,7 +446,7 @@ const Bookpublishingservices = () => {
       <div className='datacloud'>
         <Aspiring
           title={<> Transforming Your Book into a Literary Gem: Join the Ranks of Literature With The Best <Link className='textdocationnone color-blue fw700 hover' href='/book-promotion-services/'>Book Promotion Services</Link>! </>}
-          text={<> Ready to witness your work soar to new heights? Look no further than the <strong>Texas Book Publishing</strong>. Our extensive industry experience gives us the knowledge and expertise to make your book stand out and garner unparalleled exposure. Take the leap and call us today to propel your book to the next level! </>}
+          text={<> Ready to witness your work soar to new heights? Look no further than the <strong>Book Writing Experts</strong>. Our extensive industry experience gives us the knowledge and expertise to make your book stand out and garner unparalleled exposure. Take the leap and call us today to propel your book to the next level! </>}
           number="Call us at (213) 289 3888"
         />
       </div>

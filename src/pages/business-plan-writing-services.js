@@ -39,7 +39,7 @@ const businessplanWringservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'It goes unsaid that a business plan helps business owners secure financing, attract investors, and grow the business. If you need help getting your business off the ground, our team at Texas Book Publishing can assist you. We specialize in creating customized business plans that will help you secure funding and launch your company successfully. Our services are affordable, and we offer a free consultation to get started. Contact us today to learn more about how we can help you achieve your business goals!',
+      pra: 'It goes unsaid that a business plan helps business owners secure financing, attract investors, and grow the business. If you need help getting your business off the ground, our team at Book Writing Experts can assist you. We specialize in creating customized business plans that will help you secure funding and launch your company successfully. Our services are affordable, and we offer a free consultation to get started. Contact us today to learn more about how we can help you achieve your business goals!',
       discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -150,11 +150,11 @@ const businessplanWringservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/business-plan-writing-services"
+      "@id": "https://bookwritingexperts.com/business-plan-writing-services"
     },
-    "headline": "Business Plan Writing Services - Texas Book Publishing",
-    "description": "Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. Call us now.",
-    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",
+    "headline": "Business Plan Writing Services - Book Writing Experts",
+    "description": "Business Plan Writing Services offered by Book Writing Experts ensure to turn your dream into a successfully launched and hit business. Call us now.",
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
@@ -174,11 +174,11 @@ const businessplanWringservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/business-plan-writing-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/business-plan-writing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -193,7 +193,7 @@ const businessplanWringservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/business-plan-writing-services/",
+    "url": "https://bookwritingexperts.com/business-plan-writing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -224,7 +224,7 @@ const businessplanWringservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -243,13 +243,13 @@ const businessplanWringservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Business Plan Writing Services - Texas Book Publishing</title>
-        <meta name="description" content="Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. Call us now." />
+        <title>Business Plan Writing Services - Book Writing Experts</title>
+        <meta name="description" content="Business Plan Writing Services offered by Book Writing Experts ensure to turn your dream into a successfully launched and hit business. Call us now." />
         <link rel="canonical" href="/business-plan-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Business Plan Writing Services - Texas Book Publishing" />
-        <meta property="og:description" content="Business Plan Writing Services offered by Texas Book Publishing ensure to turn your dream into a successfully launched and hit business. Call us now." />
+        <meta property="og:title" content="Business Plan Writing Services - Book Writing Experts" />
+        <meta property="og:description" content="Business Plan Writing Services offered by Book Writing Experts ensure to turn your dream into a successfully launched and hit business. Call us now." />
         <meta property="og:url" content="/business-plan-writing-services" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:00:32+00:00" />
@@ -304,7 +304,7 @@ const businessplanWringservices = () => {
       {/* Dowecome */}
       <Dowecome
         title={geta}
-        text='Business plans are important for small businesses and startups because they provide essential guidance on starting and operating a successful business. While many business plans writing companies are out there, Texas Book Publishing is peerless.  If you’re ready to take your business to the next level, contact us to get started on your custom business plan. We offer affordable rates and flexible payment plans so that you can get the help you need without breaking the bank. Trust us to help you achieve your business dreams.
+        text='Business plans are important for small businesses and startups because they provide essential guidance on starting and operating a successful business. While many business plans writing companies are out there, Book Writing Experts is peerless.  If you’re ready to take your business to the next level, contact us to get started on your custom business plan. We offer affordable rates and flexible payment plans so that you can get the help you need without breaking the bank. Trust us to help you achieve your business dreams.
 
         '
         Dowecome="publishmybook"

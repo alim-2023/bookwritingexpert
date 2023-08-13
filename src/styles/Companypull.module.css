@@ -1,8 +1,8 @@
 .aspiring{
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #049ea5;
-    font-family: 'Montserrat';
+    background-color: #FC9E31;
+    font-family: 'Poppins';
 }
 
 
@@ -20,17 +20,17 @@
     border-radius: 50px;
     text-transform: capitalize;
     transition: color 1s;
-    border: 2px solid #049ea5;
+    border: 2px solid #EE9D2D;
     color: #fff ;
     width: 100%;
-    font-family: 'Montserrat'; 
+    font-family: 'Poppins'; 
     text-decoration: none;
 }
 
 .btn1:hover{
     animation: stripes-move 1s infinite linear;
     
-    border: 2px solid #049ea5;
+    border: 2px solid #EE9D2D;
     color: white;
 }
 .btn2:hover{
@@ -48,7 +48,7 @@
     color: #141d29;
     border: 2px solid #141d29;
     width: 100%;
-    font-family: 'Montserrat'; 
+    font-family: 'Poppins'; 
     text-decoration: none;
     margin-left: 3%;
 }

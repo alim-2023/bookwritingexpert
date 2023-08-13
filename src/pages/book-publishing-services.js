@@ -38,7 +38,7 @@ const Bookpublishingservices = () => {
         </>
       ),
       pra: (
-        <> Are you facing complications regarding <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link>? Break free from the challenges of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link> with the help of Texas Book Publishing! </>
+        <> Are you facing complications regarding <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link>? Break free from the challenges of <Link className='textdocationnone text-white hover' href="/book-publishing-services/">book publishing</Link> with the help of Book Writing Experts! </>
       ),
       discuss: (<> Hire The Best Book Publishers Today! </>),
       homebannernum: 'Call Us at (213) 289 3888',
@@ -60,11 +60,11 @@ const Bookpublishingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-publishing-services/"
+      "@id": "https://bookwritingexperts.com/book-publishing-services/"
     },
     "headline": "Providing Full Fledged Book Publishing Services To Our Struggling Authors",
     "description": "Top-Rated Book Publishing Services by Book Writing",
-    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
@@ -86,11 +86,11 @@ const Bookpublishingservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -106,7 +106,7 @@ const Bookpublishingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -137,7 +137,7 @@ const Bookpublishingservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -157,7 +157,7 @@ const Bookpublishingservices = () => {
     "provider": {
       "@type": "Organization",
       "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
-      "url": "https://texasbookpublishing.com/book-publishing-services/"
+      "url": "https://bookwritingexperts.com/book-publishing-services/"
     },
     "serviceType": ["book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing"],
     "areaServed": {
@@ -287,7 +287,7 @@ const Bookpublishingservices = () => {
       <div className='dataSetCo'>
         <Stopworrying
           title2={<> Hire Our <Link className='textdocationnone fw700 color-blue hover' href='/book-publishing-services/'>Book Publishing Company</Link> to Bring Your Literary Masterpiece to Life! </>}
-          subtitle3='Are you looking for a publishing partner? Well, Texas Book Publishing will inspire you in your literary adventures. We are here to help you transform your literary dreams into reality. At our publishing company, we believe in nurturing and supporting talented authors like you, and we are dedicated to bringing your masterpiece to the bookshelves.'
+          subtitle3='Are you looking for a publishing partner? Well, Book Writing Experts will inspire you in your literary adventures. We are here to help you transform your literary dreams into reality. At our publishing company, we believe in nurturing and supporting talented authors like you, and we are dedicated to bringing your masterpiece to the bookshelves.'
           subtitle4='So, what’s stopping you from reaching your goals to become an aspiring novelist? '
           btn1='Get a free Proposal'
           btn2='Looking For a Publishing Partner? Hire Us Today!'
@@ -330,7 +330,7 @@ const Bookpublishingservices = () => {
       {/* Selfpublishing */}
       <Selfpublishing
         title='Streamlined Publishing Process'
-        text={<> We at Texas Book Publishing understand the importance of a smooth and efficient <Link className='textdocationnone textcolor hover' href='/book-publishing-services/'>book publishing</Link> process. With our services, you can expect a streamlined workflow that simplifies the publishing journey. From manuscript formatting and editing to cover design and eBook conversion, we handle every aspect professionally, allowing you to focus on your writing while we take care of the technicalities. </>}
+        text={<> We at Book Writing Experts understand the importance of a smooth and efficient <Link className='textdocationnone textcolor hover' href='/book-publishing-services/'>book publishing</Link> process. With our services, you can expect a streamlined workflow that simplifies the publishing journey. From manuscript formatting and editing to cover design and eBook conversion, we handle every aspect professionally, allowing you to focus on your writing while we take care of the technicalities. </>}
         number="(213) 289 3888"
         discuss="Chat Now!"
         image={copy}

@@ -30,7 +30,7 @@ const Aspiring = (props) => {
                         </Col>
                         <Col md={5}>
                             {props.img ?
-                                <Image loading="lazy" alt="Texas Book Publishing" src={props.img} className='img-fluid mt-3' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={props.img} className='img-fluid mt-3' />
 
 
                                 :

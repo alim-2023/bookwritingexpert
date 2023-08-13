@@ -41,7 +41,7 @@ const articleWritingServices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Words have an enchanting effect on people, which is why we offer professional article writing services to produce captivating articles that leave your readers wanting more. Our team of highly-skilled and talented article writers understands the importance of content when it comes to expanding your reach for greater success. Texas Book Publishing aims to curate compelling pieces that aid your business’s success always!',
+      pra: 'Words have an enchanting effect on people, which is why we offer professional article writing services to produce captivating articles that leave your readers wanting more. Our team of highly-skilled and talented article writers understands the importance of content when it comes to expanding your reach for greater success. Book Writing Experts aims to curate compelling pieces that aid your business’s success always!',
       discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -59,7 +59,7 @@ const articleWritingServices = () => {
   const geta = <span>Our Talented Writers Know The Art Of Turning Your Thoughts Into Compelling Pieces!</span>
 
 
-  const work = <span>At Texas Book Publishing, our team of brilliant writers has the knowledge of the latest tricks and techniques that go into creating article pieces that increase engagement and boost a brand’s reach. Many of our writers have been behind some of the best-selling novels in recent years. Our aim is to help struggling authors make their mark in the ever-lasting and evolving industry of books. By collaborating with writers at Texas Book Publishing, you unlock the true potential of your talent and achieve your goals!</span>
+  const work = <span>At Book Writing Experts, our team of brilliant writers has the knowledge of the latest tricks and techniques that go into creating article pieces that increase engagement and boost a brand’s reach. Many of our writers have been behind some of the best-selling novels in recent years. Our aim is to help struggling authors make their mark in the ever-lasting and evolving industry of books. By collaborating with writers at Book Writing Experts, you unlock the true potential of your talent and achieve your goals!</span>
 
   const dateset = <span className='fw500'><Link href="/article-writing-services/" className='textdocationnone color-blue hover'>Article Writing Services</Link> Aimed At Entertaining <br /> And Educating Your Ideal Readers!</span>
 
@@ -70,11 +70,11 @@ const articleWritingServices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-publishing-services/"
+      "@id": "https://bookwritingexperts.com/book-publishing-services/"
     },
     "headline": "Providing Full Fledged Book Publishing Services To Our Struggling Authors",
     "description": "Top-Rated Book Publishing Services by Book Writing",
-    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
@@ -96,11 +96,11 @@ const articleWritingServices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -116,7 +116,7 @@ const articleWritingServices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -147,7 +147,7 @@ const articleWritingServices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -167,7 +167,7 @@ const articleWritingServices = () => {
     "provider": {
       "@type": "Organization",
       "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
-      "url": "https://texasbookpublishing.com/book-publishing-services/"
+      "url": "https://bookwritingexperts.com/book-publishing-services/"
     },
     "serviceType": ["book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing"],
     "areaServed": {
@@ -181,7 +181,7 @@ const articleWritingServices = () => {
     {
       img: mission1,
       title: 'Experienced Article Writers',
-      text: 'Texas Book Publishing’ Article Writers are familiar with the exact technique of adding flair to their articles, which enraptures your target audience every time. We come up with the greatest methods possible for our greatest clients!',
+      text: 'Book Writing Experts’ Article Writers are familiar with the exact technique of adding flair to their articles, which enraptures your target audience every time. We come up with the greatest methods possible for our greatest clients!',
       class: 'fintop',
 
 
@@ -400,7 +400,7 @@ const articleWritingServices = () => {
       {/* Whychoosebookwritingcube */}
       {/* <Whychoosebookwritingcube
         title='All Of Your Burning Book Marketing Questions- Answered!'
-        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Texas Book Publishing based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
+        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Book Writing Experts based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
         subtext='Whether you are an experienced writer or a beginner, our advice and marketing tactics will help you build a global internet presence. Our book marketing experts will assist your book and brand in achieving the success they deserve.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"

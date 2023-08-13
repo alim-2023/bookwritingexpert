@@ -68,7 +68,7 @@ const Bookpublishingservices = () => {
 
  const finetitle1 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel Editing Service</Link> 
 
- const finepare1 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel editors</Link> refine your words, make your characters shine, and your plots thrive. Get in touch with the Texas Book Publishing, the sorcerers of storytelling and <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>novel editing</Link>. Don't settle for less and watch your story become the best seller!</span>
+ const finepare1 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel editors</Link> refine your words, make your characters shine, and your plots thrive. Get in touch with the Book Writing Experts, the sorcerers of storytelling and <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>novel editing</Link>. Don't settle for less and watch your story become the best seller!</span>
 
  const finetitle2 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-Fiction Editing Service</Link> 
 
@@ -148,11 +148,11 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-editing-services/"
+      "@id": "https://bookwritingexperts.com/book-editing-services/"
     },
     "headline": "Professional Book Editing Services For All The Idealists Within Their Reach",
     "description": "Book Editing Services",
-    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/editing-jpg.jpg?id=8355",
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/editing-jpg.jpg?id=8355",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
@@ -173,11 +173,11 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-editing-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-editing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -193,7 +193,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/book-editing-services/",
+    "url": "https://bookwritingexperts.com/book-editing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -224,7 +224,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -241,7 +241,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
     "provider": {
       "@type": "Organization",
       "name": "book editing services book editing company book editors",
-      "url": "https://texasbookpublishing.com/book-editing-services/"
+      "url": "https://bookwritingexperts.com/book-editing-services/"
     },
     "serviceType": ["book editing services book editing company book editors"],
     "areaServed": {
@@ -261,12 +261,12 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Book Editing Services - Texas Book Publishing</title>
+        <title>Professional Book Editing Services - Book Writing Experts</title>
         <meta name="description" content="Book editing services that fixes the writing flaws and make your book a flawless piece of content. Hire us today to get them at affordable pricing." />
         <link rel="canonical" href="/book-editing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Book Editing Services - Texas Book Publishing" />
+        <meta property="og:title" content="Professional Book Editing Services - Book Writing Experts" />
         <meta property="og:description" content="Book editing services that fixes the writing flaws and make your book a flawless piece of content. Hire us today to get them at affordable pricing." />
         <meta property="og:url" content="/book-editing-services" />
         <meta property="og:site_name" content="Book Writing" />
@@ -323,7 +323,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       {/* Dowecome */}
       <Dowecome
         title={geta}
-        text='Errors are inevitable! But the solutions are not! The professional editing experts at Texas Book Publishing leave no gaps in assisting your writing drafts with top-notch, unique, and customized editing solutions. We further take complete guarantee of what we deliver and keep client satisfaction above everything.'
+        text='Errors are inevitable! But the solutions are not! The professional editing experts at Book Writing Experts leave no gaps in assisting your writing drafts with top-notch, unique, and customized editing solutions. We further take complete guarantee of what we deliver and keep client satisfaction above everything.'
         Dowecome="publishmybook"
 
       />
@@ -392,7 +392,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
         num3='03'
 
         heading4='Collaborative Author-Editor Partnership'
-        para4='Texas Book Publishing believe in fostering a collaborative relationship with you, working closely together to maintain the authenticity of your voice while editing the manuscript.'
+        para4='Book Writing Experts believe in fostering a collaborative relationship with you, working closely together to maintain the authenticity of your voice while editing the manuscript.'
         num4='04'
 
         heading5='Quality Assurance '

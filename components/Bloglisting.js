@@ -18,7 +18,7 @@ const Bloglisting = () => {
     useEffect(() => {
         const fetchData = async () => {
 
-            const response = await fetch('https://texasbookpublishing.com/wp-json/wp/v2/posts?_embed&per_page=10');
+            const response = await fetch('https://bookwritingexperts.com/wp-json/wp/v2/posts?_embed&per_page=10');
             const data = await response.json();
             setPosts(data);
             setshow(false);

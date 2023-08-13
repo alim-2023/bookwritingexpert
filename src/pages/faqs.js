@@ -27,11 +27,11 @@ const Faqs = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/faq/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/faq/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -46,7 +46,7 @@ const Faqs = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/faq/",
+    "url": "https://bookwritingexperts.com/faq/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -77,7 +77,7 @@ const Faqs = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -95,12 +95,12 @@ const Faqs = () => {
         <meta name="google-site-verification" content="90Ey_qYXNPX6Ubn6vTFe-C1Iq-3uPgP69ZNmSfckJZU" />
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <title>Frequently Asked Questions - Texas Book Publishing</title>
+        <title>Frequently Asked Questions - Book Writing Experts</title>
         <meta name="description"
           content="Frequently Asked Questions that help you get the answers of some of the most common queries. Connect with us to get rid of writing hassle." />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Frequently Asked Questions - Texas Book Publishing" />
+        <meta property="og:title" content="Frequently Asked Questions - Book Writing Experts" />
         <meta property="og:description"
           content="Frequently Asked Questions that help you get the answers of some of the most common queries. Connect with us to get rid of writing hassle." />
         <meta property="og:url" content="/faqs" />

@@ -9,7 +9,7 @@ import Head from 'next/head'
 const Announcement = () => {
 
     const pressHead = <h1 className='font30 fw700 color-blue'>Press Release</h1>
-    const pressSubPara = <span className='font50 fw700'>Texas Book Publishing Sets The Record Straight On Domain Ownership</span>
+    const pressSubPara = <span className='font50 fw700'>Book Writing Experts Sets The Record Straight On Domain Ownership</span>
 
     const bannertext = [
         {
@@ -110,7 +110,7 @@ const Announcement = () => {
                                 </li>
                                 <li className='font-f'><strong>Zip code: </strong> 97008
                                 </li>
-                                <li className='font-f'><strong>Email: </strong> <Link className='colortextgrey font-f textdocationnone' href="mailto:support@texasbookpublishing.com">support@texasbookpublishing.com</Link>
+                                <li className='font-f'><strong>Email: </strong> <Link className='colortextgrey font-f textdocationnone' href="mailto:support@bookwritingexperts.com">support@bookwritingexperts.com</Link>
                                 </li>
                                 <li className='font-f'><strong>Phone: </strong> <Link className='colortextgrey font-f textdocationnone' href="tel:+1302 883-8877">(213) 289 3888</Link>
                                 </li>

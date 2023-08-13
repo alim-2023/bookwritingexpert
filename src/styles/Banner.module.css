@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   height: 100vh;
   display: flex;
   align-items: center;
@@ -19,7 +19,7 @@
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .ghostwriting {
   background-image: url(/images/bannerimages/ghost.jpg);
@@ -31,7 +31,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .pricing {
   background-color: #141d29;
@@ -41,7 +41,7 @@
   height: 100vh;
   padding-top: 140px;
   padding-bottom: 70px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .bookpublishingservices {
   background-image: url(/images/bannerimages/bookpublishingservices.jpg);
@@ -53,7 +53,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 
 .bookwritingservices {
@@ -66,7 +66,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .articlewritingservices {
   background-image: url(/images/bannerimages/articleswriting.jpg);
@@ -78,7 +78,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 
 .bookpromotionservices {
@@ -91,7 +91,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .bookeditingservices {
   background-image: url(/images/bannerimages/editing.jpg);
@@ -103,7 +103,7 @@
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 
 .bookmarketingservices {
@@ -116,7 +116,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .ghost {
   background-image: url(/images/bannerimages/ghostbann.svg);
@@ -127,7 +127,7 @@
   display: flex;
   align-items: flex-end;
   padding-bottom: 70px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .audiobookproduction {
   background-image: url(/images/bannerimages/audiobook.png);
@@ -139,7 +139,7 @@
   background-position: center;
 
   padding-bottom: 70px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .illustrationbook {
   background-image: url(/images/bannerimages/banner.svg);
@@ -151,7 +151,7 @@
   align-items: flex-start;
   padding-bottom: 70px;
   background-position: 0% 75%;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .ebook {
   background-image: url(/images/bannerimages/ebook.jpg);
@@ -163,7 +163,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 
 .offeringyoubook {
@@ -176,7 +176,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .blogwritingservices {
   background-image: url(/images/bannerimages/blogwritingservices.jpg);
@@ -188,7 +188,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .bookcoverdesignservices {
   background-image: url(/images/bannerimages/bookcoverdesignservices.jpg);
@@ -200,7 +200,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .buildexcitement {
   background-image: url(/images/bannerimages/buildexcitement.png);
@@ -209,7 +209,7 @@
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .topratedbusiness {
   background-image: url(/images/bannerimages/topratedbusiness.png);
@@ -218,7 +218,7 @@
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .childrenbookpublication {
   background-image: url(/images/bannerimages/childrenbookpublication.png);
@@ -227,7 +227,7 @@
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .authormarketingpromotionservices {
   background-image: url(/images/bannerimages/authormarketingpromotionservices.png);
@@ -236,7 +236,7 @@
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: right;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .childrenbookIllustrations {
   background-image: url(/images/bannerimages/childrenbookIllustrations.png);
@@ -245,7 +245,7 @@
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: right;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .digitalmarketingservices {
   background-image: url(/images/bannerimages/digitalmarketingservices.jpg);
@@ -257,7 +257,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: right;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .bookformattingservices {
   background-image: url(/images/bannerimages/formatting.jpg);
@@ -269,7 +269,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .audiobookrecordingservices {
   background-image: url(/images/bannerimages/audiobookrecordingservices.jpg);
@@ -281,7 +281,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .webcontentwritingservices {
   background-image: url(/images/bannerimages/webcontentwritingservices.jpg);
@@ -293,7 +293,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .empoweringauthorswith {
   background-image: url(/images/bannerimages/authorwebsite.jpg);
@@ -305,7 +305,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .bookvideotrailer {
   background-image: url(/images/bannerimages/bookvideotrailer.jpg);
@@ -317,7 +317,7 @@
   align-items: center;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .condition {
   background-color: #141d29;
@@ -327,7 +327,7 @@
   display: flex;
   align-items: center;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 
 .press {
@@ -339,7 +339,7 @@
   padding-top: 200px;
   padding-bottom: 150px;
   background-color: #141d29;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   /* height: 100vh; */
   display: flex;
   align-items: center;
@@ -371,7 +371,7 @@
   font-size: 20px;
   text-transform: capitalize;
   margin: 0 auto !important;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   width: 100%;
 }
 .blogbanclass {
@@ -385,7 +385,7 @@
   padding-top: 140px;
   padding-bottom: 70px;
   background-position: center;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   height: 100vh;
 }
 
@@ -393,10 +393,10 @@
   font-size: 15px;
   font-weight: 500;
   padding: 12px 18px;
-  border: 2px solid #049ea5;
+  border: 2px solid #ff9900;
   color: #fff;
   text-decoration: unset;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   border-radius: 50px;
 }
 .discuss:hover {
@@ -410,12 +410,12 @@
   border: 0;
   padding: 12px 20px;
   border-radius: 50px;
-  background-color: #049ea5;
+  background-color: #ff9900;
   color: #fff;
   text-decoration: unset;
   margin-left: 10px;
-  border: 1px solid #049ea5;
-  font-family: "Montserrat";
+  border: 1px solid #ff9900;
+  font-family: "Poppins";
 }
 
 .homebannerlogo {
@@ -442,7 +442,7 @@
   font-size: 22px;
   border-radius: 3px;
   font-weight: 700;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   cursor: pointer;
   z-index: 9;
 }
@@ -451,10 +451,10 @@
   border: 0;
   padding: 12px 30px;
   border-radius: 50px;
-  background-color: #049ea5;
+  background-color: #ff9900;
   color: #fff;
   text-decoration: none;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .thankyoubtn:hover {
   background-color: #223235;
@@ -473,7 +473,7 @@
   font-size: 14px;
   background: #FD9802;
   width: 100%;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   text-decoration: none;
 }
 .free:hover{
@@ -523,7 +523,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    font-family: "Montserrat";
+    font-family: "Poppins";
     height: 100vh;
     display: flex;
     align-items: center;

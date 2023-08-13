@@ -29,7 +29,7 @@ function Illustrationbook() {
 
   const posdata = <span>Let Our Best <Link className='dblockmobile textdocationnone color-blue hover fw700' href='/book-publishing-services'>Amazon Kindle Direct Publishing (KDP)</Link>Service Providers Handle All Your Publishing Troubles!</span>
 
-  const dataspan = <h1 className='font50 color-white font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Texas Book Publishing </Link>  Is  <br className="d-none d-xl-block" /> waiting for you to Ask for a   <br className="d-none d-xl-block" />  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Professional Illustrative Book </Link> </h1>;
+  const dataspan = <h1 className='font50 color-white font-f hero-span'>  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Book Writing Experts </Link>  Is  <br className="d-none d-xl-block" /> waiting for you to Ask for a   <br className="d-none d-xl-block" />  <Link className='fw700 dblockmobile textdocationnone color-blue hover' href="/illustration"> Professional Illustrative Book </Link> </h1>;
 
 
 
@@ -54,7 +54,7 @@ function Illustrationbook() {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/"
+      "@id": "https://bookwritingexperts.com/"
     },
     "headline": "Book Writing Company",
     "description": "Book Writing Company",
@@ -78,11 +78,11 @@ function Illustrationbook() {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -92,7 +92,7 @@ function Illustrationbook() {
   }
 
   const schema3 = {
-    "@context": "https://schema.org", "@type": "Service", "name": "book writing services book writing company book writers affordable book writing services", "description": "book writing services book writing company book writers affordable book writing services book writing services book writing company book writers affordable book writing services", "provider": { "@type": "Organization", "name": "book writing services book writing company book writers affordable book writing services", "url": "https://texasbookpublishing.com/" },
+    "@context": "https://schema.org", "@type": "Service", "name": "book writing services book writing company book writers affordable book writing services", "description": "book writing services book writing company book writers affordable book writing services book writing services book writing company book writers affordable book writing services", "provider": { "@type": "Organization", "name": "book writing services book writing company book writers affordable book writing services", "url": "https://bookwritingexperts.com/" },
     "serviceType": ["book writing services book writing company book writers affordable book writing services"], "areaServed": { "@type": "country", "name": "us" }
   }
 
@@ -111,12 +111,12 @@ function Illustrationbook() {
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
         <title>Professional Book Writing Services Company</title>
         <meta name="description" content="Book Writing Services that transform your ideas to the best-selling book. Call us if you need help writing a book or penning down your thoughts." />
-        <link rel="canonical" href="https://texasbookpublishing.com/" />
+        <link rel="canonical" href="https://bookwritingexperts.com/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Professional Book Writing Services Company" />
         <meta property="og:description" content="Book Writing Services that transform your ideas to the best-selling book. Call us if you need help writing a book or penning down your thoughts." />
-        <meta property="og:url" content="https://texasbookpublishing.com/" />
+        <meta property="og:url" content="https://bookwritingexperts.com/" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-01-12T00:00:46+00:00" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -223,7 +223,7 @@ function Illustrationbook() {
 
         {/* Why Choose Book Writing Cube? */}
         <Whychoosebook
-          title="Why Choose Texas Book Publishing?"
+          title="Why Choose Book Writing Expert?"
           text="We are aware of the distinctiveness of the content creation needs of our customers. We take great pride in the incredibly various opinions, experiences, and knowledge that our team of authors can contribute. To ensure the greatest efficacy, we firmly believe in and work towards a transparent collaboration between you and us. For the greatest candor, we develop intricate production processes that accommodate each of our clients uniquely. The typical content around here is remarkable, genuine, and original!"
           whychoose={whychoose}
         />

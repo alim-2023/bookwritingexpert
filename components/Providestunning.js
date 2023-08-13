@@ -102,16 +102,16 @@ const Providestunning = (props) => {
                     <Col md={12}>
                         <Slider {...mockupslider} className='mt-5 mockupslider'>
                             <div>
-                                <Image loading="lazy" alt="Texas Book Publishing" src={cover1} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover1} className='img-fluid' />
                             </div>
                             <div>
-                                <Image loading="lazy" alt="Texas Book Publishing" src={cover2} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover2} className='img-fluid' />
                             </div>
                             <div>
-                                <Image loading="lazy" alt="Texas Book Publishing" src={cover3} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover3} className='img-fluid' />
                             </div>
                             <div>
-                                <Image loading="lazy" alt="Texas Book Publishing" src={cover4} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover4} className='img-fluid' />
                             </div>
 
                         
@@ -120,16 +120,16 @@ const Providestunning = (props) => {
                         </Slider>
                         <Slider {...mockupslider2} className='mt-3 mockupslider'>
                         <div>
-                                <Image loading="lazy" alt="Texas Book Publishing" src={cover5} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover5} className='img-fluid' />
                             </div>
                             <div>
-                                <Image loading="lazy" alt="Texas Book Publishing" src={cover14} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover14} className='img-fluid' />
                             </div>
                             <div>
-                                <Image loading="lazy" alt="Texas Book Publishing" src={cover15} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover15} className='img-fluid' />
                             </div>
                             <div>
-                                <Image loading="lazy" alt="Texas Book Publishing" src={cover16} className='img-fluid' />
+                                <Image loading="lazy" alt="Book Writing Experts" src={cover16} className='img-fluid' />
                             </div>
                            
                         </Slider>

@@ -37,7 +37,7 @@ const Bookpublishingservices = () => {
       title: newSpan,
       pra: (
         <>
-          At <b>Texas Book Publishing</b>, our team of expert proofreaders possesses years of invaluable experience, having worked on numerous projects with utmost professionalism and skill.
+          At <b>Book Writing Experts</b>, our team of expert proofreaders possesses years of invaluable experience, having worked on numerous projects with utmost professionalism and skill.
 
         </>
       ),
@@ -136,7 +136,7 @@ const Bookpublishingservices = () => {
       title: 'Unparalleled Expertise',
       text:  (
         <>
-         <b>Texas Book Publishing</b> has a team of professional <Link className='color-black textdocationnone hover1' href='/book-proofreading-services'>book proofreading</Link> specialists who meticulously review every book before it goes to print. Our experts ensure error-free text and adherence to <Link className='color-black textdocationnone hover1' href='/book-proofreading-services'>book publishing</Link> standards, recognizing the vital role of proofreading in the publishing process.
+         <b>Book Writing Experts</b> has a team of professional <Link className='color-black textdocationnone hover1' href='/book-proofreading-services'>book proofreading</Link> specialists who meticulously review every book before it goes to print. Our experts ensure error-free text and adherence to <Link className='color-black textdocationnone hover1' href='/book-proofreading-services'>book publishing</Link> standards, recognizing the vital role of proofreading in the publishing process.
         </>
       ),
       class: 'fintop',
@@ -158,7 +158,7 @@ const Bookpublishingservices = () => {
       title: 'Uncompromising Quality     ',
       text: (
         <>
-        <b>Texas Book Publishing</b> is the epitome of excellence for self-publishing authors seeking a trusted partner. We comprehend the importance of achieving perfection in your book and stand by you in the journey. Rely on us to refine your work to its finest form, ensuring your readers a polished and captivating experience.
+        <b>Book Writing Experts</b> is the epitome of excellence for self-publishing authors seeking a trusted partner. We comprehend the importance of achieving perfection in your book and stand by you in the journey. Rely on us to refine your work to its finest form, ensuring your readers a polished and captivating experience.
           
         </>
       ),
@@ -201,7 +201,7 @@ const Bookpublishingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/proofreading-services/"
+      "@id": "https://bookwritingexperts.com/proofreading-services/"
     },
     "headline": "Proofreading Services",
     "description": "Offering You The Impeccable Proofreading Services To Help You Earn Your Readers’ Trust!",
@@ -224,11 +224,11 @@ const Bookpublishingservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-proofreading-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-proofreading-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -244,7 +244,7 @@ const Bookpublishingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/book-proofreading-services/",
+    "url": "https://bookwritingexperts.com/book-proofreading-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -275,7 +275,7 @@ const Bookpublishingservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -288,10 +288,10 @@ const Bookpublishingservices = () => {
     "@context": "https://schema.org/",
     "@type": "WebSite",
     "name": "bookwritingexperts",
-    "url": "https://texasbookpublishing.com/book-proofreading-services/",
+    "url": "https://bookwritingexperts.com/book-proofreading-services/",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://texasbookpublishing.com/proofreading-services/search?q={search_term_string}",
+      "target": "https://bookwritingexperts.com/proofreading-services/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -308,12 +308,12 @@ const Bookpublishingservices = () => {
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Best Book Proofreading Services - Texas Book Publishing</title>
+        <title>Best Book Proofreading Services - Book Writing Experts</title>
         <meta name="description" content="Book Proofreading services make your manuscript flawless. Avail the services today from the experts who are adept at keeping an eagle eye on errors." />
         <link rel="canonical" href="/book-proofreading-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Best Book Proofreading Services - Texas Book Publishing" />
+        <meta property="og:title" content="Best Book Proofreading Services - Book Writing Experts" />
         <meta property="og:description" content="Book Proofreading services make your manuscript flawless. Avail the services today from the experts who are adept at keeping an eagle eye on errors." />
         <meta property="og:url" content="/book-proofreading-services" />
         <meta property="og:site_name" content="Book Writing" />

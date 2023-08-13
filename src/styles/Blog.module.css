@@ -18,7 +18,7 @@
 }
 
 .cardbodylist h3{
-    font-family: "Montserrat", Sans-serif;
+    font-family: "Poppins", Sans-serif;
     font-size: 22px;
     font-weight: 500;
 }
@@ -27,11 +27,11 @@
     border: 0;
     padding: 12px 30px;
     border-radius: 0;
-    background-color: #049ea5;
+    background-color: #ff9900;
     border-radius: 50px;
     color: #fff;
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
    min-width: 200px;
    width: fit-content;
    text-align: center;

@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 .fintop:hover{
-    background-color: #049ea5;
+    background-color: #fc9e31;
 
 }
 .fintop:hover p{
@@ -49,7 +49,7 @@
     color: #fff;
     box-shadow: 0 0 14px 7px #ddd;
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
 
 }
 .btnfine:hover{

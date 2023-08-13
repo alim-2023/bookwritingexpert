@@ -41,7 +41,7 @@ const authorWebsiteDesignServices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Do you want the world to know you? Read your book and relate to your story? What is better than getting a professional website then? You are only Texas Book Publishing away from being a best-seller novelist or writer. Our customized and fully-featured web platform is customized for your needs in a way that most mass platforms simply do not. Get your author’s website done by the professionals today!',
+      pra: 'Do you want the world to know you? Read your book and relate to your story? What is better than getting a professional website then? You are only Book Writing Experts away from being a best-seller novelist or writer. Our customized and fully-featured web platform is customized for your needs in a way that most mass platforms simply do not. Get your author’s website done by the professionals today!',
       discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -60,7 +60,7 @@ const authorWebsiteDesignServices = () => {
 
 
   const work = <>
-    <span>An author’s website is the shortest yet easiest way to get the world to know you. If you do not have a professional website yet, it’s time you up your game and get the professionals to make your author website. Be the brand that you have always wanted to be, and get in touch with the Texas Book Publishing today to give your name a professional look!</span>
+    <span>An author’s website is the shortest yet easiest way to get the world to know you. If you do not have a professional website yet, it’s time you up your game and get the professionals to make your author website. Be the brand that you have always wanted to be, and get in touch with the Book Writing Experts today to give your name a professional look!</span>
   </>
 
   const dateset = <span className='fw500'>Why Not Hire The Professional <Link className='textdocationnone color-blue hover' href="/author-website-design-services/">Website Developers</Link> <br /> To Create Your Professional Identity?</span>
@@ -72,11 +72,11 @@ const authorWebsiteDesignServices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-publishing-services/"
+      "@id": "https://bookwritingexperts.com/book-publishing-services/"
     },
     "headline": "Providing Full Fledged Book Publishing Services To Our Struggling Authors",
     "description": "Top-Rated Book Publishing Services by Book Writing",
-    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
@@ -98,11 +98,11 @@ const authorWebsiteDesignServices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -118,7 +118,7 @@ const authorWebsiteDesignServices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -149,7 +149,7 @@ const authorWebsiteDesignServices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -169,7 +169,7 @@ const authorWebsiteDesignServices = () => {
     "provider": {
       "@type": "Organization",
       "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
-      "url": "https://texasbookpublishing.com/book-publishing-services/"
+      "url": "https://bookwritingexperts.com/book-publishing-services/"
     },
     "serviceType": ["book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing"],
     "areaServed": {
@@ -201,7 +201,7 @@ const authorWebsiteDesignServices = () => {
     {
       img: mission3,
       title: 'Light on the pocket',
-      text: 'The money will not be the problem here; Texas Book Publishing do not believe in minting money off their clients’ needs. Therefore, we have pretty affordable packages for our customers.',
+      text: 'The money will not be the problem here; Book Writing Experts do not believe in minting money off their clients’ needs. Therefore, we have pretty affordable packages for our customers.',
       class: 'fintop',
 
 
@@ -370,7 +370,7 @@ const authorWebsiteDesignServices = () => {
       </div>
       <Selfpublishing
         title= "Anxious To Get Your Name On A Professional Website?"
-        text='Get a hold of our experts today and get the job done! Texas Book Publishing provide reliable and trustworthy website development services, just according to your needs.'
+        text='Get a hold of our experts today and get the job done! Book Writing Experts provide reliable and trustworthy website development services, just according to your needs.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={publishmybook}
@@ -402,7 +402,7 @@ const authorWebsiteDesignServices = () => {
       {/* Whychoosebookwritingcube */}
       {/* <Whychoosebookwritingcube
         title='All Of Your Burning Book Marketing Questions- Answered!'
-        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Texas Book Publishing based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
+        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Book Writing Experts based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
         subtext='Whether you are an experienced writer or a beginner, our advice and marketing tactics will help you build a global internet presence. Our book marketing experts will assist your book and brand in achieving the success they deserve.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"

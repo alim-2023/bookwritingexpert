@@ -25,7 +25,7 @@ const Comprehensive = () => {
                 image: icon1,
                 title: 'Book Editing',
                 subTitle: "Book Editing",
-                pra: "Once your ideas are on paper, you need an expert’s eye to look for the red flags. Book editing can be a tiresome and redundant process for which we have experts running the show. Texas Book Publishing enhances your book’s vocabulary and sentence formations, in order to provide your readers a refined product."
+                pra: "Once your ideas are on paper, you need an expert’s eye to look for the red flags. Book editing can be a tiresome and redundant process for which we have experts running the show. Book Writing Expert enhances your book’s vocabulary and sentence formations, in order to provide your readers a refined product."
 
             },
             {
@@ -39,7 +39,7 @@ const Comprehensive = () => {
                 image: icon11,
                 title: 'Book Publishing Services',
                 subTitle: "Book Publishing Services",
-                pra: "Texas Book Publishing is one of the most preferred publishing agencies, specializing in book publishing on all platforms. Having assisted thousands of fiction/non-fiction writers become documented authors. We guarantee you a completely seamless publication process."
+                pra: "Book Writing Expert is one of the most preferred publishing agencies, specializing in book publishing on all platforms. Having assisted thousands of fiction/non-fiction writers become documented authors. We guarantee you a completely seamless publication process."
 
             },
             {

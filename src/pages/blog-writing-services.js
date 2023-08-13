@@ -60,7 +60,7 @@ const blogWritingService = () => {
 
 
   const work = <>
-    <span>To help authors and business owners nail their marketing efforts, we offer informative and engaging content, better known as blog writing. We know you wear many hats, and marketing may serve as an additional chore on your plate; however, not anymore. Texas Book Publishing offers high-quality content more quickly than you could on your own, signifying that your blog section will stay fresh and updated with new content on a regular basis.</span>
+    <span>To help authors and business owners nail their marketing efforts, we offer informative and engaging content, better known as blog writing. We know you wear many hats, and marketing may serve as an additional chore on your plate; however, not anymore. Book Writing Experts offers high-quality content more quickly than you could on your own, signifying that your blog section will stay fresh and updated with new content on a regular basis.</span>
     <br /><br />
     <span>Buckle up to attract new customers and fans in the process, and win the race against your competition with our professional blog writing services!</span>
   </>
@@ -75,11 +75,11 @@ const blogWritingService = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://texasbookpublishing.com/book-publishing-services/"
+      "@id": "https://bookwritingexperts.com/book-publishing-services/"
     },
     "headline": "Providing Full Fledged Book Publishing Services To Our Struggling Authors",
     "description": "Top-Rated Book Publishing Services by Book Writing",
-    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
+    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
@@ -101,11 +101,11 @@ const blogWritingService = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Texas Book Publishing",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
+    "alternateName": "Book Writing Experts",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -121,7 +121,7 @@ const blogWritingService = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://texasbookpublishing.com/book-publishing-services/",
+    "url": "https://bookwritingexperts.com/book-publishing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -152,7 +152,7 @@ const blogWritingService = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://texasbookpublishing.com/",
+      "https://bookwritingexperts.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -172,7 +172,7 @@ const blogWritingService = () => {
     "provider": {
       "@type": "Organization",
       "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
-      "url": "https://texasbookpublishing.com/book-publishing-services/"
+      "url": "https://bookwritingexperts.com/book-publishing-services/"
     },
     "serviceType": ["book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing"],
     "areaServed": {
@@ -405,7 +405,7 @@ const blogWritingService = () => {
       {/* Whychoosebookwritingcube */}
       {/* <Whychoosebookwritingcube
         title='All Of Your Burning Book Marketing Questions- Answered!'
-        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Texas Book Publishing based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
+        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Book Writing Experts based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
         subtext='Whether you are an experienced writer or a beginner, our advice and marketing tactics will help you build a global internet presence. Our book marketing experts will assist your book and brand in achieving the success they deserve.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"

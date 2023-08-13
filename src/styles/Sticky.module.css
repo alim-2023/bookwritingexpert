@@ -13,7 +13,7 @@
 }
 .sticky li {
     list-style-type: none;
-    background-color: #049ea5;
+    background-color: #FF9900;
     color: #efefef;
     height: 50px;
     margin: 0 0 1px;
@@ -43,7 +43,7 @@
 }
 .sticky li p a {
     font-size: 15px;
-    font-family: 'Montserrat'; 
+    font-family: 'Poppins'; 
 }
 
 

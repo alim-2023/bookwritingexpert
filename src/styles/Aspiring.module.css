@@ -1,5 +1,5 @@
 .aspiring{
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
 }
 
 
@@ -9,7 +9,7 @@
 
 
 .btn1{
-    background-color: #049ea5;
+    background-color: #FF9900;
     font: inherit;
     letter-spacing: inherit;
     padding: 1em 1em;
@@ -17,17 +17,17 @@
     border-radius: 50px;
     text-transform: capitalize;
     transition: color 1s;
-    border: 2px solid #049ea5;
+    border: 2px solid #EE9D2D;
     color: #fff ;
     width: 100%;
-    font-family: 'Montserrat'; 
+    font-family: 'Poppins'; 
     text-decoration: none;
 }
 
 .btn1:hover{
     animation: stripes-move 1s infinite linear;
     
-    border: 2px solid #049ea5;
+    border: 2px solid #EE9D2D;
     color: #223235;
 }
 .btn2:hover{
@@ -45,7 +45,7 @@
     color: #223235;
     border: 2px solid #223235;
     width: 100%;
-    font-family: 'Montserrat'; 
+    font-family: 'Poppins'; 
     text-decoration: none;
     margin-left: 3%;
 }

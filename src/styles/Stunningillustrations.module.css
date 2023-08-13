@@ -15,16 +15,16 @@
     color: white;
 }
 .btn1{
-    background-color: #049ea5;
+    background-color: #ff9900;
     letter-spacing: inherit;
     padding: 0.7em 3em;
     border: none;
     border-radius: 50px;
     text-transform: capitalize;
     transition: color 1s;
-    border: 2px solid #049ea5;
+    border: 2px solid #ee9d2d;
     width: 26%;
-    font-family: "Montserrat";
+    font-family: "Poppins";
     text-decoration: none;
     margin: 0 auto;
     text-align: center;

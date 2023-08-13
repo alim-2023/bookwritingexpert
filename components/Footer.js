@@ -152,9 +152,9 @@ const Footer = () => {
         <Container>
           <Row className='pb-5'>
             <Col md={4}>
-              <Image loading="lazy" className={styles.footerlogosize} src={footerlogo} alt='Texas Book Publishing'></Image>
+              <Image loading="lazy" className={styles.footerlogosize} src={footerlogo} alt='book writing expert'></Image>
               <ul className={styles.footermenu1}>
-                <li className={`${styles.footermenulinks} mt-4`}><MdEmail size={16} />  <Link className={styles.styleset} href="mailto:support@texasbookpublishing.com">support@texasbookpublishing.com</Link></li>
+                <li className={`${styles.footermenulinks} mt-4`}><MdEmail size={16} />  <Link className={styles.styleset} href="mailto:support@bookwritingexperts.com">support@bookwritingexperts.com</Link></li>
                 <li className={`${styles.footermenulinks} pt-3`}><BsFillTelephoneFill size={12} /> <Link className={styles.styleset} href="tel:213-289-3888"> (213) 289 3888 </Link></li>
                 <li className={`${styles.footermenulinks} pt-3`}> <ImLocation2 size={16} /> 445 S.Figueroa Street, Los Angeles, CA 90071 </li>
 
@@ -170,7 +170,7 @@ const Footer = () => {
                 <li className={styles.socaillinks}><Link className={styles.styleset} href="https://www.linkedin.com/company/bookwritingexp"><FaLinkedinIn size={17} /></Link></li>
               </ul>
 
-              <Image loading="lazy" className='mt-3' src={protectedlogo} alt='Texas Book Publishing'></Image>
+              <Image loading="lazy" className='mt-3' src={protectedlogo} alt='book writing expert'></Image>
 
             </Col>
             <Col md={3}>
@@ -239,7 +239,7 @@ const Footer = () => {
                   {footerlogosnew.map((item, i) => {
                     return (
                       <div key={i} className={styles.rightlogo}>
-                        <Image loading="lazy" className='img-fluid' src={item.footerlogosfuncy} alt='Texas Book Publishing'></Image>
+                        <Image loading="lazy" className='img-fluid' src={item.footerlogosfuncy} alt='book writing expert'></Image>
                       </div>
                     )
                   })}
@@ -262,7 +262,7 @@ const Footer = () => {
                   {footerlogos1.map((item, i) => {
                     return (
                       <div key={i} className={styles.rightlogo}>
-                        <Image loading="lazy" className='pt-1 img-fluid' src={item.footerimg1} alt='Texas Book Publishing'></Image>
+                        <Image loading="lazy" className='pt-1 img-fluid' src={item.footerimg1} alt='book writing expert'></Image>
                       </div>
                     )
                   })}
@@ -280,7 +280,7 @@ const Footer = () => {
           <div className={styles.footerborder}>
             <Row className='pt-2'>
               <Col md={4}>
-                <Image loading="lazy" className='img-fluid' src={visa} alt='Texas Book Publishing'></Image>
+                <Image loading="lazy" className='img-fluid' src={visa} alt='book writing expert'></Image>
               </Col>
               <Col md={4}>
                 <p className='font14 text-center font-f'>© 2023 - All Rights Reserved</p>

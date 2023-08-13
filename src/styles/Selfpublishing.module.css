@@ -15,7 +15,7 @@
   transition: all .2s ease-in-out;
 }
 .middle:hover img{
-  border: 3px solid #049ea5;
+  border: 3px solid #ff9900;
 }
 .marketyourbook {
   padding-top: 100px;
@@ -26,20 +26,20 @@
   background-color: #223235;
 }
 .asdiscuss:hover {
-  background-color: #049ea5;
+  background-color: #ff9900;
   color: #fff;
 }
 .asnumber {
   border: 0;
   padding: 12px 30px;
   border-radius: 0;
-  background-color: #049ea5;
+  background-color: #ff9900;
   color: #fff;
   text-decoration: unset;
   margin-left: 10px;
-  border: 1px solid #049ea5;
+  border: 1px solid #ff9900;
   border-radius: 50px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
 }
 .asnumber:hover {
   color: white;
@@ -48,10 +48,10 @@
   font-size: 15px;
   font-weight: 500;
   padding: 12px 18px;
-  border: 2px solid #049ea5;
+  border: 2px solid #ff9900;
   color: #223235;
   text-decoration: unset;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   border-radius: 50px;
 }
 .imgshowdow {

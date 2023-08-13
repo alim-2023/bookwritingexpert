@@ -24,7 +24,7 @@
 }
 
 .btn1 {
-  background-color: #049ea5;
+  background-color: #ff9900;
   font: inherit;
   letter-spacing: inherit;
   padding: 1em 3em;
@@ -32,17 +32,17 @@
   border-radius: 50px;
   text-transform: capitalize;
   transition: color 1s;
-  border: 2px solid #049ea5;
+  border: 2px solid #ee9d2d;
   color: #fff;
   width: 100%;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   text-decoration: none;
 }
 
 .btn1:hover {
   animation: stripes-move 1s infinite linear;
-  background-color: #049ea5;
-  border: 2px solid #049ea5;
+  background-color: #ff9900;
+  border: 2px solid #ee9d2d;
   color: #fff;
 }
 .btn2:hover {
@@ -60,7 +60,7 @@
   color: #fff;
   border: 2px solid #fff;
   width: 100%;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   text-decoration: none;
   margin-left: 3%;
 }
