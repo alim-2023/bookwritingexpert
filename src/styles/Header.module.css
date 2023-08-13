@@ -1,3 +1,25 @@
+.headerhome {
+  height: 100px;
+}
+
+.navBar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navalign {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.headerContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .cross {
   position: absolute;
   top: 22px;
@@ -12,40 +34,22 @@
   font-size: 22px;
   border-radius: 50px;
   font-weight: 700;
-  font-family: 'Poppins';
+  font-family: "Montserrat";
   cursor: pointer;
 }
 
-/* .border {
-  border-top: 2px solid #ccc;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 3%;
-  margin-bottom: 10%;
-  padding-left: 0px;
-  padding-top: 15px;
-  margin-left: 20px;
-} */
-
-
 .border {
-  border-top: 2px solid #ccc;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 30px;
-  margin-top: 3%;
-  margin-bottom: 10%;
-  padding-left: 0px;
-  padding-top: 15px;
-  margin-left: 20px;
   align-items: center;
+  gap: 30px;
+  padding: 20px;
+  border-right: 2px solid #ccc;
 }
+
 .lastCol {
-  background-color: #f1f1f1;
-  border-radius: 4px;
+  border-right: 0px;
 }
 
 .valuenum {
@@ -56,8 +60,10 @@
 .align_menu {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: unset;
+  align-items: center;
   gap: 25px;
+  height: 100%;
+  margin-bottom: unset;
 }
 
 .menulinks {
@@ -67,9 +73,16 @@
   text-transform: capitalize;
   text-decoration: none;
   font-family: "Poppins";
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
+
 .navlinks {
   list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .headertel {
@@ -79,20 +92,20 @@
   display: flex;
   align-items: center;
   border-radius: 50px;
-  background-color: #ff9900;
+  background-color: #049ea5;
   border: 0;
   color: #fff;
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }
 
 .headerbtnspacing {
-  border: 2px solid #ff9900;
+  border: 2px solid #049ea5;
   background-color: transparent;
 }
 
 .headertel.headerbtnspacing:hover,
 .headertel.headerbtnspacing a:hover {
-  background-color: #ff9900;
+  background-color: #049ea5;
 }
 
 .headerbtncolor {
@@ -118,7 +131,7 @@
   color: #fff;
 }
 
-.headerContainer{
+.headerContainer {
   position: relative;
 }
 
@@ -130,18 +143,21 @@
   border: 0;
   max-width: 100%;
   margin: auto !important;
-  margin-top: -20px !important;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #f1f1f1;
   z-index: 1;
   box-shadow: 0 0 5px 0 #292929;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .serviceshover:hover .megamenu {
   display: flex;
   position: absolute;
   visibility: visible;
+}
+
+.megamenu li a {
+  font-family: "Montserrat", sans-serif;
 }
 
 .headerbtnspacing {
@@ -168,20 +184,20 @@
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: #141D29;
+  background-color: #141d29;
 }
 .megamenu ul li a {
-  font-size: 16px;
+  font-size: 15px;
   color: #292929;
   font-weight: 700;
 }
 
 .megamenu ul li a:hover {
-  color: #ff9900;
+  color: #0099ff;
 }
 
 .megaLinks svg {
-  color: #ff9900;
+  color: #049ea5;
   width: 35px;
   height: 30px;
   padding: 5px;
@@ -203,11 +219,12 @@
 .megaDiv a {
   padding: 0px 15px;
 }
- 
+
 .megaLinks {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 100%;
 }
 
 .megaLinks a {
@@ -237,8 +254,8 @@
   border-radius: 50px;
   border: 0;
   color: #fff;
-  background-color: #ff9900;
-  font-family: "Poppins";
+  background-color: #049ea5;
+  font-family: "Montserrat";
 }
 
 .megaTitle {
@@ -255,15 +272,15 @@
 }
 
 .menulinks:hover {
-  color: #ff9900;
+  color: #fff;
 }
 
-.megaLinks img{
-  width: 9%;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-top: 5px;
+.megaLinks img {
+  width: 10%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
 }
 
 @media (min-width: 1440px) {
@@ -285,9 +302,6 @@
 }
 
 @media (max-width: 1440px) {
-
-
-
   .serviceshover:hover .megamenu {
     display: flex;
     position: absolute;
@@ -329,10 +343,9 @@
 }
 
 @media (max-width: 1215px) {
-
   .megaImg img {
     width: 75px;
-}
+  }
   .serviceshover:hover .megamenu {
     display: flex;
     position: absolute;
@@ -346,18 +359,17 @@
   }
 }
 @media (max-width: 991px) {
-
   .border {
     align-items: unset;
   }
 
-  .megaLinks img{
+  .megaLinks img {
     display: none;
   }
   .menulinks {
     color: #ffffff;
   }
- 
+
   .logonew {
     filter: unset;
   }
@@ -413,7 +425,7 @@
     flex-basis: 100%;
     flex-grow: 1;
     align-items: center;
-    background-color: #ff9900;
+    background-color: #049ea5;
     position: absolute;
     width: 100%;
     left: 0;
@@ -458,11 +470,7 @@
   }
 
   .headerbtnspacing {
-    background-color: #ff9900;
-  }
-
-  .lastCol {
-    display: none;
+    background-color: #049ea5;
   }
 
   .megaLinks svg,
@@ -482,14 +490,10 @@
 }
 
 @media (max-width: 480px) {
-
-
   .cross {
     top: -4px;
     right: 7px;
-}
-
-
+  }
 
   .border {
     border-right: unset;

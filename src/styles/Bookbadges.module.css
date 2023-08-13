@@ -14,10 +14,10 @@
     font-size: 16px;
     padding: 12px 30px;
     border-radius: 50px;
-    background-color: #ff9900;
+    background-color: #049ea5;
     border: 0;
     color: #fff;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     text-decoration: none;
     cursor: pointer;
 }
@@ -44,7 +44,7 @@
     font-size: 22px;
     border-radius: 50px;
     font-weight: 700;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     cursor: pointer;
  
 }

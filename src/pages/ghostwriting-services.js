@@ -44,7 +44,7 @@ const Bookpublishingservices = () => {
     },
     {
       title: 'Our Ghostwriters Adopt A Personable Style',
-      text: 'At Book Writing Experts, we provide a personalized approach since we recognize that each project is unique. Consider using our ghostwriting services if you want to write a novel, a nonfiction book, a children`s book, an autobiography, a history book, or a business book.',
+      text: 'At Texas Book Publishing, we provide a personalized approach since we recognize that each project is unique. Consider using our ghostwriting services if you want to write a novel, a nonfiction book, a children`s book, an autobiography, a history book, or a business book.',
       classnum: 'number1',
 
     },
@@ -85,7 +85,7 @@ const Bookpublishingservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Let our experts fire the imagination of your readers with their killer writing techniques. Your story needs to be heard, and Book Writing Experts make sure your story keep the readers hooked onto it until the end.',
+      pra: 'Let our experts fire the imagination of your readers with their killer writing techniques. Your story needs to be heard, and Texas Book Publishing make sure your story keep the readers hooked onto it until the end.',
       discuss: 'LET S DISCUSS',
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -140,11 +140,11 @@ const Bookpublishingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/ghostwriting-services/"
+      "@id": "https://texasbookpublishing.com/ghostwriting-services/"
     },
     "headline": "Bring Your Ideas to Life With Our Expert Ghostwriting Services!",
     "description": "Ghostwriting Services",
-    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",
+    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/ghost-writing-jpg.jpg?id=8337",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
@@ -163,11 +163,11 @@ const Bookpublishingservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/ghostwriting-services/",
+    "alternateName": "Texas Book Publishing",
+    "url": "https://texasbookpublishing.com/ghostwriting-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -182,7 +182,7 @@ const Bookpublishingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/ghostwriting-services/",
+    "url": "https://texasbookpublishing.com/ghostwriting-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -213,7 +213,7 @@ const Bookpublishingservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -234,14 +234,14 @@ const Bookpublishingservices = () => {
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Top-Tier Ghostwriting Services - Book Writing Experts</title>
+        <title>Top-Tier Ghostwriting Services - Texas Book Publishing</title>
         <meta name="description" content="Ghostwriting services that help aspiring authors launch into success. Get them today, as they are affordable and executed to perfection." />
-        <link rel="canonical" href="https://bookwritingexperts.com/ghostwriting-services/" />
+        <link rel="canonical" href="https://texasbookpublishing.com/ghostwriting-services/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Top-Tier Ghostwriting Services - Book Writing Experts" />
+        <meta property="og:title" content="Top-Tier Ghostwriting Services - Texas Book Publishing" />
         <meta property="og:description" content="Ghostwriting services that help aspiring authors launch into success. Get them today, as they are affordable and executed to perfection." />
-        <meta property="og:url" content="https://bookwritingexperts.com/ghostwriting-services/" />
+        <meta property="og:url" content="https://texasbookpublishing.com/ghostwriting-services/" />
         <meta property="og:site_name" content="Book Writing" />
         <meta property="article:modified_time" content="2023-03-31T12:03:02+00:00" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -298,7 +298,7 @@ const Bookpublishingservices = () => {
       {/* Dowecome */}
       <Dowecome
         title={geta}
-        text='The Ghost Writers at Book Writing Experts deliver compelling stories that persuade their audience to read more. We have a scattered team of experts that provide excellent ghostwriting services for all genres, fiction to nonfiction, from mystery to horror, history to humor, magic to romance, you name it, and we will get it written for you. We understand your requirements, draft the manuscript, utilize the best resources, make edits, and deliver your mere idea as a Powerful Book.'
+        text='The Ghost Writers at Texas Book Publishing deliver compelling stories that persuade their audience to read more. We have a scattered team of experts that provide excellent ghostwriting services for all genres, fiction to nonfiction, from mystery to horror, history to humor, magic to romance, you name it, and we will get it written for you. We understand your requirements, draft the manuscript, utilize the best resources, make edits, and deliver your mere idea as a Powerful Book.'
 
         Dowecome="publishmybook"
 
@@ -382,7 +382,7 @@ const Bookpublishingservices = () => {
 
       <Selfpublishing
         title='A Complete Solution To Your Ghost Writing Essentials Is Here!'
-        text='Book Writing Experts has got you covered with the Best-Ghostwriting services. You are just one click away!'
+        text='Texas Book Publishing has got you covered with the Best-Ghostwriting services. You are just one click away!'
 
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"

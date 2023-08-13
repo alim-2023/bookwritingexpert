@@ -23,7 +23,7 @@ const Illustrativebook = (props) => {
                 </Col>
                 <Col lg={4}>
                     <div className={styles[props.cartoon]}>
-                          <Image alt='book writing expert' src={props.cartoonimg} className="img-fluid" />
+                          <Image alt='Texas Book Publishing' src={props.cartoonimg} className="img-fluid" />
                     </div>
                 </Col>
             </Row>

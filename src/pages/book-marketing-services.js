@@ -69,7 +69,7 @@ const Bookpublishingservices = () => {
     {
       img: mission1,
       title: 'Ignite Your Book`s Success With Creative Marketing Strategies',
-      text: 'At Book Writing Experts, our marketing experts possess a remarkable talent for promotions, leveraging their expertise to captivate audiences through imaginative marketing campaigns. Each campaign is strategically designed with a singular objective: to entice your target audience and compel them to delve into the pages of your book. It`s as simple as that!',
+      text: 'At Texas Book Publishing, our marketing experts possess a remarkable talent for promotions, leveraging their expertise to captivate audiences through imaginative marketing campaigns. Each campaign is strategically designed with a singular objective: to entice your target audience and compel them to delve into the pages of your book. It`s as simple as that!',
       class: 'fintop',
 
 
@@ -101,7 +101,7 @@ const Bookpublishingservices = () => {
   const potential = <span> Path to Book Marketing: Discover the Potential Of Our <Link className='textdocationnone colorexpertgrey hover1' href='/book-marketing-services'>Book Marketing Agency</Link> </span>
 
 
-const marketing = <span>At <b>Book Writing Experts</b> , we prioritize effective communication and transparency in the <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> process. Through our meticulous procedure, we keep our clients informed at every stage, providing clarity on our perspective and delivering regular updates. Here is our process where transparency is ensured at every stage.</span>
+const marketing = <span>At <b>Texas Book Publishing</b> , we prioritize effective communication and transparency in the <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> process. Through our meticulous procedure, we keep our clients informed at every stage, providing clarity on our perspective and delivering regular updates. Here is our process where transparency is ensured at every stage.</span>
 
 const experts = <span>As experts in <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> , we understand that successful promotion requires a step-by-step plan. Our comprehensive marketing strategy will target the right readers, at the right time and place, with the correct budget. This includes a marketing campaign that will help you sell more copies of your book. </span>
 
@@ -134,7 +134,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/book-marketing-services/"
+      "@id": "https://texasbookpublishing.com/book-marketing-services/"
     },
     "headline": "Connect To The Best Book Marketing Service Providers In Town!",
     "description": "Book Marketing Services",
@@ -157,11 +157,11 @@ const challenging = <span>Ready to take your book from 'just another story' to a
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/book-marketing-services/",
+    "alternateName": "Texas Book Publishing",
+    "url": "https://texasbookpublishing.com/book-marketing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -175,7 +175,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/book-marketing-services/",
+    "url": "https://texasbookpublishing.com/book-marketing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -206,7 +206,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
       "closes": "23:59"
     },
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -222,7 +222,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
     "provider": {
       "@type": "Organization",
       "name": "book marketing services book marketing company book marketing agency best book marketing services book advertising services",
-      "url": "https://bookwritingexperts.com/book-marketing-services/"
+      "url": "https://texasbookpublishing.com/book-marketing-services/"
     },
     "serviceType": ["book marketing services book marketing company book marketing agency best book marketing services book advertising services"],
     "areaServed": {
@@ -242,12 +242,12 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Book Marketing Services - Book Writing Experts</title>
+        <title>Professional Book Marketing Services - Texas Book Publishing</title>
         <meta name="description" content="Book Marketing Services that makes you your readers&#039; most sought-after choice. Count on us to be counted worldwide. Hire us to get the job done." />
         <link rel="canonical" href="/book-marketing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Book Marketing Services - Book Writing Experts" />
+        <meta property="og:title" content="Professional Book Marketing Services - Texas Book Publishing" />
         <meta property="og:description" content="Book Marketing Services that makes you your readers&#039; most sought-after choice. Count on us to be counted worldwide. Hire us to get the job done." />
         <meta property="og:url" content="/book-marketing-services" />
         <meta property="og:site_name" content="Book Writing" />
@@ -310,7 +310,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
       {/* Dowecome */}
       <Dowecome
         title={geta}
-        text='Book Writing Experts now markets your book with successful Global marketing support; our professionals help the author promote their books and reach their audience even at the far corners of the world. Internet gives us a platform to create bespoke ads for the readers and attract them to buy your book. Our book marketing experts are dedicated to getting you as much revenue as they can as soon we publish your book. Be at ease and trust Book Writing Experts with your marketing and publishing jobs.'
+        text='Texas Book Publishing now markets your book with successful Global marketing support; our professionals help the author promote their books and reach their audience even at the far corners of the world. Internet gives us a platform to create bespoke ads for the readers and attract them to buy your book. Our book marketing experts are dedicated to getting you as much revenue as they can as soon we publish your book. Be at ease and trust Texas Book Publishing with your marketing and publishing jobs.'
         subtext='We promise to enhance your book visibility with Global exclusive marketing tactics.'
         Dowecome="publishmybook"
 

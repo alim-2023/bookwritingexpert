@@ -21,11 +21,11 @@ const Blogs = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/blogs/",
+    "alternateName": "Texas Book Publishing",
+    "url": "https://texasbookpublishing.com/blogs/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -39,7 +39,7 @@ const Blogs = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/blogs/",
+    "url": "https://texasbookpublishing.com/blogs/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -70,7 +70,7 @@ const Blogs = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -86,7 +86,7 @@ const Blogs = () => {
     "provider": {
       "@type": "Organization",
       "name": "book writing services book writing company book writers affordable book writing services",
-      "url": "https://bookwritingexperts.com/"
+      "url": "https://texasbookpublishing.com/"
     },
     "serviceType": ["book writing services book writing company book writers affordable book writing services"],
     "areaServed": {

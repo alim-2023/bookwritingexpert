@@ -76,7 +76,7 @@ const Whatourclients = () => {
               <h2 className={styles.value}>Glowing Testimonials: Hear What <br /> Our Esteemed Clients Say!</h2>
               <p className={` ${styles.canva} font15 fw100 font-f color-black`}>
 
-                Since I was short on money and couldn’t afford an expensive proofreader for the book, I was legit quite worried because having a second opinion is always better? My friend recommended Book Writing Experts’ affordable proofreading services, and wow! They were very accommodating and got my work done in 3 days only. So happy!
+                Since I was short on money and couldn’t afford an expensive proofreader for the book, I was legit quite worried because having a second opinion is always better? My friend recommended Texas Book Publishing’ affordable proofreading services, and wow! They were very accommodating and got my work done in 3 days only. So happy!
 
               </p>
 
@@ -98,7 +98,7 @@ const Whatourclients = () => {
               <div className={styles.whatclientlogo}>    </div>
               <h3 className='font18 fw700 color-blue mb-4'>Client Testimonials </h3>
               <h2 className={styles.value}>Glowing Testimonials: Hear What <br /> Our Esteemed Clients Say!</h2>
-              <p className={` ${styles.canva} font15 fw100 font-f color-black`}>This was my first book to be 	My sister was struggling with her book sales; I recommended Book Writing Experts book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time.
+              <p className={` ${styles.canva} font15 fw100 font-f color-black`}>This was my first book to be 	My sister was struggling with her book sales; I recommended Texas Book Publishing book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time.
               </p>
 
               <div className={styles.clientData}>

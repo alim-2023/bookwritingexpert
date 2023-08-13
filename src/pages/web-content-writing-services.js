@@ -38,7 +38,7 @@ const EbookWritingservices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Is your website content outdated? Let us help you with it! At Book Writing Experts, we create Search Engine Optimized and high-quality website content that guarantees increased traffic and conversions. We have a team of writers with the experience and skill set required to provide the best and cost-effective writing solutions.',
+      pra: 'Is your website content outdated? Let us help you with it! At Texas Book Publishing, we create Search Engine Optimized and high-quality website content that guarantees increased traffic and conversions. We have a team of writers with the experience and skill set required to provide the best and cost-effective writing solutions.',
       discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -152,7 +152,7 @@ const EbookWritingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/web-content-writing-service/"
+      "@id": "https://texasbookpublishing.com/web-content-writing-service/"
     },
     "headline": "Web Content Writing Service That Gives Your Business Persona A Professional Look!",
     "description": "Web Content Writing Service",
@@ -175,11 +175,11 @@ const EbookWritingservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/web-content-writing-service/",
+    "alternateName": "Texas Book Publishing",
+    "url": "https://texasbookpublishing.com/web-content-writing-service/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -193,7 +193,7 @@ const EbookWritingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/web-content-writing-service/",
+    "url": "https://texasbookpublishing.com/web-content-writing-service/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -224,7 +224,7 @@ const EbookWritingservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -243,12 +243,12 @@ const EbookWritingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Web Content Writing Service - Book Writing Experts</title>
+        <title>Web Content Writing Service - Texas Book Publishing</title>
         <meta name="description" content="Web Content Writing Service to help you create a striking impression on your ideal audience. Get in touch with our seasoned writers." />
         <link rel="canonical" href="/book-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Web Content Writing Service - Book Writing Experts" />
+        <meta property="og:title" content="Web Content Writing Service - Texas Book Publishing" />
         <meta property="og:description" content="Web Content Writing Service to help you create a striking impression on your ideal audience. Get in touch with our seasoned writers." />
         <meta property="og:url" content="/book-writing-services" />
         <meta property="og:site_name" content="Book Writing" />

@@ -54,11 +54,11 @@ const Contact = () => {
         "@context": "https://schema.org",
         "@type": "Corporation",
         "name": "bookwritingexperts",
-        "alternateName": "Book Writing Experts",
-        "url": "https://bookwritingexperts.com/contact-us/",
+        "alternateName": "Texas Book Publishing",
+        "url": "https://texasbookpublishing.com/contact-us/",
         "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
         "sameAs": [
-            "https://bookwritingexperts.com/",
+            "https://texasbookpublishing.com/",
             "https://www.facebook.com/bookwritingexperts",
             "https://twitter.com/bookwritingexp",
             "https://www.instagram.com/bookwritingexpert/",
@@ -75,7 +75,7 @@ const Contact = () => {
         "name": "bookwritingexperts",
         "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
         "@id": "",
-        "url": "https://bookwritingexperts.com/contact-us/",
+        "url": "https://texasbookpublishing.com/contact-us/",
         "telephone": "2132893888",
         "priceRange": "$99",
         "address": {
@@ -106,7 +106,7 @@ const Contact = () => {
             "closes": "23:59"
         },
         "sameAs": [
-            "https://bookwritingexperts.com/",
+            "https://texasbookpublishing.com/",
             "https://www.facebook.com/bookwritingexperts",
             "https://twitter.com/bookwritingexp",
             "https://www.instagram.com/bookwritingexpert/",
@@ -176,7 +176,7 @@ const Contact = () => {
                                 </p>
                                 <p className='font20 fw500 font-f color-white'>
                                     <span className=''>Email:</span> <Link href='mailto:info(@)bookwritingcube(.)com' className={` ${styles.numpost} fw700 color-white textdocationnone`}>
-                                        support@bookwritingexperts.com </Link>
+                                        support@texasbookpublishing.com </Link>
                                 </p>
 
                             </div>
@@ -391,7 +391,7 @@ const Contact = () => {
 
                                 <Col className='mt-3 mb-5'>
                                     <em className='textcolor'>
-                                        You may find our confidentiality policy <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}>here</strong></Link> , or request a signed NDA by email: <Link className='textdocationnone colortextgrey' href="mailto:support@bookwritingexperts.com"> <strong className={styles.numpost}>support@bookwritingexperts.com</strong></Link> This site is protected by reCAPTCHA and the Google
+                                        You may find our confidentiality policy <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}>here</strong></Link> , or request a signed NDA by email: <Link className='textdocationnone colortextgrey' href="mailto:support@texasbookpublishing.com"> <strong className={styles.numpost}>support@texasbookpublishing.com</strong></Link> This site is protected by reCAPTCHA and the Google
                                         <Link className='textdocationnone colortextgrey' href="/privacy-policy"><strong className={styles.numpost}> Privacy Policy</strong></Link>  and Terms of Service <Link className='textdocationnone colortextgrey' href="/terms-of-use"> <strong className={styles.numpost}>Terms of Service</strong> </Link> apply.
                                     </em>
 

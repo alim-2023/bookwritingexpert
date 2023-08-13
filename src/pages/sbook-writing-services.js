@@ -93,7 +93,7 @@ const Bookwritingservices = () => {
     },
 
     {
-      title: 'Book Writing experts',
+      title: 'Texas Book Publishing',
       text: 'Our team includes #1 New York Times- Book Writers and award-winning authors for almost every genre.',
       classnum: 'number1',
 
@@ -114,7 +114,7 @@ const Bookwritingservices = () => {
 
   ]
 
-  const finetext = <span>We offer our clients a customized book writing process that starts with clear communication before initiating the project. Our professional book writing experts inquire and probe to clarify the requirements, so there is no hurdle. Every stage of the process is customizable according to your preferences. We promise you we have the best <Link className='textdocationnone' href='/book-writing-services'>ebook writers for hire </Link> ! </span>
+  const finetext = <span>We offer our clients a customized book writing process that starts with clear communication before initiating the project. Our professional Texas Book Publishing inquire and probe to clarify the requirements, so there is no hurdle. Every stage of the process is customizable according to your preferences. We promise you we have the best <Link className='textdocationnone' href='/book-writing-services'>ebook writers for hire </Link> ! </span>
 
 
   const fine = [

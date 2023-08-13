@@ -7,21 +7,21 @@
     background: rgba(0,0,0,0);
     border-bottom: 1px solid #a6a6a6;
     width: 100%;
-      font-family: 'Poppins'; 
+      font-family: 'Montserrat'; 
    
 }
 .formsaspire{
     background-color: #fff;
     box-shadow: 0 0 20px 1px #ddd;
     padding: 7%;
-      font-family: 'Poppins'; 
+      font-family: 'Montserrat'; 
 }
 .blogformsaspire{
     background-color: #f2f2f2;
     padding: 7%;
     margin-top: 25%;
     margin-left: 10%;
-      font-family: 'Poppins'; 
+      font-family: 'Montserrat'; 
     padding-top: 15%;
     position: sticky;
     top: 10%;
@@ -39,7 +39,7 @@
     color: #223235;
     margin-top: 12px;
     font-size: 14px;
-      font-family: 'Poppins'; 
+      font-family: 'Montserrat'; 
 
 }
 
@@ -53,12 +53,12 @@
     border: 0;
     padding: 12px 30px;
     border-radius: 0;
-    background-color: #FF9900;
+    background-color: #049ea5;
     color: #fff;
     text-decoration: unset;
-    border: 1px solid #FF9900;
+    border: 1px solid #049ea5;
     border-radius: 50px;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     width: 100%;
     margin-top: 2%;
 }
@@ -70,25 +70,25 @@
     font-size: 15px;
     font-weight: 500;
     padding: 12px 34px;
-    border: 2px solid #FF9900;
+    border: 2px solid #049ea5;
     color: #223235;
-      font-family: 'Poppins'; 
+      font-family: 'Montserrat'; 
     text-decoration: none;
     border-radius: 50px;
 }
 .freediscuss:hover{
-    background-color:#FF9900;
+    background-color:#049ea5;
     color: #fff;
 }
 .freehomenumer {
     border: 0;
     padding: 12px 34px;
     border-radius: 0;
-    background-color:#FF9900;
-    border: 2px solid #FF9900;
+    background-color:#049ea5;
+    border: 2px solid #049ea5;
     color: #fff;
     margin-left: 3%;
-      font-family: 'Poppins'; 
+      font-family: 'Montserrat'; 
     text-decoration: none;
     border-radius: 50px;
 }

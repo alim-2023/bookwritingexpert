@@ -1,9 +1,9 @@
 .ourprocess{
     padding-top: 100px;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
 }
 .sidepic{
-    border: 1px solid #ff9900;
+    border: 1px solid #049ea5;
     border-style: dashed;
 }
 
@@ -18,7 +18,7 @@
 	height: 0;
     right: -108px;
 	border-top: 15px solid transparent;
-	border-right: 20px solid #ff9900;
+	border-right: 20px solid #049ea5;
 	border-bottom: 15px solid transparent;
     top: 35%;
 }
@@ -34,7 +34,7 @@
 	height: 0;
     right: -132px;
     border-top: 15px solid transparent;
-	border-left: 25px solid #ff9900;
+	border-left: 25px solid #049ea5;
 	border-bottom: 15px solid transparent;
     top: 35%;
 }
@@ -74,11 +74,11 @@
 }
 .dataslot1 h3{
     font-size: 42px;
-    color: #FF9900;
+    color: #049ea5;
 }
 .dataslot2 h3{
     font-size: 42px;
-    color: #FF9900;
+    color: #049ea5;
 }
 .imagesize{
     width: 100%;
@@ -98,7 +98,7 @@
         height: 0;
         right: -123px;
         border-top: 15px solid transparent;
-        border-right: 20px solid #ff9900;
+        border-right: 20px solid #049ea5;
         border-bottom: 15px solid transparent;
         top: 35%;
     }
@@ -110,7 +110,7 @@
         height: 0;
         right: -146px;
         border-top: 15px solid transparent;
-        border-left: 25px solid #ff9900;
+        border-left: 25px solid #049ea5;
         border-bottom: 15px solid transparent;
         top: 35%;
     }
@@ -126,7 +126,7 @@
         height: 0;
         right: -92px;
         border-top: 15px solid transparent;
-        border-right: 20px solid #ff9900;
+        border-right: 20px solid #049ea5;
         border-bottom: 15px solid transparent;
         top: 35%;
     }
@@ -138,7 +138,7 @@
         height: 0;
         right: -116px;
         border-top: 15px solid transparent;
-        border-left: 25px solid #ff9900;
+        border-left: 25px solid #049ea5;
         border-bottom: 15px solid transparent;
         top: 35%;
     }
@@ -153,7 +153,7 @@
         height: 0;
         right: -73px;
         border-top: 15px solid transparent;
-        border-right: 20px solid #ff9900;
+        border-right: 20px solid #049ea5;
         border-bottom: 15px solid transparent;
         top: 35%;
     }
@@ -165,7 +165,7 @@
         height: 0;
         right: -96px;
         border-top: 15px solid transparent;
-        border-left: 25px solid #ff9900;
+        border-left: 25px solid #049ea5;
         border-bottom: 15px solid transparent;
         top: 35%;
     }

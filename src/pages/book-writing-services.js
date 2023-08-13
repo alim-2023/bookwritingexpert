@@ -51,7 +51,7 @@ const Bookpublishingservices = () => {
   ]
 
 
-  const geta = <span>Get Connected To Your Readers With <Link className='color-blue fw700 textdocationnone hover' href='/book-writing-services'> Book Writing Experts! <br></br> </Link></span>
+  const geta = <span>Get Connected To Your Readers With <Link className='color-blue fw700 textdocationnone hover' href='/book-writing-services'> Texas Book Publishing! <br></br> </Link></span>
 
   const posdata = <span>What Is Stopping You From Availing The Most <Link className='textdocationnone fw700 color-blue hover' href='/book-writing-services'>Affordable Books Writing Services? </Link> </span>
 
@@ -80,7 +80,7 @@ const Bookpublishingservices = () => {
     {
       img: mission3,
       title: 'Well - Researched Personalization',
-      text: 'The professional Books writers at the Book Writing Experts conduct in-depth research on the topic and deliver personalized content as per your requirements.',
+      text: 'The professional Books writers at the Texas Book Publishing conduct in-depth research on the topic and deliver personalized content as per your requirements.',
       class: 'fintop',
 
 
@@ -145,7 +145,7 @@ const Bookpublishingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/ebook-writing-services/"
+      "@id": "https://texasbookpublishing.com/ebook-writing-services/"
     },
     "headline": "Ebook Writing Services That Give Meaning To Your Imagination!",
     "description": "Ebook Writing Services",
@@ -168,11 +168,11 @@ const Bookpublishingservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/ebook-writing-services/",
+    "alternateName": "Texas Book Publishing",
+    "url": "https://texasbookpublishing.com/ebook-writing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -187,7 +187,7 @@ const Bookpublishingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/ebook-writing-services/",
+    "url": "https://texasbookpublishing.com/ebook-writing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -218,7 +218,7 @@ const Bookpublishingservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -234,7 +234,7 @@ const Bookpublishingservices = () => {
     "provider": {
       "@type": "Organization",
       "name": "book editing services book editing company book editors",
-      "url": "https://bookwritingexperts.com/ebook-writing-services/"
+      "url": "https://texasbookpublishing.com/ebook-writing-services/"
     },
     "serviceType": ["ebook writing services ebook writers"],
     "areaServed": {
@@ -252,12 +252,12 @@ const Bookpublishingservices = () => {
         <meta name="msvalidate.01" content="B2F5CD44F715E2885953E1B75D19ED7B" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Professional Book Writing Services - Book Writing Experts</title>
+        <title>Professional Book Writing Services - Texas Book Publishing</title>
         <meta name="description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
         <link rel="canonical" href="/book-writing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Professional Book Writing Services - Book Writing Experts" />
+        <meta property="og:title" content="Professional Book Writing Services - Texas Book Publishing" />
         <meta property="og:description" content="Book Writing Services at the most honest rates by the experts. Give us a call and let them define your book success." />
         <meta property="og:url" content="/book-writing-services" />
         <meta property="og:site_name" content="Book Writing" />
@@ -319,7 +319,7 @@ const Bookpublishingservices = () => {
       {/* Dowecome */}
       <Dowecome
         title={geta}
-        text='Writing an Book is no walk in the park, and you do not have to go through this trouble. Book Writing Experts have a dedicated team of Book Writers for you, right at your disposal. Our specialists do not just transform your words into a story but also help your book rank among the top sellers. We take your ideas to the world and help you reach out to the right readers through the right platforms.'
+        text='Writing an Book is no walk in the park, and you do not have to go through this trouble. Texas Book Publishing have a dedicated team of Book Writers for you, right at your disposal. Our specialists do not just transform your words into a story but also help your book rank among the top sellers. We take your ideas to the world and help you reach out to the right readers through the right platforms.'
         Dowecome="publishmybook"
 
       />
@@ -378,7 +378,7 @@ const Bookpublishingservices = () => {
 
       <Ourprocess
         title='The Ultimate Destination for Book Writing Services'
-        text='Book Writing Experts offers a team of skilled writers and designers waiting to bring your concept to life. Our book writing service specializes in a variety of genres, including: research-based books, self-help, fiction, autobiographies, and children’s books.'
+        text='Texas Book Publishing offers a team of skilled writers and designers waiting to bring your concept to life. Our book writing service specializes in a variety of genres, including: research-based books, self-help, fiction, autobiographies, and children’s books.'
 
         heading1='Talk to a Book Writing Consultant'
         para1='Everything depends on communication because we need your input to move forward. A detailed discussion on the topic or story is the key to a successful book.'

@@ -31,7 +31,7 @@ const Serviceproviders = (props) => {
 
                     </Col>
                     <Col md={3}>
-                        <Image alt='book writing expert' src={proposal} className="img-fluid"></Image>
+                        <Image alt='Texas Book Publishing' src={proposal} className="img-fluid"></Image>
                     </Col>
                 </Row>
             </Container>

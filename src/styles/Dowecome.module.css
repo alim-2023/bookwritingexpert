@@ -35,7 +35,7 @@
   text-decoration: unset;
   margin-left: 10px;
   border: 1px solid #16467d;
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }
 .asnumber:hover {
   color: white;
@@ -47,13 +47,13 @@
   border: 2px solid #16467d;
   color: #223235;
   text-decoration: unset;
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }
 .imgshowdow {
   box-shadow: 0 0 21px 3px #ddd;
 }
 .btn1 {
-  background-color: #ff9900;
+  background-color: #049ea5;
   font: inherit;
   letter-spacing: inherit;
   padding: 1em 1em;
@@ -61,17 +61,17 @@
   border-radius: 50px;
   text-transform: capitalize;
   transition: color 1s;
-  border: 2px solid #ee9d2d;
+  border: 2px solid #049ea5;
   color: #fff;
   width: 100%;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   text-decoration: none;
 }
 
 .btn1:hover {
   animation: stripes-move 1s infinite linear;
 
-  border: 2px solid #ee9d2d;
+  border: 2px solid #049ea5;
   color: #223235;
 }
 .btn2:hover {
@@ -89,7 +89,7 @@
   color: #223235;
   border: 2px solid #223235;
   width: 100%;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   text-decoration: none;
   margin-left: 3%;
 }

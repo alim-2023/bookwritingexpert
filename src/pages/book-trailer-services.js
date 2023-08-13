@@ -43,7 +43,7 @@ const BookTrailerServcies = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Looking for a new and captivating way to promote your upcoming book? Look no further, Book Writing Experts have you covered! Our unmatched book video trailer services help you create the online hype your book deserves. Our experts bring creativity and passion into the mix.',
+      pra: 'Looking for a new and captivating way to promote your upcoming book? Look no further, Texas Book Publishing have you covered! Our unmatched book video trailer services help you create the online hype your book deserves. Our experts bring creativity and passion into the mix.',
       discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -105,7 +105,7 @@ const BookTrailerServcies = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/book-trailer-services/"
+      "@id": "https://texasbookpublishing.com/book-trailer-services/"
     },
     "headline": "Book Trailer Services That Create Hype For Your Digital Asset!",
     "description": "Book Trailer Services",
@@ -128,11 +128,11 @@ const BookTrailerServcies = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/book-trailer-services/",
+    "alternateName": "Texas Book Publishing",
+    "url": "https://texasbookpublishing.com/book-trailer-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -146,7 +146,7 @@ const BookTrailerServcies = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/book-trailer-services/",
+    "url": "https://texasbookpublishing.com/book-trailer-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -177,7 +177,7 @@ const BookTrailerServcies = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -198,12 +198,12 @@ const BookTrailerServcies = () => {
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Impactful Book Trailer Services - Book Writing Experts</title>
+        <title>Impactful Book Trailer Services - Texas Book Publishing</title>
         <meta name="description" content="Book trailer services to make a lasting impression on your audience. Avail our services and stay ahead of your competitors." />
         <link rel="canonical" href="/book-trailer-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Impactful Book Trailer Services - Book Writing Experts" />
+        <meta property="og:title" content="Impactful Book Trailer Services - Texas Book Publishing" />
         <meta property="og:description" content="Book trailer services to make a lasting impression on your audience. Avail our services and stay ahead of your competitors." />
         <meta property="og:url" content="/book-trailer-services" />
         <meta property="og:site_name" content="Book Writing" />
@@ -261,7 +261,7 @@ const BookTrailerServcies = () => {
       {/* Dowecome */}
       <Dowecome
         title={geta}
-        text='What’s the best way to get people interested in your book? By creating a video trailer, of course! A book video trailer is a short, attention-grabbing clip that gives viewers a taste of what your book is all about. At Book Writing Experts, we create visually appealing book video trailers infused with creativity and innovation!'
+        text='What’s the best way to get people interested in your book? By creating a video trailer, of course! A book video trailer is a short, attention-grabbing clip that gives viewers a taste of what your book is all about. At Texas Book Publishing, we create visually appealing book video trailers infused with creativity and innovation!'
         subtext=''
         Dowecome="publishmybook"
 
@@ -306,7 +306,7 @@ const BookTrailerServcies = () => {
       {/* Selfpublishing */}
       <Selfpublishing
         title={leveup}
-        text='First impression is indeed the last impression, which is why Book Writing Experts offer the best book video trailer services for our valued clients. Make the right impression on your readers with compelling book video trailers! '
+        text='First impression is indeed the last impression, which is why Texas Book Publishing offer the best book video trailer services for our valued clients. Make the right impression on your readers with compelling book video trailers! '
 
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"

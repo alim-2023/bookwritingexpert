@@ -13,10 +13,10 @@
     line-height: 44px;
     font-weight: 700;
     color: #223235;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
 }
 .professionalghostwriter h2 a:hover{
-    color: #fc9e31;
+    color: #049ea5;
 }
 
 @media (max-width:991px)  {  

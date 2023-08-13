@@ -74,7 +74,7 @@ const Requestafreequote = () => {
                 <h4 className='fw700 font17 colorexpertgrey font-f'> For project inquiries only: </h4>
                 <p className={styles.bookemail}><MdEmail size={16} />
 
-                  <Link className={`${styles.emailhref} hover`} href="mailto:support@bookwritingexperts.com">  support@bookwritingexperts.com </Link> </p>
+                  <Link className={`${styles.emailhref} hover`} href="mailto:support@texasbookpublishing.com">  support@texasbookpublishing.com </Link> </p>
               </div>
             </Col>
             <Col md={4}>

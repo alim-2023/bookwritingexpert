@@ -41,7 +41,7 @@ const bookCoverDesignServices = () => {
   const bannertext = [
     {
       title: newSpan,
-      pra: 'Although we cannot judge a book by its cover, an attractive one captivates more attention and results in more conversions. At Book Writing Experts, We bring your ideas into reality by designing alluring book covers that guarantee ROI.',
+      pra: 'Although we cannot judge a book by its cover, an attractive one captivates more attention and results in more conversions. At Texas Book Publishing, We bring your ideas into reality by designing alluring book covers that guarantee ROI.',
       discuss: discuss,
       homebannernum: '(213) 289 3888',
       banlogo: homebannerlogos,
@@ -60,7 +60,7 @@ const bookCoverDesignServices = () => {
 
 
   const work = <>
-    <span>Our team of specialists at Book Writing Experts knows that your book covers are able to obtain the outcomes that you need. That is why our renowned design experts give unique design solutions that are exceptional and ideal for the market where you want to sell.</span>
+    <span>Our team of specialists at Texas Book Publishing knows that your book covers are able to obtain the outcomes that you need. That is why our renowned design experts give unique design solutions that are exceptional and ideal for the market where you want to sell.</span>
   </>
 
   const dateset = <span className='fw500'>Why Not Give A Call To Professional <br /> <Link className='textdocationnone color-blue hover' href="/book-cover-design-services/">Book Cover Designers!</Link></span>
@@ -72,11 +72,11 @@ const bookCoverDesignServices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/book-publishing-services/"
+      "@id": "https://texasbookpublishing.com/book-publishing-services/"
     },
     "headline": "Providing Full Fledged Book Publishing Services To Our Struggling Authors",
     "description": "Top-Rated Book Publishing Services by Book Writing",
-    "image": "https://bookwritingexperts.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
+    "image": "https://texasbookpublishing.com/wp-content/uploads/2021/02/publishing.jpg?id=8354",
     "author": {
       "@type": "Organization",
       "name": "Mini Investments"
@@ -98,11 +98,11 @@ const bookCoverDesignServices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/book-publishing-services/",
+    "alternateName": "Texas Book Publishing",
+    "url": "https://texasbookpublishing.com/book-publishing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -118,7 +118,7 @@ const bookCoverDesignServices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/book-publishing-services/",
+    "url": "https://texasbookpublishing.com/book-publishing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -149,7 +149,7 @@ const bookCoverDesignServices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -169,7 +169,7 @@ const bookCoverDesignServices = () => {
     "provider": {
       "@type": "Organization",
       "name": "book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing",
-      "url": "https://bookwritingexperts.com/book-publishing-services/"
+      "url": "https://texasbookpublishing.com/book-publishing-services/"
     },
     "serviceType": ["book publishing services book publishers amazon kdp amazon publishing services kindle direct publishing kdp publishing"],
     "areaServed": {
@@ -192,7 +192,7 @@ const bookCoverDesignServices = () => {
     {
       img: mission2,
       title: 'Affordable Packages',
-      text: 'If you are looking for the best book cover designing services at affordable rates, you are at the right place. Book Writing Experts cater to all your needs in a cost-efficient manner.',
+      text: 'If you are looking for the best book cover designing services at affordable rates, you are at the right place. Texas Book Publishing cater to all your needs in a cost-efficient manner.',
       class: 'fintop',
 
 
@@ -361,7 +361,7 @@ const bookCoverDesignServices = () => {
       {/* Whychoosebookwritingcube */}
       {/* <Whychoosebookwritingcube
         title='All Of Your Burning Book Marketing Questions- Answered!'
-        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Book Writing Experts based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
+        text='Not sure how to promote or organize your next book debut? You can select the marketing service at Texas Book Publishing based on what you want to achieve, and each of our services is concentrated on a few key areas to help you best promote your book.'
         subtext='Whether you are an experienced writer or a beginner, our advice and marketing tactics will help you build a global internet presence. Our book marketing experts will assist your book and brand in achieving the success they deserve.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
@@ -375,7 +375,7 @@ const bookCoverDesignServices = () => {
 
       <Selfpublishing
         title= "Don’t Know How To Give Your Book An Attractive Cover?"
-        text='We Can Help You! Book Writing Experts Have Ideas For You That Will Work.'
+        text='We Can Help You! Texas Book Publishing Have Ideas For You That Will Work.'
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={publishmybook}

@@ -84,13 +84,13 @@ const Blogclientssays = () => {
 
                   <div className={styles.whatclientlogo}>
 
-                    <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='book writing expert'></Image>
+                    <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='Texas Book Publishing'></Image>
 
                   </div>
 
                   <p className={`${styles.looking} font15  textcolor font-f `}>
 
-                  My sister was struggling with her book sales; I recommended Book Writing Experts book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time.
+                  My sister was struggling with her book sales; I recommended Texas Book Publishing book promotion services. Since then the sales have skyrocketed. I have never seen such great results in a short time.
 
                   
 
@@ -111,9 +111,9 @@ const Blogclientssays = () => {
                 </div>
                 <div >
 
-                  <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='book writing expert'></Image> </div>
+                  <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='Texas Book Publishing'></Image> </div>
                   <p className={`${styles.looking} font15  textcolor font-f `}>
-                  Book writing Experts are truly remarkable! I worked with Sam Jordan and he stayed in contact with me almost every day. This was my first time as and Author and To put it mildly, I probably drove him crazy, but he never once was unkind or got angry a true professional and patients of a saint.
+                  Texas Book Publishing are truly remarkable! I worked with Sam Jordan and he stayed in contact with me almost every day. This was my first time as and Author and To put it mildly, I probably drove him crazy, but he never once was unkind or got angry a true professional and patients of a saint.
                   </p>
                   <p className={styles.mark}><b>Evelyn Keplinger</b></p>
 
@@ -123,7 +123,7 @@ const Blogclientssays = () => {
 
                 <div >
 
-                  <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='book writing expert'></Image> </div>
+                  <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='Texas Book Publishing'></Image> </div>
                   <p className={`${styles.looking} font15  textcolor font-f `}>
 
                   I worked with Sam Jordan for a few months preparing my first book. Sam was very helpful and courteous. We connected on the phone several times a week. I am not the most patient person, but I found Sam to be capable and professional. He helped me overcome any fears I had about the process..
@@ -137,10 +137,10 @@ const Blogclientssays = () => {
 
                 <div >
 
-                  <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='book writing expert'></Image> </div>
+                  <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='Texas Book Publishing'></Image> </div>
                   <p className={`${styles.looking} font15  textcolor font-f `}>
 
-                  my creation of this 24 chapter book is actually a 24 part mini series. But once Claire and Sam from the book writing experts Joined forces with me  they turned my little Mini masterpiece into a  Netflix/Amazon series. 43 years of silence Will become an overnight Box office success. Thank you Claire. I love your team.
+                  my creation of this 24 chapter book is actually a 24 part mini series. But once Claire and Sam from the Texas Book Publishing Joined forces with me  they turned my little Mini masterpiece into a  Netflix/Amazon series. 43 years of silence Will become an overnight Box office success. Thank you Claire. I love your team.
                   </p>
                   <p className={styles.mark}><b>Luis Reyes</b></p>
 
@@ -150,10 +150,10 @@ const Blogclientssays = () => {
 
                 <div >
 
-                  <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='book writing expert'></Image> </div>
+                  <div className={styles.whatclientlogo}>   <Image loading="lazy" className={`${styles.quit} img-fluid`} width={30} src={whatour} alt='Texas Book Publishing'></Image> </div>
                   <p className={`${styles.looking} font15  textcolor font-f `}>
 
-                  Since I was short on money and couldn’t afford an expensive proofreader for the book, I was legit quite worried because having a second opinion is always better? My friend recommended Book Writing Experts’ affordable proofreading services, and wow! They were very accommodating and got my work done in 3 days only. So happy!
+                  Since I was short on money and couldn’t afford an expensive proofreader for the book, I was legit quite worried because having a second opinion is always better? My friend recommended Texas Book Publishing’ affordable proofreading services, and wow! They were very accommodating and got my work done in 3 days only. So happy!
 
                   </p>
 

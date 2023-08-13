@@ -18,7 +18,7 @@ const Companypull = (props) => {
                   
                     <Col md={5}>
  
-                    <Image loading="lazy" alt="Book Writing Experts" src={together} className='img-fluid mt-3' />
+                    <Image loading="lazy" alt="Texas Book Publishing" src={together} className='img-fluid mt-3' />
          
 
 

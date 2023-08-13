@@ -67,47 +67,47 @@ const Stunningillustrations = () => {
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image alt="Book Writing Experts" src={homebannerlogos1} className="img-fluid" ></Image>
+                                <Image alt="Texas Book Publishing" src={homebannerlogos1} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image alt="Book Writing Experts" src={homebannerlogos2} className="img-fluid" ></Image>
+                                <Image alt="Texas Book Publishing" src={homebannerlogos2} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image alt="Book Writing Experts" src={homebannerlogos3} className="img-fluid" ></Image>
+                                <Image alt="Texas Book Publishing" src={homebannerlogos3} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image alt="Book Writing Experts" src={homebannerlogos6} className="img-fluid" ></Image>
+                                <Image alt="Texas Book Publishing" src={homebannerlogos6} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image alt="Book Writing Experts" src={homebannerlogos4} className="img-fluid" ></Image>
+                                <Image alt="Texas Book Publishing" src={homebannerlogos4} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image alt="Book Writing Experts" src={homebannerlogos5} className="img-fluid" ></Image>
+                                <Image alt="Texas Book Publishing" src={homebannerlogos5} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image alt="Book Writing Experts" src={homebannerlogos9} className="img-fluid" ></Image>
+                                <Image alt="Texas Book Publishing" src={homebannerlogos9} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image alt="Book Writing Experts" src={homebannerlogos7} className="img-fluid" ></Image>
+                                <Image alt="Texas Book Publishing" src={homebannerlogos7} className="img-fluid" ></Image>
                             </div>
                         </Col>
                         <Col lg={4} className="p-0">
                             <div className={styles.stunimage}>
-                                <Image alt="Book Writing Experts" src={homebannerlogos8} className="img-fluid" ></Image>
+                                <Image alt="Texas Book Publishing" src={homebannerlogos8} className="img-fluid" ></Image>
                             </div>
                         </Col>
                     </Row>
@@ -137,47 +137,47 @@ const Stunningillustrations = () => {
            
 
                 <div className={styles.stunimage}>
-                    <Image alt="Book Writing Experts" src={homebannerlogos1} className="img-fluid" ></Image>
+                    <Image alt="Texas Book Publishing" src={homebannerlogos1} className="img-fluid" ></Image>
                 </div>
 
 
                 <div className={styles.stunimage}>
-                    <Image alt="Book Writing Experts" src={homebannerlogos2} className="img-fluid" ></Image>
+                    <Image alt="Texas Book Publishing" src={homebannerlogos2} className="img-fluid" ></Image>
                 </div>
 
 
                 <div className={styles.stunimage}>
-                    <Image alt="Book Writing Experts" src={homebannerlogos3} className="img-fluid" ></Image>
+                    <Image alt="Texas Book Publishing" src={homebannerlogos3} className="img-fluid" ></Image>
                 </div>
 
 
                 <div className={styles.stunimage}>
-                    <Image alt="Book Writing Experts" src={homebannerlogos6} className="img-fluid" ></Image>
+                    <Image alt="Texas Book Publishing" src={homebannerlogos6} className="img-fluid" ></Image>
                 </div>
 
 
                 <div className={styles.stunimage}>
-                    <Image alt="Book Writing Experts" src={homebannerlogos4} className="img-fluid" ></Image>
+                    <Image alt="Texas Book Publishing" src={homebannerlogos4} className="img-fluid" ></Image>
                 </div>
 
 
                 <div className={styles.stunimage}>
-                    <Image alt="Book Writing Experts" src={homebannerlogos5} className="img-fluid" ></Image>
+                    <Image alt="Texas Book Publishing" src={homebannerlogos5} className="img-fluid" ></Image>
                 </div>
 
 
                 <div className={styles.stunimage}>
-                    <Image alt="Book Writing Experts" src={homebannerlogos9} className="img-fluid" ></Image>
+                    <Image alt="Texas Book Publishing" src={homebannerlogos9} className="img-fluid" ></Image>
                 </div>
 
 
                 <div className={styles.stunimage}>
-                    <Image alt="Book Writing Experts" src={homebannerlogos7} className="img-fluid" ></Image>
+                    <Image alt="Texas Book Publishing" src={homebannerlogos7} className="img-fluid" ></Image>
                 </div>
 
 
                 <div className={styles.stunimage}>
-                    <Image alt="Book Writing Experts" src={homebannerlogos8} className="img-fluid" ></Image>
+                    <Image alt="Texas Book Publishing" src={homebannerlogos8} className="img-fluid" ></Image>
                 </div>
 
                 </Slider>

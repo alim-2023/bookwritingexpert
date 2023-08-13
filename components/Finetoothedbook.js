@@ -14,7 +14,7 @@ const Finetoothedbook = (props) => {
         <div className={styles[props.classtop]}>
 
 
-          <Image loading="lazy" alt="Book Writing Experts" src={props.img1} className='img-fluid' />
+          <Image loading="lazy" alt="Texas Book Publishing" src={props.img1} className='img-fluid' />
 
           <h4 className="font20 fw600 colorexpertgrey font-f t-center">{props.title}</h4>
 

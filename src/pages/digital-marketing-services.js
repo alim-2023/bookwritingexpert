@@ -44,7 +44,7 @@ const Digitalmarketingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/"
+      "@id": "https://texasbookpublishing.com/"
     },
     "headline": "Book Writing Company",
     "description": "Book Writing Company",
@@ -67,11 +67,11 @@ const Digitalmarketingservices = () => {
     "@context": "https://schema.org",
     "@type": "Corporation",
     "name": "bookwritingexperts",
-    "alternateName": "Book Writing Experts",
-    "url": "https://bookwritingexperts.com/digital-marketing-services/",
+    "alternateName": "Texas Book Publishing",
+    "url": "https://texasbookpublishing.com/digital-marketing-services/",
     "logo": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -85,7 +85,7 @@ const Digitalmarketingservices = () => {
     "name": "bookwritingexperts",
     "image": "https://cdn-cpmon.nitrocdn.com/sKNWrfOsKSxqdRuCiSOtyhAZTjxpwVrv/assets/static/optimized/rev-f0cb152/wp-content/uploads/2022/06/BWE-logo-2.png",
     "@id": "",
-    "url": "https://bookwritingexperts.com/digital-marketing-services/",
+    "url": "https://texasbookpublishing.com/digital-marketing-services/",
     "telephone": "2132893888",
     "priceRange": "$99",
     "address": {
@@ -116,7 +116,7 @@ const Digitalmarketingservices = () => {
       "closes": "23:59"
     },
     "sameAs": [
-      "https://bookwritingexperts.com/",
+      "https://texasbookpublishing.com/",
       "https://www.facebook.com/bookwritingexperts",
       "https://twitter.com/bookwritingexp",
       "https://www.instagram.com/bookwritingexpert/",
@@ -130,7 +130,7 @@ const Digitalmarketingservices = () => {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://bookwritingexperts.com/digital...-services/"
+      "@id": "https://texasbookpublishing.com/digital...-services/"
     },
     "headline": "Digital Marketing Services",
     "description": "Digital Marketing Services",
@@ -167,12 +167,12 @@ const Digitalmarketingservices = () => {
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-        <title>Top Tier Digital Marketing Services - Book Writing Experts</title>
+        <title>Top Tier Digital Marketing Services - Texas Book Publishing</title>
         <meta name="description" content="Digital Marketing Services that will help your business grow. We offer various services to help you achieve ultimate success. Call us to get them." />
         <link rel="canonical" href="/digital-marketing-services" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Top Tier Digital Marketing Services - Book Writing Experts" />
+        <meta property="og:title" content="Top Tier Digital Marketing Services - Texas Book Publishing" />
         <meta property="og:description" content="Digital Marketing Services that will help your business grow. We offer various services to help you achieve ultimate success. Call us to get them." />
         <meta property="og:url" content="/digital-marketing-services" />
         <meta property="og:site_name" content="Book Writing" />
@@ -279,7 +279,7 @@ const Digitalmarketingservices = () => {
       <div className='newdatecloud'>
         <Aspiring
           title={<> Relieve Your Marketing Burden With Our <Link className='textdocationnone color-blue hover' href="/digital-marketing-services/">Digital Book Marketing Agency</Link>! </>}
-          text={<> Marketing, especially book marketing, can be a challenging task for many. However, for <strong>Book Writing Experts</strong>, it's a breeze. We understand the intricacies of advertising, from crafting compelling pitches to devising profitable social media campaigns and beyond. While these tasks may seem overwhelming to you, we have the expertise and experience to handle them with ease. Let us shoulder the marketing strain and pave the way for your success! </>}
+          text={<> Marketing, especially book marketing, can be a challenging task for many. However, for <strong>Texas Book Publishing</strong>, it's a breeze. We understand the intricacies of advertising, from crafting compelling pitches to devising profitable social media campaigns and beyond. While these tasks may seem overwhelming to you, we have the expertise and experience to handle them with ease. Let us shoulder the marketing strain and pave the way for your success! </>}
           number="Dial (213) 289 3888"
           img={youareonestepcloserto}
 

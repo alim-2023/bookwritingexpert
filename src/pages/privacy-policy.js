@@ -240,7 +240,7 @@ const Privacypolicy = () => {
                                 Toll-Free number: <Link className='textdocationnone color-blue hover' href="tel:213-289-3888">(213) 289 3888</Link>
                             </li>
                             <li className='font15  textcolor font-f'>
-                                E-mail: <Link className='textdocationnone color-blue hover' href="mailto:support@bookwritingexperts.com">support@bookwritingexperts.com</Link>
+                                E-mail: <Link className='textdocationnone color-blue hover' href="mailto:support@texasbookpublishing.com">support@texasbookpublishing.com</Link>
                             </li>
                         </ul>
 

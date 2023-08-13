@@ -17,7 +17,7 @@ const Slug = () => {
     useEffect(() => {
         const fetchData = async () => {
 
-            const response = await fetch(`https://bookwritingexperts.com/wp-json/wp/v2/posts?_embed&slug=${slug1}`);
+            const response = await fetch(`https://texasbookpublishing.com/wp-json/wp/v2/posts?_embed&slug=${slug1}`);
             const data = await response.json();
            
             setPosts(data);
@@ -53,10 +53,10 @@ const Slug = () => {
                 <meta property="og:image:width" content="1400" />
                 <meta property="og:image:height" content="800" />
                 <meta property="og:image:type" content="image/jpeg" />
-                <meta name="author" content="Book Writing Experts" />
+                <meta name="author" content="Texas Book Publishing" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:label1" content="Written by" />
-                <meta name="twitter:data1" content="Book Writing Experts" />
+                <meta name="twitter:data1" content="Texas Book Publishing" />
                 <meta name="twitter:label2" content="Est. reading time" />
                 <meta name="twitter:data2" content="13 minutes" />
                 <link rel='icon' href='/favicon.svg' />
@@ -106,7 +106,7 @@ const Slug = () => {
                             </div>
 
                             <div>
-                                <Image loading="lazy" src={blogimage4} alt='book writing expert' className='img-fluid' />
+                                <Image loading="lazy" src={blogimage4} alt='Texas Book Publishing' className='img-fluid' />
                             </div>
 
                             <p className='textcolor mt-3  font15 font-f'>The publishing landscape is more competitive than ever, so authors need to have knowledge about getting their books seen. Traditional methods like print-on-demand are becoming less effective as the digital marketplace evolves, creating a greater demand for modern strategies that get your book noticed in the growing pool of titles on <Link className='textdocationnone hover color-blue' href='#'>Kindle Direct Publishing</Link> (KDP) platforms.</p>

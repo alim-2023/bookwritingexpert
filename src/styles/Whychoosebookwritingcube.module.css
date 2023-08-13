@@ -19,26 +19,26 @@
   transition: all .2s ease-in-out;
 }
 .middle:hover img{
-  border: 3px solid #ff9900;
+  border: 3px solid #049ea5;
 }
 .asnumber:hover {
   background-color: #223235;
 }
 .asdiscuss:hover {
-  background-color: #ff9900;
+  background-color: #049ea5;
   color: #fff;
 }
 .asnumber {
   border: 0;
   padding: 12px 30px;
   border-radius: 0;
-  background-color: #ff9900;
+  background-color: #049ea5;
   color: #fff;
   text-decoration: unset;
   margin-left: 10px;
-  border: 1px solid #ff9900;
+  border: 1px solid #049ea5;
   border-radius: 50px;
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }
 .asnumber:hover {
   color: white;
@@ -47,10 +47,10 @@
   font-size: 15px;
   font-weight: 500;
   padding: 12px 18px;
-  border: 2px solid #ff9900;
+  border: 2px solid #049ea5;
   color: #223235;
   text-decoration: unset;
-  font-family: "Poppins";
+  font-family: "Montserrat";
   border-radius: 50px;
 }
 .imgshowdow {
