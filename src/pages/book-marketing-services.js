@@ -57,19 +57,23 @@ const Bookpublishingservices = () => {
   const geta = <span>Book Promotion Has Just Become Easier With The Global <Link className='color-blue textdocationnone hover fw700' href='/book-marketing-services'>Book Marketing Services.</Link></span>
 
 
-  const posdata = <span>Let Us Put Your Book On The Fast Track To Success With the Dynamic And Innovative  <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>Book Marketing</Link> Take Charge Of Your  <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>Strategies Of Our Team!</Link> </span>
+  const posdata = <span>Let Us Put Your Book On The Fast Track To Success With the Dynamic And Innovative <Link className='textdocationnone color-blue hover fw700' href='/book-marketing-services'>Book Marketing</Link> Strategies Of Our Team!</span>
 
 
-  const missiontext = <span>With our comprehensive <Link className='textdocationnone color-black hover1' href='/book-marketing-services'>book marketing services</Link>, we'll position you as the go-to expert in your field. Through targeted outreach, thought leadership initiatives, and strategic branding, we'll amplify your visibility and establish your authority. Prepare to be recognized as the author readers trust and industry professionals seek out. Partner with us, and let us unlock your full marketing potential.</span>
+  const missiontext = <span>With our comprehensive <Link className='textdocationnone color-black hover1' href='/book-marketing-services'>book marketing services</Link>, we'll position you as the go-to expert in your field. Through targeted outreach, thought leadership initiatives, and strategic branding, we'll amplify your visibility and establish your authority. Partner with us, and let us unlock your full marketing potential.</span>
 
-  const experienced = <span>Our experienced and award-winning team of <Link className='textdocationnone color-black hover1' href='/book-marketing-services'>book marketing</Link> experts goes the extra mile to deliver tailored services designed specifically for you. With our bespoke and personalized approach, we not only help you secure valuable reviews but also market your book effectively. No matter the size or genre of your campaign, we enhance its potential to ensure maximum success. Rest assured, every client holds significance to us, and we are committed to their individual journey.</span>
+  const experienced = <span>Our experienced and award-winning team of <Link className='textdocationnone color-black hover1' href='/book-marketing-services'>book marketing</Link> experts goes the extra mile to deliver customized services designed specifically for you. With our bespoke and personalized approach, we not only help you secure valuable reviews but also market your book effectively and ensure maximum success.</span>
 
   const fine = [
 
     {
       img: mission1,
       title: 'Ignite Your Book`s Success With Creative Marketing Strategies',
-      text: 'At Book Writing Experts, our marketing experts possess a remarkable talent for promotions, leveraging their expertise to captivate audiences through imaginative marketing campaigns. Each campaign is strategically designed with a singular objective: to entice your target audience and compel them to delve into the pages of your book. It`s as simple as that!',
+      text: (
+        <>
+          At <b>Book Writing Experts</b>, our marketing experts possess a remarkable talent for promotions, leveraging their expertise to captivate audiences through imaginative marketing campaigns. Each campaign is strategically designed to entice your target audience and compel them to delve into the pages of your book.
+        </>
+      ),
       class: 'fintop',
 
 
@@ -101,31 +105,31 @@ const Bookpublishingservices = () => {
   const potential = <span> Path to Book Marketing: Discover the Potential Of Our <Link className='textdocationnone colorexpertgrey hover1' href='/book-marketing-services'>Book Marketing Agency</Link> </span>
 
 
-const marketing = <span>At <b>Book Writing Experts</b> , we prioritize effective communication and transparency in the <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> process. Through our meticulous procedure, we keep our clients informed at every stage, providing clarity on our perspective and delivering regular updates. Here is our process where transparency is ensured at every stage.</span>
+  const marketing = <span>At <b>Book Writing Experts</b>, we prioritize effective communication and transparency in the <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> process. Through our meticulous procedure, we keep our clients informed at every stage, providing clarity on our perspective and delivering regular updates. Go through our process:</span>
 
-const experts = <span>As experts in <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> , we understand that successful promotion requires a step-by-step plan. Our comprehensive marketing strategy will target the right readers, at the right time and place, with the correct budget. This includes a marketing campaign that will help you sell more copies of your book. </span>
+  const experts = <span>As experts in <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link>, we understand that successful promotion requires a step-by-step plan. Our comprehensive marketing strategy will target the right readers, at the right time and place, with the correct budget to sell more copies of your manuscripts.</span>
 
-const plan = <span>A marketing plan is crucial to keep your content focused. Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing experts</Link> ensure that your book reaches people who are searching for exactly what you offer. This will increase the visibility of your book and attract prospective readers.</span>
+  const plan = <span>A marketing plan is crucial to keep your content focused. Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing experts</Link> ensure that your book has more visibility and reaches people who are searching for exactly what you offer.</span>
 
-const create = <span>We have a multitude of <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> strategies in place, ensuring that your book becomes a huge success. The experts of our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing agency</Link> agency focus on the dynamic landscape of marketing and work closely to create a tailored strategy that aligns with your goals and objectives.</span>
+  const create = <span>We have a multitude of <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> strategies in place, ensuring that your book becomes a huge success. The experts of our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing agency</Link> focus on the dynamic landscape of marketing and work closely to create a tailored strategy that aligns with your goals and objectives.</span>
 
-const wise = <span>It's time to let our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing experts</Link> guide you and promote your book effectively. Your story deserves to be heard by a wide audience, but be sure to avoid shady agencies that could damage your book's reputation. Trust in the expertise of marketing professionals to ensure success. Don't risk it – choose wisely.</span>
-
-
-const support = <span>We understand that getting your book noticed in today's crowded marketplace can be a challenge. Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing services</Link> are designed to increase your visibility across all major platforms, including social media, email marketing, and book review sites.</span>
-
-const second = <span>Your Book in Good Hands: Our Team of Experienced <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing</Link> Professionals: </span>
+  const wise = <span>It's time to let our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing experts</Link> guide you and promote your book effectively. Your story deserves to be heard by a wide audience, but be sure to avoid shady agencies that could damage your book's reputation. Trust in the expertise of marketing professionals to ensure success. Don't risk it – choose wisely.</span>
 
 
-const demands = <span>Our team is made up of experienced <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> professionals, and creatives who have a deep understanding of the book industry. From crafting compelling email campaigns to designing eye-catching book covers, we have the skills you need to succeed.</span>
+  const support = <span>We understand that getting your book noticed in today's crowded marketplace can be a challenge. Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing services</Link> are designed to increase your visibility across all major platforms, including social media, email marketing, and book review sites.</span>
 
-const impressive = <span>Making Your Dream a Reality: Our Results-Driven Approach to <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing</Link> </span>
+  const second = <span>Your Book in Good Hands: Our Team of Experienced <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing</Link> Professionals: </span>
 
-const tailored = <span> Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing company</Link> delivers best results. We set clear goals and measure our success against them. Whether you're looking to increase your book's sales, build your author platform, or generate buzz around a new release, we have the tools and expertise you need to achieve your goals.</span>
 
-const industry = <span>Turn the Tables on the Book Industry with Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing Service</Link>!</span>
+  const demands = <span>Our team is made up of experienced <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> professionals, and creatives who have a deep understanding of the book industry. From crafting compelling email campaigns to designing eye-catching book covers, we have the skills you need to succeed.</span>
 
-const challenging = <span>Ready to take your book from 'just another story' to a literary sensation? Join forces with us and let's create a <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> strategy that will make your book stand out in a sea of competitors. Don't go at it alone - let's make your story the talk of the town!</span>
+  const impressive = <span>Making Your Dream a Reality: Our Results-Driven Approach to <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing</Link> </span>
+
+  const tailored = <span> Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing company</Link> delivers best results. We set clear goals and measure our success against them. Whether you're looking to increase your book's sales, build your author platform, or generate buzz around a new release, we have the tools and expertise you need to achieve your goals.</span>
+
+  const industry = <span>Turn the Tables on the Book Industry with Our <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>Book Marketing Service</Link>!</span>
+
+  const challenging = <span>Ready to take your book from 'just another story' to a literary sensation? Join forces with us and let's create a <Link className='textdocationnone color-blue hover1' href='/book-marketing-services'>book marketing</Link> strategy that will make your book stand out in a sea of competitors. Don't go at it alone - let's make your story the talk of the town!</span>
 
 
 
@@ -301,12 +305,6 @@ const challenging = <span>Ready to take your book from 'just another story' to a
       )}
 
 
-
-
-
-
-
-
       {/* Dowecome */}
       <Dowecome
         title={geta}
@@ -354,11 +352,11 @@ const challenging = <span>Ready to take your book from 'just another story' to a
 
 
       <Ourprocess
-        title= {potential}
-        text= {marketing}
+        title={potential}
+        text={marketing}
 
         heading1='The Comprehensive Marketing Plan:'
-        para1= {experts}
+        para1={experts}
         num1='01'
 
         heading2='Social Media and Additional Media Channels:'
@@ -366,15 +364,15 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         num2='02'
 
         heading3='Marketing Plan Implementation:'
-        para3= {plan}
+        para3={plan}
         num3='03'
 
         heading4='Target Audience:'
-        para4='We understand that only a certain set of people will be interested in your book. Therefore, we create a targeted strategy to focus on those who are most likely to be interested. This will increase the number of prospective readers and ensure your book is a success.'
+        para4='Every reader is interested in a certain favorite genre. Therefore, we create a targeted strategy to focus on those who are most likely to be interested in your book. This will increase the number of prospective readers and ensure your book is a success.'
         num4='04'
 
         heading5='Effective Marketing Strategy is What is Needed:'
-        para5= {create}
+        para5={create}
         num5='05'
       />
 
@@ -397,7 +395,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
         <Container>
           <Row>
             <Col>
-        
+
               <h2 className='color-blue fw700 font50 font-f t-center'>Why Settle for Ordinary When You Can Have Extraordinary? Discover Our <Link href='/book-editing-services' className='textdocationnone colortextgrey hover'>Book Marketing Services</Link> Today!  </h2>
             </Col>
           </Row>
@@ -407,7 +405,8 @@ const challenging = <span>Ready to take your book from 'just another story' to a
       {/* Selfpublishing */}
       <Selfpublishing
         title='Our Personalized Approach to Strategic Planning:'
-        text='We believe in developing a comprehensive, tailored marketing strategy for every book we work with. Our experts will carefully analyze your book, target audience, and market trends to develop a roadmap that will help you achieve your goals.'
+        text={<>We understand that getting your book visibility in today's crowded marketplace can be a challenge. Our <Link href='/book-marketing-services/' className='textdocationnone textcolor hover'>book marketing services</Link> are designed to increase your visibility across all major platforms, including social media, email marketing, and book review sites.</>}
+        subtext={<>We believe in developing a comprehensive, tailored marketing strategy for every book we work with. Our experienced <Link href='/book-marketing-services/' className='textdocationnone textcolor hover'>book marketing</Link> professional carefully analyzes your book, target audience, and market trends to develop a roadmap that will help you achieve your goals. From crafting compelling email campaigns to designing eye-catching book covers, we focus on increasing your book's sales, building your author platform, and generating buzz around your new release.</>}
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"
         image={bookmarketingservices1}
@@ -429,7 +428,7 @@ const challenging = <span>Ready to take your book from 'just another story' to a
 
       {/* Selfpublishing */}
       <Selfpublishing
-        title= {second}
+        title={second}
         text={demands}
         number="(213) 289 3888"
         discuss="LET'S DISCUSS"

@@ -25,7 +25,7 @@ import styles from '@/styles/Whybookpublishing.module.css'
 
 const Bookpublishingservices = () => {
 
-  const newSpan = <h1 className='font50 color-white font-f hero-span'> Refine Your Book with Impeccable Mastery through our Professional  <Link className='textdocationnone fw700 color-blue hover' href="/book-proofreading-services"> Book Proofreading Services </Link> <span className=''></span>   </h1>;
+  const newSpan = <h1 className='font50 color-white font-f hero-span'> Refine Your Book with Impeccable Mastery through our Professional <Link className='textdocationnone fw700 color-blue hover' href="/book-proofreading-services">Book Proofreading Services</Link>!</h1>;
 
   const discuss = <span>Hire The Best Book Proofreading Services!</span>
 
@@ -60,8 +60,8 @@ const Bookpublishingservices = () => {
       title: 'Impeccable Precision',
       text: (
         <>
-        Our professional <b>book proofreading services</b> ensure every detail of your manuscript is thoroughly reviewed and refined to achieve flawless perfection. We leave no room for errors or inconsistencies.
-          
+          Our professional <b>book proofreading services</b> ensure every detail of your manuscript is thoroughly reviewed and refined to achieve flawless perfection. We leave no room for errors or inconsistencies.
+
         </>
       ),
       col: '6',
@@ -71,8 +71,8 @@ const Bookpublishingservices = () => {
       title: 'Enhanced Credibility',
       text: (
         <>
-        By investing in our <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>book proofreading services</Link>, you elevate the credibility of your work. Our meticulous attention to detail ensures that your content is polished, professional, and worthy of admiration.
-          
+          By investing in our <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>book proofreading services</Link>, you elevate the credibility of your work. Our meticulous attention to detail ensures that your content is polished, professional, and worthy of admiration.
+
         </>
       ),
       col: '6',
@@ -80,10 +80,10 @@ const Bookpublishingservices = () => {
     },
     {
       title: 'Reader Satisfaction',
-      text:  (
+      text: (
         <>
-       Engage and captivate your readers with a seamless reading experience. Our <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>professional proofreading services</Link> guarantee a smooth flow, free from distractions and grammatical blunders, immersing your audience in your story.
-          
+          Engage and captivate your readers with a seamless reading experience. Our <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>professional proofreading services</Link> guarantee a smooth flow, free from distractions and grammatical blunders, immersing your audience in your story.
+
         </>
       ),
       col: '6',
@@ -98,10 +98,10 @@ const Bookpublishingservices = () => {
     },
     {
       title: 'Time-Saving Efficiency',
-      text:  (
+      text: (
         <>
-       Let us handle the time-consuming task of <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>book proofreading</Link> , allowing you to focus on your writing and other essential aspects of your publishing journey. Our efficient services deliver prompt results without compromising quality.
-          
+          Let us handle the time-consuming task of <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>book proofreading</Link>, allowing you to focus on your writing and other essential aspects of your publishing journey. Our efficient services deliver prompt results without compromising quality.
+
         </>
       ),
       col: '6',
@@ -109,10 +109,10 @@ const Bookpublishingservices = () => {
     },
     {
       title: 'Confidence in Publication',
-      text:  (
+      text: (
         <>
-        With our expert <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>book proofreading services</Link>, you can confidently approach the publishing process. We provide the assurance that your book is thoroughly vetted and ready for publication, eliminating any worries or uncertainties.
-          
+          With our expert <Link className='textdocationnone color-blue hover' href='/book-proofreading-services'>book proofreading services</Link>, you can confidently approach the publishing process and we assure that your book is thoroughly vetted and ready for publication, eliminating any worries or uncertainties.
+
         </>
       ),
       col: '6',
@@ -125,7 +125,7 @@ const Bookpublishingservices = () => {
 
   const geta = <span> <Link className='color-blue textdocationnone hover fw700' href='/book-proofreading-services'>Professional Proofreading Services</Link> to Turn Your Words into a Masterpiece!</span>
 
- 
+
 
 
 
@@ -134,9 +134,9 @@ const Bookpublishingservices = () => {
     {
       img: mission1,
       title: 'Unparalleled Expertise',
-      text:  (
+      text: (
         <>
-         <b>Book Writing Experts</b> has a team of professional <Link className='color-black textdocationnone hover1' href='/book-proofreading-services'>book proofreading</Link> specialists who meticulously review every book before it goes to print. Our experts ensure error-free text and adherence to <Link className='color-black textdocationnone hover1' href='/book-proofreading-services'>book publishing</Link> standards, recognizing the vital role of proofreading in the publishing process.
+          <b>Book Writing Experts</b> has a team of professional <Link className='color-black textdocationnone hover1' href='/book-proofreading-services'>book proofreading</Link> specialists who meticulously review every book before it goes to print. Our experts ensure error-free text and adherence to <Link className='color-black textdocationnone hover1' href='/book-proofreading-services'>book publishing</Link> standards, recognizing the vital role of proofreading in the publishing process.
         </>
       ),
       class: 'fintop',
@@ -158,8 +158,8 @@ const Bookpublishingservices = () => {
       title: 'Uncompromising Quality     ',
       text: (
         <>
-        <b>Book Writing Experts</b> is the epitome of excellence for self-publishing authors seeking a trusted partner. We comprehend the importance of achieving perfection in your book and stand by you in the journey. Rely on us to refine your work to its finest form, ensuring your readers a polished and captivating experience.
-          
+          <b>Book Writing Experts</b> is the epitome of excellence for self-publishing authors seeking a trusted partner. We comprehend the importance of achieving perfection in your book and stand by you in the journey. Rely on us to refine your work to its finest form, ensuring your readers a polished and captivating experience.
+
         </>
       ),
       class: 'fintop',
@@ -177,21 +177,21 @@ const Bookpublishingservices = () => {
   </>
 
   const pc = <>
-  
-  Refine, Enhance, and Elevate Your Masterpiece with Our Exceptional <Link className='textdocationnone color-blue hover fw700' href='/book-proofreading-services'>Book Proofreading Services</Link>! 
-  
+
+    Refine, Enhance, and Elevate Your Masterpiece with Our Exceptional <Link className='textdocationnone color-blue hover fw700' href='/book-proofreading-services'>Book Proofreading Services</Link>!
+
   </>
 
-  const receives =  <>
-  
-  Refining Your Book To Perfection Through Expert <Link className='textdocationnone colortextgrey hover fw700' href='/book-proofreading-services'>Book Proofreading</Link>  Process
+  const receives = <>
+
+    Refining Your Book To Perfection Through Expert <Link className='textdocationnone colortextgrey hover fw700' href='/book-proofreading-services'>Book Proofreading</Link>  Process
 
   </>
 
   const qualified = <>
-  
-  When the going gets tough, rely on our team of qualified editors to lend a helping hand. Contact us to enlist their expertise in reviewing your paper and rectifying any mistakes. Whether it's a minor oversight or a significant grammatical error, our <Link className='textdocationnone color-blue hover fw700' href='/book-proofreading-services'>book proofreading services</Link> team will ensure your work is flawlessly polished before you submit it.
-  
+
+    When the going gets tough, rely on our team of qualified editors to lend a helping hand. Contact us to enlist their expertise in reviewing your paper and rectifying any mistakes. Whether it's a minor oversight or a significant grammatical error, our <Link className='textdocationnone color-blue hover fw700' href='/book-proofreading-services'>book proofreading services</Link> team will ensure your work is flawlessly polished before you submit it.
+
   </>
 
 
@@ -395,8 +395,8 @@ const Bookpublishingservices = () => {
       <div className={`${styles.finetoothedbook} customizedbook`}>
         <Container>
           <Row >
-            <h2 className="colortextgrey   font25   t-center font-f mb-5">Achieve Perfection In Your Work with Our  <Link className='textdocationnone color-blue hover fw700' href='/book-proofreading-services'>Proofreading Services</Link> </h2>
-            
+            <h2 className="colortextgrey   font25   t-center font-f mb-5">Achieve Perfection In Your Work with Our  <Link className='textdocationnone color-blue hover fw700' href='/book-proofreading-services'>Proofreading Services</Link>!</h2>
+
 
           </Row>
 
@@ -417,13 +417,13 @@ const Bookpublishingservices = () => {
 
 
       <Ourprocess
-        title= {receives}
+        title={receives}
 
         heading1='Embarking on the Journey!'
         para1='The proofreading process commences as our skilled team receives your manuscript or book.'
         num1='01'
 
-        heading2= {`Unleashing Our Editor's Expertise!`}
+        heading2={`Unleashing Our Editor's Expertise!`}
         para2='Every identified mistake is meticulously corrected, refining the manuscript with utmost precision.'
         num2='02'
 

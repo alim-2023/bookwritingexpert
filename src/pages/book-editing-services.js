@@ -60,22 +60,22 @@ const Bookpublishingservices = () => {
 
 
 
- const finetitle = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing Service</Link> 
+  const finetitle = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing Service</Link>
 
- const finepare = <span> While grammar checkers and self-editing can catch some errors, a professional book editor brings a superior level of proficiency into your work. Hiring a <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>book editing company</Link> is an investment in the success of your book. </span>
-
-
-
- const finetitle1 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel Editing Service</Link> 
-
- const finepare1 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel editors</Link> refine your words, make your characters shine, and your plots thrive. Get in touch with the Book Writing Experts, the sorcerers of storytelling and <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>novel editing</Link>. Don't settle for less and watch your story become the best seller!</span>
-
- const finetitle2 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-Fiction Editing Service</Link> 
-
- const finepare2 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-fiction editing</Link>, the art of transforming raw facts into a captivating narrative – Imagine your words infused with clarity, precision, and a touch of literary magic. Don't let your ideas languish in mediocrity and hire <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>non-fiction editors</Link> to help you make your manuscript a success.</span>
+  const finepare = <span> While grammar checkers and self-editing can catch some errors, a professional book editor brings a superior level of proficiency into your work. Hiring a <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>book editing company</Link> is an investment in the success of your book. </span>
 
 
-const title2 = <span>A Glimpse into Our <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing</Link> Process</span>
+
+  const finetitle1 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel Editing Service</Link>
+
+  const finepare1 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Novel editors</Link> refine your words, make your characters shine, and your plots thrive. Get in touch with the Book Writing Experts, the sorcerers of storytelling and <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>novel editing</Link>. Never settle for less!</span>
+
+  const finetitle2 = <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-Fiction Editing Service</Link>
+
+  const finepare2 = <span> <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Non-fiction editing</Link>, the art of transforming raw facts into a captivating narrative – Infuse your words with clarity, precision, and a touch of literary magic. Don't let your ideas languish in mediocrity and hire <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>non-fiction editors</Link> to make your book successful.</span>
+
+
+  const title2 = <span>A Glimpse into Our <Link className='textdocationnone colortextgrey fw700 hover1' href='/book-editing-services'>Book Editing</Link> Process</span>
 
   const fine = [
 
@@ -109,14 +109,14 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
 
   ]
 
-  const dateset = <span>  Are You Ready to Bid Farewell to <br></br> the Nightmares of  <Link  className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing</Link>? </span>
+  const dateset = <span>Are You Ready to Bid Farewell to <br /> the Nightmares of <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing</Link>? </span>
 
 
   const maketitle = <span>Our Portfolio of <Link href='/book-editing-services' className='textdocationnone colortextgrey hover'> Book Editing</Link> Projects</span>
 
   const book = <span>Words Perfected, Stories Enhanced - By our  <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editors</Link> for a flawless reading experience!</span>
 
-  const then = <span>Our expert <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editors</Link> read your manuscript, line by line, and add suggestions to refine sentence structure, enhancing clarity, and ensuring grammatical accuracy to elevate the overall readability and impact of your book.</span>
+  const then = <span>Our expert <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editors</Link> read your manuscript, line by line, and add suggestions to refine sentence structure, enhancing clarity, and ensuring grammatical accuracy to elevate the overall readability.</span>
 
   const collect = <span>Don't let your book collect dust on the shelf of mediocrity, hire the best <Link className='textdocationnone color-blue hover' href='/book-editing-services'>book editors</Link>  to polish your manuscript to perfection. </span>
 
@@ -130,7 +130,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
 
   const approach = <Link className='textdocationnone colortextgrey hover' href='/book-editing-services'>Copy Editing Service</Link>
 
-  const purview = <span>Trust our <Link className='textdocationnone color-blue hover' href='/book-editing-services'>copy editing company</Link> to improve language, grammar, and punctuation. Our copy editors pay close attention to every word, sentence, and paragraph to ensure clarity, and <Link className='textdocationnone color-blue hover' href='/book-editing-services'>professional editing</Link> . We eradicate errors and refine your prose with perfection.</span>
+  const purview = <span>Trust our <Link className='textdocationnone color-blue hover' href='/book-editing-services'>copy editing company</Link> to improve language, grammar, and punctuation. Our copy editors pay close attention to every word, sentence, and paragraph to ensure clarity, and <Link className='textdocationnone color-blue hover' href='/book-editing-services'>professional editing</Link>. We eradicate errors and refine your prose with perfection.</span>
 
   const mishaps = <span>Tired of Manuscript Mishaps? Hire A <br></br> <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing Company</Link>! </span>
 
@@ -337,8 +337,8 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       {/* Makestories */}
       <div className='dataSetCo sliderImg'>
         <Makestoriesnew
-          title = {maketitle}
-          para= {book}
+          title={maketitle}
+          para={book}
         />
       </div>
 
@@ -356,7 +356,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       <div className={`${styles.finetoothedbook} customizedbook`}>
         <Container>
           <Row >
-            <h2 className="colortextgrey font25 t-center font-f mb-2"> <Link  className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing Services</Link> That We’re Offering</h2>
+            <h2 className="colortextgrey font25 t-center font-f mb-2"> <Link className='textdocationnone color-blue hover' href='/book-editing-services'>Book Editing Services</Link> That We’re Offering</h2>
 
             <p className='font50 font-f fw500  colortextgrey t-center pb-2'> Find The Best Editing Style For Your Manuscript </p>
 
@@ -378,17 +378,17 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
 
 
       <Ourprocess
-        title2= {title2}
+        title2={title2}
         heading1='In-Depth Manuscript Analysis'
         para1='We meticulously review every aspect of your book, analyzing its structure, pacing, character development, and plot coherence to identify areas for improvement and enhancement.'
         num1='01'
 
         heading2='Line-by-Line Editing'
-        para2= {then}
+        para2={then}
         num2='02'
 
         heading3='Comprehensive Feedback'
-        para3='We provide valuable feedback to help you strengthen your narrative, amplify emotional resonance, and tighten the storytelling, which results in a compelling and unforgettable reading experience.'
+        para3='We provide valuable feedback to help you strengthen your narrative, amplify emotional resonance, and tighten the storytelling, resulting in a compelling and unforgettable reading experience.'
         num3='03'
 
         heading4='Collaborative Author-Editor Partnership'
@@ -396,7 +396,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
         num4='04'
 
         heading5='Quality Assurance '
-        para5='Our rigorous book QA ensures that your book undergoes a final review, ensuring that all edits have been implemented seamlessly and your manuscript is ready for publication.'
+        para5='Our rigorous book QA ensures that your book undergoes a final review, ensuring that all edits have been implemented carefully and your manuscript is ready for publication.'
         num5='05'
 
 
@@ -407,7 +407,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       <div className='dataSetCo'>
         <Stopworrying
           title2={dateset}
-          text= {collect}
+          text={collect}
           btn1='Get a free Proposal'
           btn2='Chat With Us To Get Your Book Edited Today!'
         />
@@ -430,8 +430,8 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
 
       {/* Selfpublishing */}
       <Selfpublishing
-        title= {Editing}
-        text= {matters}
+        title={Editing}
+        text={matters}
         number="(213) 289 3888"
         discuss="Hire The Best Book Editing Company Now!"
         image={whychooseourbookeditingservices1}
@@ -454,7 +454,7 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       {/* Selfpublishing */}
       <Selfpublishing
         title={structural}
-        text= {turn}
+        text={turn}
         number="(213) 289 3888"
         discuss="Chat With Us Now! "
         image={whychooseourbookeditingservices3}
@@ -464,8 +464,8 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
 
       {/* Whychoosebookwritingcube */}
       <Whychoosebookwritingcube
-        title= {approach}
-        text= {purview}
+        title={approach}
+        text={purview}
         number="(213) 289 3888"
         discuss="Discuss Your Project and Get Started With Us!"
         image={whychooseourbookeditingservices4}
@@ -476,8 +476,8 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       {/* Stopworrying */}
       <div className='dataSetCo'>
         <Stopworrying
-          title2= {mishaps}
-          text= {errorless}
+          title2={mishaps}
+          text={errorless}
           btn2='Chat With Our Experts Today!'
         />
       </div>
@@ -498,8 +498,8 @@ const title2 = <span>A Glimpse into Our <Link className='textdocationnone colort
       {/* Aspiring */}
       <div className='datacloud'>
         <Aspiring
-          title= {glance}
-          text= {perplexing}
+          title={glance}
+          text={perplexing}
           number="Call Us At (213) 289 3888 "
         />
       </div>
