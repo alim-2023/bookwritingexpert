@@ -56,6 +56,22 @@
 .imgshowdow {
   box-shadow: 0 0 21px 3px #ddd;
 }
+
+@media (max-width: 1200px) {
+
+  .asdiscuss {
+    font-size: 13px;
+    padding: 12px 5px;
+}
+
+  .asnumber {
+    padding: 12px 25px;
+}
+
+
+ }
+
+
 @media (max-width: 991px) {
   .asnumber {
     display: block;

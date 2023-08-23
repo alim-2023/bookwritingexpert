@@ -119,6 +119,14 @@
 
  @media (max-width:1200px)  {
 
+
+    .dataslot{
+      
+        height: auto;
+        
+    }
+
+
     .dataslotz1:after {
         position: absolute;
         content: '';

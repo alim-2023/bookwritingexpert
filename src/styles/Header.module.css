@@ -320,7 +320,7 @@
   }
 
   .menulinks {
-    font-size: 12px;
+    font-size: 15px;
   }
   .headertel {
     font-size: 12px;
@@ -342,7 +342,7 @@
 }
 @media (max-width: 1024px) {
   .megamenu ul li a {
-    font-size: 9px;
+    font-size: 14px;
   }
 }
 @media (max-width: 991px) {

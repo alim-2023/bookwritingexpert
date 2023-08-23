@@ -488,6 +488,10 @@
 
 @media (max-width: 1200px) {
 
+  .new1{
+    display: none!important;
+  }
+
 
   
   .new1 {
@@ -613,15 +617,41 @@
 @media (max-width: 767px) {
 
 
+  .ghostwriting {
+   
+    height: unset;
+        padding-top: 70px;
+    
+}
+
+
+  .bookvideotrailer {
+    background-image: unset;
+    background-color: #141d29;
+    height: unset;
+    padding-top: 70px;
+   
+  }
+  .articlewritingservices {
+    background-image: unset;
+    background-color: #141d29;
+    height: unset;
+        padding-top: 70px;
+   
+  }
   .ghost {
     background-image: unset;
     background-color: #141d29;
+    height: unset;
+        padding-top: 70px;
    
   }
  
   .illustrationbook {
     background-image: unset;
     background-color: #141d29;
+    height: unset;
+        padding-top: 70px;
    
   }
 
@@ -637,101 +667,166 @@
   .banner {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .ghostwriting {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .ebook {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .bookwritingservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .bookpublishingservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .pricing {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .bookpromotionservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .bookeditingservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .bookmarketingservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .offeringyoubook {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .blogwritingservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .bookcoverdesignservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .buildexcitement {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .topratedbusiness {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .childrenbookpublication {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .authormarketingpromotionservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .childrenbookIllustrations {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .digitalmarketingservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .bookformattingservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .audiobookrecordingservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .webcontentwritingservices {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
   .empoweringauthorswith {
     background-image: unset;
     background-color: #141d29;
+     height: unset;
+         padding-top: 70px;
   }
 }
 
 @media (max-width: 480px) {
 
-  .new1{
-    font-size: 12px;
-    display: block;
-    width: fit-content;
-    margin: 25px auto;
-  }
+
+
+  .discuss {
+    font-size: 11px;
+    padding: 12px 14px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 8%;
+    text-align: center;
+}
+
+  .homenumer {
+    font-size: 11px;
+    padding: 12px 14px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+
+
 
   /* .discuss {
     font-size: 12px;

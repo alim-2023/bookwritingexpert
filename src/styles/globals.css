@@ -799,7 +799,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 @media (max-width: 1440px) {
 
   .font50 {
-    font-size: 38px;
+    font-size: 35px;
 }
 
 }
@@ -961,6 +961,12 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 }
 
 @media (max-width: 480px) {
+
+
+  .bannergllobal h1 {
+    font-size: 20px;
+}
+
   .font70{
     font-size: 40px;
   }
@@ -986,9 +992,7 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
    
 }
 
-  .bannergllobal h1{
-    font-size: 35px;;
-  }
+
 
   .font50 {
     font-size: 24px;
