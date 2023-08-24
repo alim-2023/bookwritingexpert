@@ -168,6 +168,7 @@ export default function Home() {
           homebanlogos={homebannerlogos}
           homebanlogos2={homebanlogos2}
           bannershome='banner'
+          homebancan = 'newbannerclass'
         />
 
 
