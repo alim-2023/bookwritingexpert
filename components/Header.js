@@ -52,7 +52,9 @@ const Header = () => {
   return (
     <>
 
-      <header className={ router.pathname == '/illustration' || router.pathname == '/ghostwriting-services2' || router.pathname == '/audiobookproduction' || router.pathname == '/ourportfolio' || router.pathname == '/portfoliobookediting' || router.pathname == '/portfoliobookmarketing' || router.pathname == '/portfoliobookwriting' || router.pathname == '/portfoliobookpublishing'   ?  styles.headerblue : styles.headerhome}>
+      <header className={ router.pathname == '/illustration' || router.pathname == '/ghostwriting-services2' || router.pathname == '/audiobookproduction' || router.pathname == '/ourportfolio' || router.pathname == '/portfoliobookediting' || router.pathname == '/portfoliobookmarketing' || router.pathname == '/portfoliobookwriting' || router.pathname == '/portfoliobookpublishing' || router.pathname == '/blog' || router.pathname == '/blog/[postSlug]'   ?  styles.headerblue : styles.headerhome}>
+
+
         <Navbar expand="lg">
           <Container className={styles.headerContainer}>
 
@@ -255,7 +257,7 @@ const Header = () => {
                 </li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/pricing">Pricing</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/ourportfolio"> Our Portfolio</Link></li>
-                <li className={styles.navlinks}><Link className={styles.menulinks} href="/blogs">Blogs</Link></li>
+                <li className={styles.navlinks}><Link className={styles.menulinks} href="/blog">Blogs</Link></li>
                 <li className={styles.navlinks}><Link className={styles.menulinks} href="/contact">Contact us</Link></li>
               </ul>
 

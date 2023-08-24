@@ -328,6 +328,14 @@
   }
 }
 
+@media (max-width: 1200px) { 
+
+  .align_menu {
+
+    gap: 13px;
+}
+
+}
 @media (max-width: 1215px) {
 
   .megaImg img {
