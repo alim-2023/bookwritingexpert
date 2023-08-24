@@ -66,7 +66,7 @@ const Bookpublishingservices = () => {
     {
       img: mission3,
       title: 'Tailored Services that Make a Difference',
-      text: (<>At Book Writing Experts, exceptional <Link className='textdocationnone text-white hover' href="/book-promotion-services/">book promotion services</Link> by an award-winning team are offered to increase the potential of your book by using smart promotion and reliable reviews. No matter the size or genre of your campaign, we elevate its potential to new heights.</>),
+      text: (<>At Book Writing Experts, exceptional <Link className='textdocationnone text-black hover' href="/book-promotion-services/">book promotion services</Link> by an award-winning team are offered to increase the potential of your book by using smart promotion and reliable reviews. No matter the size or genre of your campaign, we elevate its potential to new heights.</>),
       class: 'fintop',
     },
   ]

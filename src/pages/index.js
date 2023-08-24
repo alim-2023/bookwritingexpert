@@ -18,10 +18,26 @@ import Strugglingtogive from '../../components/Strugglingtogive'
 import Strugglingwriters from '../../components/Strugglingwriters'
 import Onestepsolutions from '../../components/Onestepsolutions'
 import Script from 'next/script'
-
+import { useState,useEffect } from 'react'
 
 
 export default function Home() {
+
+
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Initial call to get window width
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const exprtSpan = <span className='fw500 font50 color-white font-f t-center font-f mb-4'><span className='color-blue fw700'><Link className='dblockmobile color-blue hover textdocationnone' href="/">Book Writing Experts</Link></span> Is waiting for you to Ask for a <span className='color-blue fw700'><Link className='dblockmobile color-blue hover textdocationnone' href="/">Professional Ghostwriter</Link></span></span>;
 
@@ -212,7 +228,7 @@ export default function Home() {
 
 
         {/*  Comprehensive */}
-        <div className='datacloudco'>
+        <div className={  windowWidth  > 991 ? 'datacloudco' : '' }>
           <Comprehensive />
         </div>
 
