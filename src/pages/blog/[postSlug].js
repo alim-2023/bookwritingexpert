@@ -5,6 +5,7 @@ import styles from '@/styles/InnerBlog.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //
 import { getPostSlugs, getSinglePost } from "@/lib/posts";
+import Date from "@/lib/Date";
 //
 import arrow from '../../../public/images/blogBanners/right-arrow.webp'
 import logo from '../../../public/favicon.svg'
@@ -13,10 +14,10 @@ import logo from '../../../public/favicon.svg'
 export async function getStaticProps({ params }) {
     const postData = await getSinglePost(params.postSlug);
 
-    let featuredImageUrl = "https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/2023/08/moz-brand-authority-768x439-1.png";
+    let featuredImageUrl = "https://wp23.cryscampus.com/bwe/wp-content/uploads/2023/08/moz-brand-authority-768x439-1.png";
 
     if (postData.featuredImage) {
-        featuredImageUrl = `https://wp23.cryscampus.com/BitsBlogs/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`;
+        featuredImageUrl = `https://wp23.cryscampus.com/bwe/wp-content/uploads/${postData.featuredImage.node.mediaDetails.file}`;
     }
 
     return {
@@ -68,6 +69,9 @@ export default function Post({ postData, featuredImageUrl }) {
                                     <h6 className={`${styles.detailDate} mt-5`}>
                                         <Image src={logo} alt="Book Writing Experts" width={25} height={25} />
                                         <span>By Book Writing Experts Team in 2023</span>
+                                    </h6>
+                                    <h6 className="mt-3 mb-0 fw-bold font14">
+                                        Published on  <Date dateString={postData.date} />
                                     </h6>
                                 </div>
                                 <div className="mt-4">
