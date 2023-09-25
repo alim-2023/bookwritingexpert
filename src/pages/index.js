@@ -48,15 +48,6 @@ export default function Home() {
   const discuss = <span>LET'S DISCUSS</span>
 
 
-
-
-
-
-
-
-
-
-
   const schema1 = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -104,9 +95,6 @@ export default function Home() {
     "serviceType": ["book writing services book writing company book writers affordable book writing services"], "areaServed": { "@type": "country", "name": "us" }
   }
 
-
-
-  
 
   return (
     <>
