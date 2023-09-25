@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import homebannerlogos from '/public/images/bannerimages/logos.png'
 import mission1 from '/public/images/mission/1.png'
 import mission2 from '/public/images/mission/2.png'
 import mission3 from '/public/images/mission/3.png'

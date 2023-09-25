@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row } from 'react-bootstrap'
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import homebannerlogos from '/public/images/bannerimages/logos.png'
 import mission1 from '/public/images/businessplanwriting/ss.png'
 import mission2 from '/public/images/businessplanwriting/fdf.png'
 import mission3 from '/public/images/businessplanwriting/hg.png'

@@ -10,11 +10,14 @@ const Freequote = (props) => {
 
   const [score, setScore] = useState('Submit');
 
+
   const handleSubmit = async (e) => {
+
     e.preventDefault()
 
+
     const data = {
-      first: e.target.first.value,
+      name: e.target.name.value,
       email: e.target.email.value,
       phone: e.target.phone.value,
       message: e.target.message.value,
@@ -22,13 +25,23 @@ const Freequote = (props) => {
 
     const JSONdata = JSON.stringify(data)
 
-    setScore('Wating For Send Data');
+    setScore('Sending Data');
 
-    axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-      .then((response) => {
-        setScore('Thank You');
-        console.log(response.data);
-      });
+
+
+    fetch('api/email/route', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSONdata
+    }).then((res) => {
+      console.log(`Response received ${res}`)
+      if (res.status === 200) {
+        console.log(`Response Successed ${res}`)
+      }
+    })
 
     const { pathname } = Router
     if (pathname == pathname) {
@@ -36,7 +49,6 @@ const Freequote = (props) => {
     }
 
   }
-
 
 
   return (
@@ -47,7 +59,7 @@ const Freequote = (props) => {
 
         <form className={styles.formalign} onSubmit={handleSubmit}>
           <label className={styles.label}>Full Name*</label>
-          <input type="text" className={styles.formfree} required name="first" placeholder="Your name..." />
+          <input type="text" className={styles.formfree} required name="name" placeholder="Your name..." />
 
           <label className={styles.label}>Email Address*</label>
           <input type="email" className={styles.formfree} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Type Email Address" />

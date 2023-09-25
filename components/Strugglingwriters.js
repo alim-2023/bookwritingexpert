@@ -5,14 +5,14 @@ import Image from 'next/image'
 import Slider from 'react-slick'
 
 // images
-import cover1 from '../public/images/thousandsofstruggling/Book-Mockup1.png'
-import cover2 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
-import cover3 from '../public/images/thousandsofstruggling/Book-Mockup3.png'
-import cover4 from '../public/images/thousandsofstruggling/Book-Mockup4.png'
-import cover5 from '../public/images/thousandsofstruggling/Book-Mockup5.png'
-import cover6 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
-import cover7 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
-import cover8 from '../public/images/thousandsofstruggling/Book-Mockup8.png'
+import cover1 from '../public/images/thousandsofstruggling/book1.png'
+import cover2 from '../public/images/thousandsofstruggling/book2.png'
+import cover3 from '../public/images/thousandsofstruggling/book3.png'
+// import cover4 from '../public/images/thousandsofstruggling/book4.png'
+import cover5 from '../public/images/thousandsofstruggling/book5.png'
+import cover6 from '../public/images/thousandsofstruggling/book6.png'
+// import cover7 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
+import cover8 from '../public/images/thousandsofstruggling/book4.png'
 
 const Strugglingwriters = () => {
 
@@ -22,7 +22,7 @@ const Strugglingwriters = () => {
         autoplay: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
             {
@@ -56,7 +56,7 @@ const Strugglingwriters = () => {
         infinite: true,
         rtl: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
             {
@@ -106,9 +106,9 @@ const Strugglingwriters = () => {
                             <div>
                                 <Image loading="lazy" alt="Book Writing Experts" src={cover3} className='img-fluid' />
                             </div>
-                            <div>
+                            {/* <div>
                                 <Image loading="lazy" alt="Book Writing Experts" src={cover4} className='img-fluid' />
-                            </div>
+                            </div> */}
                         </Slider>
                         <Slider {...mockupslider2} className='mt-3 mockupslider'>
                             <div>
@@ -117,9 +117,9 @@ const Strugglingwriters = () => {
                             <div>
                                 <Image loading="lazy" alt="Book Writing Experts" src={cover6} className='img-fluid' />
                             </div>
-                            <div>
+                            {/* <div>
                                 <Image loading="lazy" alt="Book Writing Experts" src={cover7} className='img-fluid' />
-                            </div>
+                            </div> */}
                             <div>
                                 <Image loading="lazy" alt="Book Writing Experts" src={cover8} className='img-fluid' />
                             </div>

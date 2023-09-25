@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import homebannerlogos from '/public/images/bannerimages/logos.png'
 import whychoose from '/public/images/whychoosebooks/bg-img.png'
 // import components
 import Banner from '../../components/Banner'

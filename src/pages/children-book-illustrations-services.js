@@ -1,5 +1,5 @@
 import React from 'react'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import homebannerlogos from '/public/images/bannerimages/logos.png'
 import Head from 'next/head'
 import Banner from '../../components/Banner'
 import Makestoriesnew from '../../components/Makestoriesnew'

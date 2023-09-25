@@ -10,44 +10,43 @@ const Getstarted = (props) => {
 
   const [score, setScore] = useState('SUBMIT');
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (e) => {
 
-    event.preventDefault()
+    e.preventDefault()
 
 
     const data = {
-      first: event.target.first.value,
-      email: event.target.email.value,
-      phone: event.target.phone.value,
-      services: event.target.services.value,
-      message: event.target.message.value,
+      name: e.target.name.value,
+      email: e.target.email.value,
+      phone: e.target.phone.value,
+      services: e.target.services.value,
+      message: e.target.message.value,
     }
-
-
 
     const JSONdata = JSON.stringify(data)
 
-    setScore('Wating For Send Data');
+    setScore('Sending Data');
 
-   
-      const response = await axios({
-        method: "post",
-        url: "https://jsonplaceholder.typicode.com/posts",
-        data: JSONdata,
-      });
-      console.log(response.data);
-      setScore('Thank You');
-      const { pathname } = Router
-      if (pathname == pathname) {
-        Router.push('/thank-you')
+
+
+    fetch('api/popup/route', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSONdata
+    }).then((res) => {
+      console.log(`Response received ${res}`)
+      if (res.status === 200) {
+        console.log(`Response Successed ${res}`)
       }
+    })
 
-    
- 
-
-
-
-
+    const { pathname } = Router
+    if (pathname == pathname) {
+      Router.push('/thank-you')
+    }
 
   }
 
@@ -66,7 +65,7 @@ const Getstarted = (props) => {
 
           <Row className='start mt-3 gy-3'>
             <Col md={6}>
-              <input type="text" className={styles.formfree} required name="first" placeholder="Enter Your Name" />
+              <input type="text" className={styles.formfree} required name="name" placeholder="Enter Your Name" />
             </Col>
             <Col md={6}>
               <input type="email" className={styles.formfree} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Enter Your Email" />

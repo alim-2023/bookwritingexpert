@@ -794,6 +794,14 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
   margin: 0 auto;
 }
 
+.makestories p{
+  margin: 0px auto 20px;
+}
+
+.makestories h3{
+  text-align: center;
+}
+
 /* --------------------------- */
 
 @media (max-width: 1440px) {

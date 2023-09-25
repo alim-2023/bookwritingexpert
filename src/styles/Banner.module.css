@@ -43,6 +43,13 @@
   padding-bottom: 70px;
   font-family: "Poppins";
 }
+
+.pricing p{
+  width: 80%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .bookpublishingservices {
   background-image: url(/images/bannerimages/bookpublishingservices.jpg);
   background-size: cover;
@@ -423,6 +430,7 @@
 }
 .homebannerlogo img {
   filter: brightness(100) invert(1);
+  margin-bottom: 60px;
 }
 
 .bgVideo1 {
@@ -503,6 +511,9 @@
 
 @media (max-width: 991px) {
 
+  .pricing p{
+    width: 100%;
+  }
 
   .ghost {
    

@@ -18,7 +18,7 @@ const Contact = () => {
 
 
         const data = {
-            first: event.target.first.value,
+            first: event.target.name.value,
             email: event.target.last.value,
             phone: event.target.phone.value,
             zip: event.target.zip.value,

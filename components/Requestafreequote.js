@@ -14,28 +14,36 @@ const Requestafreequote = () => {
 
   const [score, setScore] = useState('Submit');
 
-
-
-
-
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    
-    let bodyContent = JSON.stringify({
+
+    e.preventDefault()
+
+
+    const data = {
       name: e.target.name.value,
       email: e.target.email.value,
       phone: e.target.phone.value,
-    });
+    }
 
-    const JSONdata = JSON.stringify(bodyContent)
+    const JSONdata = JSON.stringify(data)
 
-    setScore('Wating For Send Data');
+    setScore('Sending Data');
 
-    axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-      .then((response) => {
-        setScore('Thank You');
-        console.log(response.data);
-      });
+
+
+    fetch('api/quote/route', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSONdata
+    }).then((res) => {
+      console.log(`Response received ${res}`)
+      if (res.status === 200) {
+        console.log(`Response Successed ${res}`)
+      }
+    })
 
     const { pathname } = Router
     if (pathname == pathname) {
@@ -45,13 +53,6 @@ const Requestafreequote = () => {
   }
 
 
-
-
-
-
-
-  
-
   return (
     <>
       <div className={styles.freequote}>
@@ -59,11 +60,11 @@ const Requestafreequote = () => {
           <h2 className="fw700 font50 color-blue font-f t-center mb-3 pt-5 mt-5">Request A Free Quote</h2>
           <form className={styles.formalign} onSubmit={handleSubmit}>
             <Row>
-              <Col md={4}> <input type="text" className={styles.formfree} required name="name" placeholder='Name'  /></Col>
+              <Col md={4}> <input type="text" className={styles.formfree} required name="name" placeholder='Name' /></Col>
 
               <Col md={4}>  <input type="email" className={styles.formfree} required name="email" placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></Col>
 
-              <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  /> </Col>
+              <Col md={4}>   <input type="number" className={styles.formfree} required name="phone" placeholder='Phone' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" /> </Col>
             </Row>
             <button className={styles.freebtn} type="submit"> {score} </button>
           </form>

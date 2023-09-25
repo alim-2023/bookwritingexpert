@@ -17,7 +17,6 @@ const Signup = (props) => {
       name: e.target.name.value,
       email: e.target.email.value,
       phone: e.target.phone.value,
-      message: e.target.message.value,
     }
 
     const JSONdata = JSON.stringify(data)
@@ -26,7 +25,7 @@ const Signup = (props) => {
 
 
 
-    fetch('api/email/route', {
+    fetch('api/quote/route', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
@@ -56,7 +55,6 @@ const Signup = (props) => {
         <input type="text" className={styles.nametext} required name="name" placeholder="Full Name:" />
         <input type="email" className={styles.nametext} required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address:" />
         <input type="number" className={styles.nametext} required name="phone" placeholder="Phone Number:" />
-        <textarea required className={styles.textareanew} name="message" cols="40" rows="10" placeholder="Your project brief:"></textarea>
         <button className={styles.freebtn} type="submit">{score} </button>
       </form>
     </div>

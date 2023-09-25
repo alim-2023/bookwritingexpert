@@ -14,7 +14,7 @@ import BookGhostWriting from '../../components/Bookghostwriting'
 import BookChildrenPublish from '../../components/Bookchildrenpublish'
 import BookChildrenIllus from '../../components/Bookchildrenillus'
 import BookDigitalMarket from '../../components/Bookdigitalmarket'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import homebannerlogos from '/public/images/bannerimages/logos.png'
 
 const Pricing = () => {
 

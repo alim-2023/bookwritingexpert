@@ -8,11 +8,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 // images
-import book100 from '../public/images/thousandsofstruggling/Book-Mockup1.png'
-import book101 from '../public/images/thousandsofstruggling/Book-Mockup2.png'
-import book102 from '../public/images/thousandsofstruggling/Book-Mockup3.png'
-import book105 from '../public/images/thousandsofstruggling/Book-Mockup6.png'
-import book106 from '../public/images/thousandsofstruggling/Book-Mockup7.png'
+import book100 from '../public/images/thousandsofstruggling/book1.png'
+import book101 from '../public/images/thousandsofstruggling/book2.png'
+import book102 from '../public/images/thousandsofstruggling/book3.png'
+import book105 from '../public/images/thousandsofstruggling/book4.png'
+import book106 from '../public/images/thousandsofstruggling/book5.png'
 
 const Onestepsolutions = () => {
 

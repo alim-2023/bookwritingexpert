@@ -130,9 +130,9 @@ const Homebanner = (props) => {
                                             <div className={styles.homebannerlogo}>
                                                 <Image loading="lazy" className={`${styles.homelogoimgnone} img-fluid mt-3`} src={props.homebanlogos} alt='book writing expert' ></Image>
                                             </div>
-                                            <div className={styles.homebannerlogo2}>
+                                            {/* <div className={styles.homebannerlogo2}>
                                                 <Image loading="lazy" className={`${styles.homelogoimgnone} img-fluid mt-5`} src={props.homebanlogos2} alt='book writing expert' ></Image>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     :

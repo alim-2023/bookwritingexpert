@@ -1,5 +1,5 @@
 import React from 'react'
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import homebannerlogos from '/public/images/bannerimages/logos.png'
 import Banner from '../../components/Banner'
 import Experts from '../../components/Experts'
 import Whatourclients from '../../components/Whatourclients'

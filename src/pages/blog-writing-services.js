@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 // images
-import homebannerlogos from '/public/images/bannerimages/homebannerlogos.png'
+import homebannerlogos from '/public/images/bannerimages/logos.png'
 import typeofbooks from '/public/images/selfpublishingservices/1.jpg'
 import copy from '/public/images/selfpublishingservices/2.jpg'
 import marketyourbook from '/public/images/selfpublishingservices/3.jpg'
