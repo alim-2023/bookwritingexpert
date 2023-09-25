@@ -11,42 +11,47 @@ const Contact = () => {
 
     const [score, setScore] = useState('Submit Form');
 
-    const handleSubmit = async (event) => {
+    const handleSubmit = async (e) => {
 
-        event.preventDefault()
-
+        e.preventDefault()
 
 
         const data = {
-            first: event.target.name.value,
-            email: event.target.last.value,
-            phone: event.target.phone.value,
-            zip: event.target.zip.value,
-            checknow: event.target.checknow.value,
-            message: event.target.message.value,
+            name: e.target.name.value,
+            email: e.target.last.value,
+            phone: e.target.phone.value,
+            zip: e.target.zip.value,
+            checknow: e.target.checknow.value,
+            message: e.target.message.value,
         }
 
-
         const JSONdata = JSON.stringify(data)
-        setScore('Wating For Send Data');
+
+        setScore('Sending Data');
 
 
-        axios.post("https://jsonplaceholder.typicode.com/posts", JSONdata)
-            .then((response) => {
-                setScore('Thank You');
-                console.log(response.data);
-            });
-        setScore('Thank You');
+
+        fetch('api/quote/route', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+            },
+            body: JSONdata
+        }).then((res) => {
+            console.log(`Response received ${res}`)
+            if (res.status === 200) {
+                console.log(`Response Successed ${res}`)
+            }
+        })
+
         const { pathname } = Router
         if (pathname == pathname) {
             Router.push('/thank-you')
         }
 
-
-
-
-
     }
+
 
 
     const schema = {
@@ -221,8 +226,8 @@ const Contact = () => {
                             <form className={styles.label2} onSubmit={handleSubmit}>
 
                                 <Row className='gy-3'>
-                                    <Col md={6}><input className={styles.inputfilet} required id='name' type='text' name='first' placeholder='Name' /></Col>
-                                    <Col md={6}><input className={styles.inputfilet} required id='email' type='text' name='last' placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" /></Col>
+                                    <Col md={6}><input className={styles.inputfilet} required id='name' type='text' name='name' placeholder='Name' /></Col>
+                                    <Col md={6}><input className={styles.inputfilet} required id='email' type='text' name='email' placeholder='Email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" /></Col>
                                 </Row>
 
                                 <Row className='mt-3 mb-3 gy-3'>
