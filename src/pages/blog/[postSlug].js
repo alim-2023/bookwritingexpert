@@ -10,6 +10,10 @@ import Date from "@/lib/Date";
 //
 import arrow from '../../../public/images/blogBanners/right-arrow.webp'
 import logo from '../../../public/favicon.svg'
+import { useRouter } from 'next/router';
+import Router from "next/router";
+
+
 
 
 export async function getStaticProps({ params }) {
@@ -49,15 +53,24 @@ export default function Post({ postData, featuredImageUrl }) {
 
     const [score, setScore] = useState('Submit Details');
 
+    const router = useRouter();
+    const { postSlug } = router.query;
+    const path = router.pathname;
+
+    const slug = `/blog/${postSlug}`;
+
     const handleSubmit = async (e) => {
 
-        e.preventDefault()
+        e.preventDefault();
 
 
         const data = {
-            name: e.target.name.value,
+            name: e.target.first.value,
             email: e.target.email.value,
+            pageUrl: slug,
         }
+
+        console.log(data);
 
         const JSONdata = JSON.stringify(data)
 
@@ -65,7 +78,7 @@ export default function Post({ postData, featuredImageUrl }) {
 
 
 
-        fetch('api/submit/route', {
+        fetch('../api/submit/route', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -124,47 +137,49 @@ export default function Post({ postData, featuredImageUrl }) {
                             </div>
                         </Col>
 
-                        <Col lg={3}>
-                            <div className={`${styles.cta} mt-5 mt-lg-0`}>
-                                <div className={styles.ctaImg}>
-                                    <Link href="/blog" className={`${styles.ctaBtn} mt-5`}>
-                                        get custom web designs
+                        <Col lg={3} className={styles.stickyMain}>
+                            <div className={styles.sticky}>
+                                <div className={`${styles.cta} mt-5 mt-lg-0`}>
+                                    <div className={styles.ctaImg}>
+                                        <Link href="/blog" className={`${styles.ctaBtn} mt-5`}>
+                                            get custom web designs
+                                        </Link>
+                                    </div>
+                                </div>
+
+                                <div className={`${styles.platForm} mt-5`}>
+                                    <h5 className={styles.subTitle}>
+                                        Endorsements on different Platforms
+                                    </h5>
+                                    <h5 className={styles.title}>
+                                        Awards And Recognition
+                                    </h5>
+                                    <p className={styles.para}>
+                                        Thriving on accelerating the path to disruption and value creation in all directions has enabled
+                                        us to receive acknowledgment and recognition by leading ratings and review platforms.
+                                    </p>
+                                    <Link href="/blog" className={`${styles.arrowBtn} mt-3`}>
+                                        <span>View Reviews</span>
+                                        <Image className='img-fluid' src={arrow} alt="Book Writing Experts" />
                                     </Link>
                                 </div>
-                            </div>
 
-                            <div className={`${styles.platForm} mt-5`}>
-                                <h5 className={styles.subTitle}>
-                                    Endorsements on different Platforms
-                                </h5>
-                                <h5 className={styles.title}>
-                                    Awards And Recognition
-                                </h5>
-                                <p className={styles.para}>
-                                    Thriving on accelerating the path to disruption and value creation in all directions has enabled
-                                    us to receive acknowledgment and recognition by leading ratings and review platforms.
-                                </p>
-                                <Link href="/blog" className={`${styles.arrowBtn} mt-3`}>
-                                    <span>View Reviews</span>
-                                    <Image className='img-fluid' src={arrow} alt="Book Writing Experts" />
-                                </Link>
-                            </div>
-
-                            <div className={`${styles.newsLetter} mt-5`}>
-                                <h4>Signup for</h4>
-                                <h5>Newsletter</h5>
-                                <form className="mt-4" onClick={handleSubmit}>
-                                    <div>
-                                        <input type="text" name="name" id="name" placeholder="FULL NAME" />
-                                    </div>
-                                    <div className="mt-3">
-                                        <input type="email" name="email" id="email" placeholder="EMAIL ADDRESS" />
-                                    </div>
-                                    <button type="submit" className={`${styles.arrowBtn} mt-4`}>
-                                        <span>{score}</span>
-                                        <Image className='img-fluid' src={arrow} alt="Book Writing Experts" />
-                                    </button>
-                                </form>
+                                <div className={`${styles.newsLetter} mt-5`}>
+                                    <h4>Signup for</h4>
+                                    <h5>Newsletter</h5>
+                                    <form className="mt-4" onSubmit={handleSubmit}>
+                                        <div>
+                                            <input type="text" name="first" required placeholder="FULL NAME" />
+                                        </div>
+                                        <div className="mt-3">
+                                            <input type="email" name="email" required placeholder="EMAIL ADDRESS" />
+                                        </div>
+                                        <button type="submit" className={`${styles.arrowBtn} mt-4`}>
+                                            <span>{score}</span>
+                                            <Image className='img-fluid' src={arrow} alt="Book Writing Experts" />
+                                        </button>
+                                    </form>
+                                </div>
                             </div>
                         </Col>
                     </Row>

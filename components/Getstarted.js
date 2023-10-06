@@ -74,10 +74,10 @@ const Getstarted = (props) => {
 
 
             <Col md={6}>
-              <input type="number" className={styles.formfree} required name="phone" placeholder="Phone Number" />
+               <input type="tel"  maxLength="15" minLength="7" className={styles.formfree} required name="phone" placeholder="Phone Number" />
             </Col>
             <Col md={6}>
-              {/* <input type="number" className={styles.formfree} required name="phone" placeholder="Phone Number" /> */}
+              {/*  <input type="tel"  maxLength="15" minLength="7" className={styles.formfree} required name="phone" placeholder="Phone Number" /> */}
               <select name="services" className={`${styles.formfree} ${styles.formdrop}`}>
                 <option value="">Please select Service(s)</option>
                 <option value="Ghost Writing">Ghost Writing</option>
