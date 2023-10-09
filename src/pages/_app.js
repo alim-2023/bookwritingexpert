@@ -1,14 +1,17 @@
 import '@/styles/globals.css'
 import Header from '../../components/Header'
+import Headernew from '../../components/Headernew'
 import Footer from '../../components/Footer'
+import Footerbps from '../../components/Footerbps'
 const ZENDESK_KEY = "d1d4aa8a-5573-473a-b921-5b6a8eb467ad";
 import Zendesk, { ZendeskAPI } from "../pages/ZendexConfig";
+import { useRouter } from 'next/router';
 
 export default function App({ Component, pageProps }) {
 
-const handleLoaded = () => {
+  const handleLoaded = () => {
     // ZendeskAPI("messenger", "open");
-    zE('webWidget:on', 'open', function() {
+    zE('webWidget:on', 'open', function () {
     });
   };
 
@@ -19,18 +22,44 @@ const handleLoaded = () => {
   //   }
   // }
 
-  return(
-  <>
-  <Header />
-  <Component {...pageProps} />
-  <Footer />
-  
-   <div>
-      <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
-      {/* <div href="#" onClick={openZendeskChat}>Open Zendesk Chat</div> */}
-    </div>
+  const router = useRouter();
 
 
-  </>
+  return (
+    <>
+
+
+      {router.pathname == '/book-publishing-services-seo' ?
+
+        < Headernew />
+
+        :
+
+        <Header />
+
+      }
+
+      <Component {...pageProps} />
+
+
+      {router.pathname == '/book-publishing-services-seo' ?
+
+        <Footerbps />
+
+        :
+
+        <Footer />
+
+      }
+
+
+
+      <div>
+        <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
+        {/* <div href="#" onClick={openZendeskChat}>Open Zendesk Chat</div> */}
+      </div>
+
+
+    </>
   )
 }

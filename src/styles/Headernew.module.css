@@ -1,0 +1,149 @@
+.logonew {
+  width: 115px;
+  height: 85px;
+}
+
+.align_menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: unset;
+  gap: 25px;
+  align-items: center;
+}
+
+.navlinks {
+  list-style: none;
+}
+
+.menulinks {
+  padding: 10px 0 10px 12px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navalign {
+  justify-content: flex-end;
+}
+
+.menulinks:hover {
+  color: #fff;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.menulinks1 {
+  background-color: black;
+  width: 200px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-decoration: unset;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.menulinks1:hover {
+  color: #fff;
+}
+
+.menulinks2 {
+  background-color: unset;
+  width: 200px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  border: 2px solid #FFFFFF;
+  text-decoration: unset;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.menulinks2:hover {
+  color: #fff;
+}
+
+
+@media (max-width: 1400px) {
+
+
+  .menulinks1 {
+    width: 180px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .menulinks2 {
+    width: 180px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .menulinks {
+    font-size: 14px;
+  }
+
+  .align_menu {
+    gap: 18px;
+  }
+
+}
+
+
+@media (max-width: 1199px) {
+
+  .menulinks1 {
+    width: 145px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .menulinks2 {
+    width: 145px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .align_menu {
+    gap: 15px;
+  }
+
+  .menulinks {
+    font-size: 11px;
+  }
+
+}
+
+@media (max-width: 991px) {
+
+  .align_menu {
+    display: unset;
+  }
+
+  .navalign {
+    background-color: black;
+    padding: 3%;
+    z-index: 1;
+  }
+  .navlinks {
+    padding-bottom: 4%;
+    
+}
+.navlinks a{
+  font-size: 16px;
+}
+
+}
