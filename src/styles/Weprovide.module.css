@@ -1,0 +1,64 @@
+.stop{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ship h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ship p{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tiger{
+    background-color: #CDCDCD;
+    padding: 30px 45px;
+    text-align: center;
+}
+
+.tiger h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #666666
+}
+
+.tiger p{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    height: 130px;
+    overflow: auto;
+    font-size: 15px;
+}
+
+.tiger a{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #666666;
+    text-decoration: unset;
+    
+}
+
+
+
+.tiger:hover {
+    border: 2px solid #FD7E14;
+    box-shadow: #FD7E14 0px 2px 15px 0px;
+    background-color: white;
+}
+.tiger:hover h3 {
+    color: #FD7E14;
+}
+.tiger:hover a {
+    color: black;
+}

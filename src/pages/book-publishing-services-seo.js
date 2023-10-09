@@ -5,7 +5,7 @@ import Lululogosbps  from '../../components/Lululogosbps'
 import Featured  from '../../components/Featured'
 import Customized  from '../../components/Customized'
 import Dwell  from '../../components/Dwell'
-
+import Weprovide from '../../components/Weprovide'
 
 
 
@@ -20,6 +20,7 @@ const bookpublishingservicesseo = () => {
             <Featured />
             <Customized />
             <Dwell />
+            <Weprovide />
 
 
             <Lululogosbps />
