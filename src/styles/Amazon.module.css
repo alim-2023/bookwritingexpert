@@ -1,0 +1,212 @@
+.amaservices {
+    background-color: #EEEEEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.expertise h3 {
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+.expertise h4 {
+
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+.expertise p {
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+.team{
+    height: 100px;
+    overflow: auto;
+}
+
+
+.expertise a{
+    color: #767676;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: unset;
+}
+
+
+.book{
+    display: flex;
+    gap: 20px;
+    margin-top: 3%;
+}
+.real {
+    width: 450px;
+    height: 55px;
+    background-image: linear-gradient(#000000, #7F3F0A);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px!important;
+    font-weight: bold;
+    color: white!important;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.real2 {
+    width: 450px;
+    height: 55px;
+background-color: #000000!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px!important;
+    font-weight: bold;
+    color: white!important;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.real1 {
+    width: 235px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px!important;
+    font-weight: bold;
+    color: black!important;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid black!important;
+}
+
+.real:hover{
+    color: white;
+}
+.real1:hover{
+    color: white;
+}
+
+@media (min-width: 1400px) {
+
+    .real{
+        width: 550px;
+    }
+    .real2{
+        width: 550px;
+    }
+    .amaservices {
+        padding-top: 100px;
+
+    }
+
+
+}
+
+@media (max-width: 1400px) {
+
+    .service h2 {
+        font-size: 34px;
+    }
+
+}
+
+@media (max-width: 1199px) { 
+
+    .service h2 {
+        font-size: 34px;
+    }
+
+}
+
+@media (max-width: 991px) { 
+
+    .prime{
+        flex-direction: row-reverse;
+    }
+
+    .service h2 {
+        font-size: 28px;
+    }
+
+    .expertise h3{
+        font-size: 20px;
+    }
+    .expertise h4{
+        font-size: 20px;
+    }
+    .expertise a{
+        font-size: 16px;
+    }
+
+}
+
+
+@media (max-width: 767px) { 
+
+    .book {
+        display: flex;
+        gap: 20px;
+        margin-top: 3%;
+        flex-direction: column;
+    }
+
+    .real1{
+        width: 100%;
+    }
+    .real{
+        width: 100%;
+    }
+    .real2{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) { 
+
+    .book {
+        display: flex;
+        gap: 20px;
+        margin-top: 3%;
+        flex-direction: column;
+    }
+
+    .real1{
+        width: 100%;
+        font-size: 11px!important;
+    }
+    .real{
+        width: 100%;
+        font-size: 11px!important;
+    }
+    .real2{
+        width: 100%;
+        font-size: 11px!important;
+    }
+}

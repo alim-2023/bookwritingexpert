@@ -67,6 +67,11 @@ const Dwell = () => {
                                 <Image src={dwell8} className='img-fluid' />
                             </div>
                         </Col>
+                        <Col lg={12}>
+                           <div className={styles.allview}>
+                           <Link href='#' className={styles.view}>VIEW ALL</Link>
+                           </div>
+                        </Col>
                     </Row>
                 </Container>
             </section>

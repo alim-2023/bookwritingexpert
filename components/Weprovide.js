@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Weprovide.module.css'
 import book1 from '/public/images/weprovide/book.png'
+import aroow from '/public/aroow.png'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -24,7 +25,7 @@ const Weprovide = () => {
                                 <Image src={book1} className="img-fluid" />
                                 <h3>Amazon KDP</h3>
                                 <p>Dreaming of becoming an Amazon KDP published author? We're here to turn that dream into a reality! This service is ideal for creators seeking to publish their work with full autonomy. Utilize our professional advice and help to fulfill your ambition of becoming an Amazon KDP author. While benefiting from expert marketing and distribution tactics, keep control over your work. Accept the thrill of self-publication and let your tale shine with our support.</p>
-                            <Link href='#'>READ MORE</Link>
+                            <Link href='#'>READ MORE <Image  src={aroow} className={` ${styles.author}  img-fluid`} /> </Link>
                             </div>
 
                         </Col>
@@ -33,7 +34,7 @@ const Weprovide = () => {
                                 <Image src={book1} className="img-fluid" />
                                 <h3>Amazon KDP</h3>
                                 <p>Dreaming of becoming an Amazon KDP published author? We're here to turn that dream into a reality! This service is ideal for creators seeking to publish their work with full autonomy. Utilize our professional advice and help to fulfill your ambition of becoming an Amazon KDP author. While benefiting from expert marketing and distribution tactics, keep control over your work. Accept the thrill of self-publication and let your tale shine with our support.</p>
-                            <Link href='#'>READ MORE</Link>
+                               <Link href='#'>READ MORE <Image  src={aroow} className={` ${styles.author}  img-fluid`} /> </Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -41,7 +42,7 @@ const Weprovide = () => {
                                 <Image src={book1} className="img-fluid" />
                                 <h3>Amazon KDP</h3>
                                 <p>Dreaming of becoming an Amazon KDP published author? We're here to turn that dream into a reality! This service is ideal for creators seeking to publish their work with full autonomy. Utilize our professional advice and help to fulfill your ambition of becoming an Amazon KDP author. While benefiting from expert marketing and distribution tactics, keep control over your work. Accept the thrill of self-publication and let your tale shine with our support.</p>
-                            <Link href='#'>READ MORE</Link>
+                               <Link href='#'>READ MORE <Image  src={aroow} className={` ${styles.author}  img-fluid`} /> </Link>
                             </div>
 
                         </Col>
@@ -50,8 +51,13 @@ const Weprovide = () => {
                                 <Image src={book1} className="img-fluid" />
                                 <h3>Amazon KDP</h3>
                                 <p>Dreaming of becoming an Amazon KDP published author? We're here to turn that dream into a reality! This service is ideal for creators seeking to publish their work with full autonomy. Utilize our professional advice and help to fulfill your ambition of becoming an Amazon KDP author. While benefiting from expert marketing and distribution tactics, keep control over your work. Accept the thrill of self-publication and let your tale shine with our support.</p>
-                            <Link href='#'>READ MORE</Link>
+                               <Link href='#'>READ MORE <Image  src={aroow} className={` ${styles.author}  img-fluid`} /> </Link>
                             </div>
+                        </Col>
+                        <Col lg={12}>
+                           <div className={styles.allview}>
+                           <Link href='#' className={styles.view}>VIEW ALL</Link>
+                           </div>
                         </Col>
                     </Row>
                 </Container>
